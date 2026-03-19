@@ -1,35 +1,37 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-define s = character("Steve")
-
-
-
-# The game starts here.
-
+﻿define e = Character("Eileen") 
+image bg fundo = "fundo.png"
 label start:
-
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
+    scene bg fundo
+    
+    show eillen happy
+    e "OI"
+    call screen escolha_menu
+    if _return == "legal":
+        e "Obrigado!"
+    else:
+        s "Seu programador favorito!"
+    
+    hide steve
+    show lula at truecenter
+    e "Olha o bolsonaro apareceu"
+    hide lula
+    show bolsonaro at truecenter
+    b "Ta ok?"
+    b "Olha quem vem la!"
+    hide bolsonaro
+    show lula at truecenter
+    
+    l "Isso é o que você pode fazer!"
+    
     return
+
+screen escolha_menu:
+    modal True
+    frame:
+        xalign 0.5 yalign 0.9  # ← MEIO HORIZONTAL + EMBAIXO
+        vbox:
+            spacing 20
+            textbutton "Legal!" action Return("legal")
+            textbutton "Quem é você?" action Return("quem")
+
+    
