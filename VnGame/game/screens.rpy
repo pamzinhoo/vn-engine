@@ -99,34 +99,23 @@ screen say(who, what):
 
     window:
         id "window"
-        background Frame("#00000099", 20, 20)  # NONE Remove TODO fundo opaco - essencial para transparência!
         
-        # Frame opcional para borda line art fina (crie gui/frame_lineart.png transparente)
-        # frame:
-        #     background "gui/frame_lineart.png"
-        #     xpadding 30
-        #     ypadding 30
-        #     xalign 0.5
-        #     yalign 1.0
-
-        if who is not None:
-
-            window:
-                id "namebox"
-                style "namebox"
-                background "#0000"  # Namebox invisível
-                text who:
-                    id "who"
-                    style "name_text"
 
         text what id "what":
-            style "say_dialogue"
+            style "say_dialogue"    # ← dentro da window ✓
+            color "#000000"
 
+    if who is not None:
+        text who:
+            id "who"
+            style "say_label"
+            xpos 374
+            ypos 804
+            color "#0099cc"
+            
 
-    ## Se houver uma imagem lateral, exiba-a acima do texto. Não exiba na
-    ## variante do telefone - não há espaço.
     if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+        add SideImage() xalign 0.0 yalign 0.30
 
 
 ## Disponibilize a caixa de nome para estilização por meio do objeto Character.
@@ -154,7 +143,7 @@ style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
     xsize gui.namebox_width
-    ypos gui.name_ypos
+    ypos -80
     ysize gui.namebox_height
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -1626,3 +1615,19 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+screen frase_transicao(frase):
+    add "#000000"
+    text frase:
+        xalign 0.5
+        yalign 0.5
+        color "#ffffff"
+        size 32
+        italic True
+screen horario(frase):
+    add "#000000"
+    text frase:
+        xalign 0.5
+        yalign 0.5
+        color "#ffffff"
+        size 28
+        italic True

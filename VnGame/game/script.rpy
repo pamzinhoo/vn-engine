@@ -1,10 +1,20 @@
 ﻿default nome_prota = ""
 define p = Character("[nome_prota]", ctc="ctc", ctc_position="nestled")
+define n = Character(
+    None,
+    what_style="narrador_dialogo",
+    window_style="narrador_window"
+)
 image protaF:
     "protaF.png"
-    zoom 0.2
+    zoom 0.8
+    xalign 0.2
+    yalign 1
 image protaM:
     "protaM.png"
+    zoom 5
+    xalign 0.5
+    yalign 0
 image bg fundo = "fundo.png"
 image ctc:
     alpha 1.0
@@ -19,30 +29,32 @@ default genero = ""
 
 label start:
     # Tela de escolha ANTES do fade
-    call screen escolha_genero
+    call screen escolha_genero with fade_black
+    with fade_black
+    show screen frase_transicao("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt") with dissolve
+    pause 8.0
+    hide screen frase_transicao with dissolve
+    show screen horario("…4:55 da manhã.") with dissolve
+    pause 2.0
+    hide screen horario with dissolve
 
     # Guarda a escolha
     $ genero = _return
 
-    scene bg fundo
-    with fade_black
+    scene bg fundo # trocar isso por um quarto
+    with fade_black # isso deixa
     
 
     if genero == "mulher":
         $ nome_prota = "Kiyoki Kovalenko"
         show protaF
     elif genero == "homem":
-        $ nome_prota = "Menino"
+        $ nome_prota = "Kuroya Yagami"
         show protaM
     
     
-    p "OI {cps=30}aparece letra por letra igual maquina{/cps}"
-    call screen escolha_menu
-
-    if _return == "legal":
-        p "Obrigado!"
-    elif _return == "quem":
-        p "{cps=30}Seu {glitch=50}programador{/glitch} favorito!{/cps}"
+    p "OI {cps=30}aparece letra por letra igual maquina{/cps}" # usar o narrador (N)
+    # roteiro apenas o quarto sem ninguem aparecendo e a fala do narrador ou da protaF (nao sei =] )
 
     return
 
@@ -79,11 +91,4 @@ screen escolha_genero:
                 add "protaM.png"   # retângulo cinza no lugar da foto
                 textbutton "Homem" action Return("homem") xalign 0.5
 
-screen escolha_menu:
-    modal True
-    frame:
-        xalign 0.5 yalign 0.9
-        vbox:
-            spacing 20
-            textbutton "Legal!" action Return("legal")
-            textbutton "Quem é você?" action Return("quem")
+
