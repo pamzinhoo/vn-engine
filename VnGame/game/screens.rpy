@@ -99,7 +99,7 @@ screen say(who, what):
 
     window:
         id "window"
-        background None  # Remove TODO fundo opaco - essencial para transparência!
+        background Frame("#00000099", 20, 20)  # NONE Remove TODO fundo opaco - essencial para transparência!
         
         # Frame opcional para borda line art fina (crie gui/frame_lineart.png transparente)
         # frame:
