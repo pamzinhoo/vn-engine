@@ -99,21 +99,23 @@ screen say(who, what):
 
     window:
         id "window"
+        
 
-        if who is not None:
+        text what id "what":
+            style "say_dialogue"    # ← dentro da window ✓
+            color "#ffffff"
 
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
+    if who is not None:
+        text who:
+            id "who"
+            style "say_label"
+            xpos 374
+            ypos 804
+            color "#0099cc"
+            
 
-        text what id "what"
-
-
-    ## Se houver uma imagem lateral, exiba-a acima do texto. Não exiba na
-    ## variante do telefone - não há espaço.
     if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+        add SideImage() xalign 0.0 yalign 0.30
 
 
 ## Disponibilize a caixa de nome para estilização por meio do objeto Character.
@@ -141,7 +143,7 @@ style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
     xsize gui.namebox_width
-    ypos gui.name_ypos
+    ypos -80
     ysize gui.namebox_height
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -365,16 +367,7 @@ screen main_menu():
     ## menu principal está na tela de navegação.
     use navigation
 
-    if gui.show_name:
-
-        vbox:
-            style "main_menu_vbox"
-
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
+    
 
 
 style main_menu_frame is empty
@@ -1622,3 +1615,19 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+screen frase_transicao(frase):
+    add "#000000"
+    text frase:
+        xalign 0.5
+        yalign 0.5
+        color "#ffffff"
+        size 32
+        italic True
+screen horario(frase):
+    add "#000000"
+    text frase:
+        xalign 0.5
+        yalign 0.5
+        color "#ffffff"
+        size 28
+        italic True

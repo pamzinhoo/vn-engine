@@ -112,7 +112,7 @@ define gui.textbox_yalign = 1.0
 ## O posicionamento do nome do personagem que fala, em relação à caixa de texto.
 ## Pode ser um número inteiro de pixels a partir da esquerda ou do topo, ou 0,5
 ## para o centro.
-define gui.name_xpos = 360
+
 define gui.name_ypos = 0
 
 ## O alinhamento horizontal do nome do personagem. Pode ser 0,0 para alinhado à
@@ -140,7 +140,6 @@ define gui.dialogue_xpos = 402
 define gui.dialogue_ypos = 75
 
 ## A largura máxima do texto da caixa de diálogo, em pixels.
-define gui.dialogue_width = 1116
 
 ## O alinhamento horizontal do texto da caixa de diálogo. Pode ser 0,0 para
 ## alinhado à esquerda, 0,5 para centralizado e 1,0 para alinhado à direita.
@@ -454,9 +453,7 @@ init python:
 
         ## Ajustar o local da caixa de texto.
         gui.textbox_height = 360
-        gui.name_xpos = 120
         gui.dialogue_xpos = 135
-        gui.dialogue_width = 1650
 
         ## Altere o tamanho e o espaçamento de vários itens.
         gui.slider_size = 54
@@ -491,3 +488,23 @@ init python:
 
         gui.nvl_button_width = 1860
         gui.nvl_button_xpos = 30
+
+## MAIS À ESQUERDA - Padding menor
+define gui.textbox_height = 300
+define gui.textbox_yalign = 1.0
+define gui.textbox_width = 1249
+define gui.name_xalign = 0.0
+define gui.text_size = 28
+define gui.name_xpos = 400          # ← MENOS padding (era 100)
+define gui.name_ypos = -1
+define gui.dialogue_xpos = 400      # ← MENOS padding (era 120)
+define gui.dialogue_ypos = 100
+define gui.dialogue_width = 1220   # ← Mais largura
+define gui.window_yminimum = 908
+
+
+define gui.show_name = False
+define config.version = None
+define fade_black = Fade(0.5, 0.5, 0.5)
+
+
