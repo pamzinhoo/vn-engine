@@ -4,7 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen")
-define s = character("Steve")
+define s = Character("Steve")
 
 
 
