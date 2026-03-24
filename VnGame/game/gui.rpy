@@ -507,4 +507,3 @@ define gui.show_name = False
 define config.version = None
 define fade_black = Fade(0.5, 0.5, 0.5)
 
-
