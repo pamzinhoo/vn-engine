@@ -357,7 +357,7 @@ screen main_menu():
     ## Isso garante que qualquer outra tela de menu seja substituída.
     tag menu
 
-    add gui.main_menu_background
+    add Movie(play="videos/main_menu.webm", loop=True)
 
     ## Esse quadro vazio escurece o menu principal.
     frame:
@@ -380,7 +380,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    # background "gui/overlay/main_menu.png"   COMENTEI SÓ PARA TIRAR A IMG DE FUNDO DO MAIN_MENU E DEIXAR APENAS O VIDEO
 
 style main_menu_vbox:
     xalign 1.0
