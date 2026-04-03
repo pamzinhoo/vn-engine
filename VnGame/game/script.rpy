@@ -1,4 +1,4 @@
-﻿default nome_prota = ""
+default nome_prota = ""
 define p = Character("[nome_prota]", ctc="ctc", ctc_position="nestled")
 define n = Character(
     None,
@@ -217,4 +217,3 @@ screen escolha_genero:
                 # Placeholder até ter a foto do homem
                 add "protaM.png"   # retângulo cinza no lugar da foto
                 textbutton "Homem" action Return("homem") xalign 0.5
-

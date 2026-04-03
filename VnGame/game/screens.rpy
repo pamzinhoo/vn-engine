@@ -354,18 +354,61 @@ style navigation_button_text:
 
 screen main_menu():
 
-    ## Isso garante que qualquer outra tela de menu seja substituída.
     tag menu
 
     add Movie(play="videos/main_menu.webm", loop=True)
 
-    ## Esse quadro vazio escurece o menu principal.
     frame:
         style "main_menu_frame"
+        
+    vbox:
+        xpos 60
+        ypos 100
+        spacing 50
+        
+        # Botão Início
+        imagebutton:
+            xysize(100, 40)
+            idle "gui/button/inicio_idle.png"
+            hover "gui/button/inicio_hover.png"
+            action Start()
+        
 
-    ## A instrução de uso inclui outra tela dentro desta. O conteúdo real do
-    ## menu principal está na tela de navegação.
-    use navigation
+        
+        # Botão Carregar
+        imagebutton:
+            xysize(100, 40)
+            idle "gui/button/salvar_idle.png"
+            hover "gui/button/salvar_hover.png"
+            action ShowMenu('load')
+        
+        # Botão Preferências
+        imagebutton:
+            xysize(100, 40)
+            idle "gui/button/preferencias_idle.png"
+            hover "gui/button/preferencias_hover.png"
+            action ShowMenu('preferences')
+        
+        # Botão Sobre
+        imagebutton:
+            xysize(100, 40)
+            idle "gui/button/sobre_idle.png"
+            hover "gui/button/sobre_hover.png"
+            action ShowMenu('about')
+        
+        # Botão Ajuda
+        imagebutton:
+            xysize(100, 40)
+            idle "gui/button/ajuda_idle.png"
+            hover "gui/button/ajuda_hover.png"
+            action ShowMenu('help')
+        
+        # Botão Sair
+        imagebutton:
+            xysize(100, 40)
+            idle "gui/button/sair_idle.png"
+            hover "gui/button/sair_hover.png"
+            action Quit(confirm=True)
 
     
 
