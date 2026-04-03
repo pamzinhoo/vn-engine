@@ -368,7 +368,6 @@ screen main_menu():
         
         # Botão Início
         imagebutton:
-            xysize(100, 40)
             idle "gui/button/inicio_idle.png"
             hover "gui/button/inicio_hover.png"
             action Start()
@@ -377,35 +376,30 @@ screen main_menu():
         
         # Botão Carregar
         imagebutton:
-            xysize(100, 40)
             idle "gui/button/salvar_idle.png"
             hover "gui/button/salvar_hover.png"
             action ShowMenu('load')
         
         # Botão Preferências
         imagebutton:
-            xysize(100, 40)
             idle "gui/button/preferencias_idle.png"
             hover "gui/button/preferencias_hover.png"
             action ShowMenu('preferences')
         
         # Botão Sobre
         imagebutton:
-            xysize(100, 40)
             idle "gui/button/sobre_idle.png"
             hover "gui/button/sobre_hover.png"
             action ShowMenu('about')
         
         # Botão Ajuda
         imagebutton:
-            xysize(100, 40)
             idle "gui/button/ajuda_idle.png"
             hover "gui/button/ajuda_hover.png"
             action ShowMenu('help')
         
         # Botão Sair
         imagebutton:
-            xysize(100, 40)
             idle "gui/button/sair_idle.png"
             hover "gui/button/sair_hover.png"
             action Quit(confirm=True)
