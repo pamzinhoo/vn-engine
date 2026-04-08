@@ -866,7 +866,7 @@ style radio_button:
 
 style radio_button_text:
     properties gui.text_properties("radio_button")
-    
+    font "fonts/fonte.ttf"
 
 style check_vbox:
     spacing gui.pref_button_spacing
