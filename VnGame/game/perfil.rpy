@@ -76,6 +76,7 @@ screen perfil_janela():
                         xsize 770
                         ysize 545
                         
+                        
                         vbox:
                             spacing 10
                             
