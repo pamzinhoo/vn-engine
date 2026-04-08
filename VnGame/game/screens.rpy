@@ -357,52 +357,20 @@ screen main_menu():
     tag menu
 
     add Movie(play="videos/main_menu.webm", loop=True)
-
     frame:
         style "main_menu_frame"
         
     vbox:
-        xpos 60
-        ypos 100
-        spacing 50
+        xpos 100
+        ypos 120
+        style_prefix "main_menu"
         
-        # Botão Início
-        imagebutton:
-            idle "gui/button/inicio_idle.png"
-            hover "gui/button/inicio_hover.png"
-            action Start()
-        
-
-        
-        # Botão Carregar
-        imagebutton:
-            idle "gui/button/salvar_idle.png"
-            hover "gui/button/salvar_hover.png"
-            action ShowMenu('load')
-        
-        # Botão Preferências
-        imagebutton:
-            idle "gui/button/preferencias_idle.png"
-            hover "gui/button/preferencias_hover.png"
-            action ShowMenu('preferences')
-        
-        # Botão Sobre
-        imagebutton:
-            idle "gui/button/sobre_idle.png"
-            hover "gui/button/sobre_hover.png"
-            action ShowMenu('about')
-        
-        # Botão Ajuda
-        imagebutton:
-            idle "gui/button/ajuda_idle.png"
-            hover "gui/button/ajuda_hover.png"
-            action ShowMenu('help')
-        
-        # Botão Sair
-        imagebutton:
-            idle "gui/button/sair_idle.png"
-            hover "gui/button/sair_hover.png"
-            action Quit(confirm=True)
+        textbutton _("Início") action Start()
+        textbutton _("Carregar") action ShowMenu('load')
+        textbutton _("Preferências") action ShowMenu('preferences')
+        textbutton _("Sobre") action ShowMenu('about')
+        textbutton _("Ajuda") action ShowMenu('help')
+        textbutton _("Sair") action Quit(confirm=True)
 
     
 
@@ -412,22 +380,32 @@ style main_menu_vbox is vbox
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
+style main_menu_button is gui_button
+style main_menu_button_text is gui_button_text
 
 style main_menu_frame:
     xsize 420
     yfill True
 
-    # background "gui/overlay/main_menu.png"   COMENTEI SÓ PARA TIRAR A IMG DE FUNDO DO MAIN_MENU E DEIXAR APENAS O VIDEO
-
 style main_menu_vbox:
-    xalign 1.0
-    xoffset -30
-    xmaximum 1200
-    yalign 1.0
-    yoffset -30
+    xalign 0.0
+    xoffset 60
+    yalign 0.0
+    yoffset 200
+    spacing 5
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
+    font "fonts/fonte.ttf"
+
+style main_menu_button:
+    properties gui.button_properties("button")
+
+style main_menu_button_text:
+    properties gui.text_properties("button")
+    font "fonts/fonte.ttf"
+    size 30
+    color "#ffffff"
 
 style main_menu_title:
     properties gui.text_properties("title")
@@ -888,6 +866,7 @@ style radio_button:
 
 style radio_button_text:
     properties gui.text_properties("radio_button")
+    
 
 style check_vbox:
     spacing gui.pref_button_spacing
