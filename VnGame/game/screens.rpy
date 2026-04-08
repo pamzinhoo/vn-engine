@@ -361,7 +361,7 @@ screen main_menu():
         style "main_menu_frame"
         
     vbox:
-        xpos 100
+        xpos 60
         ypos 120
         style_prefix "main_menu"
         
@@ -400,11 +400,13 @@ style main_menu_text:
 
 style main_menu_button:
     properties gui.button_properties("button")
+    
+    ysize 80
 
 style main_menu_button_text:
     properties gui.text_properties("button")
     font "fonts/fonte.ttf"
-    size 30
+    size 45
     color "#ffffff"
 
 style main_menu_title:
@@ -866,7 +868,7 @@ style radio_button:
 
 style radio_button_text:
     properties gui.text_properties("radio_button")
-    font "fonts/fonte.ttf"
+    
 
 style check_vbox:
     spacing gui.pref_button_spacing
