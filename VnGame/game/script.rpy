@@ -1,10 +1,11 @@
-default nome_prota = ""
+﻿default nome_prota = ""
 define p = Character("[nome_prota]", ctc="ctc", ctc_position="nestled")
 define n = Character(
     None,
     what_style="narrador_dialogo",
     window_style="narrador_window"
 )
+
 image protaF:
     "protaF.png"
     zoom 0.8
