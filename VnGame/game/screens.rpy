@@ -360,17 +360,42 @@ screen main_menu():
     frame:
         style "main_menu_frame"
         
-    vbox:
-        xpos 60
-        ypos 120
-        style_prefix "main_menu"
+    fixed:
+        textbutton _("Início") action Start():
+            style "main_menu_button"
+            xpos 60
+            ypos 220
+
+        textbutton _("Carregar") action ShowMenu('load'):
+            style "main_menu_button"
+            xpos 100
+            ypos 290
+            
+        textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
+            style "main_menu_button"
+            xpos 20
+            ypos 740
+
+        textbutton _("Preferências") action ShowMenu('preferences'):
+            style "main_menu_button"
+            xpos 140
+            ypos 390
+
+        textbutton _("Sobre") action ShowMenu('about'):
+            style "main_menu_button"
+            xpos 140
+            ypos 490
+
+        textbutton _("Ajuda") action ShowMenu('help'):
+            style "main_menu_button"
+            xpos 100
+            ypos 590
+
+        textbutton _("Sair") action Quit(confirm=True):
+            style "main_menu_button"
+            xpos 60
+            ypos 670
         
-        textbutton _("Início") action Start()
-        textbutton _("Carregar") action ShowMenu('load')
-        textbutton _("Preferências") action ShowMenu('preferences')
-        textbutton _("Sobre") action ShowMenu('about')
-        textbutton _("Ajuda") action ShowMenu('help')
-        textbutton _("Sair") action Quit(confirm=True)
 
     
 
@@ -1647,5 +1672,342 @@ screen horario(frase):
         xalign 0.5
         yalign 0.5
         color "#ffffff"
-        size 28
-        italic True
+
+
+################################################################################
+## Catálogo de Personagens
+################################################################################
+
+screen perfil_catalogo():
+    modal False
+    tag menu
+
+    # Background escuro
+    add "#0f0f1e"
+
+    # Layout principal: Sidebar + Conteúdo
+    fixed:
+        # Sidebar esquerda
+        frame:
+            style "perfil_catalogo_sidebar"
+            xpos 0
+            ypos 0
+            yfill True
+
+            vbox:
+                spacing 0
+                yfill True
+
+                # Título "Perfil" no topo
+                text _("Perfil") style "perfil_catalogo_title":
+                    xpos 20
+                    ypos 20
+
+                # Botões centralizados no meio
+                vbox:
+                    spacing 15
+                    yalign 0.5
+
+                    textbutton _("Início") action Start():
+                        style "navigation_button"
+                        text_style "navigation_button_text"
+
+                    textbutton _("Carga") action ShowMenu('load'):
+                        style "navigation_button"
+                        text_style "navigation_button_text"
+
+                    textbutton _("Perfil") action ShowMenu('perfil_catalogo'):
+                        style "navigation_button"
+                        text_style "navigation_button_text"
+
+                    textbutton _("Sobre") action ShowMenu('about'):
+                        style "navigation_button"
+                        text_style "navigation_button_text"
+
+                    textbutton _("Ajuda") action ShowMenu('help'):
+                        style "navigation_button"
+                        text_style "navigation_button_text"
+
+                    textbutton _("Sair") action Quit(confirm=True):
+                        style "navigation_button"
+                        text_style "navigation_button_text"
+
+                # Botão Voltar no rodapé
+                vbox:
+                    yalign 1.0
+
+                    textbutton _("Voltar") action ShowMenu('main_menu'):
+                        style "navigation_button"
+                        text_style "navigation_button_text"
+
+        # Conteúdo principal
+        frame:
+            xpos 850
+            ypos 0
+            xsize 470
+            yfill True
+            background None
+            padding (30, 30, 2, 30)
+
+            vbox:
+                spacing 20
+
+                # Grid de personagens
+                viewport:
+                    xsize 1040
+                    yfill True
+                    scrollbars "vertical"
+
+                    vbox:
+                        spacing 20
+
+                        # Linha 1
+                        hbox:
+                            spacing 20
+
+                            # Card 1
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "mulher" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "protaF.png" crop (850, 150, 1400, 900) xysize (220, 135)
+
+                            # Card 2
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # Linha 2
+                        hbox:
+                            spacing 20
+
+                            # Card 3
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 4
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # Linha 3
+                        hbox:
+                            spacing 20
+
+                            # Card 5
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 6
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # Linha 4
+                        hbox:
+                            spacing 20
+
+                            # Card 7
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 8
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # Linha 5
+                        hbox:
+                            spacing 20
+
+                            # Card 9
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 10
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+                        # linha 6
+                        hbox:
+                            spacing 20
+
+                            # Card 11
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 12
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # linha 7
+                        hbox:
+                            spacing 20
+
+                            # Card 13
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 14
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)                
