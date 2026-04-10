@@ -234,7 +234,7 @@ style choice_button_text is default:
 
 ## Tela do menu rápido #########################################################
 ##
-## O menu rápido é exibido no jogo para fornecer acesso fácil aos menus fora do
+## O menu rápido é exibido no jogo para fornecer acesso fácil aos menus fora do menu QUE TEM QUANDO INICIA O JOGO NA PARTE DE BAIXO DA TELA
 ## jogo.
 
 screen quick_menu():
@@ -292,7 +292,7 @@ style quick_button_text:
 screen navigation():
 
     vbox:
-        style_prefix "navigation"
+        style_prefix "navigation" # cu
 
         xpos gui.navigation_xpos
         yalign 0.5
@@ -312,6 +312,8 @@ screen navigation():
         textbutton _("Carga") action ShowMenu("load")
 
         textbutton _("Preferências") action ShowMenu("preferences")
+
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo") #cuzinho
 
         if _in_replay:
 
@@ -453,7 +455,7 @@ style main_menu_version:
 
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
-    style_prefix "game_menu"
+    style_prefix "game_menu" # cu
 
     if main_menu:
         add gui.main_menu_background
@@ -510,7 +512,6 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
                     transclude
 
     use navigation
-
     textbutton _("Voltar"):
         style "return_button"
 
@@ -1705,40 +1706,50 @@ screen perfil_catalogo():
 
                 # Botões centralizados no meio
                 vbox:
-                    spacing 15
+                    style_prefix "navigation" # cu
+
+                    xpos gui.navigation_xpos
                     yalign 0.5
 
-                    textbutton _("Início") action Start():
-                        style "navigation_button"
-                        text_style "navigation_button_text"
+                    spacing gui.navigation_spacing
 
-                    textbutton _("Carga") action ShowMenu('load'):
-                        style "navigation_button"
-                        text_style "navigation_button_text"
+                    if main_menu:
 
-                    textbutton _("Perfil") action ShowMenu('perfil_catalogo'):
-                        style "navigation_button"
-                        text_style "navigation_button_text"
+                        textbutton _("Início") action Start()
 
-                    textbutton _("Sobre") action ShowMenu('about'):
-                        style "navigation_button"
-                        text_style "navigation_button_text"
+                    else:
 
-                    textbutton _("Ajuda") action ShowMenu('help'):
-                        style "navigation_button"
-                        text_style "navigation_button_text"
+                        textbutton _("Histórico") action ShowMenu("history")
 
-                    textbutton _("Sair") action Quit(confirm=True):
-                        style "navigation_button"
-                        text_style "navigation_button_text"
+                        textbutton _("Salvar") action ShowMenu("save")
 
-                # Botão Voltar no rodapé
-                vbox:
-                    yalign 1.0
+                    textbutton _("Carga") action ShowMenu("load")
 
-                    textbutton _("Voltar") action ShowMenu('main_menu'):
-                        style "navigation_button"
-                        text_style "navigation_button_text"
+                    textbutton _("Preferências") action ShowMenu("preferences")
+                    
+                    textbutton _("Perfil") action ShowMenu("perfil_catalogo") #cuzinho
+
+                    if _in_replay:
+
+                        textbutton _("Fim da reprodução") action EndReplay(confirm=True)
+
+                    elif not main_menu:
+
+                        textbutton _("Menu principal") action MainMenu()
+
+                    textbutton _("Sobre") action ShowMenu("about")
+
+                    if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+
+                        ## A ajuda não é necessária ou relevante para dispositivos móveis.
+                        textbutton _("Ajuda") action ShowMenu("help")
+
+                    if renpy.variant("pc"):
+
+                        ## O botão Sair é proibido no iOS e desnecessário no Android e na
+                        ## Web.
+                        textbutton _("Sair") action Quit(confirm=not main_menu)
+
 
         # Conteúdo principal
         frame:
