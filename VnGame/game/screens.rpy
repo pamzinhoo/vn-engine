@@ -1717,11 +1717,6 @@ screen perfil_catalogo():
 
                         textbutton _("Início") action Start()
 
-                    else:
-
-                        textbutton _("Histórico") action ShowMenu("history")
-
-                        textbutton _("Salvar") action ShowMenu("save")
 
                     textbutton _("Carga") action ShowMenu("load")
 
@@ -1729,13 +1724,8 @@ screen perfil_catalogo():
                     
                     textbutton _("Perfil") action ShowMenu("perfil_catalogo") #cuzinho
 
-                    if _in_replay:
+                    
 
-                        textbutton _("Fim da reprodução") action EndReplay(confirm=True)
-
-                    elif not main_menu:
-
-                        textbutton _("Menu principal") action MainMenu()
 
                     textbutton _("Sobre") action ShowMenu("about")
 
