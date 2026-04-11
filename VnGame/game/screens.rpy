@@ -1806,7 +1806,6 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
 
                         # Linha 2
                         hbox:

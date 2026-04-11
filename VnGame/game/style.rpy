@@ -161,11 +161,11 @@ style perfil_catalogo_card_name_text:
     yalign 0.5
 
 style perfil_catalogo_card_photo:
-    xsize 228  # 60% of 380
-    ysize 136
-    xalign 0.5
-    yalign 0.5
-    background Solid("#16213e")
+    xsize 0
+    ysize 0
+    xalign 0.0
+    yalign 0.0
+    background None
 
 style perfil_catalogo_card_photo_text:
     color "#888888"
@@ -202,3 +202,7 @@ style perfil_catalogo_back_button_text:
     size 16
     xalign 0.0
     yalign 0.5
+
+style botao_fechar:
+    color "#ff5555"
+    hover_color "#ffffff"
