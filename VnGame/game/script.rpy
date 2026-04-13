@@ -22,7 +22,9 @@ image espelho:
     yalign 0.5
     zoom 1.0
     xysize (1920, 1080)
-
+image aviso:
+    "aviso.png"
+    xysize (1920, 1080)
 image ctc:
     alpha 1.0
     "seta.png"
@@ -36,6 +38,12 @@ default persistent.genero = ""
 default persistent.prota_data = None
 
 label start:
+    scene black
+    pause 0.5
+    scene aviso with dissolve
+    pause 10.0
+    scene black with dissolve
+    pause 1.0
     call screen escolha_genero with fade_black
     with fade_black
     show screen frase_transicao("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt") with dissolve
