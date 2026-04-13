@@ -206,3 +206,71 @@ style perfil_catalogo_back_button_text:
 style botao_fechar:
     color "#ff5555"
     hover_color "#ffffff"
+
+
+## Estilos para a Janela de Perfil em Estilo Livro/Diário
+
+style perfil_livro_titulo:
+    color "#c8b89a"
+    size 28
+    bold True
+    xalign 0.0
+
+style botao_fechar_livro is button:
+    background None
+    hover_background None
+    padding (0, 0, 0, 0)
+    xsize 40
+    ysize 40
+
+style botao_fechar_livro_text is button_text:
+    color "#c8b89a"
+    size 24
+    hover_color "#ffffff"
+    bold True
+
+# Página esquerda do livro (Avatar)
+style livro_nome_text:
+    color "#1a1005"
+    size 32
+    bold True
+    font "fonts/fonte.ttf"
+
+style livro_placeholder:
+    color "#888888"
+    size 20
+    italic True
+
+style livro_label_texto:
+    color "#8b5a2b"
+    size 14
+    font "fonts/fonte.ttf"
+
+style livro_valor_texto:
+    color "#1a1005"
+    size 16
+    bold True
+    font "fonts/fonte.ttf"
+
+# Página direita do livro (Conteúdo)
+style livro_secao_titulo:
+    color "#5a3a2a"
+    size 16
+    bold True
+    font "fonts/fonte.ttf"
+
+style livro_info_texto:
+    color "#2d2010"
+    size 14
+    font "fonts/fonte.ttf"
+
+style livro_atributo_nome:
+    color "#3d2d1d"
+    size 13
+    font "fonts/fonte.ttf"
+
+style livro_atributo_valor:
+    color "#8b5a2b"
+    size 13
+    bold True
+    font "fonts/fonte.ttf"

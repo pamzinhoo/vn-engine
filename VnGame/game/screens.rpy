@@ -443,6 +443,15 @@ style main_menu_version:
     properties gui.text_properties("version")
 
 
+## Tela de Aviso ##############################################################
+##
+## Tela que exibe a imagem de aviso de conteúdo.
+
+screen tela_aviso():
+    modal True
+    add "aviso.png" xysize (1920, 1080)
+
+
 ## Tela do menu do jogo ########################################################
 ##
 ## Isso estabelece a estrutura básica comum de uma tela de menu de jogo. Ela
