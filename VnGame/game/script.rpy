@@ -33,10 +33,10 @@ image ctc:
     repeat
 
 # Variável para guardar o gênero escolhido
-default genero = ""
+default persistent.genero = ""
+default persistent.prota_data = None
 
 label start:
-    # Tela de escolha ANTES do fade
     call screen escolha_genero with fade_black
     with fade_black
     show screen frase_transicao("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt") with dissolve
@@ -50,14 +50,21 @@ label start:
     pause 2.0
     hide screen horario with dissolve
 
-    # Guarda a escolha
-    $ genero = _return
+    show screen botao_perfil
 
-    scene bg fundo # trocar isso por um quarto
+    # Guarda a escolha
+    $ persistent.genero = _return
+    if persistent.genero == "mulher":
+        $ prota_data = protaF_data
+    elif persistent.genero == "homem":
+        $ prota_data = protaM_data
+    $ persistent.prota_data = prota_data
+
+    scene bg fundo 
     with fade_black # isso deixa
     
 
-    if genero == "mulher":
+    if persistent.genero == "mulher":
         $ nome_prota = "Kiyoki Kovalenko"
         
         
@@ -170,7 +177,7 @@ label start:
         p "{cps=30}A partir daqui…{/cps}"
         p "{cps=30}Nada será o mesmo.{/cps}"
         
-    elif genero == "homem":
+    elif persistent.genero == "homem":
         $ nome_prota = "Kuroya Yagami"
         show protaM
         
