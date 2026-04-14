@@ -234,7 +234,7 @@ style choice_button_text is default:
 
 ## Tela do menu rápido #########################################################
 ##
-## O menu rápido é exibido no jogo para fornecer acesso fácil aos menus fora do
+## O menu rápido é exibido no jogo para fornecer acesso fácil aos menus fora do menu QUE TEM QUANDO INICIA O JOGO NA PARTE DE BAIXO DA TELA
 ## jogo.
 
 screen quick_menu():
@@ -292,7 +292,7 @@ style quick_button_text:
 screen navigation():
 
     vbox:
-        style_prefix "navigation"
+        style_prefix "navigation" # cu
 
         xpos gui.navigation_xpos
         yalign 0.5
@@ -312,6 +312,8 @@ screen navigation():
         textbutton _("Carga") action ShowMenu("load")
 
         textbutton _("Preferências") action ShowMenu("preferences")
+
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo") #cuzinho
 
         if _in_replay:
 
@@ -364,17 +366,42 @@ screen main_menu():
     frame:
         style "main_menu_frame"
         
-    vbox:
-        xpos 60
-        ypos 120
-        style_prefix "main_menu"
+    fixed:
+        textbutton _("Início") action Start():
+            style "main_menu_button"
+            xpos 60
+            ypos 220
+
+        textbutton _("Carregar") action ShowMenu('load'):
+            style "main_menu_button"
+            xpos 100
+            ypos 290
+            
+        textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
+            style "main_menu_button"
+            xpos 20
+            ypos 740
+
+        textbutton _("Preferências") action ShowMenu('preferences'):
+            style "main_menu_button"
+            xpos 140
+            ypos 390
+
+        textbutton _("Sobre") action ShowMenu('about'):
+            style "main_menu_button"
+            xpos 140
+            ypos 490
+
+        textbutton _("Ajuda") action ShowMenu('help'):
+            style "main_menu_button"
+            xpos 100
+            ypos 590
+
+        textbutton _("Sair") action Quit(confirm=True):
+            style "main_menu_button"
+            xpos 60
+            ypos 670
         
-        textbutton _("Início") action Start()
-        textbutton _("Carregar") action ShowMenu('load')
-        textbutton _("Preferências") action ShowMenu('preferences')
-        textbutton _("Sobre") action ShowMenu('about')
-        textbutton _("Ajuda") action ShowMenu('help')
-        textbutton _("Sair") action Quit(confirm=True)
 
     
 
@@ -420,6 +447,15 @@ style main_menu_version:
     properties gui.text_properties("version")
 
 
+## Tela de Aviso ##############################################################
+##
+## Tela que exibe a imagem de aviso de conteúdo.
+
+screen tela_aviso():
+    modal True
+    add "aviso.png" xysize (1920, 1080)
+
+
 ## Tela do menu do jogo ########################################################
 ##
 ## Isso estabelece a estrutura básica comum de uma tela de menu de jogo. Ela
@@ -432,7 +468,7 @@ style main_menu_version:
 
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
-    style_prefix "game_menu"
+    style_prefix "game_menu" # cu
 
     if main_menu:
         add gui.main_menu_background
@@ -489,7 +525,6 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
                     transclude
 
     use navigation
-
     textbutton _("Voltar"):
         style "return_button"
 
@@ -1651,5 +1686,341 @@ screen horario(frase):
         xalign 0.5
         yalign 0.5
         color "#ffffff"
-        size 28
-        italic True
+
+
+################################################################################
+## Catálogo de Personagens
+################################################################################
+
+screen perfil_catalogo():
+    modal False
+    tag menu
+
+    # Background escuro
+    add "#0f0f1e"
+
+    # Layout principal: Sidebar + Conteúdo
+    fixed:
+        # Sidebar esquerda
+        frame:
+            style "perfil_catalogo_sidebar"
+            xpos 0
+            ypos 0
+            yfill True
+
+            vbox:
+                spacing 0
+                yfill True
+
+                # Título "Perfil" no topo
+                text _("Perfil") style "perfil_catalogo_title":
+                    xpos 20
+                    ypos 20
+
+                # Botões centralizados no meio
+                vbox:
+                    style_prefix "navigation" # cu
+
+                    xpos gui.navigation_xpos
+                    yalign 0.5
+
+                    spacing gui.navigation_spacing
+
+                    if main_menu:
+
+                        textbutton _("Início") action Start()
+
+
+                    textbutton _("Carga") action ShowMenu("load")
+
+                    textbutton _("Preferências") action ShowMenu("preferences")
+                    
+                    textbutton _("Perfil") action ShowMenu("perfil_catalogo") #cuzinho
+
+                    
+
+
+                    textbutton _("Sobre") action ShowMenu("about")
+
+                    if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+
+                        ## A ajuda não é necessária ou relevante para dispositivos móveis.
+                        textbutton _("Ajuda") action ShowMenu("help")
+
+                    if renpy.variant("pc"):
+
+                        ## O botão Sair é proibido no iOS e desnecessário no Android e na
+                        ## Web.
+                        textbutton _("Sair") action Quit(confirm=not main_menu)
+
+
+        # Conteúdo principal
+        frame:
+            xpos 850
+            ypos 0
+            xsize 470
+            yfill True
+            background None
+            padding (30, 30, 2, 30)
+
+            vbox:
+                spacing 20
+
+                # Grid de personagens
+                viewport:
+                    xsize 1040
+                    yfill True
+                    scrollbars "vertical"
+
+                    vbox:
+                        spacing 20
+
+                        # Linha 1
+                        hbox:
+                            spacing 20
+
+                            # Card 1
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "mulher" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "protaF.png" crop (850, 150, 1400, 900) xysize (220, 135)
+
+                            # Card 2
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+
+                        # Linha 2
+                        hbox:
+                            spacing 20
+
+                            # Card 3
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 4
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # Linha 3
+                        hbox:
+                            spacing 20
+
+                            # Card 5
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 6
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # Linha 4
+                        hbox:
+                            spacing 20
+
+                            # Card 7
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 8
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # Linha 5
+                        hbox:
+                            spacing 20
+
+                            # Card 9
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 10
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+                        # linha 6
+                        hbox:
+                            spacing 20
+
+                            # Card 11
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 12
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                        # linha 7
+                        hbox:
+                            spacing 20
+
+                            # Card 13
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
+
+                            # Card 14
+                            button:
+                                style "perfil_catalogo_card_button"
+                                action NullAction()
+
+                                hbox:
+                                    spacing 0
+
+                                    frame:
+                                        style "perfil_catalogo_card_name"
+                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+
+                                    frame:
+                                        style "perfil_catalogo_card_photo"
+                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)                

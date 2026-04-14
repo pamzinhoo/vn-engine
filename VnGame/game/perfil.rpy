@@ -2,6 +2,40 @@
 ## Janela de Perfil do Personagem
 ################################################################################
 
+init -1:
+
+    transform book_entrance:
+        alpha 0.0
+        yoffset 50
+        pause 0.0
+        ease 0.5:
+            alpha 1.0 
+            yoffset 0
+       
+
+    transform slide_fade_in:
+        alpha 0.0
+        xoffset 200
+        ease 0.4 alpha 1.0 xoffset 0
+
+    transform fade_bg:
+        alpha 0.0
+        ease 0.3 alpha 0.6
+
+    transform page_flip_in:
+        xtile 0.0
+        xzoom 0.1
+        alpha 0.3
+        ease 0.6 xtile 1.0 xzoom 1.0 alpha 1.0
+
+    transform page_sway:
+        rotate 0.0
+        linear 1.5 rotate -0.5
+        linear 1.5 rotate 0.5
+        linear 1.5 rotate 0.0
+        repeat
+
+
 screen botao_perfil():
     frame:
         textbutton "{b}{i}Perfil{/i}{/b}":
@@ -30,7 +64,31 @@ screen barra_atributo(nome, valor):
             value valor
             range 100
             left_bar Frame("gui/bar/left.png", 6, 6)
-            right_bar Frame("gui/bar/right.png", 6, 6)
+            right_bar Frame("gui/bar/right.png", 12, 6)
+            thumb Frame("gui/bar/thumb.png", 6, 6)
+            thumb_shadow Frame("gui/bar/thumb_shadow.png", 6, 6)
+
+
+screen barra_atributo_livro(nome, valor):
+    vbox:
+        spacing 3
+        hbox:
+            spacing 5
+            text nome:
+                style "livro_atributo_nome"
+                xsize 100
+            text "[valor]/100":
+                style "livro_atributo_valor"
+                xsize 80
+                xalign 1.0
+        
+        bar:
+            xsize 520
+            ysize 10
+            value valor
+            range 100
+            left_bar Frame("gui/bar/left.png", 6, 6)
+            right_bar Frame("gui/bar/right.png", 12, 6)
             thumb Frame("gui/bar/thumb.png", 6, 6)
             thumb_shadow Frame("gui/bar/thumb_shadow.png", 6, 6)
 
@@ -39,137 +97,226 @@ screen perfil_janela():
     modal True
     zorder 200
 
+    # Fundo escuro com overlay
+    add Solid("#000000") at fade_bg
+
+    # 📖 Moldura exterior do livro com sombra
     frame:
+        at book_entrance
         xalign 0.5
         yalign 0.5
-        xsize 1050
-        ysize 680
-        background None
-        padding (15, 15, 15, 15)
+        xsize 1280
+        ysize 760
+        background Frame("gui/frame.png", 20, 20)
+        padding (30, 30)
 
         vbox:
-            spacing 12
+            xfill True
+            yfill True
+            spacing 0
 
-            # Título principal
-            text "PERFIL DO PERSONAGEM" style "perfil_titulo"
-            
-            $ prota_data = persistent.prota_data
-            $ g = persistent.genero
-            
-            if prota_data is not None:
-                # Conteúdo principal em hbox
+            # 🎨 CAPA DO LIVRO - Estilo Diário
+            frame:
+                xfill True
+                ysize 80
+                background Solid("#2d1f15")
+                padding (20, 15)
+
                 hbox:
+                    xfill True
                     spacing 20
-                    
-                    # Coluna esquerda - Imagem
-                    vbox:
-                        spacing 8
-                        if g == "mulher":
-                            add "protaF.png" xysize (240, 380) xalign 0.5 yalign 0.0
-                        elif g == "homem":
-                            add "protaM.png" xysize (240, 380) xalign 0.5 yalign 0.0
-                        else:
-                            text "Imagem indisponível" size 20 color "#ffffff" xalign 0.5
-                    
-                    # Coluna direita - Dados organisados em seções com scrollbar
-                    viewport:
-                        xsize 770
-                        ysize 545
-                        
-                        
-                        vbox:
-                            spacing 10
-                            
-                            # Seção 1: Informações Básicas
-                            frame:
-                                background Solid("#16213e80")
-                                padding (10, 8)
-                                xsize 750
-                                
-                                vbox:
-                                    spacing 6
-                                    text "Informações Básicas" style "perfil_secao_titulo"
-                                    hbox:
-                                        spacing 15
-                                        vbox:
-                                            spacing 4
-                                            text "Nome:" style "perfil_label"
-                                            text "Apelido:" style "perfil_label"
-                                            text "Gênero:" style "perfil_label"
-                                            text "Sexualidade:" style "perfil_label"
-                                            text "Ocupação:" style "perfil_label"
-                                            text "Espécie:" style "perfil_label"
-                                        vbox:
-                                            spacing 4
-                                            text "[prota_data['nome']]" style "perfil_valor"
-                                            text "[prota_data['apelido']]" style "perfil_valor"
-                                            text "[prota_data['genero']]" style "perfil_valor"
-                                            text "[prota_data['sexualidade']]" style "perfil_valor"
-                                            text "[prota_data['ocupacao']]" style "perfil_valor"
-                                            text "[prota_data['especie']]" style "perfil_valor"
-                            
-                            # Seção 2: Anatomia
-                            frame:
-                                background Solid("#16213e80")
-                                padding (10, 8)
-                                xsize 750
-                                
-                                vbox:
-                                    spacing 6
-                                    text "Anatomia" style "perfil_secao_titulo"
-                                    hbox:
-                                        spacing 15
-                                        vbox:
-                                            spacing 4
-                                            text "Altura:" style "perfil_label"
-                                            text "Peso:" style "perfil_label"
-                                            text "Raça:" style "perfil_label"
-                                            text "Tipo Sanguíneo:" style "perfil_label"
-                                        vbox:
-                                            spacing 4
-                                            text "[prota_data['anatomia']['altura']]" style "perfil_valor"
-                                            text "[prota_data['anatomia']['peso']]" style "perfil_valor"
-                                            text "[prota_data['anatomia']['raca']]" style "perfil_valor"
-                                            text "[prota_data['anatomia']['tipo_sangue']]" style "perfil_valor"
-                            
-                            # Seção 3: Personalidade (com barras visuais)
-                            frame:
-                                background Solid("#16213e80")
-                                padding (10, 8)
-                                xsize 750
-                                
-                                vbox:
-                                    spacing 8
-                                    text "Personalidade" style "perfil_secao_titulo"
-                                    
-                                    use barra_atributo("Gentileza", prota_data['personalidade']['kind'])
-                                    use barra_atributo("Inteligência", prota_data['personalidade']['smart'])
-                                    use barra_atributo("Seriedade", prota_data['personalidade']['serious'])
-                                    use barra_atributo("Humor", prota_data['personalidade']['funny'])
-                                    use barra_atributo("Saúde", prota_data['personalidade']['healthy'])
-                            
-                            # Seção 4: Cores e Notas
-                            frame:
-                                background Solid("#16213e80")
-                                padding (10, 8)
-                                xsize 750
-                                
-                                vbox:
-                                    spacing 4
-                                    text "Notas" style "perfil_secao_titulo"
-                                    text "[prota_data['notas']]" style "perfil_valor" color "#CCCC99"
-                                    text "Cores: [', '.join(prota_data['cores_principais'])]" style "perfil_label" size 18
-                                    text "Favoritas: [', '.join(prota_data['cores_favoritas'])]" style "perfil_label" size 18
 
+                    text "📖 PERFIL":
+                        style "perfil_livro_titulo"
+
+                    null width 50
+
+                    textbutton "✕":
+                        action Hide("perfil_janela")
+                        style "botao_fechar_livro"
+                        background None
+
+            # 🔖 Divisor decorativo
+            frame:
+                xfill True
+                ysize 3
+                background Solid("#8b5a2b")
+
+            $ prota_data = getattr(persistent, "prota_data", None)
+
+            if prota_data:
+                # 📖 LIVRO ABERTO COM DUAS PÁGINAS
+                hbox:
+                    xfill True
+                    yfill True
+                    spacing 1
+
+                    # 📄 PÁGINA ESQUERDA (Foto/Avatar)
+                    frame:
+                        xsize 580
+                        yfill True
+                        background Solid("#f0e8d8")
+                        padding (25, 25)
+
+                        vbox:
+                            xalign 0.5
+                            yalign 0.5
+                            spacing 15
+
+                            # Nome do personagem
+                            text "[prota_data['nome']]":
+                                style "livro_nome_text"
+                                text_align 0.5
+                                xalign 0.5
+
+                            # Espaço para avatar (placeholder)
+                            frame:
+                                xsize 480
+                                ysize 280
+                                background Solid("#d4c5b0")
+                                padding (20, 20)
+
+                                text _("Avatar do\nPersonagem"):
+                                    style "livro_placeholder"
+                                    xalign 0.5
+                                    yalign 0.5
+
+                            # Informações básicas na página esquerda
+                            frame:
+                                xfill True
+                                background Solid("#e8dcc8")
+                                padding (12, 10)
+
+                                vbox:
+                                    spacing 2
+                                    text _("Apelido:"):
+                                        style "livro_label_texto"
+                                    text "[prota_data['apelido']]":
+                                        style "livro_valor_texto"
+
+                    # 📄 PÁGINA DIREITA (Conteúdo)
+                    frame:
+                        xsize 580
+                        yfill True
+                        background Solid("#ede5d4")
+                        padding (25, 25)
+
+                        viewport:
+                            xfill True
+                            yfill True
+                            scrollbars "vertical"
+                            mousewheel True
+
+                            vbox:
+                                xfill True
+                                spacing 12
+
+                                # Seção: Informações Básicas
+                                frame:
+                                    xfill True
+                                    background Solid("#dcd4c4")
+                                    padding (12, 10)
+
+                                    vbox:
+                                        spacing 6
+                                        xfill True
+
+                                        text _("INFORMAÇÕES"):
+                                            style "livro_secao_titulo"
+
+                                        frame:
+                                            xfill True
+                                            ysize 1
+                                            background Solid("#8b5a2b")
+
+                                        text _("Gênero: ") + "[prota_data['genero']]":
+                                            style "livro_info_texto"
+
+                                        text _("Sexualidade: ") + "[prota_data['sexualidade']]":
+                                            style "livro_info_texto"
+
+                                        text _("Ocupação: ") + "[prota_data['ocupacao']]":
+                                            style "livro_info_texto"
+
+                                        text _("Espécie: ") + "[prota_data['especie']]":
+                                            style "livro_info_texto"
+
+                                # Seção: Personalidade
+                                frame:
+                                    xfill True
+                                    background Solid("#dcd4c4")
+                                    padding (12, 10)
+
+                                    vbox:
+                                        spacing 8
+                                        xfill True
+
+                                        text _("PERSONALIDADE"):
+                                            style "livro_secao_titulo"
+
+                                        frame:
+                                            xfill True
+                                            ysize 1
+                                            background Solid("#8b5a2b")
+
+                                        use barra_atributo_livro("Gentileza", prota_data['personalidade']['kind'])
+                                        use barra_atributo_livro("Inteligência", prota_data['personalidade']['smart'])
+                                        use barra_atributo_livro("Seriedade", prota_data['personalidade']['serious'])
+                                        use barra_atributo_livro("Humor", prota_data['personalidade']['funny'])
+                                        use barra_atributo_livro("Saúde", prota_data['personalidade']['healthy'])
+
+                                # Seção: Anatomia
+                                frame:
+                                    xfill True
+                                    background Solid("#dcd4c4")
+                                    padding (12, 10)
+
+                                    vbox:
+                                        spacing 6
+                                        xfill True
+
+                                        text _("ANATOMIA"):
+                                            style "livro_secao_titulo"
+
+                                        frame:
+                                            xfill True
+                                            ysize 1
+                                            background Solid("#8b5a2b")
+
+                                        text _("Altura: ") + "[prota_data['anatomia']['altura']]":
+                                            style "livro_info_texto"
+
+                                        text _("Peso: ") + "[prota_data['anatomia']['peso']]":
+                                            style "livro_info_texto"
+
+                                        text _("Raça: ") + "[prota_data['anatomia']['raca']]":
+                                            style "livro_info_texto"
+
+                                        text _("Tipo Sanguíneo: ") + "[prota_data['anatomia']['tipo_sangue']]":
+                                            style "livro_info_texto"
+
+                                # Seção: Notas
+                                frame:
+                                    xfill True
+                                    background Solid("#dcd4c4")
+                                    padding (12, 10)
+
+                                    vbox:
+                                        spacing 6
+                                        xfill True
+
+                                        text _("NOTAS"):
+                                            style "livro_secao_titulo"
+
+                                        frame:
+                                            xfill True
+                                            ysize 1
+                                            background Solid("#8b5a2b")
+
+                                        text "[prota_data['notas']]":
+                                            style "livro_info_texto"
             else:
-                text "Nenhum personagem selecionado ainda." size 24 color "#FFCCCC" xalign 0.5
-            
-            # Botão de fechar
-            hbox:
-                xalign 0.5
-                spacing 10
-                textbutton "Fechar" action Hide("perfil_janela"):
-                    background Solid("#FF000080")
-                    hover_background Solid("#FF0000CC")
-                    padding (12, 8)
+                text _("Nenhum personagem selecionado."):
+                    xalign 0.5
+                    yalign 0.5
 
