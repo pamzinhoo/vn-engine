@@ -359,6 +359,10 @@ screen main_menu():
     tag menu
 
     add Movie(play="videos/main_menu.webm", loop=True)
+
+
+    add "gui/overlay/nenhum_selecionado.png" xalign 0.5 yalign 0.5 alpha 0.7
+
     frame:
         style "main_menu_frame"
         
