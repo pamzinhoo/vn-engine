@@ -8,7 +8,7 @@ init offset = -1
 ################################################################################
 ## Estilos
 ################################################################################
-
+default easter_egg_visto = False
 style default:
     properties gui.text_properties()
     language gui.language
@@ -354,10 +354,12 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
-screen main_menu():
+screen main_menu(): #chupisco
 
     tag menu
 
+    if not easter_egg_visto:
+        timer 10800.0 action ShowMenu("easter_egg")
     add Movie(play="videos/main_menu.webm", loop=True)
 
 
@@ -1029,7 +1031,12 @@ style history_label_text:
 ## Uma tela que fornece informações sobre as combinações de teclas e mouse. Ela
 ## usa outras telas (keyboard_help, mouse_help e gamepad_help) para exibir a
 ## ajuda real.
-
+screen easter_egg():
+    add Movie(play="videos/easter-egg.webm", loop=False) xysize (1920, 1080) xalign 0.5 yalign 0.5
+    timer 9.0 action [
+        SetVariable("easter_egg_visto", True),
+        ShowMenu("main_menu")
+    ]
 screen help():
 
     tag menu
