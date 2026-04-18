@@ -75,7 +75,7 @@ label start:
     if persistent.genero == "mulher":
         $ nome_prota = "Kiyoki Kovalenko"
         
-        
+        show screen day_locate("00", "Escola - Corredor")
         p "{cps=30}Mal consigo abrir os olhos.{/cps}"
         
         p "{cps=30}Minhas pálpebras pesam, e o cansaço parece grudado no meu corpo.{/cps}"
@@ -188,7 +188,7 @@ label start:
     elif persistent.genero == "homem":
         $ nome_prota = "Kuroya Yagami"
         show protaM
-        
+        show screen day_locate("Escola - Corredor", "00") # esconder day locate -> hide screen day_locate
         p "{cps=30}parte masculina{/cps}"
         
         p "{cps=30}a fala do personagem masculino é diferente{/cps}"

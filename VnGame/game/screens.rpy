@@ -640,15 +640,129 @@ style about_label_text:
 screen save():
 
     tag menu
-
+    
     use file_slots(_("Salvar"))
 
-
 screen load():
-
     tag menu
 
-    use file_slots(_("Carga"))
+    # Background
+    add "gui/overlay/game_menu.png" xpos 0 ypos 0 xsize 1920 ysize 1080
+
+    # Título
+    
+
+    # Botões da sidebar (um por retângulo)
+    textbutton _("Histórico") action ShowMenu("history"):
+        xpos 50
+        ypos 340    # ← retângulo 1
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Salvar") action ShowMenu("save"):
+        xpos 50
+        ypos 445     # ← retângulo 2
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Carga") action ShowMenu("load"):
+        xpos 50
+        ypos 550     # ← retângulo 3
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Preferências") action ShowMenu("preferences"):
+        xpos 50
+        ypos 655    # ← retângulo 4
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+        xpos 50
+        ypos 755     # ← retângulo 5
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Sobre") action ShowMenu("about"):
+        xpos 50
+        ypos 860    # ← retângulo 6
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Ajuda") action ShowMenu("help"):
+        xpos 50
+        ypos 965      # ← retângulo 7
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Sair") action Quit(confirm=True):
+        xpos 50
+        ypos 1050      # ← retângulo 8
+        xsize 290
+        text_style "load_nav_text"
+
+    # Botão Voltar
+    textbutton _("Voltar") action Return():
+        xpos 60
+        ypos 1150
+        text_style "load_nav_text"
+
+    # Slots de arquivo
+    fixed:
+        xpos 650
+        ypos 185
+
+        default page_name_value = FilePageNameInputValue(
+            pattern=_("Página {}"),
+            auto=_("Salvamentos automáticos"),
+            quick=_("Salvamentos rápidos")
+        )
+
+        button:
+            style "page_label"
+            xalign 0.5
+            key_events True
+            action page_name_value.Toggle()
+            input:
+                style "page_label_text"
+                value page_name_value
+
+        grid gui.file_slot_cols gui.file_slot_rows:
+            style_prefix "slot"
+            xpos 0
+            ypos 50
+            spacing gui.slot_spacing
+
+            for i in range(gui.file_slot_cols * gui.file_slot_rows):
+                $ slot = i + 1
+                button:
+                    action FileAction(slot)
+                    has vbox
+                    add FileScreenshot(slot) xalign 0.5
+                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("slot vazio")):
+                        style "slot_time_text"
+                    text FileSaveName(slot):
+                        style "slot_name_text"
+                    key "save_delete" action FileDelete(slot)
+
+        hbox:
+            style_prefix "page"
+            xpos 702
+            ypos 630
+            spacing gui.page_spacing
+
+            textbutton _("<") action FilePagePrevious()
+            for page in range(1, 10):
+                textbutton "[page]" action FilePage(page)
+            textbutton _(">") action FilePageNext()
+
+style load_nav_text:
+    color "#000000"
+    hover_color "#222222"
+    size 28
+    font "fonts/fonte.ttf"
+    xalign 0.5
+    yalign 0.5
 
 
 screen file_slots(title):
@@ -1693,6 +1807,30 @@ screen horario(frase):
         xalign 0.5
         yalign 0.5
         color "#ffffff"
+screen day_locate(local, dia):
+    zorder 100
+    modal False
+
+    # Imagem por cima de tudo
+    add "day_locate.png" xalign 0.5 ypos 0
+
+    # Texto no quadrado esquerdo (dia)
+    text dia: # locate
+        xpos 115
+        ypos 97
+        color "#000000"
+        size 22
+        font "fonts/fonte.ttf"
+        
+
+    # Texto na lâmpada direita (localização)
+    text local: # dia
+        xpos 1780
+        ypos 56
+        color "#000000"
+        size 40
+        font "fonts/fonte.ttf"
+          
 
 
 ################################################################################
