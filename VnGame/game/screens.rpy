@@ -655,56 +655,56 @@ screen load():
     # Botões da sidebar (um por retângulo)
     textbutton _("Histórico") action ShowMenu("history"):
         xpos 50
-        ypos 340    # ← retângulo 1
-        xsize 290
-        text_style "load_nav_text"
-
-    textbutton _("Salvar") action ShowMenu("save"):
-        xpos 50
-        ypos 445     # ← retângulo 2
+        ypos 265    # ← retângulo 1
         xsize 290
         text_style "load_nav_text"
 
     textbutton _("Carga") action ShowMenu("load"):
         xpos 50
-        ypos 550     # ← retângulo 3
+        ypos 370    # ← retângulo 2
         xsize 290
         text_style "load_nav_text"
 
     textbutton _("Preferências") action ShowMenu("preferences"):
         xpos 50
-        ypos 655    # ← retângulo 4
+        ypos 473     # ← retângulo 3
         xsize 290
         text_style "load_nav_text"
 
     textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
         xpos 50
-        ypos 755     # ← retângulo 5
+        ypos 580    # ← retângulo 4
         xsize 290
         text_style "load_nav_text"
 
     textbutton _("Sobre") action ShowMenu("about"):
         xpos 50
-        ypos 860    # ← retângulo 6
+        ypos 685     # ← retângulo 5
         xsize 290
         text_style "load_nav_text"
 
     textbutton _("Ajuda") action ShowMenu("help"):
         xpos 50
-        ypos 965      # ← retângulo 7
+        ypos 785    # ← retângulo 6
         xsize 290
         text_style "load_nav_text"
 
     textbutton _("Sair") action Quit(confirm=True):
         xpos 50
-        ypos 1050      # ← retângulo 8
+        ypos 890     # ← retângulo 7
         xsize 290
         text_style "load_nav_text"
 
+    # textbutton _("Sair") action Quit(confirm=True):
+    #     xpos 50
+    #     ypos 975      # ← retângulo 8
+    #     xsize 290
+    #     text_style "load_nav_text"
+
     # Botão Voltar
     textbutton _("Voltar") action Return():
-        xpos 60
-        ypos 1150
+        xpos 150
+        ypos 995
         text_style "load_nav_text"
 
     # Slots de arquivo
