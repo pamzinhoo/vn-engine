@@ -526,13 +526,13 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
                     transclude
 
-    use navigation
-    textbutton _("Voltar"):
-        style "return_button"
+    # use navigation
+    # textbutton _("Voltar"):
+    #     style "return_button"
 
-        action Return()
+    #     action Return()
 
-    label title
+    # label title
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
@@ -598,26 +598,72 @@ style return_button:
 ## Não há nada de especial nessa tela e, portanto, ela também serve como exemplo
 ## de como criar uma tela personalizada.
 
-screen about():
+screen about(): # 1919
 
     tag menu
 
-    ## Essa instrução de uso inclui a tela game_menu dentro desta. O filho vbox
-    ## é então incluído na janela de visualização dentro da tela game_menu.
-    use game_menu(_("Sobre"), scroll="viewport"):
+    use game_menu(_(""), scroll="viewport"):
 
         style_prefix "about"
 
         vbox:
-
+            xpos 0.02
+            ypos 0.6
             label "[config.name!t]"
             text _("Versão [config.version!t]\n")
 
-            ## gui.about é normalmente definido em options.rpy.
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Feito com {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]")
+            text _("Feito com {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]") #textinho do bolso
+
+    fixed:
+        textbutton _("Início") action Return():
+            xpos 50
+            ypos 265
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Carga") action ShowMenu("load"):
+            xpos 50
+            ypos 370
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Preferências") action ShowMenu("preferences"):
+            xpos 50
+            ypos 473
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+            xpos 50
+            ypos 580
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sobre") action ShowMenu("about"):
+            xpos 50
+            ypos 685
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Ajuda") action ShowMenu("help"):
+            xpos 50
+            ypos 785
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sair") action Quit(confirm=True):
+            xpos 50
+            ypos 890
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Voltar") action Return():
+            xpos 150
+            ypos 995
+            text_style "load_nav_text"
 
 
 style about_label is gui_label
@@ -643,7 +689,7 @@ screen save():
     
     use file_slots(_("Salvar"))
 
-screen load():
+screen load(): # 1818
     tag menu
 
     # Background
@@ -896,14 +942,16 @@ style slot_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
 
-screen preferences():
+screen preferences(): # 1717
 
     tag menu
 
-    use game_menu(_("Preferências"), scroll="viewport"):
-
+    
+    use game_menu(_(""), scroll="viewport"):
+    
         vbox:
-
+            xpos 0.1
+            ypos 0.1
             hbox:
                 box_wrap True
 
@@ -976,6 +1024,60 @@ screen preferences():
                         textbutton _("Silenciar tudo"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
+    fixed:
+        textbutton _("Início") action Return():
+            xpos 50
+            ypos 265
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Carga") action ShowMenu("load"):
+            xpos 50
+            ypos 370    # ← retângulo 2
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Preferências") action ShowMenu("preferences"):
+            xpos 50
+            ypos 473     # ← retângulo 3
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+            xpos 50
+            ypos 580    # ← retângulo 4
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sobre") action ShowMenu("about"):
+            xpos 50
+            ypos 685     # ← retângulo 5
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Ajuda") action ShowMenu("help"):
+            xpos 50
+            ypos 785    # ← retângulo 6
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sair") action Quit(confirm=True):
+            xpos 50
+            ypos 890     # ← retângulo 7
+            xsize 290
+            text_style "load_nav_text"
+
+        # textbutton _("Sair") action Quit(confirm=True):
+        #     xpos 50
+        #     ypos 975      # ← retângulo 8
+        #     xsize 290
+        #     text_style "load_nav_text"
+
+        # Botão Voltar
+        textbutton _("Voltar") action Return():
+            xpos 150
+            ypos 995
+            text_style "load_nav_text"
 
 
 style pref_label is gui_label
@@ -1157,11 +1259,13 @@ screen help():
 
     default device = "keyboard"
 
-    use game_menu(_("Ajuda"), scroll="viewport"):
+    use game_menu(_(""), scroll="viewport"):
 
         style_prefix "help"
 
         vbox:
+            xpos 0.3
+            ypos 6
             spacing 23
 
             hbox:
@@ -1178,6 +1282,54 @@ screen help():
                 use mouse_help
             elif device == "gamepad":
                 use gamepad_help
+
+    fixed:
+        textbutton _("Início") action Return():
+            xpos 50
+            ypos 265
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Carga") action ShowMenu("load"):
+            xpos 50
+            ypos 370
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Preferências") action ShowMenu("preferences"):
+            xpos 50
+            ypos 473
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+            xpos 50
+            ypos 580
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sobre") action ShowMenu("about"):
+            xpos 50
+            ypos 685
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Ajuda") action ShowMenu("help"):
+            xpos 50
+            ypos 785
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sair") action Quit(confirm=True):
+            xpos 50
+            ypos 890
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Voltar") action Return():
+            xpos 150
+            ypos 995
+            text_style "load_nav_text"
 
 
 screen keyboard_help():
