@@ -371,38 +371,40 @@ screen main_menu(): #chupisco
     fixed:
         textbutton _("Início") action Start():
             style "main_menu_button"
-            xpos 60
-            ypos 220
+            xpos 140
+            ypos 240
 
         textbutton _("Carregar") action ShowMenu('load'):
             style "main_menu_button"
-            xpos 100
-            ypos 290
+            xpos 125
+            ypos 350
             
-        textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
-            style "main_menu_button"
-            xpos 20
-            ypos 740
-
         textbutton _("Preferências") action ShowMenu('preferences'):
             style "main_menu_button"
-            xpos 140
-            ypos 390
+            xpos 85
+            ypos 460
 
+
+        textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
+            style "main_menu_button"
+            xpos 120
+            ypos 565
+
+        
         textbutton _("Sobre") action ShowMenu('about'):
             style "main_menu_button"
             xpos 140
-            ypos 490
+            ypos 673
 
         textbutton _("Ajuda") action ShowMenu('help'):
             style "main_menu_button"
-            xpos 100
-            ypos 590
+            xpos 140
+            ypos 775
 
         textbutton _("Sair") action Quit(confirm=True):
             style "main_menu_button"
-            xpos 60
-            ypos 670
+            xpos 148
+            ypos 885
         
 
     
