@@ -353,7 +353,13 @@ style navigation_button_text:
 ## Usado para exibir o menu principal quando o Ren'Py é iniciado.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
-
+transform button_hover_scale:
+    zoom 1.0
+    subpixel True
+    on hover:
+        ease 0.15 zoom 1.08 xoffset -2 yoffset -3
+    on idle:
+        ease 0.15 zoom 1.0 xoffset 0 yoffset 0
 screen main_menu(): #chupisco
 
     tag menu
@@ -371,40 +377,41 @@ screen main_menu(): #chupisco
     fixed:
         textbutton _("Início") action Start():
             style "main_menu_button"
-            xpos 140
-            ypos 240
+            xpos 137
+            ypos 320
+            at button_hover_scale
 
         textbutton _("Carregar") action ShowMenu('load'):
             style "main_menu_button"
-            xpos 125
-            ypos 350
+            xpos 122
+            ypos 425
             
         textbutton _("Preferências") action ShowMenu('preferences'):
             style "main_menu_button"
-            xpos 85
-            ypos 460
+            xpos 82
+            ypos 540
 
 
         textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
             style "main_menu_button"
             xpos 120
-            ypos 565
+            ypos 643
 
         
         textbutton _("Sobre") action ShowMenu('about'):
             style "main_menu_button"
             xpos 140
-            ypos 673
+            ypos 750
 
         textbutton _("Ajuda") action ShowMenu('help'):
             style "main_menu_button"
-            xpos 140
-            ypos 775
+            xpos 137
+            ypos 863
 
         textbutton _("Sair") action Quit(confirm=True):
             style "main_menu_button"
             xpos 148
-            ypos 885
+            ypos 973
         
 
     
@@ -435,7 +442,6 @@ style main_menu_text:
 
 style main_menu_button:
     properties gui.button_properties("button")
-    
     ysize 80
 
 style main_menu_button_text:
