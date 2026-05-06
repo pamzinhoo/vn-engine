@@ -534,13 +534,7 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
                     transclude
 
-    # use navigation
-    # textbutton _("Voltar"):
-    #     style "return_button"
-
-    #     action Return()
-
-    # label title
+    
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
@@ -606,7 +600,7 @@ style return_button:
 ## Não há nada de especial nessa tela e, portanto, ela também serve como exemplo
 ## de como criar uma tela personalizada.
 
-screen about(): # 1919
+screen about(): 
 
     tag menu
 
@@ -694,10 +688,118 @@ style about_label_text:
 screen save():
 
     tag menu
-    
-    use file_slots(_("Salvar"))
 
-screen load(): # 1818
+    # Background
+    add "gui/overlay/game_menu.png" xpos 0 ypos 0 xsize 1920 ysize 1080
+
+    # Botões da sidebar
+    textbutton _("Histórico") action ShowMenu("history"):
+        xpos 50
+        ypos 265
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Carga") action ShowMenu("load"):
+        xpos 50
+        ypos 370
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Preferências") action ShowMenu("preferences"):
+        xpos 50
+        ypos 473
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+        xpos 50
+        ypos 580
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Sobre") action ShowMenu("about"):
+        xpos 50
+        ypos 685
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Ajuda") action ShowMenu("help"):
+        xpos 50
+        ypos 785
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Sair") action Quit(confirm=True):
+        xpos 50
+        ypos 890
+        xsize 290
+        text_style "load_nav_text"
+
+    textbutton _("Voltar") action Return():
+        xpos 150
+        ypos 995
+        text_style "load_nav_text"
+
+    # Slots de arquivo
+    fixed:
+        xpos 650
+        ypos 185
+
+        default page_name_value = FilePageNameInputValue(
+            pattern=_("Página {}"),
+            auto=_("Salvamentos automáticos"),
+            quick=_("Salvamentos rápidos")
+        )
+
+        button:
+            style "page_label"
+            xalign 0.5
+            key_events True
+            action page_name_value.Toggle()
+            input:
+                style "page_label_text"
+                value page_name_value
+
+        grid gui.file_slot_cols gui.file_slot_rows:
+            style_prefix "slot"
+            xpos 0
+            ypos 50
+            spacing gui.slot_spacing
+
+            for i in range(gui.file_slot_cols * gui.file_slot_rows):
+                $ slot = i + 1
+                button:
+                    action FileAction(slot)
+                    has vbox
+                    add FileScreenshot(slot) xalign 0.5
+                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("slot vazio")):
+                        style "slot_time_text"
+                    text FileSaveName(slot):
+                        style "slot_name_text"
+                    key "save_delete" action FileDelete(slot)
+
+        hbox:
+            style_prefix "page"
+            xpos 702
+            ypos 630
+            spacing gui.page_spacing
+
+            textbutton _("<") action FilePagePrevious()
+            if config.has_autosave:
+                textbutton _("{#auto_page}A") action FilePage("auto")
+            if config.has_quicksave:
+                textbutton _("{#quick_page}Q") action FilePage("quick")
+            for page in range(1, 10):
+                textbutton "[page]" action FilePage(page)
+            textbutton _(">") action FilePageNext()
+
+        if config.has_sync:
+            textbutton _("Upload Sync"):
+                action UploadSync()
+                xalign 0.5
+                ypos 700
+
+screen load(): 
     tag menu
 
     # Background
@@ -813,7 +915,7 @@ screen load(): # 1818
 style load_nav_text:
     color "#000000"
     hover_color "#222222"
-    size 28
+    size 32
     font "fonts/fonte.ttf"
     xalign 0.5
     yalign 0.5
@@ -950,7 +1052,7 @@ style slot_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
 
-screen preferences(): # 1717
+screen preferences(): 
 
     tag menu
 
