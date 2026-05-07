@@ -185,6 +185,15 @@ label start:
         
         p "{cps=30}{color=#0099cc}(porta fechando){/color}{/cps}"
         
+        # Escolha da rota inicial
+        menu:
+            "Focar em Pam":
+                jump rota_pam
+            "Explorar a escola":
+                jump rota_exploracao
+            "Ir para a aula":
+                jump rota_aula
+        
     elif persistent.genero == "homem":
         $ nome_prota = "Kuroya Yagami"
         show protaM
@@ -199,6 +208,37 @@ label start:
         
         p "{cps=30}desse naipe aí tá ligado{/cps}"
 
+        # Escolha da rota inicial para homem
+        menu:
+            "Focar em Maya":
+                jump rota_maya
+            "Explorar a escola":
+                jump rota_exploracao
+            "Ir para a aula":
+                jump rota_aula
+
+    return
+
+# Labels para rotas alternativas
+
+label rota_pam:
+    p "Escolhi focar em Pam."
+    # Adicione o conteúdo da rota de Pam aqui
+    return
+
+label rota_maya:
+    p "Escolhi focar em Maya."
+    # Adicione o conteúdo da rota de Maya aqui
+    return
+
+label rota_exploracao:
+    p "Decidi explorar a escola primeiro."
+    # Adicione exploração aqui
+    return
+
+label rota_aula:
+    p "Vou direto para a aula."
+    # Adicione conteúdo da aula aqui
     return
 
 # Tela de escolha de gênero
