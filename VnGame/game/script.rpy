@@ -14,7 +14,7 @@ image protaF:
 
 image protaM:
     "protaM.png"
-    zoom 0.8
+    zoom 0.2
     xalign 0.2
     yalign 1.0
 image bg fundo = "fundo.png"
@@ -280,5 +280,5 @@ screen escolha_genero:
                 spacing 10
                 xalign 0.5
                 # Placeholder até ter a foto do homem
-                add "protaM.png"   # retângulo cinza no lugar da foto
+                add "protaM.png" zoom 0.2   # retângulo cinza no lugar da foto
                 textbutton "Homem" action Return("homem") xalign 0.5
