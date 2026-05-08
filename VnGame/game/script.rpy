@@ -11,11 +11,12 @@ image protaF:
     zoom 0.8
     xalign 0.2
     yalign 1
+
 image protaM:
     "protaM.png"
-    zoom 5
-    xalign 0.5
-    yalign 0
+    zoom 0.8
+    xalign 0.2
+    yalign 1.0
 image bg fundo = "fundo.png"
 image espelho:
     "espelho.png"
@@ -50,7 +51,7 @@ label start:
     show screen frase_transicao("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt") with dissolve
     pause 6.0
     hide screen frase_transicao with dissolve
-    show screen frase_transicao("Dia 0") with dissolve
+    show screen frase_transicao("Porta fechando") with dissolve
     pause 1.0
     hide screen frase_transicao with dissolve
     pause 1.0
@@ -164,7 +165,15 @@ label start:
         p "{cps=30}{color=#FFFF00}Mas o mundo não funciona assim e nunca funcionou{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Pelo menos... não para pessoas iguais a mim{/color}{/cps}"
 
-        p "{cps=30}{color=#0099cc}(som do ônibus freando){/color}{/cps}"
+
+
+
+
+        p "{cps=30}{color=#0099cc}(som do ônibus freando){/color}{/cps}" #ESSE !!!!!!!!!
+ 
+
+
+
         p "{cps=30}{color=#FFFF00}…finalmente.{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Que viagem exaustiva…{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}E olha que eu dormi maior parte do tempo no avião.{/color}{/cps}"

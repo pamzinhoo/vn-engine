@@ -122,6 +122,9 @@ screen say(who, what):
 init python:
     config.character_id_prefixes.append('namebox')
 
+init python:
+    config.game_menu_action = ShowMenu("in_game_menu")
+
 style window is default
 style say_label is default
 style say_dialogue is default
@@ -292,7 +295,7 @@ style quick_button_text:
 screen navigation():
 
     vbox:
-        style_prefix "navigation" # cu
+        style_prefix "navigation" 
 
         xpos gui.navigation_xpos
         yalign 0.5
@@ -313,7 +316,7 @@ screen navigation():
 
         textbutton _("Preferências") action ShowMenu("preferences")
 
-        textbutton _("Perfil") action ShowMenu("perfil_catalogo") #cuzinho
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo") 
 
         if _in_replay:
 
@@ -360,7 +363,7 @@ transform button_hover_scale:
         ease 0.15 zoom 1.08 xoffset -2 yoffset -3
     on idle:
         ease 0.15 zoom 1.0 xoffset 0 yoffset 0
-screen main_menu(): #chupisco
+screen main_menu(): 
 
     tag menu
 
@@ -385,34 +388,36 @@ screen main_menu(): #chupisco
             style "main_menu_button"
             xpos 122
             ypos 425
+            at button_hover_scale
             
         textbutton _("Preferências") action ShowMenu('preferences'):
             style "main_menu_button"
             xpos 82
             ypos 540
+            at button_hover_scale
 
 
         textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
             style "main_menu_button"
             xpos 120
             ypos 643
-
+            at button_hover_scale
         
         textbutton _("Sobre") action ShowMenu('about'):
             style "main_menu_button"
             xpos 140
             ypos 750
-
+            at button_hover_scale
         textbutton _("Ajuda") action ShowMenu('help'):
             style "main_menu_button"
             xpos 137
             ypos 863
-
+            at button_hover_scale
         textbutton _("Sair") action Quit(confirm=True):
             style "main_menu_button"
             xpos 148
             ypos 973
-        
+            at button_hover_scale
 
     
 
@@ -445,10 +450,10 @@ style main_menu_button:
     ysize 80
 
 style main_menu_button_text:
-    properties gui.text_properties("button")
     font "fonts/fonte.ttf"
     size 45
-    color "#ffffff"
+    color "#000000"
+    hover_color "#7C7A8D"
 
 style main_menu_title:
     properties gui.text_properties("title")
@@ -478,7 +483,7 @@ screen tela_aviso():
 
 screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
-    style_prefix "game_menu" # cu
+    style_prefix "game_menu"
 
     if main_menu:
         add gui.main_menu_background
@@ -489,8 +494,6 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
         style "game_menu_outer_frame"
 
         hbox:
-
-            ## Reserve espaço para a seção de navegação.
             frame:
                 style "game_menu_navigation_frame"
 
@@ -498,46 +501,101 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
                 style "game_menu_content_frame"
 
                 if scroll == "viewport":
-
                     viewport:
                         yinitial yinitial
                         scrollbars "vertical"
                         mousewheel True
                         draggable True
                         pagekeys True
-
                         side_yfill True
-
                         vbox:
                             spacing spacing
-
                             transclude
 
                 elif scroll == "vpgrid":
-
                     vpgrid:
                         cols 1
                         yinitial yinitial
-
                         scrollbars "vertical"
                         mousewheel True
                         draggable True
                         pagekeys True
-
                         side_yfill True
-
                         spacing spacing
-
                         transclude
 
                 else:
-
                     transclude
-
-    
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
+    else:
+        key "game_menu" action ShowMenu("in_game_menu")
+
+
+## Tela de pause menu (botão direito durante o jogo)
+screen in_game_menu():
+    tag menu
+    modal True
+
+    add gui.game_menu_background
+
+    frame:
+        style "game_menu_outer_frame"
+        hbox:
+            frame:
+                style "game_menu_navigation_frame"
+            frame:
+                style "game_menu_content_frame"
+
+    fixed:
+        textbutton _("Início") action ShowMenu("save"):
+            xpos 50
+            ypos 265
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Carga") action ShowMenu("load"):
+            xpos 50
+            ypos 370
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Preferências") action ShowMenu("preferences"):
+            xpos 50
+            ypos 473
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+            xpos 50
+            ypos 580
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sobre") action ShowMenu("about"):
+            xpos 50
+            ypos 685
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Ajuda") action ShowMenu("help"):
+            xpos 50
+            ypos 785
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Menu Principal") action MainMenu():
+            xpos 50
+            ypos 890
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Voltar") action Return():
+            xpos 50
+            ypos 990
+            xsize 290
+            text_style "load_nav_text"
 
 
 style game_menu_outer_frame is empty
@@ -1273,8 +1331,6 @@ style slider_vbox:
 screen history():
 
     tag menu
-
-    ## Evite prever essa tela, pois ela pode ser muito grande.
     predict False
 
     use game_menu(_("Histórico"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
@@ -1284,19 +1340,13 @@ screen history():
         for h in _history_list:
 
             window:
-
-                ## Isso organiza as coisas corretamente se history_height for
-                ## None.
                 has fixed:
                     yfit True
 
                 if h.who:
-
                     label h.who:
                         style "history_name"
                         substitute False
-
-                        ## Pegue a cor do texto who do caractere, se definido.
                         if "color" in h.who_args:
                             text_color h.who_args["color"]
 
@@ -1307,6 +1357,56 @@ screen history():
         if not _history_list:
             label _("O histórico de diálogo está vazio.")
 
+    fixed:
+        textbutton _("Histórico") action ShowMenu("history"):
+            xpos 50
+            ypos 265
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Salvar") action ShowMenu("save"):
+            xpos 50
+            ypos 370
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Carga") action ShowMenu("load"):
+            xpos 50
+            ypos 473
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Preferências") action ShowMenu("preferences"):
+            xpos 50
+            ypos 580
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+            xpos 50
+            ypos 685
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sobre") action ShowMenu("about"):
+            xpos 50
+            ypos 785
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Ajuda") action ShowMenu("help"):
+            xpos 50
+            ypos 890
+            xsize 290
+            text_style "load_nav_text"
+
+        textbutton _("Sair") action Quit(confirm=True):
+            xpos 50
+            ypos 995
+            xsize 290
+            text_style "load_nav_text"
+
+        
 
 ## Isso determina quais tags podem ser exibidas na tela de histórico.
 
@@ -1327,7 +1427,7 @@ style history_window:
     ysize gui.history_height
 
 style history_name:
-    xpos gui.history_name_xpos
+    xpos 470
     xanchor gui.history_name_xalign
     ypos gui.history_name_ypos
     xsize gui.history_name_width
@@ -1337,7 +1437,7 @@ style history_name_text:
     textalign gui.history_name_xalign
 
 style history_text:
-    xpos gui.history_text_xpos
+    xpos 720
     ypos gui.history_text_ypos
     xanchor gui.history_text_xalign
     xsize gui.history_text_width
@@ -2126,7 +2226,7 @@ screen perfil_catalogo():
 
                 # Botões centralizados no meio
                 vbox:
-                    style_prefix "navigation" # cu
+                    style_prefix "navigation" 
 
                     xpos gui.navigation_xpos
                     yalign 0.5
@@ -2142,7 +2242,7 @@ screen perfil_catalogo():
 
                     textbutton _("Preferências") action ShowMenu("preferences")
                     
-                    textbutton _("Perfil") action ShowMenu("perfil_catalogo") #cuzinho
+                    textbutton _("Perfil") action ShowMenu("perfil_catalogo") 
 
                     
 
