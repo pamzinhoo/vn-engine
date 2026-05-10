@@ -254,31 +254,20 @@ label rota_aula:
 screen escolha_genero:
     modal True
 
-    # Fundo escuro por trás
-    add "#000000"
+    add "images/fundo_selec.png" xpos 0 ypos 0 xysize (1920, 1080)
 
-    vbox:
+
+    hbox:
         xalign 0.5
         yalign 0.5
-        spacing 30
+        spacing 100
 
-        text "Quem você é?" xalign 0.5 size 40 color "#ffffff"
+        imagebutton:
+            idle im.Scale("images/Kyioki select.png", 1500, 1080)
+            action Return("mulher")
+            focus_mask True
 
-        hbox:
-            spacing 50
-            xalign 0.5
-
-            # Botão Mulher (com foto)
-            vbox:
-                spacing 10
-                xalign 0.5
-                add "protaF.png" zoom 0.2  # ajuste o zoom conforme o tamanho da sua foto
-                textbutton "Mulher" action Return("mulher") xalign 0.5
-
-            # Botão Homem (sem foto por enquanto)
-            vbox:
-                spacing 10
-                xalign 0.5
-                # Placeholder até ter a foto do homem
-                add "protaM.png" zoom 0.2   # retângulo cinza no lugar da foto
-                textbutton "Homem" action Return("homem") xalign 0.5
+        imagebutton:
+            idle im.Scale("images/Kurota select.png", 1500, 1080)
+            action Return("homem")
+            focus_mask True
