@@ -297,6 +297,8 @@ screen perfil_catalogo():
 
     if tab == "personagens":
 
+        $ max_visible = 3
+
         # Botão anterior
         textbutton "◄":
             xpos 30
@@ -307,9 +309,8 @@ screen perfil_catalogo():
             text_size 48
             text_color "#ffaa00"
             text_hover_color "#ffffff"
-            action If(carrossel_idx > 0, 
-                    SetScreenVariable("carrossel_idx", carrossel_idx - 1),
-                    NullAction())
+            action SetScreenVariable("carrossel_idx",
+                    len(personagens_lista) - max_visible if carrossel_idx <= 0 else carrossel_idx - 1)
 
         # Frame carrossel
         frame:
@@ -320,7 +321,7 @@ screen perfil_catalogo():
             background "#00000000"
 
             hbox:
-                spacing 30
+                spacing 0
                 xalign 0.5
                 yalign 0.5
 
@@ -337,21 +338,20 @@ screen perfil_catalogo():
 
                     button:
                         at card_hover_zoom
-                        action [
-                            SetScreenVariable("personagem_selecionado", char_nome),
-                            Function(play_page_flip)
-                        ]
+                        action [SetScreenVariable("personagem_selecionado", char_nome), Show("detalhes_perfil", data=char_data)]
 
                         frame:
                             if is_selected:
                                 background "#ffffff33"
-                                xysize (380, 750)
-                                padding (8, 8, 8, 8)
+                                xysize (500, 700)
+                                padding (12, 12, 12, 12)
                                 at carousel_flip_in
                             else:
                                 background "#1a1a1a"
-                                xysize (370, 740)
-                                padding (6, 6, 6, 6)
+                                xysize (480, 680)
+                                padding (10, 10, 10, 10)
+                                xalign 0.0
+                                yalign 0.5
 
                             vbox:
                                 spacing 0
@@ -361,22 +361,22 @@ screen perfil_catalogo():
                                 # Foto
                                 frame:
                                     background "#0a0a0a"
-                                    xysize (370, 690)
+                                    xysize (480, 580)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (370, 690)
+                                            xysize (480, 580)
                                     else:
                                         text "???":
 
-                                            size 80
+                                            size 100
                                             color "#555555"
                                             xalign 0.5
                                             yalign 0.5
 
                                 # Nome
                                 text char_nome:
-                                    size 11
+                                    size 18
                                     color "#ffffff"
                                     xalign 0.5
                                     yalign 0.5
@@ -391,11 +391,12 @@ screen perfil_catalogo():
             text_size 48
             text_color "#ffaa00"
             text_hover_color "#ffffff"
-            action If(carrossel_idx < len(personagens_lista) - max_visible,
-                    SetScreenVariable("carrossel_idx", carrossel_idx + 1),
-                    NullAction())
+            action SetScreenVariable("carrossel_idx",
+                    0 if carrossel_idx >= len(personagens_lista) - max_visible else carrossel_idx + 1)
 
     elif tab == "lugares":
+
+        $ max_visible = 3
 
         # Botão anterior lugares
         textbutton "◄":
@@ -407,9 +408,8 @@ screen perfil_catalogo():
             text_size 48
             text_color "#ffaa00"
             text_hover_color "#ffffff"
-            action If(carrossel_idx_lugares > 0, 
-                    SetScreenVariable("carrossel_idx_lugares", carrossel_idx_lugares - 1),
-                    NullAction())
+            action SetScreenVariable("carrossel_idx_lugares",
+                    max(0, len(lugares_lista) - max_visible) if carrossel_idx_lugares <= 0 else carrossel_idx_lugares - 1)
 
         # Frame carrossel lugares
         frame:
@@ -420,7 +420,7 @@ screen perfil_catalogo():
             background "#00000000"
 
             hbox:
-                spacing 30
+                spacing 0
                 xalign 0.5
                 yalign 0.5
 
@@ -437,21 +437,20 @@ screen perfil_catalogo():
 
                     button:
                         at card_hover_zoom
-                        action [
-                            SetScreenVariable("lugar_selecionado", lugar_nome),
-                            Function(play_page_flip)
-                        ]
+                        action [SetScreenVariable("lugar_selecionado", lugar_nome), Show("detalhes_perfil", data=lugar_data)]
 
                         frame:
                             if is_selected:
                                 background "#ffffff33"
-                                xysize (380, 750)
-                                padding (8, 8, 8, 8)
+                                xysize (500, 700)
+                                padding (12, 12, 12, 12)
                                 at carousel_flip_in
                             else:
                                 background "#1a1a1a"
-                                xysize (370, 740)
-                                padding (6, 6, 6, 6)
+                                xysize (480, 680)
+                                padding (10, 10, 10, 10)
+                                xalign 0.0
+                                yalign 0.5
 
                             vbox:
                                 spacing 0
@@ -461,22 +460,22 @@ screen perfil_catalogo():
                                 # Foto
                                 frame:
                                     background "#0a0a0a"
-                                    xysize (370, 690)
+                                    xysize (480, 580)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (370, 690)
+                                            xysize (480, 580)
                                     else:
                                         text "???":
 
-                                            size 80
+                                            size 100
                                             color "#555555"
                                             xalign 0.5
                                             yalign 0.5
 
                                 # Nome
                                 text lugar_nome:
-                                    size 11
+                                    size 18
                                     color "#ffffff"
                                     xalign 0.5
                                     yalign 0.5
@@ -491,11 +490,12 @@ screen perfil_catalogo():
             text_size 48
             text_color "#ffaa00"
             text_hover_color "#ffffff"
-            action If(carrossel_idx_lugares < len(lugares_lista) - max_visible,
-                    SetScreenVariable("carrossel_idx_lugares", carrossel_idx_lugares + 1),
-                    NullAction())
+            action SetScreenVariable("carrossel_idx_lugares",
+                    0 if carrossel_idx_lugares >= len(lugares_lista) - max_visible else carrossel_idx_lugares + 1)
 
     elif tab == "rotas":
+
+        $ max_visible = 3
 
         # Botão anterior rotas
         textbutton "◄":
@@ -507,9 +507,8 @@ screen perfil_catalogo():
             text_size 48
             text_color "#ffaa00"
             text_hover_color "#ffffff"
-            action If(carrossel_idx_rotas > 0, 
-                    SetScreenVariable("carrossel_idx_rotas", carrossel_idx_rotas - 1),
-                    NullAction())
+            action SetScreenVariable("carrossel_idx_rotas",
+                    max(0, len(rotas_lista) - max_visible) if carrossel_idx_rotas <= 0 else carrossel_idx_rotas - 1)
 
         # Frame carrossel rotas
         frame:
@@ -520,7 +519,7 @@ screen perfil_catalogo():
             background "#00000000"
 
             hbox:
-                spacing 30
+                spacing 0
                 xalign 0.5
                 yalign 0.5
 
@@ -537,21 +536,20 @@ screen perfil_catalogo():
 
                     button:
                         at card_hover_zoom
-                        action [
-                            SetScreenVariable("rota_selecionada", rota_nome),
-                            Function(play_page_flip)
-                        ]
+                        action [SetScreenVariable("rota_selecionada", rota_nome), Show("detalhes_perfil", data=rota_data)]
 
                         frame:
                             if is_selected:
                                 background "#ffffff33"
-                                xysize (380, 750)
-                                padding (8, 8, 8, 8)
+                                xysize (500, 700)
+                                padding (12, 12, 12, 12)
                                 at carousel_flip_in
                             else:
                                 background "#1a1a1a"
-                                xysize (370, 740)
-                                padding (6, 6, 6, 6)
+                                xysize (480, 680)
+                                padding (10, 10, 10, 10)
+                                xalign 0.0
+                                yalign 0.5
 
                             vbox:
                                 spacing 0
@@ -561,22 +559,22 @@ screen perfil_catalogo():
                                 # Foto
                                 frame:
                                     background "#0a0a0a"
-                                    xysize (370, 690)
+                                    xysize (480, 580)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (370, 690)
+                                            xysize (480, 580)
                                     else:
                                         text "???":
 
-                                            size 80
+                                            size 100
                                             color "#555555"
                                             xalign 0.5
                                             yalign 0.5
 
                                 # Nome
                                 text rota_nome:
-                                    size 11
+                                    size 18
                                     color "#ffffff"
                                     xalign 0.5
                                     yalign 0.5
@@ -591,94 +589,12 @@ screen perfil_catalogo():
             text_size 48
             text_color "#ffaa00"
             text_hover_color "#ffffff"
-            action If(carrossel_idx_rotas < len(rotas_lista) - max_visible,
-                    SetScreenVariable("carrossel_idx_rotas", carrossel_idx_rotas + 1),
-                    NullAction())
+            action SetScreenVariable("carrossel_idx_rotas",
+                    0 if carrossel_idx_rotas >= len(rotas_lista) - max_visible else carrossel_idx_rotas + 1)
 
     # ════════════════════════════════════════════════════════════════════════════
-    # PAINEL DE DETALHES
+    # PAINEL DE DETALHES REMOVIDO - AGORA EM TELA SEPARADA
     # ════════════════════════════════════════════════════════════════════════════
-
-    if tab == "personagens":
-        $ dados = personagens_dados[personagem_selecionado]
-        $ nome = dados["nome"]
-        $ descricao = dados["descricao"]
-        $ historia = dados["historia"]
-        $ curiosidade = dados["curiosidade"]
-    elif tab == "lugares":
-        $ dados = lugares_dados[lugar_selecionado]
-        $ nome = dados["nome"]
-        $ descricao = dados["descricao"]
-        $ historia = dados["historia"]
-        $ curiosidade = dados["curiosidade"]
-    elif tab == "rotas":
-        $ dados = rotas_dados[rota_selecionada]
-        $ nome = dados["nome"]
-        $ descricao = dados["descricao"]
-        $ historia = dados["historia"]
-        $ curiosidade = dados["curiosidade"]
-
-    # Frame detalhes
-    frame:
-        xpos 140
-        ypos 980
-        xsize 1640
-        ysize 70
-        background "#1a1510"
-        padding (15, 10, 15, 10)
-
-        viewport:
-            xfill True
-            yfill True
-            mousewheel True
-            draggable True
-            at carousel_flip_in
-
-            vbox:
-                spacing 15
-
-                # Nome
-                text nome:
-                    size 32
-                    color "#ffaa00"
-                    font "fonts/fonte.ttf"
-
-                # Linha
-                frame:
-                    background "#ffaa00"
-                    xfill True
-                    ysize 2
-
-                # Conteúdo
-                hbox:
-                    spacing 40
-                    xfill True
-
-                    vbox:
-                        xsize 600
-                        spacing 10
-
-                        text "Descrição":
-                            style "info_label"
-
-                        text descricao:
-                            style "info_text"
-
-                        text "História":
-                            style "info_label"
-
-                        text historia:
-                            style "info_text"
-
-                    vbox:
-                        xsize 600
-                        spacing 10
-
-                        text "Curiosidades":
-                            style "info_label"
-
-                        text curiosidade:
-                            style "info_text"
 
 ################################################################################
 ## CATÁLOGO COM CARROSSEL HORIZONTAL
@@ -698,3 +614,116 @@ screen perfil_catalogo():
 ################################################################################
 ## Foto do Pam carrega perfeitamente | Cantos "L" elegantes
 ################################################################################
+
+## ── Tela de Detalhes ────────────────────────────────────────────────────────
+screen detalhes_perfil(data):
+    modal True
+    zorder 150
+
+    add Solid("#000000aa")
+
+    frame:
+        xpos 160
+        ypos 80
+        xsize 1600
+        ysize 900
+        background Frame("gui/frame.png", 20, 20)
+        padding (24, 24, 24, 24)
+
+        vbox:
+            spacing 20
+            xfill True
+            yfill True
+
+            # Cabeçalho em estilo livro
+            frame:
+                background Solid("#2d1f15")
+                xfill True
+                ysize 80
+                padding (20, 16)
+
+                hbox:
+                    spacing 20
+                    xfill True
+                    yfill True
+
+                    text "📖 " + data["nome"]:
+                        style "perfil_livro_titulo"
+                        yalign 0.5
+
+                    null:
+                        xfill True
+
+                    textbutton "✕":
+                        style "botao_fechar_livro"
+                        text_color "#c8b89a"
+                        xalign 1.0
+                        action Hide("detalhes_perfil")
+
+            frame:
+                background Solid("#8b5a2b")
+                xfill True
+                ysize 3
+
+            hbox:
+                spacing 20
+                xfill True
+                yfill True
+
+                # Página esquerda com foto
+                frame:
+                    background Solid("#f0e8d8")
+                    xsize 520
+                    yfill True
+                    padding (24, 24, 24, 24)
+
+                    vbox:
+                        spacing 20
+                        xfill True
+                        yfill True
+
+                        if not data["bloqueado"] and renpy.loadable(data["foto"]):
+                            add data["foto"]:
+                                xysize (460, 460)
+                                xalign 0.5
+                                yalign 0.5
+                        else:
+                            text "???:":
+                                size 110
+                                color "#555555"
+                                xalign 0.5
+                                yalign 0.5
+
+                # Página direita com informações
+                frame:
+                    background Solid("#111111")
+                    xfill True
+                    yfill True
+                    padding (24, 24, 24, 24)
+
+                    viewport:
+                        xfill True
+                        yfill True
+                        mousewheel True
+                        draggable True
+
+                        vbox:
+                            spacing 18
+
+                            text "Descrição":
+                                style "perfil_secao_titulo"
+
+                            text data["descricao"]:
+                                style "perfil_label"
+
+                            text "História":
+                                style "perfil_secao_titulo"
+
+                            text data["historia"]:
+                                style "perfil_label"
+
+                            text "Curiosidades":
+                                style "perfil_secao_titulo"
+
+                            text data["curiosidade"]:
+                                style "perfil_label"
