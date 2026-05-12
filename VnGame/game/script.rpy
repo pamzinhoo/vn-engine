@@ -51,10 +51,6 @@ label start:
     show screen frase_transicao("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt") with dissolve
     pause 6.0
     hide screen frase_transicao with dissolve
-    show screen frase_transicao("Porta fechando") with dissolve
-    pause 1.0
-    hide screen frase_transicao with dissolve
-    pause 1.0
     show screen horario("…4:55 da manhã.") with dissolve
     pause 2.0
     hide screen horario with dissolve
@@ -77,7 +73,7 @@ label start:
         $ nome_prota = "Kiyoki Kovalenko" 
         
         show screen day_locate("00", "Escola - Corredor")
-        p "{cps=30}{color=#FFFF00}Mal consigo abrir os olhos.{/color}{/cps}"
+        p "{cps=30}{color=#FFFF00}Mal consigo abrir os olhos.{/color}{/cps}" #cama
         
         p "{cps=30}{color=#FFFF00}Minhas pálpebras pesam, e o cansaço parece grudado no meu corpo.{/color}{/cps}"
         
@@ -94,7 +90,7 @@ label start:
         
         p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
 
-        p "{cps=30}{color=#FFFF00}Essa sou eu.{/color}{/cps}"
+        p "{cps=30}{color=#FFFF00}Essa sou eu.{/color}{/cps}"# mostrar o espelho aqui, talvez?
         
         p "{cps=30}{color=#FFFF00}Descabelada. Exausta.{/color}{/cps}"
         
@@ -169,32 +165,11 @@ label start:
 
 
 
-        p "{cps=30}{color=#0099cc}(som do ônibus freando){/color}{/cps}" #ESSE !!!!!!!!!
- 
-
-
-
-        p "{cps=30}{color=#FFFF00}…finalmente.{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}Que viagem exaustiva…{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}E olha que eu dormi maior parte do tempo no avião.{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}Minhas costas ainda doem por causa das cadeiras do ônibus.{/color}{/cps}"
         
-        p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}Mas tudo bem.{/color}{/cps}" # sprites começa aqui
-        show protaF
-        p "{cps=30}{color=#FFFF00}Valeu a pena.{/color}{/cps}"
-
-        p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}Finalmente estou aqui.{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}O Instituto Real de Insterburg.{/color}{/cps}"
-        p "{cps=30}{color=#0099cc}(eu olho para aqueles enormes portões com um leve aperto na garganta){/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}Então é isso.{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}A partir daqui…{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}Nada será o mesmo.{/color}{/cps}"
         
-        p "{cps=30}{color=#0099cc}(porta fechando){/color}{/cps}"
+       
         
-        # Escolha da rota inicial
+        
         menu:
             "Focar em Pam":
                 jump rota_pam
@@ -206,7 +181,7 @@ label start:
     elif persistent.genero == "homem":
         $ nome_prota = "Kuroya Yagami"
         show protaM
-        show screen day_locate("Escola - Corredor", "00") # esconder day locate -> hide screen day_locate
+        show screen day_locate("00", "Escola - Corredor")
         p "{cps=30}parte masculina{/cps}"
         
         p "{cps=30}a fala do personagem masculino é diferente{/cps}"
@@ -251,23 +226,42 @@ label rota_aula:
     return
 
 # Tela de escolha de gênero
+transform hover_glow:
+    on hover:
+        linear 0.15 zoom 1.02
+    on idle:
+        linear 0.15 zoom 1.0
+
 screen escolha_genero:
     modal True
 
     add "images/fundo_selec.png" xpos 0 ypos 0 xysize (1920, 1080)
 
-
     hbox:
         xalign 0.5
         yalign 0.5
-        spacing 100
+        spacing 0
 
-        imagebutton:
-            idle im.Scale("images/Kyioki select.png", 1500, 1080)
+        button:
+            xalign 1.0
+            xoffset 100
+            yoffset 50
+            yalign 0.5
             action Return("mulher")
             focus_mask True
+            at hover_glow
+            background None
+           
+            padding (12, 12, 12, 12)
+            add im.FactorScale("images/Kyioki select.png", 0.4)
 
-        imagebutton:
-            idle im.Scale("images/Kurota select.png", 1500, 1080)
+        button:
+            yalign 0.5
+            yoffset -125
             action Return("homem")
             focus_mask True
+            at hover_glow
+            background None
+            
+            padding (12, 12, 12, 12)
+            add im.FactorScale("images/Kuroya select.png", 1.4)
