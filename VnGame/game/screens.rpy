@@ -552,49 +552,57 @@ screen in_game_menu():
         textbutton _("Início") action ShowMenu("save"):
             xpos 50
             ypos 265
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 370
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 473
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 685
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 785
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Menu Principal") action MainMenu():
             xpos 50
             ypos 890
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Voltar") action Return():
             xpos 50
             ypos 990
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
 
@@ -681,43 +689,43 @@ screen about():
         textbutton _("Início") action Return():
             xpos 50
             ypos 265
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 370
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 473
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 685
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 785
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Voltar") action Return():
@@ -754,43 +762,50 @@ screen save():
     textbutton _("Histórico") action ShowMenu("history"):
         xpos 50
         ypos 265
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Carga") action ShowMenu("load"):
         xpos 50
         ypos 370
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Preferências") action ShowMenu("preferences"):
         xpos 50
         ypos 473
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
         xpos 50
         ypos 580
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Sobre") action ShowMenu("about"):
         xpos 50
         ypos 685
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Ajuda") action ShowMenu("help"):
         xpos 50
         ypos 785
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Sair") action Quit(confirm=True):
         xpos 50
         ypos 890
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Voltar") action Return():
@@ -870,43 +885,50 @@ screen load():
     textbutton _("Histórico") action ShowMenu("history"):
         xpos 50
         ypos 265    # ← retângulo 1
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Carga") action ShowMenu("load"):
         xpos 50
         ypos 370    # ← retângulo 2
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Preferências") action ShowMenu("preferences"):
         xpos 50
         ypos 473     # ← retângulo 3
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
         xpos 50
         ypos 580    # ← retângulo 4
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Sobre") action ShowMenu("about"):
         xpos 50
         ypos 685     # ← retângulo 5
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Ajuda") action ShowMenu("help"):
         xpos 50
         ypos 785    # ← retângulo 6
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     textbutton _("Sair") action Quit(confirm=True):
         xpos 50
         ypos 890     # ← retângulo 7
-        xsize 290
+        xsize 310
+        ysize 70
         text_style "load_nav_text"
 
     # textbutton _("Sair") action Quit(confirm=True):
@@ -973,7 +995,7 @@ screen load():
 style load_nav_text:
     color "#000000"
     hover_color "#222222"
-    size 32
+    size 40
     font "fonts/fonte.ttf"
     xalign 0.5
     yalign 0.5
@@ -1130,6 +1152,7 @@ screen preferences():
                         label _("Tela")
                         textbutton _("Janela") action Preference("display", "window")
                         textbutton _("Tela cheia") action Preference("display", "fullscreen")
+                
 
                 vbox:
                     style_prefix "check"
@@ -1142,8 +1165,13 @@ screen preferences():
                 ## ser adicionadas aqui para acrescentar outras preferências
                 ## definidas pelo criador.
 
-            null height (4 * gui.pref_spacing)
+                vbox:
+                    style_prefix "radio"
+                    label _("Idioma / Language")
+                    textbutton "Português" action Language(None)
+                    textbutton "English" action Language("english")
 
+            null height (4 * gui.pref_spacing)
             hbox:
                 style_prefix "slider"
                 box_wrap True
@@ -1192,47 +1220,48 @@ screen preferences():
                         textbutton _("Silenciar tudo"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
+                
     fixed:
         textbutton _("Início") action Return():
             xpos 50
             ypos 265
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 370    # ← retângulo 2
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 473     # ← retângulo 3
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580    # ← retângulo 4
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 685     # ← retângulo 5
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 785    # ← retângulo 6
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890     # ← retângulo 7
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         # textbutton _("Sair") action Quit(confirm=True):
@@ -1361,49 +1390,57 @@ screen history():
         textbutton _("Histórico") action ShowMenu("history"):
             xpos 50
             ypos 265
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Salvar") action ShowMenu("save"):
             xpos 50
             ypos 370
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 473
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 580
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 685
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 785
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 890
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 995
-            xsize 290
+            xsize 310
+            ysize 70
             text_style "load_nav_text"
 
         
@@ -1497,43 +1534,43 @@ screen help():
         textbutton _("Início") action Return():
             xpos 50
             ypos 265
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 370
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 473
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 685
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 785
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890
-            xsize 290
+            xsize 310
             text_style "load_nav_text"
 
         textbutton _("Voltar") action Return():
