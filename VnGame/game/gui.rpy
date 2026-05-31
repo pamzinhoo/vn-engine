@@ -496,8 +496,8 @@ define gui.name_xalign = 0.0
 define gui.text_size = 26
 define gui.name_xpos = 100
 define gui.name_ypos = -1
-define gui.dialogue_xpos = 490
-define gui.dialogue_ypos = 50
+define gui.dialogue_xpos = 380
+define gui.dialogue_ypos = 20
 define gui.dialogue_width = 1200
 
 

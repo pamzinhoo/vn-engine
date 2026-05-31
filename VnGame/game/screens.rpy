@@ -109,8 +109,10 @@ screen say(who, what):
         text who:
             id "who"
             style "say_label"
-            xpos 374
-            ypos 804
+            xpos 499
+            xanchor 0.5
+            ypos 736
+            yanchor 0.5
             color "#0099cc"
             
 
@@ -2221,7 +2223,7 @@ screen day_locate(local, dia):
         yanchor 0.5
         xsize 191
         color "#000000"
-        size 33
+        size 18
         font "fonts/fonte.ttf"
         text_align 0.5
         layout "subtitle"
