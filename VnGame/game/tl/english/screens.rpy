@@ -145,12 +145,6 @@ translate english strings:
     old "Fuga"
     new "Escape"
 
-    old "Ctrl"
-    new "Ctrl"
-
-    old "Tab"
-    new "Tab"
-
     old "Página para cima"
     new "Page Up"
 

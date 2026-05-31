@@ -253,7 +253,7 @@ screen escolha_genero:
             background None
            
             padding (12, 12, 12, 12)
-            add im.FactorScale("images/Kyioki select.png", 0.4)
+            add "images/Kyioki select.png" zoom 0.4
 
         button:
             yalign 0.5
@@ -264,4 +264,4 @@ screen escolha_genero:
             background None
             
             padding (12, 12, 12, 12)
-            add im.FactorScale("images/Kuroya select.png", 1.4)
+            add "images/Kuroya select.png" zoom 1.4

@@ -140,7 +140,7 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    background Image("gui/textbox2.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -2213,23 +2213,29 @@ screen day_locate(local, dia):
     # Imagem por cima de tudo
     add "day_locate.png" xalign 0.5 ypos 0
 
-    # Texto no quadrado esquerdo (dia)
-    text dia: # locate
-        xpos 115
-        ypos 97
+    # Texto na placa oval (localização)
+    text dia:
+        xpos 134
+        xanchor 0.5
+        ypos 103
+        yanchor 0.5
+        xsize 191
         color "#000000"
-        size 22
+        size 33
         font "fonts/fonte.ttf"
-        
+        text_align 0.5
+        layout "subtitle"
 
-    # Texto na lâmpada direita (localização)
-    text local: # dia
-        xpos 1780
-        ypos 56
+    # Texto na lanterna (dia/número)
+    text local:
+        xpos 75
+        xanchor 0.5
+        ypos 249
+        yanchor 0.5
         color "#000000"
-        size 40
+        size 33
         font "fonts/fonte.ttf"
-          
+        text_align 0.5
 
 
 ################################################################################
