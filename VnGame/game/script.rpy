@@ -125,7 +125,7 @@ label start:
 
         p "{cps=30}{color=#FFFF00}Eu nasci na Europa.{/color}{/cps}"
 
-        p "{cps=30}{color=#FFFF00}Mais especificamente em Insterburg, uma cidade da Prússia.{/color}{/cps}"
+        p "{cps=30}{color=#FFFF00}Mais especificamente em York , uma cidade da Prússia.{/color}{/cps}"
         
         p "{cps=30}{color=#FFFF00}É pra lá que eu estou voltando agora.{/color}{/cps}"
         
@@ -144,7 +144,7 @@ label start:
         p "{cps=30}{color=#FFFF00}Novo tudo.{/color}{/cps}"
 
         p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}O nome é Instituto Real de Insterburg.{/color}{/cps}"
+        p "{cps=30}{color=#FFFF00}O nome é Instituto Real de York .{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Sim… eu sei como isso soa.{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Eu sou rica.{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Riquinha mimada, se você preferir.{/color}{/cps}"
@@ -177,7 +177,7 @@ label start:
         p "{cps=30}{color=#FFFF00}Mas tudo bem.{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Valeu a pena.{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Finalmente estou aqui.{/color}{/cps}"
-        p "{cps=30}{color=#FFFF00}O Instituto Real de Insterburg{/color}{/cps}"
+        p "{cps=30}{color=#FFFF00}O Instituto Real de York {/color}{/cps}"
         p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}Então é isso.{/color}{/cps}"
         p "{cps=30}{color=#FFFF00}A partir daqui…{/color}{/cps}"
