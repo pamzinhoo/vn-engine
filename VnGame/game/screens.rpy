@@ -382,43 +382,43 @@ screen main_menu():
     fixed:
         textbutton _("Início") action Start():
             style "main_menu_button"
-            xpos 137
-            ypos 320
+            xpos 120
+            ypos 310
             at button_hover_scale
 
         textbutton _("Carregar") action ShowMenu('load'):
             style "main_menu_button"
-            xpos 122
+            xpos 100
             ypos 425
             at button_hover_scale
             
         textbutton _("Preferências") action ShowMenu('preferences'):
             style "main_menu_button"
-            xpos 82
+            xpos 60
             ypos 540
             at button_hover_scale
 
 
         textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
             style "main_menu_button"
-            xpos 120
-            ypos 643
+            xpos 105
+            ypos 650
             at button_hover_scale
         
         textbutton _("Sobre") action ShowMenu('about'):
             style "main_menu_button"
-            xpos 140
+            xpos 125
             ypos 750
             at button_hover_scale
         textbutton _("Ajuda") action ShowMenu('help'):
             style "main_menu_button"
-            xpos 137
+            xpos 115
             ypos 863
             at button_hover_scale
         textbutton _("Sair") action Quit(confirm=True):
             style "main_menu_button"
-            xpos 148
-            ypos 973
+            xpos 125
+            ypos 980
             at button_hover_scale
 
     
