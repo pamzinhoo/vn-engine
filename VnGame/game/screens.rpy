@@ -318,7 +318,7 @@ screen navigation():
 
         textbutton _("Preferências") action ShowMenu("preferences")
 
-        textbutton _("Perfil") action ShowMenu("perfil_catalogo") 
+        textbutton _("Catálogo") action ShowMenu("perfil_catalogo") 
 
         if _in_replay:
 
@@ -399,7 +399,7 @@ screen main_menu():
             at button_hover_scale
 
 
-        textbutton _("Catalogo") action ShowMenu('perfil_catalogo'):
+        textbutton _("Catálogo") action ShowMenu('perfil_catalogo'):
             style "main_menu_button"
             xpos 105
             ypos 650
@@ -572,7 +572,7 @@ screen in_game_menu():
             ysize 70
             text_style "load_nav_text"
 
-        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
             xsize 310
@@ -706,7 +706,7 @@ screen about():
             xsize 310
             text_style "load_nav_text"
 
-        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
             xsize 310
@@ -782,7 +782,7 @@ screen save():
         ysize 70
         text_style "load_nav_text"
 
-    textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+    textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
         xpos 50
         ypos 580
         xsize 310
@@ -905,7 +905,7 @@ screen load():
         ysize 70
         text_style "load_nav_text"
 
-    textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+    textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
         xpos 50
         ypos 580    # ← retângulo 4
         xsize 310
@@ -1242,7 +1242,7 @@ screen preferences():
             xsize 310
             text_style "load_nav_text"
 
-        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580    # ← retângulo 4
             xsize 310
@@ -1417,7 +1417,7 @@ screen history():
             ysize 70
             text_style "load_nav_text"
 
-        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 685
             xsize 310
@@ -1551,7 +1551,7 @@ screen help():
             xsize 310
             text_style "load_nav_text"
 
-        textbutton _("Perfil") action ShowMenu("perfil_catalogo"):
+        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
             xsize 310
@@ -2287,7 +2287,7 @@ screen perfil_catalogo():
 
                     textbutton _("Preferências") action ShowMenu("preferences")
                     
-                    textbutton _("Perfil") action ShowMenu("perfil_catalogo") 
+                    textbutton _("Catálogo") action ShowMenu("perfil_catalogo") 
 
                     
 

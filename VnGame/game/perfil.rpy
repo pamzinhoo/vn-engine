@@ -38,7 +38,7 @@ init -1:
 
 screen botao_perfil():
     frame:
-        textbutton "{b}{i}Perfil{/i}{/b}":
+        textbutton "{b}{i}Diário{/i}{/b}":
             xalign 0.5
             yalign 0.5
             action Show("perfil_janela")
@@ -126,7 +126,7 @@ screen perfil_janela():
                     xfill True
                     spacing 20
 
-                    text "📖 PERFIL":
+                    text "📖 DIÁRIO":
                         style "perfil_livro_titulo"
 
                     null width 50

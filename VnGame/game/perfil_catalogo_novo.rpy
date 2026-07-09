@@ -178,13 +178,6 @@ init python:
 
 ## ── Transformações/Animações ────────────────────────────────────────────────
 
-## Animação de entrada do card
-transform carousel_flip_in:
-    zoom 0.0
-    time 0.0
-    
-    easeout 0.35 zoom 1.0
-
 ## Animação de zoom no hover
 transform card_hover_zoom:
     zoom 1.0
@@ -195,7 +188,7 @@ transform card_hover_zoom:
 ## ── Estilos ─────────────────────────────────────────────────────────────────
 style info_label is default:
     size 18
-    color "#ffaa00"
+    color "#00AAE2"
     font "fonts/fonte.ttf"
 
 style info_text is default:
@@ -218,11 +211,11 @@ screen perfil_catalogo():
     default rota_selecionada = "Rota de Pam"
     default carrossel_idx_rotas = 0
 
-    $ bg_personagens = "#ffaa00" if tab == "personagens" else "#2a2a2a"
+    $ bg_personagens = "#00AAE2" if tab == "personagens" else "#2a2a2a"
     $ tc_personagens = "#000000" if tab == "personagens" else "#ffffff"
-    $ bg_lugares = "#ffaa00" if tab == "lugares" else "#2a2a2a"
+    $ bg_lugares = "#00AAE2" if tab == "lugares" else "#2a2a2a"
     $ tc_lugares = "#000000" if tab == "lugares" else "#ffffff"
-    $ bg_rotas = "#ffaa00" if tab == "rotas" else "#2a2a2a"
+    $ bg_rotas = "#00AAE2" if tab == "rotas" else "#2a2a2a"
     $ tc_rotas = "#000000" if tab == "rotas" else "#ffffff"
 
     # Menu lateral (estilo da imagem)
@@ -245,7 +238,7 @@ screen perfil_catalogo():
                 xalign 0.5
 
             frame:
-                background "#ffaa00"
+                background "#00AAE2"
                 xfill True
                 ysize 3
 
@@ -288,7 +281,7 @@ screen perfil_catalogo():
         xpos 200
         ypos 20
         size 44
-        color "#ffaa00"
+        color "#00AAE2"
         font "fonts/fonte.ttf"
 
     # ════════════════════════════════════════════════════════════════════════════
@@ -307,7 +300,7 @@ screen perfil_catalogo():
             background "#2a2a2a"
             hover_background Solid("#444444")
             text_size 48
-            text_color "#ffaa00"
+            text_color "#00AAE2"
             text_hover_color "#ffffff"
             action SetScreenVariable("carrossel_idx",
                     len(personagens_lista) - max_visible if carrossel_idx <= 0 else carrossel_idx - 1)
@@ -345,7 +338,6 @@ screen perfil_catalogo():
                                 background "#ffffff33"
                                 xysize (500, 700)
                                 padding (12, 12, 12, 12)
-                                at carousel_flip_in
                             else:
                                 background "#1a1a1a"
                                 xysize (480, 680)
@@ -389,7 +381,7 @@ screen perfil_catalogo():
             background "#2a2a2a"
             hover_background Solid("#444444")
             text_size 48
-            text_color "#ffaa00"
+            text_color "#00AAE2"
             text_hover_color "#ffffff"
             action SetScreenVariable("carrossel_idx",
                     0 if carrossel_idx >= len(personagens_lista) - max_visible else carrossel_idx + 1)
@@ -406,7 +398,7 @@ screen perfil_catalogo():
             background "#2a2a2a"
             hover_background Solid("#444444")
             text_size 48
-            text_color "#ffaa00"
+            text_color "#00AAE2"
             text_hover_color "#ffffff"
             action SetScreenVariable("carrossel_idx_lugares",
                     max(0, len(lugares_lista) - max_visible) if carrossel_idx_lugares <= 0 else carrossel_idx_lugares - 1)
@@ -444,7 +436,6 @@ screen perfil_catalogo():
                                 background "#ffffff33"
                                 xysize (500, 700)
                                 padding (12, 12, 12, 12)
-                                at carousel_flip_in
                             else:
                                 background "#1a1a1a"
                                 xysize (480, 680)
@@ -488,7 +479,7 @@ screen perfil_catalogo():
             background "#2a2a2a"
             hover_background Solid("#444444")
             text_size 48
-            text_color "#ffaa00"
+            text_color "#00AAE2"
             text_hover_color "#ffffff"
             action SetScreenVariable("carrossel_idx_lugares",
                     0 if carrossel_idx_lugares >= len(lugares_lista) - max_visible else carrossel_idx_lugares + 1)
@@ -505,7 +496,7 @@ screen perfil_catalogo():
             background "#2a2a2a"
             hover_background Solid("#444444")
             text_size 48
-            text_color "#ffaa00"
+            text_color "#00AAE2"
             text_hover_color "#ffffff"
             action SetScreenVariable("carrossel_idx_rotas",
                     max(0, len(rotas_lista) - max_visible) if carrossel_idx_rotas <= 0 else carrossel_idx_rotas - 1)
@@ -543,7 +534,6 @@ screen perfil_catalogo():
                                 background "#ffffff33"
                                 xysize (500, 700)
                                 padding (12, 12, 12, 12)
-                                at carousel_flip_in
                             else:
                                 background "#1a1a1a"
                                 xysize (480, 680)
@@ -587,7 +577,7 @@ screen perfil_catalogo():
             background "#2a2a2a"
             hover_background Solid("#444444")
             text_size 48
-            text_color "#ffaa00"
+            text_color "#00AAE2"
             text_hover_color "#ffffff"
             action SetScreenVariable("carrossel_idx_rotas",
                     0 if carrossel_idx_rotas >= len(rotas_lista) - max_visible else carrossel_idx_rotas + 1)
