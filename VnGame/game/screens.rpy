@@ -382,42 +382,42 @@ screen main_menu():
     fixed:
         textbutton _("Início") action Start():
             style "main_menu_button"
-            xpos 120
+            xpos 0
             ypos 310
             at button_hover_scale
 
         textbutton _("Carregar") action ShowMenu('load'):
             style "main_menu_button"
-            xpos 100
+            xpos 0
             ypos 425
             at button_hover_scale
             
         textbutton _("Preferências") action ShowMenu('preferences'):
             style "main_menu_button"
-            xpos 60
+            xpos 0
             ypos 540
             at button_hover_scale
 
 
         textbutton _("Catálogo") action ShowMenu('perfil_catalogo'):
             style "main_menu_button"
-            xpos 105
+            xpos 0
             ypos 650
             at button_hover_scale
         
         textbutton _("Sobre") action ShowMenu('about'):
             style "main_menu_button"
-            xpos 125
+            xpos 0
             ypos 750
             at button_hover_scale
         textbutton _("Ajuda") action ShowMenu('help'):
             style "main_menu_button"
-            xpos 115
+            xpos 0
             ypos 863
             at button_hover_scale
         textbutton _("Sair") action Quit(confirm=True):
             style "main_menu_button"
-            xpos 125
+            xpos 0
             ypos 980
             at button_hover_scale
 
@@ -450,12 +450,15 @@ style main_menu_text:
 style main_menu_button:
     properties gui.button_properties("button")
     ysize 80
+    xsize 360
 
 style main_menu_button_text:
     font "fonts/fonte.ttf"
     size 45
     color "#000000"
     hover_color "#7C7A8D"
+    xalign 0.5
+    text_align 0.5
 
 style main_menu_title:
     properties gui.text_properties("title")
@@ -557,6 +560,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
@@ -564,6 +568,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
@@ -571,6 +576,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
@@ -578,6 +584,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
@@ -585,6 +592,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
@@ -592,6 +600,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Menu Principal") action MainMenu():
             xpos 50
@@ -599,6 +608,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Voltar") action Return():
             xpos 50
@@ -606,6 +616,7 @@ screen in_game_menu():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
 
 style game_menu_outer_frame is empty
@@ -693,47 +704,55 @@ screen about():
             ypos 265
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 370
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 473
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 685
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 785
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Voltar") action Return():
             xpos 150
             ypos 995
             text_style "load_nav_text"
+            at button_hover_scale
 
 
 style about_label is gui_label
@@ -767,6 +786,7 @@ screen save():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Carga") action ShowMenu("load"):
         xpos 50
@@ -774,6 +794,7 @@ screen save():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Preferências") action ShowMenu("preferences"):
         xpos 50
@@ -781,6 +802,7 @@ screen save():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
         xpos 50
@@ -788,6 +810,7 @@ screen save():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Sobre") action ShowMenu("about"):
         xpos 50
@@ -795,6 +818,7 @@ screen save():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Ajuda") action ShowMenu("help"):
         xpos 50
@@ -802,6 +826,7 @@ screen save():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Sair") action Quit(confirm=True):
         xpos 50
@@ -809,11 +834,13 @@ screen save():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Voltar") action Return():
         xpos 150
         ypos 995
         text_style "load_nav_text"
+        at button_hover_scale
 
     # Slots de arquivo
     fixed:
@@ -828,7 +855,8 @@ screen save():
 
         button:
             style "page_label"
-            xalign 0.5
+            xpos 636
+            xanchor 0.5
             key_events True
             action page_name_value.Toggle()
             input:
@@ -855,7 +883,8 @@ screen save():
 
         hbox:
             style_prefix "page"
-            xpos 702
+            xpos 636
+            xanchor 0.5
             ypos 630
             spacing gui.page_spacing
 
@@ -890,6 +919,7 @@ screen load():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Carga") action ShowMenu("load"):
         xpos 50
@@ -897,6 +927,7 @@ screen load():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Preferências") action ShowMenu("preferences"):
         xpos 50
@@ -904,6 +935,7 @@ screen load():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
         xpos 50
@@ -911,6 +943,7 @@ screen load():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Sobre") action ShowMenu("about"):
         xpos 50
@@ -918,6 +951,7 @@ screen load():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Ajuda") action ShowMenu("help"):
         xpos 50
@@ -925,6 +959,7 @@ screen load():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     textbutton _("Sair") action Quit(confirm=True):
         xpos 50
@@ -932,6 +967,7 @@ screen load():
         xsize 310
         ysize 70
         text_style "load_nav_text"
+        at button_hover_scale
 
     # textbutton _("Sair") action Quit(confirm=True):
     #     xpos 50
@@ -944,6 +980,7 @@ screen load():
         xpos 150
         ypos 995
         text_style "load_nav_text"
+        at button_hover_scale
 
     # Slots de arquivo
     fixed:
@@ -958,7 +995,8 @@ screen load():
 
         button:
             style "page_label"
-            xalign 0.5
+            xpos 636
+            xanchor 0.5
             key_events True
             action page_name_value.Toggle()
             input:
@@ -985,7 +1023,8 @@ screen load():
 
         hbox:
             style_prefix "page"
-            xpos 702
+            xpos 636
+            xanchor 0.5
             ypos 630
             spacing gui.page_spacing
 
@@ -1229,42 +1268,49 @@ screen preferences():
             ypos 265
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 370    # ← retângulo 2
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 473     # ← retângulo 3
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580    # ← retângulo 4
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 685     # ← retângulo 5
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 785    # ← retângulo 6
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890     # ← retângulo 7
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         # textbutton _("Sair") action Quit(confirm=True):
         #     xpos 50
@@ -1277,6 +1323,7 @@ screen preferences():
             xpos 150
             ypos 995
             text_style "load_nav_text"
+            at button_hover_scale
 
 
 style pref_label is gui_label
@@ -1395,6 +1442,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Salvar") action ShowMenu("save"):
             xpos 50
@@ -1402,6 +1450,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
@@ -1409,6 +1458,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
@@ -1416,6 +1466,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
@@ -1423,6 +1474,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
@@ -1430,6 +1482,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
@@ -1437,6 +1490,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
@@ -1444,6 +1498,7 @@ screen history():
             xsize 310
             ysize 70
             text_style "load_nav_text"
+            at button_hover_scale
 
         
 
@@ -1538,47 +1593,55 @@ screen help():
             ypos 265
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Carga") action ShowMenu("load"):
             xpos 50
             ypos 370
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Preferências") action ShowMenu("preferences"):
             xpos 50
             ypos 473
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
             xpos 50
             ypos 580
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sobre") action ShowMenu("about"):
             xpos 50
             ypos 685
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Ajuda") action ShowMenu("help"):
             xpos 50
             ypos 785
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890
             xsize 310
             text_style "load_nav_text"
+            at button_hover_scale
 
         textbutton _("Voltar") action Return():
             xpos 150
             ypos 995
             text_style "load_nav_text"
+            at button_hover_scale
 
 
 screen keyboard_help():

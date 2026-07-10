@@ -31,6 +31,23 @@ init python:
             "historia":    "historia do rdr2",
             "curiosidade": "ela é uma pessoa",
             "bloqueado":   False,
+            "genero":      "mulher",
+            "sexualidade": "Bissexual",
+            "ocupacao":    "Estudante",
+            "especie":     "Humana",
+            "personalidade": {
+                "Gentileza":    80,
+                "Inteligência": 85,
+                "Seriedade":    70,
+                "Humor":        60,
+                "Saúde":        75,
+            },
+            "anatomia": {
+                "altura":      "1.65m",
+                "peso":        "55kg",
+                "raca":        "Branca/Europeia",
+                "tipo_sangue": "A+",
+            },
         },
         "Nao sei": {
             "foto":        "protaM.png",
@@ -39,6 +56,23 @@ init python:
             "historia":    "historia_aqui",
             "curiosidade": "curiosidades_aqui",
             "bloqueado":   False,
+            "genero":      "homem",
+            "sexualidade": "Heterossexual",
+            "ocupacao":    "Estudante",
+            "especie":     "Humana",
+            "personalidade": {
+                "Gentileza":    70,
+                "Inteligência": 90,
+                "Seriedade":    80,
+                "Humor":        50,
+                "Saúde":        80,
+            },
+            "anatomia": {
+                "altura":      "1.75m",
+                "peso":        "70kg",
+                "raca":        "Asiática/Japonesa",
+                "tipo_sangue": "O-",
+            },
         },
         "Maya": {
             "foto":        "foto_personagem_aqui",
@@ -47,6 +81,23 @@ init python:
             "historia":    "historia_aqui",
             "curiosidade": "curiosidades_aqui",
             "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
         },
         "Ethan": {
             "foto":        "foto_personagem_aqui",
@@ -55,6 +106,23 @@ init python:
             "historia":    "historia_aqui",
             "curiosidade": "curiosidades_aqui",
             "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
         },
         "Diretor": {
             "foto":        "foto_personagem_aqui",
@@ -63,6 +131,23 @@ init python:
             "historia":    "historia_aqui",
             "curiosidade": "curiosidades_aqui",
             "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
         },
         "???": {
             "foto":        "foto_personagem_aqui",
@@ -71,6 +156,23 @@ init python:
             "historia":    "Desbloqueie este personagem para ler mais.",
             "curiosidade": "...",
             "bloqueado":   True,
+            "genero":      "???",
+            "sexualidade": "???",
+            "ocupacao":    "???",
+            "especie":     "???",
+            "personalidade": {
+                "Gentileza":    0,
+                "Inteligência": 0,
+                "Seriedade":    0,
+                "Humor":        0,
+                "Saúde":        0,
+            },
+            "anatomia": {
+                "altura":      "???",
+                "peso":        "???",
+                "raca":        "???",
+                "tipo_sangue": "???",
+            },
         },
     }
 
@@ -201,7 +303,7 @@ screen perfil_catalogo():
     modal False
 
     # Fundo
-    add "#0a0a0f"
+    add "images/background_catalogo.png" xpos 0 ypos 0 xysize (1920, 1080)
 
     default personagem_selecionado = "Pam"
     default carrossel_idx = 0
@@ -211,77 +313,66 @@ screen perfil_catalogo():
     default rota_selecionada = "Rota de Pam"
     default carrossel_idx_rotas = 0
 
-    $ bg_personagens = "#00AAE2" if tab == "personagens" else "#2a2a2a"
-    $ tc_personagens = "#000000" if tab == "personagens" else "#ffffff"
-    $ bg_lugares = "#00AAE2" if tab == "lugares" else "#2a2a2a"
-    $ tc_lugares = "#000000" if tab == "lugares" else "#ffffff"
-    $ bg_rotas = "#00AAE2" if tab == "rotas" else "#2a2a2a"
-    $ tc_rotas = "#000000" if tab == "rotas" else "#ffffff"
+    $ tc_personagens = "#00AAE2" if tab == "personagens" else "#000000"
+    $ tc_lugares = "#00AAE2" if tab == "lugares" else "#000000"
+    $ tc_rotas = "#00AAE2" if tab == "rotas" else "#000000"
 
-    # Menu lateral (estilo da imagem)
-    frame:
-        xpos 0
-        ypos 0
-        xsize 140
-        yfill True
-        background "#2a2a2a"
+    # Abas sobre as faixas brancas da lateral
+    textbutton "PERSONAGENS":
+        xpos 20
+        ypos 254
+        xsize 330
+        ysize 70
+        background None
+        text_style "load_nav_text"
+        text_size 30
+        text_color tc_personagens
+        at button_hover_scale
+        action SetScreenVariable("tab", "personagens")
 
-        vbox:
-            xfill True
-            spacing 0
-            yalign 0.0
+    textbutton "LUGARES":
+        xpos 20
+        ypos 359
+        xsize 330
+        ysize 70
+        background None
+        text_style "load_nav_text"
+        text_size 30
+        text_color tc_lugares
+        at button_hover_scale
+        action SetScreenVariable("tab", "lugares")
 
-            text "MENU":
-                size 16
-                color "#ffffff"
-                font "fonts/fonte.ttf"
-                xalign 0.5
+    textbutton "ROTAS":
+        xpos 20
+        ypos 465
+        xsize 330
+        ysize 70
+        background None
+        text_style "load_nav_text"
+        text_size 30
+        text_color tc_rotas
+        at button_hover_scale
+        action SetScreenVariable("tab", "rotas")
 
-            frame:
-                background "#00AAE2"
-                xfill True
-                ysize 3
-
-            textbutton "PERSONAGENS":
-                xfill True
-                ysize 50
-                background bg_personagens
-                text_size 12
-                text_color tc_personagens
-                action SetScreenVariable("tab", "personagens")
-
-            textbutton "LUGARES":
-                xfill True
-                ysize 50
-                background bg_lugares
-                text_size 12
-                text_color tc_lugares
-                action SetScreenVariable("tab", "lugares")
-
-            textbutton "ROTAS":
-                xfill True
-                ysize 50
-                background bg_rotas
-                text_size 12
-                text_color tc_rotas
-                action SetScreenVariable("tab", "rotas")
-
-    # Botão voltar
+    # Botão voltar sobre a faixa branca de baixo
     textbutton "VOLTAR":
-        xpos 60
-        ypos 1030
-        xysize (100, 35)
-        text_size 14
-        text_color "#ffffff"
-        background "#00000000"
+        xpos 20
+        ypos 1000
+        xsize 330
+        ysize 70
+        background None
+        text_style "load_nav_text"
+        text_size 30
+        at button_hover_scale
         action Return()
 
-    # Título
+    # Título centralizado sobre a página
     text "CATÁLOGO":
-        xpos 200
-        ypos 20
-        size 44
-        color "#00AAE2"
+        xpos 1200
+        xanchor 0.5
+        ypos 30
+        size 50
+        color "#ffffff"
         font "fonts/fonte.ttf"
 
     # ════════════════════════════════════════════════════════════════════════════
@@ -294,22 +385,21 @@ screen perfil_catalogo():
 
         # Botão anterior
         textbutton "◄":
-            xpos 30
-            ypos 400
+            xpos 490
+            ypos 475
             xysize (80, 150)
-            background "#2a2a2a"
-            hover_background Solid("#444444")
+            background None
             text_size 48
-            text_color "#00AAE2"
-            text_hover_color "#ffffff"
+            text_color "#ffffff"
+            text_hover_color "#00AAE2"
             action SetScreenVariable("carrossel_idx",
                     len(personagens_lista) - max_visible if carrossel_idx <= 0 else carrossel_idx - 1)
 
         # Frame carrossel
         frame:
-            xpos 140
+            xpos 590
             ypos 150
-            xsize 1700
+            xsize 1220
             ysize 800
             background "#00000000"
 
@@ -336,11 +426,11 @@ screen perfil_catalogo():
                         frame:
                             if is_selected:
                                 background "#ffffff33"
-                                xysize (500, 700)
+                                xysize (400, 660)
                                 padding (12, 12, 12, 12)
                             else:
                                 background "#1a1a1a"
-                                xysize (480, 680)
+                                xysize (380, 640)
                                 padding (10, 10, 10, 10)
                                 xalign 0.0
                                 yalign 0.5
@@ -353,11 +443,11 @@ screen perfil_catalogo():
                                 # Foto
                                 frame:
                                     background "#0a0a0a"
-                                    xysize (480, 580)
+                                    xysize (360, 540)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (480, 580)
+                                            xysize (360, 540)
                                     else:
                                         text "???":
 
@@ -375,14 +465,13 @@ screen perfil_catalogo():
 
         # Botão próximo
         textbutton "►":
-            xpos 1850
-            ypos 400
+            xpos 1830
+            ypos 475
             xysize (80, 150)
-            background "#2a2a2a"
-            hover_background Solid("#444444")
+            background None
             text_size 48
-            text_color "#00AAE2"
-            text_hover_color "#ffffff"
+            text_color "#ffffff"
+            text_hover_color "#00AAE2"
             action SetScreenVariable("carrossel_idx",
                     0 if carrossel_idx >= len(personagens_lista) - max_visible else carrossel_idx + 1)
 
@@ -392,22 +481,21 @@ screen perfil_catalogo():
 
         # Botão anterior lugares
         textbutton "◄":
-            xpos 30
-            ypos 400
+            xpos 490
+            ypos 475
             xysize (80, 150)
-            background "#2a2a2a"
-            hover_background Solid("#444444")
+            background None
             text_size 48
-            text_color "#00AAE2"
-            text_hover_color "#ffffff"
+            text_color "#ffffff"
+            text_hover_color "#00AAE2"
             action SetScreenVariable("carrossel_idx_lugares",
                     max(0, len(lugares_lista) - max_visible) if carrossel_idx_lugares <= 0 else carrossel_idx_lugares - 1)
 
         # Frame carrossel lugares
         frame:
-            xpos 140
+            xpos 590
             ypos 150
-            xsize 1700
+            xsize 1220
             ysize 800
             background "#00000000"
 
@@ -434,11 +522,11 @@ screen perfil_catalogo():
                         frame:
                             if is_selected:
                                 background "#ffffff33"
-                                xysize (500, 700)
+                                xysize (400, 660)
                                 padding (12, 12, 12, 12)
                             else:
                                 background "#1a1a1a"
-                                xysize (480, 680)
+                                xysize (380, 640)
                                 padding (10, 10, 10, 10)
                                 xalign 0.0
                                 yalign 0.5
@@ -451,11 +539,11 @@ screen perfil_catalogo():
                                 # Foto
                                 frame:
                                     background "#0a0a0a"
-                                    xysize (480, 580)
+                                    xysize (360, 540)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (480, 580)
+                                            xysize (360, 540)
                                     else:
                                         text "???":
 
@@ -473,14 +561,13 @@ screen perfil_catalogo():
 
         # Botão próximo lugares
         textbutton "►":
-            xpos 1850
-            ypos 400
+            xpos 1830
+            ypos 475
             xysize (80, 150)
-            background "#2a2a2a"
-            hover_background Solid("#444444")
+            background None
             text_size 48
-            text_color "#00AAE2"
-            text_hover_color "#ffffff"
+            text_color "#ffffff"
+            text_hover_color "#00AAE2"
             action SetScreenVariable("carrossel_idx_lugares",
                     0 if carrossel_idx_lugares >= len(lugares_lista) - max_visible else carrossel_idx_lugares + 1)
 
@@ -490,22 +577,21 @@ screen perfil_catalogo():
 
         # Botão anterior rotas
         textbutton "◄":
-            xpos 30
-            ypos 400
+            xpos 490
+            ypos 475
             xysize (80, 150)
-            background "#2a2a2a"
-            hover_background Solid("#444444")
+            background None
             text_size 48
-            text_color "#00AAE2"
-            text_hover_color "#ffffff"
+            text_color "#ffffff"
+            text_hover_color "#00AAE2"
             action SetScreenVariable("carrossel_idx_rotas",
                     max(0, len(rotas_lista) - max_visible) if carrossel_idx_rotas <= 0 else carrossel_idx_rotas - 1)
 
         # Frame carrossel rotas
         frame:
-            xpos 140
+            xpos 590
             ypos 150
-            xsize 1700
+            xsize 1220
             ysize 800
             background "#00000000"
 
@@ -532,11 +618,11 @@ screen perfil_catalogo():
                         frame:
                             if is_selected:
                                 background "#ffffff33"
-                                xysize (500, 700)
+                                xysize (400, 660)
                                 padding (12, 12, 12, 12)
                             else:
                                 background "#1a1a1a"
-                                xysize (480, 680)
+                                xysize (380, 640)
                                 padding (10, 10, 10, 10)
                                 xalign 0.0
                                 yalign 0.5
@@ -549,11 +635,11 @@ screen perfil_catalogo():
                                 # Foto
                                 frame:
                                     background "#0a0a0a"
-                                    xysize (480, 580)
+                                    xysize (360, 540)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (480, 580)
+                                            xysize (360, 540)
                                     else:
                                         text "???":
 
@@ -571,14 +657,13 @@ screen perfil_catalogo():
 
         # Botão próximo rotas
         textbutton "►":
-            xpos 1850
-            ypos 400
+            xpos 1830
+            ypos 475
             xysize (80, 150)
-            background "#2a2a2a"
-            hover_background Solid("#444444")
+            background None
             text_size 48
-            text_color "#00AAE2"
-            text_hover_color "#ffffff"
+            text_color "#ffffff"
+            text_hover_color "#00AAE2"
             action SetScreenVariable("carrossel_idx_rotas",
                     0 if carrossel_idx_rotas >= len(rotas_lista) - max_visible else carrossel_idx_rotas + 1)
 
@@ -604,6 +689,31 @@ screen perfil_catalogo():
 ################################################################################
 ## Foto do Pam carrega perfeitamente | Cantos "L" elegantes
 ################################################################################
+
+## ── Barra de atributo da ficha ──────────────────────────────────────────────
+screen barra_atributo_ficha(nome, valor):
+    vbox:
+        spacing 3
+        hbox:
+            spacing 5
+            text nome:
+                style "livro_atributo_nome"
+                xsize 140
+            text (str(valor) + "/100"):
+                style "livro_atributo_valor"
+                xsize 80
+                xalign 1.0
+
+        bar:
+            xsize 440
+            ysize 10
+            value valor
+            range 100
+            left_bar Frame("gui/bar/left.png", 6, 6)
+            right_bar Frame("gui/bar/right.png", 12, 6)
+            thumb Frame("gui/bar/thumb.png", 6, 6)
+            thumb_shadow Frame("gui/bar/thumb_shadow.png", 6, 6)
+
 
 ## ── Tela de Detalhes ────────────────────────────────────────────────────────
 screen detalhes_perfil(data):
@@ -684,10 +794,15 @@ screen detalhes_perfil(data):
                                 xalign 0.5
                                 yalign 0.5
 
-                # Página direita com informações
+                $ tem_ficha = ("genero" in data) or ("personalidade" in data) or ("anatomia" in data)
+
+                # Página do meio com descrição
                 frame:
                     background Solid("#111111")
-                    xfill True
+                    if tem_ficha:
+                        xsize 400
+                    else:
+                        xfill True
                     yfill True
                     padding (24, 24, 24, 24)
 
@@ -717,3 +832,103 @@ screen detalhes_perfil(data):
 
                             text data["curiosidade"]:
                                 style "perfil_label"
+
+                # Página direita com a ficha (informações/personalidade/anatomia)
+                if tem_ficha:
+                    frame:
+                        background Solid("#efe6d3")
+                        xfill True
+                        yfill True
+                        padding (24, 24, 24, 24)
+
+                        viewport:
+                            xfill True
+                            yfill True
+                            scrollbars "vertical"
+                            mousewheel True
+                            draggable True
+
+                            vbox:
+                                xfill True
+                                spacing 14
+
+                                if "genero" in data:
+                                    frame:
+                                        xfill True
+                                        background Solid("#e3d7c0")
+                                        padding (14, 12)
+
+                                        vbox:
+                                            spacing 6
+                                            xfill True
+
+                                            text _("INFORMAÇÕES"):
+                                                style "livro_secao_titulo"
+
+                                            frame:
+                                                xfill True
+                                                ysize 1
+                                                background Solid("#8b5a2b")
+
+                                            text _("Gênero: ") + data.get("genero", "?"):
+                                                style "livro_info_texto"
+
+                                            text _("Sexualidade: ") + data.get("sexualidade", "?"):
+                                                style "livro_info_texto"
+
+                                            text _("Ocupação: ") + data.get("ocupacao", "?"):
+                                                style "livro_info_texto"
+
+                                            text _("Espécie: ") + data.get("especie", "?"):
+                                                style "livro_info_texto"
+
+                                if "personalidade" in data:
+                                    frame:
+                                        xfill True
+                                        background Solid("#e3d7c0")
+                                        padding (14, 12)
+
+                                        vbox:
+                                            spacing 8
+                                            xfill True
+
+                                            text _("PERSONALIDADE"):
+                                                style "livro_secao_titulo"
+
+                                            frame:
+                                                xfill True
+                                                ysize 1
+                                                background Solid("#8b5a2b")
+
+                                            for atributo, valor in data["personalidade"].items():
+                                                use barra_atributo_ficha(atributo, valor)
+
+                                if "anatomia" in data:
+                                    frame:
+                                        xfill True
+                                        background Solid("#e3d7c0")
+                                        padding (14, 12)
+
+                                        vbox:
+                                            spacing 6
+                                            xfill True
+
+                                            text _("ANATOMIA"):
+                                                style "livro_secao_titulo"
+
+                                            frame:
+                                                xfill True
+                                                ysize 1
+                                                background Solid("#8b5a2b")
+
+                                            text _("Altura: ") + data["anatomia"].get("altura", "?"):
+                                                style "livro_info_texto"
+
+                                            text _("Peso: ") + data["anatomia"].get("peso", "?"):
+                                                style "livro_info_texto"
+
+                                            text _("Raça: ") + data["anatomia"].get("raca", "?"):
+                                                style "livro_info_texto"
+
+                                            text _("Tipo Sanguíneo: ") + data["anatomia"].get("tipo_sangue", "?"):
+                                                style "livro_info_texto"

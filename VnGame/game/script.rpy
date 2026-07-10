@@ -7,6 +7,7 @@ define n = Character(
 )
 
 define bibliotecaria = Character("Bibliotecária")
+define recepcionista = Character("Recepcionista")
 define august = Character("August")
 define elizabeth = Character("Elizabeth")
 define desconhecido = Character("???")
@@ -47,6 +48,7 @@ default persistent.prota_data = None
 # Progresso da exploração da escola (rota Kiyoki)
 default visitou_biblioteca = False
 default visitou_armarios = False
+default visitou_dormitorios = False
 
 label start:
     scene black
@@ -205,8 +207,10 @@ label start:
                     jump exploracao_armarios
                 "Ir para a biblioteca" if not visitou_biblioteca:
                     jump exploracao_biblioteca
-                "Ir para a aula" if visitou_armarios and visitou_biblioteca:
-                    jump rota_aula
+                "Ir para recepção dos dormitórios" if not visitou_dormitorios:
+                    jump exploracao_dormitorios
+                "Explorar Campus" if visitou_armarios and visitou_biblioteca and visitou_dormitorios:
+                    jump exploracao_campus
 
     elif persistent.genero == "homem":
         $ nome_prota = "Kuroya Yagami"
@@ -510,6 +514,178 @@ label exploracao_armarios:
     p "{cps=30}{color=#FFFF00}O que devo fazer agora?{/color}{/cps}"
 
     jump hub_exploracao
+
+
+label exploracao_dormitorios:
+    $ visitou_dormitorios = True
+
+    show screen day_locate("00", "Recepção - Dormitórios")
+
+    p "{cps=30}{color=#FFFF00}Ok.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Agora preciso resolver a questão dos dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Provavelmente é a tarefa mais importante da lista.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Afinal...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}É onde vou dormir pelos próximos anos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Caminho até a área indicada no mapa da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Parece tão pequeno.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}É apenas uma recepção com duas portas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Será que estou no lugar certo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Bem...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Só existe uma forma de descobrir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Me aproximo do balcão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Olá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Vim fazer meu cadastro para o dormitório.{/color}{/cps}"
+    recepcionista "Bom dia, flor do dia!"
+    recepcionista "Antes de qualquer coisa, preciso que leia as regras e assine aqui embaixo."
+    p "{cps=30}{color=#FFFF00}(Barulho de papel){/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Caramba.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}São muitas regras.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Meus olhos percorrem rapidamente as páginas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Uma delas chama minha atenção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Dormitórios mistos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Outra.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Monitoramento por câmeras nas áreas comuns.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Confesso que isso me deixa um pouco desconfortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Mas considerando que os dormitórios não são separados por gênero...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Acho que faz sentido.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Ainda bem que existem áreas privadas para troca de roupa e higiene pessoal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Posso fazer uma pergunta?{/color}{/cps}"
+    recepcionista "Claro, querida."
+    p "{cps=30}{color=#FFFF00}Por que os dormitórios são mistos?{/color}{/cps}"
+    recepcionista "Ah."
+    recepcionista "Essa pergunta aparece bastante."
+    recepcionista "Antigamente os dormitórios eram separados."
+    recepcionista "Mas a escola enfrentava muitos problemas de convivência."
+    recepcionista "Bullying."
+    recepcionista "Exclusão social."
+    recepcionista "E até alunos que se sentiam isolados dos próprios amigos."
+    recepcionista "Depois de muitos estudos e testes, decidimos mudar o sistema."
+    recepcionista "Hoje os dormitórios são mistos, mas seguimos regras bem rígidas de segurança e privacidade."
+    p "{cps=30}{color=#FFFF00}E funcionou?{/color}{/cps}"
+    recepcionista "Melhor do que imaginávamos."
+    recepcionista "A maioria dos alunos prefere o modelo atual."
+    p "{cps=30}{color=#FFFF00}Interessante...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Bem, aqui está minha assinatura.{/color}{/cps}"
+    recepcionista "Perfeito."
+    recepcionista "Agora só preciso de um documento com foto."
+    p "{cps=30}{color=#FFFF00}Claro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Aqui está minha identidade.{/color}{/cps}"
+    recepcionista "Kiyoki Kovalenko..."
+    recepcionista "Só um instante."
+    p "{cps=30}{color=#FFFF00}TEC TEC TEC{/color}{/cps}"
+    recepcionista "Certo."
+    recepcionista "Você ficará no dormitório B14."
+    recepcionista "Prédio B, segundo andar."
+    p "{cps=30}{color=#FFFF00}Prédio B!{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Prédio B?{/color}{/cps}"
+    recepcionista "Aqui está seu cartão de acesso."
+    recepcionista "Seja bem-vinda."
+    p "{cps=30}{color=#FFFF00}Muito obrigada!{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Pego o cartão e sigo até uma das portas atrás da recepção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Ainda não entendo onde exatamente está esse tal Prédio B.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Mas imagino que vou descobrir em alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Aproximo a mão da maçaneta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}E abro a porta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}O quê?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Merda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Eu acabo gritando alto demais sem perceber.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Quando saio pela porta...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Eu congelo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}O que eu achava ser apenas uma recepção pequena...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Na verdade é a entrada de um campus inteiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Prédios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Muitos prédios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Cinco blocos enormes, cada um com três andares.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Áreas de lazer.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Um mercado 24 horas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Um parque interno.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Isso aqui não é uma escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}É uma cidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Caramba...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Isso é muito maior do que eu imaginava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}E muito mais incrível também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Certo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Sem tempo pra ficar parada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Preciso encontrar o meu bloco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Entro no Bloco B e pego o elevador.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Tudo aqui é moderno, mas tem um ar estranho de elegância antiga.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Quase como se fosse uma realeza disfarçada de escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Segundo andar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Corredor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Encontro a porta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Meu dormitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Aproximo o cartão de acesso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}BIP{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}A trava se destranca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Respiro fundo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}E então...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Eu entro.{/color}{/cps}"
+
+    show screen day_locate("00", "Dormitório B14")
+
+    p "{cps=30}{color=#FFFF00}Uau!{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}É maior até do que o meu quarto!{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}É lindo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Parece que meu colega de quarto ainda não chegou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Isso significa que eu posso escolher qual lado quero ficar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Hehe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Vou ficar com o lado esquerdo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Quando o sol nasce, a luz entra primeiro por esse lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Eu gosto de acordar sentindo os raios de sol no rosto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Certo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Hora de decorar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Começo arrumando minha cama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Coloco meu cobertor favorito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Algumas almofadas fofas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}E logo acima da cabeceira penduro vários pôsteres.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Eles não poderiam faltar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Na mesa de estudos coloco tantas coisas que nem consigo listar tudo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Livros.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}iPad.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Notebook.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Porta-lápis.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Meu pegboard.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Tudo aquilo que costumo usar nos meus estudos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}No guarda-roupa organizo minhas roupas como faço em casa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Mas nas portas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Ah, nas portas eu me divirto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Coloco vários adesivos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Também instalo alguns ganchos para pendurar minhas bolsas e minha mochila.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}E para finalizar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Um tapete lindo ao lado da cama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Caramba.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Ficou lindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Guardo minha mala sobre o guarda-roupa e dou alguns passos para trás.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Observando tudo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Eu gosto de decorar os lugares onde vivo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Gosto de deixar partes de mim espalhadas pelo ambiente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Minha personalidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Meus gostos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Minhas memórias.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}As pessoas podem olhar para esse quarto e perceber que eu estive aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Mesmo quando eu não estiver.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}Acho que são essas pequenas coisas que fazem eu ser quem sou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}O que devo fazer agora?{/color}{/cps}"
+
+    jump hub_exploracao
+
+
+label exploracao_campus:
+    p "{cps=30}{color=#FFFF00}Hora de explorar o campus.{/color}{/cps}"
+    # Adicione o conteúdo da exploração do campus aqui
+    return
 
 
 # Tela de escolha de gênero
