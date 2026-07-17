@@ -698,33 +698,21 @@ transform hover_glow:
 screen escolha_genero:
     modal True
 
-    add "images/fundo_selec.png" xpos 0 ypos 0 xysize (1920, 1080)
+    $ fundo_selecao = "images/fundo_selecao_en.png" if _preferences.language == "english" else "images/fundo_selecao_pt.png"
+    add fundo_selecao xpos 0 ypos 0 xysize (1920, 1080)
 
-    hbox:
-        xalign 0.5
-        yalign 0.5
-        spacing 0
+    button:
+        xpos 0 ypos 0 xysize (1920, 1080)
+        action Return("homem")
+        focus_mask True
+        at hover_glow
+        background None
+        add "images/Kuroya_select.png" xysize (1920, 1080)
 
-        button:
-            xalign 1.0
-            xoffset 100
-            yoffset 50
-            yalign 0.5
-            action Return("mulher")
-            focus_mask True
-            at hover_glow
-            background None
-           
-            padding (12, 12, 12, 12)
-            add "images/Kyioki select.png" zoom 0.4
-
-        button:
-            yalign 0.5
-            yoffset -125
-            action Return("homem")
-            focus_mask True
-            at hover_glow
-            background None
-            
-            padding (12, 12, 12, 12)
-            add "images/Kuroya select.png" zoom 1.4
+    button:
+        xpos 0 ypos 0 xysize (1920, 1080)
+        action Return("mulher")
+        focus_mask True
+        at hover_glow
+        background None
+        add "images/Kyioki_select.png" xysize (1920, 1080)
