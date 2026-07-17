@@ -51,7 +51,7 @@ default visitou_armarios = False
 default visitou_dormitorios = False
 
 label start:
-    scene black
+    scene black with fade_black
     pause 0.5
     scene aviso with dissolve
     pause 10.0
