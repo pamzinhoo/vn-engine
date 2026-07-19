@@ -371,7 +371,7 @@ screen main_menu():
 
     if not easter_egg_visto:
         timer 10800.0 action ShowMenu("easter_egg")
-    add Movie(play="videos/main_menu.webm", loop=True)
+    add Movie(play="videos/main_menu.webm", loop=True) xysize (1920, 1080) xalign 0.5 yalign 0.5
 
 
     add "gui/overlay/nenhum_selecionado.png" xalign 0.5 yalign 0.5 alpha 0.7
