@@ -1,26 +1,26 @@
 ﻿default nome_prota = ""
-define p = Character("[nome_prota]", ctc="ctc", ctc_position="nestled", name_color="#FFFFFF", slow_cps=30)
+define p = Character("[nome_prota]", ctc="ctc", ctc_position="nestled", name_color="#FFFFFF", what_slow_cps=30)
 define n = Character(
     None,
     what_style="narrador_dialogo",
     window_style="narrador_window",
-    slow_cps=30,
+    what_slow_cps=30,
     ctc="ctc",
     ctc_position="nestled"
 )
 
-define bibliotecaria = Character("Bibliotecária", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define recepcionista = Character("Recepcionista", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define august = Character("August", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define elizabeth = Character("Elizabeth", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define desconhecido = Character("???", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define atendente = Character("Atendente", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define madelin = Character("Madelin", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define lucien = Character("Lucien", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define rentaro = Character("Rentaro", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define aurore = Character("Aurore", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define kain = Character("Kain", slow_cps=30, ctc="ctc", ctc_position="nestled")
-define abby = Character("Abby", slow_cps=30, ctc="ctc", ctc_position="nestled")
+define bibliotecaria = Character("Bibliotecária", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define recepcionista = Character("Recepcionista", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define august = Character("August", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define elizabeth = Character("Elizabeth", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define desconhecido = Character("???", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define atendente = Character("Atendente", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define madelin = Character("Madelin", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define lucien = Character("Lucien", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define rentaro = Character("Rentaro", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define aurore = Character("Aurore", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define kain = Character("Kain", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define abby = Character("Abby", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
 
 image protaF:
     "protaF.png"
