@@ -107,8 +107,8 @@ translate english start_3497b06f:
 # game/script.rpy:119
 translate english start_c9cd205d:
 
-    # p "{cps=30}{color=#FFFF00}Mais especificamente em York , uma cidade da Prússia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}More specifically in York , a city in Prussia.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFF00}Mais especificamente em York , uma cidade da Inglaterra.{/color}{/cps}"
+    p "{cps=30}{color=#FFFF00}More specifically in York , a city in England.{/color}{/cps}"
 
 # game/script.rpy:121
 translate english start_2f00fe69:

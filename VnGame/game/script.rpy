@@ -135,7 +135,7 @@ label start:
 
         p "{cps=30}{color=#FFFF00}Eu nasci na Europa.{/color}{/cps}"
 
-        p "{cps=30}{color=#FFFF00}Mais especificamente em York , uma cidade da Prússia.{/color}{/cps}"
+        p "{cps=30}{color=#FFFF00}Mais especificamente em York , uma cidade da Inglaterra.{/color}{/cps}"
         
         p "{cps=30}{color=#FFFF00}É pra lá que eu estou voltando agora.{/color}{/cps}"
         
