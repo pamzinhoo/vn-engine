@@ -40,6 +40,9 @@ image espelho:
     yalign 0.5
     zoom 1.0
     xysize (1920, 1080)
+image logo:
+    "logo.png"
+    xysize (1920, 1080)
 image aviso:
     "aviso.png"
     xysize (1920, 1080)
@@ -62,6 +65,9 @@ default visitou_dormitorios = False
 default foi_ginasio = False
 
 label start:
+    scene black with dissolve
+    show logo with fade_black
+    pause 2.0
     scene black with fade_black
     pause 0.5
     scene aviso with dissolve
