@@ -10,4 +10,19 @@ translate english strings:
 
     # game/perfil.rpy
     old "📖 PERFIL"
-    new "📖 PROFILE"
+    new "📖 PROFILE"# TODO: Translation updated at 2026-07-29 08:15
+
+translate english strings:
+
+    # game/perfil.rpy:137
+    old "Nenhuma página do diário ainda."
+    new "No diary pages yet."
+
+# TODO: Translation updated at 2026-07-29 08:20
+
+translate english strings:
+
+    # game/perfil.rpy:100
+    old "📖 DIÁRIO"
+    new "📖 DIARY"
+

@@ -111,7 +111,7 @@ screen say(who, what):
             style "say_label"
             xpos 541
             xanchor 0.5
-            ypos 702
+            ypos 745
             yanchor 0.5
             color "#0099cc"
             
@@ -2297,25 +2297,25 @@ screen day_locate(local, dia):
     # Nova arte do day info (lanterna suspensa no canto superior esquerdo)
     add "gui/details/day_info.png" xpos 0 ypos 0
 
-    # Localização — rótulo à direita da lanterna
-    text dia:
-        xpos 120
-        xanchor 0.0
-        ypos 72
+    # Rótulo "Dia" — dentro do vidro da lanterna
+    text _("Dia"):
+        xpos 57
+        xanchor 0.5
+        ypos 55
         yanchor 0.5
         color "#ffffff"
-        size 26
+        size 18
         font "fonts/fonte.ttf"
-        outlines [(2, "#000000", 0, 0)]
+        text_align 0.5
 
-    # Número do dia — dentro do vidro da lanterna
+    # Número do dia — abaixo do rótulo "Dia"
     text local:
         xpos 57
         xanchor 0.5
-        ypos 70
+        ypos 90
         yanchor 0.5
         color "#ffffff"
-        size 16
+        size 32
         font "fonts/fonte.ttf"
         text_align 0.5
 
@@ -2421,7 +2421,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "mulher" style "perfil_catalogo_card_name_text"
+                                        text _("mulher") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2437,7 +2437,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2456,7 +2456,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2472,7 +2472,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2492,7 +2492,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2508,7 +2508,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2528,7 +2528,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2544,7 +2544,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2564,7 +2564,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2580,7 +2580,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2599,7 +2599,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2615,7 +2615,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2635,7 +2635,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"
@@ -2651,7 +2651,7 @@ screen perfil_catalogo():
 
                                     frame:
                                         style "perfil_catalogo_card_name"
-                                        text "nome aqui" style "perfil_catalogo_card_name_text"
+                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
 
                                     frame:
                                         style "perfil_catalogo_card_photo"

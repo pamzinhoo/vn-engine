@@ -176,3 +176,131 @@ translate english strings:
     new "Menu"
     
     
+# TODO: Translation updated at 2026-07-29 08:15
+
+translate english strings:
+
+    # game/screens.rpy:347
+    old "Catálogo"
+    new "Catalog"
+
+    # game/screens.rpy:720
+    old "Versão [config.version!t]\n"
+    new "Version [config.version!t]\n"
+
+    # game/screens.rpy:725
+    old "Feito com {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]"
+    new "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]"
+
+    # game/screens.rpy:904
+    old "{#file_time}%A, %B %d %Y, %H:%M"
+    new "{#file_time}%A, %B %d %Y, %H:%M"
+
+    # game/screens.rpy:917
+    old "<"
+    new "<"
+
+    # game/screens.rpy:919
+    old "{#auto_page}A"
+    new "{#auto_page}A"
+
+    # game/screens.rpy:921
+    old "{#quick_page}Q"
+    new "{#quick_page}Q"
+
+    # game/screens.rpy:924
+    old ">"
+    new ">"
+
+    # game/screens.rpy:927
+    old "Upload Sync"
+    new "Upload Sync"
+
+    # game/screens.rpy:1677
+    old "Avança o diálogo e ativa a interface."
+    new "Advances dialogue and activates the interface."
+
+    # game/screens.rpy:1681
+    old "Avança o diálogo sem selecionar opções."
+    new "Advances dialogue without selecting choices."
+
+    # game/screens.rpy:1685
+    old "Navegue pela interface."
+    new "Navigate the interface."
+
+    # game/screens.rpy:1689
+    old "Acessa o menu do jogo."
+    new "Accesses the game menu."
+
+    # game/screens.rpy:1693
+    old "Pula o diálogo quando pressionado."
+    new "Skips dialogue while held down."
+
+    # game/screens.rpy:1697
+    old "Alterna o salto de diálogo."
+    new "Toggles dialogue skipping."
+
+    # game/screens.rpy:1701
+    old "Volta ao diálogo anterior."
+    new "Returns to the previous dialogue."
+
+    # game/screens.rpy:1705
+    old "Rola para frente o diálogo posterior."
+    new "Rolls forward to later dialogue."
+
+    # game/screens.rpy:1709
+    old "Oculta a interface do usuário."
+    new "Hides the user interface."
+
+    # game/screens.rpy:1713
+    old "Faz uma captura de tela."
+    new "Takes a screenshot."
+
+    # game/screens.rpy:1717
+    old "Alterna a assistência {a=https://www.renpy.org/l/voicing}auto-voz{/a}."
+    new "Toggles {a=https://www.renpy.org/l/voicing}self-voicing{/a} assistance."
+
+    # game/screens.rpy:1721
+    old "Abre o menu de acessibilidade."
+    new "Opens the accessibility menu."
+
+    # game/screens.rpy:1739
+    old "Roda do mouse para cima\nClique em Rollback Side"
+    new "Mouse Wheel Up\nClick on Rollback Side"
+
+    # game/screens.rpy:1750
+    old "Gatilho direito\nBotão A/inferior"
+    new "Right Trigger\nA/Bottom Button"
+
+    # game/screens.rpy:1754
+    old "Gatilho esquerdo\nOmbro esquerdo"
+    new "Left Trigger\nLeft Shoulder"
+
+    # game/screens.rpy:1758
+    old "Ombro direito"
+    new "Right Shoulder"
+
+    # game/screens.rpy:1762
+    old "D-Pad, bastões"
+    new "D-Pad, Sticks"
+
+    # game/screens.rpy:1766
+    old "Start, Guide, B/Right Button"
+    new "Start, Guide, B/Right Button"
+
+    # game/screens.rpy:1770
+    old "Botão Y/Top"
+    new "Y/Top Button"
+
+# TODO: Translation updated at 2026-07-29 08:20
+
+translate english strings:
+
+    # game/screens.rpy:2301
+    old "Dia"
+    new "Day"
+
+    # game/screens.rpy:2440
+    old "nome aqui"
+    new "name here"
+

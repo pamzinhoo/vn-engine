@@ -64,11 +64,17 @@ default visitou_armarios = False
 default visitou_dormitorios = False
 default foi_ginasio = False
 
+label splashscreen:
+    scene black
+    show logo with Dissolve(1.5)
+    pause 2.0
+    hide logo with Dissolve(1.5)
+    pause 0.3
+    with Dissolve(1.0)
+    return
+
 label start:
     scene black with dissolve
-    show logo with fade_black
-    pause 2.0
-    scene black with fade_black
     pause 0.5
     scene aviso with dissolve
     pause 10.0

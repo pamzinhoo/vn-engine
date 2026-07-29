@@ -318,7 +318,7 @@ screen perfil_catalogo():
     $ tc_rotas = "#00AAE2" if tab == "rotas" else "#000000"
 
     # Abas sobre as faixas brancas da lateral
-    textbutton "PERSONAGENS":
+    textbutton _("PERSONAGENS"):
         xpos 20
         ypos 254
         xsize 330
@@ -330,7 +330,7 @@ screen perfil_catalogo():
         at button_hover_scale
         action SetScreenVariable("tab", "personagens")
 
-    textbutton "LUGARES":
+    textbutton _("LUGARES"):
         xpos 20
         ypos 359
         xsize 330
@@ -342,7 +342,7 @@ screen perfil_catalogo():
         at button_hover_scale
         action SetScreenVariable("tab", "lugares")
 
-    textbutton "ROTAS":
+    textbutton _("ROTAS"):
         xpos 20
         ypos 465
         xsize 330
@@ -355,7 +355,7 @@ screen perfil_catalogo():
         action SetScreenVariable("tab", "rotas")
 
     # Botão voltar sobre a faixa branca de baixo
-    textbutton "VOLTAR":
+    textbutton _("VOLTAR"):
         xpos 20
         ypos 1000
         xsize 330
@@ -367,7 +367,7 @@ screen perfil_catalogo():
         action Return()
 
     # Título centralizado sobre a página
-    text "CATÁLOGO":
+    text _("CATÁLOGO"):
         xpos 1200
         xanchor 0.5
         ypos 30
@@ -457,7 +457,7 @@ screen perfil_catalogo():
                                             yalign 0.5
 
                                 # Nome
-                                text char_nome:
+                                text _(char_nome):
                                     size 18
                                     color "#ffffff"
                                     xalign 0.5
@@ -553,7 +553,7 @@ screen perfil_catalogo():
                                             yalign 0.5
 
                                 # Nome
-                                text lugar_nome:
+                                text _(lugar_nome):
                                     size 18
                                     color "#ffffff"
                                     xalign 0.5
@@ -649,7 +649,7 @@ screen perfil_catalogo():
                                             yalign 0.5
 
                                 # Nome
-                                text rota_nome:
+                                text _(rota_nome):
                                     size 18
                                     color "#ffffff"
                                     xalign 0.5
@@ -696,7 +696,7 @@ screen barra_atributo_ficha(nome, valor):
         spacing 3
         hbox:
             spacing 5
-            text nome:
+            text _(nome):
                 style "livro_atributo_nome"
                 xsize 140
             text (str(valor) + "/100"):
@@ -747,7 +747,7 @@ screen detalhes_perfil(data):
                     xfill True
                     yfill True
 
-                    text "📖 " + data["nome"]:
+                    text "📖 " + _(data["nome"]):
                         style "perfil_livro_titulo"
                         yalign 0.5
 
@@ -815,22 +815,22 @@ screen detalhes_perfil(data):
                         vbox:
                             spacing 18
 
-                            text "Descrição":
+                            text _("Descrição"):
                                 style "perfil_secao_titulo"
 
-                            text data["descricao"]:
+                            text _(data["descricao"]):
                                 style "perfil_label"
 
-                            text "História":
+                            text _("História"):
                                 style "perfil_secao_titulo"
 
-                            text data["historia"]:
+                            text _(data["historia"]):
                                 style "perfil_label"
 
-                            text "Curiosidades":
+                            text _("Curiosidades"):
                                 style "perfil_secao_titulo"
 
-                            text data["curiosidade"]:
+                            text _(data["curiosidade"]):
                                 style "perfil_label"
 
                 # Página direita com a ficha (informações/personalidade/anatomia)
@@ -870,16 +870,16 @@ screen detalhes_perfil(data):
                                                 ysize 1
                                                 background Solid("#8b5a2b")
 
-                                            text _("Gênero: ") + data.get("genero", "?"):
+                                            text _("Gênero: ") + _(data.get("genero", "?")):
                                                 style "livro_info_texto"
 
-                                            text _("Sexualidade: ") + data.get("sexualidade", "?"):
+                                            text _("Sexualidade: ") + _(data.get("sexualidade", "?")):
                                                 style "livro_info_texto"
 
-                                            text _("Ocupação: ") + data.get("ocupacao", "?"):
+                                            text _("Ocupação: ") + _(data.get("ocupacao", "?")):
                                                 style "livro_info_texto"
 
-                                            text _("Espécie: ") + data.get("especie", "?"):
+                                            text _("Espécie: ") + _(data.get("especie", "?")):
                                                 style "livro_info_texto"
 
                                 if "personalidade" in data:
@@ -921,14 +921,14 @@ screen detalhes_perfil(data):
                                                 ysize 1
                                                 background Solid("#8b5a2b")
 
-                                            text _("Altura: ") + data["anatomia"].get("altura", "?"):
+                                            text _("Altura: ") + _(data["anatomia"].get("altura", "?")):
                                                 style "livro_info_texto"
 
-                                            text _("Peso: ") + data["anatomia"].get("peso", "?"):
+                                            text _("Peso: ") + _(data["anatomia"].get("peso", "?")):
                                                 style "livro_info_texto"
 
-                                            text _("Raça: ") + data["anatomia"].get("raca", "?"):
+                                            text _("Raça: ") + _(data["anatomia"].get("raca", "?")):
                                                 style "livro_info_texto"
 
-                                            text _("Tipo Sanguíneo: ") + data["anatomia"].get("tipo_sangue", "?"):
+                                            text _("Tipo Sanguíneo: ") + _(data["anatomia"].get("tipo_sangue", "?")):
                                                 style "livro_info_texto"

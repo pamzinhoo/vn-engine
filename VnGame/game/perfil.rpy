@@ -97,7 +97,7 @@ screen perfil_janela():
                     xfill True
                     spacing 20
 
-                    text "📖 DIÁRIO":
+                    text _("📖 DIÁRIO"):
                         style "perfil_livro_titulo"
                         yalign 0.5
 
