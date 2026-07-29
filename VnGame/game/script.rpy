@@ -83,8 +83,6 @@ label start:
     pause 2.0
     hide screen horario with dissolve
 
-    show screen botao_perfil
-
     # Guarda a escolha
     $ persistent.genero = _return
     if persistent.genero == "mulher":

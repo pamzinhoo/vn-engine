@@ -21,7 +21,8 @@ style perfil_button is button:
     hover_background Solid("#000000AA")
     
 style perfil_button_text is button_text:
-    color "#ffffff"
+    color "#888888"
+    hover_color "#66c1e0"
     bold True
     italic True
     size 20

@@ -109,9 +109,9 @@ screen say(who, what):
         text who:
             id "who"
             style "say_label"
-            xpos 499
+            xpos 541
             xanchor 0.5
-            ypos 736
+            ypos 702
             yanchor 0.5
             color "#0099cc"
             
@@ -142,7 +142,7 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox2.png", xalign=0.5, yalign=1.0)
+    background Image("gui/details/textbox_ui.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -247,20 +247,43 @@ screen quick_menu():
     ## Certifique-se de que isso apareça na parte superior de outras telas.
     zorder 100
 
-    if quick_menu:
+    ## Ícones de canto (no lugar da antiga barra de botões). São overlays de
+    ## tela cheia com o ícone já posicionado; focus_mask deixa só o ícone clicável.
+    ## Só aparecem quando há diálogo na tela (tela "say" ativa).
+    if quick_menu and renpy.get_screen("say"):
 
-        hbox:
-            style_prefix "quick"
-            style "quick_menu"
+        # Tecla P mostra/esconde o botão de configurações
+        key "p" action SetVariable("mostrar_config", not mostrar_config)
+        key "P" action SetVariable("mostrar_config", not mostrar_config)
 
-            textbutton _("Voltar") action Rollback()
-            textbutton _("Histórico") action ShowMenu('history')
-            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Automotivo") action Preference("auto-forward", "toggle")
-            textbutton _("Salvar") action ShowMenu('save')
-            textbutton _("Q.Salvar") action QuickSave()
-            textbutton _("Q. Carga") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+        # Salvar — canto inferior esquerdo
+        imagebutton:
+            idle "gui/details/save_button.png"
+            hover "gui/details/save_button_hover.png"
+            focus_mask True
+            action ShowMenu('save')
+
+        # Início / voltar ao menu — canto inferior direito
+        imagebutton:
+            idle "gui/details/menu_button.png"
+            hover "gui/details/menu_button_hover.png"
+            focus_mask True
+            action MainMenu(confirm=True)
+
+        # Configurações (skip / Ctrl) — só aparece ao apertar P
+        if mostrar_config:
+            imagebutton:
+                idle "gui/details/config_button.png"
+                hover "gui/details/config_button_hover.png"
+                focus_mask True
+                action ShowMenu('preferences')
+
+        # Diário — canto superior direito
+        imagebutton:
+            idle "gui/details/diario_button.png"
+            hover "gui/details/diario_button_hover.png"
+            focus_mask True
+            action Show("perfil_janela")
 
 
 ## Esse código garante que a tela quick_menu seja exibida no jogo, sempre que o
@@ -269,6 +292,9 @@ init python:
     config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
+
+## Controla a visibilidade do botão de configurações (alternado pela tecla P).
+default mostrar_config = False
 
 style quick_menu is hbox
 style quick_button is default
@@ -2162,16 +2188,9 @@ screen quick_menu():
 
     zorder 100
 
+    ## Barra de botões removida a pedido (variante touch).
     if quick_menu:
-
-        hbox:
-            style "quick_menu"
-            style_prefix "quick"
-
-            textbutton _("Voltar") action Rollback()
-            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Automotivo") action Preference("auto-forward", "toggle")
-            textbutton _("Menu") action ShowMenu()
+        null
 
 
 style window:
@@ -2275,30 +2294,28 @@ screen day_locate(local, dia):
     zorder 100
     modal False
 
-    # Imagem por cima de tudo
-    add "day_locate.png" xalign 0.5 ypos 0
+    # Nova arte do day info (lanterna suspensa no canto superior esquerdo)
+    add "gui/details/day_info.png" xpos 0 ypos 0
 
-    # Texto na placa oval (localização)
+    # Localização — rótulo à direita da lanterna
     text dia:
-        xpos 134
-        xanchor 0.5
-        ypos 103
+        xpos 120
+        xanchor 0.0
+        ypos 72
         yanchor 0.5
-        xsize 191
-        color "#000000"
-        size 18
+        color "#ffffff"
+        size 26
         font "fonts/fonte.ttf"
-        text_align 0.5
-        layout "subtitle"
+        outlines [(2, "#000000", 0, 0)]
 
-    # Texto na lanterna (dia/número)
+    # Número do dia — dentro do vidro da lanterna
     text local:
-        xpos 75
+        xpos 57
         xanchor 0.5
-        ypos 249
+        ypos 70
         yanchor 0.5
-        color "#000000"
-        size 33
+        color "#ffffff"
+        size 16
         font "fonts/fonte.ttf"
         text_align 0.5
 

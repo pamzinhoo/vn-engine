@@ -37,17 +37,12 @@ init -1:
 
 
 screen botao_perfil():
-    frame:
-        textbutton "{b}{i}Diário{/i}{/b}":
-            xalign 0.5
-            yalign 0.5
-            action Show("perfil_janela")
-            style "perfil_button"
-        xalign 0.98
-        yalign 0.02
-        xsize 130
-        ysize 50
-        background Solid("#00000080")
+    # Ícone do diário — canto superior direito (overlay de tela cheia)
+    imagebutton:
+        idle "gui/details/diario_button.png"
+        hover "gui/details/diario_button_hover.png"
+        focus_mask True
+        action Show("perfil_janela")
 
 
 screen barra_atributo(nome, valor):
