@@ -2,6 +2,17 @@
 ## Janela de Perfil do Personagem
 ################################################################################
 
+## Imagens do diário: usadas SEMPRE pelo caminho do arquivo (ex:
+## "images/diariopagina1.png"), nunca por um nome de imagem/tag registrado
+## (ex: "diariopagina1" sozinho). Motivo: o código usa `renpy.loadable(...)`
+## pra checar se a página existe antes de mostrar, e `renpy.loadable()`
+## verifica um ARQUIVO no disco — não sabe o que é uma tag de imagem
+## registrada por `image nome = ...`. Usar só o nome da tag faz
+## `renpy.loadable()` sempre retornar False (foi exatamente esse bug: a
+## página nunca aparecia, mesmo com o arquivo existindo e a imagem
+## declarada). Por isso não há `image diariopagina1 = ...` aqui — é só o
+## caminho mesmo, direto.
+
 init -1:
 
     transform book_entrance:
@@ -36,13 +47,100 @@ init -1:
         repeat
 
 
+################################################################################
+## Selo de "Diário Atualizado"
+################################################################################
+## O que é: um selo (imagem) que aparece logo ABAIXO do ícone do diário
+## (canto superior direito, veja `screens.rpy` -> screen quick_menu) avisando
+## o jogador que há uma página nova pra ler. Toca o som de um lápis
+## (audio/lapis.mp3) quando aparece.
+##
+## Arquivos usados:
+##   - Imagem do selo: game/images/diarioselo.png
+##       (usada pelo caminho direto em screens.rpy: add "images/diarioselo.png")
+##   - Som:            game/audio/lapis.mp3
+##   - Exibição do selo: screens.rpy, screen quick_menu, logo após o
+##     imagebutton do diário.
+##
+## Como usar (para outros devs):
+##   Hoje o selo só é ativado uma vez, logo depois do jogador escolher o
+##   gênero da protagonista (ver script.rpy, label start, após
+##   `$ persistent.prota_data = prota_data`). Para o diário atualizar de novo
+##   em qualquer outro ponto do roteiro (nova página, novo evento, etc.),
+##   basta chamar a função abaixo:
+##
+##       $ diario_notificar()
+##
+##   O selo some sozinho quando o jogador clica no ícone do diário (o clique
+##   já desliga `persistent.diario_notificacao`, ver screens.rpy).
+##   Se quiser trocar a imagem do selo, é só sobrescrever
+##   game/images/diarioselo.png (ou trocar o caminho usado no `add` dentro de
+##   screens.rpy, se o nome do arquivo mudar).
+
+default persistent.diario_notificacao = False
+
+init python:
+    def diario_notificar(tocar_som=True):
+        """Ativa o selo de diário atualizado e (opcionalmente) toca o som de lápis."""
+        persistent.diario_notificacao = True
+        if tocar_som:
+            renpy.play("audio/lapis.mp3")
+
+
+################################################################################
+## Páginas do Diário
+################################################################################
+## `persistent.diario_paginas` é a lista de páginas (imagens) do diário, na
+## ordem em que devem ser lidas. O jogador abre o diário sempre na primeira
+## página (índice 0) e passa pro lado com as setas ‹ › (ver screen
+## `perfil_janela` mais abaixo).
+##
+## Como adicionar uma página nova (para outros devs):
+##   1. Coloque a imagem em game/images/ (ex: game/images/diariopagina2.png).
+##   2. Adicione o CAMINHO completo no fim da lista, em qualquer ponto do
+##      roteiro (não é o nome de uma imagem/tag — é o caminho do arquivo,
+##      igual ao usado no exemplo abaixo):
+##          $ persistent.diario_paginas.append("images/diariopagina2.png")
+##      (Se quiser também avisar o jogador que há algo novo, chame
+##      `diario_notificar()` logo em seguida — ver seção acima.)
+##
+## IMPORTANTE sobre o encaixe da imagem:
+##   A janela do diário tem duas camadas (ver screen `perfil_janela`):
+##     - camada de FORA: a moldura/capa do livro (background Frame("gui/frame.png", ...)
+##       + a barra "📖 DIÁRIO" no topo) — isso é só borda, nunca deve ser coberto.
+##     - camada de DENTRO: o frame com fundo "#f0e8d8" (a "folha" do diário) —
+##       é DENTRO dela que a imagem da página deve caber (`xysize (1190, 585)`,
+##       `fit "contain"`). Não aumente esse tamanho além do espaço da folha,
+##       senão a imagem invade/cobre a moldura de fora.
+
+default persistent.diario_paginas = ["images/diariopagina1.png"]
+default diario_pagina_atual = 0
+
+## Migração: quem já tinha jogado com versões antigas deste sistema ficou
+## com valores errados salvos em persistent.diario_paginas:
+##   - "img_diario_dentro"  (nome de arquivo de antes de renomear)
+##   - "diariopagina1"      (nome de tag, sem o caminho "images/...png")
+## Nenhum dos dois funciona com `renpy.loadable()` (ver comentário lá em
+## cima), então a página caía sempre no placeholder. Este bloco corrige o
+## persistent de quem já tinha uma dessas entradas, sem precisar apagar save.
+init python:
+    if persistent.diario_paginas:
+        _migracao_nomes_diario = {
+            "img_diario_dentro": "images/diariopagina1.png",
+            "diariopagina1": "images/diariopagina1.png",
+        }
+        persistent.diario_paginas = [
+            _migracao_nomes_diario.get(p, p) for p in persistent.diario_paginas
+        ]
+
+
 screen botao_perfil():
     # Ícone do diário — canto superior direito (overlay de tela cheia)
     imagebutton:
         idle "gui/details/diario_button.png"
         hover "gui/details/diario_button_hover.png"
         focus_mask True
-        action Show("perfil_janela")
+        action [Show("perfil_janela"), SetVariable("diario_pagina_atual", 0)]
 
 
 screen barra_atributo(nome, valor):
@@ -117,10 +215,17 @@ screen perfil_janela():
                 ysize 3
                 background Solid("#8b5a2b")
 
-            $ prota_data = getattr(persistent, "prota_data", None)
-            $ pagina_diario = prota_data.get("diario_img") if prota_data else None
+            $ paginas_diario = persistent.diario_paginas or []
+            $ total_paginas_diario = len(paginas_diario)
+            $ pagina_diario = (
+                  paginas_diario[diario_pagina_atual]
+                  if 0 <= diario_pagina_atual < total_paginas_diario
+                  else None
+              )
 
-            # 📄 PÁGINA DO DIÁRIO (apenas imagem, desenhada à mão)
+            # 📄 PÁGINA DO DIÁRIO — camada de DENTRO (a "folha"). A imagem tem
+            # que caber aqui dentro (xysize 1190x585); não aumentar esse
+            # tamanho, senão ela passa por cima da moldura de fora do livro.
             frame:
                 xfill True
                 yfill True
@@ -137,5 +242,24 @@ screen perfil_janela():
                     text _("Nenhuma página do diário ainda."):
                         style "livro_placeholder"
                         xalign 0.5
+                        yalign 0.5
+
+
+                # ‹ Página anterior
+                if diario_pagina_atual > 0:
+                    textbutton "‹":
+                        action SetVariable("diario_pagina_atual", diario_pagina_atual - 1)
+                        style "botao_fechar_livro"
+                        background None
+                        xalign 0.0
+                        yalign 0.5
+
+                # › Próxima página
+                if diario_pagina_atual < total_paginas_diario - 1:
+                    textbutton "›":
+                        action SetVariable("diario_pagina_atual", diario_pagina_atual + 1)
+                        style "botao_fechar_livro"
+                        background None
+                        xalign 1.0
                         yalign 0.5
 

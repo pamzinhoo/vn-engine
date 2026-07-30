@@ -278,12 +278,32 @@ screen quick_menu():
                 focus_mask True
                 action ShowMenu('preferences')
 
-        # Diário — canto superior direito
-        imagebutton:
-            idle "gui/details/diario_button.png"
-            hover "gui/details/diario_button_hover.png"
-            focus_mask True
-            action Show("perfil_janela")
+        # Diário — canto superior direito. O selo de "atualizado" fica dentro
+        # do mesmo `fixed` que o botão (mesmo espaço/tamanho de antes dentro
+        # do quick_menu), assim ele não desalinha o resto dos ícones.
+        fixed:
+            imagebutton:
+                idle "gui/details/diario_button.png"
+                hover "gui/details/diario_button_hover.png"
+                focus_mask True
+                # Abre o diário na primeira página e desliga o selo de "atualizado"
+                action [
+                    Show("perfil_janela"),
+                    SetField(persistent, "diario_notificacao", False),
+                    SetVariable("diario_pagina_atual", 0),
+                ]
+
+            # Selo de "diário atualizado" — logo abaixo do ícone do diário.
+            # Liga/desliga via `persistent.diario_notificacao`. Para reativar
+            # em qualquer ponto do roteiro (nova página do diário, etc.),
+            # chame `diario_notificar()` (definida em perfil.rpy).
+            if persistent.diario_notificacao:
+                add "images/diarioselo.png":
+                    xysize (65, 62)
+                    fit "contain"
+                    xpos 1868
+                    xanchor 0.5
+                    ypos 84
 
 
 ## Esse código garante que a tela quick_menu seja exibida no jogo, sempre que o

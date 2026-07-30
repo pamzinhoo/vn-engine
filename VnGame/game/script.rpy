@@ -97,7 +97,11 @@ label start:
         $ prota_data = protaM_data
     $ persistent.prota_data = prota_data
 
-    scene bg fundo 
+    # Primeira página do diário disponível — acende o selo "diário atualizado"
+    # e toca o som de lápis (ver perfil.rpy para reusar isso em outros pontos).
+    $ diario_notificar()
+
+    scene bg fundo
     with fade_black # isso deixa
     
 
