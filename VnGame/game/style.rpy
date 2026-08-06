@@ -1,18 +1,10 @@
-style narrador_window:
-    background None          # sem textbox
-    xpos 0
-    ypos 0
-    xfill True
-    yfill True
-    padding (80, 40)
+# O narrador (n) usa a mesma textbox de todo mundo; só o texto muda (itálico),
+# para diferenciar narração de fala sem sumir com a caixa de diálogo.
+style narrador_window is window
 
-style narrador_dialogo:
+style narrador_dialogo is say_dialogue:
     color "#ffffff"
-    size 32
     italic True
-    text_align 0.5           # centralizado
-    xalign 0.5
-    yalign 0.5
 
 style perfil_button is button:
     xsize 130
