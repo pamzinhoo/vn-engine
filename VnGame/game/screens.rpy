@@ -235,6 +235,9 @@ style choice_button is default:
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
+    yalign 0.5
+    xalign 0.5
+    text_align 0.5
 
 
 ## Tela do menu rápido #########################################################
