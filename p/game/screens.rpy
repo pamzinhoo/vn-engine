@@ -8,7 +8,7 @@ init offset = -1
 ################################################################################
 ## Estilos
 ################################################################################
-default easter_egg_visto = False
+
 style default:
     properties gui.text_properties()
     language gui.language
@@ -99,33 +99,26 @@ screen say(who, what):
 
     window:
         id "window"
-        
 
-        text what id "what":
-            style "say_dialogue"    # ← dentro da window ✓
-            color "#ffffff"
+        if who is not None:
 
-    if who is not None:
-        text who:
-            id "who"
-            style "say_label"
-            xpos 541
-            xanchor 0.5
-            ypos 745
-            yanchor 0.5
-            color "#0099cc"
-            
+            window:
+                id "namebox"
+                style "namebox"
+                text who id "who"
 
+        text what id "what"
+
+
+    ## Se houver uma imagem lateral, exiba-a acima do texto. Não exiba na
+    ## variante do telefone - não há espaço.
     if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 0.30
+        add SideImage() xalign 0.0 yalign 1.0
 
 
 ## Disponibilize a caixa de nome para estilização por meio do objeto Character.
 init python:
     config.character_id_prefixes.append('namebox')
-
-init python:
-    config.game_menu_action = ShowMenu("in_game_menu")
 
 style window is default
 style say_label is default
@@ -142,13 +135,13 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/details/textbox_ui.png", xalign=0.5, yalign=1.0)
+    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
     xsize gui.namebox_width
-    ypos -80
+    ypos gui.name_ypos
     ysize gui.namebox_height
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
@@ -235,14 +228,11 @@ style choice_button is default:
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
-    yalign 0.5
-    xalign 0.5
-    text_align 0.5
 
 
 ## Tela do menu rápido #########################################################
 ##
-## O menu rápido é exibido no jogo para fornecer acesso fácil aos menus fora do menu QUE TEM QUANDO INICIA O JOGO NA PARTE DE BAIXO DA TELA
+## O menu rápido é exibido no jogo para fornecer acesso fácil aos menus fora do
 ## jogo.
 
 screen quick_menu():
@@ -250,63 +240,20 @@ screen quick_menu():
     ## Certifique-se de que isso apareça na parte superior de outras telas.
     zorder 100
 
-    ## Ícones de canto (no lugar da antiga barra de botões). São overlays de
-    ## tela cheia com o ícone já posicionado; focus_mask deixa só o ícone clicável.
-    ## Só aparecem quando há diálogo na tela (tela "say" ativa).
-    if quick_menu and renpy.get_screen("say"):
+    if quick_menu:
 
-        # Tecla P mostra/esconde o botão de configurações
-        key "p" action SetVariable("mostrar_config", not mostrar_config)
-        key "P" action SetVariable("mostrar_config", not mostrar_config)
+        hbox:
+            style_prefix "quick"
+            style "quick_menu"
 
-        # Salvar — canto inferior esquerdo
-        imagebutton:
-            idle "gui/details/save_button.png"
-            hover "gui/details/save_button_hover.png"
-            focus_mask True
-            action ShowMenu('save')
-
-        # Início / voltar ao menu — canto inferior direito
-        imagebutton:
-            idle "gui/details/menu_button.png"
-            hover "gui/details/menu_button_hover.png"
-            focus_mask True
-            action MainMenu(confirm=True)
-
-        # Configurações (skip / Ctrl) — só aparece ao apertar P
-        if mostrar_config:
-            imagebutton:
-                idle "gui/details/config_button.png"
-                hover "gui/details/config_button_hover.png"
-                focus_mask True
-                action ShowMenu('preferences')
-
-        # Diário — canto superior direito. O selo de "atualizado" fica dentro
-        # do mesmo `fixed` que o botão (mesmo espaço/tamanho de antes dentro
-        # do quick_menu), assim ele não desalinha o resto dos ícones.
-        fixed:
-            imagebutton:
-                idle "gui/details/diario_button.png"
-                hover "gui/details/diario_button_hover.png"
-                focus_mask True
-                # Abre o diário na primeira página e desliga o selo de "atualizado"
-                action [
-                    Show("perfil_janela"),
-                    SetField(persistent, "diario_notificacao", False),
-                    SetVariable("diario_pagina_atual", 0),
-                ]
-
-            # Selo de "diário atualizado" — logo abaixo do ícone do diário.
-            # Liga/desliga via `persistent.diario_notificacao`. Para reativar
-            # em qualquer ponto do roteiro (nova página do diário, etc.),
-            # chame `diario_notificar()` (definida em perfil.rpy).
-            if persistent.diario_notificacao:
-                add "images/diarioselo.png":
-                    xysize (65, 62)
-                    fit "contain"
-                    xpos 1868
-                    xanchor 0.5
-                    ypos 84
+            textbutton _("Voltar") action Rollback()
+            textbutton _("Histórico") action ShowMenu('history')
+            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("Automotivo") action Preference("auto-forward", "toggle")
+            textbutton _("Salvar") action ShowMenu('save')
+            textbutton _("Q.Salvar") action QuickSave()
+            textbutton _("Q. Carga") action QuickLoad()
+            textbutton _("Prefs") action ShowMenu('preferences')
 
 
 ## Esse código garante que a tela quick_menu seja exibida no jogo, sempre que o
@@ -315,9 +262,6 @@ init python:
     config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
-
-## Controla a visibilidade do botão de configurações (alternado pela tecla P).
-default mostrar_config = False
 
 style quick_menu is hbox
 style quick_button is default
@@ -346,7 +290,7 @@ style quick_button_text:
 screen navigation():
 
     vbox:
-        style_prefix "navigation" 
+        style_prefix "navigation"
 
         xpos gui.navigation_xpos
         yalign 0.5
@@ -366,8 +310,6 @@ screen navigation():
         textbutton _("Carga") action ShowMenu("load")
 
         textbutton _("Preferências") action ShowMenu("preferences")
-
-        textbutton _("Catálogo") action ShowMenu("perfil_catalogo") 
 
         if _in_replay:
 
@@ -407,79 +349,32 @@ style navigation_button_text:
 ## Usado para exibir o menu principal quando o Ren'Py é iniciado.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
-transform button_hover_scale:
-    zoom 1.0
-    subpixel True
-    on hover:
-        ease 0.15 zoom 1.08 xoffset -2 yoffset -3
-    on idle:
-        ease 0.15 zoom 1.0 xoffset 0 yoffset 0
-screen main_menu(): 
 
+screen main_menu():
+
+    ## Isso garante que qualquer outra tela de menu seja substituída.
     tag menu
 
-    if not easter_egg_visto:
-        timer 10800.0 action ShowMenu("easter_egg")
-    add Movie(play="videos/main_menu.webm", loop=True) xysize (1920, 1080) xalign 0.5 yalign 0.5
+    add gui.main_menu_background
 
-
-    add "gui/overlay/nenhum_selecionado.png" xalign 0.5 yalign 0.5 alpha 0.7
-
+    ## Esse quadro vazio escurece o menu principal.
     frame:
         style "main_menu_frame"
 
-    fixed:
-        textbutton _("Início") action Start():
-            style "main_menu_button"
-            xpos 0
-            ypos 310
-            at button_hover_scale
+    ## A instrução de uso inclui outra tela dentro desta. O conteúdo real do
+    ## menu principal está na tela de navegação.
+    use navigation
 
-        textbutton _("Carregar") action ShowMenu('load'):
-            style "main_menu_button"
-            xpos 0
-            ypos 425
-            at button_hover_scale
-            
-        textbutton _("Preferências") action ShowMenu('preferences'):
-            style "main_menu_button"
-            xpos 0
-            ypos 540
-            at button_hover_scale
+    if gui.show_name:
 
+        vbox:
+            style "main_menu_vbox"
 
-        textbutton _("Catálogo") action ShowMenu('perfil_catalogo'):
-            style "main_menu_button"
-            xpos 0
-            ypos 650
-            at button_hover_scale
-        
-        textbutton _("Sobre") action ShowMenu('about'):
-            style "main_menu_button"
-            xpos 0
-            ypos 750
-            at button_hover_scale
-        textbutton _("Ajuda") action ShowMenu('help'):
-            style "main_menu_button"
-            xpos 0
-            ypos 863
-            at button_hover_scale
-        textbutton _("Sair") action Quit(confirm=True):
-            style "main_menu_button"
-            xpos 0
-            ypos 980
-            at button_hover_scale
+            text "[config.name!t]":
+                style "main_menu_title"
 
-        imagebutton:
-            idle Transform("icone_discord", size=(90, 90))
-            focus_mask True
-            xalign 1.0
-            xoffset -40
-            yalign 1.0
-            yoffset -40
-            action Function(discord_button_action)
-
-
+            text "[config.version]":
+                style "main_menu_version"
 
 
 style main_menu_frame is empty
@@ -487,51 +382,28 @@ style main_menu_vbox is vbox
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
-style main_menu_button is gui_button
-style main_menu_button_text is gui_button_text
 
 style main_menu_frame:
     xsize 420
     yfill True
 
+    background "gui/overlay/main_menu.png"
+
 style main_menu_vbox:
-    xalign 0.0
-    xoffset 60
-    yalign 0.0
-    yoffset 200
-    spacing 5
+    xalign 1.0
+    xoffset -30
+    xmaximum 1200
+    yalign 1.0
+    yoffset -30
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
-    font "fonts/fonte.ttf"
-
-style main_menu_button:
-    properties gui.button_properties("button")
-    ysize 80
-    xsize 360
-
-style main_menu_button_text:
-    font "fonts/fonte.ttf"
-    size 45
-    color "#000000"
-    hover_color "#7C7A8D"
-    xalign 0.5
-    text_align 0.5
 
 style main_menu_title:
     properties gui.text_properties("title")
 
 style main_menu_version:
     properties gui.text_properties("version")
-
-
-## Tela de Aviso ##############################################################
-##
-## Tela que exibe a imagem de aviso de conteúdo.
-
-screen tela_aviso():
-    modal True
-    add "aviso.png" xysize (1920, 1080)
 
 
 ## Tela do menu do jogo ########################################################
@@ -557,6 +429,8 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
         style "game_menu_outer_frame"
 
         hbox:
+
+            ## Reserve espaço para a seção de navegação.
             frame:
                 style "game_menu_navigation_frame"
 
@@ -564,117 +438,53 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
                 style "game_menu_content_frame"
 
                 if scroll == "viewport":
+
                     viewport:
                         yinitial yinitial
                         scrollbars "vertical"
                         mousewheel True
                         draggable True
                         pagekeys True
+
                         side_yfill True
+
                         vbox:
                             spacing spacing
+
                             transclude
 
                 elif scroll == "vpgrid":
+
                     vpgrid:
                         cols 1
                         yinitial yinitial
+
                         scrollbars "vertical"
                         mousewheel True
                         draggable True
                         pagekeys True
+
                         side_yfill True
+
                         spacing spacing
+
                         transclude
 
                 else:
+
                     transclude
+
+    use navigation
+
+    textbutton _("Voltar"):
+        style "return_button"
+
+        action Return()
+
+    label title
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
-    else:
-        key "game_menu" action ShowMenu("in_game_menu")
-
-
-## Tela de pause menu (botão direito durante o jogo)
-screen in_game_menu():
-    tag menu
-    modal True
-
-    add gui.game_menu_background
-
-    frame:
-        style "game_menu_outer_frame"
-        hbox:
-            frame:
-                style "game_menu_navigation_frame"
-            frame:
-                style "game_menu_content_frame"
-
-    fixed:
-        textbutton _("Início") action ShowMenu("save"):
-            xpos 50
-            ypos 265
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Carga") action ShowMenu("load"):
-            xpos 50
-            ypos 370
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Preferências") action ShowMenu("preferences"):
-            xpos 50
-            ypos 473
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
-            xpos 50
-            ypos 580
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sobre") action ShowMenu("about"):
-            xpos 50
-            ypos 685
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Ajuda") action ShowMenu("help"):
-            xpos 50
-            ypos 785
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Menu Principal") action MainMenu():
-            xpos 50
-            ypos 890
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Voltar") action Return():
-            xpos 50
-            ypos 990
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
 
 
 style game_menu_outer_frame is empty
@@ -737,80 +547,26 @@ style return_button:
 ## Não há nada de especial nessa tela e, portanto, ela também serve como exemplo
 ## de como criar uma tela personalizada.
 
-screen about(): 
+screen about():
 
     tag menu
 
-    use game_menu(_(""), scroll="viewport"):
+    ## Essa instrução de uso inclui a tela game_menu dentro desta. O filho vbox
+    ## é então incluído na janela de visualização dentro da tela game_menu.
+    use game_menu(_("Sobre"), scroll="viewport"):
 
         style_prefix "about"
 
         vbox:
-            xpos 0.02
-            ypos 0.6
+
             label "[config.name!t]"
             text _("Versão [config.version!t]\n")
 
+            ## gui.about é normalmente definido em options.rpy.
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Feito com {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]") #textinho do bolso
-
-    fixed:
-        textbutton _("Início") action Return():
-            xpos 50
-            ypos 265
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Carga") action ShowMenu("load"):
-            xpos 50
-            ypos 370
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Preferências") action ShowMenu("preferences"):
-            xpos 50
-            ypos 473
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
-            xpos 50
-            ypos 580
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sobre") action ShowMenu("about"):
-            xpos 50
-            ypos 685
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Ajuda") action ShowMenu("help"):
-            xpos 50
-            ypos 785
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 890
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Voltar") action Return():
-            xpos 150
-            ypos 995
-            text_style "load_nav_text"
-            at button_hover_scale
+            text _("Feito com {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]")
 
 
 style about_label is gui_label
@@ -834,270 +590,14 @@ screen save():
 
     tag menu
 
-    # Background
-    add "gui/overlay/game_menu.png" xpos 0 ypos 0 xsize 1920 ysize 1080
+    use file_slots(_("Salvar"))
 
-    # Botões da sidebar
-    textbutton _("Histórico") action ShowMenu("history"):
-        xpos 50
-        ypos 265
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
 
-    textbutton _("Carga") action ShowMenu("load"):
-        xpos 50
-        ypos 370
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
+screen load():
 
-    textbutton _("Preferências") action ShowMenu("preferences"):
-        xpos 50
-        ypos 473
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
-        xpos 50
-        ypos 580
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Sobre") action ShowMenu("about"):
-        xpos 50
-        ypos 685
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Ajuda") action ShowMenu("help"):
-        xpos 50
-        ypos 785
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Sair") action Quit(confirm=True):
-        xpos 50
-        ypos 890
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Voltar") action Return():
-        xpos 150
-        ypos 995
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    # Slots de arquivo
-    fixed:
-        xpos 650
-        ypos 185
-
-        default page_name_value = FilePageNameInputValue(
-            pattern=_("Página {}"),
-            auto=_("Salvamentos automáticos"),
-            quick=_("Salvamentos rápidos")
-        )
-
-        button:
-            style "page_label"
-            xpos 636
-            xanchor 0.5
-            key_events True
-            action page_name_value.Toggle()
-            input:
-                style "page_label_text"
-                value page_name_value
-
-        grid gui.file_slot_cols gui.file_slot_rows:
-            style_prefix "slot"
-            xpos 0
-            ypos 50
-            spacing gui.slot_spacing
-
-            for i in range(gui.file_slot_cols * gui.file_slot_rows):
-                $ slot = i + 1
-                button:
-                    action FileAction(slot)
-                    has vbox
-                    add FileScreenshot(slot) xalign 0.5
-                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("slot vazio")):
-                        style "slot_time_text"
-                    text FileSaveName(slot):
-                        style "slot_name_text"
-                    key "save_delete" action FileDelete(slot)
-
-        hbox:
-            style_prefix "page"
-            xpos 636
-            xanchor 0.5
-            ypos 630
-            spacing gui.page_spacing
-
-            textbutton _("<") action FilePagePrevious()
-            if config.has_autosave:
-                textbutton _("{#auto_page}A") action FilePage("auto")
-            if config.has_quicksave:
-                textbutton _("{#quick_page}Q") action FilePage("quick")
-            for page in range(1, 10):
-                textbutton "[page]" action FilePage(page)
-            textbutton _(">") action FilePageNext()
-
-        if config.has_sync:
-            textbutton _("Upload Sync"):
-                action UploadSync()
-                xalign 0.5
-                ypos 700
-
-screen load(): 
     tag menu
 
-    # Background
-    add "gui/overlay/game_menu.png" xpos 0 ypos 0 xsize 1920 ysize 1080
-
-    # Título
-    
-
-    # Botões da sidebar (um por retângulo)
-    textbutton _("Histórico") action ShowMenu("history"):
-        xpos 50
-        ypos 265    # ← retângulo 1
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Carga") action ShowMenu("load"):
-        xpos 50
-        ypos 370    # ← retângulo 2
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Preferências") action ShowMenu("preferences"):
-        xpos 50
-        ypos 473     # ← retângulo 3
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
-        xpos 50
-        ypos 580    # ← retângulo 4
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Sobre") action ShowMenu("about"):
-        xpos 50
-        ypos 685     # ← retângulo 5
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Ajuda") action ShowMenu("help"):
-        xpos 50
-        ypos 785    # ← retângulo 6
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    textbutton _("Sair") action Quit(confirm=True):
-        xpos 50
-        ypos 890     # ← retângulo 7
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    # textbutton _("Sair") action Quit(confirm=True):
-    #     xpos 50
-    #     ypos 975      # ← retângulo 8
-    #     xsize 290
-    #     text_style "load_nav_text"
-
-    # Botão Voltar
-    textbutton _("Voltar") action Return():
-        xpos 150
-        ypos 995
-        text_style "load_nav_text"
-        at button_hover_scale
-
-    # Slots de arquivo
-    fixed:
-        xpos 650
-        ypos 185
-
-        default page_name_value = FilePageNameInputValue(
-            pattern=_("Página {}"),
-            auto=_("Salvamentos automáticos"),
-            quick=_("Salvamentos rápidos")
-        )
-
-        button:
-            style "page_label"
-            xpos 636
-            xanchor 0.5
-            key_events True
-            action page_name_value.Toggle()
-            input:
-                style "page_label_text"
-                value page_name_value
-
-        grid gui.file_slot_cols gui.file_slot_rows:
-            style_prefix "slot"
-            xpos 0
-            ypos 50
-            spacing gui.slot_spacing
-
-            for i in range(gui.file_slot_cols * gui.file_slot_rows):
-                $ slot = i + 1
-                button:
-                    action FileAction(slot)
-                    has vbox
-                    add FileScreenshot(slot) xalign 0.5
-                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("slot vazio")):
-                        style "slot_time_text"
-                    text FileSaveName(slot):
-                        style "slot_name_text"
-                    key "save_delete" action FileDelete(slot)
-
-        hbox:
-            style_prefix "page"
-            xpos 636
-            xanchor 0.5
-            ypos 630
-            spacing gui.page_spacing
-
-            textbutton _("<") action FilePagePrevious()
-            for page in range(1, 10):
-                textbutton "[page]" action FilePage(page)
-            textbutton _(">") action FilePageNext()
-
-style load_nav_text:
-    color "#000000"
-    hover_color "#222222"
-    size 40
-    font "fonts/fonte.ttf"
-    xalign 0.5
-    yalign 0.5
+    use file_slots(_("Carga"))
 
 
 screen file_slots(title):
@@ -1231,16 +731,14 @@ style slot_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
 
-screen preferences(): 
+screen preferences():
 
     tag menu
 
-    
-    use game_menu(_(""), scroll="viewport"):
-    
+    use game_menu(_("Preferências"), scroll="viewport"):
+
         vbox:
-            xpos 0.1
-            ypos 0.1
+
             hbox:
                 box_wrap True
 
@@ -1251,7 +749,6 @@ screen preferences():
                         label _("Tela")
                         textbutton _("Janela") action Preference("display", "window")
                         textbutton _("Tela cheia") action Preference("display", "fullscreen")
-                
 
                 vbox:
                     style_prefix "check"
@@ -1264,13 +761,8 @@ screen preferences():
                 ## ser adicionadas aqui para acrescentar outras preferências
                 ## definidas pelo criador.
 
-                vbox:
-                    style_prefix "radio"
-                    label _("Idioma / Language")
-                    textbutton "Português" action Language(None)
-                    textbutton "English" action Language("english")
-
             null height (4 * gui.pref_spacing)
+
             hbox:
                 style_prefix "slider"
                 box_wrap True
@@ -1319,69 +811,6 @@ screen preferences():
                         textbutton _("Silenciar tudo"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
-                
-    fixed:
-        textbutton _("Início") action Return():
-            xpos 50
-            ypos 265
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Carga") action ShowMenu("load"):
-            xpos 50
-            ypos 370    # ← retângulo 2
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Preferências") action ShowMenu("preferences"):
-            xpos 50
-            ypos 473     # ← retângulo 3
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
-            xpos 50
-            ypos 580    # ← retângulo 4
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sobre") action ShowMenu("about"):
-            xpos 50
-            ypos 685     # ← retângulo 5
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Ajuda") action ShowMenu("help"):
-            xpos 50
-            ypos 785    # ← retângulo 6
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 890     # ← retângulo 7
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        # textbutton _("Sair") action Quit(confirm=True):
-        #     xpos 50
-        #     ypos 975      # ← retângulo 8
-        #     xsize 290
-        #     text_style "load_nav_text"
-
-        # Botão Voltar
-        textbutton _("Voltar") action Return():
-            xpos 150
-            ypos 995
-            text_style "load_nav_text"
-            at button_hover_scale
 
 
 style pref_label is gui_label
@@ -1429,7 +858,6 @@ style radio_button:
 
 style radio_button_text:
     properties gui.text_properties("radio_button")
-    
 
 style check_vbox:
     spacing gui.pref_button_spacing
@@ -1467,6 +895,8 @@ style slider_vbox:
 screen history():
 
     tag menu
+
+    ## Evite prever essa tela, pois ela pode ser muito grande.
     predict False
 
     use game_menu(_("Histórico"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
@@ -1476,13 +906,19 @@ screen history():
         for h in _history_list:
 
             window:
+
+                ## Isso organiza as coisas corretamente se history_height for
+                ## None.
                 has fixed:
                     yfit True
 
                 if h.who:
+
                     label h.who:
                         style "history_name"
                         substitute False
+
+                        ## Pegue a cor do texto who do caractere, se definido.
                         if "color" in h.who_args:
                             text_color h.who_args["color"]
 
@@ -1493,72 +929,6 @@ screen history():
         if not _history_list:
             label _("O histórico de diálogo está vazio.")
 
-    fixed:
-        textbutton _("Histórico") action ShowMenu("history"):
-            xpos 50
-            ypos 265
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Salvar") action ShowMenu("save"):
-            xpos 50
-            ypos 370
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Carga") action ShowMenu("load"):
-            xpos 50
-            ypos 473
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Preferências") action ShowMenu("preferences"):
-            xpos 50
-            ypos 580
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
-            xpos 50
-            ypos 685
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sobre") action ShowMenu("about"):
-            xpos 50
-            ypos 785
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Ajuda") action ShowMenu("help"):
-            xpos 50
-            ypos 890
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 995
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        
 
 ## Isso determina quais tags podem ser exibidas na tela de histórico.
 
@@ -1579,7 +949,7 @@ style history_window:
     ysize gui.history_height
 
 style history_name:
-    xpos 470
+    xpos gui.history_name_xpos
     xanchor gui.history_name_xalign
     ypos gui.history_name_ypos
     xsize gui.history_name_width
@@ -1589,7 +959,7 @@ style history_name_text:
     textalign gui.history_name_xalign
 
 style history_text:
-    xpos 720
+    xpos gui.history_text_xpos
     ypos gui.history_text_ypos
     xanchor gui.history_text_xalign
     xsize gui.history_text_width
@@ -1609,25 +979,18 @@ style history_label_text:
 ## Uma tela que fornece informações sobre as combinações de teclas e mouse. Ela
 ## usa outras telas (keyboard_help, mouse_help e gamepad_help) para exibir a
 ## ajuda real.
-screen easter_egg():
-    add Movie(play="videos/easter-egg.webm", loop=False) xysize (1920, 1080) xalign 0.5 yalign 0.5
-    timer 9.0 action [
-        SetVariable("easter_egg_visto", True),
-        ShowMenu("main_menu")
-    ]
+
 screen help():
 
     tag menu
 
     default device = "keyboard"
 
-    use game_menu(_(""), scroll="viewport"):
+    use game_menu(_("Ajuda"), scroll="viewport"):
 
         style_prefix "help"
 
         vbox:
-            xpos 0.3
-            ypos 6
             spacing 23
 
             hbox:
@@ -1644,62 +1007,6 @@ screen help():
                 use mouse_help
             elif device == "gamepad":
                 use gamepad_help
-
-    fixed:
-        textbutton _("Início") action Return():
-            xpos 50
-            ypos 265
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Carga") action ShowMenu("load"):
-            xpos 50
-            ypos 370
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Preferências") action ShowMenu("preferences"):
-            xpos 50
-            ypos 473
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Catálogo") action ShowMenu("perfil_catalogo"):
-            xpos 50
-            ypos 580
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sobre") action ShowMenu("about"):
-            xpos 50
-            ypos 685
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Ajuda") action ShowMenu("help"):
-            xpos 50
-            ypos 785
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 890
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
-
-        textbutton _("Voltar") action Return():
-            xpos 150
-            ypos 995
-            text_style "load_nav_text"
-            at button_hover_scale
 
 
 screen keyboard_help():
@@ -2220,9 +1527,16 @@ screen quick_menu():
 
     zorder 100
 
-    ## Barra de botões removida a pedido (variante touch).
     if quick_menu:
-        null
+
+        hbox:
+            style "quick_menu"
+            style_prefix "quick"
+
+            textbutton _("Voltar") action Rollback()
+            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("Automotivo") action Preference("auto-forward", "toggle")
+            textbutton _("Menu") action ShowMenu()
 
 
 style window:
@@ -2308,383 +1622,3 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
-screen frase_transicao(frase):
-    add "#000000"
-    text frase:
-        xalign 0.5
-        yalign 0.5
-        color "#ffffff"
-        size 32
-        italic True
-screen horario(frase):
-    add "#000000"
-    text frase:
-        xalign 0.5
-        yalign 0.5
-        color "#ffffff"
-screen day_locate(local, dia):
-    zorder 100
-    modal False
-
-    # Nova arte do day info (lanterna suspensa no canto superior esquerdo)
-    add "gui/details/day_info.png" xpos 0 ypos 0
-
-    # Rótulo "Dia" — dentro do vidro da lanterna
-    text _("Dia"):
-        xpos 57
-        xanchor 0.5
-        ypos 55
-        yanchor 0.5
-        color "#ffffff"
-        size 18
-        font "fonts/fonte.ttf"
-        text_align 0.5
-
-    # Número do dia — abaixo do rótulo "Dia"
-    text local:
-        xpos 57
-        xanchor 0.5
-        ypos 90
-        yanchor 0.5
-        color "#ffffff"
-        size 32
-        font "fonts/fonte.ttf"
-        text_align 0.5
-
-
-################################################################################
-## Catálogo de Personagens
-################################################################################
-
-screen perfil_catalogo():
-    modal False
-    tag menu
-
-    # Background escuro
-    add "#0f0f1e"
-
-    # Layout principal: Sidebar + Conteúdo
-    fixed:
-        # Sidebar esquerda
-        frame:
-            style "perfil_catalogo_sidebar"
-            xpos 0
-            ypos 0
-            yfill True
-
-            vbox:
-                spacing 0
-                yfill True
-
-                # Título "Perfil" no topo
-                text _("Perfil") style "perfil_catalogo_title":
-                    xpos 20
-                    ypos 20
-
-                # Botões centralizados no meio
-                vbox:
-                    style_prefix "navigation" 
-
-                    xpos gui.navigation_xpos
-                    yalign 0.5
-
-                    spacing gui.navigation_spacing
-
-                    if main_menu:
-
-                        textbutton _("Início") action Start()
-
-
-                    textbutton _("Carga") action ShowMenu("load")
-
-                    textbutton _("Preferências") action ShowMenu("preferences")
-                    
-                    textbutton _("Catálogo") action ShowMenu("perfil_catalogo") 
-
-                    
-
-
-                    textbutton _("Sobre") action ShowMenu("about")
-
-                    if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-
-                        ## A ajuda não é necessária ou relevante para dispositivos móveis.
-                        textbutton _("Ajuda") action ShowMenu("help")
-
-                    if renpy.variant("pc"):
-
-                        ## O botão Sair é proibido no iOS e desnecessário no Android e na
-                        ## Web.
-                        textbutton _("Sair") action Quit(confirm=not main_menu)
-
-
-        # Conteúdo principal
-        frame:
-            xpos 850
-            ypos 0
-            xsize 470
-            yfill True
-            background None
-            padding (30, 30, 2, 30)
-
-            vbox:
-                spacing 20
-
-                # Grid de personagens
-                viewport:
-                    xsize 1040
-                    yfill True
-                    scrollbars "vertical"
-
-                    vbox:
-                        spacing 20
-
-                        # Linha 1
-                        hbox:
-                            spacing 20
-
-                            # Card 1
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("mulher") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "protaF.png" crop (850, 150, 1400, 900) xysize (220, 135)
-
-                            # Card 2
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-
-                        # Linha 2
-                        hbox:
-                            spacing 20
-
-                            # Card 3
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                            # Card 4
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                        # Linha 3
-                        hbox:
-                            spacing 20
-
-                            # Card 5
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                            # Card 6
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                        # Linha 4
-                        hbox:
-                            spacing 20
-
-                            # Card 7
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                            # Card 8
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                        # Linha 5
-                        hbox:
-                            spacing 20
-
-                            # Card 9
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                            # Card 10
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-                        # linha 6
-                        hbox:
-                            spacing 20
-
-                            # Card 11
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                            # Card 12
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                        # linha 7
-                        hbox:
-                            spacing 20
-
-                            # Card 13
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)
-
-                            # Card 14
-                            button:
-                                style "perfil_catalogo_card_button"
-                                action NullAction()
-
-                                hbox:
-                                    spacing 0
-
-                                    frame:
-                                        style "perfil_catalogo_card_name"
-                                        text _("nome aqui") style "perfil_catalogo_card_name_text"
-
-                                    frame:
-                                        style "perfil_catalogo_card_photo"
-                                        add "caminho/da/foto/aqui" crop (850, 150, 1400, 900) xysize (220, 130)                
