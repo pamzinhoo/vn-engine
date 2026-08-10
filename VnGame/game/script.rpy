@@ -80,7 +80,9 @@ label start:
     pause 10.0
     scene black with dissolve
     pause 1.0
+    play music "audio/selecao_genero.mp3" loop
     call screen escolha_genero with fade_black
+    stop music fadeout 0.5
     with fade_black
     show screen frase_transicao("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt") with dissolve
     pause 6.0
