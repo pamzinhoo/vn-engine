@@ -471,7 +471,7 @@ screen main_menu():
             at button_hover_scale
 
         imagebutton:
-            idle Transform("icone_discord", size=(90, 90))
+            idle Transform("gui/details/discord.png", size=(90, 90))
             focus_mask True
             xalign 1.0
             xoffset -40
