@@ -1853,23 +1853,45 @@ screen confirm(message, yes_action, no_action):
 
     add "gui/overlay/confirm.png"
 
-    frame:
+    ## O painel de saída já traz a pergunta desenhada na arte, então ele só
+    ## serve para a confirmação de sair do jogo. Os outros avisos (voltar ao
+    ## menu, apagar save, sobrescrever...) continuam no frame padrão.
+    if message == layout.QUIT:
 
-        vbox:
-            xalign .5
-            yalign .5
-            spacing 45
+        fixed:
+            fit_first True
+            xalign 0.5
+            yalign 0.5
 
-            label _(message):
-                style "confirm_prompt"
-                xalign 0.5
+            add "gui/details/confirm_sair.png"
 
             hbox:
                 xalign 0.5
-                spacing 150
+                yalign 0.5
+                spacing 90
 
-                textbutton _("Sim") action yes_action
-                textbutton _("Não") action no_action
+                textbutton _("Sim") action yes_action style "confirm_sair_button" at button_hover_scale
+                textbutton _("Não") action no_action style "confirm_sair_button" at button_hover_scale
+
+    else:
+
+        frame:
+
+            vbox:
+                xalign .5
+                yalign .5
+                spacing 45
+
+                label _(message):
+                    style "confirm_prompt"
+                    xalign 0.5
+
+                hbox:
+                    xalign 0.5
+                    spacing 150
+
+                    textbutton _("Sim") action yes_action
+                    textbutton _("Não") action no_action
 
     ## Clique com o botão direito do mouse e escape a resposta "não".
     key "game_menu" action no_action
@@ -1896,6 +1918,13 @@ style confirm_button:
 
 style confirm_button_text:
     properties gui.text_properties("confirm_button")
+
+## Botões do painel de saída: mesma aparência dos de confirmação, só maiores
+## para acompanhar a escala da arte.
+style confirm_sair_button is confirm_button
+
+style confirm_sair_button_text is confirm_button_text:
+    size 44
 
 
 ## Pular a tela do indicador ###################################################
