@@ -33,7 +33,7 @@ image protaM:
     zoom 0.2
     xalign 0.2
     yalign 1.0
-image bg fundo = "fundo.png"
+image bg fundo = "praca_fonte_noite.png"
 image espelho:
     "espelho.png"
     xalign 0.5
