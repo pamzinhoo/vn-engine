@@ -80,7 +80,7 @@ label start:
     pause 10.0
     scene black with dissolve
     pause 1.0
-    play music "audio/genero.wav" loop
+    play music "audio/musica_de_selecao_de_genero.wav" loop
     call screen escolha_genero with fade_black
     stop music fadeout 0.5
     with fade_black
