@@ -1754,7 +1754,7 @@ screen escolha_genero:
 
     button:
         xpos 0 ypos 0 xysize (1920, 1080)
-        action Return("homem")
+        action [Play("sound", "audio/genero.wav"), Return("homem")]
         focus_mask True
         at hover_glow
         background None
@@ -1762,7 +1762,7 @@ screen escolha_genero:
 
     button:
         xpos 0 ypos 0 xysize (1920, 1080)
-        action Return("mulher")
+        action [Play("sound", "audio/genero.wav"), Return("mulher")]
         focus_mask True
         at hover_glow
         background None
