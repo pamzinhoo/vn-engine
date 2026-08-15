@@ -46,6 +46,12 @@ image logo:
 image aviso:
     "aviso.png"
     xysize (1920, 1080)
+image aviso_en:
+    "aviso_en.png"
+    xysize (1920, 1080)
+image aviso_es:
+    "aviso_es.png"
+    xysize (1920, 1080)
 image ctc:
     alpha 1.0
     "seta.png"
@@ -76,7 +82,8 @@ label splashscreen:
 label start:
     scene black with dissolve
     pause 0.5
-    scene aviso with dissolve
+    $ tela_aviso = "aviso_es" if _preferences.language == "spanish" else ("aviso_en" if _preferences.language == "english" else "aviso")
+    scene expression tela_aviso with dissolve
     pause 10.0
     scene black with dissolve
     pause 1.0
@@ -1749,7 +1756,7 @@ transform hover_glow:
 screen escolha_genero:
     modal True
 
-    $ fundo_selecao = "images/fundo_selecao_en.png" if _preferences.language == "english" else "images/fundo_selecao_pt.png"
+    $ fundo_selecao = "images/fundo_selec_es.png" if _preferences.language == "spanish" else ("images/fundo_selecao_en.png" if _preferences.language == "english" else "images/fundo_selecao_pt.png")
     add fundo_selecao xpos 0 ypos 0 xysize (1920, 1080)
 
     button:
