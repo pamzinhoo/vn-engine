@@ -216,7 +216,9 @@ screen choice(items):
 
     vbox:
         for i in items:
-            textbutton i.caption action i.action
+            # escolha_tamanho() devolve o tamanho padrão quando a legenda cabe
+            # na moldura e só encolhe as que estourariam (ver ajuste_escolhas.rpy).
+            textbutton i.caption action i.action text_size escolha_tamanho(i.caption)
 
 
 style choice_vbox is vbox
@@ -1854,25 +1856,38 @@ screen confirm(message, yes_action, no_action):
 
     add "gui/overlay/confirm.png"
 
-    ## O painel de saída já traz a pergunta desenhada na arte, então ele só
-    ## serve para a confirmação de sair do jogo. Os outros avisos (voltar ao
-    ## menu, apagar save, sobrescrever...) continuam no frame padrão.
-    if message == layout.QUIT:
+    ## Sair do jogo e voltar ao menu usam o painel ornamentado. A arte vem vazia,
+    ## entao a pergunta e os botoes sao texto de verdade e passam pelas traducoes
+    ## (ver tl/*/common.rpy* para as strings de layout.QUIT e layout.MAIN_MENU).
+    ## O painel largo cabe as duas linhas do aviso do menu principal.
+    if message in (layout.QUIT, layout.MAIN_MENU, gui.OVERWRITE_SAVE, gui.LOADING):
+
+        $ _largo = message != layout.QUIT
+        $ _painel = "gui/details/fundo_dos_botoes_largo.png" if _largo else "gui/details/fundo_dos_botoes.png"
 
         fixed:
             fit_first True
             xalign 0.5
             yalign 0.5
 
-            add "gui/details/confirm_sair.png"
+            add _painel
 
-            hbox:
+            vbox:
                 xalign 0.5
                 yalign 0.5
-                spacing 90
+                xsize (830 if _largo else 620)
+                spacing 52
 
-                textbutton _("Sim") action yes_action style "confirm_sair_button" at button_hover_scale
-                textbutton _("Não") action no_action style "confirm_sair_button" at button_hover_scale
+                label _(message):
+                    style "confirm_painel_prompt"
+                    xalign 0.5
+
+                hbox:
+                    xalign 0.5
+                    spacing 90
+
+                    textbutton _("Sim") action yes_action style "confirm_sair_button" at button_hover_scale
+                    textbutton _("Não") action no_action style "confirm_sair_button" at button_hover_scale
 
     else:
 
@@ -1920,12 +1935,22 @@ style confirm_button:
 style confirm_button_text:
     properties gui.text_properties("confirm_button")
 
-## Botões do painel de saída: mesma aparência dos de confirmação, só maiores
+## Botões do painel ornamentado: mesma aparência dos de confirmação, só maiores
 ## para acompanhar a escala da arte.
 style confirm_sair_button is confirm_button
 
 style confirm_sair_button_text is confirm_button_text:
     size 44
+
+## Pergunta dentro do painel ornamentado. Fica sobre arte preta, então a cor é
+## fixada aqui em vez de herdar a do frame padrão.
+style confirm_painel_prompt is confirm_prompt
+
+style confirm_painel_prompt_text is confirm_prompt_text:
+    color "#ffffff"
+    size 38
+    textalign 0.5
+    layout "subtitle"
 
 
 ## Pular a tela do indicador ###################################################
