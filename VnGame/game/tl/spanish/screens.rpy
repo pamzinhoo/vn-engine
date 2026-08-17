@@ -235,3 +235,35 @@ translate spanish strings:
 
     old "nome aqui"
     new "nombre aquí"
+# TODO: Translation updated at 2026-08-17 09:31
+
+translate spanish strings:
+
+    # game/screens.rpy:936
+    old "{#file_time}%A, %B %d %Y, %H:%M"
+    new "{#file_time}%A, %B %d %Y, %H:%M"
+
+    # game/screens.rpy:949
+    old "<"
+    new "<"
+
+    # game/screens.rpy:951
+    old "{#auto_page}A"
+    new "{#auto_page}A"
+
+    # game/screens.rpy:953
+    old "{#quick_page}Q"
+    new "{#quick_page}Q"
+
+    # game/screens.rpy:956
+    old ">"
+    new ">"
+
+    # game/screens.rpy:1725
+    old "Ctrl"
+    new "Ctrl"
+
+    # game/screens.rpy:1729
+    old "Tab"
+    new "Tab"
+
