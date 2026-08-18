@@ -385,6 +385,7 @@ screen perfil_catalogo():
 
         # Botão anterior
         textbutton "◄":
+            text_font "DejaVuSans.ttf"
             xpos 490
             ypos 475
             xysize (80, 150)
@@ -465,6 +466,7 @@ screen perfil_catalogo():
 
         # Botão próximo
         textbutton "►":
+            text_font "DejaVuSans.ttf"
             xpos 1830
             ypos 475
             xysize (80, 150)
@@ -481,6 +483,7 @@ screen perfil_catalogo():
 
         # Botão anterior lugares
         textbutton "◄":
+            text_font "DejaVuSans.ttf"
             xpos 490
             ypos 475
             xysize (80, 150)
@@ -561,6 +564,7 @@ screen perfil_catalogo():
 
         # Botão próximo lugares
         textbutton "►":
+            text_font "DejaVuSans.ttf"
             xpos 1830
             ypos 475
             xysize (80, 150)
@@ -577,6 +581,7 @@ screen perfil_catalogo():
 
         # Botão anterior rotas
         textbutton "◄":
+            text_font "DejaVuSans.ttf"
             xpos 490
             ypos 475
             xysize (80, 150)
@@ -657,6 +662,7 @@ screen perfil_catalogo():
 
         # Botão próximo rotas
         textbutton "►":
+            text_font "DejaVuSans.ttf"
             xpos 1830
             ypos 475
             xysize (80, 150)
@@ -754,7 +760,7 @@ screen detalhes_perfil(data):
                     null:
                         xfill True
 
-                    textbutton "✕":
+                    textbutton "X":
                         style "botao_fechar_livro"
                         text_color "#c8b89a"
                         xalign 1.0

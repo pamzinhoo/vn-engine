@@ -202,7 +202,7 @@ screen perfil_janela():
                     null:
                         xfill True
 
-                    textbutton "✕":
+                    textbutton "X":
                         action Hide("perfil_janela")
                         style "botao_fechar_livro"
                         background None
