@@ -116,6 +116,23 @@ init python:
 default persistent.diario_paginas = ["images/diariopagina1.png"]
 default diario_pagina_atual = 0
 
+## Páginas do diário trocam de imagem conforme a língua selecionada
+## (_preferences.language). Caminho "images/diariopaginaN.png" vira
+## "images/diariopaginaN_en.png" (inglês) ou "images/diariopaginaN_es.png"
+## (espanhol). Se o arquivo traduzido não existir, cai pro original (pt).
+init python:
+    def diario_caminho_localizado(caminho):
+        sufixo = "_en" if _preferences.language == "english" else (
+            "_es" if _preferences.language == "spanish" else None
+        )
+        if not sufixo:
+            return caminho
+        base, ext = caminho.rsplit(".", 1)
+        caminho_localizado = base + sufixo + "." + ext
+        if renpy.loadable(caminho_localizado):
+            return caminho_localizado
+        return caminho
+
 ## Migração: quem já tinha jogado com versões antigas deste sistema ficou
 ## com valores errados salvos em persistent.diario_paginas:
 ##   - "img_diario_dentro"  (nome de arquivo de antes de renomear)
@@ -218,7 +235,7 @@ screen perfil_janela():
             $ paginas_diario = persistent.diario_paginas or []
             $ total_paginas_diario = len(paginas_diario)
             $ pagina_diario = (
-                  paginas_diario[diario_pagina_atual]
+                  diario_caminho_localizado(paginas_diario[diario_pagina_atual])
                   if 0 <= diario_pagina_atual < total_paginas_diario
                   else None
               )

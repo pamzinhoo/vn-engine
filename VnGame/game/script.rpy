@@ -28,6 +28,23 @@ define lauane = Character("Lauane", what_slow_cps=30, ctc="ctc", ctc_position="n
 define arlyson = Character("Arlyson", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
 define funcionario = Character("Funcionário", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
 
+# Lista dos fragmentos (DLC) mostrados na carta do meio. cargo_id fica None
+# ate ter os cargos do Discord configurados -- por enquanto todo mundo ve
+# so o card bloqueado (card_dlc_bloq.png). Adicionar itens aqui gera scroll
+# automatico na grade (ver screen dlc_carta_meio_conteudo).
+define dlc_fragmentos = [
+    {"id": "frag1", "nome": "Fragmento I", "cargo_id": None},
+    {"id": "frag2", "nome": "Fragmento II", "cargo_id": None},
+    {"id": "frag3", "nome": "Fragmento III", "cargo_id": None},
+    {"id": "frag4", "nome": "Fragmento IV", "cargo_id": None},
+    {"id": "frag5", "nome": "Fragmento V", "cargo_id": None},
+    {"id": "frag6", "nome": "Fragmento VI", "cargo_id": None},
+    {"id": "frag7", "nome": "Fragmento VII", "cargo_id": None},
+    {"id": "frag8", "nome": "Fragmento VIII", "cargo_id": None},
+    {"id": "frag9", "nome": "Fragmento IX", "cargo_id": None},
+    {"id": "frag10", "nome": "Fragmento X", "cargo_id": None},
+]
+
 image protaF:
     "protaF.png"
     zoom 0.8
@@ -2961,6 +2978,76 @@ transform carta_hover(cx, cy, dx=0, dy=0):
     on idle:
         easeout 0.18 zoom 1.0
 
+# Carta do meio (DLC), com cadeado. So abre pra quem tiver logado com o
+# Discord (persistent.discord_access_token, ver discord_auth.rpy). Sem
+# checagem de cargo/compra por enquanto -- so login. Cada fragmento tera
+# seu proprio cargo no Discord (dlc_fragmentos, no topo deste arquivo);
+# ate configurar os cargos, todo card aparece bloqueado.
+screen dlc_carta_meio_conteudo():
+    modal True
+    zorder 200
+
+    add "images/background_DLC.png" xysize (1920, 1080)
+
+    $ dlc_scroll_adjustment = renpy.display.behavior.Adjustment(step=90)
+
+    # Roda do mouse com deslize suave (ease-out) em vez de pulo seco --
+    # a viewport fica com mousewheel False e essas teclas assumem o scroll.
+    key "viewport_wheelup" action Function(dlc_scroll_adjustment.animate, amplitude=-220, delay=0.25, warper=dlc_scroll_adjustment.inertia_warper)
+    key "viewport_wheeldown" action Function(dlc_scroll_adjustment.animate, amplitude=220, delay=0.25, warper=dlc_scroll_adjustment.inertia_warper)
+
+    viewport:
+        id "vp_dlc_fragmentos"
+        xpos 400
+        ypos 210
+        xsize 1400
+        ysize 830
+        yadjustment dlc_scroll_adjustment
+        mousewheel False
+        draggable True
+        arrowkeys True
+        scrollbars None
+
+        vbox:
+            spacing 40
+            xsize 1400
+
+            $ _dlc_frag_rows = [dlc_fragmentos[i:i + 2] for i in range(0, len(dlc_fragmentos), 2)]
+
+            for _frag_row in _dlc_frag_rows:
+                hbox:
+                    spacing 40
+
+                    for frag in _frag_row:
+                        button:
+                            xysize (680, 429)
+                            background None
+                            action NullAction()
+                            at card_dlc_hover
+
+                            add "images/card_dlc_bloq.png" xysize (680, 429)
+
+    if len(dlc_fragmentos) > 4:
+        # A borboleta do fundo E a barra de rolagem: ela desliza pra baixo
+        # sobre a linha vertical do background_DLC.png conforme rola a lista.
+        vbar:
+            value YScrollValue("vp_dlc_fragmentos")
+            xpos 1774
+            ypos 10
+            ysize 1060
+            xsize 136
+            top_bar "#00000000"
+            bottom_bar "#00000000"
+            thumb Transform("images/scroll_DLC.png", crop=(56, 17, 136, 116))
+            thumb_offset 0
+            unscrollable "hide"
+
+transform card_dlc_hover:
+    on hover:
+        easein 0.15 zoom 1.03
+    on idle:
+        easeout 0.15 zoom 1.0
+
 screen escolha_genero:
     modal True
 
@@ -2984,3 +3071,19 @@ screen escolha_genero:
         at carta_hover(0.5307, 0.3894, dx=-6, dy=-3)
         background None
         add "images/Kuroya_selection.png" xysize (1920, 1080)
+
+    # 🔒 Carta do meio (DLC) — cadeado. Area clicavel sobre o painel escuro
+    # entre as duas cartas (ajuste xpos/ypos/xsize/ysize se a arte de fundo
+    # mudar). Logado -> abre o conteudo (placeholder ate ter a imagem real).
+    # Nao logado -> dispara o login do Discord (discord_auth.rpy).
+    button:
+        xpos 495
+        ypos 130
+        xsize 355
+        ysize 766
+        background None
+        action If(
+            discord_is_logged_in(),
+            true=Show("dlc_carta_meio_conteudo"),
+            false=Function(start_discord_login),
+        )
