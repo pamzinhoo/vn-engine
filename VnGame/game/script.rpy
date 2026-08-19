@@ -2987,7 +2987,8 @@ screen dlc_carta_meio_conteudo():
     modal True
     zorder 200
 
-    add "images/background_DLC.png" xysize (1920, 1080)
+    $ fundo_dlc = "images/background_DLC_es.png" if _preferences.language == "spanish" else ("images/background_DLC_en.png" if _preferences.language == "english" else "images/background_DLC.png")
+    add fundo_dlc xysize (1920, 1080)
 
     textbutton "X":
         xpos 30
