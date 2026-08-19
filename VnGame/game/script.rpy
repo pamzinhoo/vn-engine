@@ -2989,6 +2989,14 @@ screen dlc_carta_meio_conteudo():
 
     add "images/background_DLC.png" xysize (1920, 1080)
 
+    textbutton "X":
+        xpos 30
+        ypos 20
+        text_color "#FFFFFF"
+        text_hover_color "#CCCCCC"
+        text_size 40
+        action Hide("dlc_carta_meio_conteudo")
+
     $ dlc_scroll_adjustment = renpy.display.behavior.Adjustment(step=90)
 
     # Roda do mouse com deslize suave (ease-out) em vez de pulo seco --
@@ -2998,8 +3006,8 @@ screen dlc_carta_meio_conteudo():
 
     viewport:
         id "vp_dlc_fragmentos"
-        xpos 400
-        ypos 210
+        xpos 380
+        ypos 190
         xsize 1400
         ysize 830
         yadjustment dlc_scroll_adjustment
@@ -3072,18 +3080,36 @@ screen escolha_genero:
         background None
         add "images/Kuroya_selection.png" xysize (1920, 1080)
 
-    # 🔒 Carta do meio (DLC) — cadeado. Area clicavel sobre o painel escuro
-    # entre as duas cartas (ajuste xpos/ypos/xsize/ysize se a arte de fundo
-    # mudar). Logado -> abre o conteudo (placeholder ate ter a imagem real).
-    # Nao logado -> dispara o login do Discord (discord_auth.rpy).
-    button:
-        xpos 495
-        ypos 130
-        xsize 355
-        ysize 766
-        background None
-        action If(
-            discord_is_logged_in(),
-            true=Show("dlc_carta_meio_conteudo"),
-            false=Function(start_discord_login),
-        )
+    # 🔒 Carta do meio (DLC) — cadeado. Logado com Discord = ja tem o cargo
+    # "Verificado" (concedido automaticamente no login, ver
+    # auth_service.notify_player_verified no backend), entao troca a arte
+    # de bloqueada pela liberada, com o mesmo zoom de hover das outras duas
+    # cartas (a arte precisa estar DENTRO do button pra crescer com o
+    # mouse em cima -- um "add" solto ao lado nao reage ao hover).
+    if discord_verified_state.verified:
+        button:
+            xysize (1920, 1080)
+            action Show("dlc_carta_meio_conteudo")
+            focus_mask True
+            at carta_hover(0.3503, 0.4750)
+            background None
+            add "images/dlc_selection_liberado.png" xysize (1920, 1080)
+    else:
+        # Area clicavel sobre o painel do meio (ajuste xpos/ypos/xsize/ysize
+        # se a arte de fundo mudar).
+        button:
+            xpos 495
+            ypos 130
+            xsize 355
+            ysize 766
+            background None
+            action Function(start_discord_login)
+
+    # Checa o cargo Verificado AO VIVO contra o backend (nunca confia so
+    # em persistent.discord_access_token) -- uma vez ao abrir a tela, e
+    # depois a cada 20s enquanto ela ficar aberta, pra refletir remocao
+    # manual do cargo sem precisar fechar/reabrir o jogo. Ver
+    # discord_auth.rpy -- discord_verified_state.verified, nao
+    # discord_is_logged_in(), e' quem decide a carta do meio acima.
+    on "show" action Function(refresh_discord_verified_status)
+    timer 20.0 repeat True action Function(refresh_discord_verified_status)

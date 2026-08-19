@@ -420,6 +420,13 @@ screen main_menu():
 
     tag menu
 
+    # Mantem discord_verified_state.verified fresco enquanto o menu
+    # principal estiver aberto -- mesmo padrao da tela de selecao de
+    # genero (script.rpy). Sem isso, o icone do Discord so refletiria
+    # uma checagem feita em outra tela, podendo ficar desatualizado.
+    on "show" action Function(refresh_discord_verified_status)
+    timer 20.0 repeat True action Function(refresh_discord_verified_status)
+
     if not easter_egg_visto:
         timer 10800.0 action ShowMenu("easter_egg")
     add Movie(play="videos/main_menu.webm", loop=True) xysize (1920, 1080) xalign 0.5 yalign 0.5

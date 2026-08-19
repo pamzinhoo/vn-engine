@@ -8,6 +8,7 @@ init -10 python:
     import platform
     import ssl
     import threading
+    import time as _time
     import urllib.request
     import urllib.error
     import uuid as _uuid
@@ -51,6 +52,23 @@ init -10 python:
 
     discord_auth_state = DiscordAuthState()
 
+    class DiscordVerifiedState(object):
+        """Estado da checagem AO VIVO de 'ainda tenho o cargo Verificado?'
+        (ver backend GET /player/verified). Deliberadamente SEPARADO de
+        `persistent.discord_access_token` -- ter um token salvo so prova que
+        o jogador logou uma vez, nao que o cargo continua valido agora.
+        `verified` comeca em False (bloqueado) e so vira True depois de uma
+        resposta POSITIVA e recente do backend -- nunca assume liberado por
+        padrao (fail-closed)."""
+
+        def __init__(self):
+            self.verified = False
+            self.checking = False
+            self.last_checked_at = 0.0
+            self.last_error = None
+
+    discord_verified_state = DiscordVerifiedState()
+
     def _discord_device_uuid():
         """UUID estavel por instalacao, guardado no persistent do Ren'Py."""
         if not persistent.discord_device_uuid:
@@ -77,6 +95,31 @@ init -10 python:
             return None, msg
         except Exception as exc:
             return None, str(exc)
+
+    def _discord_http_get_json(path, access_token, timeout=10):
+        """GET autenticado (Authorization: Bearer <token>) contra o backend.
+        Devolve (status_code, data_ou_None, erro_ou_None) -- o status code
+        importa aqui (em especial 401, ver refresh_discord_verified_status)
+        de um jeito que _discord_http_json (so usado no login, onde so
+        sucesso/erro generico importa) nao precisava expor."""
+        url = DISCORD_AUTH_BACKEND_URL + path
+        req = urllib.request.Request(
+            url, method="GET",
+            headers={"Authorization": "Bearer " + access_token},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=_DISCORD_SSL_CONTEXT) as resp:
+                body = resp.read().decode("utf-8")
+                return resp.status, json.loads(body), None
+        except urllib.error.HTTPError as exc:
+            try:
+                body = json.loads(exc.read().decode("utf-8"))
+                msg = body.get("detail", {}).get("message", str(exc))
+            except Exception:
+                msg = str(exc)
+            return exc.code, None, msg
+        except Exception as exc:
+            return None, None, str(exc)
 
     def _discord_login_worker():
         state = discord_auth_state
@@ -124,6 +167,14 @@ init -10 python:
                 persistent.discord_access_token = poll_data["access_token"]
                 persistent.discord_refresh_token = poll_data["refresh_token"]
                 state.status = "success"
+                # Login novo -> checa o cargo verificado ja de cara, sem
+                # esperar o proximo timer periodico da tela de selecao (ver
+                # screen escolha_genero em script.rpy). O bot concede o
+                # cargo de forma assincrona (notify_player_verified, best
+                # effort) entao a PRIMEIRA checagem pode ainda vir False por
+                # uma corrida de milissegundos -- o timer periodico da tela
+                # cobre isso, nao e' um problema de seguranca, so de UX.
+                refresh_discord_verified_status()
                 return
             elif poll_status == "slow_down":
                 state.interval = poll_data.get("interval", state.interval * 2)
@@ -146,7 +197,12 @@ init -10 python:
         renpy.show_screen("discord_login_status")
 
     def discord_button_action():
-        if discord_is_logged_in():
+        """Mesmo estado ao vivo da carta de DLC (discord_verified_state.verified),
+        nao mais discord_is_logged_in() -- token salvo sem cargo valido nao
+        conta como "ja vinculado". Assim icone da tela principal e carta do
+        meio concordam sempre: os dois levam pro login ate confirmacao
+        positiva e recente do backend."""
+        if discord_verified_state.verified:
             try:
                 webbrowser.open(DISCORD_AUTH_BACKEND_URL + "/auth/discord/already-linked")
             except Exception:
@@ -158,9 +214,76 @@ init -10 python:
         persistent.discord_access_token = None
         persistent.discord_refresh_token = None
         discord_auth_state.reset()
+        discord_verified_state.verified = False
+        discord_verified_state.last_checked_at = 0.0
 
     def discord_is_logged_in():
+        """Prova SO que existe um token salvo localmente -- ISSO NAO SIGNIFICA
+        que o jogador ainda tem o cargo Verificado agora. Nao use esta funcao
+        pra decidir se libera conteudo que exige o cargo; use
+        `discord_verified_state.verified` (ver refresh_discord_verified_status
+        logo abaixo), que e' checado ao vivo contra o backend. Esta funcao
+        continua existindo so pra decidir se mostra o botao 'Entrar' ou
+        'Discord ja vinculado' (discord_button_action) -- uma decisao de UI
+        sem risco, nao de autorizacao."""
         return bool(persistent.discord_access_token)
+
+    def _discord_verified_worker():
+        state = discord_verified_state
+        access_token = persistent.discord_access_token
+        if not access_token:
+            state.verified = False
+            state.checking = False
+            return
+
+        try:
+            status_code, data, err = _discord_http_get_json("/player/verified", access_token)
+
+            if status_code == 401:
+                # Token expirado/invalido -- nao adianta continuar guardando.
+                # Limpa (mesmo efeito de logout) pra UI voltar a mostrar "Entrar"
+                # em vez de ficar presa num estado "logado" que o backend nao
+                # reconhece mais.
+                persistent.discord_access_token = None
+                persistent.discord_refresh_token = None
+                state.verified = False
+                state.last_error = "sessao expirada"
+            elif err or data is None:
+                # Falha de rede/bot offline/etc -- FAIL-CLOSED: mantem
+                # bloqueado. Nao assume "ainda deve estar verificado" so porque
+                # a ultima checagem confirmada foi True; melhor pedir pra
+                # tentar de novo do que liberar conteudo sem confirmacao
+                # positiva e recente.
+                state.verified = False
+                state.last_error = err or "resposta vazia do backend"
+            else:
+                state.verified = bool(data.get("verified", False))
+                state.last_error = None
+        except Exception as exc:
+            # Qualquer excecao inesperada -- fail-closed igual aos outros
+            # ramos, e o finally abaixo garante que 'checking' nunca fica
+            # travado em True (o que bloquearia toda checagem futura).
+            state.verified = False
+            state.last_error = str(exc)
+        finally:
+            state.last_checked_at = _time.time()
+            state.checking = False
+
+    def refresh_discord_verified_status():
+        """Dispara a checagem ao vivo em background (nunca bloqueia a UI).
+        Chamada: (1) logo apos login bem sucedido; (2) periodicamente
+        enquanto a tela de selecao de genero esta aberta (ver script.rpy) --
+        e' ai' que a carta do meio (DLC) decide se mostra liberada ou
+        trancada, sempre em cima de `discord_verified_state.verified`, nunca
+        de `discord_is_logged_in()`."""
+        if not discord_is_logged_in():
+            discord_verified_state.verified = False
+            return
+        if discord_verified_state.checking:
+            return
+        discord_verified_state.checking = True
+        t = threading.Thread(target=_discord_verified_worker, daemon=True)
+        t.start()
 
 default persistent.discord_device_uuid = None
 default persistent.discord_access_token = None
