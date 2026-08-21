@@ -5,6 +5,7 @@
 
 init -10 python:
     import json
+    import os as _os
     import platform
     import ssl
     import threading
@@ -13,6 +14,22 @@ init -10 python:
     import urllib.error
     import uuid as _uuid
     import webbrowser
+
+    def _discord_open_browser(url):
+        """Abre o navegador padrao ja em primeiro plano. webbrowser.open()
+        sozinho as vezes abre a aba atras da janela fullscreen do Ren'Py no
+        Windows; os.startfile (ShellExecute) traz a janela do navegador pra
+        frente de verdade."""
+        if platform.system() == "Windows":
+            try:
+                _os.startfile(url)
+                return
+            except Exception:
+                pass
+        try:
+            webbrowser.open(url, new=2)
+        except Exception:
+            pass
 
     DISCORD_AUTH_BACKEND_URL = "https://limerence-backend.onrender.com"
 
@@ -96,6 +113,56 @@ init -10 python:
         except Exception as exc:
             return None, str(exc)
 
+    def _discord_http_post_json(path, payload, timeout=15):
+        """Igual _discord_http_json, mas devolve tambem o status code --
+        usado por _discord_refresh_tokens pra distinguir falha definitiva
+        (401/403, refresh_token morto de vez) de falha transitoria (rede/5xx,
+        onde vale tentar de novo depois sem forcar o jogador a logar de novo)."""
+        url = DISCORD_AUTH_BACKEND_URL + path
+        data = json.dumps(payload).encode("utf-8")
+        req = urllib.request.Request(
+            url, data=data, method="POST",
+            headers={"Content-Type": "application/json"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=_DISCORD_SSL_CONTEXT) as resp:
+                body = resp.read().decode("utf-8")
+                return resp.status, json.loads(body), None
+        except urllib.error.HTTPError as exc:
+            try:
+                body = json.loads(exc.read().decode("utf-8"))
+                msg = body.get("detail", {}).get("message", str(exc))
+            except Exception:
+                msg = str(exc)
+            return exc.code, None, msg
+        except Exception as exc:
+            return None, None, str(exc)
+
+    def _discord_refresh_tokens():
+        """Troca o refresh_token salvo por um par (access+refresh) novo, sem
+        passar pelo device flow de novo -- e' o que permite ficar 'logado'
+        por ate 30 dias (refresh_token_ttl_days) mesmo o access_token
+        expirando a cada 15min (jwt_access_ttl_seconds).
+        Retorna True se renovou. Retorna False em falha transitoria (rede/5xx)
+        SEM apagar os tokens salvos (vale tentar de novo depois). So apaga os
+        tokens (forcando login manual de novo) quando o backend confirma de
+        vez que a sessao morreu (401/403 -- refresh_token invalido, expirado,
+        revogado ou reuso detectado)."""
+        refresh_token = persistent.discord_refresh_token
+        if not refresh_token:
+            return False
+        payload = {"refresh_token": refresh_token, "device_uuid": _discord_device_uuid()}
+        status_code, data, err = _discord_http_post_json("/auth/refresh", payload)
+        if status_code in (401, 403):
+            persistent.discord_access_token = None
+            persistent.discord_refresh_token = None
+            return False
+        if err or not data:
+            return False
+        persistent.discord_access_token = data["access_token"]
+        persistent.discord_refresh_token = data["refresh_token"]
+        return True
+
     def _discord_http_get_json(path, access_token, timeout=10):
         """GET autenticado (Authorization: Bearer <token>) contra o backend.
         Devolve (status_code, data_ou_None, erro_ou_None) -- o status code
@@ -142,10 +209,7 @@ init -10 python:
         state.interval = data.get("interval", 5)
         state.status = "waiting_browser"
 
-        try:
-            webbrowser.open(state.verification_uri)
-        except Exception:
-            pass
+        _discord_open_browser(state.verification_uri)
 
         state.status = "polling"
 
@@ -203,10 +267,7 @@ init -10 python:
         meio concordam sempre: os dois levam pro login ate confirmacao
         positiva e recente do backend."""
         if discord_verified_state.verified:
-            try:
-                webbrowser.open(DISCORD_AUTH_BACKEND_URL + "/auth/discord/already-linked")
-            except Exception:
-                pass
+            _discord_open_browser(DISCORD_AUTH_BACKEND_URL + "/auth/discord/already-linked")
         else:
             start_discord_login()
 
@@ -240,12 +301,22 @@ init -10 python:
             status_code, data, err = _discord_http_get_json("/player/verified", access_token)
 
             if status_code == 401:
-                # Token expirado/invalido -- nao adianta continuar guardando.
-                # Limpa (mesmo efeito de logout) pra UI voltar a mostrar "Entrar"
-                # em vez de ficar presa num estado "logado" que o backend nao
-                # reconhece mais.
-                persistent.discord_access_token = None
-                persistent.discord_refresh_token = None
+                # Access token expirado (dura so 15min) -- tenta renovar com o
+                # refresh_token (dura 30 dias) antes de desistir. So volta pra
+                # tela de login se o refresh tambem falhar de vez (401/403 =
+                # sessao realmente morta); falha transitoria de rede no
+                # refresh mantem os tokens salvos e so bloqueia esta checagem.
+                if _discord_refresh_tokens():
+                    access_token = persistent.discord_access_token
+                    status_code, data, err = _discord_http_get_json("/player/verified", access_token)
+                else:
+                    state.verified = False
+                    state.last_error = "sessao expirada"
+                    return
+
+            if status_code == 401:
+                # Token novo (pos-refresh) ja voltou 401 -- nao insiste mais
+                # nesta rodada, fail-closed.
                 state.verified = False
                 state.last_error = "sessao expirada"
             elif err or data is None:

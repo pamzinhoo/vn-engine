@@ -3068,7 +3068,7 @@ screen escolha_genero:
         xysize (1920, 1080)
         action Return("mulher")
         focus_mask True
-        at carta_hover(0.1661, 0.3907, dx=-3)
+        at carta_hover(0.1661, 0.3907, dx=-8, dy=0)
         background None
         add "images/Kyioki_selection.png" xysize (1920, 1080)
 
@@ -3077,7 +3077,7 @@ screen escolha_genero:
         xysize (1920, 1080)
         action Return("homem")
         focus_mask True
-        at carta_hover(0.5307, 0.3894, dx=-6, dy=-3)
+        at carta_hover(0.5307, 0.3894, dx=-12, dy=-7)
         background None
         add "images/Kuroya_selection.png" xysize (1920, 1080)
 
@@ -3092,7 +3092,7 @@ screen escolha_genero:
             xysize (1920, 1080)
             action Show("dlc_carta_meio_conteudo")
             focus_mask True
-            at carta_hover(0.3503, 0.4750)
+            at carta_hover(0.3503, 0.4750, dx=-10, dy=-2)
             background None
             add "images/dlc_selection_liberado.png" xysize (1920, 1080)
     else:
