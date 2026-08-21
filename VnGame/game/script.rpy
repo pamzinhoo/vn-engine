@@ -3112,10 +3112,9 @@ screen escolha_genero:
         background None
         add "images/Kuroya_selection.png" xysize (1920, 1080)
 
-    # 🔒 Carta do meio (DLC) — cadeado. Conectar o Discord UMA vez libera a
-    # carta pra sempre nesta instalacao: a primeira confirmacao do cargo
-    # "Verificado" pelo backend grava persistent.dlc_desbloqueada, e
-    # dlc_liberada() (discord_auth.rpy) passa a responder True sem rede.
+    # 🔒 Carta do meio (DLC) — cadeado. Segue o cargo "Verificado" em tempo
+    # real: dlc_liberada() (discord_auth.rpy) confirma com o backend a cada
+    # checagem periodica; perdeu o cargo ou desvinculou, tranca de novo.
     # A arte precisa estar DENTRO do button pra crescer com o mouse em cima
     # -- um "add" solto ao lado nao reage ao hover.
     if dlc_liberada():
@@ -3137,11 +3136,10 @@ screen escolha_genero:
             background None
             action Function(start_discord_login)
 
-    # Enquanto a DLC ainda NAO foi liberada, checa o cargo Verificado contra
-    # o backend ao abrir a tela e a cada 20s, pra carta destrancar sozinha
-    # assim que o jogador terminar o login sem precisar fechar/reabrir. Uma
-    # vez liberada nao ha mais o que essa checagem possa mudar aqui, entao
-    # ela para (ver precisa_checar_discord em discord_auth.rpy).
+    # Checa o cargo Verificado contra o backend ao abrir a tela e a cada 20s,
+    # sempre (mesmo depois de liberada) -- pra carta destrancar sozinha ao
+    # terminar o login, e trancar de novo se o jogador perder o cargo ou
+    # desvincular a conta (ver precisa_checar_discord em discord_auth.rpy).
     if precisa_checar_discord():
         on "show" action Function(refresh_discord_verified_status)
         timer 20.0 repeat True action Function(refresh_discord_verified_status)

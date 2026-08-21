@@ -277,8 +277,8 @@ init -10 python:
         discord_auth_state.reset()
         discord_verified_state.verified = False
         discord_verified_state.last_checked_at = 0.0
-        # persistent.dlc_desbloqueada continua True de proposito: desvincular
-        # a conta nao devolve o jogador pro estado de "nunca conectou".
+        # Desvincular tranca a DLC de novo -- acesso segue o cargo Verificado
+        # em tempo real, nao fica permanente so por ter conectado uma vez.
 
     def discord_is_logged_in():
         """Prova SO que existe um token salvo localmente -- ISSO NAO SIGNIFICA
@@ -332,15 +332,6 @@ init -10 python:
             else:
                 state.verified = bool(data.get("verified", False))
                 state.last_error = None
-                if state.verified:
-                    # Conectar UMA vez basta: a partir da primeira confirmacao
-                    # positiva do backend a DLC fica liberada pra sempre nesta
-                    # instalacao (ver dlc_liberada). Decisao de produto -- a
-                    # checagem ao vivo continua rodando e mantendo
-                    # state.verified fresco pro resto da UI, mas nao volta a
-                    # trancar a DLC se o jogador estiver offline ou perder o
-                    # cargo depois.
-                    persistent.dlc_desbloqueada = True
         except Exception as exc:
             # Qualquer excecao inesperada -- fail-closed igual aos outros
             # ramos, e o finally abaixo garante que 'checking' nunca fica
@@ -372,25 +363,21 @@ init python:
     def dlc_liberada():
         """Unico lugar que decide se a DLC aparece liberada.
 
-        `persistent.dlc_desbloqueada` vira True na PRIMEIRA confirmacao
-        positiva do backend e nunca mais volta atras -- o jogador se conecta
-        ao Discord uma vez e pronto, nao precisa de internet nem do cargo
-        depois disso. `discord_verified_state.verified` continua valendo pra
-        quem acabou de logar nesta sessao, antes de qualquer persistencia.
-
-        Isto e' DE PROPOSITO mais frouxo que a checagem ao vivo: o custo de
-        deixar liberado a mais e' conteudo bonus visivel, enquanto o custo de
-        trancar a mais e' o jogador que ja pagou perder acesso offline.
+        Segue o cargo Verificado em tempo real: `discord_verified_state.verified`
+        vem da ultima checagem ao vivo contra o backend (ver
+        _discord_verified_worker). Perdeu o cargo ou desvinculou a conta --
+        tranca de novo na proxima checagem, nao fica liberado pra sempre so
+        por ter conectado uma vez.
         """
-        return bool(persistent.dlc_desbloqueada) or discord_verified_state.verified
+        return discord_verified_state.verified
 
     def precisa_checar_discord():
-        """Depois de liberada, nao ha mais o que a checagem periodica possa
-        mudar na carta de DLC -- entao ela para de bater no backend."""
-        return not persistent.dlc_desbloqueada
+        """A checagem periodica nunca para -- o acesso pode mudar a qualquer
+        momento (desvinculou, perdeu o cargo), entao sempre vale a pena
+        confirmar de novo."""
+        return True
 
 
-default persistent.dlc_desbloqueada = False
 default persistent.discord_device_uuid = None
 default persistent.discord_access_token = None
 default persistent.discord_refresh_token = None
