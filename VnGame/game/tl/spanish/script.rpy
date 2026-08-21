@@ -15290,3 +15290,8 @@ translate spanish strings:
     old "Cafeteria{#refeicao_kuroya}"
     new "Cafetería"
 
+translate spanish strings:
+
+    # game/script.rpy:12
+    old "Bibliotecária"
+    new "Bibliotecaria"

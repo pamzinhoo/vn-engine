@@ -9,7 +9,7 @@ define n = Character(
     ctc_position="nestled"
 )
 
-define bibliotecaria = Character("Bibliotecária", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
+define bibliotecaria = Character(_("Bibliotecária"), what_slow_cps=30, ctc="ctc", ctc_position="nestled")
 define recepcionista = Character("Recepcionista", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
 define august = Character("August", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
 define elizabeth = Character("Elizabeth", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
@@ -29,11 +29,13 @@ define arlyson = Character("Arlyson", what_slow_cps=30, ctc="ctc", ctc_position=
 define funcionario = Character("Funcionário", what_slow_cps=30, ctc="ctc", ctc_position="nestled")
 
 # Lista dos fragmentos (DLC) mostrados na carta do meio. cargo_id fica None
-# ate ter os cargos do Discord configurados -- por enquanto todo mundo ve
-# so o card bloqueado (card_dlc_bloq.png). Adicionar itens aqui gera scroll
-# automatico na grade (ver screen dlc_carta_meio_conteudo).
+# ate ter os cargos do Discord configurados. "imagem" e' a arte propria do
+# fragmento; quem ainda nao tem arte omite a chave e cai no card bloqueado
+# (card_dlc_bloq.png) -- e' so soltar o PNG em images/ e apontar aqui pra
+# destravar visualmente. Adicionar itens aqui gera scroll automatico na
+# grade (ver screen dlc_carta_meio_conteudo).
 define dlc_fragmentos = [
-    {"id": "frag1", "nome": "Fragmento I", "cargo_id": None},
+    {"id": "frag1", "nome": "Fragmento I", "cargo_id": None, "imagem": "images/card_dlc_01.png", "label": "dlc_frag1_genesis"},
     {"id": "frag2", "nome": "Fragmento II", "cargo_id": None},
     {"id": "frag3", "nome": "Fragmento III", "cargo_id": None},
     {"id": "frag4", "nome": "Fragmento IV", "cargo_id": None},
@@ -119,6 +121,19 @@ label start:
     play music "audio/gender_music.mp3" loop volume 1.0
     call screen escolha_genero with fade_black
     stop music fadeout 0.5
+
+    # Carta de DLC: a tela devolve o label do fragmento em vez de "mulher"/
+    # "homem". O fragmento termina voltando pro menu principal (ver o final de
+    # dlc_frag1.rpy), entao este "call" nao retorna -- nada abaixo dele roda
+    # nesse caminho, e a escolha de rota continua por fazer.
+    #
+    # Nao virou label proprio DE PROPOSITO: o identificador de traducao de
+    # cada fala vem do label que a contem, entao partir o "start" em dois
+    # renomearia os blocos de toda a abertura e orfanaria as traducoes de
+    # ingles e espanhol que ja existem.
+    if isinstance(_return, str) and _return.startswith("dlc_"):
+        call expression _return
+
     with fade_black
     show screen frase_transicao(_("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt")) with dissolve
     pause 6.0
@@ -2966,6 +2981,15 @@ label fim_dia_zero:
 # centro da tela faria a carta escorregar na diagonal ao ampliar.
 # dx/dy sao o ajuste fino de encaixe da carta na moldura pintada no fundo,
 # em pixels da tela de 1920x1080: x positivo vai para a direita, y para baixo.
+# cx/cy sao o CENTRO DA CARTA dentro da camada, em fracao -- e' o pivo do
+# zoom do hover. Cada carta e' uma camada quase toda transparente do tamanho
+# da tela, entao se o pivo nao cair exatamente no meio da arte a carta
+# escorrega na diagonal enquanto cresce (fica "torta"). Os valores abaixo
+# saem da medicao do retangulo opaco de cada PNG, nao do olho:
+#   Imperatriz  310x559 em (164,142) de 1920x1080 -> centro (319.0, 421.5)
+#   Diabo       308x553 em (865,144) de 1920x1080 -> centro (1019.0, 420.5)
+#   DLC         819x1384 em (1321,759) de 5000x2686 -> centro (1730.5, 1451.0)
+# (a arte do DLC e' esticada pra 1920x1080 no add, e esticar preserva fracao)
 transform carta_hover(cx, cy, dx=0, dy=0):
     transform_anchor True
     anchor (cx, cy)
@@ -3028,13 +3052,20 @@ screen dlc_carta_meio_conteudo():
                     spacing 40
 
                     for frag in _frag_row:
+                        $ _frag_arte = frag.get("imagem") or "images/card_dlc_bloq.png"
+                        $ _frag_label = frag.get("label")
                         button:
                             xysize (680, 429)
                             background None
-                            action NullAction()
+                            # Fragmento sem "label" ainda nao tem cena escrita:
+                            # o card continua clicavel mas nao faz nada. Quem
+                            # tem label devolve o nome dele pro "call screen
+                            # escolha_genero" la no label start, que e' quem
+                            # sabe rodar a cena e voltar pra selecao de rota.
+                            action ([Hide("dlc_carta_meio_conteudo"), Return(_frag_label)] if _frag_label else NullAction())
                             at card_dlc_hover
 
-                            add "images/card_dlc_bloq.png" xysize (680, 429)
+                            add _frag_arte xysize (680, 429)
 
     if len(dlc_fragmentos) > 4:
         # A borboleta do fundo E a barra de rolagem: ela desliza pra baixo
@@ -3068,7 +3099,7 @@ screen escolha_genero:
         xysize (1920, 1080)
         action Return("mulher")
         focus_mask True
-        at carta_hover(0.1661, 0.3907, dx=-8, dy=0)
+        at carta_hover(0.1661, 0.3903, dx=-8, dy=0)
         background None
         add "images/Kyioki_selection.png" xysize (1920, 1080)
 
@@ -3081,18 +3112,18 @@ screen escolha_genero:
         background None
         add "images/Kuroya_selection.png" xysize (1920, 1080)
 
-    # 🔒 Carta do meio (DLC) — cadeado. Logado com Discord = ja tem o cargo
-    # "Verificado" (concedido automaticamente no login, ver
-    # auth_service.notify_player_verified no backend), entao troca a arte
-    # de bloqueada pela liberada, com o mesmo zoom de hover das outras duas
-    # cartas (a arte precisa estar DENTRO do button pra crescer com o
-    # mouse em cima -- um "add" solto ao lado nao reage ao hover).
-    if discord_verified_state.verified:
+    # 🔒 Carta do meio (DLC) — cadeado. Conectar o Discord UMA vez libera a
+    # carta pra sempre nesta instalacao: a primeira confirmacao do cargo
+    # "Verificado" pelo backend grava persistent.dlc_desbloqueada, e
+    # dlc_liberada() (discord_auth.rpy) passa a responder True sem rede.
+    # A arte precisa estar DENTRO do button pra crescer com o mouse em cima
+    # -- um "add" solto ao lado nao reage ao hover.
+    if dlc_liberada():
         button:
             xysize (1920, 1080)
             action Show("dlc_carta_meio_conteudo")
             focus_mask True
-            at carta_hover(0.3503, 0.4750, dx=-10, dy=-2)
+            at carta_hover(0.3461, 0.5402, dx=-10, dy=-2)
             background None
             add "images/dlc_selection_liberado.png" xysize (1920, 1080)
     else:
@@ -3106,11 +3137,11 @@ screen escolha_genero:
             background None
             action Function(start_discord_login)
 
-    # Checa o cargo Verificado AO VIVO contra o backend (nunca confia so
-    # em persistent.discord_access_token) -- uma vez ao abrir a tela, e
-    # depois a cada 20s enquanto ela ficar aberta, pra refletir remocao
-    # manual do cargo sem precisar fechar/reabrir o jogo. Ver
-    # discord_auth.rpy -- discord_verified_state.verified, nao
-    # discord_is_logged_in(), e' quem decide a carta do meio acima.
-    on "show" action Function(refresh_discord_verified_status)
-    timer 20.0 repeat True action Function(refresh_discord_verified_status)
+    # Enquanto a DLC ainda NAO foi liberada, checa o cargo Verificado contra
+    # o backend ao abrir a tela e a cada 20s, pra carta destrancar sozinha
+    # assim que o jogador terminar o login sem precisar fechar/reabrir. Uma
+    # vez liberada nao ha mais o que essa checagem possa mudar aqui, entao
+    # ela para (ver precisa_checar_discord em discord_auth.rpy).
+    if precisa_checar_discord():
+        on "show" action Function(refresh_discord_verified_status)
+        timer 20.0 repeat True action Function(refresh_discord_verified_status)

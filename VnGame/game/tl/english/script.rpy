@@ -16037,3 +16037,8 @@ translate english strings:
     old "Cafeteria{#refeicao_kuroya}"
     new "Cafe"
 
+translate english strings:
+
+    # game/script.rpy:12
+    old "Bibliotecária"
+    new "Librarian"
