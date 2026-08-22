@@ -133,7 +133,7 @@ label start:
     # renomearia os blocos de toda a abertura e orfanaria as traducoes de
     # ingles e espanhol que ja existem.
     if isinstance(_return, str) and _return.startswith("dlc_"):
-        call expression _return
+        call expression _return from _call_expression
 
     with fade_black
     show screen frase_transicao(_("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt")) with dissolve
