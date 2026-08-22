@@ -744,7 +744,7 @@ style game_menu_navigation_frame:
 style game_menu_content_frame:
     left_margin 60
     right_margin 30
-    top_margin 15
+    top_margin 0
 
 style game_menu_viewport:
     xsize 1380
@@ -787,10 +787,10 @@ screen about():
         style_prefix "about"
 
         vbox:
-            xpos 0.02
-            ypos 0.6
-            label "[config.name!t]"
-            text _("Versão [config.version!t]\n")
+            xpos 0.18
+            yoffset -10
+            label _("Limerence")
+            text _("by Mason Studio\n")
 
             if gui.about:
                 text "[gui.about!t]\n"
@@ -861,7 +861,10 @@ style about_label_text is gui_label_text
 style about_text is gui_text
 
 style about_label_text:
-    size gui.label_text_size
+    size gui.label_text_size - 2
+
+style about_text:
+    size gui.text_size - 2
 
 
 ## Carregar e salvar telas #####################################################

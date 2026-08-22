@@ -30,6 +30,27 @@ define config.version = "1.0"
 ## triplas e deixe uma linha em branco entre os parágrafos.
 
 define gui.about = _p("""
+Uma visual novel de terror psicológico sobre amor, obsessão e as relações que podem esconder muito mais do que parecem.
+
+Sites Oficiais
+itch.io • TikTok • Discord • Whatsapp
+
+Direção & Roteiro
+Sagurito
+
+Arte
+Sagurito
+
+Programação
+Pam • Elias Gabriel
+
+Músicas
+Dog Hero • 6Lukas9
+
+Efeitos Sonoros
+6Lukas9
+
+Obrigado por jogar!!
 """)
 
 
