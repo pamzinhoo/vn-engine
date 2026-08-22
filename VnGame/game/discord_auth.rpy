@@ -201,69 +201,92 @@ init -10 python:
         except Exception as exc:
             return None, None, str(exc)
 
+    def _discord_os_info():
+        """platform.platform() pode levantar excecao em builds Android/iOS
+        (tenta rodar coisas tipo uname que nao existem nesse sandbox) --
+        so' e' um texto informativo pro backend, nunca deve derrubar o login
+        inteiro por causa disso."""
+        try:
+            return platform.platform()
+        except Exception:
+            return "android" if getattr(renpy, "android", False) else (
+                "ios" if getattr(renpy, "ios", False) else "unknown"
+            )
+
     def _discord_login_worker():
         state = discord_auth_state
         state.status = "starting"
 
-        payload = {
-            "device_uuid": _discord_device_uuid(),
-            "os_info": platform.platform(),
-            "launcher_version": config.version,
-        }
-        data, err = _discord_http_json("/auth/device/code", payload)
-        if err or not data:
+        # Corrigido em 2026-08-22: essa funcao inteira rodava numa thread de
+        # fundo sem NENHUM try/except geral -- qualquer excecao nao prevista
+        # (ex.: platform.platform() falhando no Android) matava a thread
+        # silenciosamente e o estado ficava travado em "starting" pra sempre
+        # ("Conectando com o Discord..." infinito), sem erro nenhum aparecer
+        # pro jogador. Agora qualquer falha inesperada cai em "error" com a
+        # mensagem, nunca fica preso mudo.
+        try:
+            payload = {
+                "device_uuid": _discord_device_uuid(),
+                "os_info": _discord_os_info(),
+                "launcher_version": config.version,
+            }
+            data, err = _discord_http_json("/auth/device/code", payload)
+            if err or not data:
+                state.status = "error"
+                state.error = err or "Falha ao iniciar login."
+                return
+
+            state.device_code = data["device_code"]
+            state.user_code = data["user_code"]
+            state.verification_uri = data["verification_uri"]
+            state.interval = data.get("interval", 5)
+            state.status = "waiting_browser"
+
+            _discord_open_browser(state.verification_uri)
+
+            state.status = "polling"
+
+            import time
+            expires_at = time.time() + data.get("expires_in", 600)
+            while time.time() < expires_at:
+                time.sleep(state.interval)
+
+                poll_data, poll_err = _discord_http_json(
+                    "/auth/device/token", {"device_code": state.device_code}
+                )
+                if poll_err:
+                    # rate limit / erro de rede transitorio: continua tentando
+                    continue
+
+                poll_status = poll_data.get("status")
+
+                if poll_status == "success":
+                    persistent.discord_access_token = poll_data["access_token"]
+                    persistent.discord_refresh_token = poll_data["refresh_token"]
+                    state.status = "success"
+                    # Login novo -> checa o cargo verificado ja de cara, sem
+                    # esperar o proximo timer periodico da tela de selecao (ver
+                    # screen escolha_genero em script.rpy). O bot concede o
+                    # cargo de forma assincrona (notify_player_verified, best
+                    # effort) entao a PRIMEIRA checagem pode ainda vir False por
+                    # uma corrida de milissegundos -- o timer periodico da tela
+                    # cobre isso, nao e' um problema de seguranca, so de UX.
+                    refresh_discord_verified_status()
+                    return
+                elif poll_status == "slow_down":
+                    state.interval = poll_data.get("interval", state.interval * 2)
+                elif poll_status == "access_denied":
+                    state.status = "denied"
+                    return
+                elif poll_status == "expired_token":
+                    state.status = "expired"
+                    return
+                # authorization_pending -> continua o loop
+
+            state.status = "expired"
+        except Exception as exc:
             state.status = "error"
-            state.error = err or "Falha ao iniciar login."
-            return
-
-        state.device_code = data["device_code"]
-        state.user_code = data["user_code"]
-        state.verification_uri = data["verification_uri"]
-        state.interval = data.get("interval", 5)
-        state.status = "waiting_browser"
-
-        _discord_open_browser(state.verification_uri)
-
-        state.status = "polling"
-
-        import time
-        expires_at = time.time() + data.get("expires_in", 600)
-        while time.time() < expires_at:
-            time.sleep(state.interval)
-
-            poll_data, poll_err = _discord_http_json(
-                "/auth/device/token", {"device_code": state.device_code}
-            )
-            if poll_err:
-                # rate limit / erro de rede transitorio: continua tentando
-                continue
-
-            poll_status = poll_data.get("status")
-
-            if poll_status == "success":
-                persistent.discord_access_token = poll_data["access_token"]
-                persistent.discord_refresh_token = poll_data["refresh_token"]
-                state.status = "success"
-                # Login novo -> checa o cargo verificado ja de cara, sem
-                # esperar o proximo timer periodico da tela de selecao (ver
-                # screen escolha_genero em script.rpy). O bot concede o
-                # cargo de forma assincrona (notify_player_verified, best
-                # effort) entao a PRIMEIRA checagem pode ainda vir False por
-                # uma corrida de milissegundos -- o timer periodico da tela
-                # cobre isso, nao e' um problema de seguranca, so de UX.
-                refresh_discord_verified_status()
-                return
-            elif poll_status == "slow_down":
-                state.interval = poll_data.get("interval", state.interval * 2)
-            elif poll_status == "access_denied":
-                state.status = "denied"
-                return
-            elif poll_status == "expired_token":
-                state.status = "expired"
-                return
-            # authorization_pending -> continua o loop
-
-        state.status = "expired"
+            state.error = str(exc)
 
     def start_discord_login():
         if discord_auth_state.status in ("starting", "waiting_browser", "polling"):
