@@ -213,8 +213,14 @@ style botao_fechar_livro is button:
     background None
     hover_background None
     padding (0, 0, 0, 0)
-    xsize 40
-    ysize 40
+    ## 80x80 e não 40x40: são o "X" de fechar e as setas ‹ › de virar página
+    ## do diário. Na tela virtual de 1920 num celular de 6,5" em paisagem,
+    ## 1px virtual ~= 0,078mm, então 40px davam ~3,1mm de alvo — um terço do
+    ## mínimo de 48dp (~9mm) recomendado pelo Android. 80px dão ~6,2mm.
+    ## O texto continua em 24 (ver botao_fechar_livro_text): o que cresce é a
+    ## área clicável, não o desenho.
+    xsize 80
+    ysize 80
 
 style botao_fechar_livro_text is button_text:
     color "#c8b89a"

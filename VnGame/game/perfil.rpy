@@ -175,8 +175,8 @@ screen barra_atributo(nome, valor):
             range 100
             left_bar Frame("gui/bar/left.png", 6, 6)
             right_bar Frame("gui/bar/right.png", 12, 6)
-            thumb Frame("gui/bar/thumb.png", 6, 6)
-            thumb_shadow Frame("gui/bar/thumb_shadow.png", 6, 6)
+            ## Ver barra_atributo_ficha em perfil_catalogo_novo.rpy: os
+            ## arquivos thumb.png/thumb_shadow.png não existem em gui/bar/.
 
 
 screen perfil_janela():

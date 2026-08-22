@@ -87,7 +87,8 @@ image ctc:
 
 # Variável para guardar o gênero escolhido
 default persistent.genero = ""
-default persistent.prota_data = None
+## persistent.prota_data já é declarada em prota_data.rpy:1, que é o arquivo
+## dono desse dado — declarar de novo aqui era duplicata (acusada pelo lint).
 
 # Progresso da exploração da escola (rota Kiyoki)
 default visitou_biblioteca = False
@@ -3020,9 +3021,17 @@ screen dlc_carta_meio_conteudo():
     textbutton "X":
         xpos 30
         ypos 20
+        ## Sem xsize/ysize o botão encolhia até o tamanho do glifo (~25x45px,
+        ## uns 2mm num celular) e virava um alvo quase impossível de acertar
+        ## no toque. 80x80 dá ~6,2mm; o "X" segue centralizado e do mesmo
+        ## tamanho, só a área clicável cresceu.
+        xsize 80
+        ysize 80
         text_color "#FFFFFF"
         text_hover_color "#CCCCCC"
         text_size 40
+        text_xalign 0.5
+        text_yalign 0.5
         action Hide("dlc_carta_meio_conteudo")
 
     $ dlc_scroll_adjustment = renpy.display.behavior.Adjustment(step=90)
@@ -3092,7 +3101,7 @@ transform card_dlc_hover:
     on idle:
         easeout 0.15 zoom 1.0
 
-screen escolha_genero:
+screen escolha_genero():
     modal True
 
     $ fundo_selecao = "images/fundo_espanhol.png" if _preferences.language == "spanish" else ("images/fundo_ingles.png" if _preferences.language == "english" else "images/fundo_portugues.png")

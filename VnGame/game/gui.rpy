@@ -442,17 +442,35 @@ define gui.language = "unicode"
 
 init python:
 
-    ## Isso aumenta o tamanho dos botões rápidos para torná-los mais fáceis de
-    ## tocar em tablets e telefones.
+    ## POR QUE O LAYOUT MÓVEL VIVE EM touch() E NÃO EM small()
+    ##
+    ## O Ren'Py escolhe a variante em renpy/main.py. No Android o critério é a
+    ## diagonal da tela:
+    ##
+    ##     diag = hypot(largura, altura) / dpi
+    ##     if diag >= 6:  variantes "tablet" + "medium"
+    ##     else:          variantes "phone"  + "small"
+    ##
+    ## O corte é 6 POLEGADAS. Celular moderno tem 6,1"–6,9", então quase todo
+    ## aparelho atual cai em "medium" e NUNCA em "small" — um Galaxy S23
+    ## (2340x1080, 425dpi) dá hypot/dpi = 6,06". Com os ajustes presos em
+    ## small(), o layout de celular só valia em aparelhos abaixo de 6", e a
+    ## esmagadora maioria dos jogadores via a GUI de desktop encolhida.
+    ##
+    ## No iOS o critério é outro: idiom de iPhone recebe "small" seja qual for
+    ## o tamanho. Ou seja, o MESMO aparelho de 6,5" pegava layouts diferentes
+    ## conforme o sistema.
+    ##
+    ## "touch" é inserida para Android e iOS sempre, telefone ou tablet, e
+    ## nunca no desktop. É o único gancho que descreve de fato "isto é um
+    ## aparelho de toque". Por isso os ajustes ficam aqui.
+    ##
+    ## Se algum dia precisar de valor DIFERENTE entre telefone e tablet, aí
+    ## sim use small()/medium() abaixo, que rodam depois desta e sobrescrevem.
     @gui.variant
     def touch():
 
         gui.quick_button_borders = Borders(60, 21, 60, 0)
-
-    ## Isso altera o tamanho e o espaçamento de vários elementos da GUI para
-    ## garantir que eles sejam facilmente visíveis nos telefones.
-    @gui.variant
-    def small():
 
         ## Tamanhos de fonte.
         gui.text_size = 45
@@ -505,6 +523,17 @@ init python:
         gui.nvl_button_width = 1860
         gui.nvl_button_xpos = 30
 
+    ## Ganchos por tamanho, para quando telefone e tablet precisarem divergir.
+    ## Rodam DEPOIS de touch(), então o que for escrito aqui sobrescreve o
+    ## layout comum acima. Hoje ambos usam o mesmo layout de toque.
+    @gui.variant
+    def small():
+        pass
+
+    @gui.variant
+    def medium():
+        pass
+
 ## ATENÇÃO: não volte a colocar `define gui.<algo>` aqui embaixo.
 ##
 ## Os `define` deste arquivo e o bloco `init python` das variantes acima
@@ -517,7 +546,14 @@ init python:
 ## Para mudar um valor de GUI, edite o `define` original lá em cima. Para
 ## mudar só no celular, edite dentro de `def small():` / `def touch():`.
 
-define gui.show_name = False
-define config.version = None
+## gui.show_name e config.version NÃO ficam mais aqui.
+##
+## Estavam definidos como False e None logo abaixo desta linha e nunca
+## surtiram efeito: options.rpy define os dois de novo (True e "1.0") e roda
+## DEPOIS — gui.rpy é `init offset = -2`, options.rpy é prioridade 0. É a
+## mesma armadilha de ordem de init do bloco acima, só que ao contrário.
+##
+## Se a intenção era mesmo esconder o título e a versão, o lugar de mudar é
+## options.rpy (linhas 21 e 26), que é quem vence.
 define fade_black = Fade(0.5, 0.5, 0.5)
 

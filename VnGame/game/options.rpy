@@ -189,6 +189,35 @@ init python:
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
 
+    ## Mídia sem nenhuma referência no roteiro — fica fora do pacote.
+    ##
+    ## Motivo: o Google Play limita o AAB base a 200 MB e os assets somavam
+    ## ~256 MB, sendo ~165 MB só destes arquivos que nenhum .rpy menciona.
+    ## Conferido buscando tanto "videos/x.webm" quanto o nome nu "x.webm",
+    ## porque o Ren'Py acha arquivos em game/audio e game/images sem prefixo.
+    ##
+    ## Os arquivos CONTINUAM no repositório — isto só os tira da distribuição.
+    ## Voltou a usar algum? Tire a linha dele daqui.
+    ##
+    ## Em uso hoje: videos/main_menu.webm, videos/easter-egg.webm,
+    ## audio/gender_music.mp3, audio/lapis.mp3.
+
+    ## 7 vídeos antigos do menu principal (~145 MB, menuofc.mp4 sozinho tem 54).
+    build.classify('game/videos/main_men8.webm', None)
+    build.classify('game/videos/main_menu2.webm', None)
+    build.classify('game/videos/main_menu3.webm', None)
+    build.classify('game/videos/main_menu8.webm', None)
+    build.classify('game/videos/main_menu_res.webm', None)
+    build.classify('game/videos/main_menu_ult.webm', None)
+    build.classify('game/videos/menuofc.mp4', None)
+
+    ## Áudio sem uso (~20 MB). Os dois .wav não são comprimidos —
+    ## musica_de_selecao_de_genero.wav sozinho tem 16,3 MB.
+    build.classify('game/audio/genero.wav', None)
+    build.classify('game/audio/musica_de_selecao_de_genero.wav', None)
+    build.classify('game/audio/piseiro.mp3', None)
+    build.classify('game/audio/selecao_genero.mp3', None)
+
     ## Para arquivar arquivos, classifique-os como "arquivo".
 
     # build.classify('game/**.png', 'archive')

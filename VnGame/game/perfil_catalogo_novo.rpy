@@ -718,8 +718,12 @@ screen barra_atributo_ficha(nome, valor):
             range 100
             left_bar Frame("gui/bar/left.png", 6, 6)
             right_bar Frame("gui/bar/right.png", 12, 6)
-            thumb Frame("gui/bar/thumb.png", 6, 6)
-            thumb_shadow Frame("gui/bar/thumb_shadow.png", 6, 6)
+            ## thumb/thumb_shadow removidos: gui/bar/ só tem bottom/left/
+            ## right/top.png. Os arquivos gui/bar/thumb.png e thumb_shadow.png
+            ## nunca existiram (confirmado com renpy.loadable), e o Ren'Py
+            ## levanta exceção ao renderizar a barra — ou seja, abrir a ficha
+            ## de um personagem quebrava. Sem thumb a barra desenha normal,
+            ## usando só left_bar/right_bar.
 
 
 ## ── Tela de Detalhes ────────────────────────────────────────────────────────

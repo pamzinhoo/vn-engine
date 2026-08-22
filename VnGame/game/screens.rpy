@@ -116,7 +116,11 @@ screen say(who, what):
             color "#0099cc"
             
 
-    if not renpy.variant("small"):
+    ## "touch" e não "small": a variante "small" só é atribuída a aparelhos
+    ## com menos de 6" de diagonal (ver o comentário em gui.rpy), então num
+    ## celular atual de 6,5" isto dava False e a side image aparecia sobre a
+    ## textbox de celular, que é justamente o que a checagem queria evitar.
+    if not renpy.variant("touch"):
         add SideImage() xalign 0.0 yalign 0.30
 
 
@@ -414,10 +418,8 @@ screen navigation():
             ## A ajuda não é necessária ou relevante para dispositivos móveis.
             textbutton _("Ajuda") action ShowMenu("help")
 
+        ## O botão Sair é proibido no iOS e desnecessário no Android e na Web.
         if renpy.variant("pc"):
-
-            ## O botão Sair é proibido no iOS e desnecessário no Android e na
-            ## Web.
             textbutton _("Sair") action Quit(confirm=not main_menu)
 
 
@@ -501,11 +503,13 @@ screen main_menu():
             xpos 0
             ypos 863
             at button_hover_scale
-        textbutton _("Sair") action Quit(confirm=True):
-            style "main_menu_button"
-            xpos 0
-            ypos 980
-            at button_hover_scale
+        ## Botão proibido no iOS e desnecessário no Android/Web.
+        if renpy.variant("pc"):
+            textbutton _("Sair") action Quit(confirm=True):
+                style "main_menu_button"
+                xpos 0
+                ypos 980
+                at button_hover_scale
 
         imagebutton:
             idle Transform("gui/details/discord.png", size=(90, 90))
@@ -836,12 +840,14 @@ screen about():
             text_style "load_nav_text"
             at button_hover_scale
 
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 890
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
+        ## Botão proibido no iOS e desnecessário no Android/Web.
+        if renpy.variant("pc"):
+            textbutton _("Sair") action Quit(confirm=True):
+                xpos 50
+                ypos 890
+                xsize 310
+                text_style "load_nav_text"
+                at button_hover_scale
 
         textbutton _("Voltar") action Return():
             xpos 150
@@ -923,13 +929,15 @@ screen save():
         text_style "load_nav_text"
         at button_hover_scale
 
-    textbutton _("Sair") action Quit(confirm=True):
-        xpos 50
-        ypos 890
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
+    ## Botão proibido no iOS e desnecessário no Android/Web.
+    if renpy.variant("pc"):
+        textbutton _("Sair") action Quit(confirm=True):
+            xpos 50
+            ypos 890
+            xsize 310
+            ysize 70
+            text_style "load_nav_text"
+            at button_hover_scale
 
     textbutton _("Voltar") action Return():
         xpos 150
@@ -1056,13 +1064,15 @@ screen load():
         text_style "load_nav_text"
         at button_hover_scale
 
-    textbutton _("Sair") action Quit(confirm=True):
-        xpos 50
-        ypos 890     # ← retângulo 7
-        xsize 310
-        ysize 70
-        text_style "load_nav_text"
-        at button_hover_scale
+    ## Botão proibido no iOS e desnecessário no Android/Web.
+    if renpy.variant("pc"):
+        textbutton _("Sair") action Quit(confirm=True):
+            xpos 50
+            ypos 890     # ← retângulo 7
+            xsize 310
+            ysize 70
+            text_style "load_nav_text"
+            at button_hover_scale
 
     # textbutton _("Sair") action Quit(confirm=True):
     #     xpos 50
@@ -1401,12 +1411,14 @@ screen preferences():
             text_style "load_nav_text"
             at button_hover_scale
 
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 890     # ← retângulo 7
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
+        ## Botão proibido no iOS e desnecessário no Android/Web.
+        if renpy.variant("pc"):
+            textbutton _("Sair") action Quit(confirm=True):
+                xpos 50
+                ypos 890     # ← retângulo 7
+                xsize 310
+                text_style "load_nav_text"
+                at button_hover_scale
 
         # textbutton _("Sair") action Quit(confirm=True):
         #     xpos 50
@@ -1588,13 +1600,15 @@ screen history():
             text_style "load_nav_text"
             at button_hover_scale
 
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 995
-            xsize 310
-            ysize 70
-            text_style "load_nav_text"
-            at button_hover_scale
+        ## Botão proibido no iOS e desnecessário no Android/Web.
+        if renpy.variant("pc"):
+            textbutton _("Sair") action Quit(confirm=True):
+                xpos 50
+                ypos 995
+                xsize 310
+                ysize 70
+                text_style "load_nav_text"
+                at button_hover_scale
 
         
 
@@ -1726,12 +1740,14 @@ screen help():
             text_style "load_nav_text"
             at button_hover_scale
 
-        textbutton _("Sair") action Quit(confirm=True):
-            xpos 50
-            ypos 890
-            xsize 310
-            text_style "load_nav_text"
-            at button_hover_scale
+        ## Botão proibido no iOS e desnecessário no Android/Web.
+        if renpy.variant("pc"):
+            textbutton _("Sair") action Quit(confirm=True):
+                xpos 50
+                ypos 890
+                xsize 310
+                text_style "load_nav_text"
+                at button_hover_scale
 
         textbutton _("Voltar") action Return():
             xpos 150
@@ -2299,9 +2315,9 @@ define bubble.expand_area = {
 ## Variantes do celular
 ################################################################################
 
-style pref_vbox:
-    variant "medium"
-    xsize 675
+## (o antigo bloco "medium" com xsize 675 foi unificado no "touch" mais
+## abaixo, que usa 600 — os dois viraram a mesma variante e o de baixo
+## vencia de qualquer jeito.)
 
 ## Como o mouse pode não estar presente, substituímos o menu rápido por uma
 ## versão que usa menos botões e maiores, que são mais fáceis de tocar.
@@ -2366,87 +2382,87 @@ screen quick_menu():
 
 
 style window:
-    variant "small"
+    variant "touch"
     background "gui/phone/textbox.png"
 
 style radio_button:
-    variant "small"
+    variant "touch"
     foreground "gui/phone/button/radio_[prefix_]foreground.png"
 
 style check_button:
-    variant "small"
+    variant "touch"
     foreground "gui/phone/button/check_[prefix_]foreground.png"
 
 style nvl_window:
-    variant "small"
+    variant "touch"
     background "gui/phone/nvl.png"
 
 style main_menu_frame:
-    variant "small"
+    variant "touch"
     background "gui/phone/overlay/main_menu.png"
 
 style game_menu_outer_frame:
-    variant "small"
+    variant "touch"
     background "gui/phone/overlay/game_menu.png"
 
 style game_menu_navigation_frame:
-    variant "small"
+    variant "touch"
     xsize 510
 
 style game_menu_content_frame:
-    variant "small"
+    variant "touch"
     top_margin 0
 
 style game_menu_viewport:
-    variant "small"
+    variant "touch"
     xsize 1305
 
 style pref_vbox:
-    variant "small"
+    variant "touch"
     xsize 600
 
 style bar:
-    variant "small"
+    variant "touch"
     ysize gui.bar_size
     left_bar Frame("gui/phone/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
     right_bar Frame("gui/phone/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
 
 style vbar:
-    variant "small"
+    variant "touch"
     xsize gui.bar_size
     top_bar Frame("gui/phone/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
     bottom_bar Frame("gui/phone/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
 
 style scrollbar:
-    variant "small"
+    variant "touch"
     ysize gui.scrollbar_size
     base_bar Frame("gui/phone/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/phone/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
 
 style vscrollbar:
-    variant "small"
+    variant "touch"
     xsize gui.scrollbar_size
     base_bar Frame("gui/phone/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/phone/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
 
 style slider:
-    variant "small"
+    variant "touch"
     ysize gui.slider_size
     base_bar Frame("gui/phone/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
     thumb "gui/phone/slider/horizontal_[prefix_]thumb.png"
 
 style vslider:
-    variant "small"
+    variant "touch"
     xsize gui.slider_size
     base_bar Frame("gui/phone/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
     thumb "gui/phone/slider/vertical_[prefix_]thumb.png"
 
 style slider_vbox:
-    variant "small"
+    variant "touch"
     xsize None
 
 style slider_slider:
-    variant "small"
+    variant "touch"
     xsize 900
 screen frase_transicao(frase):
     add "#000000"
@@ -2551,10 +2567,8 @@ screen perfil_catalogo():
                         ## A ajuda não é necessária ou relevante para dispositivos móveis.
                         textbutton _("Ajuda") action ShowMenu("help")
 
+                    ## O botão Sair é proibido no iOS e desnecessário no Android e na Web.
                     if renpy.variant("pc"):
-
-                        ## O botão Sair é proibido no iOS e desnecessário no Android e na
-                        ## Web.
                         textbutton _("Sair") action Quit(confirm=not main_menu)
 
 
