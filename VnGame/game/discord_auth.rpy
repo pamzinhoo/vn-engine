@@ -19,10 +19,23 @@ init -10 python:
         """Abre o navegador padrao ja em primeiro plano. webbrowser.open()
         sozinho as vezes abre a aba atras da janela fullscreen do Ren'Py no
         Windows; os.startfile (ShellExecute) traz a janela do navegador pra
-        frente de verdade."""
+        frente de verdade.
+
+        Corrigido em 2026-08-22: no Android/iOS, webbrowser.open() nao tem
+        navegador registrado pra abrir e falha silenciosamente (excecao
+        engolida abaixo) -- o jogador nunca via a tela de login, e o app
+        ficava preso pra sempre em "Conectando com o Discord..." esperando
+        uma confirmacao que nunca chegava. renpy.open_url() e' a API do
+        proprio Ren'Py pra isso, funciona via Intent no Android/iOS."""
         if platform.system() == "Windows":
             try:
                 _os.startfile(url)
+                return
+            except Exception:
+                pass
+        if getattr(renpy, "android", False) or getattr(renpy, "ios", False):
+            try:
+                renpy.open_url(url)
                 return
             except Exception:
                 pass

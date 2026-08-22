@@ -2277,14 +2277,60 @@ style pref_vbox:
 
 ## Como o mouse pode não estar presente, substituímos o menu rápido por uma
 ## versão que usa menos botões e maiores, que são mais fáceis de tocar.
+##
+## Restaurado em 2026-08-22: a barra tinha sido removida por completo pra essa
+## variante ("null" abaixo), deixando build mobile sem botao de casa/diario/
+## salvar nenhum -- reaproveita o mesmo conteudo da quick_menu() padrao (os
+## imagebutton ja tem focus_mask e area de toque generosa, funcionam bem em
+## touch sem precisar de versao separada "maior").
 screen quick_menu():
     variant "touch"
 
     zorder 100
 
-    ## Barra de botões removida a pedido (variante touch).
-    if quick_menu:
-        null
+    if quick_menu and renpy.get_screen("say"):
+
+        # Salvar — canto inferior esquerdo
+        imagebutton:
+            idle "gui/details/save_button.png"
+            hover "gui/details/save_button_hover.png"
+            focus_mask True
+            action ShowMenu('save')
+
+        # Início / voltar ao menu — canto inferior direito
+        imagebutton:
+            idle "gui/details/menu_button.png"
+            hover "gui/details/menu_button_hover.png"
+            focus_mask True
+            action MainMenu(confirm=True)
+
+        # Configurações — sempre visivel na variante touch (nao ha tecla "P"
+        # num celular pra alternar, entao nao faz sentido escondido por padrao).
+        imagebutton:
+            idle "gui/details/config_button.png"
+            hover "gui/details/config_button_hover.png"
+            focus_mask True
+            action ShowMenu('preferences')
+
+        # Diário — canto superior direito, com o mesmo selo de "atualizado".
+        fixed:
+            imagebutton:
+                idle "gui/details/diario_button.png"
+                hover "gui/details/diario_button_hover.png"
+                focus_mask True
+                action [
+                    Show("perfil_janela"),
+                    SetField(persistent, "diario_notificacao", False),
+                    SetVariable("diario_pagina_atual", 0),
+                ]
+
+            if persistent.diario_notificacao:
+                add "images/diarioselo.png":
+                    xysize (65, 62)
+                    fit "contain"
+                    xpos 1868
+                    xanchor 0.5
+                    ypos 84
 
 
 style window:
