@@ -2991,6 +2991,9 @@ label fim_dia_zero:
 #   DLC         819x1384 em (1321,759) de 5000x2686 -> centro (1730.5, 1451.0)
 # (a arte do DLC e' esticada pra 1920x1080 no add, e esticar preserva fracao)
 transform carta_hover(cx, cy, dx=0, dy=0):
+    ## ATENCAO: anchor/pos/xoffset/yoffset NAO sao decoracao -- sao o que
+    ## encaixa cada carta na moldura pintada no fundo (ver o comentario
+    ## grande logo acima). Mexa so' nos valores de zoom aqui embaixo.
     transform_anchor True
     anchor (cx, cy)
     pos (cx, cy)
@@ -2998,7 +3001,7 @@ transform carta_hover(cx, cy, dx=0, dy=0):
     yoffset dy
     zoom 1.0
     on hover:
-        easein 0.18 zoom 1.06
+        easein 0.18 zoom 1.03
     on idle:
         easeout 0.18 zoom 1.0
 
@@ -3083,8 +3086,9 @@ screen dlc_carta_meio_conteudo():
             unscrollable "hide"
 
 transform card_dlc_hover:
+    zoom 1.0
     on hover:
-        easein 0.15 zoom 1.03
+        easein 0.15 zoom 1.015
     on idle:
         easeout 0.15 zoom 1.0
 

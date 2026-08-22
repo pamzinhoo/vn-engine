@@ -16,33 +16,43 @@ init -10 python:
     import webbrowser
 
     def _discord_open_browser(url):
-        """Abre o navegador padrao ja em primeiro plano. webbrowser.open()
-        sozinho as vezes abre a aba atras da janela fullscreen do Ren'Py no
-        Windows; os.startfile (ShellExecute) traz a janela do navegador pra
-        frente de verdade.
+        """Tenta abrir o navegador. Devolve True so quando ha' motivo real pra
+        acreditar que uma janela abriu -- quem chama usa isso pra decidir o
+        texto da tela de login (ver screen discord_login_status).
 
-        Corrigido em 2026-08-22: no Android/iOS, webbrowser.open() nao tem
-        navegador registrado pra abrir e falha silenciosamente (excecao
-        engolida abaixo) -- o jogador nunca via a tela de login, e o app
-        ficava preso pra sempre em "Conectando com o Discord..." esperando
-        uma confirmacao que nunca chegava. renpy.open_url() e' a API do
-        proprio Ren'Py pra isso, funciona via Intent no Android/iOS."""
+        Windows: os.startfile (ShellExecute) traz o navegador pra frente de
+        verdade; webbrowser.open() sozinho as vezes abre a aba atras da janela
+        fullscreen do Ren'Py.
+
+        Celular: NAO da' pra confiar em navegador nenhum. renpy.open_url() do
+        Ren'Py 8.5.2 e' so `webbrowser.open_new(url)` por dentro (ver
+        renpy/exports/platformexports.py) e o Python 3.12 que o Ren'Py
+        empacota nao tem suporte a Android no modulo webbrowser -- a classe
+        AndroidBrowser so entrou na stdlib no 3.13 (PEP 738). No Android o
+        _tryorder fica vazio e open_new() devolve False SEM levantar excecao,
+        entao o try/except nem dispara: o codigo achava que tinha aberto.
+        Por isso a tela de login mostra o link e o codigo pro jogador abrir
+        na mao -- e' exatamente pra isso que o device flow existe. A tentativa
+        de abrir continua aqui porque quando funciona e' mais comodo, mas o
+        login nao depende mais dela."""
         if platform.system() == "Windows":
             try:
                 _os.startfile(url)
-                return
-            except Exception:
-                pass
-        if getattr(renpy, "android", False) or getattr(renpy, "ios", False):
-            try:
-                renpy.open_url(url)
-                return
+                return True
             except Exception:
                 pass
         try:
-            webbrowser.open(url, new=2)
+            # webbrowser.open devolve False quando nao achou navegador nenhum
+            # (o caso do Android); so' contamos como sucesso o True explicito.
+            if webbrowser.open(url, new=2):
+                return True
         except Exception:
             pass
+        try:
+            renpy.open_url(url)
+        except Exception:
+            pass
+        return False
 
     DISCORD_AUTH_BACKEND_URL = "https://limerence-backend.onrender.com"
 
@@ -79,6 +89,11 @@ init -10 python:
             self.device_code = None
             self.interval = 5
             self.error = None
+            # False = nao conseguimos abrir navegador nenhum (sempre o caso no
+            # celular, ver _discord_open_browser). A tela de login usa isso pra
+            # trocar "confirme na aba que abriu" por "abra este link no
+            # navegador", com a URL a' mostra pra digitar na mao.
+            self.browser_opened = False
 
     discord_auth_state = DiscordAuthState()
 
@@ -242,7 +257,7 @@ init -10 python:
             state.interval = data.get("interval", 5)
             state.status = "waiting_browser"
 
-            _discord_open_browser(state.verification_uri)
+            state.browser_opened = _discord_open_browser(state.verification_uri)
 
             state.status = "polling"
 
@@ -441,10 +456,43 @@ screen discord_login_status():
                 text _("Conectando com o Discord...") xalign 0.5
 
             elif discord_auth_state.status in ("waiting_browser", "polling"):
-                text _("Confirme o login na aba do navegador que abriu.") xalign 0.5
+                ## O link fica SEMPRE visivel, tenha o navegador aberto ou
+                ## nao. No celular nunca abre (ver _discord_open_browser), e
+                ## sem a URL na tela o jogador ficava olhando so' o codigo,
+                ## sem ter onde digitar -- o login era impossivel. Mostrar o
+                ## link e o codigo e' o modo padrao do device flow justamente
+                ## pra aparelhos que nao conseguem abrir navegador.
+                if discord_auth_state.browser_opened:
+                    text _("Confirme o login na aba do navegador que abriu.") xalign 0.5
+                else:
+                    text _("Abra este link no navegador:") xalign 0.5
+
+                ## Tamanhos maiores no celular: e' la' que o jogador precisa
+                ## LER a URL pra digitar na mao (nenhum navegador abre, ver
+                ## _discord_open_browser). Deixar a URL no menor tamanho da
+                ## tela justo no aparelho onde ela e' a unica saida nao faz
+                ## sentido. `xmaximum` + layout "subtitle" quebram a linha em
+                ## vez de estourar a moldura quando a URL e' comprida.
+                if discord_auth_state.verification_uri:
+                    text "[discord_auth_state.verification_uri!q]":
+                        xalign 0.5
+                        text_align 0.5
+                        layout "subtitle"
+                        xmaximum (900 if renpy.variant("small") else 700)
+                        size (34 if renpy.variant("small") else 22)
+                        color "#66c1e0"
+
                 if discord_auth_state.user_code:
-                    text "[discord_auth_state.user_code!q]" xalign 0.5 size 34
-                text _("Aguardando confirmação...") xalign 0.5 size 18
+                    text _("e informe o código:"):
+                        xalign 0.5
+                        size (26 if renpy.variant("small") else 18)
+                    text "[discord_auth_state.user_code!q]":
+                        xalign 0.5
+                        size (52 if renpy.variant("small") else 34)
+
+                text _("Aguardando confirmação..."):
+                    xalign 0.5
+                    size (26 if renpy.variant("small") else 18)
 
             elif discord_auth_state.status == "success":
                 text _("Login concluído!") xalign 0.5

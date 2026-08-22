@@ -247,6 +247,30 @@ style choice_button_text is default:
 ## O menu rápido é exibido no jogo para fornecer acesso fácil aos menus fora do menu QUE TEM QUANDO INICIA O JOGO NA PARTE DE BAIXO DA TELA
 ## jogo.
 
+## Hover dos ícones de canto dentro do jogo.
+##
+## As artes *_hover.png têm azul embutido (os idle são cinza puro, R=G=B; os
+## hover ficam com B > G > R) e um halo bem maior — a casinha e a seta pulam
+## de ~7.000 para ~18.900 pixels visíveis, quase 3x. Era isso que deixava o
+## hover forte demais no jogo. Aqui o hover passa a usar a MESMA arte cinza
+## do idle, com só um realce leve de brilho por cima.
+##
+## Por que brilho e não zoom: cada um desses botões é um overlay de tela
+## cheia (1920x1080) com o ícone já desenhado no canto. Um zoom escalaria o
+## overlay inteiro a partir do centro da tela e arrastaria o ícone pra fora
+## do lugar, além de descolar o focus_mask da arte. Brilho não mexe em
+## geometria, então o focus_mask continua batendo certo com o ícone.
+##
+## Os arquivos *_hover.png continuam no projeto, sem uso — para voltar atrás
+## basta repor `hover "gui/details/<nome>_hover.png"` e tirar o `at`.
+transform icone_canto_hover:
+    matrixcolor IdentityMatrix()
+    on hover:
+        ease 0.15 matrixcolor BrightnessMatrix(0.20)
+    on idle:
+        ease 0.15 matrixcolor IdentityMatrix()
+
+
 screen quick_menu():
 
     ## Certifique-se de que isso apareça na parte superior de outras telas.
@@ -264,23 +288,26 @@ screen quick_menu():
         # Salvar — canto inferior esquerdo
         imagebutton:
             idle "gui/details/save_button.png"
-            hover "gui/details/save_button_hover.png"
+            hover "gui/details/save_button.png"   # mesma arte do idle: sem azul, sem halo
             focus_mask True
+            at icone_canto_hover
             action ShowMenu('save')
 
         # Início / voltar ao menu — canto inferior direito
         imagebutton:
             idle "gui/details/menu_button.png"
-            hover "gui/details/menu_button_hover.png"
+            hover "gui/details/menu_button.png"   # mesma arte do idle: sem azul, sem halo
             focus_mask True
+            at icone_canto_hover
             action MainMenu(confirm=True)
 
         # Configurações (skip / Ctrl) — só aparece ao apertar P
         if mostrar_config:
             imagebutton:
                 idle "gui/details/config_button.png"
-                hover "gui/details/config_button_hover.png"
+                hover "gui/details/config_button.png"   # mesma arte do idle: sem azul, sem halo
                 focus_mask True
+                at icone_canto_hover
                 action ShowMenu('preferences')
 
         # Diário — canto superior direito. O selo de "atualizado" fica dentro
@@ -289,8 +316,9 @@ screen quick_menu():
         fixed:
             imagebutton:
                 idle "gui/details/diario_button.png"
-                hover "gui/details/diario_button_hover.png"
+                hover "gui/details/diario_button.png"   # mesma arte do idle: sem azul, sem halo
                 focus_mask True
+                at icone_canto_hover
                 # Abre o diário na primeira página e desliga o selo de "atualizado"
                 action [
                     Show("perfil_janela"),
@@ -2293,31 +2321,35 @@ screen quick_menu():
         # Salvar — canto inferior esquerdo
         imagebutton:
             idle "gui/details/save_button.png"
-            hover "gui/details/save_button_hover.png"
+            hover "gui/details/save_button.png"   # mesma arte do idle: sem azul, sem halo
             focus_mask True
+            at icone_canto_hover
             action ShowMenu('save')
 
         # Início / voltar ao menu — canto inferior direito
         imagebutton:
             idle "gui/details/menu_button.png"
-            hover "gui/details/menu_button_hover.png"
+            hover "gui/details/menu_button.png"   # mesma arte do idle: sem azul, sem halo
             focus_mask True
+            at icone_canto_hover
             action MainMenu(confirm=True)
 
         # Configurações — sempre visivel na variante touch (nao ha tecla "P"
         # num celular pra alternar, entao nao faz sentido escondido por padrao).
         imagebutton:
             idle "gui/details/config_button.png"
-            hover "gui/details/config_button_hover.png"
+            hover "gui/details/config_button.png"   # mesma arte do idle: sem azul, sem halo
             focus_mask True
+            at icone_canto_hover
             action ShowMenu('preferences')
 
         # Diário — canto superior direito, com o mesmo selo de "atualizado".
         fixed:
             imagebutton:
                 idle "gui/details/diario_button.png"
-                hover "gui/details/diario_button_hover.png"
+                hover "gui/details/diario_button.png"   # mesma arte do idle: sem azul, sem halo
                 focus_mask True
+                at icone_canto_hover
                 action [
                     Show("perfil_janela"),
                     SetField(persistent, "diario_notificacao", False),

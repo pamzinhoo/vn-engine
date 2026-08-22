@@ -280,11 +280,12 @@ init python:
 
 ## ── Transformações/Animações ────────────────────────────────────────────────
 
-## Animação de zoom no hover
+## Animação de zoom no hover — sutil de propósito (era 1.1, chamava atenção
+## demais num grid com vários cards lado a lado).
 transform card_hover_zoom:
     zoom 1.0
     on hover:
-        ease 0.2 zoom 1.1
+        ease 0.2 zoom 1.04
     on idle:
         ease 0.2 zoom 1.0
 ## ── Estilos ─────────────────────────────────────────────────────────────────

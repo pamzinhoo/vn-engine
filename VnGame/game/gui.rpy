@@ -71,7 +71,7 @@ define gui.name_text_font = "fonts/Cinzel-VariableFont_wght.ttf"
 define gui.interface_text_font = "fonts/Montserrat-VariableFont_wght.ttf"
 
 ## O tamanho do texto normal do diálogo.
-define gui.text_size = 33
+define gui.text_size = 26
 
 ## O tamanho dos nomes dos caracteres.
 define gui.name_text_size = 45
@@ -102,7 +102,11 @@ define gui.game_menu_background = "gui/game_menu.png"
 ## vez.
 
 ## A altura da caixa de texto que contém o diálogo.
-define gui.textbox_height = 278
+## Casa com a altura da arte em gui/details/textbox_ui.png. No celular a
+## variante "small" (fim deste arquivo) sobe para 360, que é a altura de
+## gui/phone/textbox.png — por isso este valor NÃO pode ser redefinido depois
+## do bloco de variantes, ou o celular volta para a medida de desktop.
+define gui.textbox_height = 277
 
 ## O posicionamento da caixa de texto verticalmente na tela. 0,0 é a parte
 ## superior, 0,5 é o centro e 1,0 é a parte inferior.
@@ -113,7 +117,7 @@ define gui.textbox_yalign = 1.0
 ## Pode ser um número inteiro de pixels a partir da esquerda ou do topo, ou 0,5
 ## para o centro.
 
-define gui.name_ypos = 0
+define gui.name_ypos = -1
 
 ## O alinhamento horizontal do nome do personagem. Pode ser 0,0 para alinhado à
 ## esquerda, 0,5 para centralizado e 1,0 para alinhado à direita.
@@ -136,10 +140,17 @@ define gui.namebox_tile = False
 ## O posicionamento do diálogo em relação à caixa de texto. Esse pode ser um
 ## número inteiro de pixels em relação ao lado esquerdo ou superior da caixa de
 ## texto, ou 0,5 em relação ao centro.
-define gui.dialogue_xpos = 402
-define gui.dialogue_ypos = 75
+define gui.dialogue_xpos = 340
+define gui.dialogue_ypos = 55
 
 ## A largura máxima do texto da caixa de diálogo, em pixels.
+define gui.dialogue_width = 1320
+
+## A largura da caixa de texto.
+define gui.textbox_width = 1920
+
+## O posicionamento horizontal do nome do personagem que fala.
+define gui.name_xpos = 100
 
 ## O alinhamento horizontal do texto da caixa de diálogo. Pode ser 0,0 para
 ## alinhado à esquerda, 0,5 para centralizado e 1,0 para alinhado à direita.
@@ -454,6 +465,10 @@ init python:
         ## Ajustar o local da caixa de texto.
         gui.textbox_height = 360
         gui.dialogue_xpos = 135
+        ## Sem isto o texto herda a largura de desktop (1320) começando em
+        ## 135, e sobra um vão de 465px na direita da textbox do celular.
+        ## 1920 - 2*135 = 1650 mantém a mesma margem dos dois lados.
+        gui.dialogue_width = 1650
 
         ## Altere o tamanho e o espaçamento de vários itens.
         gui.slider_size = 54
@@ -490,17 +505,17 @@ init python:
         gui.nvl_button_width = 1860
         gui.nvl_button_xpos = 30
 
-define gui.textbox_height = 277
-define gui.textbox_yalign = 1.0
-define gui.textbox_width = 1920
-define gui.name_xalign = 0.0
-define gui.text_size = 26
-define gui.name_xpos = 100
-define gui.name_ypos = -1
-define gui.dialogue_xpos = 340
-define gui.dialogue_ypos = 55
-define gui.dialogue_width = 1320
-
+## ATENÇÃO: não volte a colocar `define gui.<algo>` aqui embaixo.
+##
+## Os `define` deste arquivo e o bloco `init python` das variantes acima
+## rodam todos na mesma prioridade (`init offset = -2`), na ordem em que
+## aparecem no arquivo. Qualquer define escrito DEPOIS do bloco de variantes
+## sobrescreve o que touch()/small() acabaram de ajustar — foi assim que o
+## celular ficou com o texto em 26 (medida de desktop) no lugar dos 45 da
+## variante "small", e com a caixa de texto em 277 em vez de 360.
+##
+## Para mudar um valor de GUI, edite o `define` original lá em cima. Para
+## mudar só no celular, edite dentro de `def small():` / `def touch():`.
 
 define gui.show_name = False
 define config.version = None
