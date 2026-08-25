@@ -1,4 +1,4 @@
-﻿# ARQUIVO: tl/english/screens.rpy
+# ARQUIVO: tl/english/screens.rpy
 
 # TODO: Translation updated at 2026-05-14 08:38
 
@@ -304,3 +304,9 @@ translate english strings:
     old "nome aqui"
     new "name here"
 
+
+translate english strings:
+
+    # game/screens.rpy:793
+    old "by Mason Studio\n\n"
+    new "by Mason Studio\n\n"

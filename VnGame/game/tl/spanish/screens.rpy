@@ -267,3 +267,9 @@ translate spanish strings:
     old "Tab"
     new "Tab"
 
+
+translate spanish strings:
+
+    # game/screens.rpy:793
+    old "by Mason Studio\n\n"
+    new "por Mason Studio\n\n"

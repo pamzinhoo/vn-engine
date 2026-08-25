@@ -793,7 +793,7 @@ screen about():
             text _("by Mason Studio\n\n")
 
             if gui.about:
-                text gui.about
+                text "[gui.about!t]"
                 text "\n\n"
 
             text _("Feito com {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]") #textinho do bolso

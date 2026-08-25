@@ -1,4 +1,4 @@
-﻿# ARQUIVO: options.rpy
+# ARQUIVO: options.rpy
 
 ## This file contains options that can be changed to customize the game.
 ##
@@ -235,3 +235,25 @@ translate english strings:
     # game/options.rpy:15
     old "VnGame"
     new "VnGame"
+
+translate english strings:
+
+    # game/options.rpy:32 (tela Sobre)
+    old "Uma visual novel de terror psicológico sobre amor, obsessão e as relações que podem esconder muito mais do que parecem.\n\nSites Oficiais {a=https://limerenceofc.itch.io/limerence}{color=#3399ff}itch.io{/color}{/a} • {a=https://www.tiktok.com/@limerenceofc?is_from_webapp=1&sender_device=pc}{color=#3399ff}TikTok{/color}{/a} • {a=https://discord.gg/chQExhFG5p}{color=#3399ff}Discord{/color}{/a} • {a=https://whatsapp.com/channel/0029VbDLOMADmFNZi7fJB1t}{color=#3399ff}Whatsapp{/color}{/a}\n\nDireção & Roteiro Sagurito\n\nArte Sagurito\n\nProgramação Pam • Elias Gabriel\n\nMúsicas Dog Hero • 6Lukas9\n\nEfeitos Sonoros 6Lukas9\n\nObrigado por jogar!!"
+    new _p("""
+    A psychological horror visual novel about love, obsession and the relationships that can hide far more than they seem.
+
+    Official Sites {a=https://limerenceofc.itch.io/limerence}{color=#3399ff}itch.io{/color}{/a} • {a=https://www.tiktok.com/@limerenceofc?is_from_webapp=1&sender_device=pc}{color=#3399ff}TikTok{/color}{/a} • {a=https://discord.gg/chQExhFG5p}{color=#3399ff}Discord{/color}{/a} • {a=https://whatsapp.com/channel/0029VbDLOMADmFNZi7fJB1t}{color=#3399ff}Whatsapp{/color}{/a}
+
+    Direction & Writing Sagurito
+
+    Art Sagurito
+
+    Programming Pam • Elias Gabriel
+
+    Music Dog Hero • 6Lukas9
+
+    Sound Effects 6Lukas9
+
+    Thanks for playing!!
+    """)
