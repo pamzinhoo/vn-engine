@@ -733,7 +733,7 @@ style return_button_text is navigation_button_text
 
 style game_menu_outer_frame:
     bottom_padding 45
-    top_padding 180
+    top_padding 100
 
     background "gui/overlay/game_menu.png"
 
@@ -787,13 +787,14 @@ screen about():
         style_prefix "about"
 
         vbox:
-            xpos 0.18
-            yoffset -10
+            xpos 260
+            yoffset 40
             label _("Limerence")
-            text _("by Mason Studio\n")
+            text _("by Mason Studio\n\n")
 
             if gui.about:
-                text "[gui.about!t]\n"
+                text gui.about
+                text "\n\n"
 
             text _("Feito com {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only] .\n\n[renpy.license!t]") #textinho do bolso
 
@@ -861,10 +862,12 @@ style about_label_text is gui_label_text
 style about_text is gui_text
 
 style about_label_text:
-    size gui.label_text_size - 2
+    size gui.label_text_size - 3
+    xmaximum 1000
 
 style about_text:
-    size gui.text_size - 2
+    size gui.text_size - 3
+    xmaximum 1000
 
 
 ## Carregar e salvar telas #####################################################

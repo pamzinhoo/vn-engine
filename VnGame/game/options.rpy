@@ -32,23 +32,17 @@ define config.version = "1.0"
 define gui.about = _p("""
 Uma visual novel de terror psicológico sobre amor, obsessão e as relações que podem esconder muito mais do que parecem.
 
-Sites Oficiais
-itch.io • TikTok • Discord • Whatsapp
+Sites Oficiais\n{a=https://limerenceofc.itch.io/limerence}{color=#3399ff}itch.io{/color}{/a} • {a=https://www.tiktok.com/@limerenceofc?is_from_webapp=1&sender_device=pc}{color=#3399ff}TikTok{/color}{/a} • {a=https://discord.gg/chQExhFG5p}{color=#3399ff}Discord{/color}{/a} • {a=https://whatsapp.com/channel/0029VbDLOMADmFNZi7fJB1t}{color=#3399ff}Whatsapp{/color}{/a}
 
-Direção & Roteiro
-Sagurito
+Direção & Roteiro\nSagurito
 
-Arte
-Sagurito
+Arte\nSagurito
 
-Programação
-Pam • Elias Gabriel
+Programação\nPam • Elias Gabriel
 
-Músicas
-Dog Hero • 6Lukas9
+Músicas\nDog Hero • 6Lukas9
 
-Efeitos Sonoros
-6Lukas9
+Efeitos Sonoros\n6Lukas9
 
 Obrigado por jogar!!
 """)
