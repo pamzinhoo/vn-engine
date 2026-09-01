@@ -7,14 +7,29 @@ set DISTS=%SDK%\vn-engine\VnGame-1.0-dists
 set BUTLER=%SDK%\vn-engine\butler-windows-amd64\butler.exe
 set ITCH_PROJETO=limerenceofc/limerence
 
+REM renpy.exe e GUI-subsystem: o cmd dispara e NAO espera terminar, entao o
+REM script seguia para o upload antes do build existir. python.exe do proprio
+REM SDK e console-subsystem, bloqueia ate o fim e ainda mostra o progresso.
+set PY=%SDK%\lib\py3-windows-x86_64\python.exe
+
+if not exist "%PY%" (
+    echo ERRO: nao achei o python do SDK em %PY%
+    pause
+    exit /b 1
+)
+
 echo ============================
 echo  Buildando desktop...
 echo ============================
-"%SDK%\renpy.exe" "%PROJETO%" distribute
+"%PY%" "%SDK%\renpy.py" "%PROJETO%" distribute
+if errorlevel 1 (
+    echo ERRO: o build do desktop falhou.
+    pause
+    exit /b 1
+)
 
 if not exist "%DISTS%\VnGame-1.0-win.zip" (
     echo ERRO: nao achei o zip do Windows em %DISTS%
-    echo Confere se o build terminou sem erro acima.
     pause
     exit /b 1
 )
@@ -24,7 +39,12 @@ echo  Buildando Android (APK)...
 echo ============================
 REM Apaga APK antigo para nao subir build velho caso este falhe.
 del /q "%DISTS%\*-release.apk" 2>nul
-"%SDK%\renpy.exe" launcher android_build "%PROJETO%" --dest "%DISTS%"
+"%PY%" "%SDK%\renpy.py" launcher android_build "%PROJETO%" --dest "%DISTS%"
+if errorlevel 1 (
+    echo ERRO: o build do Android falhou.
+    pause
+    exit /b 1
+)
 
 REM O nome do APK carrega um timestamp, entao pega o mais recente por glob.
 set "APK="
@@ -33,7 +53,6 @@ for /f "delims=" %%f in ('dir /b /o-d "%DISTS%\*-release.apk" 2^>nul') do (
 )
 if not defined APK (
     echo ERRO: nao achei nenhum *-release.apk em %DISTS%
-    echo Confere se o build do Android terminou sem erro acima.
     pause
     exit /b 1
 )
