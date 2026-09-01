@@ -503,8 +503,8 @@ screen main_menu():
             xpos 0
             ypos 863
             at button_hover_scale
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botão proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 style "main_menu_button"
                 xpos 0
@@ -2405,7 +2405,7 @@ style nvl_window:
 
 style main_menu_frame:
     variant "touch"
-    background "gui/phone/overlay/main_menu.png"
+    background None
 
 style game_menu_outer_frame:
     variant "touch"
