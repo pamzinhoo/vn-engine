@@ -21,7 +21,7 @@ if not exist "%PY%" (
 echo ============================
 echo  Buildando desktop...
 echo ============================
-"%PY%" "%SDK%\renpy.py" "%PROJETO%" distribute
+"%PY%" "%SDK%\renpy.py" launcher distribute "%PROJETO%" --dest "%DISTS%"
 if errorlevel 1 (
     echo ERRO: o build do desktop falhou.
     pause
