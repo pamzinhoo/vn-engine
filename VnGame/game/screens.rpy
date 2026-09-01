@@ -2407,10 +2407,6 @@ style main_menu_frame:
     variant "touch"
     background None
 
-style game_menu_outer_frame:
-    variant "touch"
-    background None
-
 style game_menu_navigation_frame:
     variant "touch"
     xsize 510
