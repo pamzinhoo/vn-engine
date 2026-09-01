@@ -24,3 +24,12 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# Backups manuais (screens.rpy.bak_before_x). O padrao *.bak acima nao
+# pega esses porque o sufixo vem depois da extensao.
+/game/**/*.bak_*
+
+# Gerados pelo launcher / build Android.
+/android.json
+/project.json
+*.keystore
