@@ -58,6 +58,16 @@ if not defined APK (
 )
 echo APK: !APK!
 
+REM O itch mostra o nome do arquivo enviado. O APK do Ren'Py carrega
+REM package e timestamp, entao copia para um nome fixo antes do push.
+set "APK_UPLOAD=%DISTS%\limerence-android.apk"
+copy /y "!APK!" "!APK_UPLOAD!" >nul
+if errorlevel 1 (
+    echo ERRO: nao consegui copiar o APK para !APK_UPLOAD!
+    pause
+    exit /b 1
+)
+
 echo ============================
 echo  Subindo Windows...
 echo ============================
@@ -76,7 +86,7 @@ echo ============================
 echo ============================
 echo  Subindo Android...
 echo ============================
-"%BUTLER%" push "!APK!" %ITCH_PROJETO%:android
+"%BUTLER%" push "!APK_UPLOAD!" %ITCH_PROJETO%:android
 
 echo ============================
 echo  Pronto! Tudo buildado e subido.
