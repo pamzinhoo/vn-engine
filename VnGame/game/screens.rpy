@@ -418,8 +418,8 @@ screen navigation():
             ## A ajuda não é necessária ou relevante para dispositivos móveis.
             textbutton _("Ajuda") action ShowMenu("help")
 
-        ## O botão Sair é proibido no iOS e desnecessário no Android e na Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=not main_menu)
 
 
@@ -841,8 +841,8 @@ screen about():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 890
@@ -935,8 +935,8 @@ screen save():
         text_style "load_nav_text"
         at button_hover_scale
 
-    ## Botão proibido no iOS e desnecessário no Android/Web.
-    if renpy.variant("pc"):
+    ## Botao Sair proibido apenas no iOS.
+    if not renpy.variant("ios"):
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890
@@ -1070,8 +1070,8 @@ screen load():
         text_style "load_nav_text"
         at button_hover_scale
 
-    ## Botão proibido no iOS e desnecessário no Android/Web.
-    if renpy.variant("pc"):
+    ## Botao Sair proibido apenas no iOS.
+    if not renpy.variant("ios"):
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890     # ← retângulo 7
@@ -1417,8 +1417,8 @@ screen preferences():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 890     # ← retângulo 7
@@ -1606,8 +1606,8 @@ screen history():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 995
@@ -1746,8 +1746,8 @@ screen help():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 890
@@ -2569,8 +2569,8 @@ screen perfil_catalogo():
                         ## A ajuda não é necessária ou relevante para dispositivos móveis.
                         textbutton _("Ajuda") action ShowMenu("help")
 
-                    ## O botão Sair é proibido no iOS e desnecessário no Android e na Web.
-                    if renpy.variant("pc"):
+                    ## Botao Sair proibido apenas no iOS.
+                    if not renpy.variant("ios"):
                         textbutton _("Sair") action Quit(confirm=not main_menu)
 
 
