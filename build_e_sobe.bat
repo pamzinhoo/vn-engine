@@ -21,7 +21,7 @@ if not exist "%PY%" (
 echo ============================
 echo  Buildando desktop...
 echo ============================
-"%PY%" "%SDK%\renpy.py" launcher distribute "%PROJETO%" --dest "%DISTS%"
+"%PY%" "%SDK%\renpy.py" "%SDK%\launcher" distribute "%PROJETO%" --dest "%DISTS%"
 if errorlevel 1 (
     echo ERRO: o build do desktop falhou.
     pause
@@ -39,7 +39,7 @@ echo  Buildando Android (APK)...
 echo ============================
 REM Apaga APK antigo para nao subir build velho caso este falhe.
 del /q "%DISTS%\*-release.apk" 2>nul
-"%PY%" "%SDK%\renpy.py" launcher android_build "%PROJETO%" --dest "%DISTS%"
+"%PY%" "%SDK%\renpy.py" "%SDK%\launcher" android_build "%PROJETO%" --dest "%DISTS%"
 if errorlevel 1 (
     echo ERRO: o build do Android falhou.
     pause
