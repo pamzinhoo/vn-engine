@@ -60,7 +60,7 @@ echo APK: !APK!
 
 REM O itch mostra o nome do arquivo enviado. O APK do Ren'Py carrega
 REM package e timestamp, entao copia para um nome fixo antes do push.
-set "APK_UPLOAD=%DISTS%\limerence-android.apk"
+set "APK_UPLOAD=%DISTS%\limerence-android"
 copy /y "!APK!" "!APK_UPLOAD!" >nul
 if errorlevel 1 (
     echo ERRO: nao consegui copiar o APK para !APK_UPLOAD!
