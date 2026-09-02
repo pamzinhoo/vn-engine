@@ -19,21 +19,75 @@ if not exist "%PY%" (
 )
 
 echo ============================
-echo  Buildando desktop...
+echo  O que voce quer buildar e subir?
 echo ============================
-"%PY%" "%SDK%\renpy.py" "%SDK%\launcher" distribute "%PROJETO%" --dest "%DISTS%"
+echo  1 - Windows
+echo  2 - Mac
+echo  3 - Linux
+echo  4 - Mobile (Android)
+echo  5 - Todos
+echo ============================
+set /p ESCOLHA="Digite o numero: "
+
+set DO_WIN=0
+set DO_MAC=0
+set DO_LINUX=0
+set DO_MOBILE=0
+
+if "%ESCOLHA%"=="1" set DO_WIN=1
+if "%ESCOLHA%"=="2" set DO_MAC=1
+if "%ESCOLHA%"=="3" set DO_LINUX=1
+if "%ESCOLHA%"=="4" set DO_MOBILE=1
+if "%ESCOLHA%"=="5" set DO_WIN=1
+if "%ESCOLHA%"=="5" set DO_MAC=1
+if "%ESCOLHA%"=="5" set DO_LINUX=1
+if "%ESCOLHA%"=="5" set DO_MOBILE=1
+
+if "%DO_WIN%%DO_MAC%%DO_LINUX%%DO_MOBILE%"=="0000" (
+    echo ERRO: opcao invalida "%ESCOLHA%".
+    pause
+    exit /b 1
+)
+
+REM ---- builds ----
+
+if not "%DO_WIN%"=="1" goto skip_build_win
+echo ============================
+echo  Buildando Windows...
+echo ============================
+"%PY%" "%SDK%\renpy.py" "%SDK%\launcher" distribute "%PROJETO%" --dest "%DISTS%" --package win
 if errorlevel 1 (
-    echo ERRO: o build do desktop falhou.
+    echo ERRO: o build do Windows falhou.
     pause
     exit /b 1
 )
+:skip_build_win
 
-if not exist "%DISTS%\VnGame-1.0-win.zip" (
-    echo ERRO: nao achei o zip do Windows em %DISTS%
+if not "%DO_MAC%"=="1" goto skip_build_mac
+echo ============================
+echo  Buildando Mac...
+echo ============================
+"%PY%" "%SDK%\renpy.py" "%SDK%\launcher" distribute "%PROJETO%" --dest "%DISTS%" --package mac
+if errorlevel 1 (
+    echo ERRO: o build do Mac falhou.
     pause
     exit /b 1
 )
+:skip_build_mac
 
+if not "%DO_LINUX%"=="1" goto skip_build_linux
+echo ============================
+echo  Buildando Linux...
+echo ============================
+"%PY%" "%SDK%\renpy.py" "%SDK%\launcher" distribute "%PROJETO%" --dest "%DISTS%" --package linux
+if errorlevel 1 (
+    echo ERRO: o build do Linux falhou.
+    pause
+    exit /b 1
+)
+:skip_build_linux
+
+if not "%DO_MOBILE%"=="1" goto skip_build_mobile
 echo ============================
 echo  Buildando Android (APK)...
 echo ============================
@@ -67,28 +121,44 @@ if errorlevel 1 (
     pause
     exit /b 1
 )
+:skip_build_mobile
 
+REM ---- uploads ----
+
+if not "%DO_WIN%"=="1" goto skip_push_win
+if not exist "%DISTS%\VnGame-1.0-win.zip" (
+    echo ERRO: nao achei o zip do Windows em %DISTS%
+    pause
+    exit /b 1
+)
 echo ============================
 echo  Subindo Windows...
 echo ============================
 "%BUTLER%" push "%DISTS%\VnGame-1.0-win.zip" %ITCH_PROJETO%:windows
+:skip_push_win
 
+if not "%DO_MAC%"=="1" goto skip_push_mac
 echo ============================
 echo  Subindo Mac...
 echo ============================
 "%BUTLER%" push "%DISTS%\VnGame-1.0-mac.zip" %ITCH_PROJETO%:mac
+:skip_push_mac
 
+if not "%DO_LINUX%"=="1" goto skip_push_linux
 echo ============================
 echo  Subindo Linux...
 echo ============================
 "%BUTLER%" push "%DISTS%\VnGame-1.0-linux.tar.bz2" %ITCH_PROJETO%:linux
+:skip_push_linux
 
+if not "%DO_MOBILE%"=="1" goto skip_push_mobile
 echo ============================
 echo  Subindo Android...
 echo ============================
 "%BUTLER%" push "!APK_UPLOAD!" %ITCH_PROJETO%:android
+:skip_push_mobile
 
 echo ============================
-echo  Pronto! Tudo buildado e subido.
+echo  Pronto! Build(s) selecionado(s) buildado(s) e subido(s).
 echo ============================
 pause

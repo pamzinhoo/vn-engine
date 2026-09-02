@@ -146,6 +146,11 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
+    ## Mesma arte do PC (lanterna, cantos arredondados) pra ambos, sem
+    ## variante propria: como e uma imagem simples (nao Frame), o Ren'Py so
+    ## clipa pela ysize da janela, sem distorcer. Na variante touch, a janela
+    ## e mais alta (gui.textbox_height = 360 em vez de 277), entao so revela
+    ## mais arte por cima -- nao estica nem corta o desenho.
     background Image("gui/details/textbox_ui.png", xalign=0.5, yalign=1.0)
 
 style namebox:
@@ -2386,10 +2391,6 @@ screen quick_menu():
                     xanchor 0.5
                     ypos 84
 
-
-style window:
-    variant "touch"
-    background "gui/phone/textbox.png"
 
 style radio_button:
     variant "touch"
