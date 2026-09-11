@@ -3,62 +3,62 @@
 # game/script.rpy:121
 translate spanish start_efac5fde:
 
-    # p "{cps=30}{color=#FFFF00}Mal consigo abrir os olhos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Apenas puedo abrir los ojos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mal consigo abrir os olhos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Apenas puedo abrir los ojos.{/color}{/cps}"
 
 # game/script.rpy:123
 translate spanish start_48ebf0c9:
 
-    # p "{cps=30}{color=#FFFF00}Minhas pálpebras pesam, e o cansaço parece grudado no meu corpo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento los párpados pesados ​​y el cansancio parece pegado a mi cuerpo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minhas pálpebras pesam, e o cansaço parece grudado no meu corpo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento los párpados pesados ​​y el cansancio parece pegado a mi cuerpo.{/color}{/cps}"
 
 # game/script.rpy:125
 translate spanish start_bf98da2d:
 
-    # p "{cps=30}{color=#FFFF00}Mas não é como se eu tivesse escolha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero no tengo otra opción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas não é como se eu tivesse escolha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero no tengo otra opción.{/color}{/cps}"
 
 # game/script.rpy:127
 translate spanish start_1d31824a:
 
-    # p "{cps=30}{color=#FFFF00}Minhas malas já estão prontas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya tengo las maletas hechas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minhas malas já estão prontas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya tengo las maletas hechas.{/color}{/cps}"
 
 # game/script.rpy:129
 translate spanish start_0f5a09f6:
 
-    # p "{cps=30}{color=#FFFF00}Eu só preciso me arrumar… e ir pro aeroporto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo necesito prepararme… e ir al aeropuerto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu só preciso me arrumar… e ir pro aeroporto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo necesito prepararme… e ir al aeropuerto.{/color}{/cps}"
 
 # game/script.rpy:136
 translate spanish start_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:138
 translate spanish start_e112387c:
 
-    # p "{cps=30}{color=#FFFF00}Essa sou eu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esta soy yo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Essa sou eu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esta soy yo.{/color}{/cps}"
 
 # game/script.rpy:140
 translate spanish start_907ee8f0:
 
-    # p "{cps=30}{color=#FFFF00}Descabelada. Exausta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Desaliñada. Agotada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Descabelada. Exausta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Desaliñada. Agotada.{/color}{/cps}"
 
 # game/script.rpy:142
 translate spanish start_0539eb48:
 
-    # p "{cps=30}{color=#FFFF00}Não que isso seja novidade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No es que esto sea nada nuevo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não que isso seja novidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No es que esto sea nada nuevo.{/color}{/cps}"
 
 # game/script.rpy:144
 translate spanish start_e11bc003:
 
-    # p "{cps=30}{color=#FFFF00}Cabelo cacheado não é exatamente… prático.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El pelo rizado no es precisamente… práctico.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Cabelo cacheado não é exatamente… prático.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El pelo rizado no es precisamente… práctico.{/color}{/cps}"
 
 # game/script.rpy:146
 translate spanish start_6d82a0c4:
@@ -69,422 +69,422 @@ translate spanish start_6d82a0c4:
 # game/script.rpy:148
 translate spanish start_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:152
 translate spanish start_d29a7ed6:
 
-    # p "{cps=30}{color=#FFFF00}Hoje é o dia da minha viagem de volta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hoy es el día de mi viaje de regreso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hoje é o dia da minha viagem de volta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hoy es el día de mi viaje de regreso.{/color}{/cps}"
 
 # game/script.rpy:154
 translate spanish start_2f0eb5d9:
 
-    # p "{cps=30}{color=#FFFF00}Atualmente, eu estou no Japão. Vim passar as férias aqui pois meu padrasto é japonês.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Actualmente estoy en Japón. Vine a pasar mis vacaciones aquí porque mi padrastro es japonés.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Atualmente, eu estou no Japão. Vim passar as férias aqui pois meu padrasto é japonês.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Actualmente estoy en Japón. Vine a pasar mis vacaciones aquí porque mi padrastro es japonés.{/color}{/cps}"
 
 # game/script.rpy:156
 translate spanish start_8bfe7e2a:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto daqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta estar aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto daqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta estar aquí.{/color}{/cps}"
 
 # game/script.rpy:158
 translate spanish start_260ffb4b:
 
-    # p "{cps=30}{color=#FFFF00}É um lugar… doce. Confortável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es un lugar… agradable. Cómodo. Bueno… no soy de aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É um lugar… doce. Confortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es un lugar… agradable. Cómodo. Bueno… no soy de aquí.{/color}{/cps}"
 
 # game/script.rpy:160
 translate spanish start_a8153723:
 
-    # p "{cps=30}{color=#FFFF00}Mas, bem… eu não sou daqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nací en Europa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas, bem… eu não sou daqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nací en Europa.{/color}{/cps}"
 
 # game/script.rpy:162
 translate spanish start_3497b06f:
 
-    # p "{cps=30}{color=#FFFF00}Eu nasci na Europa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Más concretamente en York, una ciudad de Inglaterra.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu nasci na Europa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Más concretamente en York, una ciudad de Inglaterra.{/color}{/cps}"
 
 # game/script.rpy:164
 translate spanish start_4754628f:
 
-    # p "{cps=30}{color=#FFFF00}Mais especificamente em York , uma cidade da Inglaterra.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahí es donde vuelvo ahora.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mais especificamente em York , uma cidade da Inglaterra.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahí es donde vuelvo ahora.{/color}{/cps}"
 
 # game/script.rpy:166
 translate spanish start_2f00fe69:
 
-    # p "{cps=30}{color=#FFFF00}É pra lá que eu estou voltando agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Veintidós horas de viaje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É pra lá que eu estou voltando agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Veintidós horas de viaje.{/color}{/cps}"
 
 # game/script.rpy:168
 translate spanish start_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:169
 translate spanish start_b4d4bd55:
 
-    # p "{cps=30}{color=#FFFF00}Vinte e duas horas de viagem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y cuando llegue, todavía tendré que coger un autobús.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vinte e duas horas de viagem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y cuando llegue, todavía tendré que coger un autobús.{/color}{/cps}"
 
 # game/script.rpy:170
 translate spanish start_b8b7bd17:
 
-    # p "{cps=30}{color=#FFFF00}E, quando eu chegar, ainda vou ter que pegar um ônibus.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y cuando llegue, todavía tendré que tomar un autobús.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E, quando eu chegar, ainda vou ter que pegar um ônibus.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y cuando llegue, todavía tendré que tomar un autobús.{/color}{/cps}"
 
 # game/script.rpy:171
 translate spanish start_a4561606:
 
-    # p "{cps=30}{color=#FFFF00}..!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}..!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:173
 translate spanish start_c6c43a6d:
 
-    # p "{cps=30}{color=#FFFF00}Eu sou meio desajeitada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy un poco torpe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou meio desajeitada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy un poco torpe.{/color}{/cps}"
 
 # game/script.rpy:174
 translate spanish start_07337317:
 
-    # p "{cps=30}{color=#FFFF00}Nem expliquei o mais importante ainda.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía no he explicado lo más importante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nem expliquei o mais importante ainda.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía no he explicado lo más importante.{/color}{/cps}"
 
 # game/script.rpy:176
 translate spanish start_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:177
 translate spanish start_d6ac6f87:
 
-    # p "{cps=30}{color=#FFFF00}Hoje é meu primeiro dia no ensino médio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hoy es mi primer día de instituto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hoje é meu primeiro dia no ensino médio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hoy es mi primer día de instituto.{/color}{/cps}"
 
 # game/script.rpy:178
 translate spanish start_8ebd2ac4:
 
-    # p "{cps=30}{color=#FFFF00}Nova escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nuevo instituto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nova escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nuevo instituto.{/color}{/cps}"
 
 # game/script.rpy:179
 translate spanish start_4149a32d:
 
-    # p "{cps=30}{color=#FFFF00}Nova rotina.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nueva rutina.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nova rotina.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nueva rutina.{/color}{/cps}"
 
 # game/script.rpy:180
 translate spanish start_24a8800c:
 
-    # p "{cps=30}{color=#FFFF00}Novo tudo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo nuevo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Novo tudo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo nuevo.{/color}{/cps}"
 
 # game/script.rpy:182
 translate spanish start_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:183
 translate spanish start_134606d3:
 
-    # p "{cps=30}{color=#FFFF00}O nome é Instituto Real de York .{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se llama Instituto Real de York.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O nome é Instituto Real de York .{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se llama Instituto Real de York.{/color}{/cps}"
 
 # game/script.rpy:184
 translate spanish start_a1c6d933:
 
-    # p "{cps=30}{color=#FFFF00}Sim… eu sei como isso soa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí… ya sé cómo suena.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sim… eu sei como isso soa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí… ya sé cómo suena.{/color}{/cps}"
 
 # game/script.rpy:185
 translate spanish start_3fb1ba36:
 
-    # p "{cps=30}{color=#FFFF00}Eu sou rica.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy rica.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou rica.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy rica.{/color}{/cps}"
 
 # game/script.rpy:186
 translate spanish start_8a3a99ac:
 
-    # p "{cps=30}{color=#FFFF00}Riquinha mimada, se você preferir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una chica rica y mimada, si lo prefieres.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Riquinha mimada, se você preferir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una chica rica y mimada, si lo prefieres.{/color}{/cps}"
 
 # game/script.rpy:188
 translate spanish start_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:189
 translate spanish start_2f78481a:
 
-    # p "{cps=30}{color=#FFFF00}Mas não se engane.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero no te dejes engañar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas não se engane.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero no te dejes engañar.{/color}{/cps}"
 
 # game/script.rpy:190
 translate spanish start_a57f3c61:
 
-    # p "{cps=30}{color=#FFFF00}Por mais que eu viva cercada de luxo…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aunque vivo rodeada de lujos…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por mais que eu viva cercada de luxo…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aunque vivo rodeada de lujos…{/color}{/cps}"
 
 # game/script.rpy:191
 translate spanish start_e1ea3bfe:
 
-    # p "{cps=30}{color=#FFFF00}com a vida praticamente decidida…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}con mi vida prácticamente resuelta…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}com a vida praticamente decidida…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}con mi vida prácticamente resuelta…{/color}{/cps}"
 
 # game/script.rpy:192
 translate spanish start_8e1e94d6:
 
-    # p "{cps=30}{color=#FFFF00}isso nunca foi o que mais importou pra mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}eso nunca ha sido lo que más me ha importado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}isso nunca foi o que mais importou pra mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}eso nunca ha sido lo que más me ha importado.{/color}{/cps}"
 
 # game/script.rpy:194
 translate spanish start_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:195
 translate spanish start_86f955c4:
 
-    # p "{cps=30}{color=#FFFF00}A minha maior paixão… é a história da humanidade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi mayor pasión… es la historia de la humanidad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A minha maior paixão… é a história da humanidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi mayor pasión… es la historia de la humanidad.{/color}{/cps}"
 
 # game/script.rpy:196
 translate spanish start_2856837b:
 
-    # p "{cps=30}{color=#FFFF00}Histórias de pessoas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Historias de la gente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Histórias de pessoas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Historias de la gente.{/color}{/cps}"
 
 # game/script.rpy:197
 translate spanish start_ba4af028:
 
-    # p "{cps=30}{color=#FFFF00}Sempre que eu escuto a história de alguém…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cada vez que escucho la historia de alguien…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sempre que eu escuto a história de alguém…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cada vez que escucho la historia de alguien…{/color}{/cps}"
 
 # game/script.rpy:198
 translate spanish start_d9fbe644:
 
-    # p "{cps=30}{color=#FFFF00}meu coração pesa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}me duele el corazón.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}meu coração pesa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}me duele el corazón.{/color}{/cps}"
 
 # game/script.rpy:199
 translate spanish start_b216e32e:
 
-    # p "{cps=30}{color=#FFFF00}Não importa quem seja.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No importa quién sea.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não importa quem seja.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No importa quién sea.{/color}{/cps}"
 
 # game/script.rpy:201
 translate spanish start_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:202
 translate spanish start_c711d5b8:
 
-    # p "{cps=30}{color=#FFFF00}Eu acho que todo mundo merece ser visto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que todos merecen ser vistos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu acho que todo mundo merece ser visto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que todos merecen ser vistos.{/color}{/cps}"
 
 # game/script.rpy:203
 translate spanish start_79d17072:
 
-    # p "{cps=30}{color=#FFFF00}Ser lembrado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ser recordados.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ser lembrado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ser recordados.{/color}{/cps}"
 
 # game/script.rpy:205
 translate spanish start_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:206
 translate spanish start_fd843716:
 
-    # p "{cps=30}{color=#FFFF00}Mas o mundo não funciona assim e nunca funcionou{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero el mundo no funciona así, ni nunca lo ha hecho.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas o mundo não funciona assim e nunca funcionou{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero el mundo no funciona así, ni nunca lo ha hecho.{/color}{/cps}"
 
 # game/script.rpy:207
 translate spanish start_3d79ba3d:
 
-    # p "{cps=30}{color=#FFFF00}Pelo menos... não para pessoas iguais a mim{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Al menos… no para gente como yo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pelo menos... não para pessoas iguais a mim{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Al menos… no para gente como yo.{/color}{/cps}"
 
 # game/script.rpy:208
 translate spanish start_c26d266a:
 
-    # p "{cps=30}{color=#FFFF00}(som do ônibus freando){/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}(Sonido de autobús frenando){/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}(som do ônibus freando){/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}(Sonido de autobús frenando){/color}{/cps}"
 
 # game/script.rpy:209
 translate spanish start_14a0fecb:
 
-    # p "{cps=30}{color=#FFFF00}…finalmente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…por fin.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}…finalmente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…por fin.{/color}{/cps}"
 
 # game/script.rpy:210
 translate spanish start_832c7234:
 
-    # p "{cps=30}{color=#FFFF00}Que viagem exaustiva…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué viaje tan agotador…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que viagem exaustiva…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué viaje tan agotador…{/color}{/cps}"
 
 # game/script.rpy:211
 translate spanish start_36bac320:
 
-    # p "{cps=30}{color=#FFFF00}E olha que eu dormi quase o tempo todo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y dormí casi todo el tiempo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E olha que eu dormi quase o tempo todo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y dormí casi todo el tiempo.{/color}{/cps}"
 
 # game/script.rpy:212
 translate spanish start_03bc6f45:
 
-    # p "{cps=30}{color=#FFFF00}Minhas costas ainda doem por causa daquela cadeira.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía me duele la espalda por esa silla.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minhas costas ainda doem por causa daquela cadeira.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía me duele la espalda por esa silla.{/color}{/cps}"
 
 # game/script.rpy:213
 translate spanish start_075dfe73:
 
-    # p "{cps=30}{color=#FFFF00}Mas tudo bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas tudo bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero está bien.{/color}{/cps}"
 
 # game/script.rpy:214
 translate spanish start_2ceff3b1:
 
-    # p "{cps=30}{color=#FFFF00}Valeu a pena.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Valió la pena.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Valeu a pena.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Valió la pena.{/color}{/cps}"
 
 # game/script.rpy:215
 translate spanish start_4140b060:
 
-    # p "{cps=30}{color=#FFFF00}Finalmente estou aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por fin estoy aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Finalmente estou aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por fin estoy aquí.{/color}{/cps}"
 
 # game/script.rpy:216
 translate spanish start_5851a0d2:
 
-    # p "{cps=30}{color=#FFFF00}O Instituto Real de York {/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El Instituto Real de York {/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O Instituto Real de York {/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El Instituto Real de York {/color}{/cps}"
 
 # game/script.rpy:217
 translate spanish start_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:218
 translate spanish start_0aa8dd3e:
 
-    # p "{cps=30}{color=#FFFF00}Então é isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así que eso es todo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então é isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así que eso es todo.{/color}{/cps}"
 
 # game/script.rpy:219
 translate spanish start_32f0845c:
 
-    # p "{cps=30}{color=#FFFF00}A partir daqui…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A partir de aquí…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A partir daqui…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A partir de aquí…{/color}{/cps}"
 
 # game/script.rpy:220
 translate spanish start_c68f0d86:
 
-    # p "{cps=30}{color=#FFFF00}as coisas começam a mudar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}las cosas empiezan a cambiar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}as coisas começam a mudar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}las cosas empiezan a cambiar.{/color}{/cps}"
 
 # game/script.rpy:221
 translate spanish start_3d0d423a:
 
-    # p "{cps=30}{color=#FFFF00}Eu entro na escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entro en la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu entro na escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entro en la escuela.{/color}{/cps}"
 
 # game/script.rpy:223
 translate spanish start_e8eb7813:
 
-    # p "{cps=30}{color=#FFFF00}Os portões já estão abertos e alguns alunos começam a chegar aos poucos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las puertas ya están abiertas y algunos estudiantes empiezan a llegar poco a poco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os portões já estão abertos e alguns alunos começam a chegar aos poucos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las puertas ya están abiertas y algunos estudiantes empiezan a llegar poco a poco.{/color}{/cps}"
 
 # game/script.rpy:224
 translate spanish start_854bee9d:
 
-    # p "{cps=30}{color=#FFFF00}Não são muitos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No muchos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não são muitos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No muchos.{/color}{/cps}"
 
 # game/script.rpy:225
 translate spanish start_07892c30:
 
-    # p "{cps=30}{color=#FFFF00}Afinal, ainda é bem cedo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de todo, aún es bastante temprano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Afinal, ainda é bem cedo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de todo, aún es bastante temprano.{/color}{/cps}"
 
 # game/script.rpy:226
 translate spanish start_e5f9e704_10:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:227
 translate spanish start_6352793d:
 
-    # p "{cps=30}{color=#FFFF00}Hoje não teremos aula.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hoy no tendremos clase. Al menos no de la forma tradicional.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hoje não teremos aula.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hoy no tendremos clase. Al menos no de la forma tradicional.{/color}{/cps}"
 
 # game/script.rpy:228
 translate spanish start_8054b0e3:
 
-    # p "{cps=30}{color=#FFFF00}Pelo menos não da forma tradicional.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La escuela nos dio una lista con todo lo que debemos hacer antes de que empiece el semestre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pelo menos não da forma tradicional.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La escuela nos dio una lista con todo lo que debemos hacer antes de que empiece el semestre.{/color}{/cps}"
 
 # game/script.rpy:229
 translate spanish start_c42de2eb:
 
-    # p "{cps=30}{color=#FFFF00}A escola nos entregou uma lista com tudo o que precisamos resolver antes do início do semestre.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}(imagen de la lista){/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A escola nos entregou uma lista com tudo o que precisamos resolver antes do início do semestre.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}(imagen de la lista){/color}{/cps}"
 
 # game/script.rpy:230
 translate spanish start_e5f9e704_11:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:231
 translate spanish start_906123ed:
 
-    # p "{cps=30}{color=#FFFF00}Caramba.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:232
 translate spanish start_4191b987:
 
-    # p "{cps=30}{color=#FFFF00}Isso é muita coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Es muchísimo!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso é muita coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Es muchísimo!{/color}{/cps}"
 
 # game/script.rpy:233
 translate spanish start_d6dff6c9:
 
-    # p "{cps=30}{color=#FFFF00}Ainda bem que cheguei cedo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Menos mal que llegué temprano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ainda bem que cheguei cedo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Menos mal que llegué temprano.{/color}{/cps}"
 
 # game/script.rpy:234
 translate spanish start_36a3afa2:
 
-    # p "{cps=30}{color=#FFFF00}Se eu me organizar direitinho, talvez consiga terminar tudo antes do movimento aumentar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Si me organizo bien, tal vez pueda terminar todo antes de que haya más trabajo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Se eu me organizar direitinho, talvez consiga terminar tudo antes do movimento aumentar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Si me organizo bien, tal vez pueda terminar todo antes de que haya más trabajo.{/color}{/cps}"
 
 # game/script.rpy:235
 translate spanish start_50b9b033:
 
-    # p "{cps=30}{color=#FFFF00}Agora...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora…{/color}{/cps}"
 
 # game/script.rpy:236
 translate spanish start_f1ad615e:
 
-    # p "{cps=30}{color=#FFFF00}Por onde eu começo?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Por dónde empiezo?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por onde eu começo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Por dónde empiezo?{/color}{/cps}"
 
 # game/script.rpy:253
 translate spanish hub_exploracao_0a3ac1da:
@@ -543,116 +543,116 @@ translate spanish rota_aula_e3817ee8:
 # game/script.rpy:299
 translate spanish exploracao_biblioteca_08cf1c69:
 
-    # p "{cps=30}{color=#FFFF00}Assim que entro na biblioteca, fico parada por alguns segundos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}RUTA: Ir a la biblioteca{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Assim que entro na biblioteca, fico parada por alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}RUTA: Ir a la biblioteca{/color}{/cps}"
 
 # game/script.rpy:300
 translate spanish exploracao_biblioteca_19e481f4:
 
-    # p "{cps=30}{color=#FFFF00}Ela é enorme.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tan pronto como entro a la biblioteca, me quedo paralizada por unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é enorme.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tan pronto como entro a la biblioteca, me quedo paralizada por unos segundos.{/color}{/cps}"
 
 # game/script.rpy:301
 translate spanish exploracao_biblioteca_9363e841:
 
-    # p "{cps=30}{color=#FFFF00}Enorme não.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es enorme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enorme não.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es enorme.{/color}{/cps}"
 
 # game/script.rpy:302
 translate spanish exploracao_biblioteca_2b021d53:
 
-    # p "{cps=30}{color=#FFFF00}Gigantesca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Gigantesca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Gigantesca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Gigantesca.{/color}{/cps}"
 
 # game/script.rpy:303
 translate spanish exploracao_biblioteca_d92f1ca0:
 
-    # p "{cps=30}{color=#FFFF00}Meus olhos percorrem as estantes e parecem não encontrar um fim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mis ojos recorren los estantes y parecen no encontrar fin.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meus olhos percorrem as estantes e parecem não encontrar um fim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mis ojos recorren los estantes y parecen no encontrar fin.{/color}{/cps}"
 
 # game/script.rpy:304
 translate spanish exploracao_biblioteca_bf9b24f6:
 
-    # p "{cps=30}{color=#FFFF00}É linda.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es hermosa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É linda.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es hermosa.{/color}{/cps}"
 
 # game/script.rpy:305
 translate spanish exploracao_biblioteca_51ef7edc:
 
-    # p "{cps=30}{color=#FFFF00}Simplesmente linda.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Simplemente hermosa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Simplesmente linda.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Simplemente hermosa.{/color}{/cps}"
 
 # game/script.rpy:306
 translate spanish exploracao_biblioteca_7074fe88:
 
-    # p "{cps=30}{color=#FFFF00}Eu definitivamente vou passar muitas horas aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Definitivamente voy a pasar muchas horas aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu definitivamente vou passar muitas horas aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Definitivamente voy a pasar muchas horas aquí.{/color}{/cps}"
 
 # game/script.rpy:307
 translate spanish exploracao_biblioteca_e9b72c30:
 
-    # p "{cps=30}{color=#FFFF00}Bibliotecas sempre foram meu lugar favorito em qualquer escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las bibliotecas siempre han sido mi lugar favorito en cualquier escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bibliotecas sempre foram meu lugar favorito em qualquer escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las bibliotecas siempre han sido mi lugar favorito en cualquier escuela.{/color}{/cps}"
 
 # game/script.rpy:308
 translate spanish exploracao_biblioteca_c783bd27:
 
-    # p "{cps=30}{color=#FFFF00}Olha o tamanho dessas estantes...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mira el tamaño de estos estantes...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olha o tamanho dessas estantes...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mira el tamaño de estos estantes...{/color}{/cps}"
 
 # game/script.rpy:309
 translate spanish exploracao_biblioteca_46296f7f:
 
-    # p "{cps=30}{color=#FFFF00}Três andares inteiros de livros.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tres pisos enteros de libros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Três andares inteiros de livros.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tres pisos enteros de libros.{/color}{/cps}"
 
 # game/script.rpy:310
 translate spanish exploracao_biblioteca_5e27fb25:
 
-    # p "{cps=30}{color=#FFFF00}Três andares de pura magia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tres pisos de pura magia.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Três andares de pura magia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tres pisos de pura magia.{/color}{/cps}"
 
 # game/script.rpy:311
 translate spanish exploracao_biblioteca_cf3c9b39:
 
-    # p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
 
 # game/script.rpy:312
 translate spanish exploracao_biblioteca_6a142351:
 
-    # p "{cps=30}{color=#FFFF00}Estou me distraindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me estoy distrayendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou me distraindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me estoy distrayendo.{/color}{/cps}"
 
 # game/script.rpy:313
 translate spanish exploracao_biblioteca_94bf6f5b:
 
-    # p "{cps=30}{color=#FFFF00}O cronograma.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El horario.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O cronograma.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El horario.{/color}{/cps}"
 
 # game/script.rpy:314
 translate spanish exploracao_biblioteca_7074dc80:
 
-    # p "{cps=30}{color=#FFFF00}Foi pra isso que eu vim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A eso vine.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Foi pra isso que eu vim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A eso vine.{/color}{/cps}"
 
 # game/script.rpy:315
 translate spanish exploracao_biblioteca_0e8750db:
 
-    # p "{cps=30}{color=#FFFF00}Me aproximo do balcão principal, onde uma bibliotecária me recebe com um sorriso gentil.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco al mostrador principal, donde una bibliotecaria me recibe con una sonrisa amable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me aproximo do balcão principal, onde uma bibliotecária me recebe com um sorriso gentil.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco al mostrador principal, donde una bibliotecaria me recibe con una sonrisa amable.{/color}{/cps}"
 
 # game/script.rpy:317
 translate spanish exploracao_biblioteca_3678db4c:
 
-    # p "{cps=30}{color=#FFFF00}Olá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hola.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hola.{/color}{/cps}"
 
 # game/script.rpy:318
 translate spanish exploracao_biblioteca_89e6c218:
 
-    # p "{cps=30}{color=#FFFF00}Eu vim confirmar meu cronograma de aulas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vine a confirmar mi horario de clases.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu vim confirmar meu cronograma de aulas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vine a confirmar mi horario de clases.{/color}{/cps}"
 
 # game/script.rpy:319
 translate spanish exploracao_biblioteca_fd715cb3:
@@ -753,38 +753,38 @@ translate spanish exploracao_biblioteca_b8f3d90f:
 # game/script.rpy:339
 translate spanish escolha_periodo_a089aa72:
 
-    # p "{cps=30}{color=#FFFF00}Seria interessante mas muito exaustivo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sería interesante, pero muy agotador...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Seria interessante mas muito exaustivo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sería interesante, pero muy agotador...{/color}{/cps}"
 
 # game/script.rpy:342
 translate spanish escolha_periodo_c935dcf8:
 
-    # p "{cps=30}{color=#FFFF00}Eu não me dou muito bem com a tecnologia...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No me llevo muy bien con la tecnología...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não me dou muito bem com a tecnologia...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No me llevo muy bien con la tecnología...{/color}{/cps}"
 
 # game/script.rpy:345
 translate spanish escolha_periodo_1c455d39:
 
-    # p "{cps=30}{color=#FFFF00}Acho que os clubes são interessantes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que los clubes son interesantes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que os clubes são interessantes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que los clubes son interesantes.{/color}{/cps}"
 
 # game/script.rpy:346
 translate spanish escolha_periodo_6b154b24:
 
-    # p "{cps=30}{color=#FFFF00}E as atividades físicas devem ajudar a manter minha saúde em dia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y las actividades físicas deben ayudar a mantener mi salud al día.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E as atividades físicas devem ajudar a manter minha saúde em dia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y las actividades físicas deben ayudar a mantener mi salud al día.{/color}{/cps}"
 
 # game/script.rpy:347
 translate spanish escolha_periodo_9c53048f:
 
-    # p "{cps=30}{color=#FFFF00}Parece a escolha perfeita para mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece la opción perfecta para mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece a escolha perfeita para mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece la opción perfecta para mí.{/color}{/cps}"
 
 # game/script.rpy:348
 translate spanish escolha_periodo_73ef252b:
 
-    # p "{cps=30}{color=#FFFF00}Eu gostaria de participar dos clubes e atividades físicas!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Me gustaría participar en los clubes y actividades físicas!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gostaria de participar dos clubes e atividades físicas!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Me gustaría participar en los clubes y actividades físicas!{/color}{/cps}"
 
 # game/script.rpy:349
 translate spanish escolha_periodo_ff25dc5c:
@@ -819,26 +819,26 @@ translate spanish escolha_periodo_ca43b87b:
 # game/script.rpy:354
 translate spanish escolha_periodo_7d260909:
 
-    # p "{cps=30}{color=#FFFF00}CLUBE DE JORNALISMO?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡¿CLUB DE PERIODISMO?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}CLUBE DE JORNALISMO?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡¿CLUB DE PERIODISMO?!{/color}{/cps}"
 
 # game/script.rpy:355
 translate spanish escolha_periodo_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:356
 translate spanish escolha_periodo_6e5df3f7:
 
-    # p "{cps=30}{color=#FFFF00}Eu gritei.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Grité.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gritei.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Grité.{/color}{/cps}"
 
 # game/script.rpy:357
 translate spanish escolha_periodo_b83965fb:
 
-    # p "{cps=30}{color=#FFFF00}Sem querer.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sin querer.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sem querer.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sin querer.{/color}{/cps}"
 
 # game/script.rpy:358
 translate spanish escolha_periodo_ef29ad50:
@@ -855,26 +855,26 @@ translate spanish escolha_periodo_81d9a8ce:
 # game/script.rpy:360
 translate spanish escolha_periodo_d86a1144:
 
-    # p "{cps=30}{color=#FFFF00}H-Haha...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}J-Jaja...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}H-Haha...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}J-Jaja...{/color}{/cps}"
 
 # game/script.rpy:361
 translate spanish escolha_periodo_d9f06e9f:
 
-    # p "{cps=30}{color=#FFFF00}Me desculpe.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo siento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me desculpe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo siento.{/color}{/cps}"
 
 # game/script.rpy:362
 translate spanish escolha_periodo_0093128d:
 
-    # p "{cps=30}{color=#FFFF00}Eu sinto meu rosto esquentar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento cómo me arde la cara.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sinto meu rosto esquentar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento cómo me arde la cara.{/color}{/cps}"
 
 # game/script.rpy:363
 translate spanish escolha_periodo_0896d6b8:
 
-    # p "{cps=30}{color=#FFFF00}Que vergonha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué vergüenza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que vergonha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué vergüenza.{/color}{/cps}"
 
 # game/script.rpy:364
 translate spanish escolha_periodo_a8177363:
@@ -915,122 +915,122 @@ translate spanish escolha_periodo_e99b2971:
 # game/script.rpy:370
 translate spanish escolha_periodo_6a67610c:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigada!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Muchas gracias!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigada!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Muchas gracias!{/color}{/cps}"
 
 # game/script.rpy:371
 translate spanish escolha_periodo_9a50b407:
 
-    # p "{cps=30}{color=#FFFF00}Tenha um ótimo dia!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Que tenga un buen día!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tenha um ótimo dia!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Que tenga un buen día!{/color}{/cps}"
 
 # game/script.rpy:373
 translate spanish escolha_periodo_912f6277:
 
-    # p "{cps=30}{color=#FFFF00}Certo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Certo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bien.{/color}{/cps}"
 
 # game/script.rpy:374
 translate spanish escolha_periodo_4015e74e:
 
-    # p "{cps=30}{color=#FFFF00}Uma tarefa concluída.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una tarea lista.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma tarefa concluída.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una tarea lista.{/color}{/cps}"
 
 # game/script.rpy:375
 translate spanish escolha_periodo_50b9b033:
 
-    # p "{cps=30}{color=#FFFF00}Agora...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora…{/color}{/cps}"
 
 # game/script.rpy:376
 translate spanish escolha_periodo_e3aa64fc:
 
-    # p "{cps=30}{color=#FFFF00}O que devo fazer?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué debería hacer?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que devo fazer?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué debería hacer?{/color}{/cps}"
 
 # game/script.rpy:383
 translate spanish exploracao_armarios_61fc2714:
 
-    # p "{cps=30}{color=#FFFF00}Agora preciso escolher meus armários.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora tengo que elegir mis casilleros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora preciso escolher meus armários.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora tengo que elegir mis casilleros.{/color}{/cps}"
 
 # game/script.rpy:384
 translate spanish exploracao_armarios_e83cb8bd:
 
-    # p "{cps=30}{color=#FFFF00}Tanto o do corredor quanto o do banheiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tanto el del pasillo como el del baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tanto o do corredor quanto o do banheiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tanto el del pasillo como el del baño.{/color}{/cps}"
 
 # game/script.rpy:385
 translate spanish exploracao_armarios_7e9ccfb1:
 
-    # p "{cps=30}{color=#FFFF00}Acho melhor resolver isso antes da maioria dos alunos chegar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Será mejor resolver esto antes de que llegue la mayoría de los alumnos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho melhor resolver isso antes da maioria dos alunos chegar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Será mejor resolver esto antes de que llegue la mayoría de los alumnos.{/color}{/cps}"
 
 # game/script.rpy:386
 translate spanish exploracao_armarios_8319dfb4:
 
-    # p "{cps=30}{color=#FFFF00}Assim posso escolher um lugar bom sem precisar disputar espaço.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así puedo elegir un buen lugar sin tener que pelear por espacio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Assim posso escolher um lugar bom sem precisar disputar espaço.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así puedo elegir un buen lugar sin tener que pelear por espacio.{/color}{/cps}"
 
 # game/script.rpy:387
 translate spanish exploracao_armarios_a09f55a5:
 
-    # p "{cps=30}{color=#FFFF00}Começo a andar pelos corredores observando as fileiras de armários.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a caminar por los pasillos observando las filas de casilleros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a andar pelos corredores observando as fileiras de armários.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a caminar por los pasillos observando las filas de casilleros.{/color}{/cps}"
 
 # game/script.rpy:388
 translate spanish exploracao_armarios_8fe90904:
 
-    # p "{cps=30}{color=#FFFF00}Hum...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hum...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm...{/color}{/cps}"
 
 # game/script.rpy:389
 translate spanish exploracao_armarios_6d154124:
 
-    # p "{cps=30}{color=#FFFF00}Seria conveniente escolher um que fique mais ou menos na mesma distância de todas as salas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sería conveniente elegir uno que quede más o menos a la misma distancia de todas las aulas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Seria conveniente escolher um que fique mais ou menos na mesma distância de todas as salas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sería conveniente elegir uno que quede más o menos a la misma distancia de todas las aulas.{/color}{/cps}"
 
 # game/script.rpy:390
 translate spanish exploracao_armarios_a789698f:
 
-    # p "{cps=30}{color=#FFFF00}Mas um armário próximo ao clube também evitaria atrasos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero un casillero cerca del club también evitaría retrasos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas um armário próximo ao clube também evitaria atrasos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero un casillero cerca del club también evitaría retrasos.{/color}{/cps}"
 
 # game/script.rpy:391
 translate spanish exploracao_armarios_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:392
 translate spanish exploracao_armarios_62065d92:
 
-    # p "{cps=30}{color=#FFFF00}Ugh.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
 
 # game/script.rpy:393
 translate spanish exploracao_armarios_7d313e57:
 
-    # p "{cps=30}{color=#FFFF00}São opções demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Son demasiadas opciones.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}São opções demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Son demasiadas opciones.{/color}{/cps}"
 
 # game/script.rpy:394
 translate spanish exploracao_armarios_d3dc5c0c:
 
-    # p "{cps=30}{color=#FFFF00}Enquanto penso nisso, continuo caminhando distraidamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mientras pienso en eso, sigo caminando distraída.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enquanto penso nisso, continuo caminhando distraidamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mientras pienso en eso, sigo caminando distraída.{/color}{/cps}"
 
 # game/script.rpy:395
 translate spanish exploracao_armarios_2219413c:
 
-    # p "{cps=30}{color=#FFFF00}THUMP{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡PUM!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}THUMP{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡PUM!{/color}{/cps}"
 
 # game/script.rpy:396
 translate spanish exploracao_armarios_0834f1c4:
 
-    # p "{cps=30}{color=#FFFF00}Ai!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ay!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ai!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ay!{/color}{/cps}"
 
 # game/script.rpy:397
 translate spanish exploracao_armarios_315f251e:
@@ -1047,50 +1047,50 @@ translate spanish exploracao_armarios_9357e6b1:
 # game/script.rpy:399
 translate spanish exploracao_armarios_1521f010:
 
-    # p "{cps=30}{color=#FFFF00}Acabei esbarrando em alguém.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Terminé chocando con alguien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acabei esbarrando em alguém.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Terminé chocando con alguien.{/color}{/cps}"
 
 # game/script.rpy:400
 translate spanish exploracao_armarios_0ed0a2f1:
 
-    # p "{cps=30}{color=#FFFF00}Me perdoe, senhor!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Perdóneme, señor!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me perdoe, senhor!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Perdóneme, señor!{/color}{/cps}"
 
 # game/script.rpy:401
 translate spanish exploracao_armarios_7e198f22:
 
-    # p "{cps=30}{color=#FFFF00}Eu estava distraída.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estaba distraída.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu estava distraída.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estaba distraída.{/color}{/cps}"
 
 # game/script.rpy:402
 translate spanish exploracao_armarios_5493bb3a:
 
-    # p "{cps=30}{color=#FFFF00}Ele estende a mão e me ajuda a levantar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me tiende la mano y me ayuda a levantarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele estende a mão e me ajuda a levantar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me tiende la mano y me ayuda a levantarme.{/color}{/cps}"
 
 # game/script.rpy:403
 translate spanish exploracao_armarios_29dcac60:
 
-    # p "{cps=30}{color=#FFFF00}Seu uniforme chama minha atenção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Su uniforme me llama la atención.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Seu uniforme chama minha atenção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Su uniforme me llama la atención.{/color}{/cps}"
 
 # game/script.rpy:404
 translate spanish exploracao_armarios_dde900f6:
 
-    # p "{cps=30}{color=#FFFF00}É diferente dos outros funcionários da escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es diferente al de los demás empleados de la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É diferente dos outros funcionários da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es diferente al de los demás empleados de la escuela.{/color}{/cps}"
 
 # game/script.rpy:405
 translate spanish exploracao_armarios_6ac23e1e:
 
-    # p "{cps=30}{color=#FFFF00}Tem algo quase militar nele.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tiene un aire casi militar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tem algo quase militar nele.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tiene un aire casi militar.{/color}{/cps}"
 
 # game/script.rpy:406
 translate spanish exploracao_armarios_8d838f1e:
 
-    # p "{cps=30}{color=#FFFF00}Será que ele é um dos seguranças?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Será uno de los guardias de seguridad?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Será que ele é um dos seguranças?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Será uno de los guardias de seguridad?{/color}{/cps}"
 
 # game/script.rpy:407
 translate spanish exploracao_armarios_f4a801ea:
@@ -1113,14 +1113,14 @@ translate spanish exploracao_armarios_f87dd799:
 # game/script.rpy:410
 translate spanish exploracao_armarios_d9f06e9f:
 
-    # p "{cps=30}{color=#FFFF00}Me desculpe.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo siento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me desculpe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo siento.{/color}{/cps}"
 
 # game/script.rpy:411
 translate spanish exploracao_armarios_0ea25869:
 
-    # p "{cps=30}{color=#FFFF00}Não vai acontecer de novo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No volverá a pasar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não vai acontecer de novo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No volverá a pasar.{/color}{/cps}"
 
 # game/script.rpy:412
 translate spanish exploracao_armarios_aaf9ac36:
@@ -1143,8 +1143,8 @@ translate spanish exploracao_armarios_3395a5a6:
 # game/script.rpy:415
 translate spanish exploracao_armarios_2efecd1c:
 
-    # p "{cps=30}{color=#FFFF00}Um homem aparece correndo no corredor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un hombre aparece corriendo por el pasillo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um homem aparece correndo no corredor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un hombre aparece corriendo por el pasillo.{/color}{/cps}"
 
 # game/script.rpy:416
 translate spanish exploracao_armarios_592d8f65:
@@ -1173,86 +1173,86 @@ translate spanish exploracao_armarios_374ad721:
 # game/script.rpy:420
 translate spanish exploracao_armarios_ef92a669:
 
-    # p "{cps=30}{color=#FFFF00}Ele se afasta junto do outro funcionário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se aleja junto al otro empleado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele se afasta junto do outro funcionário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se aleja junto al otro empleado.{/color}{/cps}"
 
 # game/script.rpy:421
 translate spanish exploracao_armarios_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:422
 translate spanish exploracao_armarios_19921b5a:
 
-    # p "{cps=30}{color=#FFFF00}Estranho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué raro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué raro.{/color}{/cps}"
 
 # game/script.rpy:423
 translate spanish exploracao_armarios_62af4a30:
 
-    # p "{cps=30}{color=#FFFF00}Aquele zelador parecia realmente preocupado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aquel conserje se veía realmente preocupado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aquele zelador parecia realmente preocupado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aquel conserje se veía realmente preocupado.{/color}{/cps}"
 
 # game/script.rpy:424
 translate spanish exploracao_armarios_84643c3f:
 
-    # p "{cps=30}{color=#FFFF00}Mas talvez eu esteja pensando demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero tal vez me estoy haciendo ideas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas talvez eu esteja pensando demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero tal vez me estoy haciendo ideas.{/color}{/cps}"
 
 # game/script.rpy:425
 translate spanish exploracao_armarios_b4a62bff:
 
-    # p "{cps=30}{color=#FFFF00}Enfim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En fin.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enfim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En fin.{/color}{/cps}"
 
 # game/script.rpy:426
 translate spanish exploracao_armarios_70f2a800:
 
-    # p "{cps=30}{color=#FFFF00}Tenho armários para escolher.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo casilleros que elegir.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tenho armários para escolher.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo casilleros que elegir.{/color}{/cps}"
 
 # game/script.rpy:427
 translate spanish exploracao_armarios_749398d6:
 
-    # p "{cps=30}{color=#FFFF00}Meus olhos percorrem o corredor mais uma vez.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mis ojos recorren el pasillo una vez más.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meus olhos percorrem o corredor mais uma vez.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mis ojos recorren el pasillo una vez más.{/color}{/cps}"
 
 # game/script.rpy:428
 translate spanish exploracao_armarios_8fe90904_1:
 
-    # p "{cps=30}{color=#FFFF00}Hum...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hum...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm...{/color}{/cps}"
 
 # game/script.rpy:429
 translate spanish exploracao_armarios_d31a09de:
 
-    # p "{cps=30}{color=#FFFF00}Aquele ao lado da biblioteca parece uma boa opção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aquel al lado de la biblioteca parece una buena opción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aquele ao lado da biblioteca parece uma boa opção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aquel al lado de la biblioteca parece una buena opción.{/color}{/cps}"
 
 # game/script.rpy:430
 translate spanish exploracao_armarios_c800f348:
 
-    # p "{cps=30}{color=#FFFF00}Caminho até ele.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino hacia él.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caminho até ele.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino hacia él.{/color}{/cps}"
 
 # game/script.rpy:431
 translate spanish exploracao_armarios_10c19e53:
 
-    # p "{cps=30}{color=#FFFF00}Escolho o armário do meio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elijo el casillero del medio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Escolho o armário do meio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elijo el casillero del medio.{/color}{/cps}"
 
 # game/script.rpy:432
 translate spanish exploracao_armarios_4ce8aeaf:
 
-    # p "{cps=30}{color=#FFFF00}Mas, no instante em que estendo a mão...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero en el instante en que estiro la mano...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas, no instante em que estendo a mão...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero en el instante en que estiro la mano...{/color}{/cps}"
 
 # game/script.rpy:433
 translate spanish exploracao_armarios_f54144fd:
 
-    # p "{cps=30}{color=#FFFF00}Alguém segura meu braço.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Alguien me sujeta el brazo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Alguém segura meu braço.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Alguien me sujeta el brazo.{/color}{/cps}"
 
 # game/script.rpy:434
 translate spanish exploracao_armarios_3854bef5:
@@ -1263,14 +1263,14 @@ translate spanish exploracao_armarios_3854bef5:
 # game/script.rpy:435
 translate spanish exploracao_armarios_247fee1d:
 
-    # p "{cps=30}{color=#FFFF00}Eu me viro, assustada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me doy la vuelta, asustada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu me viro, assustada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me doy la vuelta, asustada.{/color}{/cps}"
 
 # game/script.rpy:436
 translate spanish exploracao_armarios_227cbffc:
 
-    # p "{cps=30}{color=#FFFF00}Desculpe... quem é você?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Disculpa... ¿quién eres?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Desculpe... quem é você?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Disculpa... ¿quién eres?{/color}{/cps}"
 
 # game/script.rpy:437
 translate spanish exploracao_armarios_8f50ae4d:
@@ -1299,8 +1299,8 @@ translate spanish exploracao_armarios_986df3dc:
 # game/script.rpy:441
 translate spanish exploracao_armarios_e26e93e8:
 
-    # p "{cps=30}{color=#FFFF00}Posso perguntar o motivo?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Puedo preguntar por qué?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Posso perguntar o motivo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Puedo preguntar por qué?{/color}{/cps}"
 
 # game/script.rpy:442
 translate spanish exploracao_armarios_8e469904:
@@ -1311,20 +1311,20 @@ translate spanish exploracao_armarios_8e469904:
 # game/script.rpy:443
 translate spanish exploracao_armarios_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:444
 translate spanish exploracao_armarios_d30ada81:
 
-    # p "{cps=30}{color=#FFFF00}Nesse caso, tudo bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En ese caso, está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nesse caso, tudo bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En ese caso, está bien.{/color}{/cps}"
 
 # game/script.rpy:445
 translate spanish exploracao_armarios_e2b5c228:
 
-    # p "{cps=30}{color=#FFFF00}Eu procuro outro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Yo busco otro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu procuro outro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yo busco otro.{/color}{/cps}"
 
 # game/script.rpy:446
 translate spanish exploracao_armarios_baa525ab:
@@ -1341,656 +1341,656 @@ translate spanish exploracao_armarios_e01c5970:
 # game/script.rpy:448
 translate spanish exploracao_armarios_0a293964:
 
-    # p "{cps=30}{color=#FFFF00}Ela sorri.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ella sonríe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela sorri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ella sonríe.{/color}{/cps}"
 
 # game/script.rpy:449
 translate spanish exploracao_armarios_f834c0e4:
 
-    # p "{cps=30}{color=#FFFF00}Um sorriso educado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una sonrisa educada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um sorriso educado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una sonrisa educada.{/color}{/cps}"
 
 # game/script.rpy:450
 translate spanish exploracao_armarios_81bc8cc7:
 
-    # p "{cps=30}{color=#FFFF00}Perfeito até demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Demasiado perfecta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Perfeito até demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Demasiado perfecta.{/color}{/cps}"
 
 # game/script.rpy:451
 translate spanish exploracao_armarios_b0ba8f31:
 
-    # p "{cps=30}{color=#FFFF00}Não foi nada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No fue nada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não foi nada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No fue nada.{/color}{/cps}"
 
 # game/script.rpy:452
 translate spanish exploracao_armarios_690b72d4:
 
-    # p "{cps=30}{color=#FFFF00}Eu me afasto procurando outro armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me alejo buscando otro casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu me afasto procurando outro armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me alejo buscando otro casillero.{/color}{/cps}"
 
 # game/script.rpy:453
 translate spanish exploracao_armarios_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:454
 translate spanish exploracao_armarios_bb4d685c:
 
-    # p "{cps=30}{color=#FFFF00}Que garota estranha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué chica tan rara.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que garota estranha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué chica tan rara.{/color}{/cps}"
 
 # game/script.rpy:455
 translate spanish exploracao_armarios_fb383f30:
 
-    # p "{cps=30}{color=#FFFF00}Ela foi gentil.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Fue amable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela foi gentil.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Fue amable.{/color}{/cps}"
 
 # game/script.rpy:456
 translate spanish exploracao_armarios_3ad604fd:
 
-    # p "{cps=30}{color=#FFFF00}Educada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Educada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Educada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Educada.{/color}{/cps}"
 
 # game/script.rpy:457
 translate spanish exploracao_armarios_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:458
 translate spanish exploracao_armarios_0b27e35c:
 
-    # p "{cps=30}{color=#FFFF00}Não sei.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No sé.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não sei.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No sé.{/color}{/cps}"
 
 # game/script.rpy:459
 translate spanish exploracao_armarios_6393b076:
 
-    # p "{cps=30}{color=#FFFF00}Tem alguma coisa nela que me deixa desconfortável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay algo en ella que me hace sentir incómoda.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tem alguma coisa nela que me deixa desconfortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay algo en ella que me hace sentir incómoda.{/color}{/cps}"
 
 # game/script.rpy:460
 translate spanish exploracao_armarios_77df536f:
 
-    # p "{cps=30}{color=#FFFF00}Talvez seja a forma como fala.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez sea la forma en que habla.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez seja a forma como fala.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez sea la forma en que habla.{/color}{/cps}"
 
 # game/script.rpy:461
 translate spanish exploracao_armarios_12118066:
 
-    # p "{cps=30}{color=#FFFF00}Talvez seja aquele sorriso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez sea esa sonrisa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez seja aquele sorriso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez sea esa sonrisa.{/color}{/cps}"
 
 # game/script.rpy:462
 translate spanish exploracao_armarios_7e2b3814:
 
-    # p "{cps=30}{color=#FFFF00}Ou talvez eu esteja apenas imaginando coisas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}O tal vez solo me lo estoy imaginando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ou talvez eu esteja apenas imaginando coisas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}O tal vez solo me lo estoy imaginando.{/color}{/cps}"
 
 # game/script.rpy:463
 translate spanish exploracao_armarios_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:464
 translate spanish exploracao_armarios_844900f3:
 
-    # p "{cps=30}{color=#FFFF00}Que feio, Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué mal, Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que feio, Kiyoki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué mal, Kiyoki.{/color}{/cps}"
 
 # game/script.rpy:465
 translate spanish exploracao_armarios_88eb036a:
 
-    # p "{cps=30}{color=#FFFF00}Você acabou de conhecê-la.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Acabas de conocerla.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você acabou de conhecê-la.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Acabas de conocerla.{/color}{/cps}"
 
 # game/script.rpy:466
 translate spanish exploracao_armarios_fed3bee1:
 
-    # p "{cps=30}{color=#FFFF00}Não deveria sair julgando os outros assim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No deberías andar juzgando a los demás así.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não deveria sair julgando os outros assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No deberías andar juzgando a los demás así.{/color}{/cps}"
 
 # game/script.rpy:467
 translate spanish exploracao_armarios_59971d1f:
 
-    # p "{cps=30}{color=#FFFF00}Encontro outro armário vazio e finalmente decido ficar com ele.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Encuentro otro casillero vacío y finalmente decido quedarme con él.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Encontro outro armário vazio e finalmente decido ficar com ele.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Encuentro otro casillero vacío y finalmente decido quedarme con él.{/color}{/cps}"
 
 # game/script.rpy:468
 translate spanish exploracao_armarios_ef3e6a0d:
 
-    # p "{cps=30}{color=#FFFF00}Bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:469
 translate spanish exploracao_armarios_bf36e106:
 
-    # p "{cps=30}{color=#FFFF00}Acho que esse será meu companheiro pelos próximos anos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que este será mi compañero durante los próximos años.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que esse será meu companheiro pelos próximos anos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que este será mi compañero durante los próximos años.{/color}{/cps}"
 
 # game/script.rpy:470
 translate spanish exploracao_armarios_54de6e5b:
 
-    # p "{cps=30}{color=#FFFF00}Abro a porta e começo a guardar algumas coisas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro la puerta y empiezo a guardar algunas cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro a porta e começo a guardar algumas coisas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro la puerta y empiezo a guardar algunas cosas.{/color}{/cps}"
 
 # game/script.rpy:471
 translate spanish exploracao_armarios_d21f079d:
 
-    # p "{cps=30}{color=#FFFF00}Nada demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nada del otro mundo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nada demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nada del otro mundo.{/color}{/cps}"
 
 # game/script.rpy:472
 translate spanish exploracao_armarios_3fc9e3ee:
 
-    # p "{cps=30}{color=#FFFF00}Livros.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Libros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Livros.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Libros.{/color}{/cps}"
 
 # game/script.rpy:473
 translate spanish exploracao_armarios_ac92d11e:
 
-    # p "{cps=30}{color=#FFFF00}Cadernos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cuadernos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Cadernos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cuadernos.{/color}{/cps}"
 
 # game/script.rpy:474
 translate spanish exploracao_armarios_a45ff24a:
 
-    # p "{cps=30}{color=#FFFF00}Estojo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cartuchera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estojo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cartuchera.{/color}{/cps}"
 
 # game/script.rpy:475
 translate spanish exploracao_armarios_02803a6e:
 
-    # p "{cps=30}{color=#FFFF00}Notebook.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Laptop.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Notebook.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Laptop.{/color}{/cps}"
 
 # game/script.rpy:476
 translate spanish exploracao_armarios_8533918e:
 
-    # p "{cps=30}{color=#FFFF00}Tablet.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tablet.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tablet.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tablet.{/color}{/cps}"
 
 # game/script.rpy:477
 translate spanish exploracao_armarios_a0bab310:
 
-    # p "{cps=30}{color=#FFFF00}Só o necessário para as aulas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo lo necesario para las clases.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só o necessário para as aulas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo lo necesario para las clases.{/color}{/cps}"
 
 # game/script.rpy:478
 translate spanish exploracao_armarios_b9407ec2:
 
-    # p "{cps=30}{color=#FFFF00}Depois de organizar tudo, dou uma olhada para o armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de organizar todo, le echo una mirada al casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois de organizar tudo, dou uma olhada para o armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de organizar todo, le echo una mirada al casillero.{/color}{/cps}"
 
 # game/script.rpy:479
 translate spanish exploracao_armarios_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:480
 translate spanish exploracao_armarios_f61aa32b:
 
-    # p "{cps=30}{color=#FFFF00}Está muito sem graça.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está muy soso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Está muito sem graça.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está muy soso.{/color}{/cps}"
 
 # game/script.rpy:481
 translate spanish exploracao_armarios_d6f5f0c2:
 
-    # p "{cps=30}{color=#FFFF00}Acabo colocando algumas pequenas decorações.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Termino poniendo algunas pequeñas decoraciones.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acabo colocando algumas pequenas decorações.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Termino poniendo algunas pequeñas decoraciones.{/color}{/cps}"
 
 # game/script.rpy:482
 translate spanish exploracao_armarios_ff20d879:
 
-    # p "{cps=30}{color=#FFFF00}Um chaveiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un llavero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um chaveiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un llavero.{/color}{/cps}"
 
 # game/script.rpy:483
 translate spanish exploracao_armarios_997cd17c:
 
-    # p "{cps=30}{color=#FFFF00}Alguns enfeites discretos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Algunos adornos discretos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Alguns enfeites discretos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Algunos adornos discretos.{/color}{/cps}"
 
 # game/script.rpy:484
 translate spanish exploracao_armarios_6e1f3b53:
 
-    # p "{cps=30}{color=#FFFF00}Coisas simples.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cosas sencillas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Coisas simples.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cosas sencillas.{/color}{/cps}"
 
 # game/script.rpy:485
 translate spanish exploracao_armarios_33a1f286:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto de deixar minhas coisas com um pouco da minha personalidade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta darle a mis cosas un poco de mi personalidad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto de deixar minhas coisas com um pouco da minha personalidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta darle a mis cosas un poco de mi personalidad.{/color}{/cps}"
 
 # game/script.rpy:486
 translate spanish exploracao_armarios_96e7cf1a:
 
-    # p "{cps=30}{color=#FFFF00}Mas sem exageros.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero sin exagerar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas sem exageros.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero sin exagerar.{/color}{/cps}"
 
 # game/script.rpy:487
 translate spanish exploracao_armarios_35d2f116:
 
-    # p "{cps=30}{color=#FFFF00}Sempre preferi algo mais minimalista.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siempre he preferido algo más minimalista.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sempre preferi algo mais minimalista.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siempre he preferido algo más minimalista.{/color}{/cps}"
 
 # game/script.rpy:488
 translate spanish exploracao_armarios_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:489
 translate spanish exploracao_armarios_b48f91ab:
 
-    # p "{cps=30}{color=#FFFF00}Pronto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Listo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pronto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Listo.{/color}{/cps}"
 
 # game/script.rpy:490
 translate spanish exploracao_armarios_0c3ce858:
 
-    # p "{cps=30}{color=#FFFF00}Agora só falta escolher um armário no banheiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora solo falta elegir un casillero en el baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora só falta escolher um armário no banheiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora solo falta elegir un casillero en el baño.{/color}{/cps}"
 
 # game/script.rpy:492
 translate spanish exploracao_armarios_cfd0f755:
 
-    # p "{cps=30}{color=#FFFF00}Ai...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ay!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ai...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ay!{/color}{/cps}"
 
 # game/script.rpy:493
 translate spanish exploracao_armarios_9f0fb07a:
 
-    # p "{cps=30}{color=#FFFF00}Sinceramente, achei uma péssima ideia a escola ter casas de banho coletivas em vez de banheiros nos dormitórios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sinceramente, me pareció una pésima idea que la escuela tenga baños colectivos en lugar de baños en los dormitorios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sinceramente, achei uma péssima ideia a escola ter casas de banho coletivas em vez de banheiros nos dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sinceramente, me pareció una pésima idea que la escuela tenga baños colectivos en lugar de baños en los dormitorios.{/color}{/cps}"
 
 # game/script.rpy:494
 translate spanish exploracao_armarios_391cfe7b:
 
-    # p "{cps=30}{color=#FFFF00}Pelo menos existem chuveiros individuais para quem prefere privacidade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Al menos hay duchas individuales para quienes prefieren privacidad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pelo menos existem chuveiros individuais para quem prefere privacidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Al menos hay duchas individuales para quienes prefieren privacidad.{/color}{/cps}"
 
 # game/script.rpy:495
 translate spanish exploracao_armarios_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:496
 translate spanish exploracao_armarios_70b67d77:
 
-    # p "{cps=30}{color=#FFFF00}Tudo bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está bien.{/color}{/cps}"
 
 # game/script.rpy:497
 translate spanish exploracao_armarios_299ad799:
 
-    # p "{cps=30}{color=#FFFF00}Nem sempre podemos ficar na nossa zona de conforto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No siempre podemos estar en nuestra zona de confort.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nem sempre podemos ficar na nossa zona de conforto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No siempre podemos estar en nuestra zona de confort.{/color}{/cps}"
 
 # game/script.rpy:498
 translate spanish exploracao_armarios_dccbf6ce:
 
-    # p "{cps=30}{color=#FFFF00}Vamos lá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vamos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vamos lá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vamos.{/color}{/cps}"
 
 # game/script.rpy:499
 translate spanish exploracao_armarios_eed6653c:
 
-    # p "{cps=30}{color=#FFFF00}Me aproximo do bloco de banho feminino.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco al bloque de baños femeninos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me aproximo do bloco de banho feminino.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco al bloque de baños femeninos.{/color}{/cps}"
 
 # game/script.rpy:500
 translate spanish exploracao_armarios_eab98c11:
 
-    # p "{cps=30}{color=#FFFF00}O lugar é enorme.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El lugar es enorme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O lugar é enorme.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El lugar es enorme.{/color}{/cps}"
 
 # game/script.rpy:501
 translate spanish exploracao_armarios_c2ca36e3:
 
-    # p "{cps=30}{color=#FFFF00}Muito maior do que eu esperava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mucho más grande de lo que esperaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito maior do que eu esperava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mucho más grande de lo que esperaba.{/color}{/cps}"
 
 # game/script.rpy:502
 translate spanish exploracao_armarios_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:503
 translate spanish exploracao_armarios_cf3c9b39:
 
-    # p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
 
 # game/script.rpy:504
 translate spanish exploracao_armarios_93ee6ece:
 
-    # p "{cps=30}{color=#FFFF00}Ninguém escolheu um armário ainda?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Nadie ha elegido un casillero todavía?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ninguém escolheu um armário ainda?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Nadie ha elegido un casillero todavía?{/color}{/cps}"
 
 # game/script.rpy:505
 translate spanish exploracao_armarios_d33e2c32:
 
-    # p "{cps=30}{color=#FFFF00}Eu realmente cheguei cedo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}De verdad llegué temprano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu realmente cheguei cedo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}De verdad llegué temprano.{/color}{/cps}"
 
 # game/script.rpy:506
 translate spanish exploracao_armarios_8fe90904_2:
 
-    # p "{cps=30}{color=#FFFF00}Hum...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hum...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm...{/color}{/cps}"
 
 # game/script.rpy:507
 translate spanish exploracao_armarios_246d5aaa:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou ficar com o armário 041.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que me quedaré con el casillero 041.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou ficar com o armário 041.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que me quedaré con el casillero 041.{/color}{/cps}"
 
 # game/script.rpy:508
 translate spanish exploracao_armarios_a1ad97ed:
 
-    # p "{cps=30}{color=#FFFF00}Ele fica próximo dos chuveiros.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está cerca de las duchas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele fica próximo dos chuveiros.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está cerca de las duchas.{/color}{/cps}"
 
 # game/script.rpy:509
 translate spanish exploracao_armarios_a58e6063:
 
-    # p "{cps=30}{color=#FFFF00}E...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:510
 translate spanish exploracao_armarios_c74f90d6:
 
-    # p "{cps=30}{color=#FFFF00}É meu número da sorte desde a infância...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es mi número de la suerte desde niña...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É meu número da sorte desde a infância...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es mi número de la suerte desde niña...{/color}{/cps}"
 
 # game/script.rpy:511
 translate spanish exploracao_armarios_71c3dc99:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto desse número...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta ese número...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto desse número...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta ese número...{/color}{/cps}"
 
 # game/script.rpy:512
 translate spanish exploracao_armarios_4827180f:
 
-    # p "{cps=30}{color=#FFFF00}Abro o armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro el casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro o armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro el casillero.{/color}{/cps}"
 
 # game/script.rpy:513
 translate spanish exploracao_armarios_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:514
 translate spanish exploracao_armarios_077acd18:
 
-    # p "{cps=30}{color=#FFFF00}Que legal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué genial.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que legal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué genial.{/color}{/cps}"
 
 # game/script.rpy:515
 translate spanish exploracao_armarios_1642ac5e:
 
-    # p "{cps=30}{color=#FFFF00}A escola oferece dois roupões.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La escuela ofrece dos batas de baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A escola oferece dois roupões.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La escuela ofrece dos batas de baño.{/color}{/cps}"
 
 # game/script.rpy:516
 translate spanish exploracao_armarios_e7717e8e:
 
-    # p "{cps=30}{color=#FFFF00}Um rosa e um branco.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una rosa y una blanca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um rosa e um branco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una rosa y una blanca.{/color}{/cps}"
 
 # game/script.rpy:517
 translate spanish exploracao_armarios_53ed7164:
 
-    # p "{cps=30}{color=#FFFF00}Que fofo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué lindo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que fofo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué lindo.{/color}{/cps}"
 
 # game/script.rpy:518
 translate spanish exploracao_armarios_6c1ceaa9:
 
-    # p "{cps=30}{color=#FFFF00}Organizo minhas toalhas e produtos de higiene cuidadosamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Organizo mis toallas y productos de higiene cuidadosamente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Organizo minhas toalhas e produtos de higiene cuidadosamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Organizo mis toallas y productos de higiene cuidadosamente.{/color}{/cps}"
 
 # game/script.rpy:519
 translate spanish exploracao_armarios_34fdddcc:
 
-    # p "{cps=30}{color=#FFFF00}Tudo em seu devido lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo en su debido lugar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo em seu devido lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo en su debido lugar.{/color}{/cps}"
 
 # game/script.rpy:520
 translate spanish exploracao_armarios_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:521
 translate spanish exploracao_armarios_ad518590:
 
-    # p "{cps=30}{color=#FFFF00}Esse eu não vou decorar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Este no lo voy a decorar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Esse eu não vou decorar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Este no lo voy a decorar.{/color}{/cps}"
 
 # game/script.rpy:522
 translate spanish exploracao_armarios_bad0b2eb:
 
-    # p "{cps=30}{color=#FFFF00}O calor e a umidade provavelmente estragariam qualquer adesivo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El calor y la humedad probablemente arruinarían cualquier pegatina.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O calor e a umidade provavelmente estragariam qualquer adesivo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El calor y la humedad probablemente arruinarían cualquier pegatina.{/color}{/cps}"
 
 # game/script.rpy:523
 translate spanish exploracao_armarios_30904940:
 
-    # p "{cps=30}{color=#FFFF00}Além disso...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Además...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Além disso...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Además...{/color}{/cps}"
 
 # game/script.rpy:524
 translate spanish exploracao_armarios_73bbea40:
 
-    # p "{cps=30}{color=#FFFF00}Não acho que armários de banheiro sejam exatamente o tipo de coisa que se decora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No creo que los casilleros del baño sean exactamente el tipo de cosa que se decora.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não acho que armários de banheiro sejam exatamente o tipo de coisa que se decora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No creo que los casilleros del baño sean exactamente el tipo de cosa que se decora.{/color}{/cps}"
 
 # game/script.rpy:525
 translate spanish exploracao_armarios_e5f9e704_10:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:526
 translate spanish exploracao_armarios_2d0d4a35:
 
-    # p "{cps=30}{color=#FFFF00}Huh?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Eh?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Huh?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Eh?{/color}{/cps}"
 
 # game/script.rpy:527
 translate spanish exploracao_armarios_647d375e:
 
-    # p "{cps=30}{color=#FFFF00}Paro por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo un instante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo un instante.{/color}{/cps}"
 
 # game/script.rpy:528
 translate spanish exploracao_armarios_41aaf696:
 
-    # p "{cps=30}{color=#FFFF00}Alguém está cantando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Alguien está cantando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Alguém está cantando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Alguien está cantando.{/color}{/cps}"
 
 # game/script.rpy:529
 translate spanish exploracao_armarios_6ae1cb17:
 
-    # p "{cps=30}{color=#FFFF00}A melodia ecoa pelos corredores do banheiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La melodía resuena por los pasillos del baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A melodia ecoa pelos corredores do banheiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La melodía resuena por los pasillos del baño.{/color}{/cps}"
 
 # game/script.rpy:530
 translate spanish exploracao_armarios_e5f9e704_11:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:531
 translate spanish exploracao_armarios_bb976687:
 
-    # p "{cps=30}{color=#FFFF00}Eu conheço essa música.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Conozco esa canción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu conheço essa música.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Conozco esa canción.{/color}{/cps}"
 
 # game/script.rpy:532
 translate spanish exploracao_armarios_6c41625d:
 
-    # p "{cps=30}{color=#FFFF00}Tenho quase certeza disso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estoy casi segura de eso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tenho quase certeza disso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estoy casi segura de eso.{/color}{/cps}"
 
 # game/script.rpy:533
 translate spanish exploracao_armarios_5614cb76:
 
-    # p "{cps=30}{color=#FFFF00}Por alguns segundos, penso em procurar de onde ela vem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por unos segundos, pienso en buscar de dónde viene.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por alguns segundos, penso em procurar de onde ela vem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por unos segundos, pienso en buscar de dónde viene.{/color}{/cps}"
 
 # game/script.rpy:534
 translate spanish exploracao_armarios_20e37279_1:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:535
 translate spanish exploracao_armarios_9b53724c:
 
-    # p "{cps=30}{color=#FFFF00}Talvez seja melhor não incomodar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez sea mejor no molestar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez seja melhor não incomodar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez sea mejor no molestar.{/color}{/cps}"
 
 # game/script.rpy:536
 translate spanish exploracao_armarios_34a7f93f:
 
-    # p "{cps=30}{color=#FFFF00}As garotas daqui ainda são completas desconhecidas para mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las chicas de aquí todavía son completas desconocidas para mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As garotas daqui ainda são completas desconhecidas para mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las chicas de aquí todavía son completas desconocidas para mí.{/color}{/cps}"
 
 # game/script.rpy:537
 translate spanish exploracao_armarios_8900f3af:
 
-    # p "{cps=30}{color=#FFFF00}E eu não quero parecer uma esquisita no meu primeiro dia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y no quiero parecer una rara en mi primer día.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E eu não quero parecer uma esquisita no meu primeiro dia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y no quiero parecer una rara en mi primer día.{/color}{/cps}"
 
 # game/script.rpy:538
 translate spanish exploracao_armarios_e5f9e704_12:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:539
 translate spanish exploracao_armarios_3014d068:
 
-    # p "{cps=30}{color=#FFFF00}Então.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces...{/color}{/cps}"
 
 # game/script.rpy:540
 translate spanish exploracao_armarios_4015e74e:
 
-    # p "{cps=30}{color=#FFFF00}Uma tarefa concluída.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una tarea lista.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma tarefa concluída.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una tarea lista.{/color}{/cps}"
 
 # game/script.rpy:541
 translate spanish exploracao_armarios_9590337a:
 
-    # p "{cps=30}{color=#FFFF00}O que devo fazer agora?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué debería hacer ahora?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que devo fazer agora?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué debería hacer ahora?{/color}{/cps}"
 
 # game/script.rpy:551
 translate spanish exploracao_dormitorios_ff42c5d9:
 
-    # p "{cps=30}{color=#FFFF00}Ok.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ok.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ok.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ok.{/color}{/cps}"
 
 # game/script.rpy:552
 translate spanish exploracao_dormitorios_bf3beaf1:
 
-    # p "{cps=30}{color=#FFFF00}Agora preciso resolver a questão dos dormitórios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora tengo que resolver el tema de los dormitorios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora preciso resolver a questão dos dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora tengo que resolver el tema de los dormitorios.{/color}{/cps}"
 
 # game/script.rpy:553
 translate spanish exploracao_dormitorios_0395de95:
 
-    # p "{cps=30}{color=#FFFF00}Provavelmente é a tarefa mais importante da lista.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Probablemente sea la tarea más importante de la lista.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Provavelmente é a tarefa mais importante da lista.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Probablemente sea la tarea más importante de la lista.{/color}{/cps}"
 
 # game/script.rpy:554
 translate spanish exploracao_dormitorios_4bdd954a:
 
-    # p "{cps=30}{color=#FFFF00}Afinal...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de todo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Afinal...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de todo...{/color}{/cps}"
 
 # game/script.rpy:555
 translate spanish exploracao_dormitorios_655ca632:
 
-    # p "{cps=30}{color=#FFFF00}É onde vou dormir pelos próximos anos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es donde voy a dormir durante los próximos años.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É onde vou dormir pelos próximos anos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es donde voy a dormir durante los próximos años.{/color}{/cps}"
 
 # game/script.rpy:556
 translate spanish exploracao_dormitorios_fd9cbca5:
 
-    # p "{cps=30}{color=#FFFF00}Caminho até a área indicada no mapa da escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino hasta el área indicada en el mapa de la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caminho até a área indicada no mapa da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino hasta el área indicada en el mapa de la escuela.{/color}{/cps}"
 
 # game/script.rpy:557
 translate spanish exploracao_dormitorios_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:558
 translate spanish exploracao_dormitorios_19921b5a:
 
-    # p "{cps=30}{color=#FFFF00}Estranho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué raro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué raro.{/color}{/cps}"
 
 # game/script.rpy:559
 translate spanish exploracao_dormitorios_254e2479:
 
-    # p "{cps=30}{color=#FFFF00}Parece tão pequeno.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece tan pequeño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece tão pequeno.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece tan pequeño.{/color}{/cps}"
 
 # game/script.rpy:560
 translate spanish exploracao_dormitorios_40d113ae:
 
-    # p "{cps=30}{color=#FFFF00}É apenas uma recepção com catracas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es solo una recepción con torniquetes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É apenas uma recepção com catracas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es solo una recepción con torniquetes.{/color}{/cps}"
 
 # game/script.rpy:561
 translate spanish exploracao_dormitorios_373b4162:
 
-    # p "{cps=30}{color=#FFFF00}Será que estou no lugar certo?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Estaré en el lugar correcto?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Será que estou no lugar certo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Estaré en el lugar correcto?{/color}{/cps}"
 
 # game/script.rpy:562
 translate spanish exploracao_dormitorios_127aa73e:
 
-    # p "{cps=30}{color=#FFFF00}Bem...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:563
 translate spanish exploracao_dormitorios_dcc7b266:
 
-    # p "{cps=30}{color=#FFFF00}Só existe uma forma de descobrir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo hay una forma de averiguarlo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só existe uma forma de descobrir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo hay una forma de averiguarlo.{/color}{/cps}"
 
 # game/script.rpy:564
 translate spanish exploracao_dormitorios_3ae4575c:
 
-    # p "{cps=30}{color=#FFFF00}Me aproximo do balcão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco al mostrador.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me aproximo do balcão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco al mostrador.{/color}{/cps}"
 
 # game/script.rpy:565
 translate spanish exploracao_dormitorios_3678db4c:
 
-    # p "{cps=30}{color=#FFFF00}Olá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hola.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hola.{/color}{/cps}"
 
 # game/script.rpy:566
 translate spanish exploracao_dormitorios_a9013c31:
 
-    # p "{cps=30}{color=#FFFF00}Vim fazer meu cadastro para o dormitório.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vine a hacer mi registro para el dormitorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vim fazer meu cadastro para o dormitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vine a hacer mi registro para el dormitorio.{/color}{/cps}"
 
 # game/script.rpy:567
 translate spanish exploracao_dormitorios_ad45a930:
@@ -2007,92 +2007,92 @@ translate spanish exploracao_dormitorios_36910cab:
 # game/script.rpy:569
 translate spanish exploracao_dormitorios_8cb1ce89:
 
-    # p "{cps=30}{color=#FFFF00}(Barulho de papel){/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}(Sonido de papel){/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}(Barulho de papel){/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}(Sonido de papel){/color}{/cps}"
 
 # game/script.rpy:570
 translate spanish exploracao_dormitorios_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:571
 translate spanish exploracao_dormitorios_906123ed:
 
-    # p "{cps=30}{color=#FFFF00}Caramba.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:572
 translate spanish exploracao_dormitorios_ddc423ce:
 
-    # p "{cps=30}{color=#FFFF00}São muitas regras.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Son muchas reglas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}São muitas regras.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Son muchas reglas.{/color}{/cps}"
 
 # game/script.rpy:573
 translate spanish exploracao_dormitorios_5f409f04:
 
-    # p "{cps=30}{color=#FFFF00}Meus olhos percorrem rapidamente as páginas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mis ojos recorren rápidamente las páginas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meus olhos percorrem rapidamente as páginas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mis ojos recorren rápidamente las páginas.{/color}{/cps}"
 
 # game/script.rpy:574
 translate spanish exploracao_dormitorios_e55d8ce2:
 
-    # p "{cps=30}{color=#FFFF00}Uma delas chama minha atenção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una de ellas me llama la atención.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma delas chama minha atenção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una de ellas me llama la atención.{/color}{/cps}"
 
 # game/script.rpy:575
 translate spanish exploracao_dormitorios_09e6c3e6:
 
-    # p "{cps=30}{color=#FFFF00}Dormitórios mistos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Dormitorios mixtos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dormitórios mistos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Dormitorios mixtos.{/color}{/cps}"
 
 # game/script.rpy:576
 translate spanish exploracao_dormitorios_8e026816:
 
-    # p "{cps=30}{color=#FFFF00}Outra.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Otra.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Outra.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Otra.{/color}{/cps}"
 
 # game/script.rpy:577
 translate spanish exploracao_dormitorios_1cbfd401:
 
-    # p "{cps=30}{color=#FFFF00}Monitoramento por câmeras nas áreas comuns.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Monitoreo por cámaras en las áreas comunes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Monitoramento por câmeras nas áreas comuns.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Monitoreo por cámaras en las áreas comunes.{/color}{/cps}"
 
 # game/script.rpy:578
 translate spanish exploracao_dormitorios_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:579
 translate spanish exploracao_dormitorios_7538ee41:
 
-    # p "{cps=30}{color=#FFFF00}Confesso que isso me deixa um pouco desconfortável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Confieso que eso me pone un poco incómoda.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Confesso que isso me deixa um pouco desconfortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Confieso que eso me pone un poco incómoda.{/color}{/cps}"
 
 # game/script.rpy:580
 translate spanish exploracao_dormitorios_a070a27f:
 
-    # p "{cps=30}{color=#FFFF00}Mas considerando que os dormitórios não são separados por gênero...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero considerando que los dormitorios no están separados por género...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas considerando que os dormitórios não são separados por gênero...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero considerando que los dormitorios no están separados por género...{/color}{/cps}"
 
 # game/script.rpy:581
 translate spanish exploracao_dormitorios_08a934a9:
 
-    # p "{cps=30}{color=#FFFF00}Acho que faz sentido.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que tiene sentido.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que faz sentido.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que tiene sentido.{/color}{/cps}"
 
 # game/script.rpy:582
 translate spanish exploracao_dormitorios_267c4c96:
 
-    # p "{cps=30}{color=#FFFF00}Ainda bem que existem áreas privadas para troca de roupa e higiene pessoal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Menos mal que hay áreas privadas para cambiarse de ropa y para la higiene personal.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ainda bem que existem áreas privadas para troca de roupa e higiene pessoal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Menos mal que hay áreas privadas para cambiarse de ropa y para la higiene personal.{/color}{/cps}"
 
 # game/script.rpy:583
 translate spanish exploracao_dormitorios_67cde3eb:
 
-    # p "{cps=30}{color=#FFFF00}Posso fazer uma pergunta?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Puedo hacer una pregunta?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Posso fazer uma pergunta?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Puedo hacer una pregunta?{/color}{/cps}"
 
 # game/script.rpy:584
 translate spanish exploracao_dormitorios_bb0b884a:
@@ -2103,8 +2103,8 @@ translate spanish exploracao_dormitorios_bb0b884a:
 # game/script.rpy:585
 translate spanish exploracao_dormitorios_2b3f4c2d:
 
-    # p "{cps=30}{color=#FFFF00}Por que os dormitórios são mistos?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Por qué los dormitorios son mixtos?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por que os dormitórios são mistos?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Por qué los dormitorios son mixtos?{/color}{/cps}"
 
 # game/script.rpy:586
 translate spanish exploracao_dormitorios_1e59498d:
@@ -2163,8 +2163,8 @@ translate spanish exploracao_dormitorios_bf1d4553:
 # game/script.rpy:595
 translate spanish exploracao_dormitorios_d493e141:
 
-    # p "{cps=30}{color=#FFFF00}E funcionou?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Y funcionó?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E funcionou?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Y funcionó?{/color}{/cps}"
 
 # game/script.rpy:596
 translate spanish exploracao_dormitorios_d5248d6a:
@@ -2181,14 +2181,14 @@ translate spanish exploracao_dormitorios_4f1e9398:
 # game/script.rpy:598
 translate spanish exploracao_dormitorios_58ac5380:
 
-    # p "{cps=30}{color=#FFFF00}Interessante...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Interesante...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Interessante...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Interesante...{/color}{/cps}"
 
 # game/script.rpy:599
 translate spanish exploracao_dormitorios_fc558c17:
 
-    # p "{cps=30}{color=#FFFF00}Bem, aqui está minha assinatura.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno, aquí está mi firma.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem, aqui está minha assinatura.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno, aquí está mi firma.{/color}{/cps}"
 
 # game/script.rpy:600
 translate spanish exploracao_dormitorios_eb7bb97e:
@@ -2205,14 +2205,14 @@ translate spanish exploracao_dormitorios_92081230:
 # game/script.rpy:602
 translate spanish exploracao_dormitorios_ff367c52:
 
-    # p "{cps=30}{color=#FFFF00}Claro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Claro!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Claro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Claro!{/color}{/cps}"
 
 # game/script.rpy:603
 translate spanish exploracao_dormitorios_a0d12c1c:
 
-    # p "{cps=30}{color=#FFFF00}Aqui está minha identidade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aquí tiene mi identificación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aqui está minha identidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aquí tiene mi identificación.{/color}{/cps}"
 
 # game/script.rpy:604
 translate spanish exploracao_dormitorios_1be6b6f7:
@@ -2229,8 +2229,8 @@ translate spanish exploracao_dormitorios_5ceeb54d:
 # game/script.rpy:606
 translate spanish exploracao_dormitorios_b5f6199f:
 
-    # p "{cps=30}{color=#FFFF00}TEC TEC TEC{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}TECLADO TEC TEC TEC{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}TEC TEC TEC{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}TECLADO TEC TEC TEC{/color}{/cps}"
 
 # game/script.rpy:607
 translate spanish exploracao_dormitorios_930034e0:
@@ -2253,26 +2253,26 @@ translate spanish exploracao_dormitorios_a40180eb:
 # game/script.rpy:610
 translate spanish exploracao_dormitorios_1a78d51f:
 
-    # p "{cps=30}{color=#FFFF00}Prédio B!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Edificio B!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Prédio B!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Edificio B!{/color}{/cps}"
 
 # game/script.rpy:611
 translate spanish exploracao_dormitorios_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:612
 translate spanish exploracao_dormitorios_cf3c9b39:
 
-    # p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
 
 # game/script.rpy:613
 translate spanish exploracao_dormitorios_1f2bbf72:
 
-    # p "{cps=30}{color=#FFFF00}Prédio B?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Edificio B!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Prédio B?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Edificio B!{/color}{/cps}"
 
 # game/script.rpy:614
 translate spanish exploracao_dormitorios_59ef1e67:
@@ -2289,848 +2289,848 @@ translate spanish exploracao_dormitorios_60802da5:
 # game/script.rpy:616
 translate spanish exploracao_dormitorios_6a67610c:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigada!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Muchas gracias!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigada!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Muchas gracias!{/color}{/cps}"
 
 # game/script.rpy:617
 translate spanish exploracao_dormitorios_7bb8c8ad:
 
-    # p "{cps=30}{color=#FFFF00}Pego o cartão e ando em direção às catracas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tomo la tarjeta y camino hacia los torniquetes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pego o cartão e ando em direção às catracas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tomo la tarjeta y camino hacia los torniquetes.{/color}{/cps}"
 
 # game/script.rpy:618
 translate spanish exploracao_dormitorios_d7737cd7:
 
-    # p "{cps=30}{color=#FFFF00}Ainda não entendo onde exatamente está esse tal Prédio B.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía no entiendo dónde está exactamente ese famoso Edificio B.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ainda não entendo onde exatamente está esse tal Prédio B.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía no entiendo dónde está exactamente ese famoso Edificio B.{/color}{/cps}"
 
 # game/script.rpy:619
 translate spanish exploracao_dormitorios_3f2b60e3:
 
-    # p "{cps=30}{color=#FFFF00}Mas imagino que vou descobrir em alguns segundos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero me imagino que lo descubriré en unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas imagino que vou descobrir em alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero me imagino que lo descubriré en unos segundos.{/color}{/cps}"
 
 # game/script.rpy:620
 translate spanish exploracao_dormitorios_d9ed70c4:
 
-    # p "{cps=30}{color=#FFFF00}E quando passo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y cuando paso...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E quando passo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y cuando paso...{/color}{/cps}"
 
 # game/script.rpy:621
 translate spanish exploracao_dormitorios_b75d6662:
 
-    # p "{cps=30}{color=#FFFF00}O quê?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡¿Qué?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O quê?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡¿Qué?!{/color}{/cps}"
 
 # game/script.rpy:622
 translate spanish exploracao_dormitorios_556b0cc0:
 
-    # p "{cps=30}{color=#FFFF00}Eu acabo gritando alto demais sem perceber.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Termino gritando demasiado alto sin darme cuenta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu acabo gritando alto demais sem perceber.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Termino gritando demasiado alto sin darme cuenta.{/color}{/cps}"
 
 # game/script.rpy:623
 translate spanish exploracao_dormitorios_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:624
 translate spanish exploracao_dormitorios_03efd025:
 
-    # p "{cps=30}{color=#FFFF00}Do outro lado...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Del otro lado...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Do outro lado...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Del otro lado...{/color}{/cps}"
 
 # game/script.rpy:625
 translate spanish exploracao_dormitorios_b0594267:
 
-    # p "{cps=30}{color=#FFFF00}Eu congelo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me quedo helada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu congelo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me quedo helada.{/color}{/cps}"
 
 # game/script.rpy:626
 translate spanish exploracao_dormitorios_617417c4:
 
-    # p "{cps=30}{color=#FFFF00}O que eu achava ser apenas uma recepção pequena...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo que pensaba que era solo una recepción pequeña...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que eu achava ser apenas uma recepção pequena...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo que pensaba que era solo una recepción pequeña...{/color}{/cps}"
 
 # game/script.rpy:627
 translate spanish exploracao_dormitorios_be400e68:
 
-    # p "{cps=30}{color=#FFFF00}Na verdade é a entrada de um campus inteiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En realidad es la entrada a todo un campus.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Na verdade é a entrada de um campus inteiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En realidad es la entrada a todo un campus.{/color}{/cps}"
 
 # game/script.rpy:628
 translate spanish exploracao_dormitorios_75c527c5:
 
-    # p "{cps=30}{color=#FFFF00}Prédios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Edificios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Prédios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Edificios.{/color}{/cps}"
 
 # game/script.rpy:629
 translate spanish exploracao_dormitorios_826db99e:
 
-    # p "{cps=30}{color=#FFFF00}Muitos prédios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muchos edificios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muitos prédios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muchos edificios.{/color}{/cps}"
 
 # game/script.rpy:630
 translate spanish exploracao_dormitorios_e2c4c472:
 
-    # p "{cps=30}{color=#FFFF00}Cinco blocos enormes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cinco bloques enormes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Cinco blocos enormes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cinco bloques enormes.{/color}{/cps}"
 
 # game/script.rpy:631
 translate spanish exploracao_dormitorios_29442668:
 
-    # p "{cps=30}{color=#FFFF00}Áreas de lazer.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Áreas de recreación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Áreas de lazer.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Áreas de recreación.{/color}{/cps}"
 
 # game/script.rpy:632
 translate spanish exploracao_dormitorios_1d215643:
 
-    # p "{cps=30}{color=#FFFF00}Um mercado 24 horas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un supermercado 24 horas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um mercado 24 horas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un supermercado 24 horas.{/color}{/cps}"
 
 # game/script.rpy:633
 translate spanish exploracao_dormitorios_26d4d3e4:
 
-    # p "{cps=30}{color=#FFFF00}Um parque interno.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un parque interno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um parque interno.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un parque interno.{/color}{/cps}"
 
 # game/script.rpy:634
 translate spanish exploracao_dormitorios_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:635
 translate spanish exploracao_dormitorios_2cf07478:
 
-    # p "{cps=30}{color=#FFFF00}Isso aqui não é uma escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esto no es una escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso aqui não é uma escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esto no es una escuela.{/color}{/cps}"
 
 # game/script.rpy:636
 translate spanish exploracao_dormitorios_36d3a57d:
 
-    # p "{cps=30}{color=#FFFF00}É uma cidade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es una ciudad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É uma cidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es una ciudad.{/color}{/cps}"
 
 # game/script.rpy:637
 translate spanish exploracao_dormitorios_8a8b478b:
 
-    # p "{cps=30}{color=#FFFF00}Caramba...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:638
 translate spanish exploracao_dormitorios_b081164f:
 
-    # p "{cps=30}{color=#FFFF00}Isso é muito maior do que eu imaginava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esto es mucho más grande de lo que imaginaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso é muito maior do que eu imaginava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esto es mucho más grande de lo que imaginaba.{/color}{/cps}"
 
 # game/script.rpy:639
 translate spanish exploracao_dormitorios_6a3cd22b:
 
-    # p "{cps=30}{color=#FFFF00}E muito mais incrível também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y mucho más increíble también.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E muito mais incrível também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y mucho más increíble también.{/color}{/cps}"
 
 # game/script.rpy:640
 translate spanish exploracao_dormitorios_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:641
 translate spanish exploracao_dormitorios_912f6277:
 
-    # p "{cps=30}{color=#FFFF00}Certo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Certo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bien.{/color}{/cps}"
 
 # game/script.rpy:642
 translate spanish exploracao_dormitorios_bb3a8f9d:
 
-    # p "{cps=30}{color=#FFFF00}Sem tempo pra ficar parada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No hay tiempo para quedarse parada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sem tempo pra ficar parada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No hay tiempo para quedarse parada.{/color}{/cps}"
 
 # game/script.rpy:643
 translate spanish exploracao_dormitorios_8f6c0863:
 
-    # p "{cps=30}{color=#FFFF00}Preciso encontrar o meu bloco.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo que encontrar mi bloque.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Preciso encontrar o meu bloco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo que encontrar mi bloque.{/color}{/cps}"
 
 # game/script.rpy:644
 translate spanish exploracao_dormitorios_356151fc:
 
-    # p "{cps=30}{color=#FFFF00}Entro no Bloco B e pego o elevador.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entro al Bloque B y tomo el ascensor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entro no Bloco B e pego o elevador.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entro al Bloque B y tomo el ascensor.{/color}{/cps}"
 
 # game/script.rpy:645
 translate spanish exploracao_dormitorios_aba611a7:
 
-    # p "{cps=30}{color=#FFFF00}Tudo aqui é moderno, mas tem um ar estranho de elegância antiga.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo aquí es moderno, pero tiene un aire extraño de elegancia antigua.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo aqui é moderno, mas tem um ar estranho de elegância antiga.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo aquí es moderno, pero tiene un aire extraño de elegancia antigua.{/color}{/cps}"
 
 # game/script.rpy:646
 translate spanish exploracao_dormitorios_ef66a1de:
 
-    # p "{cps=30}{color=#FFFF00}Quase como se fosse uma realeza disfarçada de escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Casi como si fuera la realeza disfrazada de escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quase como se fosse uma realeza disfarçada de escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Casi como si fuera la realeza disfrazada de escuela.{/color}{/cps}"
 
 # game/script.rpy:647
 translate spanish exploracao_dormitorios_c5179ade:
 
-    # p "{cps=30}{color=#FFFF00}Segundo andar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Segundo piso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Segundo andar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Segundo piso.{/color}{/cps}"
 
 # game/script.rpy:648
 translate spanish exploracao_dormitorios_8b9a1efe:
 
-    # p "{cps=30}{color=#FFFF00}Corredor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pasillo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Corredor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pasillo.{/color}{/cps}"
 
 # game/script.rpy:649
 translate spanish exploracao_dormitorios_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:650
 translate spanish exploracao_dormitorios_ff6a6aed:
 
-    # p "{cps=30}{color=#FFFF00}Encontro a porta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Encuentro la puerta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Encontro a porta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Encuentro la puerta.{/color}{/cps}"
 
 # game/script.rpy:651
 translate spanish exploracao_dormitorios_2c145837:
 
-    # p "{cps=30}{color=#FFFF00}Meu dormitório.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi dormitorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu dormitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi dormitorio.{/color}{/cps}"
 
 # game/script.rpy:652
 translate spanish exploracao_dormitorios_a376c280:
 
-    # p "{cps=30}{color=#FFFF00}Aproximo o cartão de acesso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Acerco la tarjeta de acceso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aproximo o cartão de acesso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Acerco la tarjeta de acceso.{/color}{/cps}"
 
 # game/script.rpy:653
 translate spanish exploracao_dormitorios_f61b9de9:
 
-    # p "{cps=30}{color=#FFFF00}BIP{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}BIP.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}BIP{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}BIP.{/color}{/cps}"
 
 # game/script.rpy:654
 translate spanish exploracao_dormitorios_f6934cb8:
 
-    # p "{cps=30}{color=#FFFF00}A trava se destranca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El cerrojo se destraba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A trava se destranca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El cerrojo se destraba.{/color}{/cps}"
 
 # game/script.rpy:655
 translate spanish exploracao_dormitorios_abf2c122:
 
-    # p "{cps=30}{color=#FFFF00}Respiro fundo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Respiro hondo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Respiro fundo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Respiro hondo.{/color}{/cps}"
 
 # game/script.rpy:656
 translate spanish exploracao_dormitorios_1c89ab91:
 
-    # p "{cps=30}{color=#FFFF00}E então...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y entonces...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E então...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y entonces...{/color}{/cps}"
 
 # game/script.rpy:657
 translate spanish exploracao_dormitorios_a22fc6cc:
 
-    # p "{cps=30}{color=#FFFF00}Eu entro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu entro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entro.{/color}{/cps}"
 
 # game/script.rpy:661
 translate spanish exploracao_dormitorios_f0fb8ffa:
 
-    # p "{cps=30}{color=#FFFF00}Uau!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Uau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Uau!{/color}{/cps}"
 
 # game/script.rpy:662
 translate spanish exploracao_dormitorios_ea59a9e8:
 
-    # p "{cps=30}{color=#FFFF00}É maior até do que o meu quarto!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Es incluso más grande que mi habitación!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É maior até do que o meu quarto!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Es incluso más grande que mi habitación!{/color}{/cps}"
 
 # game/script.rpy:663
 translate spanish exploracao_dormitorios_0d8f8f3c:
 
-    # p "{cps=30}{color=#FFFF00}É lindo!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Es hermoso!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É lindo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Es hermoso!{/color}{/cps}"
 
 # game/script.rpy:664
 translate spanish exploracao_dormitorios_ebfb6416:
 
-    # p "{cps=30}{color=#FFFF00}Parece que meu colega de quarto ainda não chegou.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que mi compañero de cuarto todavía no ha llegado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece que meu colega de quarto ainda não chegou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que mi compañero de cuarto todavía no ha llegado.{/color}{/cps}"
 
 # game/script.rpy:665
 translate spanish exploracao_dormitorios_9c1f8c60:
 
-    # p "{cps=30}{color=#FFFF00}Isso significa que eu posso escolher qual lado quero ficar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Eso significa que puedo elegir de qué lado quedarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso significa que eu posso escolher qual lado quero ficar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Eso significa que puedo elegir de qué lado quedarme.{/color}{/cps}"
 
 # game/script.rpy:666
 translate spanish exploracao_dormitorios_aae170fe:
 
-    # p "{cps=30}{color=#FFFF00}Hehe.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hehe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jeje.{/color}{/cps}"
 
 # game/script.rpy:667
 translate spanish exploracao_dormitorios_6d45d18b:
 
-    # p "{cps=30}{color=#FFFF00}Vou ficar com o lado esquerdo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me quedaré con el lado izquierdo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou ficar com o lado esquerdo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me quedaré con el lado izquierdo.{/color}{/cps}"
 
 # game/script.rpy:668
 translate spanish exploracao_dormitorios_ce33913e:
 
-    # p "{cps=30}{color=#FFFF00}Quando o sol nasce, a luz entra primeiro por esse lado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cuando sale el sol, la luz entra primero por este lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quando o sol nasce, a luz entra primeiro por esse lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cuando sale el sol, la luz entra primero por este lado.{/color}{/cps}"
 
 # game/script.rpy:669
 translate spanish exploracao_dormitorios_7b4f9f15:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto de acordar sentindo os raios de sol no rosto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta despertarme sintiendo los rayos de sol en la cara.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto de acordar sentindo os raios de sol no rosto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta despertarme sintiendo los rayos de sol en la cara.{/color}{/cps}"
 
 # game/script.rpy:670
 translate spanish exploracao_dormitorios_912f6277_1:
 
-    # p "{cps=30}{color=#FFFF00}Certo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Certo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bien.{/color}{/cps}"
 
 # game/script.rpy:671
 translate spanish exploracao_dormitorios_e1588a15:
 
-    # p "{cps=30}{color=#FFFF00}Hora de decorar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hora de decorar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hora de decorar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hora de decorar.{/color}{/cps}"
 
 # game/script.rpy:672
 translate spanish exploracao_dormitorios_a4496ff5:
 
-    # p "{cps=30}{color=#FFFF00}Começo arrumando minha cama.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo arreglando mi cama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo arrumando minha cama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo arreglando mi cama.{/color}{/cps}"
 
 # game/script.rpy:673
 translate spanish exploracao_dormitorios_b8653b0c:
 
-    # p "{cps=30}{color=#FFFF00}Coloco meu cobertor favorito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pongo mi manta favorita.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Coloco meu cobertor favorito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pongo mi manta favorita.{/color}{/cps}"
 
 # game/script.rpy:674
 translate spanish exploracao_dormitorios_5fe8408a:
 
-    # p "{cps=30}{color=#FFFF00}Algumas almofadas fofas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Unos cojines acojinados.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Algumas almofadas fofas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Unos cojines acojinados.{/color}{/cps}"
 
 # game/script.rpy:675
 translate spanish exploracao_dormitorios_80ccd7a9:
 
-    # p "{cps=30}{color=#FFFF00}E logo acima da cabeceira penduro vários pôsteres.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y justo arriba del cabezal cuelgo varios pósteres.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E logo acima da cabeceira penduro vários pôsteres.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y justo arriba del cabezal cuelgo varios pósteres.{/color}{/cps}"
 
 # game/script.rpy:676
 translate spanish exploracao_dormitorios_76736540:
 
-    # p "{cps=30}{color=#FFFF00}Eles não poderiam faltar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esos no podían faltar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eles não poderiam faltar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esos no podían faltar.{/color}{/cps}"
 
 # game/script.rpy:677
 translate spanish exploracao_dormitorios_dda46ac2:
 
-    # p "{cps=30}{color=#FFFF00}Na mesa de estudos coloco tantas coisas que nem consigo listar tudo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En el escritorio pongo tantas cosas que ni puedo listar todo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Na mesa de estudos coloco tantas coisas que nem consigo listar tudo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En el escritorio pongo tantas cosas que ni puedo listar todo.{/color}{/cps}"
 
 # game/script.rpy:678
 translate spanish exploracao_dormitorios_3fc9e3ee:
 
-    # p "{cps=30}{color=#FFFF00}Livros.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Libros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Livros.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Libros.{/color}{/cps}"
 
 # game/script.rpy:679
 translate spanish exploracao_dormitorios_f0a22e30:
 
-    # p "{cps=30}{color=#FFFF00}iPad.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}iPad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}iPad.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}iPad.{/color}{/cps}"
 
 # game/script.rpy:680
 translate spanish exploracao_dormitorios_02803a6e:
 
-    # p "{cps=30}{color=#FFFF00}Notebook.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Laptop.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Notebook.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Laptop.{/color}{/cps}"
 
 # game/script.rpy:681
 translate spanish exploracao_dormitorios_3a6f23d6:
 
-    # p "{cps=30}{color=#FFFF00}Porta-lápis.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cartuchera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Porta-lápis.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cartuchera.{/color}{/cps}"
 
 # game/script.rpy:682
 translate spanish exploracao_dormitorios_13e57234:
 
-    # p "{cps=30}{color=#FFFF00}Meu pegboard.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi pegboard.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu pegboard.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi pegboard.{/color}{/cps}"
 
 # game/script.rpy:683
 translate spanish exploracao_dormitorios_3f01bc6a:
 
-    # p "{cps=30}{color=#FFFF00}Tudo aquilo que costumo usar nos meus estudos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo lo que suelo usar para estudiar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo aquilo que costumo usar nos meus estudos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo lo que suelo usar para estudiar.{/color}{/cps}"
 
 # game/script.rpy:684
 translate spanish exploracao_dormitorios_5e5cfd0c:
 
-    # p "{cps=30}{color=#FFFF00}No guarda-roupa organizo minhas roupas como faço em casa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En el armario organizo mi ropa como hago en casa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}No guarda-roupa organizo minhas roupas como faço em casa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En el armario organizo mi ropa como hago en casa.{/color}{/cps}"
 
 # game/script.rpy:685
 translate spanish exploracao_dormitorios_1e9bc2e2:
 
-    # p "{cps=30}{color=#FFFF00}Mas nas portas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero en las puertas...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas nas portas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero en las puertas...{/color}{/cps}"
 
 # game/script.rpy:686
 translate spanish exploracao_dormitorios_7fd9795f:
 
-    # p "{cps=30}{color=#FFFF00}Ah, nas portas eu me divirto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah, en las puertas me divierto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, nas portas eu me divirto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah, en las puertas me divierto.{/color}{/cps}"
 
 # game/script.rpy:687
 translate spanish exploracao_dormitorios_b2dbae96:
 
-    # p "{cps=30}{color=#FFFF00}Coloco vários adesivos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pongo varias pegatinas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Coloco vários adesivos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pongo varias pegatinas.{/color}{/cps}"
 
 # game/script.rpy:688
 translate spanish exploracao_dormitorios_9fe130d4:
 
-    # p "{cps=30}{color=#FFFF00}Também instalo alguns ganchos para pendurar minhas bolsas e minha mochila.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}También instalo algunos ganchos para colgar mis bolsos y mi mochila.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Também instalo alguns ganchos para pendurar minhas bolsas e minha mochila.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}También instalo algunos ganchos para colgar mis bolsos y mi mochila.{/color}{/cps}"
 
 # game/script.rpy:689
 translate spanish exploracao_dormitorios_5e653a04:
 
-    # p "{cps=30}{color=#FFFF00}E para finalizar...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y para terminar...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E para finalizar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y para terminar...{/color}{/cps}"
 
 # game/script.rpy:690
 translate spanish exploracao_dormitorios_8f680bd0:
 
-    # p "{cps=30}{color=#FFFF00}Um tapete lindo ao lado da cama.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una alfombra hermosa al lado de la cama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um tapete lindo ao lado da cama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una alfombra hermosa al lado de la cama.{/color}{/cps}"
 
 # game/script.rpy:691
 translate spanish exploracao_dormitorios_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:692
 translate spanish exploracao_dormitorios_906123ed_1:
 
-    # p "{cps=30}{color=#FFFF00}Caramba.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:693
 translate spanish exploracao_dormitorios_2408409b:
 
-    # p "{cps=30}{color=#FFFF00}Ficou lindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quedó hermoso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ficou lindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quedó hermoso.{/color}{/cps}"
 
 # game/script.rpy:694
 translate spanish exploracao_dormitorios_54801387:
 
-    # p "{cps=30}{color=#FFFF00}Guardo minha mala sobre o guarda-roupa e dou alguns passos para trás.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Guardo mi maleta encima del armario y doy unos pasos hacia atrás.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Guardo minha mala sobre o guarda-roupa e dou alguns passos para trás.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Guardo mi maleta encima del armario y doy unos pasos hacia atrás.{/color}{/cps}"
 
 # game/script.rpy:695
 translate spanish exploracao_dormitorios_6ebd55c9:
 
-    # p "{cps=30}{color=#FFFF00}Observando tudo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Observándolo todo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Observando tudo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Observándolo todo.{/color}{/cps}"
 
 # game/script.rpy:696
 translate spanish exploracao_dormitorios_2bd36d61:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto de decorar os lugares onde vivo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta decorar los lugares donde vivo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto de decorar os lugares onde vivo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta decorar los lugares donde vivo.{/color}{/cps}"
 
 # game/script.rpy:697
 translate spanish exploracao_dormitorios_5d352c6f:
 
-    # p "{cps=30}{color=#FFFF00}Gosto de deixar partes de mim espalhadas pelo ambiente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta dejar partes de mí esparcidas por el entorno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Gosto de deixar partes de mim espalhadas pelo ambiente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta dejar partes de mí esparcidas por el entorno.{/color}{/cps}"
 
 # game/script.rpy:698
 translate spanish exploracao_dormitorios_88611b28:
 
-    # p "{cps=30}{color=#FFFF00}Minha personalidade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi personalidad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha personalidade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi personalidad.{/color}{/cps}"
 
 # game/script.rpy:699
 translate spanish exploracao_dormitorios_54e14d53:
 
-    # p "{cps=30}{color=#FFFF00}Meus gostos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mis gustos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meus gostos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mis gustos.{/color}{/cps}"
 
 # game/script.rpy:700
 translate spanish exploracao_dormitorios_d6377967:
 
-    # p "{cps=30}{color=#FFFF00}Minhas memórias.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mis recuerdos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minhas memórias.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mis recuerdos.{/color}{/cps}"
 
 # game/script.rpy:701
 translate spanish exploracao_dormitorios_4684ef1d:
 
-    # p "{cps=30}{color=#FFFF00}As pessoas podem olhar para esse quarto e perceber que eu estive aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La gente puede mirar esta habitación y darse cuenta de que estuve aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As pessoas podem olhar para esse quarto e perceber que eu estive aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La gente puede mirar esta habitación y darse cuenta de que estuve aquí.{/color}{/cps}"
 
 # game/script.rpy:702
 translate spanish exploracao_dormitorios_ca24a942:
 
-    # p "{cps=30}{color=#FFFF00}Mesmo quando eu não estiver.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Incluso cuando no esté.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mesmo quando eu não estiver.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Incluso cuando no esté.{/color}{/cps}"
 
 # game/script.rpy:703
 translate spanish exploracao_dormitorios_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:704
 translate spanish exploracao_dormitorios_02963342:
 
-    # p "{cps=30}{color=#FFFF00}Acho que são essas pequenas coisas que fazem eu ser quem sou.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que son esas pequeñas cosas las que me hacen ser quien soy.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que são essas pequenas coisas que fazem eu ser quem sou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que son esas pequeñas cosas las que me hacen ser quien soy.{/color}{/cps}"
 
 # game/script.rpy:705
 translate spanish exploracao_dormitorios_9590337a:
 
-    # p "{cps=30}{color=#FFFF00}O que devo fazer agora?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué debería hacer ahora?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que devo fazer agora?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué debería hacer ahora?{/color}{/cps}"
 
 # game/script.rpy:711
 translate spanish exploracao_campus_d9dfce43:
 
-    # p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
 
 # game/script.rpy:712
 translate spanish exploracao_campus_4b90de4e:
 
-    # p "{cps=30}{color=#FFFF00}Esse check-in realmente levou quase o dia inteiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Este registro me llevó casi todo el día.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Esse check-in realmente levou quase o dia inteiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Este registro me llevó casi todo el día.{/color}{/cps}"
 
 # game/script.rpy:713
 translate spanish exploracao_campus_05d37a99:
 
-    # p "{cps=30}{color=#FFFF00}Achei que a escola estivesse exagerando ao reservar um dia inteiro só para organizar essas coisas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pensé que la escuela exageraba al reservar un día entero solo para organizar estas cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Achei que a escola estivesse exagerando ao reservar um dia inteiro só para organizar essas coisas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pensé que la escuela exageraba al reservar un día entero solo para organizar estas cosas.{/color}{/cps}"
 
 # game/script.rpy:714
 translate spanish exploracao_campus_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:715
 translate spanish exploracao_campus_ee6c2379:
 
-    # p "{cps=30}{color=#FFFF00}Agora eu entendo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora lo entiendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora eu entendo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora lo entiendo.{/color}{/cps}"
 
 # game/script.rpy:716
 translate spanish exploracao_campus_cb99acd6:
 
-    # p "{cps=30}{color=#FFFF00}Realmente não é algo que se faça em poucos minutos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No es algo que se pueda hacer en unos minutos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Realmente não é algo que se faça em poucos minutos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No es algo que se pueda hacer en unos minutos.{/color}{/cps}"
 
 # game/script.rpy:717
 translate spanish exploracao_campus_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:718
 translate spanish exploracao_campus_fa2ecbe1:
 
-    # p "{cps=30}{color=#FFFF00}Ainda tenho um tempinho antes do horário de ir para a casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía tengo algo de tiempo antes de ir al baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ainda tenho um tempinho antes do horário de ir para a casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía tengo algo de tiempo antes de ir al baño.{/color}{/cps}"
 
 # game/script.rpy:719
 translate spanish exploracao_campus_ce5acfe3:
 
-    # p "{cps=30}{color=#FFFF00}Acho que posso aproveitar para conhecer um pouco mais do campus.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que puedo aprovechar para familiarizarme un poco más con el campus.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que posso aproveitar para conhecer um pouco mais do campus.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que puedo aprovechar para familiarizarme un poco más con el campus.{/color}{/cps}"
 
 # game/script.rpy:720
 translate spanish exploracao_campus_4bdd954a:
 
-    # p "{cps=30}{color=#FFFF00}Afinal...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de todo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Afinal...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de todo...{/color}{/cps}"
 
 # game/script.rpy:721
 translate spanish exploracao_campus_d91fd2a6:
 
-    # p "{cps=30}{color=#FFFF00}É assim que um lugar desconhecido começa a se tornar familiar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así es como un lugar desconocido empieza a ser familiar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É assim que um lugar desconhecido começa a se tornar familiar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así es como un lugar desconocido empieza a ser familiar.{/color}{/cps}"
 
 # game/script.rpy:722
 translate spanish exploracao_campus_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:723
 translate spanish exploracao_campus_8fe90904:
 
-    # p "{cps=30}{color=#FFFF00}Hum...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hum...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm...{/color}{/cps}"
 
 # game/script.rpy:724
 translate spanish exploracao_campus_029b69e6:
 
-    # p "{cps=30}{color=#FFFF00}Eu poderia comer alguma coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Podría comer algo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu poderia comer alguma coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Podría comer algo.{/color}{/cps}"
 
 # game/script.rpy:725
 translate spanish exploracao_campus_1f9bde8e:
 
-    # p "{cps=30}{color=#FFFF00}Ou conhecer as quadras!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡O ir a ver las canchas deportivas!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ou conhecer as quadras!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡O ir a ver las canchas deportivas!{/color}{/cps}"
 
 # game/script.rpy:726
 translate spanish exploracao_campus_82cf9fbd:
 
-    # p "{cps=30}{color=#FFFF00}Já que vou passar bastante tempo por lá por causa da rotina que escolhi.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya que pasaré mucho tiempo allí por la rutina que elegí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já que vou passar bastante tempo por lá por causa da rotina que escolhi.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya que pasaré mucho tiempo allí por la rutina que elegí.{/color}{/cps}"
 
 # game/script.rpy:727
 translate spanish exploracao_campus_9978e038:
 
-    # p "{cps=30}{color=#FFFF00}Também poderia voltar para aquela biblioteca gigantesca...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}También podría volver a esa biblioteca gigantesca...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Também poderia voltar para aquela biblioteca gigantesca...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}También podría volver a esa biblioteca gigantesca...{/color}{/cps}"
 
 # game/script.rpy:728
 translate spanish exploracao_campus_f238d181:
 
-    # p "{cps=30}{color=#FFFF00}Ela é tão linda...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es tan bonita...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é tão linda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es tan bonita...{/color}{/cps}"
 
 # game/script.rpy:729
 translate spanish exploracao_campus_f0043206:
 
-    # p "{cps=30}{color=#FFFF00}Mas a área dos dormitórios também chamou bastante a minha atenção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero la zona de las residencias también me llamó la atención.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas a área dos dormitórios também chamou bastante a minha atenção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero la zona de las residencias también me llamó la atención.{/color}{/cps}"
 
 # game/script.rpy:730
 translate spanish exploracao_campus_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:731
 translate spanish exploracao_campus_8a8b478b:
 
-    # p "{cps=30}{color=#FFFF00}Caramba...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:732
 translate spanish exploracao_campus_0491cc2f:
 
-    # p "{cps=30}{color=#FFFF00}São tantas opções para tão pouco tempo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tantas opciones para tan poco tiempo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}São tantas opções para tão pouco tempo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tantas opciones para tan poco tiempo...{/color}{/cps}"
 
 # game/script.rpy:733
 translate spanish exploracao_campus_aae170fe:
 
-    # p "{cps=30}{color=#FFFF00}Hehe.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hehe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jeje.{/color}{/cps}"
 
 # game/script.rpy:734
 translate spanish exploracao_campus_70b67d77:
 
-    # p "{cps=30}{color=#FFFF00}Tudo bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está bien.{/color}{/cps}"
 
 # game/script.rpy:735
 translate spanish exploracao_campus_297c00aa:
 
-    # p "{cps=30}{color=#FFFF00}Vou estudar aqui pelos próximos três anos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estudiaré aquí durante los próximos tres años.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou estudar aqui pelos próximos três anos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estudiaré aquí durante los próximos tres años.{/color}{/cps}"
 
 # game/script.rpy:736
 translate spanish exploracao_campus_8f21ce0c:
 
-    # p "{cps=30}{color=#FFFF00}Não preciso conhecer o mundo inteiro logo no primeiro dia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No necesito verlo todo el mundo el primer día.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não preciso conhecer o mundo inteiro logo no primeiro dia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No necesito verlo todo el mundo el primer día.{/color}{/cps}"
 
 # game/script.rpy:737
 translate spanish exploracao_campus_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:738
 translate spanish exploracao_campus_912f6277:
 
-    # p "{cps=30}{color=#FFFF00}Certo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Certo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bien.{/color}{/cps}"
 
 # game/script.rpy:739
 translate spanish exploracao_campus_8f1cd4e0:
 
-    # p "{cps=30}{color=#FFFF00}Já sei para onde vou.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya sé adónde voy.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já sei para onde vou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya sé adónde voy.{/color}{/cps}"
 
 # game/script.rpy:740
 translate spanish exploracao_campus_bf90280b:
 
-    # p "{cps=30}{color=#FFFF00}Agora eu vou...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora voy a…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora eu vou...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora voy a…{/color}{/cps}"
 
 # game/script.rpy:756
 translate spanish passeio_praca_4dfbc013:
 
-    # p "{cps=30}{color=#FFFF00}Vou comer!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Voy a comer!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou comer!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Voy a comer!{/color}{/cps}"
 
 # game/script.rpy:757
 translate spanish passeio_praca_e97c0750:
 
-    # p "{cps=30}{color=#FFFF00}É isso!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Eso es!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É isso!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Eso es!{/color}{/cps}"
 
 # game/script.rpy:758
 translate spanish passeio_praca_1e008235:
 
-    # p "{cps=30}{color=#FFFF00}Estou morrendo de fome...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me muero de hambre…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou morrendo de fome...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me muero de hambre…{/color}{/cps}"
 
 # game/script.rpy:759
 translate spanish passeio_praca_cf3d6db3:
 
-    # p "{cps=30}{color=#FFFF00}A exploração oficial do campus pode ficar para outro dia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La exploración oficial del campus puede quedar para otro día.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A exploração oficial do campus pode ficar para outro dia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La exploración oficial del campus puede quedar para otro día.{/color}{/cps}"
 
 # game/script.rpy:760
 translate spanish passeio_praca_8f5d9c30:
 
-    # p "{cps=30}{color=#FFFF00}Certo!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Certo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bien.{/color}{/cps}"
 
 # game/script.rpy:761
 translate spanish passeio_praca_d25a33c3:
 
-    # p "{cps=30}{color=#FFFF00}Vamos lá!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vamos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vamos lá!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vamos.{/color}{/cps}"
 
 # game/script.rpy:762
 translate spanish passeio_praca_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:763
 translate spanish passeio_praca_50243f20:
 
-    # p "{cps=30}{color=#FFFF00}Sigo o mapa até a praça de alimentação.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sigo el mapa hasta el patio de comidas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sigo o mapa até a praça de alimentação.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sigo el mapa hasta el patio de comidas.{/color}{/cps}"
 
 # game/script.rpy:764
 translate spanish passeio_praca_7b034b3a:
 
-    # p "{cps=30}{color=#FFFF00}Mesmo sendo fim de tarde, o lugar continua movimentado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Incluso a última hora de la tarde, el lugar sigue lleno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mesmo sendo fim de tarde, o lugar continua movimentado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Incluso a última hora de la tarde, el lugar sigue lleno.{/color}{/cps}"
 
 # game/script.rpy:765
 translate spanish passeio_praca_7e23fa7e:
 
-    # p "{cps=30}{color=#FFFF00}Há alunos conversando, outros estudando enquanto fazem um lanche.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay estudiantes conversando, otros estudiando mientras meriendan.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Há alunos conversando, outros estudando enquanto fazem um lanche.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay estudiantes conversando, otros estudiando mientras meriendan.{/color}{/cps}"
 
 # game/script.rpy:766
 translate spanish passeio_praca_e2f099f1:
 
-    # p "{cps=30}{color=#FFFF00}E um aroma delicioso de café recém-passado toma conta do ambiente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y un aroma delicioso a café recién hecho llena el lugar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E um aroma delicioso de café recém-passado toma conta do ambiente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y un aroma delicioso a café recién hecho llena el lugar.{/color}{/cps}"
 
 # game/script.rpy:767
 translate spanish passeio_praca_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:768
 translate spanish passeio_praca_e37b71f5:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:769
 translate spanish passeio_praca_19d014a8:
 
-    # p "{cps=30}{color=#FFFF00}Que cheiro bom...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Qué bien huele!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que cheiro bom...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Qué bien huele!{/color}{/cps}"
 
 # game/script.rpy:770
 translate spanish passeio_praca_53998223:
 
-    # p "{cps=30}{color=#FFFF00}Meus olhos acabam parando em uma pequena cafeteria.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mis ojos terminan posándose en una pequeña cafetería.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meus olhos acabam parando em uma pequena cafeteria.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mis ojos terminan posándose en una pequeña cafetería.{/color}{/cps}"
 
 # game/script.rpy:771
 translate spanish passeio_praca_557421ea:
 
-    # p "{cps=30}{color=#FFFF00}Uma placa de madeira acima da entrada diz:{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un letrero de madera sobre la entrada dice:{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma placa de madeira acima da entrada diz:{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un letrero de madera sobre la entrada dice:{/color}{/cps}"
 
 # game/script.rpy:772
 translate spanish passeio_praca_7f52a49c:
 
-    # p "{cps=30}{color=#FFFF00}Maison Café.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Maison Cafe?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Maison Café.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Maison Cafe?{/color}{/cps}"
 
 # game/script.rpy:773
 translate spanish passeio_praca_ec1086b3:
 
-    # p "{cps=30}{color=#FFFF00}Que nome bonito...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué nombre tan bonito...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que nome bonito...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué nombre tan bonito...{/color}{/cps}"
 
 # game/script.rpy:774
 translate spanish passeio_praca_5ea44b3e:
 
-    # p "{cps=30}{color=#FFFF00}A decoração também é um charme.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La decoración también es un encanto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A decoração também é um charme.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La decoración también es un encanto.{/color}{/cps}"
 
 # game/script.rpy:775
 translate spanish passeio_praca_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:776
 translate spanish passeio_praca_69e95e8b:
 
-    # p "{cps=30}{color=#FFFF00}Eu poderia jantar...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Podría cenar...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu poderia jantar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Podría cenar...{/color}{/cps}"
 
 # game/script.rpy:777
 translate spanish passeio_praca_b112fc9c:
 
-    # p "{cps=30}{color=#FFFF00}Mas acho melhor comer só alguma coisa leve.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero creo que mejor como algo ligero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas acho melhor comer só alguma coisa leve.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero creo que mejor como algo ligero.{/color}{/cps}"
 
 # game/script.rpy:778
 translate spanish passeio_praca_46282ccb:
 
-    # p "{cps=30}{color=#FFFF00}Não estou com muita fome.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo mucha hambre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não estou com muita fome.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo mucha hambre.{/color}{/cps}"
 
 # game/script.rpy:779
 translate spanish passeio_praca_ecdd8925:
 
-    # p "{cps=30}{color=#FFFF00}Entro na fila e, alguns minutos depois, finalmente chega minha vez.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me formo en la fila y, unos minutos después, por fin llega mi turno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entro na fila e, alguns minutos depois, finalmente chega minha vez.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me formo en la fila y, unos minutos después, por fin llega mi turno.{/color}{/cps}"
 
 # game/script.rpy:780
 translate spanish passeio_praca_b6511644:
@@ -3147,20 +3147,20 @@ translate spanish passeio_praca_201b17e0:
 # game/script.rpy:782
 translate spanish passeio_praca_e39e7c54:
 
-    # p "{cps=30}{color=#FFFF00}Boa tarde!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cajero: ¡Buenas tardes!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Boa tarde!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cajero: ¡Buenas tardes!{/color}{/cps}"
 
 # game/script.rpy:783
 translate spanish passeio_praca_8fe90904:
 
-    # p "{cps=30}{color=#FFFF00}Hum...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hum...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm...{/color}{/cps}"
 
 # game/script.rpy:784
 translate spanish passeio_praca_0c4c6574:
 
-    # p "{cps=30}{color=#FFFF00}Eu gostaria de uma fatia de torta de mirtilo e um chococino, por favor!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Quiero una porción de tarta de arándanos y un chococino, por favor!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gostaria de uma fatia de torta de mirtilo e um chococino, por favor!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Quiero una porción de tarta de arándanos y un chococino, por favor!{/color}{/cps}"
 
 # game/script.rpy:785
 translate spanish passeio_praca_45c32297:
@@ -3177,110 +3177,110 @@ translate spanish passeio_praca_fa424436:
 # game/script.rpy:787
 translate spanish passeio_praca_c6304e20:
 
-    # p "{cps=30}{color=#FFFF00}Vou comer aqui mesmo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Comer aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou comer aqui mesmo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Comer aquí.{/color}{/cps}"
 
 # game/script.rpy:788
 translate spanish passeio_praca_80c64504:
 
-    # p "{cps=30}{color=#FFFF00}Faço o pagamento e pego minha bandeja.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pago y tomo mi bandeja. Me siento en una mesa encantadora cerca de la ventana{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Faço o pagamento e pego minha bandeja.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pago y tomo mi bandeja. Me siento en una mesa encantadora cerca de la ventana{/color}{/cps}"
 
 # game/script.rpy:789
 translate spanish passeio_praca_8374efc0:
 
-    # p "{cps=30}{color=#FFFF00}Acabo escolhendo uma pequena mesa para duas pessoas perto da janela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Termino eligiendo una mesita para dos junto a la ventana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acabo escolhendo uma pequena mesa para duas pessoas perto da janela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Termino eligiendo una mesita para dos junto a la ventana.{/color}{/cps}"
 
 # game/script.rpy:790
 translate spanish passeio_praca_42f10cc8:
 
-    # p "{cps=30}{color=#FFFF00}A luz do fim da tarde deixa o ambiente ainda mais bonito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La luz del atardecer hace que el lugar se vea aún más bonito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A luz do fim da tarde deixa o ambiente ainda mais bonito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La luz del atardecer hace que el lugar se vea aún más bonito.{/color}{/cps}"
 
 # game/script.rpy:791
 translate spanish passeio_praca_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:792
 translate spanish passeio_praca_26225005:
 
-    # p "{cps=30}{color=#FFFF00}Certo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Certo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bien.{/color}{/cps}"
 
 # game/script.rpy:793
 translate spanish passeio_praca_784a55d6:
 
-    # p "{cps=30}{color=#FFFF00}Hora da verdade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hora de la verdad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hora da verdade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hora de la verdad.{/color}{/cps}"
 
 # game/script.rpy:794
 translate spanish passeio_praca_4976ddbc:
 
-    # p "{cps=30}{color=#FFFF00}Dou uma pequena garfada na torta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Le doy un pequeño bocado a la tarta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dou uma pequena garfada na torta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Le doy un pequeño bocado a la tarta.{/color}{/cps}"
 
 # game/script.rpy:795
 translate spanish passeio_praca_7c5f4c22:
 
-    # p "{cps=30}{color=#FFFF00}NHAC{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}ÑAM{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}NHAC{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}ÑAM{/color}{/cps}"
 
 # game/script.rpy:796
 translate spanish passeio_praca_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:797
 translate spanish passeio_praca_b8bea544:
 
-    # p "{cps=30}{color=#FFFF00}!!!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}!!!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:798
 translate spanish passeio_praca_e37b71f5_1:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:799
 translate spanish passeio_praca_1df06dac:
 
-    # p "{cps=30}{color=#FFFF00}Que delícia!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Qué rico!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que delícia!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Qué rico!{/color}{/cps}"
 
 # game/script.rpy:800
 translate spanish passeio_praca_d573c52c:
 
-    # p "{cps=30}{color=#FFFF00}A massa é tão leve...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La masa es tan ligera...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A massa é tão leve...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La masa es tan ligera...{/color}{/cps}"
 
 # game/script.rpy:801
 translate spanish passeio_praca_79793e2c:
 
-    # p "{cps=30}{color=#FFFF00}E o recheio de mirtilo é perfeito!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Y el relleno de arándano es perfecto!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E o recheio de mirtilo é perfeito!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Y el relleno de arándano es perfecto!{/color}{/cps}"
 
 # game/script.rpy:802
 translate spanish passeio_praca_56956f55:
 
-    # p "{cps=30}{color=#FFFF00}Com certeza vou voltar aqui mais vezes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sin duda voy a volver más veces.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Com certeza vou voltar aqui mais vezes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sin duda voy a volver más veces.{/color}{/cps}"
 
 # game/script.rpy:803
 translate spanish passeio_praca_0a3f417a:
 
-    # p "{cps=30}{color=#FFFF00}E de repente...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y de repente...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E de repente...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y de repente...{/color}{/cps}"
 
 # game/script.rpy:804
 translate spanish passeio_praca_fd06efa3:
 
-    # p "{cps=30}{color=#FFFF00}Escuto uma voz feminina ao meu lado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Escucho una voz femenina a mi lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Escuto uma voz feminina ao meu lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Escucho una voz femenina a mi lado.{/color}{/cps}"
 
 # game/script.rpy:805
 translate spanish passeio_praca_00fa80a0:
@@ -3303,20 +3303,20 @@ translate spanish passeio_praca_aa514b53:
 # game/script.rpy:808
 translate spanish passeio_praca_f346b1ef:
 
-    # p "{cps=30}{color=#FFFF00}Pode sim!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau! ¡Está delicioso! La masa es ligera y el relleno perfecto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pode sim!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau! ¡Está delicioso! La masa es ligera y el relleno perfecto.{/color}{/cps}"
 
 # game/script.rpy:809
 translate spanish passeio_praca_8df589af:
 
-    # p "{cps=30}{color=#FFFF00}A garota abre um sorriso gentil antes de apoiar sua bandeja sobre a mesa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La chica sonríe con amabilidad antes de apoyar su bandeja en la mesa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A garota abre um sorriso gentil antes de apoiar sua bandeja sobre a mesa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La chica sonríe con amabilidad antes de apoyar su bandeja en la mesa.{/color}{/cps}"
 
 # game/script.rpy:810
 translate spanish passeio_praca_a84eadbc:
 
-    # p "{cps=30}{color=#FFFF00}Ela ajeita a cadeira e se senta à minha frente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Acomoda la silla y se sienta frente a mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela ajeita a cadeira e se senta à minha frente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Acomoda la silla y se sienta frente a mí.{/color}{/cps}"
 
 # game/script.rpy:811
 translate spanish passeio_praca_3af7837a:
@@ -3339,14 +3339,14 @@ translate spanish passeio_praca_c1e96196:
 # game/script.rpy:814
 translate spanish passeio_praca_386867b9:
 
-    # p "{cps=30}{color=#FFFF00}Eu sou a Kiyoki, prazer!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Eh?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou a Kiyoki, prazer!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Eh?{/color}{/cps}"
 
 # game/script.rpy:815
 translate spanish passeio_praca_f9fcdd8c:
 
-    # p "{cps=30}{color=#FFFF00}Também sou do primeiro ano.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Quién es ella?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Também sou do primeiro ano.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Quién es ella?{/color}{/cps}"
 
 # game/script.rpy:816
 translate spanish passeio_praca_f0b70bf3:
@@ -3363,8 +3363,8 @@ translate spanish passeio_praca_99f9d238:
 # game/script.rpy:818
 translate spanish passeio_praca_047b5c51:
 
-    # p "{cps=30}{color=#FFFF00}Sério?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿En serio?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sério?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿En serio?{/color}{/cps}"
 
 # game/script.rpy:819
 translate spanish passeio_praca_0ac8525f:
@@ -3387,20 +3387,20 @@ translate spanish passeio_praca_43892ffe:
 # game/script.rpy:822
 translate spanish passeio_praca_aea6ed70:
 
-    # p "{cps=30}{color=#FFFF00}Hahaha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jajaja...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hahaha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jajaja...{/color}{/cps}"
 
 # game/script.rpy:823
 translate spanish passeio_praca_45998563:
 
-    # p "{cps=30}{color=#FFFF00}Então nós duas demos sorte.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces las dos tuvimos suerte.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então nós duas demos sorte.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces las dos tuvimos suerte.{/color}{/cps}"
 
 # game/script.rpy:824
 translate spanish passeio_praca_3ee867ae:
 
-    # p "{cps=30}{color=#FFFF00}Eu também ainda não conheço ninguém.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Yo tampoco conozco a nadie todavía.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu também ainda não conheço ninguém.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yo tampoco conozco a nadie todavía.{/color}{/cps}"
 
 # game/script.rpy:825
 translate spanish passeio_praca_59078ba3:
@@ -3417,26 +3417,26 @@ translate spanish passeio_praca_8c7ce0bc:
 # game/script.rpy:827
 translate spanish passeio_praca_de1b4c91:
 
-    # p "{cps=30}{color=#FFFF00}Claro!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Claro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Claro!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Claro.{/color}{/cps}"
 
 # game/script.rpy:828
 translate spanish passeio_praca_d8f239a9:
 
-    # p "{cps=30}{color=#FFFF00}Acho que é um ótimo começo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que es un excelente comienzo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que é um ótimo começo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que es un excelente comienzo.{/color}{/cps}"
 
 # game/script.rpy:829
 translate spanish passeio_praca_bab3b31e:
 
-    # p "{cps=30}{color=#FFFF00}As duas sorrimos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ambos nos reímos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As duas sorrimos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ambos nos reímos.{/color}{/cps}"
 
 # game/script.rpy:830
 translate spanish passeio_praca_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:831
 translate spanish passeio_praca_ab0c111b:
@@ -3453,32 +3453,32 @@ translate spanish passeio_praca_4412d646:
 # game/script.rpy:833
 translate spanish passeio_praca_f94279e4:
 
-    # p "{cps=30}{color=#FFFF00}Eu adorei!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Me encantó!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu adorei!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Me encantó!{/color}{/cps}"
 
 # game/script.rpy:834
 translate spanish passeio_praca_48207412:
 
-    # p "{cps=30}{color=#FFFF00}Ela é muito maior do que eu imaginava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esto es mucho más grande de lo que imaginaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é muito maior do que eu imaginava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esto es mucho más grande de lo que imaginaba.{/color}{/cps}"
 
 # game/script.rpy:835
 translate spanish passeio_praca_c6977c78:
 
-    # p "{cps=30}{color=#FFFF00}Passei o dia inteiro resolvendo documentos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me pasé todo el día haciendo devoluciones...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Passei o dia inteiro resolvendo documentos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me pasé todo el día haciendo devoluciones...{/color}{/cps}"
 
 # game/script.rpy:836
 translate spanish passeio_praca_4444c448:
 
-    # p "{cps=30}{color=#FFFF00}Conhecendo os armários e arrumando meu dormitório...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Conociendo los casilleros y acomodando mi dormitorio...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Conhecendo os armários e arrumando meu dormitório...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Conociendo los casilleros y acomodando mi dormitorio...{/color}{/cps}"
 
 # game/script.rpy:837
 translate spanish passeio_praca_432f1586:
 
-    # p "{cps=30}{color=#FFFF00}E mesmo assim sinto que conheci só uma pequena parte daqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y aun así siento que conocí solo una pequeña parte de todo esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E mesmo assim sinto que conheci só uma pequena parte daqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y aun así siento que conocí solo una pequeña parte de todo esto.{/color}{/cps}"
 
 # game/script.rpy:838
 translate spanish passeio_praca_bd501299:
@@ -3495,32 +3495,32 @@ translate spanish passeio_praca_e14cea49:
 # game/script.rpy:840
 translate spanish passeio_praca_22407bba:
 
-    # p "{cps=30}{color=#FFFF00}Sim!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sim!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí.{/color}{/cps}"
 
 # game/script.rpy:841
 translate spanish passeio_praca_752304a9:
 
-    # p "{cps=30}{color=#FFFF00}Tem mercado...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay supermercado...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tem mercado...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay supermercado...{/color}{/cps}"
 
 # game/script.rpy:842
 translate spanish passeio_praca_0a28aab7:
 
-    # p "{cps=30}{color=#FFFF00}Áreas esportivas..{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Áreas deportivas..{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Áreas esportivas..{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Áreas deportivas..{/color}{/cps}"
 
 # game/script.rpy:843
 translate spanish passeio_praca_b0bb060f:
 
-    # p "{cps=30}{color=#FFFF00}Biblioteca gigantesca...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una biblioteca gigantesca...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Biblioteca gigantesca...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una biblioteca gigantesca...{/color}{/cps}"
 
 # game/script.rpy:844
 translate spanish passeio_praca_887dbaab:
 
-    # p "{cps=30}{color=#FFFF00}Eu nem sei por onde começar a explorar amanhã.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ni sé por dónde empezar a explorar mañana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu nem sei por onde começar a explorar amanhã.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ni sé por dónde empezar a explorar mañana.{/color}{/cps}"
 
 # game/script.rpy:845
 translate spanish passeio_praca_668934d5:
@@ -3537,20 +3537,20 @@ translate spanish passeio_praca_b1d2fc16:
 # game/script.rpy:847
 translate spanish passeio_praca_e59fa147:
 
-    # p "{cps=30}{color=#FFFF00}Verdade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muchas gracias por tu ayuda, Lucien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Verdade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muchas gracias por tu ayuda, Lucien.{/color}{/cps}"
 
 # game/script.rpy:848
 translate spanish passeio_praca_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:849
 translate spanish passeio_praca_1b38949b:
 
-    # p "{cps=30}{color=#FFFF00}Você já conheceu seu colega de quarto?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Claro! Es un buen comienzo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você já conheceu seu colega de quarto?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Claro! Es un buen comienzo.{/color}{/cps}"
 
 # game/script.rpy:850
 translate spanish passeio_praca_0a576136:
@@ -3567,14 +3567,14 @@ translate spanish passeio_praca_c9fa898c:
 # game/script.rpy:852
 translate spanish passeio_praca_4a50a932:
 
-    # p "{cps=30}{color=#FFFF00}O meu também ainda não apareceu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Increíble!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O meu também ainda não apareceu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Increíble!{/color}{/cps}"
 
 # game/script.rpy:853
 translate spanish passeio_praca_e052856c:
 
-    # p "{cps=30}{color=#FFFF00}Estou curiosa para saber quem é.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo curiosidad por saber quién es.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou curiosa para saber quem é.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo curiosidad por saber quién es.{/color}{/cps}"
 
 # game/script.rpy:854
 translate spanish passeio_praca_f0b70bf3_1:
@@ -3591,20 +3591,20 @@ translate spanish passeio_praca_79416a6b:
 # game/script.rpy:856
 translate spanish passeio_praca_53036e04:
 
-    # p "{cps=30}{color=#FFFF00}Eu também!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Yo también!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu também!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Yo también!{/color}{/cps}"
 
 # game/script.rpy:857
 translate spanish passeio_praca_6ecef692:
 
-    # p "{cps=30}{color=#FFFF00}As duas damos risada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las dos nos reímos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As duas damos risada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las dos nos reímos.{/color}{/cps}"
 
 # game/script.rpy:858
 translate spanish passeio_praca_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:859
 translate spanish passeio_praca_c570b6d9:
@@ -3627,8 +3627,8 @@ translate spanish passeio_praca_6a837d02:
 # game/script.rpy:862
 translate spanish passeio_praca_44704e95:
 
-    # p "{cps=30}{color=#FFFF00}Uma história?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Una historia?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma história?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Una historia?{/color}{/cps}"
 
 # game/script.rpy:863
 translate spanish passeio_praca_c35ea64b:
@@ -3645,8 +3645,8 @@ translate spanish passeio_praca_7575a7f8:
 # game/script.rpy:865
 translate spanish passeio_praca_7fcce3b8:
 
-    # p "{cps=30}{color=#FFFF00}Conta!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Cuéntame!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Conta!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Cuéntame!{/color}{/cps}"
 
 # game/script.rpy:866
 translate spanish passeio_praca_37c0e11f:
@@ -3663,8 +3663,8 @@ translate spanish passeio_praca_94179c10:
 # game/script.rpy:868
 translate spanish passeio_praca_0a4b5865:
 
-    # p "{cps=30}{color=#FFFF00}Ah, conta vai!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ay, cuéntame, anda!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, conta vai!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ay, cuéntame, anda!{/color}{/cps}"
 
 # game/script.rpy:869
 translate spanish passeio_praca_a7a04882:
@@ -3675,14 +3675,14 @@ translate spanish passeio_praca_a7a04882:
 # game/script.rpy:870
 translate spanish passeio_praca_9665c1ac:
 
-    # p "{cps=30}{color=#FFFF00}Justamente por isso!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Justo por eso!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Justamente por isso!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Justo por eso!{/color}{/cps}"
 
 # game/script.rpy:871
 translate spanish passeio_praca_34b03768:
 
-    # p "{cps=30}{color=#FFFF00}Agora eu fiquei curiosa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora me dio curiosidad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora eu fiquei curiosa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora me dio curiosidad.{/color}{/cps}"
 
 # game/script.rpy:872
 translate spanish passeio_praca_4cd6469d:
@@ -3693,26 +3693,26 @@ translate spanish passeio_praca_4cd6469d:
 # game/script.rpy:873
 translate spanish passeio_praca_a628e5a6:
 
-    # p "{cps=30}{color=#FFFF00}Não mesmo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Para nada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não mesmo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Para nada.{/color}{/cps}"
 
 # game/script.rpy:874
 translate spanish passeio_praca_03907fdf:
 
-    # p "{cps=30}{color=#FFFF00}Agora você vai ter que contar!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ahora vas a tener que contarme!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora você vai ter que contar!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ahora vas a tener que contarme!{/color}{/cps}"
 
 # game/script.rpy:875
 translate spanish passeio_praca_580c7631:
 
-    # p "{cps=30}{color=#FFFF00}Madelin sorri e cruza os braços.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Madelin sonríe y cruza los brazos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Madelin sorri e cruza os braços.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Madelin sonríe y cruza los brazos.{/color}{/cps}"
 
 # game/script.rpy:876
 translate spanish passeio_praca_0983ee88:
 
-    # p "{cps=30}{color=#FFFF00}Finge pensar por alguns segundos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Kain piensa durante unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Finge pensar por alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Kain piensa durante unos segundos.{/color}{/cps}"
 
 # game/script.rpy:877
 translate spanish passeio_praca_a48ee9c4:
@@ -3729,8 +3729,8 @@ translate spanish passeio_praca_ac52fb6a:
 # game/script.rpy:879
 translate spanish passeio_praca_00850a60:
 
-    # p "{cps=30}{color=#FFFF00}Beleza!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Va!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Beleza!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Va!{/color}{/cps}"
 
 # game/script.rpy:880
 translate spanish passeio_praca_b0d442d0:
@@ -3765,32 +3765,32 @@ translate spanish passeio_praca_2d87a8ce:
 # game/script.rpy:885
 translate spanish passeio_praca_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:886
 translate spanish passeio_praca_c229567a:
 
-    # p "{cps=30}{color=#FFFF00}Silêncio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Silencio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Silêncio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Silencio.{/color}{/cps}"
 
 # game/script.rpy:887
 translate spanish passeio_praca_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:888
 translate spanish passeio_praca_eae13ef7:
 
-    # p "{cps=30}{color=#FFFF00}Tá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya.{/color}{/cps}"
 
 # game/script.rpy:889
 translate spanish passeio_praca_e9b37cfe:
 
-    # p "{cps=30}{color=#FFFF00}Eu oficialmente desisti de conhecer o Clube de Jardinagem à noite.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Oficialmente renuncié a conocer el Club de Jardinería de noche.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu oficialmente desisti de conhecer o Clube de Jardinagem à noite.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Oficialmente renuncié a conocer el Club de Jardinería de noche.{/color}{/cps}"
 
 # game/script.rpy:890
 translate spanish passeio_praca_6fc62fdc:
@@ -3807,62 +3807,62 @@ translate spanish passeio_praca_1d264563:
 # game/script.rpy:892
 translate spanish passeio_praca_d58dcba2:
 
-    # p "{cps=30}{color=#FFFF00}Eu não tenho medo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo miedo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não tenho medo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo miedo.{/color}{/cps}"
 
 # game/script.rpy:893
 translate spanish passeio_praca_63dc3226:
 
-    # p "{cps=30}{color=#FFFF00}Só...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo...{/color}{/cps}"
 
 # game/script.rpy:894
 translate spanish passeio_praca_977c3726:
 
-    # p "{cps=30}{color=#FFFF00}Acho que alguns passeios podem esperar até de manhã.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que algunos paseos pueden esperar hasta la mañana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que alguns passeios podem esperar até de manhã.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que algunos paseos pueden esperar hasta la mañana.{/color}{/cps}"
 
 # game/script.rpy:895
 translate spanish passeio_praca_21743bac:
 
-    # p "{cps=30}{color=#FFFF00}As duas começamos a rir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las dos empezamos a reír.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As duas começamos a rir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las dos empezamos a reír.{/color}{/cps}"
 
 # game/script.rpy:896
 translate spanish passeio_praca_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:897
 translate spanish passeio_praca_c71c40eb:
 
-    # p "{cps=30}{color=#FFFF00}Termino o último pedaço da torta e tomo o restante do meu chococino.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Termino el último pedazo de tarta y me tomo lo que queda de mi chococino.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Termino o último pedaço da torta e tomo o restante do meu chococino.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Termino el último pedazo de tarta y me tomo lo que queda de mi chococino.{/color}{/cps}"
 
 # game/script.rpy:898
 translate spanish passeio_praca_3c147d59:
 
-    # p "{cps=30}{color=#FFFF00}Ah!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
 
 # game/script.rpy:899
 translate spanish passeio_praca_809c78ff:
 
-    # p "{cps=30}{color=#FFFF00}Quase me esqueci...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Casi lo olvido...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quase me esqueci...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Casi lo olvido...{/color}{/cps}"
 
 # game/script.rpy:900
 translate spanish passeio_praca_8e500802:
 
-    # p "{cps=30}{color=#FFFF00}O horário da casa de banho já deve ter começado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El horario de la casa de baños ya debe haber empezado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O horário da casa de banho já deve ter começado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El horario de la casa de baños ya debe haber empezado.{/color}{/cps}"
 
 # game/script.rpy:901
 translate spanish passeio_praca_9e124ae2:
 
-    # p "{cps=30}{color=#FFFF00}Acho melhor eu ir antes que fique cheia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor voy antes de que se llene.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho melhor eu ir antes que fique cheia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor voy antes de que se llene.{/color}{/cps}"
 
 # game/script.rpy:902
 translate spanish passeio_praca_bd64baf6:
@@ -3885,8 +3885,8 @@ translate spanish passeio_praca_4d6951b8:
 # game/script.rpy:905
 translate spanish passeio_praca_823e25f8:
 
-    # p "{cps=30}{color=#FFFF00}Então nos vemos por aí!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Entonces nos vemos por ahí!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então nos vemos por aí!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Entonces nos vemos por ahí!{/color}{/cps}"
 
 # game/script.rpy:906
 translate spanish passeio_praca_b6dd8ad6:
@@ -3903,14 +3903,14 @@ translate spanish passeio_praca_500a6e09:
 # game/script.rpy:908
 translate spanish passeio_praca_71055d73:
 
-    # p "{cps=30}{color=#FFFF00}O prazer foi meu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El placer fue mío.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O prazer foi meu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El placer fue mío.{/color}{/cps}"
 
 # game/script.rpy:909
 translate spanish passeio_praca_902a41aa:
 
-    # p "{cps=30}{color=#FFFF00}Até mais, Madelin!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Hasta luego, Madelin!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até mais, Madelin!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Hasta luego, Madelin!{/color}{/cps}"
 
 # game/script.rpy:910
 translate spanish passeio_praca_778b46e3:
@@ -3921,308 +3921,308 @@ translate spanish passeio_praca_778b46e3:
 # game/script.rpy:911
 translate spanish passeio_praca_a333e6f8:
 
-    # p "{cps=30}{color=#FFFF00}Recolho minha bandeja e a deixo no balcão de devolução.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Recojo mi bandeja y la dejo en la barra de devolución.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Recolho minha bandeja e a deixo no balcão de devolução.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Recojo mi bandeja y la dejo en la barra de devolución.{/color}{/cps}"
 
 # game/script.rpy:912
 translate spanish passeio_praca_e5f9e704_10:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:913
 translate spanish passeio_praca_317529b4:
 
-    # p "{cps=30}{color=#FFFF00}Fico feliz por ter feito minha primeira amiga no primeiro dia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me alegra haber hecho mi primera amiga el primer día.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Fico feliz por ter feito minha primeira amiga no primeiro dia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me alegra haber hecho mi primera amiga el primer día.{/color}{/cps}"
 
 # game/script.rpy:914
 translate spanish passeio_praca_a387f155:
 
-    # p "{cps=30}{color=#FFFF00}Ela é tão legal...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es tan simpática…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é tão legal...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es tan simpática…{/color}{/cps}"
 
 # game/script.rpy:915
 translate spanish passeio_praca_c506c8dc:
 
-    # p "{cps=30}{color=#FFFF00}Haha e eu estava tão nervosa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jaja, y yo estaba tan nerviosa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Haha e eu estava tão nervosa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jaja, y yo estaba tan nerviosa.{/color}{/cps}"
 
 # game/script.rpy:916
 translate spanish passeio_praca_fec6bc3b:
 
-    # p "{cps=30}{color=#FFFF00}Mas que bom que ela gostou de mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero me alegra que le haya caído bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas que bom que ela gostou de mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero me alegra que le haya caído bien.{/color}{/cps}"
 
 # game/script.rpy:917
 translate spanish passeio_praca_0fdacca6:
 
-    # p "{cps=30}{color=#FFFF00}Agora, hora de um bom banho para relaxar!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ahora, a disfrutar de un baño relajante!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora, hora de um bom banho para relaxar!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ahora, a disfrutar de un baño relajante!{/color}{/cps}"
 
 # game/script.rpy:927
 translate spanish passeio_esportes_89f6468a:
 
-    # p "{cps=30}{color=#FFFF00}Vou conhecer as áreas esportivas!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Voy a explorar las instalaciones deportivas!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou conhecer as áreas esportivas!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Voy a explorar las instalaciones deportivas!{/color}{/cps}"
 
 # game/script.rpy:928
 translate spanish passeio_esportes_18d53b96:
 
-    # p "{cps=30}{color=#FFFF00}Como escolhi esse cronograma de aulas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya que elegí este horario de clases...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Como escolhi esse cronograma de aulas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya que elegí este horario de clases...{/color}{/cps}"
 
 # game/script.rpy:929
 translate spanish passeio_esportes_e0791b2a:
 
-    # p "{cps=30}{color=#FFFF00}Acho bom dar uma passada lá antes de ir tomar banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que es buena idea pasar por allí antes de ducharme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho bom dar uma passada lá antes de ir tomar banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que es buena idea pasar por allí antes de ducharme.{/color}{/cps}"
 
 # game/script.rpy:930
 translate spanish passeio_esportes_7d6648b8:
 
-    # p "{cps=30}{color=#FFFF00}Se bem que...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aunque...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Se bem que...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aunque...{/color}{/cps}"
 
 # game/script.rpy:931
 translate spanish passeio_esportes_e2ccf86b:
 
-    # p "{cps=30}{color=#FFFF00}Eu nem sei onde fica.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ni siquiera sé dónde está.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu nem sei onde fica.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ni siquiera sé dónde está.{/color}{/cps}"
 
 # game/script.rpy:932
 translate spanish passeio_esportes_68b47de8:
 
-    # p "{cps=30}{color=#FFFF00}Acredito que existam outras atividades além da Educação Física, né?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que hay otras actividades además de Educación Física, ¿verdad?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acredito que existam outras atividades além da Educação Física, né?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que hay otras actividades además de Educación Física, ¿verdad?{/color}{/cps}"
 
 # game/script.rpy:933
 translate spanish passeio_esportes_61448eed:
 
-    # p "{cps=30}{color=#FFFF00}Vou procurar o ginásio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Buscaré el gimnasio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou procurar o ginásio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Buscaré el gimnasio.{/color}{/cps}"
 
 # game/script.rpy:934
 translate spanish passeio_esportes_df727cc7:
 
-    # p "{cps=30}{color=#FFFF00}Aproveito para conhecer o lugar e perguntar para algum veterano.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aprovecharé para explorar el lugar y preguntarle a algún estudiante de último año.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aproveito para conhecer o lugar e perguntar para algum veterano.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aprovecharé para explorar el lugar y preguntarle a algún estudiante de último año.{/color}{/cps}"
 
 # game/script.rpy:935
 translate spanish passeio_esportes_a34a3349:
 
-    # p "{cps=30}{color=#FFFF00}Deve ter alguém por lá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Debería haber alguien allí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deve ter alguém por lá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Debería haber alguien allí.{/color}{/cps}"
 
 # game/script.rpy:936
 translate spanish passeio_esportes_6ed425a1:
 
-    # p "{cps=30}{color=#FFFF00}Depois de caminhar por alguns minutos...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de caminar unos minutos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois de caminhar por alguns minutos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de caminar unos minutos...{/color}{/cps}"
 
 # game/script.rpy:937
 translate spanish passeio_esportes_aae3fcc0:
 
-    # p "{cps=30}{color=#FFFF00}Finalmente encontro o ginásio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Finalmente encuentro el gimnasio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Finalmente encontro o ginásio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Finalmente encuentro el gimnasio.{/color}{/cps}"
 
 # game/script.rpy:938
 translate spanish passeio_esportes_6da91ecc:
 
-    # p "{cps=30}{color=#FFFF00}Acima da entrada está escrito:{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sobre la entrada dice:{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acima da entrada está escrito:{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sobre la entrada dice:{/color}{/cps}"
 
 # game/script.rpy:939
 translate spanish passeio_esportes_c50605cb:
 
-    # p "{cps=30}{color=#FFFF00}Ginásio Poliesportivo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Gimnasio Multideportivo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ginásio Poliesportivo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Gimnasio Multideportivo.{/color}{/cps}"
 
 # game/script.rpy:940
 translate spanish passeio_esportes_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:941
 translate spanish passeio_esportes_7204712c:
 
-    # p "{cps=30}{color=#FFFF00}Uau...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Uau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Uau!{/color}{/cps}"
 
 # game/script.rpy:942
 translate spanish passeio_esportes_f85af1ec:
 
-    # p "{cps=30}{color=#FFFF00}É enorme...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es enorme...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É enorme...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es enorme...{/color}{/cps}"
 
 # game/script.rpy:943
 translate spanish passeio_esportes_1371c1d3:
 
-    # p "{cps=30}{color=#FFFF00}Empurro as grandes portas de madeira.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro las grandes puertas de madera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Empurro as grandes portas de madeira.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro las grandes puertas de madera.{/color}{/cps}"
 
 # game/script.rpy:944
 translate spanish passeio_esportes_16d3f0a8:
 
-    # p "{cps=30}{color=#FFFF00}Assim que entro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En cuanto entro...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Assim que entro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En cuanto entro...{/color}{/cps}"
 
 # game/script.rpy:945
 translate spanish passeio_esportes_9e870c39:
 
-    # p "{cps=30}{color=#FFFF00}Um apito ecoa pelo ginásio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un silbato resuena en el gimnasio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um apito ecoa pelo ginásio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un silbato resuena en el gimnasio.{/color}{/cps}"
 
 # game/script.rpy:946
 translate spanish passeio_esportes_e846f522:
 
-    # p "{cps=30}{color=#FFFF00}Gritos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Gritos. Risas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Gritos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Gritos. Risas.{/color}{/cps}"
 
 # game/script.rpy:947
 translate spanish passeio_esportes_17c6f7d9:
 
-    # p "{cps=30}{color=#FFFF00}Risadas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Zapatillas deslizándose por el suelo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Risadas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Zapatillas deslizándose por el suelo.{/color}{/cps}"
 
 # game/script.rpy:948
 translate spanish passeio_esportes_76a50858:
 
-    # p "{cps=30}{color=#FFFF00}Tênis deslizando pelo chão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un partido de fútbol está en marcha en la cancha principal.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tênis deslizando pelo chão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un partido de fútbol está en marcha en la cancha principal.{/color}{/cps}"
 
 # game/script.rpy:949
 translate spanish passeio_esportes_40197455:
 
-    # p "{cps=30}{color=#FFFF00}Uma partida de futebol acontece na quadra principal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los chicos corren de un lado a otro, completamente concentrados en el juego.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma partida de futebol acontece na quadra principal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los chicos corren de un lado a otro, completamente concentrados en el juego.{/color}{/cps}"
 
 # game/script.rpy:950
 translate spanish passeio_esportes_4af03130:
 
-    # p "{cps=30}{color=#FFFF00}Os garotos correm de um lado para o outro completamente concentrados no jogo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Algunos se secan el sudor con el dobladillo de la camiseta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os garotos correm de um lado para o outro completamente concentrados no jogo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Algunos se secan el sudor con el dobladillo de la camiseta.{/color}{/cps}"
 
 # game/script.rpy:951
 translate spanish passeio_esportes_34c1957c:
 
-    # p "{cps=30}{color=#FFFF00}Alguns enxugam o suor com a barra da camiseta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Otros se quejan de las marcas mientras intentan recuperar el aliento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Alguns enxugam o suor com a barra da camiseta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Otros se quejan de las marcas mientras intentan recuperar el aliento.{/color}{/cps}"
 
 # game/script.rpy:952
 translate spanish passeio_esportes_da0e7cc6:
 
-    # p "{cps=30}{color=#FFFF00}Outros reclamam da marcação enquanto tentam recuperar o fôlego.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo el ambiente está impregnado de la energía del partido.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Outros reclamam da marcação enquanto tentam recuperar o fôlego.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo el ambiente está impregnado de la energía del partido.{/color}{/cps}"
 
 # game/script.rpy:953
 translate spanish passeio_esportes_f11a2b7d:
 
-    # p "{cps=30}{color=#FFFF00}O ambiente inteiro está tomado pela energia da partida.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo el ambiente está tomado por la energía del partido.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O ambiente inteiro está tomado pela energia da partida.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo el ambiente está tomado por la energía del partido.{/color}{/cps}"
 
 # game/script.rpy:954
 translate spanish passeio_esportes_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:955
 translate spanish passeio_esportes_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:956
 translate spanish passeio_esportes_1f8cb810:
 
-    # p "{cps=30}{color=#FFFF00}Só tem meninos aqui...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo hay chicos aquí...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só tem meninos aqui...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo hay chicos aquí...{/color}{/cps}"
 
 # game/script.rpy:957
 translate spanish passeio_esportes_d808685d:
 
-    # p "{cps=30}{color=#FFFF00}Eu realmente escolhi o pior horário possível.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elegí el peor momento posible.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu realmente escolhi o pior horário possível.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elegí el peor momento posible.{/color}{/cps}"
 
 # game/script.rpy:958
 translate spanish passeio_esportes_939da2af:
 
-    # p "{cps=30}{color=#FFFF00}É claro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Claro...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É claro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Claro...{/color}{/cps}"
 
 # game/script.rpy:959
 translate spanish passeio_esportes_56513b6d:
 
-    # p "{cps=30}{color=#FFFF00}Faltam só alguns minutos para a casa de banho abrir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo quedan unos minutos antes de que abran los baños.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Faltam só alguns minutos para a casa de banho abrir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo quedan unos minutos antes de que abran los baños.{/color}{/cps}"
 
 # game/script.rpy:960
 translate spanish passeio_esportes_cdf81d4d:
 
-    # p "{cps=30}{color=#FFFF00}Eles vieram treinar antes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vinieron a entrenar antes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eles vieram treinar antes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vinieron a entrenar antes.{/color}{/cps}"
 
 # game/script.rpy:961
 translate spanish passeio_esportes_276cb16a:
 
-    # p "{cps=30}{color=#FFFF00}Como eu não pensei nisso...?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Cómo no se me ocurrió...?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Como eu não pensei nisso...?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Cómo no se me ocurrió...?{/color}{/cps}"
 
 # game/script.rpy:962
 translate spanish passeio_esportes_a7d4c42e:
 
-    # p "{cps=30}{color=#FFFF00}Dou alguns passos discretos para trás.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Retrocedo unos pasos discretamente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dou alguns passos discretos para trás.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Retrocedo unos pasos discretamente.{/color}{/cps}"
 
 # game/script.rpy:963
 translate spanish passeio_esportes_5fb8d561:
 
-    # p "{cps=30}{color=#FFFF00}Tá bom...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vale...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tá bom...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vale...{/color}{/cps}"
 
 # game/script.rpy:964
 translate spanish passeio_esportes_f8faf778:
 
-    # p "{cps=30}{color=#FFFF00}Hora de ir embora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es hora de ir a casa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hora de ir embora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es hora de ir a casa.{/color}{/cps}"
 
 # game/script.rpy:965
 translate spanish passeio_esportes_ae77daa8:
 
-    # p "{cps=30}{color=#FFFF00}Se eu continuar parada aqui vão achar que eu vim só pra ficar olhando...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Si me quedo aquí parado, pensarán que solo vine a mirar...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Se eu continuar parada aqui vão achar que eu vim só pra ficar olhando...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Si me quedo aquí parado, pensarán que solo vine a mirar...{/color}{/cps}"
 
 # game/script.rpy:966
 translate spanish passeio_esportes_84a17825:
 
-    # p "{cps=30}{color=#FFFF00}POW!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡POW!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}POW!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡POW!{/color}{/cps}"
 
 # game/script.rpy:967
 translate spanish passeio_esportes_b8bea544:
 
-    # p "{cps=30}{color=#FFFF00}!!!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}!!!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:968
 translate spanish passeio_esportes_4bcb0175:
 
-    # p "{cps=30}{color=#FFFF00}Aii!!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ay!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aii!!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ay!{/color}{/cps}"
 
 # game/script.rpy:969
 translate spanish passeio_esportes_634c60e9:
 
-    # p "{cps=30}{color=#FFFF00}Uma bola acerta minha testa em cheio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una pelota me da de lleno en la frente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma bola acerta minha testa em cheio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una pelota me da de lleno en la frente.{/color}{/cps}"
 
 # game/script.rpy:970
 translate spanish passeio_esportes_49c0b38f:
 
-    # p "{cps=30}{color=#FFFF00}Perco o equilíbrio e acabo caindo sentada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pierdo el equilibrio y caigo de culo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Perco o equilíbrio e acabo caindo sentada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pierdo el equilibrio y caigo de culo.{/color}{/cps}"
 
 # game/script.rpy:971
 translate spanish passeio_esportes_08f28f0d:
@@ -4245,8 +4245,8 @@ translate spanish passeio_esportes_0399fa87:
 # game/script.rpy:974
 translate spanish passeio_esportes_d528a1b7:
 
-    # p "{cps=30}{color=#FFFF00}Um garoto alto larga a partida e sai correndo desesperado na minha direção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un chico alto suelta el balón y corre desesperadamente hacia mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um garoto alto larga a partida e sai correndo desesperado na minha direção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un chico alto suelta el balón y corre desesperadamente hacia mí.{/color}{/cps}"
 
 # game/script.rpy:975
 translate spanish passeio_esportes_e148e196:
@@ -4293,8 +4293,8 @@ translate spanish passeio_esportes_acc8b188:
 # game/script.rpy:982
 translate spanish passeio_esportes_526a65e7:
 
-    # p "{cps=30}{color=#FFFF00}Lucien se abaixa e estende a mão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien se inclina y extiende la mano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien se abaixa e estende a mão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien se inclina y extiende la mano.{/color}{/cps}"
 
 # game/script.rpy:983
 translate spanish passeio_esportes_c5bf5dd6:
@@ -4305,20 +4305,20 @@ translate spanish passeio_esportes_c5bf5dd6:
 # game/script.rpy:984
 translate spanish passeio_esportes_02857bc0:
 
-    # p "{cps=30}{color=#FFFF00}Seguro sua mão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tomo su mano. Kyioki: Creo que sí...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Seguro sua mão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tomo su mano. Kyioki: Creo que sí...{/color}{/cps}"
 
 # game/script.rpy:985
 translate spanish passeio_esportes_627a5cc4:
 
-    # p "{cps=30}{color=#FFFF00}Acho que sim...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me ayuda a ponerme de pie.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que sim...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me ayuda a ponerme de pie.{/color}{/cps}"
 
 # game/script.rpy:986
 translate spanish passeio_esportes_47dd2e29:
 
-    # p "{cps=30}{color=#FFFF00}Ele me ajuda a ficar de pé.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo siento mucho...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele me ajuda a ficar de pé.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo siento mucho...{/color}{/cps}"
 
 # game/script.rpy:987
 translate spanish passeio_esportes_36be606f:
@@ -4335,14 +4335,14 @@ translate spanish passeio_esportes_6a6a2ce1:
 # game/script.rpy:989
 translate spanish passeio_esportes_44e0e08c:
 
-    # p "{cps=30}{color=#FFFF00}Tá tudo bem...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que aparecí justo en la trayectoria de la pelota.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tá tudo bem...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que aparecí justo en la trayectoria de la pelota.{/color}{/cps}"
 
 # game/script.rpy:990
 translate spanish passeio_esportes_23a237fe:
 
-    # p "{cps=30}{color=#FFFF00}Acho que eu apareci bem na trajetória da bola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aun así...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que eu apareci bem na trajetória da bola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aun así...{/color}{/cps}"
 
 # game/script.rpy:991
 translate spanish passeio_esportes_0d4e799e:
@@ -4401,26 +4401,26 @@ translate spanish passeio_esportes_a73e2279:
 # game/script.rpy:1000
 translate spanish passeio_esportes_6909f936:
 
-    # p "{cps=30}{color=#FFFF00}Lucien apenas balança a cabeça e continua andando comigo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien solo niega con la cabeza y sigue caminando conmigo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien apenas balança a cabeça e continua andando comigo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien solo niega con la cabeza y sigue caminando conmigo.{/color}{/cps}"
 
 # game/script.rpy:1001
 translate spanish passeio_esportes_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1002
 translate spanish passeio_esportes_842d43b0:
 
-    # p "{cps=30}{color=#FFFF00}Depois de alguns instantes...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de unos instantes...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois de alguns instantes...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de unos instantes...{/color}{/cps}"
 
 # game/script.rpy:1003
 translate spanish passeio_esportes_9efa60d5:
 
-    # p "{cps=30}{color=#FFFF00}Chegamos ao primeiro bebedouro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Llegamos a la primera fuente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Chegamos ao primeiro bebedouro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Llegamos a la primera fuente.{/color}{/cps}"
 
 # game/script.rpy:1004
 translate spanish passeio_esportes_cc9b380d:
@@ -4437,14 +4437,14 @@ translate spanish passeio_esportes_ced71c9e:
 # game/script.rpy:1006
 translate spanish passeio_esportes_742db616:
 
-    # p "{cps=30}{color=#FFFF00}Obedeço.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Obedezco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Obedeço.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Obedezco.{/color}{/cps}"
 
 # game/script.rpy:1007
 translate spanish passeio_esportes_8d7d82fb:
 
-    # p "{cps=30}{color=#FFFF00}A água gelada ajuda a aliviar a dor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El agua fría ayuda a aliviar el dolor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A água gelada ajuda a aliviar a dor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El agua fría ayuda a aliviar el dolor.{/color}{/cps}"
 
 # game/script.rpy:1008
 translate spanish passeio_esportes_b5094db1:
@@ -4455,20 +4455,20 @@ translate spanish passeio_esportes_b5094db1:
 # game/script.rpy:1009
 translate spanish passeio_esportes_a254ef86:
 
-    # p "{cps=30}{color=#FFFF00}Tenho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tenho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí.{/color}{/cps}"
 
 # game/script.rpy:1010
 translate spanish passeio_esportes_eb881583:
 
-    # p "{cps=30}{color=#FFFF00}Acho que a bola acertou mais meu cabelo do que minha cabeça.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que la pelota me dio más en el pelo que en la cabeza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que a bola acertou mais meu cabelo do que minha cabeça.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que la pelota me dio más en el pelo que en la cabeza.{/color}{/cps}"
 
 # game/script.rpy:1011
 translate spanish passeio_esportes_2e562c13:
 
-    # p "{cps=30}{color=#FFFF00}Lucien dá uma risadinha aliviada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien suelta una risita de alivio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien dá uma risadinha aliviada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien suelta una risita de alivio.{/color}{/cps}"
 
 # game/script.rpy:1012
 translate spanish passeio_esportes_2e30c8c8:
@@ -4485,14 +4485,14 @@ translate spanish passeio_esportes_1192891c:
 # game/script.rpy:1014
 translate spanish passeio_esportes_79a879fc:
 
-    # p "{cps=30}{color=#FFFF00}Hihihi.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jejeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hihihi.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jejeje.{/color}{/cps}"
 
 # game/script.rpy:1015
 translate spanish passeio_esportes_5805f812:
 
-    # p "{cps=30}{color=#FFFF00}Acho que você escapou dessa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que te libraste de esa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que você escapou dessa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que te libraste de esa.{/color}{/cps}"
 
 # game/script.rpy:1016
 translate spanish passeio_esportes_0d111879:
@@ -4521,14 +4521,14 @@ translate spanish passeio_esportes_f41eea90:
 # game/script.rpy:1020
 translate spanish passeio_esportes_5230225b:
 
-    # p "{cps=30}{color=#FFFF00}Eu sou a Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy Kyioki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou a Kiyoki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy Kyioki.{/color}{/cps}"
 
 # game/script.rpy:1021
 translate spanish passeio_esportes_9bece464:
 
-    # p "{cps=30}{color=#FFFF00}Prazer em conhecê-lo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Encantado de conocerte.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Prazer em conhecê-lo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Encantado de conocerte.{/color}{/cps}"
 
 # game/script.rpy:1022
 translate spanish passeio_esportes_c0edae81:
@@ -4545,14 +4545,14 @@ translate spanish passeio_esportes_5675cdd4:
 # game/script.rpy:1024
 translate spanish passeio_esportes_e7c2b03b:
 
-    # p "{cps=30}{color=#FFFF00}Os dois rimos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ambos nos reímos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os dois rimos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ambos nos reímos.{/color}{/cps}"
 
 # game/script.rpy:1025
 translate spanish passeio_esportes_b6a72d91:
 
-    # p "{cps=30}{color=#FFFF00}Você não vai voltar para o jogo?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿No vas a volver al partido?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você não vai voltar para o jogo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿No vas a volver al partido?{/color}{/cps}"
 
 # game/script.rpy:1026
 translate spanish passeio_esportes_4e877969:
@@ -4587,14 +4587,14 @@ translate spanish passeio_esportes_3547bc15:
 # game/script.rpy:1031
 translate spanish passeio_esportes_08c6c9f1:
 
-    # p "{cps=30}{color=#FFFF00}Hahaha..{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jajaja...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hahaha..{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jajaja...{/color}{/cps}"
 
 # game/script.rpy:1032
 translate spanish passeio_esportes_93f9659f:
 
-    # p "{cps=30}{color=#FFFF00}Deu para perceber.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya me lo imaginaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deu para perceber.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya me lo imaginaba.{/color}{/cps}"
 
 # game/script.rpy:1033
 translate spanish passeio_esportes_8361b4fd:
@@ -4611,14 +4611,14 @@ translate spanish passeio_esportes_654a65f6:
 # game/script.rpy:1035
 translate spanish passeio_esportes_186dd795:
 
-    # p "{cps=30}{color=#FFFF00}Eu escolhi a rotina de esportes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elegí la rutina de deportes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu escolhi a rotina de esportes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elegí la rutina de deportes.{/color}{/cps}"
 
 # game/script.rpy:1036
 translate spanish passeio_esportes_782007ed:
 
-    # p "{cps=30}{color=#FFFF00}Então queria conhecer a área e perguntar para algum veterano como funcionavam as atividades.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quería conocer la zona y preguntarle a un estudiante de último año cómo funcionaban las actividades.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então queria conhecer a área e perguntar para algum veterano como funcionavam as atividades.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quería conocer la zona y preguntarle a un estudiante de último año cómo funcionaban las actividades.{/color}{/cps}"
 
 # game/script.rpy:1037
 translate spanish passeio_esportes_eebd54ce:
@@ -4635,8 +4635,8 @@ translate spanish passeio_esportes_8401fb25:
 # game/script.rpy:1039
 translate spanish passeio_esportes_047b5c51:
 
-    # p "{cps=30}{color=#FFFF00}Sério?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿En serio?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sério?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿En serio?{/color}{/cps}"
 
 # game/script.rpy:1040
 translate spanish passeio_esportes_6713b652:
@@ -4671,8 +4671,8 @@ translate spanish passeio_esportes_322aed0e:
 # game/script.rpy:1045
 translate spanish passeio_esportes_b4ef65ad:
 
-    # p "{cps=30}{color=#FFFF00}Hipismo?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que el colegio participa en algunas competiciones.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hipismo?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que el colegio participa en algunas competiciones.{/color}{/cps}"
 
 # game/script.rpy:1046
 translate spanish passeio_esportes_810edf82:
@@ -4683,20 +4683,20 @@ translate spanish passeio_esportes_810edf82:
 # game/script.rpy:1047
 translate spanish passeio_esportes_e37b71f5:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1048
 translate spanish passeio_esportes_7d2bfb3e:
 
-    # p "{cps=30}{color=#FFFF00}Deve ser muito legal!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien saca su móvil del bolsillo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deve ser muito legal!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien saca su móvil del bolsillo.{/color}{/cps}"
 
 # game/script.rpy:1049
 translate spanish passeio_esportes_107d8c94:
 
-    # p "{cps=30}{color=#FFFF00}Lucien tira o celular do bolso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien tira o celular do bolso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1050
 translate spanish passeio_esportes_b2140ee3:
@@ -4719,20 +4719,20 @@ translate spanish passeio_esportes_7aeadcc4:
 # game/script.rpy:1053
 translate spanish passeio_esportes_e59fa147:
 
-    # p "{cps=30}{color=#FFFF00}Verdade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muchas gracias por tu ayuda, Lucien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Verdade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muchas gracias por tu ayuda, Lucien.{/color}{/cps}"
 
 # game/script.rpy:1054
 translate spanish passeio_esportes_a3be016e:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigada pela ajuda, Lucien.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Fue un placer conocerte.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigada pela ajuda, Lucien.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Fue un placer conocerte.{/color}{/cps}"
 
 # game/script.rpy:1055
 translate spanish passeio_esportes_b19997af:
 
-    # p "{cps=30}{color=#FFFF00}Foi um prazer conhecer você.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El placer fue mío.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Foi um prazer conhecer você.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El placer fue mío.{/color}{/cps}"
 
 # game/script.rpy:1056
 translate spanish passeio_esportes_c0edae81_1:
@@ -4749,8 +4749,8 @@ translate spanish passeio_esportes_ee94da24:
 # game/script.rpy:1058
 translate spanish passeio_esportes_6024237d:
 
-    # p "{cps=30}{color=#FFFF00}Aceno para ele antes de seguir em direção ao banheiro feminino.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me despido con la mano antes de seguir hacia el baño de chicas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aceno para ele antes de seguir em direção ao banheiro feminino.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me despido con la mano antes de seguir hacia el baño de chicas.{/color}{/cps}"
 
 # game/script.rpy:1059
 translate spanish passeio_esportes_42b5c002:
@@ -4773,122 +4773,122 @@ translate spanish passeio_esportes_6786a9f5:
 # game/script.rpy:1069
 translate spanish passeio_biblioteca_7777cd1e:
 
-    # p "{cps=30}{color=#FFFF00}Vou para a biblioteca!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Voy a la biblioteca!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou para a biblioteca!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Voy a la biblioteca!{/color}{/cps}"
 
 # game/script.rpy:1070
 translate spanish passeio_biblioteca_8033cbd7:
 
-    # p "{cps=30}{color=#FFFF00}Eu sei que já fui lá mais cedo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sé que estuve allí antes...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sei que já fui lá mais cedo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sé que estuve allí antes...{/color}{/cps}"
 
 # game/script.rpy:1071
 translate spanish passeio_biblioteca_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:1072
 translate spanish passeio_biblioteca_d71a46f5:
 
-    # p "{cps=30}{color=#FFFF00}Hehehe.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jejeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hehehe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jejeje.{/color}{/cps}"
 
 # game/script.rpy:1073
 translate spanish passeio_biblioteca_f238d181:
 
-    # p "{cps=30}{color=#FFFF00}Ela é tão linda...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es tan bonita...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é tão linda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es tan bonita...{/color}{/cps}"
 
 # game/script.rpy:1074
 translate spanish passeio_biblioteca_3bf1f30b:
 
-    # p "{cps=30}{color=#FFFF00}Quero conhecer melhor aquele lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quiero conocerla mejor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quero conhecer melhor aquele lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quiero conocerla mejor.{/color}{/cps}"
 
 # game/script.rpy:1075
 translate spanish passeio_biblioteca_6cfa3018:
 
-    # p "{cps=30}{color=#FFFF00}Além disso, ela é enorme.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Además, es enorme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Além disso, ela é enorme.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Además, es enorme.{/color}{/cps}"
 
 # game/script.rpy:1076
 translate spanish passeio_biblioteca_caeda721:
 
-    # p "{cps=30}{color=#FFFF00}Vai demorar um bom tempo até eu me familiarizar com tudo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me llevará un tiempo familiarizarme con todo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vai demorar um bom tempo até eu me familiarizar com tudo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me llevará un tiempo familiarizarme con todo.{/color}{/cps}"
 
 # game/script.rpy:1077
 translate spanish passeio_biblioteca_6221c0d0:
 
-    # p "{cps=30}{color=#FFFF00}Vamos nessa!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Vamos!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vamos nessa!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Vamos!{/color}{/cps}"
 
 # game/script.rpy:1078
 translate spanish passeio_biblioteca_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1079
 translate spanish passeio_biblioteca_167721f7:
 
-    # p "{cps=30}{color=#FFFF00}Caminho pelos corredores da escola até chegar à biblioteca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino por los pasillos de la escuela hasta llegar a la biblioteca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caminho pelos corredores da escola até chegar à biblioteca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino por los pasillos de la escuela hasta llegar a la biblioteca.{/color}{/cps}"
 
 # game/script.rpy:1080
 translate spanish passeio_biblioteca_16d3f0a8:
 
-    # p "{cps=30}{color=#FFFF00}Assim que entro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En cuanto entro...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Assim que entro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En cuanto entro...{/color}{/cps}"
 
 # game/script.rpy:1081
 translate spanish passeio_biblioteca_b542bc31:
 
-    # p "{cps=30}{color=#FFFF00}O silêncio toma conta do ambiente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El silencio inunda la sala.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O silêncio toma conta do ambiente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El silencio inunda la sala.{/color}{/cps}"
 
 # game/script.rpy:1082
 translate spanish passeio_biblioteca_9a78f30b:
 
-    # p "{cps=30}{color=#FFFF00}É até estranho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es incluso extraño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É até estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es incluso extraño.{/color}{/cps}"
 
 # game/script.rpy:1083
 translate spanish passeio_biblioteca_183a9605:
 
-    # p "{cps=30}{color=#FFFF00}Depois de passar o dia inteiro ouvindo alunos conversando pelos corredores...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de pasar todo el día escuchando a los estudiantes charlar en los pasillos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois de passar o dia inteiro ouvindo alunos conversando pelos corredores...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de pasar todo el día escuchando a los estudiantes charlar en los pasillos...{/color}{/cps}"
 
 # game/script.rpy:1084
 translate spanish passeio_biblioteca_42fbf61e:
 
-    # p "{cps=30}{color=#FFFF00}Aqui parece outro mundo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esto parece otro mundo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aqui parece outro mundo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esto parece otro mundo.{/color}{/cps}"
 
 # game/script.rpy:1085
 translate spanish passeio_biblioteca_6b43ca15:
 
-    # p "{cps=30}{color=#FFFF00}Alguns estudantes ainda terminam de organizar seus materiais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Algunos estudiantes aún están terminando de organizar sus cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Alguns estudantes ainda terminam de organizar seus materiais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Algunos estudiantes aún están terminando de organizar sus cosas.{/color}{/cps}"
 
 # game/script.rpy:1086
 translate spanish passeio_biblioteca_2d4c3d4c:
 
-    # p "{cps=30}{color=#FFFF00}Outros devolvem livros antes de irem embora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Otros están devolviendo los libros antes de irse.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Outros devolvem livros antes de irem embora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Otros están devolviendo los libros antes de irse.{/color}{/cps}"
 
 # game/script.rpy:1087
 translate spanish passeio_biblioteca_445c373f:
 
-    # p "{cps=30}{color=#FFFF00}Pouco antes de eu entrar...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Justo antes de entrar...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pouco antes de eu entrar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Justo antes de entrar...{/color}{/cps}"
 
 # game/script.rpy:1088
 translate spanish passeio_biblioteca_f5d9d958:
 
-    # p "{cps=30}{color=#FFFF00}Um grupo de garotos sai da biblioteca correndo e rindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un grupo de chicos sale corriendo de la biblioteca riendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um grupo de garotos sai da biblioteca correndo e rindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un grupo de chicos sale corriendo de la biblioteca riendo.{/color}{/cps}"
 
 # game/script.rpy:1089
 translate spanish passeio_biblioteca_f9205629:
@@ -4905,86 +4905,86 @@ translate spanish passeio_biblioteca_217060e1:
 # game/script.rpy:1091
 translate spanish passeio_biblioteca_82497a66:
 
-    # p "{cps=30}{color=#FFFF00}Os garotos apenas acenam de longe antes de desaparecerem pelo corredor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los chicos saludan desde lejos antes de desaparecer por el pasillo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os garotos apenas acenam de longe antes de desaparecerem pelo corredor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los chicos saludan desde lejos antes de desaparecer por el pasillo.{/color}{/cps}"
 
 # game/script.rpy:1092
 translate spanish passeio_biblioteca_1a2f967b:
 
-    # p "{cps=30}{color=#FFFF00}A bibliotecária suspira.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La bibliotecaria suspira.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A bibliotecária suspira.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La bibliotecaria suspira.{/color}{/cps}"
 
 # game/script.rpy:1093
 translate spanish passeio_biblioteca_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1094
 translate spanish passeio_biblioteca_7204712c:
 
-    # p "{cps=30}{color=#FFFF00}Uau...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Uau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Uau!{/color}{/cps}"
 
 # game/script.rpy:1095
 translate spanish passeio_biblioteca_bdb9cff0:
 
-    # p "{cps=30}{color=#FFFF00}É tão linda...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es tan bonito...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É tão linda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es tan bonito...{/color}{/cps}"
 
 # game/script.rpy:1096
 translate spanish passeio_biblioteca_286896c3:
 
-    # p "{cps=30}{color=#FFFF00}Olho ao redor com calma.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro a mi alrededor con calma.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho ao redor com calma.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro a mi alrededor con calma.{/color}{/cps}"
 
 # game/script.rpy:1097
 translate spanish passeio_biblioteca_46a887f9:
 
-    # p "{cps=30}{color=#FFFF00}As enormes estantes parecem não ter fim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las enormes estanterías parecen interminables.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As enormes estantes parecem não ter fim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las enormes estanterías parecen interminables.{/color}{/cps}"
 
 # game/script.rpy:1098
 translate spanish passeio_biblioteca_0f0cd6d1:
 
-    # p "{cps=30}{color=#FFFF00}Mais ao fundo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Más adelante...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mais ao fundo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Más adelante...{/color}{/cps}"
 
 # game/script.rpy:1099
 translate spanish passeio_biblioteca_164e0411:
 
-    # p "{cps=30}{color=#FFFF00}Há uma porta de madeira entreaberta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay una puerta de madera entreabierta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Há uma porta de madeira entreaberta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay una puerta de madera entreabierta.{/color}{/cps}"
 
 # game/script.rpy:1100
 translate spanish passeio_biblioteca_0a06e46a:
 
-    # p "{cps=30}{color=#FFFF00}Consigo enxergar mais estantes e diversos armários antigos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Puedo ver más estanterías y varios armarios antiguos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Consigo enxergar mais estantes e diversos armários antigos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Puedo ver más estanterías y varios armarios antiguos.{/color}{/cps}"
 
 # game/script.rpy:1101
 translate spanish passeio_biblioteca_ab5d384b:
 
-    # p "{cps=30}{color=#FFFF00}Deve ser a seção de documentos...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Debe ser la sección de documentos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deve ser a seção de documentos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Debe ser la sección de documentos...{/color}{/cps}"
 
 # game/script.rpy:1102
 translate spanish passeio_biblioteca_7e59e041:
 
-    # p "{cps=30}{color=#FFFF00}Caminho até o balcão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco al mostrador.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caminho até o balcão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco al mostrador.{/color}{/cps}"
 
 # game/script.rpy:1103
 translate spanish passeio_biblioteca_0250ca93:
 
-    # p "{cps=30}{color=#FFFF00}Com licença...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Disculpe...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Com licença...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Disculpe...{/color}{/cps}"
 
 # game/script.rpy:1104
 translate spanish passeio_biblioteca_bbf17b44:
 
-    # p "{cps=30}{color=#FFFF00}Posso entrar naquela sala?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Puedo pasar a esa sala?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Posso entrar naquela sala?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Puedo pasar a esa sala?{/color}{/cps}"
 
 # game/script.rpy:1105
 translate spanish passeio_biblioteca_86ffde73:
@@ -5001,98 +5001,98 @@ translate spanish passeio_biblioteca_7e76b68d:
 # game/script.rpy:1107
 translate spanish passeio_biblioteca_ec08fde3:
 
-    # p "{cps=30}{color=#FFFF00}Pode deixar!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Puede contar con ello!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pode deixar!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Puede contar con ello!{/color}{/cps}"
 
 # game/script.rpy:1108
 translate spanish passeio_biblioteca_7ddaadf0:
 
-    # p "{cps=30}{color=#FFFF00}Sigo até a pequena sala.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me dirijo a la pequeña sala.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sigo até a pequena sala.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me dirijo a la pequeña sala.{/color}{/cps}"
 
 # game/script.rpy:1109
 translate spanish passeio_biblioteca_16d3f0a8_1:
 
-    # p "{cps=30}{color=#FFFF00}Assim que entro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En cuanto entro...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Assim que entro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En cuanto entro...{/color}{/cps}"
 
 # game/script.rpy:1110
 translate spanish passeio_biblioteca_861ea2a5:
 
-    # p "{cps=30}{color=#FFFF00}Percebo que ela é bem diferente do restante da biblioteca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Noto que es bastante diferente del resto de la biblioteca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Percebo que ela é bem diferente do restante da biblioteca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Noto que es bastante diferente del resto de la biblioteca.{/color}{/cps}"
 
 # game/script.rpy:1111
 translate spanish passeio_biblioteca_6b780975:
 
-    # p "{cps=30}{color=#FFFF00}A iluminação é mais fraca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La iluminación es más tenue.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A iluminação é mais fraca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La iluminación es más tenue.{/color}{/cps}"
 
 # game/script.rpy:1112
 translate spanish passeio_biblioteca_6122a7fe:
 
-    # p "{cps=30}{color=#FFFF00}As estantes são antigas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las estanterías son viejas. El olor a papel viejo es mucho más intenso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As estantes são antigas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las estanterías son viejas. El olor a papel viejo es mucho más intenso.{/color}{/cps}"
 
 # game/script.rpy:1113
 translate spanish passeio_biblioteca_55cdd184:
 
-    # p "{cps=30}{color=#FFFF00}O cheiro de papel envelhecido é muito mais forte.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O cheiro de papel envelhecido é muito mais forte.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1114
 translate spanish passeio_biblioteca_e37b71f5:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1115
 translate spanish passeio_biblioteca_81a7b27f:
 
-    # p "{cps=30}{color=#FFFF00}Parece até uma sala secreta...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Doy otro paso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece até uma sala secreta...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Doy otro paso.{/color}{/cps}"
 
 # game/script.rpy:1116
 translate spanish passeio_biblioteca_d01cdfa6:
 
-    # p "{cps=30}{color=#FFFF00}Dou mais um passo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Había algo en mi camino...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dou mais um passo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Había algo en mi camino...{/color}{/cps}"
 
 # game/script.rpy:1117
 translate spanish passeio_biblioteca_287650a5:
 
-    # p "{cps=30}{color=#FFFF00}Havia algo no meu caminho...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Había algo en mi camino...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Havia algo no meu caminho...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Había algo en mi camino...{/color}{/cps}"
 
 # game/script.rpy:1118
 translate spanish passeio_biblioteca_b8bea544:
 
-    # p "{cps=30}{color=#FFFF00}!!!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}!!!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1119
 translate spanish passeio_biblioteca_fb96904c:
 
-    # p "{cps=30}{color=#FFFF00}Eu tropeço.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me tropiezo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu tropeço.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me tropiezo.{/color}{/cps}"
 
 # game/script.rpy:1120
 translate spanish passeio_biblioteca_9254b01a:
 
-    # p "{cps=30}{color=#FFFF00}E caio de bunda no chão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y caigo de culo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E caio de bunda no chão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y caigo de culo.{/color}{/cps}"
 
 # game/script.rpy:1121
 translate spanish passeio_biblioteca_7b4e179f:
 
-    # p "{cps=30}{color=#FFFF00}AI!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ay!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}AI!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ay!{/color}{/cps}"
 
 # game/script.rpy:1122
 translate spanish passeio_biblioteca_b9ced4e8:
 
-    # p "{cps=30}{color=#FFFF00}Ouço uma voz masculina.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Oigo una voz masculina.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ouço uma voz masculina.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Oigo una voz masculina.{/color}{/cps}"
 
 # game/script.rpy:1123
 translate spanish passeio_biblioteca_320cbad4:
@@ -5115,62 +5115,62 @@ translate spanish passeio_biblioteca_0914012d:
 # game/script.rpy:1126
 translate spanish passeio_biblioteca_1f9d5653:
 
-    # p "{cps=30}{color=#FFFF00}A-Ah!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡A-ah!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A-Ah!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡A-ah!{/color}{/cps}"
 
 # game/script.rpy:1127
 translate spanish passeio_biblioteca_b0916895:
 
-    # p "{cps=30}{color=#FFFF00}Me desculpa!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Lo siento!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me desculpa!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Lo siento!{/color}{/cps}"
 
 # game/script.rpy:1128
 translate spanish passeio_biblioteca_edffc608:
 
-    # p "{cps=30}{color=#FFFF00}Eu não vi você aí!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡No te vi!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não vi você aí!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡No te vi!{/color}{/cps}"
 
 # game/script.rpy:1129
 translate spanish passeio_biblioteca_9319c71b:
 
-    # p "{cps=30}{color=#FFFF00}Levanto o olhar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Levanto la vista.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Levanto o olhar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Levanto la vista.{/color}{/cps}"
 
 # game/script.rpy:1130
 translate spanish passeio_biblioteca_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1131
 translate spanish passeio_biblioteca_35cb956a:
 
-    # p "{cps=30}{color=#FFFF00}Sinto minhas bochechas queimarem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento que me arden las mejillas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sinto minhas bochechas queimarem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento que me arden las mejillas.{/color}{/cps}"
 
 # game/script.rpy:1132
 translate spanish passeio_biblioteca_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1133
 translate spanish passeio_biblioteca_2e094286:
 
-    # p "{cps=30}{color=#FFFF00}Por que tem um balde na sua cabeça?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Por qué llevas un cubo en la cabeza?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por que tem um balde na sua cabeça?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Por qué llevas un cubo en la cabeza?{/color}{/cps}"
 
 # game/script.rpy:1134
 translate spanish passeio_biblioteca_e01f0c0c:
 
-    # p "{cps=30}{color=#FFFF00}O homem permanece em silêncio por alguns segundos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El hombre permanece en silencio unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O homem permanece em silêncio por alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El hombre permanece en silencio unos segundos.{/color}{/cps}"
 
 # game/script.rpy:1135
 translate spanish passeio_biblioteca_e9a5414f:
 
-    # p "{cps=30}{color=#FFFF00}Então retira o balde lentamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Luego, lentamente, se quita el cubo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então retira o balde lentamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Luego, lentamente, se quita el cubo.{/color}{/cps}"
 
 # game/script.rpy:1136
 translate spanish passeio_biblioteca_f1d7b7a4:
@@ -5181,38 +5181,38 @@ translate spanish passeio_biblioteca_f1d7b7a4:
 # game/script.rpy:1137
 translate spanish passeio_biblioteca_d4a3aeb1_1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1138
 translate spanish passeio_biblioteca_c0bce565:
 
-    # p "{cps=30}{color=#FFFF00}Que maldade...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué maldad...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que maldade...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué maldad...{/color}{/cps}"
 
 # game/script.rpy:1139
 translate spanish passeio_biblioteca_cf3c9b39:
 
-    # p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
 
 # game/script.rpy:1140
 translate spanish passeio_biblioteca_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1141
 translate spanish passeio_biblioteca_3c147d59:
 
-    # p "{cps=30}{color=#FFFF00}Ah!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
 
 # game/script.rpy:1142
 translate spanish passeio_biblioteca_c596dd41:
 
-    # p "{cps=30}{color=#FFFF00}Você é o zelador de hoje mais cedo!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Eres el conserje de hoy!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você é o zelador de hoje mais cedo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Eres el conserje de hoy!{/color}{/cps}"
 
 # game/script.rpy:1143
 translate spanish passeio_biblioteca_875172ec:
@@ -5223,8 +5223,8 @@ translate spanish passeio_biblioteca_875172ec:
 # game/script.rpy:1144
 translate spanish passeio_biblioteca_86fa1903:
 
-    # p "{cps=30}{color=#FFFF00}Você chamou um dos seguranças...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Llamaste a uno de los guardias de seguridad...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você chamou um dos seguranças...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Llamaste a uno de los guardias de seguridad...{/color}{/cps}"
 
 # game/script.rpy:1145
 translate spanish passeio_biblioteca_12a89f12:
@@ -5271,20 +5271,20 @@ translate spanish passeio_biblioteca_e38b9bc7:
 # game/script.rpy:1152
 translate spanish passeio_biblioteca_e91b3e3e:
 
-    # p "{cps=30}{color=#FFFF00}Levo a mão à boca tentando segurar a risada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Kyioki se lleva la mano a la boca intentando contener la risa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Levo a mão à boca tentando segurar a risada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Kyioki se lleva la mano a la boca intentando contener la risa.{/color}{/cps}"
 
 # game/script.rpy:1153
 translate spanish passeio_biblioteca_316b6fe2:
 
-    # p "{cps=30}{color=#FFFF00}Hihihi...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jejeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hihihi...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jejeje.{/color}{/cps}"
 
 # game/script.rpy:1154
 translate spanish passeio_biblioteca_c9df73a2:
 
-    # p "{cps=30}{color=#FFFF00}Deve ter sido complicado...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Debe haber sido complicado...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deve ter sido complicado...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Debe haber sido complicado...{/color}{/cps}"
 
 # game/script.rpy:1155
 translate spanish passeio_biblioteca_7cd8ac0a:
@@ -5301,8 +5301,8 @@ translate spanish passeio_biblioteca_9f200e1e:
 # game/script.rpy:1157
 translate spanish passeio_biblioteca_59890823:
 
-    # p "{cps=30}{color=#FFFF00}Ele pega o esfregão novamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Recoge la fregona de nuevo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele pega o esfregão novamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Recoge la fregona de nuevo.{/color}{/cps}"
 
 # game/script.rpy:1158
 translate spanish passeio_biblioteca_9b77e88a:
@@ -5325,32 +5325,32 @@ translate spanish passeio_biblioteca_b34c5abc:
 # game/script.rpy:1161
 translate spanish passeio_biblioteca_d4a3aeb1_2:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1162
 translate spanish passeio_biblioteca_370831b9:
 
-    # p "{cps=30}{color=#FFFF00}Eu queria conhecer melhor a biblioteca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quería conocer mejor la biblioteca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu queria conhecer melhor a biblioteca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quería conocer mejor la biblioteca.{/color}{/cps}"
 
 # game/script.rpy:1163
 translate spanish passeio_biblioteca_999241eb:
 
-    # p "{cps=30}{color=#FFFF00}Passei o dia inteiro resolvendo check-ins...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me pasé todo el día haciendo devoluciones...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Passei o dia inteiro resolvendo check-ins...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me pasé todo el día haciendo devoluciones...{/color}{/cps}"
 
 # game/script.rpy:1164
 translate spanish passeio_biblioteca_60aae2ad:
 
-    # p "{cps=30}{color=#FFFF00}Então não tive tempo de explorar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así que no tuve tiempo de explorar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então não tive tempo de explorar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así que no tuve tiempo de explorar.{/color}{/cps}"
 
 # game/script.rpy:1165
 translate spanish passeio_biblioteca_97f93193:
 
-    # p "{cps=30}{color=#FFFF00}Rentaro olha para mim por alguns segundos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Rentaro me mira fijamente durante unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Rentaro olha para mim por alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Rentaro me mira fijamente durante unos segundos.{/color}{/cps}"
 
 # game/script.rpy:1166
 translate spanish passeio_biblioteca_49d1c29b:
@@ -5361,8 +5361,8 @@ translate spanish passeio_biblioteca_49d1c29b:
 # game/script.rpy:1167
 translate spanish passeio_biblioteca_8da9c711:
 
-    # p "{cps=30}{color=#FFFF00}Vou.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí.{/color}{/cps}"
 
 # game/script.rpy:1168
 translate spanish passeio_biblioteca_2a32aebc:
@@ -5379,8 +5379,8 @@ translate spanish passeio_biblioteca_21afb387:
 # game/script.rpy:1170
 translate spanish passeio_biblioteca_ff367c52:
 
-    # p "{cps=30}{color=#FFFF00}Claro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Claro!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Claro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Claro!{/color}{/cps}"
 
 # game/script.rpy:1171
 translate spanish passeio_biblioteca_d581178b:
@@ -5391,8 +5391,8 @@ translate spanish passeio_biblioteca_d581178b:
 # game/script.rpy:1172
 translate spanish passeio_biblioteca_b13bbad2:
 
-    # p "{cps=30}{color=#FFFF00}Como assim?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué quieres decir?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Como assim?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué quieres decir?{/color}{/cps}"
 
 # game/script.rpy:1173
 translate spanish passeio_biblioteca_25c190fb:
@@ -5403,14 +5403,14 @@ translate spanish passeio_biblioteca_25c190fb:
 # game/script.rpy:1174
 translate spanish passeio_biblioteca_d4361cb8:
 
-    # p "{cps=30}{color=#FFFF00}Ei!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Oigan!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ei!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Oigan!{/color}{/cps}"
 
 # game/script.rpy:1175
 translate spanish passeio_biblioteca_169a31c8:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto de ler!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Me gusta leer!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto de ler!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Me gusta leer!{/color}{/cps}"
 
 # game/script.rpy:1176
 translate spanish passeio_biblioteca_5dbb40d8:
@@ -5421,8 +5421,8 @@ translate spanish passeio_biblioteca_5dbb40d8:
 # game/script.rpy:1177
 translate spanish passeio_biblioteca_20e9ed0a:
 
-    # p "{cps=30}{color=#FFFF00}Eu também leio livros!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Yo también leo libros!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu também leio livros!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Yo también leo libros!{/color}{/cps}"
 
 # game/script.rpy:1178
 translate spanish passeio_biblioteca_f3d4cf00:
@@ -5433,8 +5433,8 @@ translate spanish passeio_biblioteca_f3d4cf00:
 # game/script.rpy:1179
 translate spanish passeio_biblioteca_0c3908b3:
 
-    # p "{cps=30}{color=#FFFF00}Livro!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Livro!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm.{/color}{/cps}"
 
 # game/script.rpy:1180
 translate spanish passeio_biblioteca_178f1779:
@@ -5451,14 +5451,14 @@ translate spanish passeio_biblioteca_5e793949:
 # game/script.rpy:1182
 translate spanish passeio_biblioteca_7c9aa7d2:
 
-    # p "{cps=30}{color=#FFFF00}Cruzo os braços.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Te metes con todo el mundo?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Cruzo os braços.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Te metes con todo el mundo?{/color}{/cps}"
 
 # game/script.rpy:1183
 translate spanish passeio_biblioteca_ac9af44c:
 
-    # p "{cps=30}{color=#FFFF00}O senhor implica com todo mundo?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O senhor implica com todo mundo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No.{/color}{/cps}"
 
 # game/script.rpy:1184
 translate spanish passeio_biblioteca_d9215ac1:
@@ -5475,14 +5475,14 @@ translate spanish passeio_biblioteca_69233897:
 # game/script.rpy:1186
 translate spanish passeio_biblioteca_e37b71f5_1:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1187
 translate spanish passeio_biblioteca_4897e573:
 
-    # p "{cps=30}{color=#FFFF00}O senhor é muito rabugento.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O senhor é muito rabugento.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No.{/color}{/cps}"
 
 # game/script.rpy:1188
 translate spanish passeio_biblioteca_d9215ac1_1:
@@ -5499,8 +5499,8 @@ translate spanish passeio_biblioteca_b1f0c816:
 # game/script.rpy:1190
 translate spanish passeio_biblioteca_059456d1:
 
-    # p "{cps=30}{color=#FFFF00}Nesse momento, a bibliotecária aparece na porta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En ese momento, la bibliotecaria aparece en la puerta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nesse momento, a bibliotecária aparece na porta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En ese momento, la bibliotecaria aparece en la puerta.{/color}{/cps}"
 
 # game/script.rpy:1191
 translate spanish passeio_biblioteca_7704e0f5:
@@ -5529,8 +5529,8 @@ translate spanish passeio_biblioteca_446da29b:
 # game/script.rpy:1195
 translate spanish passeio_biblioteca_63c50775:
 
-    # p "{cps=30}{color=#FFFF00}A bibliotecária apenas sorri.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La bibliotecaria solo sonríe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A bibliotecária apenas sorri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La bibliotecaria solo sonríe.{/color}{/cps}"
 
 # game/script.rpy:1196
 translate spanish passeio_biblioteca_8376a27c:
@@ -5553,20 +5553,20 @@ translate spanish passeio_biblioteca_00c53f2b:
 # game/script.rpy:1199
 translate spanish passeio_biblioteca_63d4e53d:
 
-    # p "{cps=30}{color=#FFFF00}A bibliotecária vai embora rindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La bibliotecaria se va riendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A bibliotecária vai embora rindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La bibliotecaria se va riendo.{/color}{/cps}"
 
 # game/script.rpy:1200
 translate spanish passeio_biblioteca_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1201
 translate spanish passeio_biblioteca_4c794df1:
 
-    # p "{cps=30}{color=#FFFF00}Rentaro suspira.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Rentaro suspira.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Rentaro suspira.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Rentaro suspira.{/color}{/cps}"
 
 # game/script.rpy:1202
 translate spanish passeio_biblioteca_a29441be:
@@ -5595,44 +5595,44 @@ translate spanish passeio_biblioteca_799fc374:
 # game/script.rpy:1206
 translate spanish passeio_biblioteca_86cdb133:
 
-    # p "{cps=30}{color=#FFFF00}Hm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Milagro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Milagro.{/color}{/cps}"
 
 # game/script.rpy:1207
 translate spanish passeio_biblioteca_4d1b347c:
 
-    # p "{cps=30}{color=#FFFF00}Grosso...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué grosero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Grosso...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué grosero...{/color}{/cps}"
 
 # game/script.rpy:1208
 translate spanish passeio_biblioteca_578141dc:
 
-    # p "{cps=30}{color=#FFFF00}Saio da sala procurando alguma coisa para ler.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Salgo de la habitación buscando algo para leer.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Saio da sala procurando alguma coisa para ler.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Salgo de la habitación buscando algo para leer.{/color}{/cps}"
 
 # game/script.rpy:1209
 translate spanish passeio_biblioteca_50b94ff2:
 
-    # p "{cps=30}{color=#FFFF00}Depois de alguns minutos...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de unos minutos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois de alguns minutos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de unos minutos...{/color}{/cps}"
 
 # game/script.rpy:1210
 translate spanish passeio_biblioteca_bde63d84:
 
-    # p "{cps=30}{color=#FFFF00}Encontro um livro que chama minha atenção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Encuentro un libro que me llama la atención.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Encontro um livro que chama minha atenção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Encuentro un libro que me llama la atención.{/color}{/cps}"
 
 # game/script.rpy:1211
 translate spanish passeio_biblioteca_9a77fd67:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vai ser esse!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Creo que es este!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vai ser esse!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Creo que es este!{/color}{/cps}"
 
 # game/script.rpy:1212
 translate spanish passeio_biblioteca_debec8cb:
 
-    # p "{cps=30}{color=#FFFF00}Levo o exemplar até o balcão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Llevo el libro al mostrador.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Levo o exemplar até o balcão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Llevo el libro al mostrador.{/color}{/cps}"
 
 # game/script.rpy:1213
 translate spanish passeio_biblioteca_33fa99ff:
@@ -5649,8 +5649,8 @@ translate spanish passeio_biblioteca_7a567869:
 # game/script.rpy:1215
 translate spanish passeio_biblioteca_fffa3e66:
 
-    # p "{cps=30}{color=#FFFF00}Ela registra o empréstimo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Registra el préstamo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela registra o empréstimo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Registra el préstamo.{/color}{/cps}"
 
 # game/script.rpy:1216
 translate spanish passeio_biblioteca_8f24a918:
@@ -5673,14 +5673,14 @@ translate spanish passeio_biblioteca_5b223a97:
 # game/script.rpy:1219
 translate spanish passeio_biblioteca_ec08fde3_1:
 
-    # p "{cps=30}{color=#FFFF00}Pode deixar!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Puede contar con ello!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pode deixar!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Puede contar con ello!{/color}{/cps}"
 
 # game/script.rpy:1220
 translate spanish passeio_biblioteca_6a67610c:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigada!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Muchas gracias!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigada!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Muchas gracias!{/color}{/cps}"
 
 # game/script.rpy:1221
 translate spanish passeio_biblioteca_9b3d5583:
@@ -5691,566 +5691,566 @@ translate spanish passeio_biblioteca_9b3d5583:
 # game/script.rpy:1222
 translate spanish passeio_biblioteca_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1223
 translate spanish passeio_biblioteca_fb00eb14:
 
-    # p "{cps=30}{color=#FFFF00}Enquanto deixo a biblioteca...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Al salir de la biblioteca...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enquanto deixo a biblioteca...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Al salir de la biblioteca...{/color}{/cps}"
 
 # game/script.rpy:1224
 translate spanish passeio_biblioteca_8b31339c:
 
-    # p "{cps=30}{color=#FFFF00}Olho discretamente para a sala dos documentos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Echo un vistazo disimuladamente a la sala de documentos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho discretamente para a sala dos documentos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Echo un vistazo disimuladamente a la sala de documentos.{/color}{/cps}"
 
 # game/script.rpy:1225
 translate spanish passeio_biblioteca_31e24c4a:
 
-    # p "{cps=30}{color=#FFFF00}Rentaro continua limpando como se nada tivesse acontecido.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Rentaro sigue limpiando como si nada hubiera pasado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Rentaro continua limpando como se nada tivesse acontecido.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Rentaro sigue limpiando como si nada hubiera pasado.{/color}{/cps}"
 
 # game/script.rpy:1226
 translate spanish passeio_biblioteca_86cdb133_1:
 
-    # p "{cps=30}{color=#FFFF00}Hm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Milagro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Milagro.{/color}{/cps}"
 
 # game/script.rpy:1227
 translate spanish passeio_biblioteca_cae7f1bc:
 
-    # p "{cps=30}{color=#FFFF00}Que velho rabugento...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué viejo cascarrabias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que velho rabugento...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué viejo cascarrabias.{/color}{/cps}"
 
 # game/script.rpy:1228
 translate spanish passeio_biblioteca_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1229
 translate spanish passeio_biblioteca_20e37279_1:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:1230
 translate spanish passeio_biblioteca_74f853ed:
 
-    # p "{cps=30}{color=#FFFF00}Acho que ele não é uma pessoa ruim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que no es mala persona.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que ele não é uma pessoa ruim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que no es mala persona.{/color}{/cps}"
 
 # game/script.rpy:1231
 translate spanish passeio_biblioteca_6d7cc103:
 
-    # p "{cps=30}{color=#FFFF00}Sorrio sozinha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sonrío para mis adentros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sorrio sozinha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sonrío para mis adentros.{/color}{/cps}"
 
 # game/script.rpy:1232
 translate spanish passeio_biblioteca_50b9b033:
 
-    # p "{cps=30}{color=#FFFF00}Agora...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora…{/color}{/cps}"
 
 # game/script.rpy:1233
 translate spanish passeio_biblioteca_39a81f27:
 
-    # p "{cps=30}{color=#FFFF00}Melhor eu ir tomar banho logo!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Mejor voy a bañarme de una vez!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor eu ir tomar banho logo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Mejor voy a bañarme de una vez!{/color}{/cps}"
 
 # game/script.rpy:1241
 translate spanish passeio_dormitorios_b3c49e36:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou voltar para o campus dos dormitórios...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que volveré al campus de los dormitorios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou voltar para o campus dos dormitórios...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que volveré al campus de los dormitorios.{/color}{/cps}"
 
 # game/script.rpy:1242
 translate spanish passeio_dormitorios_4bdd954a:
 
-    # p "{cps=30}{color=#FFFF00}Afinal...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de todo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Afinal...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de todo...{/color}{/cps}"
 
 # game/script.rpy:1243
 translate spanish passeio_dormitorios_dc2f11fa:
 
-    # p "{cps=30}{color=#FFFF00}É onde eu vou morar pelos próximos três anos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es donde voy a vivir los próximos tres años.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É onde eu vou morar pelos próximos três anos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es donde voy a vivir los próximos tres años.{/color}{/cps}"
 
 # game/script.rpy:1244
 translate spanish passeio_dormitorios_1174c712:
 
-    # p "{cps=30}{color=#FFFF00}Acho bom conhecer bem aquele lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me conviene conocer bien ese lugar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho bom conhecer bem aquele lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me conviene conocer bien ese lugar.{/color}{/cps}"
 
 # game/script.rpy:1245
 translate spanish passeio_dormitorios_6221c0d0:
 
-    # p "{cps=30}{color=#FFFF00}Vamos nessa!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Vamos!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vamos nessa!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Vamos!{/color}{/cps}"
 
 # game/script.rpy:1246
 translate spanish passeio_dormitorios_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1247
 translate spanish passeio_dormitorios_a8bfd297:
 
-    # p "{cps=30}{color=#FFFF00}Saio caminhando pelas calçadas do campus.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Salgo a caminar por los senderos del campus.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Saio caminhando pelas calçadas do campus.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Salgo a caminar por los senderos del campus.{/color}{/cps}"
 
 # game/script.rpy:1248
 translate spanish passeio_dormitorios_3ca399e5:
 
-    # p "{cps=30}{color=#FFFF00}O movimento da escola diminuiu bastante...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El movimiento de la escuela bajó bastante...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O movimento da escola diminuiu bastante...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El movimiento de la escuela bajó bastante...{/color}{/cps}"
 
 # game/script.rpy:1249
 translate spanish passeio_dormitorios_7dd00884:
 
-    # p "{cps=30}{color=#FFFF00}A brisa do fim de tarde deixa o clima muito agradável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La brisa del atardecer deja el clima muy agradable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A brisa do fim de tarde deixa o clima muito agradável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La brisa del atardecer deja el clima muy agradable.{/color}{/cps}"
 
 # game/script.rpy:1250
 translate spanish passeio_dormitorios_1ccc4799:
 
-    # p "{cps=30}{color=#FFFF00}Enquanto caminho...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mientras camino...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enquanto caminho...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mientras camino...{/color}{/cps}"
 
 # game/script.rpy:1251
 translate spanish passeio_dormitorios_2d2bc9df:
 
-    # p "{cps=30}{color=#FFFF00}Algo chama minha atenção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Algo me llama la atención.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Algo chama minha atenção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Algo me llama la atención.{/color}{/cps}"
 
 # game/script.rpy:1252
 translate spanish passeio_dormitorios_202a6e58:
 
-    # p "{cps=30}{color=#FFFF00}Uma placa de madeira.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un letrero de madera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma placa de madeira.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un letrero de madera.{/color}{/cps}"
 
 # game/script.rpy:1253
 translate spanish passeio_dormitorios_8b0b2eee:
 
-    # p "{cps=30}{color=#FFFF00}Bem diferente das placas modernas espalhadas pelo restante da escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muy distinto de los letreros modernos repartidos por el resto de la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem diferente das placas modernas espalhadas pelo restante da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muy distinto de los letreros modernos repartidos por el resto de la escuela.{/color}{/cps}"
 
 # game/script.rpy:1254
 translate spanish passeio_dormitorios_477d8d3e:
 
-    # p "{cps=30}{color=#FFFF00}Ela parece ter sido feita à mão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece hecho a mano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela parece ter sido feita à mão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece hecho a mano.{/color}{/cps}"
 
 # game/script.rpy:1255
 translate spanish passeio_dormitorios_f0e85e64:
 
-    # p "{cps=30}{color=#FFFF00}As letras foram entalhadas cuidadosamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las letras fueron talladas con cuidado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As letras foram entalhadas cuidadosamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las letras fueron talladas con cuidado.{/color}{/cps}"
 
 # game/script.rpy:1256
 translate spanish passeio_dormitorios_a42b91f4:
 
-    # p "{cps=30}{color=#FFFF00}Entre pequenas flores desenhadas na madeira, está escrito:{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entre pequeñas flores dibujadas en la madera, dice:{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entre pequenas flores desenhadas na madeira, está escrito:{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entre pequeñas flores dibujadas en la madera, dice:{/color}{/cps}"
 
 # game/script.rpy:1257
 translate spanish passeio_dormitorios_ed20c115:
 
-    # p "{cps=30}{color=#FFFF00}Clube de Jardinagem{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Club de Jardinería{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Clube de Jardinagem{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Club de Jardinería{/color}{/cps}"
 
 # game/script.rpy:1258
 translate spanish passeio_dormitorios_2d0d4a35:
 
-    # p "{cps=30}{color=#FFFF00}Huh?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Eh?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Huh?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Eh?{/color}{/cps}"
 
 # game/script.rpy:1259
 translate spanish passeio_dormitorios_5e37389a:
 
-    # p "{cps=30}{color=#FFFF00}Clube de Jardinagem?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Club de Jardinería{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Clube de Jardinagem?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Club de Jardinería{/color}{/cps}"
 
 # game/script.rpy:1260
 translate spanish passeio_dormitorios_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1261
 translate spanish passeio_dormitorios_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1262
 translate spanish passeio_dormitorios_98114e1d:
 
-    # p "{cps=30}{color=#FFFF00}Era esse!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Era ese!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Era esse!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Era ese!{/color}{/cps}"
 
 # game/script.rpy:1263
 translate spanish passeio_dormitorios_f9691a27:
 
-    # p "{cps=30}{color=#FFFF00}A bibliotecária ia falar sobre esse clube...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La bibliotecaria iba a hablar de ese club...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A bibliotecária ia falar sobre esse clube...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La bibliotecaria iba a hablar de ese club...{/color}{/cps}"
 
 # game/script.rpy:1264
 translate spanish passeio_dormitorios_2a9a2c4d:
 
-    # p "{cps=30}{color=#FFFF00}Mas eu acabei interrompendo ela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero terminé interrumpiéndola.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas eu acabei interrompendo ela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero terminé interrumpiéndola.{/color}{/cps}"
 
 # game/script.rpy:1265
 translate spanish passeio_dormitorios_cfd0f755:
 
-    # p "{cps=30}{color=#FFFF00}Ai...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ay!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ai...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ay!{/color}{/cps}"
 
 # game/script.rpy:1266
 translate spanish passeio_dormitorios_b0f00028:
 
-    # p "{cps=30}{color=#FFFF00}Que vergonha...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué vergüenza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que vergonha...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué vergüenza.{/color}{/cps}"
 
 # game/script.rpy:1267
 translate spanish passeio_dormitorios_708abc3c:
 
-    # p "{cps=30}{color=#FFFF00}Dou uma pequena risada sozinha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Suelto una risita para mis adentros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dou uma pequena risada sozinha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Suelto una risita para mis adentros.{/color}{/cps}"
 
 # game/script.rpy:1268
 translate spanish passeio_dormitorios_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:1269
 translate spanish passeio_dormitorios_b2a250d6:
 
-    # p "{cps=30}{color=#FFFF00}Confesso que fiquei curiosa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Confieso que me dio curiosidad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Confesso que fiquei curiosa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Confieso que me dio curiosidad.{/color}{/cps}"
 
 # game/script.rpy:1270
 translate spanish passeio_dormitorios_f6c321d9:
 
-    # p "{cps=30}{color=#FFFF00}Ao lado da placa existe uma abertura no muro da escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Al lado del letrero hay una abertura en el muro de la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ao lado da placa existe uma abertura no muro da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Al lado del letrero hay una abertura en el muro de la escuela.{/color}{/cps}"
 
 # game/script.rpy:1271
 translate spanish passeio_dormitorios_05f4f4a5:
 
-    # p "{cps=30}{color=#FFFF00}Não é exatamente um portão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No es exactamente un portón.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não é exatamente um portão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No es exactamente un portón.{/color}{/cps}"
 
 # game/script.rpy:1272
 translate spanish passeio_dormitorios_3e17fbb3:
 
-    # p "{cps=30}{color=#FFFF00}Mas estava me chamando..{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero me estaba llamando..{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas estava me chamando..{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero me estaba llamando..{/color}{/cps}"
 
 # game/script.rpy:1273
 translate spanish passeio_dormitorios_f8e85097:
 
-    # p "{cps=30}{color=#FFFF00}Um estreito caminho de pedras desaparece entre várias árvores.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un estrecho camino de piedras desaparece entre varios árboles.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um estreito caminho de pedras desaparece entre várias árvores.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un estrecho camino de piedras desaparece entre varios árboles.{/color}{/cps}"
 
 # game/script.rpy:1274
 translate spanish passeio_dormitorios_fb104e82:
 
-    # p "{cps=30}{color=#FFFF00}É impossível enxergar o que existe do outro lado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es imposible ver qué hay del otro lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É impossível enxergar o que existe do outro lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es imposible ver qué hay del otro lado.{/color}{/cps}"
 
 # game/script.rpy:1275
 translate spanish passeio_dormitorios_8fe90904:
 
-    # p "{cps=30}{color=#FFFF00}Hum...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hum...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm...{/color}{/cps}"
 
 # game/script.rpy:1276
 translate spanish passeio_dormitorios_06fbab51:
 
-    # p "{cps=30}{color=#FFFF00}Os dormitórios podem esperar um pouquinho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los dormitorios pueden esperar un ratito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os dormitórios podem esperar um pouquinho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los dormitorios pueden esperar un ratito.{/color}{/cps}"
 
 # game/script.rpy:1277
 translate spanish passeio_dormitorios_89c491e9:
 
-    # p "{cps=30}{color=#FFFF00}Agora eu quero descobrir onde isso vai dar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora quiero descubrir a dónde lleva esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora eu quero descobrir onde isso vai dar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora quiero descubrir a dónde lleva esto.{/color}{/cps}"
 
 # game/script.rpy:1278
 translate spanish passeio_dormitorios_1920cf16:
 
-    # p "{cps=30}{color=#FFFF00}Começo a seguir pelo caminho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a seguir el camino.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a seguir pelo caminho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a seguir el camino.{/color}{/cps}"
 
 # game/script.rpy:1279
 translate spanish passeio_dormitorios_45ee844c:
 
-    # p "{cps=30}{color=#FFFF00}A cada passo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A cada paso...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A cada passo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A cada paso...{/color}{/cps}"
 
 # game/script.rpy:1280
 translate spanish passeio_dormitorios_96e3eef8:
 
-    # p "{cps=30}{color=#FFFF00}Os sons da escola ficam mais distantes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los sonidos de la escuela se vuelven más lejanos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os sons da escola ficam mais distantes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los sonidos de la escuela se vuelven más lejanos.{/color}{/cps}"
 
 # game/script.rpy:1281
 translate spanish passeio_dormitorios_e5adf0a4:
 
-    # p "{cps=30}{color=#FFFF00}As conversas desaparecem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las conversaciones desaparecen.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As conversas desaparecem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las conversaciones desaparecen.{/color}{/cps}"
 
 # game/script.rpy:1282
 translate spanish passeio_dormitorios_ce74b9dc:
 
-    # p "{cps=30}{color=#FFFF00}Os gritos vindos das quadras deixam de existir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los gritos que venían de las canchas dejan de existir.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os gritos vindos das quadras deixam de existir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los gritos que venían de las canchas dejan de existir.{/color}{/cps}"
 
 # game/script.rpy:1283
 translate spanish passeio_dormitorios_ca91862d:
 
-    # p "{cps=30}{color=#FFFF00}Até o vento parece soprar mais devagar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hasta el viento parece soplar más despacio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até o vento parece soprar mais devagar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hasta el viento parece soplar más despacio.{/color}{/cps}"
 
 # game/script.rpy:1284
 translate spanish passeio_dormitorios_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1285
 translate spanish passeio_dormitorios_e37b71f5:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1286
 translate spanish passeio_dormitorios_60ff1a61:
 
-    # p "{cps=30}{color=#FFFF00}Que lugar gostoso...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué lugar tan agradable...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que lugar gostoso...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué lugar tan agradable...{/color}{/cps}"
 
 # game/script.rpy:1287
 translate spanish passeio_dormitorios_5559780d:
 
-    # p "{cps=30}{color=#FFFF00}O cheiro das flores toma conta do caminho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El olor de las flores se apodera del camino.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O cheiro das flores toma conta do caminho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El olor de las flores se apodera del camino.{/color}{/cps}"
 
 # game/script.rpy:1288
 translate spanish passeio_dormitorios_f0013ad2:
 
-    # p "{cps=30}{color=#FFFF00}A luz do sol atravessa as folhas das árvores formando pequenos feixes dourados pelo chão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La luz del sol atraviesa las hojas de los árboles formando pequeños haces dorados en el suelo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A luz do sol atravessa as folhas das árvores formando pequenos feixes dourados pelo chão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La luz del sol atraviesa las hojas de los árboles formando pequeños haces dorados en el suelo.{/color}{/cps}"
 
 # game/script.rpy:1289
 translate spanish passeio_dormitorios_d89399a0:
 
-    # p "{cps=30}{color=#FFFF00}Tudo parece...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo parece...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo parece...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo parece...{/color}{/cps}"
 
 # game/script.rpy:1290
 translate spanish passeio_dormitorios_cc3ab0ab:
 
-    # p "{cps=30}{color=#FFFF00}Muito mais calmo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mucho más calmado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito mais calmo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mucho más calmado.{/color}{/cps}"
 
 # game/script.rpy:1291
 translate spanish passeio_dormitorios_ac0c4b2e:
 
-    # p "{cps=30}{color=#FFFF00}Muito mais silencioso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mucho más silencioso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito mais silencioso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mucho más silencioso.{/color}{/cps}"
 
 # game/script.rpy:1292
 translate spanish passeio_dormitorios_d7da11af:
 
-    # p "{cps=30}{color=#FFFF00}É difícil acreditar que ainda estou dentro da escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cuesta creer que sigo dentro de la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É difícil acreditar que ainda estou dentro da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cuesta creer que sigo dentro de la escuela.{/color}{/cps}"
 
 # game/script.rpy:1293
 translate spanish passeio_dormitorios_bf87d358:
 
-    # p "{cps=30}{color=#FFFF00}Depois de alguns minutos caminhando...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de algunos minutos caminando...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois de alguns minutos caminhando...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de algunos minutos caminando...{/color}{/cps}"
 
 # game/script.rpy:1294
 translate spanish passeio_dormitorios_0d3da6fb:
 
-    # p "{cps=30}{color=#FFFF00}As árvores começam a se abrir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los árboles empiezan a abrirse.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As árvores começam a se abrir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los árboles empiezan a abrirse.{/color}{/cps}"
 
 # game/script.rpy:1295
 translate spanish passeio_dormitorios_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1296
 translate spanish passeio_dormitorios_7204712c:
 
-    # p "{cps=30}{color=#FFFF00}Uau...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Uau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Uau!{/color}{/cps}"
 
 # game/script.rpy:1297
 translate spanish passeio_dormitorios_bd45ece3:
 
-    # p "{cps=30}{color=#FFFF00}Paro completamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo por completo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro completamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo por completo.{/color}{/cps}"
 
 # game/script.rpy:1298
 translate spanish passeio_dormitorios_eaf413ac:
 
-    # p "{cps=30}{color=#FFFF00}Na minha frente existe um enorme jardim cercado por um alto muro vivo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Frente a mí hay un enorme jardín rodeado por un alto muro vivo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Na minha frente existe um enorme jardim cercado por um alto muro vivo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Frente a mí hay un enorme jardín rodeado por un alto muro vivo.{/color}{/cps}"
 
 # game/script.rpy:1299
 translate spanish passeio_dormitorios_5baa7971:
 
-    # p "{cps=30}{color=#FFFF00}É como um pequeno mundo escondido dentro do campus.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es como un pequeño mundo escondido dentro del campus.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É como um pequeno mundo escondido dentro do campus.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es como un pequeño mundo escondido dentro del campus.{/color}{/cps}"
 
 # game/script.rpy:1300
 translate spanish passeio_dormitorios_fc1ae0f1:
 
-    # p "{cps=30}{color=#FFFF00}Há fileiras de flores coloridas cuidadosamente organizadas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay hileras de flores de colores cuidadosamente organizadas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Há fileiras de flores coloridas cuidadosamente organizadas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay hileras de flores de colores cuidadosamente organizadas.{/color}{/cps}"
 
 # game/script.rpy:1301
 translate spanish passeio_dormitorios_ca6b03c3:
 
-    # p "{cps=30}{color=#FFFF00}Uma horta muito bem cuidada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una huerta muy bien cuidada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma horta muito bem cuidada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una huerta muy bien cuidada.{/color}{/cps}"
 
 # game/script.rpy:1302
 translate spanish passeio_dormitorios_2929f879:
 
-    # p "{cps=30}{color=#FFFF00}Macieiras e laranjeiras espalhadas pelos cantos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Manzanos y naranjos repartidos por los rincones.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Macieiras e laranjeiras espalhadas pelos cantos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Manzanos y naranjos repartidos por los rincones.{/color}{/cps}"
 
 # game/script.rpy:1303
 translate spanish passeio_dormitorios_650a49ff:
 
-    # p "{cps=30}{color=#FFFF00}Arbustos perfeitamente podados.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Arbustos perfectamente podados.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Arbustos perfeitamente podados.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Arbustos perfectamente podados.{/color}{/cps}"
 
 # game/script.rpy:1304
 translate spanish passeio_dormitorios_0f0cd6d1:
 
-    # p "{cps=30}{color=#FFFF00}Mais ao fundo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Más adelante...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mais ao fundo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Más adelante...{/color}{/cps}"
 
 # game/script.rpy:1305
 translate spanish passeio_dormitorios_9a1ea448:
 
-    # p "{cps=30}{color=#FFFF00}Uma enorme estufa de vidro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un enorme invernadero de vidrio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma enorme estufa de vidro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un enorme invernadero de vidrio.{/color}{/cps}"
 
 # game/script.rpy:1306
 translate spanish passeio_dormitorios_6fe71421:
 
-    # p "{cps=30}{color=#FFFF00}As janelas refletem a luz do fim de tarde.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los cristales reflejan la luz del atardecer.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As janelas refletem a luz do fim de tarde.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los cristales reflejan la luz del atardecer.{/color}{/cps}"
 
 # game/script.rpy:1307
 translate spanish passeio_dormitorios_536e5c68:
 
-    # p "{cps=30}{color=#FFFF00}Ela é linda...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es precioso...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é linda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es precioso...{/color}{/cps}"
 
 # game/script.rpy:1308
 translate spanish passeio_dormitorios_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1309
 translate spanish passeio_dormitorios_2ce9be85:
 
-    # p "{cps=30}{color=#FFFF00}Enquanto continuo observando o jardim...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mientras sigo observando el jardín...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enquanto continuo observando o jardim...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mientras sigo observando el jardín...{/color}{/cps}"
 
 # game/script.rpy:1310
 translate spanish passeio_dormitorios_248f8b07:
 
-    # p "{cps=30}{color=#FFFF00}Percebo alguém sentado em um banco, próximo a um canteiro de lavandas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Noto a alguien sentado en una banca, cerca de un cantero de lavandas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Percebo alguém sentado em um banco, próximo a um canteiro de lavandas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Noto a alguien sentado en una banca, cerca de un cantero de lavandas.{/color}{/cps}"
 
 # game/script.rpy:1311
 translate spanish passeio_dormitorios_7c100901:
 
-    # p "{cps=30}{color=#FFFF00}Uma garota.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una chica.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma garota.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una chica.{/color}{/cps}"
 
 # game/script.rpy:1312
 translate spanish passeio_dormitorios_445cf935:
 
-    # p "{cps=30}{color=#FFFF00}Ela parece completamente concentrada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece completamente concentrada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela parece completamente concentrada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece completamente concentrada.{/color}{/cps}"
 
 # game/script.rpy:1313
 translate spanish passeio_dormitorios_e10c68e0:
 
-    # p "{cps=30}{color=#FFFF00}Tem um caderno apoiado sobre as pernas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tiene un cuaderno apoyado sobre las piernas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tem um caderno apoiado sobre as pernas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tiene un cuaderno apoyado sobre las piernas.{/color}{/cps}"
 
 # game/script.rpy:1314
 translate spanish passeio_dormitorios_548bca0f:
 
-    # p "{cps=30}{color=#FFFF00}Um lápis desliza lentamente pelo papel.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un lápiz se desliza lentamente por el papel.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um lápis desliza lentamente pelo papel.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un lápiz se desliza lentamente por el papel.{/color}{/cps}"
 
 # game/script.rpy:1315
 translate spanish passeio_dormitorios_86cdb133:
 
-    # p "{cps=30}{color=#FFFF00}Hm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Milagro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Milagro.{/color}{/cps}"
 
 # game/script.rpy:1316
 translate spanish passeio_dormitorios_e874bf4c:
 
-    # p "{cps=30}{color=#FFFF00}Ela está desenhando...?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Está dibujando...?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela está desenhando...?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Está dibujando...?{/color}{/cps}"
 
 # game/script.rpy:1317
 translate spanish passeio_dormitorios_75320d5a:
 
-    # p "{cps=30}{color=#FFFF00}Sorrio discretamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sonrío con discreción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sorrio discretamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sonrío con discreción.{/color}{/cps}"
 
 # game/script.rpy:1318
 translate spanish passeio_dormitorios_f84f6202:
 
-    # p "{cps=30}{color=#FFFF00}Hehe...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hehe...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jeje.{/color}{/cps}"
 
 # game/script.rpy:1319
 translate spanish passeio_dormitorios_d8574efa:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou lá conversar com ela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está dibujando en un cuaderno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou lá conversar com ela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está dibujando en un cuaderno...{/color}{/cps}"
 
 # game/script.rpy:1320
 translate spanish passeio_dormitorios_31f88b84:
 
-    # p "{cps=30}{color=#FFFF00}Olá...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hola.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olá...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hola.{/color}{/cps}"
 
 # game/script.rpy:1321
 translate spanish passeio_dormitorios_217d88fc:
 
-    # p "{cps=30}{color=#FFFF00}A garota ergue a cabeça devagar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La chica levanta la cabeza despacio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A garota ergue a cabeça devagar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La chica levanta la cabeza despacio.{/color}{/cps}"
 
 # game/script.rpy:1322
 translate spanish passeio_dormitorios_94b65730:
 
-    # p "{cps=30}{color=#FFFF00}Ela parece ter levado um pequeno susto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece haberse llevado un pequeño susto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela parece ter levado um pequeno susto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece haberse llevado un pequeño susto.{/color}{/cps}"
 
 # game/script.rpy:1323
 translate spanish passeio_dormitorios_80471471:
@@ -6267,8 +6267,8 @@ translate spanish passeio_dormitorios_020b2fae:
 # game/script.rpy:1325
 translate spanish passeio_dormitorios_04c89b66:
 
-    # p "{cps=30}{color=#FFFF00}Ela sorri de maneira tímida.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sonríe de manera tímida.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela sorri de maneira tímida.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sonríe de manera tímida.{/color}{/cps}"
 
 # game/script.rpy:1326
 translate spanish passeio_dormitorios_88276b0c:
@@ -6279,20 +6279,20 @@ translate spanish passeio_dormitorios_88276b0c:
 # game/script.rpy:1327
 translate spanish passeio_dormitorios_6119640a:
 
-    # p "{cps=30}{color=#FFFF00}Sou sim!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Sí, lo soy!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sou sim!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Sí, lo soy!{/color}{/cps}"
 
 # game/script.rpy:1328
 translate spanish passeio_dormitorios_c3c1035e:
 
-    # p "{cps=30}{color=#FFFF00}Meu nome é Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me llamo Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu nome é Kiyoki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me llamo Kiyoki.{/color}{/cps}"
 
 # game/script.rpy:1329
 translate spanish passeio_dormitorios_d6681f56:
 
-    # p "{cps=30}{color=#FFFF00}É um prazer te conhecer!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Fue un placer conocerte!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É um prazer te conhecer!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Fue un placer conocerte!{/color}{/cps}"
 
 # game/script.rpy:1330
 translate spanish passeio_dormitorios_80471471_1:
@@ -6315,26 +6315,26 @@ translate spanish passeio_dormitorios_0d2aebe6:
 # game/script.rpy:1333
 translate spanish passeio_dormitorios_b0f0744c:
 
-    # p "{cps=30}{color=#FFFF00}Ela fecha delicadamente o caderno que estava sobre o colo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cierra con delicadeza el cuaderno que tenía sobre el regazo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela fecha delicadamente o caderno que estava sobre o colo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cierra con delicadeza el cuaderno que tenía sobre el regazo.{/color}{/cps}"
 
 # game/script.rpy:1334
 translate spanish passeio_dormitorios_9aaa5085:
 
-    # p "{cps=30}{color=#FFFF00}Olho ao redor mais uma vez.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro alrededor una vez más.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho ao redor mais uma vez.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro alrededor una vez más.{/color}{/cps}"
 
 # game/script.rpy:1335
 translate spanish passeio_dormitorios_0aa427c3:
 
-    # p "{cps=30}{color=#FFFF00}Então...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces...{/color}{/cps}"
 
 # game/script.rpy:1336
 translate spanish passeio_dormitorios_e0250325:
 
-    # p "{cps=30}{color=#FFFF00}Você faz parte do Clube de Jardinagem?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mucho gusto... Soy Aurore.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você faz parte do Clube de Jardinagem?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mucho gusto... Soy Aurore.{/color}{/cps}"
 
 # game/script.rpy:1337
 translate spanish passeio_dormitorios_ba7aba16:
@@ -6357,14 +6357,14 @@ translate spanish passeio_dormitorios_baf7b977:
 # game/script.rpy:1340
 translate spanish passeio_dormitorios_cc136ed2:
 
-    # p "{cps=30}{color=#FFFF00}Sério?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿En serio?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sério?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿En serio?{/color}{/cps}"
 
 # game/script.rpy:1341
 translate spanish passeio_dormitorios_7c77350c:
 
-    # p "{cps=30}{color=#FFFF00}Então esse jardim inteiro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces todo este jardín...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então esse jardim inteiro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces todo este jardín...{/color}{/cps}"
 
 # game/script.rpy:1342
 translate spanish passeio_dormitorios_0d370e4e:
@@ -6375,26 +6375,26 @@ translate spanish passeio_dormitorios_0d370e4e:
 # game/script.rpy:1343
 translate spanish passeio_dormitorios_7204712c_1:
 
-    # p "{cps=30}{color=#FFFF00}Uau...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Uau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Uau!{/color}{/cps}"
 
 # game/script.rpy:1344
 translate spanish passeio_dormitorios_7a1e4b8e:
 
-    # p "{cps=30}{color=#FFFF00}Está tudo tão bonito...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está todo tan bonito...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Está tudo tão bonito...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está todo tan bonito...{/color}{/cps}"
 
 # game/script.rpy:1345
 translate spanish passeio_dormitorios_f1e07b48:
 
-    # p "{cps=30}{color=#FFFF00}Dá para perceber o carinho que vocês colocam aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se nota el cariño que le ponen a esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dá para perceber o carinho que vocês colocam aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se nota el cariño que le ponen a esto.{/color}{/cps}"
 
 # game/script.rpy:1346
 translate spanish passeio_dormitorios_a4d00365:
 
-    # p "{cps=30}{color=#FFFF00}Aurore sorri discretamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore sonríe con discreción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore sorri discretamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore sonríe con discreción.{/color}{/cps}"
 
 # game/script.rpy:1347
 translate spanish passeio_dormitorios_f1ceb909:
@@ -6411,8 +6411,8 @@ translate spanish passeio_dormitorios_d8959837:
 # game/script.rpy:1349
 translate spanish passeio_dormitorios_38154c2f:
 
-    # p "{cps=30}{color=#FFFF00}Se importa se eu me sentar?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Te molesta si me siento?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Se importa se eu me sentar?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Te molesta si me siento?{/color}{/cps}"
 
 # game/script.rpy:1350
 translate spanish passeio_dormitorios_1866efd7:
@@ -6423,8 +6423,8 @@ translate spanish passeio_dormitorios_1866efd7:
 # game/script.rpy:1351
 translate spanish passeio_dormitorios_4aa68d51:
 
-    # p "{cps=30}{color=#FFFF00}Aurore afasta um pouco sua mochila do banco.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore aparta un poco su mochila de la banca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore afasta um pouco sua mochila do banco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore aparta un poco su mochila de la banca.{/color}{/cps}"
 
 # game/script.rpy:1352
 translate spanish passeio_dormitorios_9133a701:
@@ -6435,38 +6435,38 @@ translate spanish passeio_dormitorios_9133a701:
 # game/script.rpy:1353
 translate spanish passeio_dormitorios_9ed11898:
 
-    # p "{cps=30}{color=#FFFF00}Sento ao lado dela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me siento a su lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sento ao lado dela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me siento a su lado.{/color}{/cps}"
 
 # game/script.rpy:1354
 translate spanish passeio_dormitorios_89bf9292:
 
-    # p "{cps=30}{color=#FFFF00}Por alguns segundos...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por algunos segundos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por alguns segundos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por algunos segundos...{/color}{/cps}"
 
 # game/script.rpy:1355
 translate spanish passeio_dormitorios_8eaa4577:
 
-    # p "{cps=30}{color=#FFFF00}Nós apenas observamos o jardim em silêncio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo observamos el jardín en silencio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nós apenas observamos o jardim em silêncio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo observamos el jardín en silencio.{/color}{/cps}"
 
 # game/script.rpy:1356
 translate spanish passeio_dormitorios_c6e96838:
 
-    # p "{cps=30}{color=#FFFF00}O vento balança suavemente as flores.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El viento mece suavemente las flores.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O vento balança suavemente as flores.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El viento mece suavemente las flores.{/color}{/cps}"
 
 # game/script.rpy:1357
 translate spanish passeio_dormitorios_11bc1fb1:
 
-    # p "{cps=30}{color=#FFFF00}É um silêncio confortável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es un silencio cómodo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É um silêncio confortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es un silencio cómodo.{/color}{/cps}"
 
 # game/script.rpy:1358
 translate spanish passeio_dormitorios_49dc727d:
 
-    # p "{cps=30}{color=#FFFF00}Você também estuda aqui?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El silencio entre nosotras resulta bastante agradable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você também estuda aqui?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El silencio entre nosotras resulta bastante agradable.{/color}{/cps}"
 
 # game/script.rpy:1359
 translate spanish passeio_dormitorios_d1c86bf2:
@@ -6483,20 +6483,20 @@ translate spanish passeio_dormitorios_d0c3c8be:
 # game/script.rpy:1361
 translate spanish passeio_dormitorios_3c147d59:
 
-    # p "{cps=30}{color=#FFFF00}Ah!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
 
 # game/script.rpy:1362
 translate spanish passeio_dormitorios_43a22ff0:
 
-    # p "{cps=30}{color=#FFFF00}Então você é a primeira veterana que eu conheço!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Entonces eres la primera veterana que conozco!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então você é a primeira veterana que eu conheço!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Entonces eres la primera veterana que conozco!{/color}{/cps}"
 
 # game/script.rpy:1363
 translate spanish passeio_dormitorios_e0029cf7:
 
-    # p "{cps=30}{color=#FFFF00}Aurore ri baixinho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore ríe bajito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore ri baixinho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore ríe bajito.{/color}{/cps}"
 
 # game/script.rpy:1364
 translate spanish passeio_dormitorios_43e298bc:
@@ -6507,14 +6507,14 @@ translate spanish passeio_dormitorios_43e298bc:
 # game/script.rpy:1365
 translate spanish passeio_dormitorios_e37b71f5_1:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1366
 translate spanish passeio_dormitorios_ccdff289:
 
-    # p "{cps=30}{color=#FFFF00}Você já cuida desse lugar faz bastante tempo então.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces cuidas de este lugar desde hace bastante tiempo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você já cuida desse lugar faz bastante tempo então.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces cuidas de este lugar desde hace bastante tiempo.{/color}{/cps}"
 
 # game/script.rpy:1367
 translate spanish passeio_dormitorios_ed90b323:
@@ -6537,14 +6537,14 @@ translate spanish passeio_dormitorios_d06399e8:
 # game/script.rpy:1370
 translate spanish passeio_dormitorios_c892191e:
 
-    # p "{cps=30}{color=#FFFF00}Que pena...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué pena...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que pena...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué pena...{/color}{/cps}"
 
 # game/script.rpy:1371
 translate spanish passeio_dormitorios_45c31fcb:
 
-    # p "{cps=30}{color=#FFFF00}Um lugar tão bonito merecia mais pessoas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un lugar tan bonito merecía más gente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um lugar tão bonito merecia mais pessoas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un lugar tan bonito merecía más gente.{/color}{/cps}"
 
 # game/script.rpy:1372
 translate spanish passeio_dormitorios_370927a2:
@@ -6573,56 +6573,56 @@ translate spanish passeio_dormitorios_5b988b32:
 # game/script.rpy:1376
 translate spanish passeio_dormitorios_64e50119:
 
-    # p "{cps=30}{color=#FFFF00}Eu sorrio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sonrío.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sorrio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sonrío.{/color}{/cps}"
 
 # game/script.rpy:1377
 translate spanish passeio_dormitorios_b10f9ffb:
 
-    # p "{cps=30}{color=#FFFF00}Então meus olhos voltam para o caderno apoiado no colo de Aurore.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces mis ojos vuelven al cuaderno apoyado en el regazo de Aurore.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então meus olhos voltam para o caderno apoiado no colo de Aurore.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces mis ojos vuelven al cuaderno apoyado en el regazo de Aurore.{/color}{/cps}"
 
 # game/script.rpy:1378
 translate spanish passeio_dormitorios_d4a3aeb1_1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1379
 translate spanish passeio_dormitorios_49ad19dc:
 
-    # p "{cps=30}{color=#FFFF00}Você estava desenhando quando eu cheguei, não estava?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estabas dibujando cuando llegué, ¿verdad?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você estava desenhando quando eu cheguei, não estava?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estabas dibujando cuando llegué, ¿verdad?{/color}{/cps}"
 
 # game/script.rpy:1380
 translate spanish passeio_dormitorios_2753c7ba:
 
-    # p "{cps=30}{color=#FFFF00}O que você está desenhando?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué estás dibujando?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que você está desenhando?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué estás dibujando?{/color}{/cps}"
 
 # game/script.rpy:1381
 translate spanish passeio_dormitorios_9c2a8d29:
 
-    # p "{cps=30}{color=#FFFF00}Aurore parece hesitar por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore parece dudar un instante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore parece hesitar por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore parece dudar un instante.{/color}{/cps}"
 
 # game/script.rpy:1382
 translate spanish passeio_dormitorios_94584472:
 
-    # p "{cps=30}{color=#FFFF00}Ela olha para o caderno.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mira el cuaderno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela olha para o caderno.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mira el cuaderno.{/color}{/cps}"
 
 # game/script.rpy:1383
 translate spanish passeio_dormitorios_ecbe16e3:
 
-    # p "{cps=30}{color=#FFFF00}Depois para mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después a mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois para mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después a mí.{/color}{/cps}"
 
 # game/script.rpy:1384
 translate spanish passeio_dormitorios_e659929c:
 
-    # p "{cps=30}{color=#FFFF00}E então desvia o olhar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y entonces desvía la mirada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E então desvia o olhar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y entonces desvía la mirada.{/color}{/cps}"
 
 # game/script.rpy:1385
 translate spanish passeio_dormitorios_456c82d3:
@@ -6639,110 +6639,110 @@ translate spanish passeio_dormitorios_91077952:
 # game/script.rpy:1387
 translate spanish passeio_dormitorios_8e4af2d6:
 
-    # p "{cps=30}{color=#FFFF00}Hm?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Milagro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Milagro.{/color}{/cps}"
 
 # game/script.rpy:1388
 translate spanish passeio_dormitorios_9a780951:
 
-    # p "{cps=30}{color=#FFFF00}Aurore gira o caderno lentamente na minha direção.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore gira lentamente el cuaderno hacia mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore gira o caderno lentamente na minha direção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore gira lentamente el cuaderno hacia mí.{/color}{/cps}"
 
 # game/script.rpy:1389
 translate spanish passeio_dormitorios_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1390
 translate spanish passeio_dormitorios_526d184d:
 
-    # p "{cps=30}{color=#FFFF00}É um desenho meu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Es un dibujo mío!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É um desenho meu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Es un dibujo mío!{/color}{/cps}"
 
 # game/script.rpy:1391
 translate spanish passeio_dormitorios_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1392
 translate spanish passeio_dormitorios_b8bea544:
 
-    # p "{cps=30}{color=#FFFF00}!!!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}!!!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1393
 translate spanish passeio_dormitorios_63318d66:
 
-    # p "{cps=30}{color=#FFFF00}EH?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿¡EH?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}EH?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿¡EH?!{/color}{/cps}"
 
 # game/script.rpy:1394
 translate spanish passeio_dormitorios_3e1f4115:
 
-    # p "{cps=30}{color=#FFFF00}Me aproximo para observar melhor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco para verlo mejor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me aproximo para observar melhor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco para verlo mejor.{/color}{/cps}"
 
 # game/script.rpy:1395
 translate spanish passeio_dormitorios_49ebc43f:
 
-    # p "{cps=30}{color=#FFFF00}É claramente eu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy claramente yo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É claramente eu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy claramente yo.{/color}{/cps}"
 
 # game/script.rpy:1396
 translate spanish passeio_dormitorios_f677fcc6:
 
-    # p "{cps=30}{color=#FFFF00}O uniforme.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El uniforme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O uniforme.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El uniforme.{/color}{/cps}"
 
 # game/script.rpy:1397
 translate spanish passeio_dormitorios_9d8a4f93:
 
-    # p "{cps=30}{color=#FFFF00}Meu cabelo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi cabello.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu cabelo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi cabello.{/color}{/cps}"
 
 # game/script.rpy:1398
 translate spanish passeio_dormitorios_67818034:
 
-    # p "{cps=30}{color=#FFFF00}Até a mochila.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hasta la mochila.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até a mochila.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hasta la mochila.{/color}{/cps}"
 
 # game/script.rpy:1399
 translate spanish passeio_dormitorios_3a95d089:
 
-    # p "{cps=30}{color=#FFFF00}Os traços são delicados.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los trazos son delicados.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os traços são delicados.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los trazos son delicados.{/color}{/cps}"
 
 # game/script.rpy:1400
 translate spanish passeio_dormitorios_7f2d5f80:
 
-    # p "{cps=30}{color=#FFFF00}Parece uma ilustração de um livro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Parece la ilustración de un libro!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece uma ilustração de um livro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Parece la ilustración de un libro!{/color}{/cps}"
 
 # game/script.rpy:1401
 translate spanish passeio_dormitorios_7204712c_2:
 
-    # p "{cps=30}{color=#FFFF00}Uau...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Uau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Uau!{/color}{/cps}"
 
 # game/script.rpy:1402
 translate spanish passeio_dormitorios_b5c7013e:
 
-    # p "{cps=30}{color=#FFFF00}Ficou lindo!!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quedó hermoso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ficou lindo!!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quedó hermoso.{/color}{/cps}"
 
 # game/script.rpy:1403
 translate spanish passeio_dormitorios_5b7d57e5:
 
-    # p "{cps=30}{color=#FFFF00}Você desenhou isso tudo agora?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡¿Dibujaste todo esto ahora?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você desenhou isso tudo agora?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡¿Dibujaste todo esto ahora?!{/color}{/cps}"
 
 # game/script.rpy:1404
 translate spanish passeio_dormitorios_2719bce0:
 
-    # p "{cps=30}{color=#FFFF00}Aurore sorri timidamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore sonríe con timidez.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore sorri timidamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore sonríe con timidez.{/color}{/cps}"
 
 # game/script.rpy:1405
 translate spanish passeio_dormitorios_78649730:
@@ -6753,20 +6753,20 @@ translate spanish passeio_dormitorios_78649730:
 # game/script.rpy:1406
 translate spanish passeio_dormitorios_022caf53:
 
-    # p "{cps=30}{color=#FFFF00}Meu Deus...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Dios mío!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu Deus...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Dios mío!{/color}{/cps}"
 
 # game/script.rpy:1407
 translate spanish passeio_dormitorios_00ce6674:
 
-    # p "{cps=30}{color=#FFFF00}Você desenha muito bem!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Dibujas muy bien!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você desenha muito bem!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Dibujas muy bien!{/color}{/cps}"
 
 # game/script.rpy:1408
 translate spanish passeio_dormitorios_bc634c66:
 
-    # p "{cps=30}{color=#FFFF00}Parece fotografia!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Parece una fotografía!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece fotografia!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Parece una fotografía!{/color}{/cps}"
 
 # game/script.rpy:1409
 translate spanish passeio_dormitorios_91853e40:
@@ -6777,20 +6777,20 @@ translate spanish passeio_dormitorios_91853e40:
 # game/script.rpy:1410
 translate spanish passeio_dormitorios_3a8f3914:
 
-    # p "{cps=30}{color=#FFFF00}Eu não estou exagerando!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡No estoy exagerando!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não estou exagerando!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡No estoy exagerando!{/color}{/cps}"
 
 # game/script.rpy:1411
 translate spanish passeio_dormitorios_cc3ce7bd:
 
-    # p "{cps=30}{color=#FFFF00}Você tem muito talento!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Tienes muchísimo talento!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você tem muito talento!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Tienes muchísimo talento!{/color}{/cps}"
 
 # game/script.rpy:1412
 translate spanish passeio_dormitorios_cfdce1b9:
 
-    # p "{cps=30}{color=#FFFF00}Aurore abaixa um pouco a cabeça.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore baja un poco la cabeza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore abaixa um pouco a cabeça.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore baja un poco la cabeza.{/color}{/cps}"
 
 # game/script.rpy:1413
 translate spanish passeio_dormitorios_d70638d9:
@@ -6801,56 +6801,56 @@ translate spanish passeio_dormitorios_d70638d9:
 # game/script.rpy:1414
 translate spanish passeio_dormitorios_c229567a:
 
-    # p "{cps=30}{color=#FFFF00}Silêncio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Silencio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Silêncio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Silencio.{/color}{/cps}"
 
 # game/script.rpy:1415
 translate spanish passeio_dormitorios_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1416
 translate spanish passeio_dormitorios_b4819608:
 
-    # p "{cps=30}{color=#FFFF00}Sinto meu rosto esquentar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento cómo me arde la cara.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sinto meu rosto esquentar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento cómo me arde la cara.{/color}{/cps}"
 
 # game/script.rpy:1417
 translate spanish passeio_dormitorios_d4a3aeb1_2:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1418
 translate spanish passeio_dormitorios_5174e1d2:
 
-    # p "{cps=30}{color=#FFFF00}O-obrigada...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}G-gracias...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O-obrigada...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}G-gracias...{/color}{/cps}"
 
 # game/script.rpy:1419
 translate spanish passeio_dormitorios_6649d18f:
 
-    # p "{cps=30}{color=#FFFF00}As duas desviamos o olhar ao mesmo tempo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las dos desviamos la mirada al mismo tiempo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As duas desviamos o olhar ao mesmo tempo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las dos desviamos la mirada al mismo tiempo.{/color}{/cps}"
 
 # game/script.rpy:1420
 translate spanish passeio_dormitorios_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1421
 translate spanish passeio_dormitorios_316b6fe2:
 
-    # p "{cps=30}{color=#FFFF00}Hihihi...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jejeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hihihi...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jejeje.{/color}{/cps}"
 
 # game/script.rpy:1422
 translate spanish passeio_dormitorios_7d177688:
 
-    # p "{cps=30}{color=#FFFF00}Acho que nunca fui desenhada antes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}G-gracias... ¡Creo que nunca antes me habían dibujado!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que nunca fui desenhada antes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}G-gracias... ¡Creo que nunca antes me habían dibujado!{/color}{/cps}"
 
 # game/script.rpy:1423
 translate spanish passeio_dormitorios_3d4c1077:
@@ -6861,26 +6861,26 @@ translate spanish passeio_dormitorios_3d4c1077:
 # game/script.rpy:1424
 translate spanish passeio_dormitorios_ffcbe546:
 
-    # p "{cps=30}{color=#FFFF00}Uhum.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ajá.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uhum.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ajá.{/color}{/cps}"
 
 # game/script.rpy:1425
 translate spanish passeio_dormitorios_6f76dae8:
 
-    # p "{cps=30}{color=#FFFF00}É uma sensação estranha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es una sensación extraña.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É uma sensação estranha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es una sensación extraña.{/color}{/cps}"
 
 # game/script.rpy:1426
 translate spanish passeio_dormitorios_f13a3230:
 
-    # p "{cps=30}{color=#FFFF00}Mas muito legal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero muy linda.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas muito legal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero muy linda.{/color}{/cps}"
 
 # game/script.rpy:1427
 translate spanish passeio_dormitorios_f5a88c98:
 
-    # p "{cps=30}{color=#FFFF00}Aurore sorri.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore sonríe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore sorri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore sonríe.{/color}{/cps}"
 
 # game/script.rpy:1428
 translate spanish passeio_dormitorios_19130bc1:
@@ -6903,14 +6903,14 @@ translate spanish passeio_dormitorios_80365414:
 # game/script.rpy:1431
 translate spanish passeio_dormitorios_cc136ed2_1:
 
-    # p "{cps=30}{color=#FFFF00}Sério?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿En serio?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sério?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿En serio?{/color}{/cps}"
 
 # game/script.rpy:1432
 translate spanish passeio_dormitorios_8c54a294:
 
-    # p "{cps=30}{color=#FFFF00}Eu adoraria!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Me encantaría!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu adoraria!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Me encantaría!{/color}{/cps}"
 
 # game/script.rpy:1433
 translate spanish passeio_dormitorios_04520ce4:
@@ -6921,20 +6921,20 @@ translate spanish passeio_dormitorios_04520ce4:
 # game/script.rpy:1434
 translate spanish passeio_dormitorios_d3513491:
 
-    # p "{cps=30}{color=#FFFF00}Abro um sorriso enorme.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se me dibuja una sonrisa enorme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro um sorriso enorme.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se me dibuja una sonrisa enorme.{/color}{/cps}"
 
 # game/script.rpy:1435
 translate spanish passeio_dormitorios_6a67610c:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigada!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Muchas gracias!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigada!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Muchas gracias!{/color}{/cps}"
 
 # game/script.rpy:1436
 translate spanish passeio_dormitorios_f65e5c2c:
 
-    # p "{cps=30}{color=#FFFF00}Vou guardar com muito carinho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo guardaré con mucho cariño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou guardar com muito carinho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo guardaré con mucho cariño.{/color}{/cps}"
 
 # game/script.rpy:1437
 translate spanish passeio_dormitorios_f7bb3d2a:
@@ -6945,32 +6945,32 @@ translate spanish passeio_dormitorios_f7bb3d2a:
 # game/script.rpy:1438
 translate spanish passeio_dormitorios_7eb32185:
 
-    # p "{cps=30}{color=#FFFF00}As duas permanecemos alguns segundos em silêncio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las dos nos quedamos algunos segundos en silencio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As duas permanecemos alguns segundos em silêncio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las dos nos quedamos algunos segundos en silencio.{/color}{/cps}"
 
 # game/script.rpy:1439
 translate spanish passeio_dormitorios_7107f459:
 
-    # p "{cps=30}{color=#FFFF00}O vento balança suavemente as folhas das árvores.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El viento mece suavemente las hojas de los árboles.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O vento balança suavemente as folhas das árvores.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El viento mece suavemente las hojas de los árboles.{/color}{/cps}"
 
 # game/script.rpy:1440
 translate spanish passeio_dormitorios_11bc1fb1_1:
 
-    # p "{cps=30}{color=#FFFF00}É um silêncio confortável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es un silencio cómodo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É um silêncio confortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es un silencio cómodo.{/color}{/cps}"
 
 # game/script.rpy:1441
 translate spanish passeio_dormitorios_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1442
 translate spanish passeio_dormitorios_5c50e304:
 
-    # p "{cps=30}{color=#FFFF00}Agora eu entendo por que esse lugar é tão bonito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora entiendo por qué este lugar es tan bonito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora eu entendo por que esse lugar é tão bonito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora entiendo por qué este lugar es tan bonito.{/color}{/cps}"
 
 # game/script.rpy:1443
 translate spanish passeio_dormitorios_2ebbfced:
@@ -6981,68 +6981,68 @@ translate spanish passeio_dormitorios_2ebbfced:
 # game/script.rpy:1444
 translate spanish passeio_dormitorios_73d2e82e:
 
-    # p "{cps=30}{color=#FFFF00}Dá vontade de ficar aqui para sempre.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Dan ganas de quedarse aquí para siempre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dá vontade de ficar aqui para sempre.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Dan ganas de quedarse aquí para siempre.{/color}{/cps}"
 
 # game/script.rpy:1445
 translate spanish passeio_dormitorios_6933a4a8:
 
-    # p "{cps=30}{color=#FFFF00}Aurore olha ao redor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore mira a su alrededor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore olha ao redor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore mira a su alrededor.{/color}{/cps}"
 
 # game/script.rpy:1446
 translate spanish passeio_dormitorios_cef05b74:
 
-    # p "{cps=30}{color=#FFFF00}As flores.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Las flores.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As flores.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Las flores.{/color}{/cps}"
 
 # game/script.rpy:1447
 translate spanish passeio_dormitorios_732b288a:
 
-    # p "{cps=30}{color=#FFFF00}A estufa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El invernadero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A estufa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El invernadero.{/color}{/cps}"
 
 # game/script.rpy:1448
 translate spanish passeio_dormitorios_d9dd840d:
 
-    # p "{cps=30}{color=#FFFF00}As árvores.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los árboles.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As árvores.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los árboles.{/color}{/cps}"
 
 # game/script.rpy:1449
 translate spanish passeio_dormitorios_cdc00eb0:
 
-    # p "{cps=30}{color=#FFFF00}Depois sorri discretamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después sonríe con discreción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Depois sorri discretamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después sonríe con discreción.{/color}{/cps}"
 
 # game/script.rpy:1450
 translate spanish passeio_dormitorios_2618e98c:
 
-    # p "{cps=30}{color=#FFFF00}Eu olho novamente para o jardim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vuelvo a mirar el jardín.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu olho novamente para o jardim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vuelvo a mirar el jardín.{/color}{/cps}"
 
 # game/script.rpy:1451
 translate spanish passeio_dormitorios_e5f9e704_10:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1452
 translate spanish passeio_dormitorios_02a6f75c:
 
-    # p "{cps=30}{color=#FFFF00}Acho...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo...{/color}{/cps}"
 
 # game/script.rpy:1453
 translate spanish passeio_dormitorios_0a89b746:
 
-    # p "{cps=30}{color=#FFFF00}Acho que encontrei meu lugar favorito da escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que acabo de encontrar mi lugar favorito de toda la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que encontrei meu lugar favorito da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que acabo de encontrar mi lugar favorito de toda la escuela.{/color}{/cps}"
 
 # game/script.rpy:1454
 translate spanish passeio_dormitorios_f5a88c98_1:
 
-    # p "{cps=30}{color=#FFFF00}Aurore sorri.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aurore sonríe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aurore sorri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore sonríe.{/color}{/cps}"
 
 # game/script.rpy:1455
 translate spanish passeio_dormitorios_dc3ce448:
@@ -7065,38 +7065,38 @@ translate spanish passeio_dormitorios_cc388c06:
 # game/script.rpy:1458
 translate spanish passeio_dormitorios_d47aa47b:
 
-    # p "{cps=30}{color=#FFFF00}Pode ter certeza que eu vou.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Puedes estar segura de que lo haré.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pode ter certeza que eu vou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Puedes estar segura de que lo haré.{/color}{/cps}"
 
 # game/script.rpy:1459
 translate spanish passeio_dormitorios_f717ab22:
 
-    # p "{cps=30}{color=#FFFF00}Olho para o céu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro al cielo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para o céu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro al cielo.{/color}{/cps}"
 
 # game/script.rpy:1460
 translate spanish passeio_dormitorios_e5f9e704_11:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1461
 translate spanish passeio_dormitorios_e37b71f5_2:
 
-    # p "{cps=30}{color=#FFFF00}Nossa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nossa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1462
 translate spanish passeio_dormitorios_e4745ed4:
 
-    # p "{cps=30}{color=#FFFF00}Já está ficando tarde.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vaya, ya se está haciendo tarde.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já está ficando tarde.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vaya, ya se está haciendo tarde.{/color}{/cps}"
 
 # game/script.rpy:1463
 translate spanish passeio_dormitorios_8d3810bf:
 
-    # p "{cps=30}{color=#FFFF00}Acho melhor eu ir para a casa de banho antes que fique cheia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor me voy a la casa de baños antes de que se llene.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho melhor eu ir para a casa de banho antes que fique cheia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor me voy a la casa de baños antes de que se llene.{/color}{/cps}"
 
 # game/script.rpy:1464
 translate spanish passeio_dormitorios_7316b785:
@@ -7107,230 +7107,230 @@ translate spanish passeio_dormitorios_7316b785:
 # game/script.rpy:1465
 translate spanish passeio_dormitorios_a4454983:
 
-    # p "{cps=30}{color=#FFFF00}Até mais, Aurore!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Hasta luego, Aurore!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até mais, Aurore!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Hasta luego, Aurore!{/color}{/cps}"
 
 # game/script.rpy:1466
 translate spanish passeio_dormitorios_637c4523:
 
-    # p "{cps=30}{color=#FFFF00}Aceno e volto pelo caminho de pedras.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me despido con la mano y regreso por el sendero de piedras.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aceno e volto pelo caminho de pedras.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me despido con la mano y regreso por el sendero de piedras.{/color}{/cps}"
 
 # game/script.rpy:1467
 translate spanish passeio_dormitorios_0374d739:
 
-    # p "{cps=30}{color=#FFFF00}Que lugar lindo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué lugar tan hermoso...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que lugar lindo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué lugar tan hermoso...{/color}{/cps}"
 
 # game/script.rpy:1468
 translate spanish passeio_dormitorios_3962224a:
 
-    # p "{cps=30}{color=#FFFF00}É tão mágico!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Es tan mágico!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É tão mágico!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Es tan mágico!{/color}{/cps}"
 
 # game/script.rpy:1469
 translate spanish passeio_dormitorios_bf1f8b8b:
 
-    # p "{cps=30}{color=#FFFF00}E a dona dele é mais linda ainda!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Y la chica que lo cuida es todavía más hermosa!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E a dona dele é mais linda ainda!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Y la chica que lo cuida es todavía más hermosa!{/color}{/cps}"
 
 # game/script.rpy:1475
 translate spanish casa_de_banho_8fa0c42c:
 
-    # p "{cps=30}{color=#FFFF00}Enquanto caminho pelos corredores em direção à casa de banho...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mientras camino por los pasillos rumbo a los baños...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enquanto caminho pelos corredores em direção à casa de banho...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mientras camino por los pasillos rumbo a los baños...{/color}{/cps}"
 
 # game/script.rpy:1476
 translate spanish casa_de_banho_1f6b3683:
 
-    # p "{cps=30}{color=#FFFF00}Paro por um instante em frente a uma das grandes janelas da escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo un momento frente a una de las grandes ventanas de la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro por um instante em frente a uma das grandes janelas da escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo un momento frente a una de las grandes ventanas de la escuela.{/color}{/cps}"
 
 # game/script.rpy:1477
 translate spanish casa_de_banho_d0de390b:
 
-    # p "{cps=30}{color=#FFFF00}O céu já está completamente alaranjado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El cielo ya está completamente teñido de naranja.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O céu já está completamente alaranjado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El cielo ya está completamente teñido de naranja.{/color}{/cps}"
 
 # game/script.rpy:1478
 translate spanish casa_de_banho_efd7ef05:
 
-    # p "{cps=30}{color=#FFFF00}O vento balança as copas das árvores.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El viento mueve las copas de los árboles.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O vento balança as copas das árvores.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El viento mueve las copas de los árboles.{/color}{/cps}"
 
 # game/script.rpy:1479
 translate spanish casa_de_banho_6d1bfd91:
 
-    # p "{cps=30}{color=#FFFF00}Algumas pétalas são carregadas pelo ar, atravessando lentamente o jardim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Algunos pétalos son arrastrados por el aire, flotando lentamente sobre el jardín.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Algumas pétalas são carregadas pelo ar, atravessando lentamente o jardim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Algunos pétalos son arrastrados por el aire, flotando lentamente sobre el jardín.{/color}{/cps}"
 
 # game/script.rpy:1480
 translate spanish casa_de_banho_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1481
 translate spanish casa_de_banho_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1482
 translate spanish casa_de_banho_735a8fd4:
 
-    # p "{cps=30}{color=#FFFF00}Essa escola é tão linda...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esta escuela es tan hermosa...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Essa escola é tão linda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esta escuela es tan hermosa...{/color}{/cps}"
 
 # game/script.rpy:1483
 translate spanish casa_de_banho_fbcbf521:
 
-    # p "{cps=30}{color=#FFFF00}Sorrio sem perceber.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sonrío sin darme cuenta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sorrio sem perceber.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sonrío sin darme cuenta.{/color}{/cps}"
 
 # game/script.rpy:1484
 translate spanish casa_de_banho_813c210c:
 
-    # p "{cps=30}{color=#FFFF00}Estou ansiosa para as aulas de amanhã.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo muchas ganas de que empiecen las clases mañana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou ansiosa para as aulas de amanhã.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo muchas ganas de que empiecen las clases mañana.{/color}{/cps}"
 
 # game/script.rpy:1485
 translate spanish casa_de_banho_5143b4d8:
 
-    # p "{cps=30}{color=#FFFF00}Hehehe...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jejeje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hehehe...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jejeje.{/color}{/cps}"
 
 # game/script.rpy:1489
 translate spanish casa_de_banho_7eb42459:
 
-    # p "{cps=30}{color=#FFFF00}Continuo andando até finalmente chegar à casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sigo caminando hasta llegar finalmente a los baños.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Continuo andando até finalmente chegar à casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sigo caminando hasta llegar finalmente a los baños.{/color}{/cps}"
 
 # game/script.rpy:1490
 translate spanish casa_de_banho_82307b72:
 
-    # p "{cps=30}{color=#FFFF00}Há algumas alunas conversando enquanto organizam seus armários.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay algunas chicas conversando mientras guardan sus cosas en los casilleros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Há algumas alunas conversando enquanto organizam seus armários.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay algunas chicas conversando mientras guardan sus cosas en los casilleros.{/color}{/cps}"
 
 # game/script.rpy:1491
 translate spanish casa_de_banho_519d392b:
 
-    # p "{cps=30}{color=#FFFF00}Outras já seguem para os chuveiros.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Otras ya se dirigen hacia las duchas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Outras já seguem para os chuveiros.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Otras ya se dirigen hacia las duchas.{/color}{/cps}"
 
 # game/script.rpy:1492
 translate spanish casa_de_banho_047e44cc:
 
-    # p "{cps=30}{color=#FFFF00}Abro meu armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro mi casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro meu armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro mi casillero.{/color}{/cps}"
 
 # game/script.rpy:1493
 translate spanish casa_de_banho_c4c6206a:
 
-    # p "{cps=30}{color=#FFFF00}Pego minha toalha, meu sabonete, shampoo e condicionador.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Saco mi toalla, jabón, champú y acondicionador.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pego minha toalha, meu sabonete, shampoo e condicionador.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Saco mi toalla, jabón, champú y acondicionador.{/color}{/cps}"
 
 # game/script.rpy:1494
 translate spanish casa_de_banho_f250ef90:
 
-    # p "{cps=30}{color=#FFFF00}Em seguida...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Luego...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Em seguida...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Luego...{/color}{/cps}"
 
 # game/script.rpy:1495
 translate spanish casa_de_banho_17bfa576:
 
-    # p "{cps=30}{color=#FFFF00}Entro sozinha em um dos boxes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entro sola en una de las duchas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entro sozinha em um dos boxes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entro sola en una de las duchas.{/color}{/cps}"
 
 # game/script.rpy:1496
 translate spanish casa_de_banho_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1497
 translate spanish casa_de_banho_9417203f:
 
-    # p "{cps=30}{color=#FFFF00}A água quente começa a cair.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El agua caliente comienza a caer.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A água quente começa a cair.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El agua caliente comienza a caer.{/color}{/cps}"
 
 # game/script.rpy:1498
 translate spanish casa_de_banho_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1499
 translate spanish casa_de_banho_c0a57935:
 
-    # p "{cps=30}{color=#FFFF00}Hmmm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hmmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hmmm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hmmm...{/color}{/cps}"
 
 # game/script.rpy:1500
 translate spanish casa_de_banho_28952e4a:
 
-    # p "{cps=30}{color=#FFFF00}Que água quentinha...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué calentita está el agua...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que água quentinha...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué calentita está el agua...{/color}{/cps}"
 
 # game/script.rpy:1501
 translate spanish casa_de_banho_7fc527fe:
 
-    # p "{cps=30}{color=#FFFF00}Acho que eu precisava disso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que necesitaba esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que eu precisava disso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que necesitaba esto.{/color}{/cps}"
 
 # game/script.rpy:1502
 translate spanish casa_de_banho_2fa6076e:
 
-    # p "{cps=30}{color=#FFFF00}Fecho os olhos por alguns instantes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cierro los ojos por unos instantes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Fecho os olhos por alguns instantes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cierro los ojos por unos instantes.{/color}{/cps}"
 
 # game/script.rpy:1503
 translate spanish casa_de_banho_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1504
 translate spanish casa_de_banho_7ca41a49:
 
-    # p "{cps=30}{color=#FFFF00}Hoje foi um dia tão cansativo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hoy fue un día tan agotador...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão cansativo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hoy fue un día tan agotador...{/color}{/cps}"
 
 # game/script.rpy:1505
 translate spanish casa_de_banho_921fc152:
 
-    # p "{cps=30}{color=#FFFF00}Aconteceu tanta coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pasaron tantas cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aconteceu tanta coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pasaron tantas cosas.{/color}{/cps}"
 
 # game/script.rpy:1506
 translate spanish casa_de_banho_f9d19893:
 
-    # p "{cps=30}{color=#FFFF00}Conheci tantas pessoas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Conocí a tanta gente...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Conheci tantas pessoas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Conocí a tanta gente...{/color}{/cps}"
 
 # game/script.rpy:1507
 translate spanish casa_de_banho_0268ea62:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou ficar só mais um pouquinho aqui pensando...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que me quedaré aquí un ratito más, pensando...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou ficar só mais um pouquinho aqui pensando...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que me quedaré aquí un ratito más, pensando...{/color}{/cps}"
 
 # game/script.rpy:1508
 translate spanish casa_de_banho_d0a34fa3:
 
-    # p "{cps=30}{color=#FFFF00}Antes de realmente começar meu banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Antes de empezar a bañarme de verdad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Antes de realmente começar meu banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Antes de empezar a bañarme de verdad.{/color}{/cps}"
 
 # game/script.rpy:1509
 translate spanish casa_de_banho_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1510
 translate spanish casa_de_banho_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1513
 translate spanish casa_de_banho_d0a1dd0b:
@@ -7815,92 +7815,92 @@ translate spanish casa_de_banho_bb2cf764:
 # game/script.rpy:1603
 translate spanish colega_quarto_conhecido_46b7bc31:
 
-    # p "{cps=30}{color=#FFFF00}Durante esse tempo, terminei meu banho, vesti meu pijama e voltei ao prédio dos dormitórios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Durante ese tiempo, terminé de bañarme, me puse el pijama y regresé al edificio de los dormitorios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Durante esse tempo, terminei meu banho, vesti meu pijama e voltei ao prédio dos dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Durante ese tiempo, terminé de bañarme, me puse el pijama y regresé al edificio de los dormitorios.{/color}{/cps}"
 
 # game/script.rpy:1604
 translate spanish colega_quarto_conhecido_cd744c74:
 
-    # p "{cps=30}{color=#FFFF00}Antes de abrir a porta...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Antes de abrir la puerta...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Antes de abrir a porta...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Antes de abrir la puerta...{/color}{/cps}"
 
 # game/script.rpy:1605
 translate spanish colega_quarto_conhecido_93d080cf:
 
-    # p "{cps=30}{color=#FFFF00}Eu paro por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo por un momento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu paro por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo por un momento.{/color}{/cps}"
 
 # game/script.rpy:1606
 translate spanish colega_quarto_conhecido_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1607
 translate spanish colega_quarto_conhecido_7778d7a8:
 
-    # p "{cps=30}{color=#FFFF00}Meu colega de quarto deve estar aqui dentro agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi compañero de habitación debe estar aquí dentro ahora mismo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu colega de quarto deve estar aqui dentro agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi compañero de habitación debe estar aquí dentro ahora mismo.{/color}{/cps}"
 
 # game/script.rpy:1608
 translate spanish colega_quarto_conhecido_1ac3d392:
 
-    # p "{cps=30}{color=#FFFF00}É agora que vou conhecer ele...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por fin voy a conocerlo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É agora que vou conhecer ele...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por fin voy a conocerlo...{/color}{/cps}"
 
 # game/script.rpy:1609
 translate spanish colega_quarto_conhecido_4fde4c98:
 
-    # p "{cps=30}{color=#FFFF00}Ou ela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}O conocerla.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ou ela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}O conocerla.{/color}{/cps}"
 
 # game/script.rpy:1610
 translate spanish colega_quarto_conhecido_26c6b87a:
 
-    # p "{cps=30}{color=#FFFF00}Ok...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ok.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ok...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ok.{/color}{/cps}"
 
 # game/script.rpy:1611
 translate spanish colega_quarto_conhecido_bc939bdc:
 
-    # p "{cps=30}{color=#FFFF00}Sem ansiedade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sin nervios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sem ansiedade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sin nervios.{/color}{/cps}"
 
 # game/script.rpy:1612
 translate spanish colega_quarto_conhecido_806cc737:
 
-    # p "{cps=30}{color=#FFFF00}Preciso causar uma boa primeira impressão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo que causar una buena primera impresión.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Preciso causar uma boa primeira impressão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo que causar una buena primera impresión.{/color}{/cps}"
 
 # game/script.rpy:1613
 translate spanish colega_quarto_conhecido_75669dcb:
 
-    # p "{cps=30}{color=#FFFF00}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tomo mi tarjeta de acceso y la acerco a la puerta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tomo mi tarjeta de acceso y la acerco a la puerta.{/color}{/cps}"
 
 # game/script.rpy:1614
 translate spanish colega_quarto_conhecido_f61b9de9:
 
-    # p "{cps=30}{color=#FFFF00}BIP{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}BIP.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}BIP{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}BIP.{/color}{/cps}"
 
 # game/script.rpy:1615
 translate spanish colega_quarto_conhecido_6983af18:
 
-    # p "{cps=30}{color=#FFFF00}A fechadura destrava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La cerradura se desbloquea.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A fechadura destrava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La cerradura se desbloquea.{/color}{/cps}"
 
 # game/script.rpy:1616
 translate spanish colega_quarto_conhecido_cface9ba:
 
-    # p "{cps=30}{color=#FFFF00}Abro a porta e...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro la puerta y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro a porta e...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro la puerta y...{/color}{/cps}"
 
 # game/script.rpy:1617
 translate spanish colega_quarto_conhecido_2f2f3ce2:
 
-    # p "{cps=30}{color=#FFFF00}Lucien?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿?: ¡LUCIEN!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿?: ¡LUCIEN!{/color}{/cps}"
 
 # game/script.rpy:1618
 translate spanish colega_quarto_conhecido_dbfbfe43:
@@ -7911,20 +7911,20 @@ translate spanish colega_quarto_conhecido_dbfbfe43:
 # game/script.rpy:1619
 translate spanish colega_quarto_conhecido_b29f8a90:
 
-    # p "{cps=30}{color=#FFFF00}Por alguns segundos nós apenas ficamos olhando um para o outro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Durante unos segundos, simplemente nos quedamos mirándonos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por alguns segundos nós apenas ficamos olhando um para o outro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Durante unos segundos, simplemente nos quedamos mirándonos.{/color}{/cps}"
 
 # game/script.rpy:1620
 translate spanish colega_quarto_conhecido_8a8b478b:
 
-    # p "{cps=30}{color=#FFFF00}Caramba...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Guau!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Guau!{/color}{/cps}"
 
 # game/script.rpy:1621
 translate spanish colega_quarto_conhecido_fbfa2ed7:
 
-    # p "{cps=30}{color=#FFFF00}Você é meu colega de quarto!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Eres mi compañero de habitación!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você é meu colega de quarto!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Eres mi compañero de habitación!{/color}{/cps}"
 
 # game/script.rpy:1622
 translate spanish colega_quarto_conhecido_3948c88c:
@@ -7941,8 +7941,8 @@ translate spanish colega_quarto_conhecido_ffa52b47:
 # game/script.rpy:1624
 translate spanish colega_quarto_conhecido_522979a7:
 
-    # p "{cps=30}{color=#FFFF00}Lucien começa a rir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien empieza a reírse.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien começa a rir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien empieza a reírse.{/color}{/cps}"
 
 # game/script.rpy:1625
 translate spanish colega_quarto_conhecido_922aa89e:
@@ -7953,14 +7953,14 @@ translate spanish colega_quarto_conhecido_922aa89e:
 # game/script.rpy:1626
 translate spanish colega_quarto_conhecido_3eb0866d:
 
-    # p "{cps=30}{color=#FFFF00}Mesmo que a gente tenha se conhecido hoje...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aunque nos conocimos hoy...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mesmo que a gente tenha se conhecido hoje...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aunque nos conocimos hoy...{/color}{/cps}"
 
 # game/script.rpy:1627
 translate spanish colega_quarto_conhecido_ddbb5273:
 
-    # p "{cps=30}{color=#FFFF00}Saber que meu colega de quarto é alguém com quem eu já conversei me deixa muito mais tranquila.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Saber que mi compañero de habitación es alguien con quien ya había hablado me deja mucho más tranquila.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Saber que meu colega de quarto é alguém com quem eu já conversei me deixa muito mais tranquila.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Saber que mi compañero de habitación es alguien con quien ya había hablado me deja mucho más tranquila.{/color}{/cps}"
 
 # game/script.rpy:1628
 translate spanish colega_quarto_conhecido_d08664e0:
@@ -7977,32 +7977,32 @@ translate spanish colega_quarto_conhecido_ecd201d6:
 # game/script.rpy:1630
 translate spanish colega_quarto_conhecido_a2f035d0:
 
-    # p "{cps=30}{color=#FFFF00}Ah, sim!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ah, sí!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, sim!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ah, sí!{/color}{/cps}"
 
 # game/script.rpy:1631
 translate spanish colega_quarto_conhecido_5d1b7522:
 
-    # p "{cps=30}{color=#FFFF00}Eu cheguei bem cedo hoje e já aproveitei para arrumar tudo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Llegué bastante temprano esta mañana y aproveché para acomodar todo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu cheguei bem cedo hoje e já aproveitei para arrumar tudo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Llegué bastante temprano esta mañana y aproveché para acomodar todo.{/color}{/cps}"
 
 # game/script.rpy:1632
 translate spanish colega_quarto_conhecido_faa4f25f:
 
-    # p "{cps=30}{color=#FFFF00}Olho para o outro lado do quarto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro hacia el otro lado de la habitación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para o outro lado do quarto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro hacia el otro lado de la habitación.{/color}{/cps}"
 
 # game/script.rpy:1633
 translate spanish colega_quarto_conhecido_bba98b38:
 
-    # p "{cps=30}{color=#FFFF00}Inclusive...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por cierto...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Inclusive...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por cierto...{/color}{/cps}"
 
 # game/script.rpy:1634
 translate spanish colega_quarto_conhecido_5181d088:
 
-    # p "{cps=30}{color=#FFFF00}Você não veio para o dormitório porque passou o dia inteiro jogando futebol?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿No viniste al dormitorio porque pasaste todo el día jugando al fútbol?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você não veio para o dormitório porque passou o dia inteiro jogando futebol?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿No viniste al dormitorio porque pasaste todo el día jugando al fútbol?{/color}{/cps}"
 
 # game/script.rpy:1635
 translate spanish colega_quarto_conhecido_7daec536:
@@ -8019,8 +8019,8 @@ translate spanish colega_quarto_conhecido_37297eea:
 # game/script.rpy:1637
 translate spanish colega_quarto_conhecido_80a615fc:
 
-    # p "{cps=30}{color=#FFFF00}Lucien ri.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien se ríe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien ri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien se ríe.{/color}{/cps}"
 
 # game/script.rpy:1638
 translate spanish colega_quarto_conhecido_f7508a70:
@@ -8043,14 +8043,14 @@ translate spanish colega_quarto_conhecido_b3be5121:
 # game/script.rpy:1641
 translate spanish colega_quarto_conhecido_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1642
 translate spanish colega_quarto_conhecido_aa69c9f4:
 
-    # p "{cps=30}{color=#FFFF00}Entendo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entiendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entendo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entiendo.{/color}{/cps}"
 
 # game/script.rpy:1643
 translate spanish colega_quarto_conhecido_bd06d365:
@@ -8061,8 +8061,8 @@ translate spanish colega_quarto_conhecido_bd06d365:
 # game/script.rpy:1644
 translate spanish colega_quarto_conhecido_64a3a40d:
 
-    # p "{cps=30}{color=#FFFF00}Lucien olha para meu pijama.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien mira mi pijama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien olha para meu pijama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien mira mi pijama.{/color}{/cps}"
 
 # game/script.rpy:1645
 translate spanish colega_quarto_conhecido_e77f9e52:
@@ -8079,26 +8079,26 @@ translate spanish colega_quarto_conhecido_14f2f3ea:
 # game/script.rpy:1647
 translate spanish colega_quarto_conhecido_978d5217:
 
-    # p "{cps=30}{color=#FFFF00}Já sim!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Sí!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já sim!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Sí!{/color}{/cps}"
 
 # game/script.rpy:1648
 translate spanish colega_quarto_conhecido_8492efac:
 
-    # p "{cps=30}{color=#FFFF00}Agora é um horário tranquilo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A esta hora está bastante tranquilo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora é um horário tranquilo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A esta hora está bastante tranquilo.{/color}{/cps}"
 
 # game/script.rpy:1649
 translate spanish colega_quarto_conhecido_c706139a:
 
-    # p "{cps=30}{color=#FFFF00}Mas... Você já não tinha ido?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero... ¿tú no habías ido ya?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas... Você já não tinha ido?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero... ¿tú no habías ido ya?{/color}{/cps}"
 
 # game/script.rpy:1650
 translate spanish colega_quarto_conhecido_14e07c2b:
 
-    # p "{cps=30}{color=#FFFF00}Me lembro de você falando que iria antes de nos separarmos mais cedo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Recuerdo que dijiste que irías antes de que nos separáramos más temprano...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me lembro de você falando que iria antes de nos separarmos mais cedo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Recuerdo que dijiste que irías antes de que nos separáramos más temprano...{/color}{/cps}"
 
 # game/script.rpy:1651
 translate spanish colega_quarto_conhecido_0f5b2f38:
@@ -8121,122 +8121,122 @@ translate spanish colega_quarto_conhecido_781c0804:
 # game/script.rpy:1654
 translate spanish colega_quarto_conhecido_c344f7bb:
 
-    # p "{cps=30}{color=#FFFF00}Até!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Hasta luego!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Hasta luego!{/color}{/cps}"
 
 # game/script.rpy:1655
 translate spanish colega_quarto_conhecido_d4a3aeb1_1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1656
 translate spanish colega_quarto_conhecido_f1dc0ed1:
 
-    # p "{cps=30}{color=#FFFF00}Foi muito melhor do que eu imaginava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Salió mucho mejor de lo que imaginaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Foi muito melhor do que eu imaginava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Salió mucho mejor de lo que imaginaba.{/color}{/cps}"
 
 # game/script.rpy:1657
 translate spanish colega_quarto_conhecido_bce3418f:
 
-    # p "{cps=30}{color=#FFFF00}Eu estava tão nervosa para conhecer meu colega de quarto...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estaba tan nerviosa por conocer a mi compañero de habitación...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu estava tão nervosa para conhecer meu colega de quarto...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estaba tan nerviosa por conocer a mi compañero de habitación...{/color}{/cps}"
 
 # game/script.rpy:1658
 translate spanish colega_quarto_conhecido_592fb09d:
 
-    # p "{cps=30}{color=#FFFF00}Mas parece que o destino resolveu facilitar as coisas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero parece que el destino decidió hacerme las cosas un poco más fáciles.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas parece que o destino resolveu facilitar as coisas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero parece que el destino decidió hacerme las cosas un poco más fáciles.{/color}{/cps}"
 
 # game/script.rpy:1659
 translate spanish colega_quarto_conhecido_6ce0cf7c:
 
-    # p "{cps=30}{color=#FFFF00}Sorrio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sonrío.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sorrio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sonrío.{/color}{/cps}"
 
 # game/script.rpy:1667
 translate spanish colega_quarto_novo_46b7bc31:
 
-    # p "{cps=30}{color=#FFFF00}Durante esse tempo, terminei meu banho, vesti meu pijama e voltei ao prédio dos dormitórios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Durante ese tiempo, terminé de bañarme, me puse el pijama y regresé al edificio de los dormitorios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Durante esse tempo, terminei meu banho, vesti meu pijama e voltei ao prédio dos dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Durante ese tiempo, terminé de bañarme, me puse el pijama y regresé al edificio de los dormitorios.{/color}{/cps}"
 
 # game/script.rpy:1668
 translate spanish colega_quarto_novo_cd744c74:
 
-    # p "{cps=30}{color=#FFFF00}Antes de abrir a porta...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Antes de abrir la puerta...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Antes de abrir a porta...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Antes de abrir la puerta...{/color}{/cps}"
 
 # game/script.rpy:1669
 translate spanish colega_quarto_novo_93d080cf:
 
-    # p "{cps=30}{color=#FFFF00}Eu paro por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo por un momento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu paro por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo por un momento.{/color}{/cps}"
 
 # game/script.rpy:1670
 translate spanish colega_quarto_novo_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1671
 translate spanish colega_quarto_novo_7778d7a8:
 
-    # p "{cps=30}{color=#FFFF00}Meu colega de quarto deve estar aqui dentro agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi compañero de habitación debe estar aquí dentro ahora mismo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu colega de quarto deve estar aqui dentro agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi compañero de habitación debe estar aquí dentro ahora mismo.{/color}{/cps}"
 
 # game/script.rpy:1672
 translate spanish colega_quarto_novo_1ac3d392:
 
-    # p "{cps=30}{color=#FFFF00}É agora que vou conhecer ele...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por fin voy a conocerlo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É agora que vou conhecer ele...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por fin voy a conocerlo...{/color}{/cps}"
 
 # game/script.rpy:1673
 translate spanish colega_quarto_novo_4fde4c98:
 
-    # p "{cps=30}{color=#FFFF00}Ou ela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}O conocerla.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ou ela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}O conocerla.{/color}{/cps}"
 
 # game/script.rpy:1674
 translate spanish colega_quarto_novo_26c6b87a:
 
-    # p "{cps=30}{color=#FFFF00}Ok...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ok.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ok...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ok.{/color}{/cps}"
 
 # game/script.rpy:1675
 translate spanish colega_quarto_novo_bc939bdc:
 
-    # p "{cps=30}{color=#FFFF00}Sem ansiedade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sin nervios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sem ansiedade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sin nervios.{/color}{/cps}"
 
 # game/script.rpy:1676
 translate spanish colega_quarto_novo_806cc737:
 
-    # p "{cps=30}{color=#FFFF00}Preciso causar uma boa primeira impressão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo que causar una buena primera impresión.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Preciso causar uma boa primeira impressão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo que causar una buena primera impresión.{/color}{/cps}"
 
 # game/script.rpy:1677
 translate spanish colega_quarto_novo_75669dcb:
 
-    # p "{cps=30}{color=#FFFF00}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tomo mi tarjeta de acceso y la acerco a la puerta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tomo mi tarjeta de acceso y la acerco a la puerta.{/color}{/cps}"
 
 # game/script.rpy:1678
 translate spanish colega_quarto_novo_f61b9de9:
 
-    # p "{cps=30}{color=#FFFF00}BIP{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}BIP.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}BIP{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}BIP.{/color}{/cps}"
 
 # game/script.rpy:1679
 translate spanish colega_quarto_novo_6983af18:
 
-    # p "{cps=30}{color=#FFFF00}A fechadura destrava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La cerradura se desbloquea.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A fechadura destrava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La cerradura se desbloquea.{/color}{/cps}"
 
 # game/script.rpy:1680
 translate spanish colega_quarto_novo_cface9ba:
 
-    # p "{cps=30}{color=#FFFF00}Abro a porta e...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro la puerta y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro a porta e...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro la puerta y...{/color}{/cps}"
 
 # game/script.rpy:1681
 translate spanish colega_quarto_novo_40eae7df:
@@ -8247,20 +8247,20 @@ translate spanish colega_quarto_novo_40eae7df:
 # game/script.rpy:1682
 translate spanish colega_quarto_novo_3c147d59:
 
-    # p "{cps=30}{color=#FFFF00}Ah!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
 
 # game/script.rpy:1683
 translate spanish colega_quarto_novo_f9036f5a:
 
-    # p "{cps=30}{color=#FFFF00}Oi, tudo bem!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Hola! Sí, todo bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Oi, tudo bem!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Hola! Sí, todo bien.{/color}{/cps}"
 
 # game/script.rpy:1684
 translate spanish colega_quarto_novo_87915e0d:
 
-    # p "{cps=30}{color=#FFFF00}Você é meu colega de quarto então?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces, ¿tú eres mi compañero de habitación?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você é meu colega de quarto então?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces, ¿tú eres mi compañero de habitación?{/color}{/cps}"
 
 # game/script.rpy:1685
 translate spanish colega_quarto_novo_d64adc63:
@@ -8277,50 +8277,50 @@ translate spanish colega_quarto_novo_21af7e48:
 # game/script.rpy:1687
 translate spanish colega_quarto_novo_bcca855a:
 
-    # p "{cps=30}{color=#FFFF00}Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Kiyoki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Kiyoki.{/color}{/cps}"
 
 # game/script.rpy:1688
 translate spanish colega_quarto_novo_631dbfe6:
 
-    # p "{cps=30}{color=#FFFF00}Prazer em conhecer você.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mucho gusto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Prazer em conhecer você.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mucho gusto.{/color}{/cps}"
 
 # game/script.rpy:1689
 translate spanish colega_quarto_novo_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1690
 translate spanish colega_quarto_novo_6441d33d:
 
-    # p "{cps=30}{color=#FFFF00}Um garoto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un chico.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um garoto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un chico.{/color}{/cps}"
 
 # game/script.rpy:1691
 translate spanish colega_quarto_novo_436667f5:
 
-    # p "{cps=30}{color=#FFFF00}Eu confesso que não esperava por isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo que admitir que no me esperaba esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu confesso que não esperava por isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo que admitir que no me esperaba esto.{/color}{/cps}"
 
 # game/script.rpy:1692
 translate spanish colega_quarto_novo_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:1693
 translate spanish colega_quarto_novo_011b05bb:
 
-    # p "{cps=30}{color=#FFFF00}Ele parece bem tranquilo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece bastante tranquilo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele parece bem tranquilo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece bastante tranquilo.{/color}{/cps}"
 
 # game/script.rpy:1694
 translate spanish colega_quarto_novo_e5f150ae:
 
-    # p "{cps=30}{color=#FFFF00}E educado também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y también educado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E educado também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y también educado.{/color}{/cps}"
 
 # game/script.rpy:1695
 translate spanish colega_quarto_novo_4e877969:
@@ -8349,14 +8349,14 @@ translate spanish colega_quarto_novo_c129d73b:
 # game/script.rpy:1699
 translate spanish colega_quarto_novo_ecb11cf8:
 
-    # p "{cps=30}{color=#FFFF00}Ah, obrigada!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ah, gracias!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, obrigada!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ah, gracias!{/color}{/cps}"
 
 # game/script.rpy:1700
 translate spanish colega_quarto_novo_c1c2c576:
 
-    # p "{cps=30}{color=#FFFF00}Eu também gostei bastante do seu lado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A mí también me gusta mucho tu lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu também gostei bastante do seu lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A mí también me gusta mucho tu lado.{/color}{/cps}"
 
 # game/script.rpy:1701
 translate spanish colega_quarto_novo_03e4f858:
@@ -8373,20 +8373,20 @@ translate spanish colega_quarto_novo_2fa2710a:
 # game/script.rpy:1703
 translate spanish colega_quarto_novo_c422783c:
 
-    # p "{cps=30}{color=#FFFF00}Por algum motivo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por alguna razón...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por algum motivo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por alguna razón...{/color}{/cps}"
 
 # game/script.rpy:1704
 translate spanish colega_quarto_novo_a7736b8f:
 
-    # p "{cps=30}{color=#FFFF00}Ele parece tão nervoso quanto eu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece estar tan nervioso como yo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele parece tão nervoso quanto eu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece estar tan nervioso como yo.{/color}{/cps}"
 
 # game/script.rpy:1705
 translate spanish colega_quarto_novo_64a3a40d:
 
-    # p "{cps=30}{color=#FFFF00}Lucien olha para meu pijama.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lucien mira mi pijama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lucien olha para meu pijama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien mira mi pijama.{/color}{/cps}"
 
 # game/script.rpy:1706
 translate spanish colega_quarto_novo_b5653443:
@@ -8403,14 +8403,14 @@ translate spanish colega_quarto_novo_14f2f3ea:
 # game/script.rpy:1708
 translate spanish colega_quarto_novo_a41746c3:
 
-    # p "{cps=30}{color=#FFFF00}Já abriu sim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí, ya están abiertos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já abriu sim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí, ya están abiertos.{/color}{/cps}"
 
 # game/script.rpy:1709
 translate spanish colega_quarto_novo_d47bda5d:
 
-    # p "{cps=30}{color=#FFFF00}Agora está em um horário tranquilo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A esta hora está bastante tranquilo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora está em um horário tranquilo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A esta hora está bastante tranquilo.{/color}{/cps}"
 
 # game/script.rpy:1710
 translate spanish colega_quarto_novo_0eaeffe1:
@@ -8433,14 +8433,14 @@ translate spanish colega_quarto_novo_12c16a59:
 # game/script.rpy:1713
 translate spanish colega_quarto_novo_de1b4c91:
 
-    # p "{cps=30}{color=#FFFF00}Claro!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Claro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Claro!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Claro.{/color}{/cps}"
 
 # game/script.rpy:1714
 translate spanish colega_quarto_novo_e6d27cf4:
 
-    # p "{cps=30}{color=#FFFF00}Vai lá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ve tranquilo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vai lá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ve tranquilo.{/color}{/cps}"
 
 # game/script.rpy:1715
 translate spanish colega_quarto_novo_c21620ff:
@@ -8451,128 +8451,128 @@ translate spanish colega_quarto_novo_c21620ff:
 # game/script.rpy:1716
 translate spanish colega_quarto_novo_891015c6:
 
-    # p "{cps=30}{color=#FFFF00}Até...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Hasta luego!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Hasta luego!{/color}{/cps}"
 
 # game/script.rpy:1717
 translate spanish colega_quarto_novo_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1718
 translate spanish colega_quarto_novo_ef3e6a0d:
 
-    # p "{cps=30}{color=#FFFF00}Bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:1719
 translate spanish colega_quarto_novo_2d876ade:
 
-    # p "{cps=30}{color=#FFFF00}Não foi tão ruim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No estuvo tan mal.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não foi tão ruim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No estuvo tan mal.{/color}{/cps}"
 
 # game/script.rpy:1720
 translate spanish colega_quarto_novo_14aedc87:
 
-    # p "{cps=30}{color=#FFFF00}Na verdade...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}De hecho...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Na verdade...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}De hecho...{/color}{/cps}"
 
 # game/script.rpy:1721
 translate spanish colega_quarto_novo_0cd3353d:
 
-    # p "{cps=30}{color=#FFFF00}Foi bem melhor do que eu imaginei.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Fue mucho mejor de lo que imaginaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Foi bem melhor do que eu imaginei.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Fue mucho mejor de lo que imaginaba.{/color}{/cps}"
 
 # game/script.rpy:1722
 translate spanish colega_quarto_novo_d50aa896:
 
-    # p "{cps=30}{color=#FFFF00}Nós dois claramente estávamos nervosos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los dos estábamos claramente nerviosos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nós dois claramente estávamos nervosos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los dos estábamos claramente nerviosos.{/color}{/cps}"
 
 # game/script.rpy:1723
 translate spanish colega_quarto_novo_7b1f6d77:
 
-    # p "{cps=30}{color=#FFFF00}Mas ele parece ser uma pessoa legal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero parece ser una buena persona.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas ele parece ser uma pessoa legal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero parece ser una buena persona.{/color}{/cps}"
 
 # game/script.rpy:1724
 translate spanish colega_quarto_novo_4eb97257:
 
-    # p "{cps=30}{color=#FFFF00}Espero que a gente consiga se dar bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espero que podamos llevarnos bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espero que a gente consiga se dar bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espero que podamos llevarnos bien.{/color}{/cps}"
 
 # game/script.rpy:1725
 translate spanish colega_quarto_novo_6ce0cf7c:
 
-    # p "{cps=30}{color=#FFFF00}Sorrio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sonrío.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sorrio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sonrío.{/color}{/cps}"
 
 # game/script.rpy:1731
 translate spanish fim_dia_zero_7f2150fd:
 
-    # p "{cps=30}{color=#FFFF00}Acho que agora posso finalmente descansar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que ahora sí puedo descansar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que agora posso finalmente descansar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que ahora sí puedo descansar.{/color}{/cps}"
 
 # game/script.rpy:1732
 translate spanish fim_dia_zero_a0c4e6e1:
 
-    # p "{cps=30}{color=#FFFF00}Bocejo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bostezo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bocejo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bostezo.{/color}{/cps}"
 
 # game/script.rpy:1733
 translate spanish fim_dia_zero_e6007354:
 
-    # p "{cps=30}{color=#FFFF00}Hoje foi um dia tão longo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hoy fue un día tan largo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão longo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hoy fue un día tan largo...{/color}{/cps}"
 
 # game/script.rpy:1734
 translate spanish fim_dia_zero_a0bf84d3:
 
-    # p "{cps=30}{color=#FFFF00}Mas tenho certeza que os próximos dias não serão assim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero estoy segura de que los próximos días no serán así.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas tenho certeza que os próximos dias não serão assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero estoy segura de que los próximos días no serán así.{/color}{/cps}"
 
 # game/script.rpy:1735
 translate spanish fim_dia_zero_e4acf7b8:
 
-    # p "{cps=30}{color=#FFFF00}Serão mais tranquilos...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Serán más tranquilos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Serão mais tranquilos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Serán más tranquilos...{/color}{/cps}"
 
 # game/script.rpy:1736
 translate spanish fim_dia_zero_0480ff40:
 
-    # p "{cps=30}{color=#FFFF00}Mais normais...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Más normales...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mais normais...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Más normales...{/color}{/cps}"
 
 # game/script.rpy:1737
 translate spanish fim_dia_zero_74b1d4cb:
 
-    # p "{cps=30}{color=#FFFF00}E eu...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y yo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E eu...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y yo...{/color}{/cps}"
 
 # game/script.rpy:1738
 translate spanish fim_dia_zero_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
 
 # game/script.rpy:1739
 translate spanish fim_dia_zero_04400ac0:
 
-    # p "{cps=30}{color=#FFFF00}Nem percebo quando meus olhos começam a pesar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ni siquiera me doy cuenta de cuándo mis ojos empiezan a pesarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nem percebo quando meus olhos começam a pesar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ni siquiera me doy cuenta de cuándo mis ojos empiezan a pesarme.{/color}{/cps}"
 
 # game/script.rpy:1740
 translate spanish fim_dia_zero_892f5415:
 
-    # p "{cps=30}{color=#FFFF00}Pouco depois...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Poco después...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pouco depois...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Poco después...{/color}{/cps}"
 
 # game/script.rpy:1741
 translate spanish fim_dia_zero_3d6875b0:
 
-    # p "{cps=30}{color=#FFFF00}Eu caio no sono.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me quedo dormida.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me quedo dormida.{/color}{/cps}"
 
 translate spanish strings:
 
@@ -8637,782 +8637,782 @@ translate spanish strings:
 # game/script.rpy:266
 translate spanish hub_exploracao_3917895f:
 
-    # p "{cps=30}{color=#FFFF00}06:30 da manhã.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}06:30 de la mañana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}06:30 da manhã.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}06:30 de la mañana.{/color}{/cps}"
 
 # game/script.rpy:267
 translate spanish hub_exploracao_beb400f4:
 
-    # p "{cps=30}{color=#FFFF00}O som insistente do despertador invade o silêncio do quarto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El sonido insistente de la alarma invade el silencio de la habitación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O som insistente do despertador invade o silêncio do quarto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El sonido insistente de la alarma invade el silencio de la habitación.{/color}{/cps}"
 
 # game/script.rpy:268
 translate spanish hub_exploracao_6135e0ec:
 
-    # p "{cps=30}{color=#FFFF00}Abro os olhos lentamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro los ojos lentamente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro os olhos lentamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro los ojos lentamente.{/color}{/cps}"
 
 # game/script.rpy:269
 translate spanish hub_exploracao_d19fb39e:
 
-    # p "{cps=30}{color=#FFFF00}Por alguns segundos, fico apenas encarando o teto, tentando lembrar por que diabos coloquei aquele alarme tão cedo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por unos segundos, me quedo mirando el techo, tratando de recordar por qué demonios puse esa alarma tan temprano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por alguns segundos, fico apenas encarando o teto, tentando lembrar por que diabos coloquei aquele alarme tão cedo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por unos segundos, me quedo mirando el techo, tratando de recordar por qué demonios puse esa alarma tan temprano.{/color}{/cps}"
 
 # game/script.rpy:270
 translate spanish hub_exploracao_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:271
 translate spanish hub_exploracao_6ad8174a:
 
-    # p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:272
 translate spanish hub_exploracao_7a7c77cd:
 
-    # p "{cps=30}{color=#FFFF00}As férias acabaram.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se acabaron las vacaciones.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}As férias acabaram.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se acabaron las vacaciones.{/color}{/cps}"
 
 # game/script.rpy:273
 translate spanish hub_exploracao_d9dfce43:
 
-    # p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
 
 # game/script.rpy:274
 translate spanish hub_exploracao_de7cf8f3:
 
-    # p "{cps=30}{color=#FFFF00}Nem consigo acreditar que já chegou a hora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ni siquiera puedo creer que ya haya llegado la hora.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nem consigo acreditar que já chegou a hora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ni siquiera puedo creer que ya haya llegado la hora.{/color}{/cps}"
 
 # game/script.rpy:275
 translate spanish hub_exploracao_b3709ee9:
 
-    # p "{cps=30}{color=#FFFF00}Parece que começou ontem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que fue ayer cuando empezaron.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece que começou ontem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que fue ayer cuando empezaron.{/color}{/cps}"
 
 # game/script.rpy:276
 translate spanish hub_exploracao_ae587c7f:
 
-    # p "{cps=30}{color=#FFFF00}Foram semanas que passaram diante dos meus olhos sem que eu sequer percebesse.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Fueron semanas que pasaron frente a mis ojos sin que me diera cuenta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Foram semanas que passaram diante dos meus olhos sem que eu sequer percebesse.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Fueron semanas que pasaron frente a mis ojos sin que me diera cuenta.{/color}{/cps}"
 
 # game/script.rpy:277
 translate spanish hub_exploracao_271605af:
 
-    # p "{cps=30}{color=#FFFF00}E agora...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y ahora...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E agora...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y ahora...{/color}{/cps}"
 
 # game/script.rpy:278
 translate spanish hub_exploracao_ab3b35df:
 
-    # p "{cps=30}{color=#FFFF00}Primeiro dia de aula.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Primer día de clases.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Primeiro dia de aula.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Primer día de clases.{/color}{/cps}"
 
 # game/script.rpy:279
 translate spanish hub_exploracao_350eaea9:
 
-    # p "{cps=30}{color=#FFFF00}Suspiro e me sento na cama.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Suspiro y me siento en la cama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Suspiro e me sento na cama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Suspiro y me siento en la cama.{/color}{/cps}"
 
 # game/script.rpy:280
 translate spanish hub_exploracao_25189016:
 
-    # p "{cps=30}{color=#FFFF00}A luz fraca da manhã atravessa as cortinas, iluminando apenas uma parte do quarto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La tenue luz de la mañana atraviesa las cortinas, iluminando solo una parte de la habitación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A luz fraca da manhã atravessa as cortinas, iluminando apenas uma parte do quarto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La tenue luz de la mañana atraviesa las cortinas, iluminando solo una parte de la habitación.{/color}{/cps}"
 
 # game/script.rpy:281
 translate spanish hub_exploracao_0ca2d7cd:
 
-    # p "{cps=30}{color=#FFFF00}Eu preferia que continuasse assim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Preferiría que se quedara así.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu preferia que continuasse assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Preferiría que se quedara así.{/color}{/cps}"
 
 # game/script.rpy:282
 translate spanish hub_exploracao_73e46d15:
 
-    # p "{cps=30}{color=#FFFF00}Mas não tenho escolha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero no tengo opción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas não tenho escolha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero no tengo opción.{/color}{/cps}"
 
 # game/script.rpy:283
 translate spanish hub_exploracao_278b9cec:
 
-    # p "{cps=30}{color=#FFFF00}Preciso levantar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo que levantarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Preciso levantar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo que levantarme.{/color}{/cps}"
 
 # game/script.rpy:284
 translate spanish hub_exploracao_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:285
 translate spanish hub_exploracao_82dd3f4b:
 
-    # p "{cps=30}{color=#FFFF00}Esse sou eu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Este soy yo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Esse sou eu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Este soy yo.{/color}{/cps}"
 
 # game/script.rpy:286
 translate spanish hub_exploracao_9899f306:
 
-    # p "{cps=30}{color=#FFFF00}Dá para perceber que eu não estou exatamente animado para ir à escola, não é?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se nota que no estoy precisamente emocionado por ir a la escuela, ¿verdad?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dá para perceber que eu não estou exatamente animado para ir à escola, não é?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se nota que no estoy precisamente emocionado por ir a la escuela, ¿verdad?{/color}{/cps}"
 
 # game/script.rpy:287
 translate spanish hub_exploracao_e8d248ce:
 
-    # p "{cps=30}{color=#FFFF00}Apesar disso...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A pesar de eso...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Apesar disso...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A pesar de eso...{/color}{/cps}"
 
 # game/script.rpy:288
 translate spanish hub_exploracao_48039a39:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto de estudar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta estudiar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto de estudar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta estudiar.{/color}{/cps}"
 
 # game/script.rpy:289
 translate spanish hub_exploracao_e079d3d7:
 
-    # p "{cps=30}{color=#FFFF00}Muito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mucho.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mucho.{/color}{/cps}"
 
 # game/script.rpy:290
 translate spanish hub_exploracao_3f659ad3:
 
-    # p "{cps=30}{color=#FFFF00}Não é à toa que entrei por recomendação no Instituto Real de York.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No por nada entré por recomendación al Instituto Real de York.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não é à toa que entrei por recomendação no Instituto Real de York.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No por nada entré por recomendación al Instituto Real de York.{/color}{/cps}"
 
 # game/script.rpy:291
 translate spanish hub_exploracao_60d687f8:
 
-    # p "{cps=30}{color=#FFFF00}Passei anos estudando para chegar até aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pasé años estudiando para llegar hasta aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Passei anos estudando para chegar até aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pasé años estudiando para llegar hasta aquí.{/color}{/cps}"
 
 # game/script.rpy:292
 translate spanish hub_exploracao_84ac7259:
 
-    # p "{cps=30}{color=#FFFF00}Então seria estranho dizer que não estou interessado nas aulas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así que sería raro decir que no me interesan las clases.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então seria estranho dizer que não estou interessado nas aulas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así que sería raro decir que no me interesan las clases.{/color}{/cps}"
 
 # game/script.rpy:293
 translate spanish hub_exploracao_bec282cf:
 
-    # p "{cps=30}{color=#FFFF00}O problema é outro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El problema es otro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O problema é outro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El problema es otro.{/color}{/cps}"
 
 # game/script.rpy:294
 translate spanish hub_exploracao_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:295
 translate spanish hub_exploracao_5a955e01:
 
-    # p "{cps=30}{color=#FFFF00}Não sei explicar..{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No sé cómo explicarlo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não sei explicar..{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No sé cómo explicarlo...{/color}{/cps}"
 
 # game/script.rpy:296
 translate spanish hub_exploracao_e6eac65c:
 
-    # p "{cps=30}{color=#FFFF00}É como se algo quisesse me impedir de ir…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es como si algo quisiera impedirme ir...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É como se algo quisesse me impedir de ir…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es como si algo quisiera impedirme ir...{/color}{/cps}"
 
 # game/script.rpy:297
 translate spanish hub_exploracao_b4b456ae:
 
-    # p "{cps=30}{color=#FFFF00}Minha intuição diz que não vai ser agradável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi intuición me dice que no va a ser agradable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha intuição diz que não vai ser agradável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi intuición me dice que no va a ser agradable.{/color}{/cps}"
 
 # game/script.rpy:298
 translate spanish hub_exploracao_b33478ef:
 
-    # p "{cps=30}{color=#FFFF00}Que não vai ser seguro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Que no va a ser seguro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que não vai ser seguro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Que no va a ser seguro.{/color}{/cps}"
 
 # game/script.rpy:299
 translate spanish hub_exploracao_64603b22:
 
-    # p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:300
 translate spanish hub_exploracao_1d6a0bb6:
 
-    # p "{cps=30}{color=#FFFF00}Talvez eu esteja com ansiedade por ter que morar na escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez solo sea ansiedad por tener que vivir en la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez eu esteja com ansiedade por ter que morar na escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez solo sea ansiedad por tener que vivir en la escuela.{/color}{/cps}"
 
 # game/script.rpy:301
 translate spanish hub_exploracao_d0af4df6:
 
-    # p "{cps=30}{color=#FFFF00}Eu nunca estudei em um internato.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nunca he estudiado en un internado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu nunca estudei em um internato.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nunca he estudiado en un internado.{/color}{/cps}"
 
 # game/script.rpy:302
 translate spanish hub_exploracao_b32cda94:
 
-    # p "{cps=30}{color=#FFFF00}Tomara que seja apenas essa estranheza com minha futura nova rotina.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ojalá sea solo esa sensación extraña ante mi futura nueva rutina.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tomara que seja apenas essa estranheza com minha futura nova rotina.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ojalá sea solo esa sensación extraña ante mi futura nueva rutina.{/color}{/cps}"
 
 # game/script.rpy:303
 translate spanish hub_exploracao_27259f93:
 
-    # p "{cps=30}{color=#FFFF00}E nada além disso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y nada más que eso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E nada além disso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y nada más que eso.{/color}{/cps}"
 
 # game/script.rpy:304
 translate spanish hub_exploracao_706a0c91:
 
-    # p "{cps=30}{color=#FFFF00}Eu costumo ser bastante pontual.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Suelo ser bastante puntual.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu costumo ser bastante pontual.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Suelo ser bastante puntual.{/color}{/cps}"
 
 # game/script.rpy:305
 translate spanish hub_exploracao_fdc21e56:
 
-    # p "{cps=30}{color=#FFFF00}Na verdade, talvez pontualidade seja uma das poucas coisas que consigo manter sob controle.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}De hecho, tal vez la puntualidad sea una de las pocas cosas que logro mantener bajo control.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Na verdade, talvez pontualidade seja uma das poucas coisas que consigo manter sob controle.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}De hecho, tal vez la puntualidad sea una de las pocas cosas que logro mantener bajo control.{/color}{/cps}"
 
 # game/script.rpy:306
 translate spanish hub_exploracao_b2908505:
 
-    # p "{cps=30}{color=#FFFF00}Recomendaram que todos os alunos chegassem à escola às 07:00 para os check-ins.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Recomendaron que todos los alumnos llegaran a la escuela a las 07:00 para el registro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Recomendaram que todos os alunos chegassem à escola às 07:00 para os check-ins.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Recomendaron que todos los alumnos llegaran a la escuela a las 07:00 para el registro.{/color}{/cps}"
 
 # game/script.rpy:307
 translate spanish hub_exploracao_3c4822e4:
 
-    # p "{cps=30}{color=#FFFF00}Mas hoje vou me atrasar um pouco.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero hoy me voy a retrasar un poco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas hoje vou me atrasar um pouco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero hoy me voy a retrasar un poco.{/color}{/cps}"
 
 # game/script.rpy:308
 translate spanish hub_exploracao_2db84780:
 
-    # p "{cps=30}{color=#FFFF00}Não que isso seja um problema.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No es que sea un problema.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não que isso seja um problema.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No es que sea un problema.{/color}{/cps}"
 
 # game/script.rpy:309
 translate spanish hub_exploracao_00a608aa:
 
-    # p "{cps=30}{color=#FFFF00}Por ter entrado por recomendação e ser considerado um dos alunos de destaque do instituto, meu check-in já está praticamente pronto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por haber entrado por recomendación y ser considerado uno de los alumnos destacados del instituto, mi registro ya está prácticamente listo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por ter entrado por recomendação e ser considerado um dos alunos de destaque do instituto, meu check-in já está praticamente pronto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por haber entrado por recomendación y ser considerado uno de los alumnos destacados del instituto, mi registro ya está prácticamente listo.{/color}{/cps}"
 
 # game/script.rpy:310
 translate spanish hub_exploracao_49e395dc:
 
-    # p "{cps=30}{color=#FFFF00}Meu dormitório já foi definido.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi dormitorio ya fue asignado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu dormitório já foi definido.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi dormitorio ya fue asignado.{/color}{/cps}"
 
 # game/script.rpy:311
 translate spanish hub_exploracao_37f08930:
 
-    # p "{cps=30}{color=#FFFF00}Meu armário também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi casillero también.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu armário também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi casillero también.{/color}{/cps}"
 
 # game/script.rpy:312
 translate spanish hub_exploracao_c309979a:
 
-    # p "{cps=30}{color=#FFFF00}Até mesmo minhas aulas foram organizadas antes da minha chegada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Incluso mis clases fueron organizadas antes de mi llegada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até mesmo minhas aulas foram organizadas antes da minha chegada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Incluso mis clases fueron organizadas antes de mi llegada.{/color}{/cps}"
 
 # game/script.rpy:313
 translate spanish hub_exploracao_46d6ab23:
 
-    # p "{cps=30}{color=#FFFF00}Não preciso enfrentar aquela fila enorme de alunos recém-chegados.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo que hacer esa fila enorme de alumnos recién llegados.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não preciso enfrentar aquela fila enorme de alunos recém-chegados.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo que hacer esa fila enorme de alumnos recién llegados.{/color}{/cps}"
 
 # game/script.rpy:314
 translate spanish hub_exploracao_70e7c112:
 
-    # p "{cps=30}{color=#FFFF00}Não preciso preencher dezenas de formulários.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo que llenar decenas de formularios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não preciso preencher dezenas de formulários.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo que llenar decenas de formularios.{/color}{/cps}"
 
 # game/script.rpy:315
 translate spanish hub_exploracao_32fb3647:
 
-    # p "{cps=30}{color=#FFFF00}Não preciso correr para descobrir onde devo ficar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo que correr para averiguar dónde debo quedarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não preciso correr para descobrir onde devo ficar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo que correr para averiguar dónde debo quedarme.{/color}{/cps}"
 
 # game/script.rpy:316
 translate spanish hub_exploracao_b98a7f68:
 
-    # p "{cps=30}{color=#FFFF00}Só preciso chegar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo tengo que llegar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só preciso chegar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo tengo que llegar.{/color}{/cps}"
 
 # game/script.rpy:317
 translate spanish hub_exploracao_290c9203:
 
-    # p "{cps=30}{color=#FFFF00}Organizar minhas coisas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Organizar mis cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Organizar minhas coisas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Organizar mis cosas.{/color}{/cps}"
 
 # game/script.rpy:318
 translate spanish hub_exploracao_0105400a:
 
-    # p "{cps=30}{color=#FFFF00}E começar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y empezar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E começar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y empezar.{/color}{/cps}"
 
 # game/script.rpy:319
 translate spanish hub_exploracao_64603b22_1:
 
-    # p "{cps=30}{color=#FFFF00}…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:320
 translate spanish hub_exploracao_be0a3f26:
 
-    # p "{cps=30}{color=#FFFF00}Deve ser por isso que estou sem pressa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Debe ser por eso que no tengo prisa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deve ser por isso que estou sem pressa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Debe ser por eso que no tengo prisa.{/color}{/cps}"
 
 # game/script.rpy:321
 translate spanish hub_exploracao_218db0b3:
 
-    # p "{cps=30}{color=#FFFF00}Não há necessidade de chegar cedo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No hay necesidad de llegar temprano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não há necessidade de chegar cedo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No hay necesidad de llegar temprano.{/color}{/cps}"
 
 # game/script.rpy:322
 translate spanish hub_exploracao_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:323
 translate spanish hub_exploracao_449766f1:
 
-    # p "{cps=30}{color=#FFFF00}Mesmo assim...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aun así...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mesmo assim...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aun así...{/color}{/cps}"
 
 # game/script.rpy:324
 translate spanish hub_exploracao_16b6870e:
 
-    # p "{cps=30}{color=#FFFF00}Há uma sensação estranha no fundo da minha mente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay una sensación extraña en lo más profundo de mi mente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Há uma sensação estranha no fundo da minha mente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay una sensación extraña en lo más profundo de mi mente.{/color}{/cps}"
 
 # game/script.rpy:325
 translate spanish hub_exploracao_9fc67318:
 
-    # p "{cps=30}{color=#FFFF00}Como se alguma coisa estivesse me esperando naquele lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Como si algo me estuviera esperando en ese lugar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Como se alguma coisa estivesse me esperando naquele lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Como si algo me estuviera esperando en ese lugar.{/color}{/cps}"
 
 # game/script.rpy:326
 translate spanish hub_exploracao_7e4ee141:
 
-    # p "{cps=30}{color=#FFFF00}Talvez seja apenas ansiedade.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez solo sea ansiedad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez seja apenas ansiedade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez solo sea ansiedad.{/color}{/cps}"
 
 # game/script.rpy:327
 translate spanish hub_exploracao_cd1e9157:
 
-    # p "{cps=30}{color=#FFFF00}Talvez seja só a estranheza de começar uma nova etapa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez sea solo lo raro de empezar una nueva etapa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez seja só a estranheza de começar uma nova etapa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez sea solo lo raro de empezar una nueva etapa.{/color}{/cps}"
 
 # game/script.rpy:328
 translate spanish hub_exploracao_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:329
 translate spanish hub_exploracao_a834d118:
 
-    # p "{cps=30}{color=#FFFF00}Mas, por algum motivo, não consigo afastar esse pensamento.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero, por alguna razón, no puedo apartar ese pensamiento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas, por algum motivo, não consigo afastar esse pensamento.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero, por alguna razón, no puedo apartar ese pensamiento.{/color}{/cps}"
 
 # game/script.rpy:330
 translate spanish hub_exploracao_8f511ee2:
 
-    # p "{cps=30}{color=#FFFF00}Mesmo eu sendo o rei daquele lugar...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aunque yo sea el rey de este lugar...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mesmo eu sendo o rei daquele lugar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aunque yo sea el rey de este lugar...{/color}{/cps}"
 
 # game/script.rpy:331
 translate spanish hub_exploracao_34129128:
 
-    # p "{cps=30}{color=#FFFF00}Ele ainda vai arrancar a minha vida de mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Igual me va a arrebatar la vida.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele ainda vai arrancar a minha vida de mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Igual me va a arrebatar la vida.{/color}{/cps}"
 
 # game/script.rpy:332
 translate spanish hub_exploracao_dcc908e9:
 
-    # p "{cps=30}{color=#FFFF00}(Porta fechando){/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}(Puerta cerrándose){/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}(Porta fechando){/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}(Puerta cerrándose){/color}{/cps}"
 
 # game/script.rpy:339
 translate spanish hub_exploracao_c377c3f2:
 
-    # p "{cps=30}{color=#FFFF00}(Porta do carro se fecha.){/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}(Se cierra la puerta del auto){/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}(Porta do carro se fecha.){/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}(Se cierra la puerta del auto){/color}{/cps}"
 
 # game/script.rpy:340
 translate spanish hub_exploracao_54795ac4:
 
-    # p "{cps=30}{color=#FFFF00}Então aqui estamos...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así que aquí estamos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então aqui estamos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así que aquí estamos...{/color}{/cps}"
 
 # game/script.rpy:341
 translate spanish hub_exploracao_fab9633d:
 
-    # p "{cps=30}{color=#FFFF00}Instituto Real de York.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Instituto Real de York.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Instituto Real de York.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Instituto Real de York.{/color}{/cps}"
 
 # game/script.rpy:342
 translate spanish hub_exploracao_20779c6c:
 
-    # p "{cps=30}{color=#FFFF00}Aquela sensação que tive em casa mais cedo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esa sensación que tuve en casa más temprano...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aquela sensação que tive em casa mais cedo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esa sensación que tuve en casa más temprano...{/color}{/cps}"
 
 # game/script.rpy:343
 translate spanish hub_exploracao_da4a03d3:
 
-    # p "{cps=30}{color=#FFFF00}Parece ainda mais confusa agora que estou aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece aún más confusa ahora que estoy aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece ainda mais confusa agora que estou aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece aún más confusa ahora que estoy aquí.{/color}{/cps}"
 
 # game/script.rpy:344
 translate spanish hub_exploracao_19c925e8:
 
-    # p "{cps=30}{color=#FFFF00}Não sei dizer se estou feliz por finalmente ter chegado...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No sé si estoy feliz por haber llegado finalmente...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não sei dizer se estou feliz por finalmente ter chegado...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No sé si estoy feliz por haber llegado finalmente...{/color}{/cps}"
 
 # game/script.rpy:345
 translate spanish hub_exploracao_5693ebac:
 
-    # p "{cps=30}{color=#FFFF00}Ou se estou apenas esperando alguma coisa dar errado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}O si solo estoy esperando a que algo salga mal.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ou se estou apenas esperando alguma coisa dar errado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}O si solo estoy esperando a que algo salga mal.{/color}{/cps}"
 
 # game/script.rpy:346
 translate spanish hub_exploracao_ea506e11:
 
-    # p "{cps=30}{color=#FFFF00}Mas também não tenho escolha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero tampoco tengo opción.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas também não tenho escolha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero tampoco tengo opción.{/color}{/cps}"
 
 # game/script.rpy:347
 translate spanish hub_exploracao_84d3db6a:
 
-    # p "{cps=30}{color=#FFFF00}Vou fazer o quê?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué voy a hacer?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou fazer o quê?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué voy a hacer?{/color}{/cps}"
 
 # game/script.rpy:348
 translate spanish hub_exploracao_c5fe8bc4:
 
-    # p "{cps=30}{color=#FFFF00}Abandonar a escola?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Abandonar la escuela?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abandonar a escola?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Abandonar la escuela?{/color}{/cps}"
 
 # game/script.rpy:349
 translate spanish hub_exploracao_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:350
 translate spanish hub_exploracao_d7e0eab2:
 
-    # p "{cps=30}{color=#FFFF00}Não.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No.{/color}{/cps}"
 
 # game/script.rpy:351
 translate spanish hub_exploracao_ab6a18b2:
 
-    # p "{cps=30}{color=#FFFF00}Melhor parar de pensar nisso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor dejo de pensar en eso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor parar de pensar nisso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor dejo de pensar en eso.{/color}{/cps}"
 
 # game/script.rpy:352
 translate spanish hub_exploracao_f977e1ab:
 
-    # p "{cps=30}{color=#FFFF00}Olho para o relógio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro el reloj.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para o relógio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro el reloj.{/color}{/cps}"
 
 # game/script.rpy:353
 translate spanish hub_exploracao_54831daf:
 
-    # p "{cps=30}{color=#FFFF00}08:25.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}08:25.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}08:25.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}08:25.{/color}{/cps}"
 
 # game/script.rpy:354
 translate spanish hub_exploracao_84a92120:
 
-    # p "{cps=30}{color=#FFFF00}Cheguei em um dos horários mais movimentados da manhã.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Llegué en uno de los momentos con más movimiento de la mañana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Cheguei em um dos horários mais movimentados da manhã.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Llegué en uno de los momentos con más movimiento de la mañana.{/color}{/cps}"
 
 # game/script.rpy:355
 translate spanish hub_exploracao_1251a1d5:
 
-    # p "{cps=30}{color=#FFFF00}Vários alunos atravessam os portões, alguns carregando malas, outros conversando enquanto procuram seus dormitórios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Varios alumnos cruzan los portones, algunos cargando maletas, otros conversando mientras buscan sus dormitorios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vários alunos atravessam os portões, alguns carregando malas, outros conversando enquanto procuram seus dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Varios alumnos cruzan los portones, algunos cargando maletas, otros conversando mientras buscan sus dormitorios.{/color}{/cps}"
 
 # game/script.rpy:356
 translate spanish hub_exploracao_cfd6f30b:
 
-    # p "{cps=30}{color=#FFFF00}Parece que a escola inteira resolveu acordar ao mesmo tempo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que toda la escuela decidió despertarse al mismo tiempo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece que a escola inteira resolveu acordar ao mesmo tempo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que toda la escuela decidió despertarse al mismo tiempo.{/color}{/cps}"
 
 # game/script.rpy:357
 translate spanish hub_exploracao_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:358
 translate spanish hub_exploracao_4b78a845:
 
-    # p "{cps=30}{color=#FFFF00}Bom.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bom.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno.{/color}{/cps}"
 
 # game/script.rpy:359
 translate spanish hub_exploracao_ca6d777d:
 
-    # p "{cps=30}{color=#FFFF00}Foda-se.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Al demonio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Foda-se.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Al demonio.{/color}{/cps}"
 
 # game/script.rpy:360
 translate spanish hub_exploracao_8490a0c9:
 
-    # p "{cps=30}{color=#FFFF00}O dia de hoje foi reservado para os check-ins.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El día de hoy estaba reservado para los registros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O dia de hoje foi reservado para os check-ins.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El día de hoy estaba reservado para los registros.{/color}{/cps}"
 
 # game/script.rpy:361
 translate spanish hub_exploracao_8775b3ef:
 
-    # p "{cps=30}{color=#FFFF00}E os meus já estão prontos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y los míos ya están listos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E os meus já estão prontos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y los míos ya están listos.{/color}{/cps}"
 
 # game/script.rpy:362
 translate spanish hub_exploracao_e7a5189f:
 
-    # p "{cps=30}{color=#FFFF00}Então só preciso conferir se está tudo certo, organizar minhas coisas e...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así que solo necesito verificar que todo esté bien, organizar mis cosas y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então só preciso conferir se está tudo certo, organizar minhas coisas e...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así que solo necesito verificar que todo esté bien, organizar mis cosas y...{/color}{/cps}"
 
 # game/script.rpy:363
 translate spanish hub_exploracao_93a370f1:
 
-    # p "{cps=30}{color=#FFFF00}Descansar um pouco.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Descansar un poco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Descansar um pouco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Descansar un poco.{/color}{/cps}"
 
 # game/script.rpy:364
 translate spanish hub_exploracao_803cd720:
 
-    # p "{cps=30}{color=#FFFF00}Talvez seja uma boa ideia aproveitar esse tempo antes das aulas começarem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez sea una buena idea aprovechar este tiempo antes de que empiecen las clases.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez seja uma boa ideia aproveitar esse tempo antes das aulas começarem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez sea una buena idea aprovechar este tiempo antes de que empiecen las clases.{/color}{/cps}"
 
 # game/script.rpy:365
 translate spanish hub_exploracao_c189f05a:
 
-    # p "{cps=30}{color=#FFFF00}Por onde devo começar?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Por dónde debería empezar?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por onde devo começar?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Por dónde debería empezar?{/color}{/cps}"
 
 # game/script.rpy:383
 translate spanish hub_checkins_cbebaec6:
 
-    # p "{cps=30}{color=#FFFF00}Preciso resolver os armários antes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Primero tengo que resolver los casilleros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Preciso resolver os armários antes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Primero tengo que resolver los casilleros.{/color}{/cps}"
 
 # game/script.rpy:384
 translate spanish hub_checkins_1a067c23:
 
-    # p "{cps=30}{color=#FFFF00}Não vou subir carregando essa mala toda.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No voy a subir cargando esta maleta enorme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não vou subir carregando essa mala toda.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No voy a subir cargando esta maleta enorme.{/color}{/cps}"
 
 # game/script.rpy:398
 translate spanish kuroya_armarios_59ebd18d:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou ver onde estão meus armários.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que iré a ver dónde están mis casilleros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou ver onde estão meus armários.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que iré a ver dónde están mis casilleros.{/color}{/cps}"
 
 # game/script.rpy:399
 translate spanish kuroya_armarios_5d6678e9:
 
-    # p "{cps=30}{color=#FFFF00}Tanto o de estudos quanto o da casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tanto el de estudios como el del baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tanto o de estudos quanto o da casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tanto el de estudios como el del baño.{/color}{/cps}"
 
 # game/script.rpy:400
 translate spanish kuroya_armarios_01922fb1:
 
-    # p "{cps=30}{color=#FFFF00}Já aproveito para guardar o que precisa ser guardado...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así aprovecho para guardar lo que tenga que guardar...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já aproveito para guardar o que precisa ser guardado...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así aprovecho para guardar lo que tenga que guardar...{/color}{/cps}"
 
 # game/script.rpy:401
 translate spanish kuroya_armarios_a7a47cac:
 
-    # p "{cps=30}{color=#FFFF00}E diminuir um pouco o peso da mala.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y le quito algo de peso a la maleta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E diminuir um pouco o peso da mala.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y le quito algo de peso a la maleta.{/color}{/cps}"
 
 # game/script.rpy:402
 translate spanish kuroya_armarios_127aa73e:
 
-    # p "{cps=30}{color=#FFFF00}Bem...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:403
 translate spanish kuroya_armarios_6f2ad792:
 
-    # p "{cps=30}{color=#FFFF00}Vamos lá, então.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vamos, entonces.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vamos lá, então.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vamos, entonces.{/color}{/cps}"
 
 # game/script.rpy:404
 translate spanish kuroya_armarios_3239a541:
 
-    # p "{cps=30}{color=#FFFF00}Começo a caminhar em direção aos corredores dos armários.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a caminar hacia los pasillos de los casilleros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a caminhar em direção aos corredores dos armários.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a caminar hacia los pasillos de los casilleros.{/color}{/cps}"
 
 # game/script.rpy:405
 translate spanish kuroya_armarios_e9409fad:
 
-    # p "{cps=30}{color=#FFFF00}Segundo o aplicativo, meu armário é o 011.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Según la aplicación, mi casillero es el 011.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Segundo o aplicativo, meu armário é o 011.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Según la aplicación, mi casillero es el 011.{/color}{/cps}"
 
 # game/script.rpy:406
 translate spanish kuroya_armarios_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:407
 translate spanish kuroya_armarios_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:408
 translate spanish kuroya_armarios_419f63fb:
 
-    # p "{cps=30}{color=#FFFF00}Onde diabos fica isso?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Dónde diablos queda eso?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Onde diabos fica isso?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Dónde diablos queda eso?{/color}{/cps}"
 
 # game/script.rpy:409
 translate spanish kuroya_armarios_fffad264:
 
-    # p "{cps=30}{color=#FFFF00}Olho ao redor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro a mi alrededor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho ao redor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro a mi alrededor.{/color}{/cps}"
 
 # game/script.rpy:410
 translate spanish kuroya_armarios_ea20737c:
 
-    # p "{cps=30}{color=#FFFF00}Estou diante dos armários 090.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estoy frente a los casilleros 090.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou diante dos armários 090.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estoy frente a los casilleros 090.{/color}{/cps}"
 
 # game/script.rpy:411
 translate spanish kuroya_armarios_c7ac2728:
 
-    # p "{cps=30}{color=#FFFF00}Desde quando essa escola é tão grande?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Desde cuándo esta escuela es tan grande?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Desde quando essa escola é tão grande?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Desde cuándo esta escuela es tan grande?{/color}{/cps}"
 
 # game/script.rpy:412
 translate spanish kuroya_armarios_71f38fd9:
 
-    # p "{cps=30}{color=#FFFF00}Começo a caminhar pelo corredor, seguindo os números conforme eles vão diminuindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a caminar por el pasillo, siguiendo los números a medida que van bajando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a caminhar pelo corredor, seguindo os números conforme eles vão diminuindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a caminar por el pasillo, siguiendo los números a medida que van bajando.{/color}{/cps}"
 
 # game/script.rpy:413
 translate spanish kuroya_armarios_58195416:
 
-    # p "{cps=30}{color=#FFFF00}090...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}090...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}090...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}090...{/color}{/cps}"
 
 # game/script.rpy:414
 translate spanish kuroya_armarios_efb1f11a:
 
-    # p "{cps=30}{color=#FFFF00}089...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}089...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}089...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}089...{/color}{/cps}"
 
 # game/script.rpy:415
 translate spanish kuroya_armarios_1e708c69:
 
-    # p "{cps=30}{color=#FFFF00}088...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}088...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}088...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}088...{/color}{/cps}"
 
 # game/script.rpy:416
 translate spanish kuroya_armarios_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:417
 translate spanish kuroya_armarios_bc42f19d:
 
-    # p "{cps=30}{color=#FFFF00}Isso vai demorar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esto va a tardar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso vai demorar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esto va a tardar.{/color}{/cps}"
 
 # game/script.rpy:418
 translate spanish kuroya_armarios_c3ddc73f:
 
-    # p "{cps=30}{color=#FFFF00}Continuo andando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sigo caminando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Continuo andando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sigo caminando.{/color}{/cps}"
 
 # game/script.rpy:419
 translate spanish kuroya_armarios_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:420
 translate spanish kuroya_armarios_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:421
 translate spanish kuroya_armarios_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:422
 translate spanish kuroya_armarios_3c147d59:
 
-    # p "{cps=30}{color=#FFFF00}Ah!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:423
 translate spanish kuroya_armarios_804e35e3:
 
-    # p "{cps=30}{color=#FFFF00}Finalmente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por fin.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Finalmente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por fin.{/color}{/cps}"
 
 # game/script.rpy:424
 translate spanish kuroya_armarios_a1c0a729:
 
-    # p "{cps=30}{color=#FFFF00}Achei.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo encontré.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Achei.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo encontré.{/color}{/cps}"
 
 # game/script.rpy:425
 translate spanish kuroya_armarios_dc80688b:
 
-    # p "{cps=30}{color=#FFFF00}O número 011 está bem na minha frente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El número 011 está justo frente a mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O número 011 está bem na minha frente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El número 011 está justo frente a mí.{/color}{/cps}"
 
 # game/script.rpy:426
 translate spanish kuroya_armarios_cefd768b:
 
-    # p "{cps=30}{color=#FFFF00}Abro o armário e começo a guardar minhas coisas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro el casillero y empiezo a guardar mis cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro o armário e começo a guardar minhas coisas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro el casillero y empiezo a guardar mis cosas.{/color}{/cps}"
 
 # game/script.rpy:427
 translate spanish kuroya_armarios_d21f079d:
 
-    # p "{cps=30}{color=#FFFF00}Nada demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nada del otro mundo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nada demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nada del otro mundo.{/color}{/cps}"
 
 # game/script.rpy:428
 translate spanish kuroya_armarios_4d9837b2:
 
-    # p "{cps=30}{color=#FFFF00}Alguns materiais, algumas roupas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Algunos útiles, algo de ropa...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Alguns materiais, algumas roupas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Algunos útiles, algo de ropa...{/color}{/cps}"
 
 # game/script.rpy:429
 translate spanish kuroya_armarios_004406fd:
 
-    # p "{cps=30}{color=#FFFF00}O básico do básico.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo básico de lo básico.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O básico do básico.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo básico de lo básico.{/color}{/cps}"
 
 # game/script.rpy:430
 translate spanish kuroya_armarios_96f685e8:
 
-    # p "{cps=30}{color=#FFFF00}Eu sou um cara básico.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy un tipo sencillo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou um cara básico.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy un tipo sencillo.{/color}{/cps}"
 
 # game/script.rpy:431
 translate spanish kuroya_armarios_0c614447:
 
-    # p "{cps=30}{color=#FFFF00}Chega até a ser sem graça, parando para pensar...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hasta llega a ser aburrido, viéndolo bien...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Chega até a ser sem graça, parando para pensar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hasta llega a ser aburrido, viéndolo bien...{/color}{/cps}"
 
 # game/script.rpy:432
 translate spanish kuroya_armarios_f7f8744c:
@@ -9423,20 +9423,20 @@ translate spanish kuroya_armarios_f7f8744c:
 # game/script.rpy:433
 translate spanish kuroya_armarios_2d0d4a35:
 
-    # p "{cps=30}{color=#FFFF00}Huh?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Eh?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Huh?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Eh?{/color}{/cps}"
 
 # game/script.rpy:434
 translate spanish kuroya_armarios_fd2c7d7a:
 
-    # p "{cps=30}{color=#FFFF00}Perdão?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Perdón?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Perdão?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Perdón?{/color}{/cps}"
 
 # game/script.rpy:435
 translate spanish kuroya_armarios_f364c267:
 
-    # p "{cps=30}{color=#FFFF00}Uma garota se aproxima sorrindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una chica se acerca sonriendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma garota se aproxima sorrindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una chica se acerca sonriendo.{/color}{/cps}"
 
 # game/script.rpy:436
 translate spanish kuroya_armarios_c6037639:
@@ -9453,14 +9453,14 @@ translate spanish kuroya_armarios_4ee79ade:
 # game/script.rpy:438
 translate spanish kuroya_armarios_b6af4b28:
 
-    # p "{cps=30}{color=#FFFF00}Ah, sim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah, sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, sim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah, sí.{/color}{/cps}"
 
 # game/script.rpy:439
 translate spanish kuroya_armarios_5dd5e168:
 
-    # p "{cps=30}{color=#FFFF00}Muito prazer.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mucho gusto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito prazer.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mucho gusto.{/color}{/cps}"
 
 # game/script.rpy:440
 translate spanish kuroya_armarios_e6eb9053:
@@ -9471,8 +9471,8 @@ translate spanish kuroya_armarios_e6eb9053:
 # game/script.rpy:441
 translate spanish kuroya_armarios_7bc814ac:
 
-    # p "{cps=30}{color=#FFFF00}Ah... Entendo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah... Entiendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah... Entendo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah... Entiendo.{/color}{/cps}"
 
 # game/script.rpy:442
 translate spanish kuroya_armarios_70bd6675:
@@ -9483,14 +9483,14 @@ translate spanish kuroya_armarios_70bd6675:
 # game/script.rpy:443
 translate spanish kuroya_armarios_632f7fe8:
 
-    # p "{cps=30}{color=#FFFF00}Eu não tenho certeza.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No estoy seguro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não tenho certeza.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No estoy seguro.{/color}{/cps}"
 
 # game/script.rpy:444
 translate spanish kuroya_armarios_9c712e18:
 
-    # p "{cps=30}{color=#FFFF00}Ainda preciso ir verificar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía tengo que ir a revisar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ainda preciso ir verificar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía tengo que ir a revisar.{/color}{/cps}"
 
 # game/script.rpy:445
 translate spanish kuroya_armarios_477494f9:
@@ -9507,14 +9507,14 @@ translate spanish kuroya_armarios_4512feca:
 # game/script.rpy:447
 translate spanish kuroya_armarios_5a295cbf:
 
-    # p "{cps=30}{color=#FFFF00}Não exatamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No exactamente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não exatamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No exactamente.{/color}{/cps}"
 
 # game/script.rpy:448
 translate spanish kuroya_armarios_f6f23dae:
 
-    # p "{cps=30}{color=#FFFF00}Eu entrei por recomendação, então eles decidiram o plano em que eu teria mais destaque.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entré por recomendación, así que ellos decidieron el plan en el que destacaría más.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu entrei por recomendação, então eles decidiram o plano em que eu teria mais destaque.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entré por recomendación, así que ellos decidieron el plan en el que destacaría más.{/color}{/cps}"
 
 # game/script.rpy:449
 translate spanish kuroya_armarios_1b75eb05:
@@ -9537,14 +9537,14 @@ translate spanish kuroya_armarios_7feabc68:
 # game/script.rpy:452
 translate spanish kuroya_armarios_24cfcec9:
 
-    # p "{cps=30}{color=#FFFF00}Haha...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jaja...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Haha...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jaja...{/color}{/cps}"
 
 # game/script.rpy:453
 translate spanish kuroya_armarios_d6955e8d:
 
-    # p "{cps=30}{color=#FFFF00}Obrigado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Gracias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Obrigado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Gracias.{/color}{/cps}"
 
 # game/script.rpy:454
 translate spanish kuroya_armarios_81ede580:
@@ -9567,20 +9567,20 @@ translate spanish kuroya_armarios_1799a824:
 # game/script.rpy:457
 translate spanish kuroya_armarios_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:458
 translate spanish kuroya_armarios_e5864760:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muchas gracias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muchas gracias.{/color}{/cps}"
 
 # game/script.rpy:459
 translate spanish kuroya_armarios_bf359248:
 
-    # p "{cps=30}{color=#FFFF00}Só vou pegar minhas coisas do próximo armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo voy a sacar mis cosas del otro casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só vou pegar minhas coisas do próximo armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo voy a sacar mis cosas del otro casillero.{/color}{/cps}"
 
 # game/script.rpy:460
 translate spanish kuroya_armarios_c980d272:
@@ -9591,32 +9591,32 @@ translate spanish kuroya_armarios_c980d272:
 # game/script.rpy:461
 translate spanish kuroya_armarios_d544392c:
 
-    # p "{cps=30}{color=#FFFF00}Abro o armário menor ao lado e retiro minhas toalhas e alguns produtos de higiene.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro el casillero más pequeño de al lado y saco mis toallas y algunos productos de higiene.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro o armário menor ao lado e retiro minhas toalhas e alguns produtos de higiene.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro el casillero más pequeño de al lado y saco mis toallas y algunos productos de higiene.{/color}{/cps}"
 
 # game/script.rpy:462
 translate spanish kuroya_armarios_b48f91ab:
 
-    # p "{cps=30}{color=#FFFF00}Pronto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Listo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pronto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Listo.{/color}{/cps}"
 
 # game/script.rpy:463
 translate spanish kuroya_armarios_eee95944:
 
-    # p "{cps=30}{color=#FFFF00}Entrego a mala para Elizabeth.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Le entrego la maleta a Elizabeth.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entrego a mala para Elizabeth.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Le entrego la maleta a Elizabeth.{/color}{/cps}"
 
 # game/script.rpy:464
 translate spanish kuroya_armarios_ed4ea597:
 
-    # p "{cps=30}{color=#FFFF00}Só, por favor...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo, por favor...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só, por favor...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo, por favor...{/color}{/cps}"
 
 # game/script.rpy:465
 translate spanish kuroya_armarios_e72441af:
 
-    # p "{cps=30}{color=#FFFF00}Não mexa em nada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No toques nada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não mexa em nada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No toques nada.{/color}{/cps}"
 
 # game/script.rpy:466
 translate spanish kuroya_armarios_a0d99bde:
@@ -9633,14 +9633,14 @@ translate spanish kuroya_armarios_03ee5b95:
 # game/script.rpy:468
 translate spanish kuroya_armarios_e5864760_1:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muchas gracias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muchas gracias.{/color}{/cps}"
 
 # game/script.rpy:469
 translate spanish kuroya_armarios_081d3036:
 
-    # p "{cps=30}{color=#FFFF00}Até mais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nos vemos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até mais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nos vemos.{/color}{/cps}"
 
 # game/script.rpy:470
 translate spanish kuroya_armarios_b7e0b357:
@@ -9651,266 +9651,266 @@ translate spanish kuroya_armarios_b7e0b357:
 # game/script.rpy:471
 translate spanish kuroya_armarios_0aee2977:
 
-    # p "{cps=30}{color=#FFFF00}Ela se afasta carregando minha mala.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se aleja cargando mi maleta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela se afasta carregando minha mala.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se aleja cargando mi maleta.{/color}{/cps}"
 
 # game/script.rpy:472
 translate spanish kuroya_armarios_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:473
 translate spanish kuroya_armarios_906123ed:
 
-    # p "{cps=30}{color=#FFFF00}Caramba.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vaya.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vaya.{/color}{/cps}"
 
 # game/script.rpy:474
 translate spanish kuroya_armarios_45c0a7a6:
 
-    # p "{cps=30}{color=#FFFF00}Que garota legal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué chica tan agradable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que garota legal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué chica tan agradable.{/color}{/cps}"
 
 # game/script.rpy:475
 translate spanish kuroya_armarios_ebecf304:
 
-    # p "{cps=30}{color=#FFFF00}Fico feliz que a mesma pessoa que é minha colega de quarto também seja minha vizinha de armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me alegra que la misma persona que es mi compañera de cuarto sea también mi vecina de casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Fico feliz que a mesma pessoa que é minha colega de quarto também seja minha vizinha de armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me alegra que la misma persona que es mi compañera de cuarto sea también mi vecina de casillero.{/color}{/cps}"
 
 # game/script.rpy:476
 translate spanish kuroya_armarios_ffafafcc:
 
-    # p "{cps=30}{color=#FFFF00}E melhor ainda...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y mejor aún...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E melhor ainda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y mejor aún...{/color}{/cps}"
 
 # game/script.rpy:477
 translate spanish kuroya_armarios_4abc0204:
 
-    # p "{cps=30}{color=#FFFF00}Ela já puxou assunto comigo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya me sacó conversación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela já puxou assunto comigo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya me sacó conversación.{/color}{/cps}"
 
 # game/script.rpy:478
 translate spanish kuroya_armarios_d765fb1c:
 
-    # p "{cps=30}{color=#FFFF00}Assim não preciso ficar forçando simpatia com ninguém.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Así no tengo que andar forzando simpatía con nadie.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Assim não preciso ficar forçando simpatia com ninguém.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Así no tengo que andar forzando simpatía con nadie.{/color}{/cps}"
 
 # game/script.rpy:479
 translate spanish kuroya_armarios_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:480
 translate spanish kuroya_armarios_eed54015:
 
-    # p "{cps=30}{color=#FFFF00}Isso vai facilitar bastante minha vida.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esto me va a facilitar mucho la vida.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso vai facilitar bastante minha vida.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esto me va a facilitar mucho la vida.{/color}{/cps}"
 
 # game/script.rpy:481
 translate spanish kuroya_armarios_50b9b033:
 
-    # p "{cps=30}{color=#FFFF00}Agora...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora...{/color}{/cps}"
 
 # game/script.rpy:482
 translate spanish kuroya_armarios_dbbfd08c:
 
-    # p "{cps=30}{color=#FFFF00}É melhor ir até meu armário da casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es mejor ir a mi casillero del baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É melhor ir até meu armário da casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es mejor ir a mi casillero del baño.{/color}{/cps}"
 
 # game/script.rpy:486
 translate spanish kuroya_armarios_f21516a8:
 
-    # p "{cps=30}{color=#FFFF00}Ando até a casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino hacia la zona de baños.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ando até a casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino hacia la zona de baños.{/color}{/cps}"
 
 # game/script.rpy:487
 translate spanish kuroya_armarios_ab3677bb:
 
-    # p "{cps=30}{color=#FFFF00}Ela não fica muito distante do meu armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No queda muy lejos de mi casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela não fica muito distante do meu armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No queda muy lejos de mi casillero.{/color}{/cps}"
 
 # game/script.rpy:488
 translate spanish kuroya_armarios_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:489
 translate spanish kuroya_armarios_4b48bee7:
 
-    # p "{cps=30}{color=#FFFF00}Uau.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Guau...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Guau...{/color}{/cps}"
 
 # game/script.rpy:490
 translate spanish kuroya_armarios_1e96c5eb:
 
-    # p "{cps=30}{color=#FFFF00}Não tem ninguém aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No hay nadie aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não tem ninguém aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No hay nadie aquí.{/color}{/cps}"
 
 # game/script.rpy:491
 translate spanish kuroya_armarios_caaa5b00:
 
-    # p "{cps=30}{color=#FFFF00}Para esse horário, eu esperava encontrar uma quantidade razoável de alunos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Para ser esta hora, esperaba encontrar una cantidad razonable de alumnos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Para esse horário, eu esperava encontrar uma quantidade razoável de alunos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Para ser esta hora, esperaba encontrar una cantidad razonable de alumnos.{/color}{/cps}"
 
 # game/script.rpy:492
 translate spanish kuroya_armarios_70e3b9df:
 
-    # p "{cps=30}{color=#FFFF00}Melhor assim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor así.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor así.{/color}{/cps}"
 
 # game/script.rpy:493
 translate spanish kuroya_armarios_014e7278:
 
-    # p "{cps=30}{color=#FFFF00}Vou só guardar minhas coisas e sair antes que mais gente chegue.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo guardaré mis cosas y saldré antes de que llegue más gente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou só guardar minhas coisas e sair antes que mais gente chegue.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo guardaré mis cosas y saldré antes de que llegue más gente.{/color}{/cps}"
 
 # game/script.rpy:494
 translate spanish kuroya_armarios_84b906e2:
 
-    # p "{cps=30}{color=#FFFF00}Abro meu armário e guardo tudo sem me preocupar muito em organizar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro mi casillero y guardo todo sin preocuparme mucho por organizar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro meu armário e guardo tudo sem me preocupar muito em organizar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro mi casillero y guardo todo sin preocuparme mucho por organizar.{/color}{/cps}"
 
 # game/script.rpy:495
 translate spanish kuroya_armarios_d0d79936:
 
-    # p "{cps=30}{color=#FFFF00}Não é como se eu tivesse muita coisa mesmo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tampoco es que tenga gran cosa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não é como se eu tivesse muita coisa mesmo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tampoco es que tenga gran cosa.{/color}{/cps}"
 
 # game/script.rpy:496
 translate spanish kuroya_armarios_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:497
 translate spanish kuroya_armarios_e5f9e704_10:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:498
 translate spanish kuroya_armarios_a4561606:
 
-    # p "{cps=30}{color=#FFFF00}..!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}..!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:499
 translate spanish kuroya_armarios_647d375e:
 
-    # p "{cps=30}{color=#FFFF00}Paro por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo un instante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo un instante.{/color}{/cps}"
 
 # game/script.rpy:500
 translate spanish kuroya_armarios_29220d40:
 
-    # p "{cps=30}{color=#FFFF00}Escuto vozes vindo do interior da casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Escucho voces que vienen del interior del baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Escuto vozes vindo do interior da casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Escucho voces que vienen del interior del baño.{/color}{/cps}"
 
 # game/script.rpy:501
 translate spanish kuroya_armarios_87647ea4:
 
-    # p "{cps=30}{color=#FFFF00}Vozes...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Voces...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vozes...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Voces...{/color}{/cps}"
 
 # game/script.rpy:502
 translate spanish kuroya_armarios_2dc9a072:
 
-    # p "{cps=30}{color=#FFFF00}E risadas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y risas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E risadas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y risas.{/color}{/cps}"
 
 # game/script.rpy:503
 translate spanish kuroya_armarios_e5f9e704_11:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:504
 translate spanish kuroya_armarios_c91f8df9:
 
-    # p "{cps=30}{color=#FFFF00}Hmm.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hmm.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm.{/color}{/cps}"
 
 # game/script.rpy:505
 translate spanish kuroya_armarios_69b2ddc3:
 
-    # p "{cps=30}{color=#FFFF00}Espionar um pouco não mata ninguém.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espiar un poco no mata a nadie.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espionar um pouco não mata ninguém.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espiar un poco no mata a nadie.{/color}{/cps}"
 
 # game/script.rpy:506
 translate spanish kuroya_armarios_13901622:
 
-    # p "{cps=30}{color=#FFFF00}Além disso, fiquei curioso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Además, me dio curiosidad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Além disso, fiquei curioso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Además, me dio curiosidad.{/color}{/cps}"
 
 # game/script.rpy:507
 translate spanish kuroya_armarios_a2ff03a9:
 
-    # p "{cps=30}{color=#FFFF00}Só espero não me deparar com uma jeba de fora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo espero no toparme con una sorpresa desagradable al desnudo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só espero não me deparar com uma jeba de fora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo espero no toparme con una sorpresa desagradable al desnudo.{/color}{/cps}"
 
 # game/script.rpy:508
 translate spanish kuroya_armarios_e5f9e704_12:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:509
 translate spanish kuroya_armarios_2128648e:
 
-    # p "{cps=30}{color=#FFFF00}Me aproximo silenciosamente da parede.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco en silencio a la pared.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me aproximo silenciosamente da parede.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco en silencio a la pared.{/color}{/cps}"
 
 # game/script.rpy:510
 translate spanish kuroya_armarios_eb4fdc31:
 
-    # p "{cps=30}{color=#FFFF00}Inclino a cabeça para conseguir enxergar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Inclino la cabeza para alcanzar a ver.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Inclino a cabeça para conseguir enxergar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Inclino la cabeza para alcanzar a ver.{/color}{/cps}"
 
 # game/script.rpy:511
 translate spanish kuroya_armarios_4a32f607:
 
-    # p "{cps=30}{color=#FFFF00}E começo a espionar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y empiezo a espiar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E começo a espionar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y empiezo a espiar.{/color}{/cps}"
 
 # game/script.rpy:512
 translate spanish kuroya_armarios_e5f9e704_13:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:513
 translate spanish kuroya_armarios_a4561606_1:
 
-    # p "{cps=30}{color=#FFFF00}..!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}..!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:514
 translate spanish kuroya_armarios_16a04784:
 
-    # p "{cps=30}{color=#FFFF00}Mas que bosta é essa-?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Pero qué demonios es esto-?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas que bosta é essa-?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Pero qué demonios es esto-?!{/color}{/cps}"
 
 # game/script.rpy:515
 translate spanish kuroya_armarios_cbbd74f5:
 
-    # p "{cps=30}{color=#FFFF00}PLOFT!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡PFLASH!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}PLOFT!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡PFLASH!{/color}{/cps}"
 
 # game/script.rpy:516
 translate spanish kuroya_armarios_b0c84a52:
 
-    # p "{cps=30}{color=#FFFF00}Uma pequena quantidade de água acerta meu rosto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una pequeña cantidad de agua me da de lleno en la cara.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma pequena quantidade de água acerta meu rosto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una pequeña cantidad de agua me da de lleno en la cara.{/color}{/cps}"
 
 # game/script.rpy:517
 translate spanish kuroya_armarios_346ce97f:
 
-    # p "{cps=30}{color=#FFFF00}Ggghhh...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ggghhh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ggghhh...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ggghhh...{/color}{/cps}"
 
 # game/script.rpy:518
 translate spanish kuroya_armarios_f7123949:
@@ -9933,38 +9933,38 @@ translate spanish kuroya_armarios_89d3d54a:
 # game/script.rpy:521
 translate spanish kuroya_armarios_85475fca:
 
-    # p "{cps=30}{color=#FFFF00}Limpo o rosto com a mão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me limpio la cara con la mano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Limpo o rosto com a mão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me limpio la cara con la mano.{/color}{/cps}"
 
 # game/script.rpy:522
 translate spanish kuroya_armarios_24cfcec9_1:
 
-    # p "{cps=30}{color=#FFFF00}Haha...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jaja...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Haha...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jaja...{/color}{/cps}"
 
 # game/script.rpy:523
 translate spanish kuroya_armarios_2894408b:
 
-    # p "{cps=30}{color=#FFFF00}Tá tudo bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tá tudo bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo bien.{/color}{/cps}"
 
 # game/script.rpy:524
 translate spanish kuroya_armarios_428ac159:
 
-    # p "{cps=30}{color=#FFFF00}Olho para os dois.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los miro a los dos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para os dois.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los miro a los dos.{/color}{/cps}"
 
 # game/script.rpy:525
 translate spanish kuroya_armarios_d8e2fa5b:
 
-    # p "{cps=30}{color=#FFFF00}Mas que merda vocês estão fazendo?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Pero qué carajos están haciendo?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas que merda vocês estão fazendo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Pero qué carajos están haciendo?{/color}{/cps}"
 
 # game/script.rpy:526
 translate spanish kuroya_armarios_9b6790a2:
 
-    # p "{cps=30}{color=#FFFF00}E quem são vocês?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Y quiénes son ustedes?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E quem são vocês?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Y quiénes son ustedes?{/color}{/cps}"
 
 # game/script.rpy:527
 translate spanish kuroya_armarios_a6b1e3b6:
@@ -9999,14 +9999,14 @@ translate spanish kuroya_armarios_2da28894:
 # game/script.rpy:532
 translate spanish kuroya_armarios_4ac0b3ed:
 
-    # p "{cps=30}{color=#FFFF00}Hmm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hmm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm.{/color}{/cps}"
 
 # game/script.rpy:533
 translate spanish kuroya_armarios_0fcba3c5:
 
-    # p "{cps=30}{color=#FFFF00}A mesma turma que a minha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El mismo grupo que el mío.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A mesma turma que a minha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El mismo grupo que el mío.{/color}{/cps}"
 
 # game/script.rpy:534
 translate spanish kuroya_armarios_ee693532:
@@ -10029,50 +10029,50 @@ translate spanish kuroya_armarios_66bc1e78:
 # game/script.rpy:537
 translate spanish kuroya_armarios_0ab61165:
 
-    # p "{cps=30}{color=#FFFF00}Não vou.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No lo haré.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não vou.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No lo haré.{/color}{/cps}"
 
 # game/script.rpy:538
 translate spanish kuroya_armarios_2ab9dd62:
 
-    # p "{cps=30}{color=#FFFF00}Mas, se pegarem vocês...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero si los atrapan...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas, se pegarem vocês...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero si los atrapan...{/color}{/cps}"
 
 # game/script.rpy:539
 translate spanish kuroya_armarios_1583112b:
 
-    # p "{cps=30}{color=#FFFF00}Vou me fazer de sonso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me voy a hacer el tonto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou me fazer de sonso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me voy a hacer el tonto.{/color}{/cps}"
 
 # game/script.rpy:540
 translate spanish kuroya_armarios_69e4510f:
 
-    # p "{cps=30}{color=#FFFF00}Antes que eu pudesse terminar a frase...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Antes de que pudiera terminar la frase...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Antes que eu pudesse terminar a frase...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Antes de que pudiera terminar la frase...{/color}{/cps}"
 
 # game/script.rpy:541
 translate spanish kuroya_armarios_8c676aa3:
 
-    # p "{cps=30}{color=#FFFF00}A porta da casa de banho se abre violentamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La puerta del baño se abre violentamente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A porta da casa de banho se abre violentamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La puerta del baño se abre violentamente.{/color}{/cps}"
 
 # game/script.rpy:542
 translate spanish kuroya_armarios_c8a47625:
 
-    # p "{cps=30}{color=#FFFF00}Dois funcionários aparecem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aparecen dos empleados.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dois funcionários aparecem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aparecen dos empleados.{/color}{/cps}"
 
 # game/script.rpy:543
 translate spanish kuroya_armarios_30ffec71:
 
-    # p "{cps=30}{color=#FFFF00}Um deles parece ser o zelador.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Uno de ellos parece ser el conserje.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Um deles parece ser o zelador.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Uno de ellos parece ser el conserje.{/color}{/cps}"
 
 # game/script.rpy:544
 translate spanish kuroya_armarios_04bc34f3:
 
-    # p "{cps=30}{color=#FFFF00}O outro está usando o uniforme de segurança.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El otro lleva puesto el uniforme de seguridad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O outro está usando o uniforme de segurança.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El otro lleva puesto el uniforme de seguridad.{/color}{/cps}"
 
 # game/script.rpy:545
 translate spanish kuroya_armarios_1afaa551:
@@ -10107,188 +10107,188 @@ translate spanish kuroya_armarios_091a415c:
 # game/script.rpy:550
 translate spanish kuroya_armarios_0b7cbecc:
 
-    # p "{cps=30}{color=#FFFF00}Os dois saem correndo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los dos salen corriendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os dois saem correndo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los dos salen corriendo.{/color}{/cps}"
 
 # game/script.rpy:551
 translate spanish kuroya_armarios_00fd4e3a:
 
-    # p "{cps=30}{color=#FFFF00}Os funcionários imediatamente vão atrás deles.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los empleados van inmediatamente tras ellos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os funcionários imediatamente vão atrás deles.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los empleados van inmediatamente tras ellos.{/color}{/cps}"
 
 # game/script.rpy:552
 translate spanish kuroya_armarios_e5f9e704_14:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:553
 translate spanish kuroya_armarios_d1785dfa:
 
-    # p "{cps=30}{color=#FFFF00}Fico parado por alguns segundos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me quedo parado unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Fico parado por alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me quedo parado unos segundos.{/color}{/cps}"
 
 # game/script.rpy:554
 translate spanish kuroya_armarios_3957fccc:
 
-    # p "{cps=30}{color=#FFFF00}Agradeço mentalmente por terem ignorado completamente a minha existência.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Agradezco mentalmente que hayan ignorado por completo mi existencia.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agradeço mentalmente por terem ignorado completamente a minha existência.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Agradezco mentalmente que hayan ignorado por completo mi existencia.{/color}{/cps}"
 
 # game/script.rpy:555
 translate spanish kuroya_armarios_9614e0f6:
 
-    # p "{cps=30}{color=#FFFF00}Melhor não me envolver.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor no involucrarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor não me envolver.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor no involucrarme.{/color}{/cps}"
 
 # game/script.rpy:556
 translate spanish kuroya_armarios_e5f9e704_15:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:557
 translate spanish kuroya_armarios_4efa4e5e:
 
-    # p "{cps=30}{color=#FFFF00}Saio da casa de banho ainda tentando entender o que diabos acabou de acontecer.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Salgo del baño tratando de entender qué demonios acaba de pasar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Saio da casa de banho ainda tentando entender o que diabos acabou de acontecer.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Salgo del baño tratando de entender qué demonios acaba de pasar.{/color}{/cps}"
 
 # game/script.rpy:558
 translate spanish kuroya_armarios_0a99ad37:
 
-    # p "{cps=30}{color=#FFFF00}Eu só queria guardar minhas coisas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Yo solo quería guardar mis cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu só queria guardar minhas coisas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yo solo quería guardar mis cosas.{/color}{/cps}"
 
 # game/script.rpy:559
 translate spanish kuroya_armarios_e5f9e704_16:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:560
 translate spanish kuroya_armarios_def46fb4:
 
-    # p "{cps=30}{color=#FFFF00}E agora?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y ahora...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E agora?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y ahora...{/color}{/cps}"
 
 # game/script.rpy:561
 translate spanish kuroya_armarios_e3aa64fc:
 
-    # p "{cps=30}{color=#FFFF00}O que devo fazer?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué debería hacer?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que devo fazer?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué debería hacer?{/color}{/cps}"
 
 # game/script.rpy:569
 translate spanish kuroya_aulas_bc52a807:
 
-    # p "{cps=30}{color=#FFFF00}Acho que devo verificar minhas aulas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que debería revisar mis clases...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que devo verificar minhas aulas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que debería revisar mis clases...{/color}{/cps}"
 
 # game/script.rpy:570
 translate spanish kuroya_aulas_f18bd0fe:
 
-    # p "{cps=30}{color=#FFFF00}O cronograma está disponível no aplicativo, mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El horario está disponible en la aplicación, pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O cronograma está disponível no aplicativo, mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El horario está disponible en la aplicación, pero...{/color}{/cps}"
 
 # game/script.rpy:571
 translate spanish kuroya_aulas_1ca712fe:
 
-    # p "{cps=30}{color=#FFFF00}É sempre bom ter uma cópia impressa também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siempre es bueno tener una copia impresa también.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É sempre bom ter uma cópia impressa também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siempre es bueno tener una copia impresa también.{/color}{/cps}"
 
 # game/script.rpy:572
 translate spanish kuroya_aulas_d8d9ca23:
 
-    # p "{cps=30}{color=#FFFF00}Nunca se sabe quando vou precisar dela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Uno nunca sabe cuándo la va a necesitar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nunca se sabe quando vou precisar dela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Uno nunca sabe cuándo la va a necesitar.{/color}{/cps}"
 
 # game/script.rpy:573
 translate spanish kuroya_aulas_690703ce:
 
-    # p "{cps=30}{color=#FFFF00}Vamos lá então.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vamos, entonces.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vamos lá então.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vamos, entonces.{/color}{/cps}"
 
 # game/script.rpy:574
 translate spanish kuroya_aulas_22e634fb:
 
-    # p "{cps=30}{color=#FFFF00}Caminho pelos corredores em direção à biblioteca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino por los pasillos en dirección a la biblioteca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caminho pelos corredores em direção à biblioteca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino por los pasillos en dirección a la biblioteca.{/color}{/cps}"
 
 # game/script.rpy:575
 translate spanish kuroya_aulas_83c60e2f:
 
-    # p "{cps=30}{color=#FFFF00}Conforme me aproximo, começo a ouvir vozes vindo de dentro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A medida que me acerco, empiezo a escuchar voces que vienen de adentro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Conforme me aproximo, começo a ouvir vozes vindo de dentro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A medida que me acerco, empiezo a escuchar voces que vienen de adentro.{/color}{/cps}"
 
 # game/script.rpy:576
 translate spanish kuroya_aulas_6b4812bf:
 
-    # p "{cps=30}{color=#FFFF00}Quando entro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cuando entro...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quando entro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cuando entro...{/color}{/cps}"
 
 # game/script.rpy:577
 translate spanish kuroya_aulas_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:578
 translate spanish kuroya_aulas_64da172e:
 
-    # p "{cps=30}{color=#FFFF00}Tem bastante gente aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay bastante gente aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tem bastante gente aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay bastante gente aquí.{/color}{/cps}"
 
 # game/script.rpy:579
 translate spanish kuroya_aulas_ee938c49:
 
-    # p "{cps=30}{color=#FFFF00}Então é por isso que não encontrei quase ninguém pelos corredores.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Conque por eso no me crucé con casi nadie en los pasillos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então é por isso que não encontrei quase ninguém pelos corredores.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Conque por eso no me crucé con casi nadie en los pasillos.{/color}{/cps}"
 
 # game/script.rpy:580
 translate spanish kuroya_aulas_063fc835:
 
-    # p "{cps=30}{color=#FFFF00}Boa parte dos alunos deve estar aqui fazendo seus próprios check-ins.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La gran mayoría de los alumnos debe estar aquí haciendo sus propios check-ins.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Boa parte dos alunos deve estar aqui fazendo seus próprios check-ins.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La gran mayoría de los alumnos debe estar aquí haciendo sus propios check-ins.{/color}{/cps}"
 
 # game/script.rpy:581
 translate spanish kuroya_aulas_4cfc379d:
 
-    # p "{cps=30}{color=#FFFF00}Olho rapidamente ao redor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Echo una mirada rápida alrededor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho rapidamente ao redor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Echo una mirada rápida alrededor.{/color}{/cps}"
 
 # game/script.rpy:582
 translate spanish kuroya_aulas_a5336081:
 
-    # p "{cps=30}{color=#FFFF00}A biblioteca é bem maior do que eu imaginava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La biblioteca es mucho más grande de lo que imaginaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A biblioteca é bem maior do que eu imaginava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La biblioteca es mucho más grande de lo que imaginaba.{/color}{/cps}"
 
 # game/script.rpy:583
 translate spanish kuroya_aulas_7d0a9f3b:
 
-    # p "{cps=30}{color=#FFFF00}Mas não tenho muito tempo para ficar admirando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero no tengo mucho tiempo para quedarme admirando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas não tenho muito tempo para ficar admirando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero no tengo mucho tiempo para quedarme admirando.{/color}{/cps}"
 
 # game/script.rpy:584
 translate spanish kuroya_aulas_b0706cb4:
 
-    # p "{cps=30}{color=#FFFF00}Vou apenas pegar meu cronograma e ir embora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo voy a pedir mi horario e irme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou apenas pegar meu cronograma e ir embora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo voy a pedir mi horario e irme.{/color}{/cps}"
 
 # game/script.rpy:585
 translate spanish kuroya_aulas_3ae4575c:
 
-    # p "{cps=30}{color=#FFFF00}Me aproximo do balcão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco al mostrador.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me aproximo do balcão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco al mostrador.{/color}{/cps}"
 
 # game/script.rpy:586
 translate spanish kuroya_aulas_25bebf7a:
 
-    # p "{cps=30}{color=#FFFF00}Com licença.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Disculpe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Com licença.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Disculpe.{/color}{/cps}"
 
 # game/script.rpy:587
 translate spanish kuroya_aulas_e4c2eee3:
 
-    # p "{cps=30}{color=#FFFF00}Eu queria meu cronograma de aulas impresso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quisiera mi horario de clases impreso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu queria meu cronograma de aulas impresso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quisiera mi horario de clases impreso.{/color}{/cps}"
 
 # game/script.rpy:588
 translate spanish kuroya_aulas_0a5cd1fa:
@@ -10299,14 +10299,14 @@ translate spanish kuroya_aulas_0a5cd1fa:
 # game/script.rpy:589
 translate spanish kuroya_aulas_8f814cfb:
 
-    # p "{cps=30}{color=#FFFF00}A bibliotecária olha para mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La bibliotecaria me mira.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A bibliotecária olha para mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La bibliotecaria me mira.{/color}{/cps}"
 
 # game/script.rpy:590
 translate spanish kuroya_aulas_76aa456e:
 
-    # p "{cps=30}{color=#FFFF00}Por alguns segundos, fica em silêncio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se queda en silencio por unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por alguns segundos, fica em silêncio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se queda en silencio por unos segundos.{/color}{/cps}"
 
 # game/script.rpy:591
 translate spanish kuroya_aulas_63fec804:
@@ -10329,68 +10329,68 @@ translate spanish kuroya_aulas_50e2952a:
 # game/script.rpy:594
 translate spanish kuroya_aulas_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:595
 translate spanish kuroya_aulas_0896d6b8:
 
-    # p "{cps=30}{color=#FFFF00}Que vergonha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué vergüenza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que vergonha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué vergüenza.{/color}{/cps}"
 
 # game/script.rpy:596
 translate spanish kuroya_aulas_925f502c:
 
-    # p "{cps=30}{color=#FFFF00}Sinto vários olhares vindo da fila.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento varias miradas clavadas en mí desde la fila.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sinto vários olhares vindo da fila.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento varias miradas clavadas en mí desde la fila.{/color}{/cps}"
 
 # game/script.rpy:597
 translate spanish kuroya_aulas_d05e83a8:
 
-    # p "{cps=30}{color=#FFFF00}Eu gosto de tratamento especial, mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gusta el trato especial, pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu gosto de tratamento especial, mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gusta el trato especial, pero...{/color}{/cps}"
 
 # game/script.rpy:598
 translate spanish kuroya_aulas_828db508:
 
-    # p "{cps=30}{color=#FFFF00}Não quando ele é tão descarado assim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No cuando es tan descarado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não quando ele é tão descarado assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No cuando es tan descarado.{/color}{/cps}"
 
 # game/script.rpy:599
 translate spanish kuroya_aulas_10aad04b:
 
-    # p "{cps=30}{color=#FFFF00}Parece que estou furando a fila na frente de todo mundo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que me estuviera colando en la cara de todos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece que estou furando a fila na frente de todo mundo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que me estuviera colando en la cara de todos.{/color}{/cps}"
 
 # game/script.rpy:600
 translate spanish kuroya_aulas_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:601
 translate spanish kuroya_aulas_43dbace4:
 
-    # p "{cps=30}{color=#FFFF00}Tá olhando o quê?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué miras?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tá olhando o quê?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué miras?{/color}{/cps}"
 
 # game/script.rpy:602
 translate spanish kuroya_aulas_f8a7f91b:
 
-    # p "{cps=30}{color=#FFFF00}O aluno desvia o olhar imediatamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El alumno desvía la mirada de inmediato.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O aluno desvia o olhar imediatamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El alumno desvía la mirada de inmediato.{/color}{/cps}"
 
 # game/script.rpy:603
 translate spanish kuroya_aulas_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:604
 translate spanish kuroya_aulas_2d4bda24:
 
-    # p "{cps=30}{color=#FFFF00}A bibliotecária volta com uma folha em mãos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La bibliotecaria regresa con una hoja en la mano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A bibliotecária volta com uma folha em mãos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La bibliotecaria regresa con una hoja en la mano.{/color}{/cps}"
 
 # game/script.rpy:605
 translate spanish kuroya_aulas_029084c8:
@@ -10419,428 +10419,428 @@ translate spanish kuroya_aulas_16b6b0e3:
 # game/script.rpy:609
 translate spanish kuroya_aulas_70b67d77:
 
-    # p "{cps=30}{color=#FFFF00}Tudo bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está bien.{/color}{/cps}"
 
 # game/script.rpy:610
 translate spanish kuroya_aulas_524301a8:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigado!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muchas gracias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigado!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muchas gracias.{/color}{/cps}"
 
 # game/script.rpy:611
 translate spanish kuroya_aulas_df17d4ab:
 
-    # p "{cps=30}{color=#FFFF00}Pego a folha e saio da biblioteca quase sendo empurrado pela quantidade de gente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tomo la hoja y salgo de la biblioteca casi empujado por la cantidad de gente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pego a folha e saio da biblioteca quase sendo empurrado pela quantidade de gente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tomo la hoja y salgo de la biblioteca casi empujado por la cantidad de gente.{/color}{/cps}"
 
 # game/script.rpy:612
 translate spanish kuroya_aulas_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:613
 translate spanish kuroya_aulas_62065d92:
 
-    # p "{cps=30}{color=#FFFF00}Ugh.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
 
 # game/script.rpy:614
 translate spanish kuroya_aulas_95f06187:
 
-    # p "{cps=30}{color=#FFFF00}Não tive nem tempo de olhar a biblioteca direito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No me dio tiempo ni de ver bien la biblioteca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não tive nem tempo de olhar a biblioteca direito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No me dio tiempo ni de ver bien la biblioteca.{/color}{/cps}"
 
 # game/script.rpy:615
 translate spanish kuroya_aulas_a8d38569:
 
-    # p "{cps=30}{color=#FFFF00}Que merda.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué porquería.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que merda.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué porquería.{/color}{/cps}"
 
 # game/script.rpy:616
 translate spanish kuroya_aulas_5a7363f6:
 
-    # p "{cps=30}{color=#FFFF00}Eu poderia voltar mais tarde...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Podría volver más tarde...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu poderia voltar mais tarde...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Podría volver más tarde...{/color}{/cps}"
 
 # game/script.rpy:617
 translate spanish kuroya_aulas_e1659162:
 
-    # p "{cps=30}{color=#FFFF00}Mas acho que já vi o suficiente por enquanto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero creo que ya vi suficiente por ahora.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas acho que já vi o suficiente por enquanto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero creo que ya vi suficiente por ahora.{/color}{/cps}"
 
 # game/script.rpy:618
 translate spanish kuroya_aulas_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:619
 translate spanish kuroya_aulas_8e4af2d6:
 
-    # p "{cps=30}{color=#FFFF00}Hm?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Mmm?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Mmm?{/color}{/cps}"
 
 # game/script.rpy:620
 translate spanish kuroya_aulas_647d375e:
 
-    # p "{cps=30}{color=#FFFF00}Paro por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo un instante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo un instante.{/color}{/cps}"
 
 # game/script.rpy:621
 translate spanish kuroya_aulas_fc665d67:
 
-    # p "{cps=30}{color=#FFFF00}Acho que ouvi alguma coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que escuché algo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que ouvi alguma coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que escuché algo.{/color}{/cps}"
 
 # game/script.rpy:622
 translate spanish kuroya_aulas_720dee23:
 
-    # p "{cps=30}{color=#FFFF00}Olho para o lado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro hacia un lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para o lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro hacia un lado.{/color}{/cps}"
 
 # game/script.rpy:623
 translate spanish kuroya_aulas_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:624
 translate spanish kuroya_aulas_4ef60ba1:
 
-    # p "{cps=30}{color=#FFFF00}Parece que veio daquele muro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que vino de aquel muro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece que veio daquele muro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que vino de aquel muro.{/color}{/cps}"
 
 # game/script.rpy:625
 translate spanish kuroya_aulas_4b58a770:
 
-    # p "{cps=30}{color=#FFFF00}Que estranho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué raro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué raro.{/color}{/cps}"
 
 # game/script.rpy:626
 translate spanish kuroya_aulas_5172141e:
 
-    # p "{cps=30}{color=#FFFF00}Por um segundo, tive a impressão de ter visto alguma coisa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por un segundo, me dio la impresión de haber visto algo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por um segundo, tive a impressão de ter visto alguma coisa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por un segundo, me dio la impresión de haber visto algo...{/color}{/cps}"
 
 # game/script.rpy:627
 translate spanish kuroya_aulas_ce6b4ced:
 
-    # p "{cps=30}{color=#FFFF00}Mas, ao mesmo tempo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero, al mismo tiempo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas, ao mesmo tempo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero, al mismo tiempo...{/color}{/cps}"
 
 # game/script.rpy:628
 translate spanish kuroya_aulas_c94efbd9:
 
-    # p "{cps=30}{color=#FFFF00}Não vi nada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No vi nada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não vi nada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No vi nada.{/color}{/cps}"
 
 # game/script.rpy:629
 translate spanish kuroya_aulas_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:630
 translate spanish kuroya_aulas_eb8a7082:
 
-    # p "{cps=30}{color=#FFFF00}Talvez tenha sido só impressão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez solo fue mi imaginación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez tenha sido só impressão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez solo fue mi imaginación.{/color}{/cps}"
 
 # game/script.rpy:631
 translate spanish kuroya_aulas_4fe94a52:
 
-    # p "{cps=30}{color=#FFFF00}Dou alguns passos na direção do muro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Doy unos pasos en dirección al muro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dou alguns passos na direção do muro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Doy unos pasos en dirección al muro.{/color}{/cps}"
 
 # game/script.rpy:632
 translate spanish kuroya_aulas_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:633
 translate spanish kuroya_aulas_cf3c9b39:
 
-    # p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
 
 # game/script.rpy:634
 translate spanish kuroya_aulas_6d4efeb5:
 
-    # p "{cps=30}{color=#FFFF00}Escuto vozes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Escucho voces.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Escuto vozes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Escucho voces.{/color}{/cps}"
 
 # game/script.rpy:635
 translate spanish kuroya_aulas_5b764f09:
 
-    # p "{cps=30}{color=#FFFF00}São baixas demais para entender o que estão dizendo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Son demasiado bajas para entender lo que dicen.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}São baixas demais para entender o que estão dizendo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Son demasiado bajas para entender lo que dicen.{/color}{/cps}"
 
 # game/script.rpy:636
 translate spanish kuroya_aulas_7127d949:
 
-    # p "{cps=30}{color=#FFFF00}Aproximo-me um pouco mais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco un poco más.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aproximo-me um pouco mais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco un poco más.{/color}{/cps}"
 
 # game/script.rpy:637
 translate spanish kuroya_aulas_f15dfce7:
 
-    # p "{cps=30}{color=#FFFF00}Nada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nada.{/color}{/cps}"
 
 # game/script.rpy:638
 translate spanish kuroya_aulas_f91a7865:
 
-    # p "{cps=30}{color=#FFFF00}O muro é grosso demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El muro es demasiado grueso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O muro é grosso demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El muro es demasiado grueso.{/color}{/cps}"
 
 # game/script.rpy:639
 translate spanish kuroya_aulas_780f54a0:
 
-    # p "{cps=30}{color=#FFFF00}Além de abafar o som, não consigo enxergar absolutamente nada do outro lado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Además de apagar el sonido, no alcanzo a ver absolutamente nada del otro lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Além de abafar o som, não consigo enxergar absolutamente nada do outro lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Además de apagar el sonido, no alcanzo a ver absolutamente nada del otro lado.{/color}{/cps}"
 
 # game/script.rpy:640
 translate spanish kuroya_aulas_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:641
 translate spanish kuroya_aulas_9438aaba:
 
-    # p "{cps=30}{color=#FFFF00}Quem será que está ali?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Quién estará ahí?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quem será que está ali?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Quién estará ahí?{/color}{/cps}"
 
 # game/script.rpy:642
 translate spanish kuroya_aulas_f09a1a69:
 
-    # p "{cps=30}{color=#FFFF00}Não parece ter ninguém por perto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No parece haber nadie cerca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não parece ter ninguém por perto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No parece haber nadie cerca.{/color}{/cps}"
 
 # game/script.rpy:643
 translate spanish kuroya_aulas_e5f9e704_10:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:644
 translate spanish kuroya_aulas_7ca10821:
 
-    # p "{cps=30}{color=#FFFF00}!!!!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}!!!!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:645
 translate spanish kuroya_aulas_3dcba713:
 
-    # p "{cps=30}{color=#FFFF00}A árvore.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El árbol.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A árvore.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El árbol.{/color}{/cps}"
 
 # game/script.rpy:646
 translate spanish kuroya_aulas_dc88ae32:
 
-    # p "{cps=30}{color=#FFFF00}Olho para cima.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro hacia arriba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para cima.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro hacia arriba.{/color}{/cps}"
 
 # game/script.rpy:647
 translate spanish kuroya_aulas_c2d2543c:
 
-    # p "{cps=30}{color=#FFFF00}Ela é alta o suficiente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es lo suficientemente alto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é alta o suficiente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es lo suficientemente alto.{/color}{/cps}"
 
 # game/script.rpy:648
 translate spanish kuroya_aulas_25e392be:
 
-    # p "{cps=30}{color=#FFFF00}Se eu subir um pouco, provavelmente consigo enxergar por cima do muro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Si subo un poco, probablemente pueda ver por encima del muro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Se eu subir um pouco, provavelmente consigo enxergar por cima do muro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Si subo un poco, probablemente pueda ver por encima del muro.{/color}{/cps}"
 
 # game/script.rpy:649
 translate spanish kuroya_aulas_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:650
 translate spanish kuroya_aulas_c456671e:
 
-    # p "{cps=30}{color=#FFFF00}Eu devo mesmo fazer isso?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿De verdad debería hacer esto?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu devo mesmo fazer isso?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿De verdad debería hacer esto?{/color}{/cps}"
 
 # game/script.rpy:651
 translate spanish kuroya_aulas_e5f9e704_11:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:652
 translate spanish kuroya_aulas_6d42c7b7:
 
-    # p "{cps=30}{color=#FFFF00}Isso seria uma péssima ideia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sería una pésima idea.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso seria uma péssima ideia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sería una pésima idea.{/color}{/cps}"
 
 # game/script.rpy:653
 translate spanish kuroya_aulas_4ba7b6a3:
 
-    # p "{cps=30}{color=#FFFF00}Subir em uma árvore só para descobrir quem está falando atrás de um muro não parece exatamente uma decisão inteligente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Trepar a un árbol solo para averiguar quién habla detrás de un muro no parece precisamente una decisión muy inteligente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Subir em uma árvore só para descobrir quem está falando atrás de um muro não parece exatamente uma decisão inteligente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Trepar a un árbol solo para averiguar quién habla detrás de un muro no parece precisamente una decisión muy inteligente.{/color}{/cps}"
 
 # game/script.rpy:654
 translate spanish kuroya_aulas_e5f9e704_12:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:655
 translate spanish kuroya_aulas_fe8276a1:
 
-    # p "{cps=30}{color=#FFFF00}Ah, que se foda.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah, al diablo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, que se foda.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah, al diablo.{/color}{/cps}"
 
 # game/script.rpy:656
 translate spanish kuroya_aulas_fea12aee:
 
-    # p "{cps=30}{color=#FFFF00}Coloco as mãos no tronco.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pongo las manos en el tronco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Coloco as mãos no tronco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pongo las manos en el tronco.{/color}{/cps}"
 
 # game/script.rpy:657
 translate spanish kuroya_aulas_f829d997:
 
-    # p "{cps=30}{color=#FFFF00}Só vou dar uma olhada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo echaré un vistazo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só vou dar uma olhada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo echaré un vistazo.{/color}{/cps}"
 
 # game/script.rpy:658
 translate spanish kuroya_aulas_adf061b4:
 
-    # p "{cps=30}{color=#FFFF00}E começo a subir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y empiezo a subir.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E começo a subir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y empiezo a subir.{/color}{/cps}"
 
 # game/script.rpy:659
 translate spanish kuroya_aulas_42552921:
 
-    # p "{cps=30}{color=#FFFF00}Conforme vou subindo pela árvore...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A medida que voy subiendo por el árbol...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Conforme vou subindo pela árvore...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A medida que voy subiendo por el árbol...{/color}{/cps}"
 
 # game/script.rpy:660
 translate spanish kuroya_aulas_d36d23ba:
 
-    # p "{cps=30}{color=#FFFF00}Consigo enxergar melhor as duas figuras conversando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Puedo ver mejor a las dos figuras conversando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Consigo enxergar melhor as duas figuras conversando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Puedo ver mejor a las dos figuras conversando.{/color}{/cps}"
 
 # game/script.rpy:661
 translate spanish kuroya_aulas_da04fa72:
 
-    # p "{cps=30}{color=#FFFF00}Ainda estão um pouco distantes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía están un poco lejos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ainda estão um pouco distantes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía están un poco lejos.{/color}{/cps}"
 
 # game/script.rpy:662
 translate spanish kuroya_aulas_0edff7e8:
 
-    # p "{cps=30}{color=#FFFF00}Não consigo ouvir tudo perfeitamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No logro escuchar todo a la perfección.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não consigo ouvir tudo perfeitamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No logro escuchar todo a la perfección.{/color}{/cps}"
 
 # game/script.rpy:663
 translate spanish kuroya_aulas_e5f9e704_13:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:664
 translate spanish kuroya_aulas_481fc417:
 
-    # p "{cps=30}{color=#FFFF00}Eu não vou fazer isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No voy a hacer esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não vou fazer isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No voy a hacer esto.{/color}{/cps}"
 
 # game/script.rpy:665
 translate spanish kuroya_aulas_e5f9e704_14:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:666
 translate spanish kuroya_aulas_e5f9e704_15:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:667
 translate spanish kuroya_aulas_95ee81b0:
 
-    # p "{cps=30}{color=#FFFF00}Eu vou fazer isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí voy a hacer esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu vou fazer isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí voy a hacer esto.{/color}{/cps}"
 
 # game/script.rpy:668
 translate spanish kuroya_aulas_cdfe2651:
 
-    # p "{cps=30}{color=#FFFF00}Continuo subindo até alcançar um dos galhos mais altos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sigo subiendo hasta alcanzar una de las ramas más altas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Continuo subindo até alcançar um dos galhos mais altos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sigo subiendo hasta alcanzar una de las ramas más altas.{/color}{/cps}"
 
 # game/script.rpy:669
 translate spanish kuroya_aulas_f9b8d8d3:
 
-    # p "{cps=30}{color=#FFFF00}Me sento cuidadosamente sobre ele.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me siento con cuidado sobre ella.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me sento cuidadosamente sobre ele.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me siento con cuidado sobre ella.{/color}{/cps}"
 
 # game/script.rpy:670
 translate spanish kuroya_aulas_e5f9e704_16:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:671
 translate spanish kuroya_aulas_e5f9e704_17:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:672
 translate spanish kuroya_aulas_8b4e06c3:
 
-    # p "{cps=30}{color=#FFFF00}Olho para baixo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro hacia abajo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para baixo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro hacia abajo.{/color}{/cps}"
 
 # game/script.rpy:673
 translate spanish kuroya_aulas_e5f9e704_18:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:674
 translate spanish kuroya_aulas_fd6f7831:
 
-    # p "{cps=30}{color=#FFFF00}Dá bastante medo daqui de cima.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Da bastante miedo desde aquí arriba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dá bastante medo daqui de cima.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Da bastante miedo desde aquí arriba.{/color}{/cps}"
 
 # game/script.rpy:675
 translate spanish kuroya_aulas_925e0d27:
 
-    # p "{cps=30}{color=#FFFF00}Principalmente sentado em um galho que pode simplesmente quebrar a qualquer momento.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sobre todo sentado en una rama que se puede romper en cualquier momento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Principalmente sentado em um galho que pode simplesmente quebrar a qualquer momento.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sobre todo sentado en una rama que se puede romper en cualquier momento.{/color}{/cps}"
 
 # game/script.rpy:676
 translate spanish kuroya_aulas_04c77389:
 
-    # p "{cps=30}{color=#FFFF00}Talvez eu devesse ter pensado nisso antes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez debí haber pensado en esto antes.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez eu devesse ter pensado nisso antes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez debí haber pensado en esto antes.{/color}{/cps}"
 
 # game/script.rpy:677
 translate spanish kuroya_aulas_c2171f39:
 
-    # p "{cps=30}{color=#FFFF00}Mas agora já estou aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero ya estoy aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas agora já estou aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero ya estoy aquí.{/color}{/cps}"
 
 # game/script.rpy:678
 translate spanish kuroya_aulas_a58e6063:
 
-    # p "{cps=30}{color=#FFFF00}E...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:679
 translate spanish kuroya_aulas_07a9862c:
 
-    # p "{cps=30}{color=#FFFF00}Consigo ouvi-los com clareza.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Puedo escucharlos con claridad.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Consigo ouvi-los com clareza.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Puedo escucharlos con claridad.{/color}{/cps}"
 
 # game/script.rpy:680
 translate spanish kuroya_aulas_059f0542:
@@ -10965,1022 +10965,1022 @@ translate spanish kuroya_aulas_28a9e92e:
 # game/script.rpy:700
 translate spanish kuroya_aulas_e5f9e704_19:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:701
 translate spanish kuroya_aulas_c0422725:
 
-    # p "{cps=30}{color=#FFFF00}Do que eles estão falando?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿De qué están hablando?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Do que eles estão falando?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿De qué están hablando?{/color}{/cps}"
 
 # game/script.rpy:702
 translate spanish kuroya_aulas_f587e8d4:
 
-    # p "{cps=30}{color=#FFFF00}\"Invasão.\"{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Invasión.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}\"Invasão.\"{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Invasión.{/color}{/cps}"
 
 # game/script.rpy:703
 translate spanish kuroya_aulas_5e8c2e21:
 
-    # p "{cps=30}{color=#FFFF00}\"Disfarce.\"{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Disfraz.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}\"Disfarce.\"{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Disfraz.{/color}{/cps}"
 
 # game/script.rpy:704
 translate spanish kuroya_aulas_8863aeb0:
 
-    # p "{cps=30}{color=#FFFF00}\"Cinco metros.\"{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cinco metros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}\"Cinco metros.\"{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cinco metros.{/color}{/cps}"
 
 # game/script.rpy:705
 translate spanish kuroya_aulas_2bba5483:
 
-    # p "{cps=30}{color=#FFFF00}E ainda estão discutindo alguma coisa que aparentemente pode ser usada para entrar na escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y encima están discutiendo sobre algo que aparentemente pueden usar para entrar a la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E ainda estão discutindo alguma coisa que aparentemente pode ser usada para entrar na escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y encima están discutiendo sobre algo que aparentemente pueden usar para entrar a la escuela.{/color}{/cps}"
 
 # game/script.rpy:706
 translate spanish kuroya_aulas_e5f9e704_20:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:707
 translate spanish kuroya_aulas_d02b5143:
 
-    # p "{cps=30}{color=#FFFF00}Isso está ficando cada vez mais estranho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esto se está poniendo cada vez más raro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso está ficando cada vez mais estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esto se está poniendo cada vez más raro.{/color}{/cps}"
 
 # game/script.rpy:708
 translate spanish kuroya_aulas_f5bd1e73:
 
-    # p "{cps=30}{color=#FFFF00}Preciso descobrir quem são esses dois.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tengo que descubrir quiénes son esos dos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Preciso descobrir quem são esses dois.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tengo que descubrir quiénes son esos dos.{/color}{/cps}"
 
 # game/script.rpy:709
 translate spanish kuroya_aulas_e5f9e704_21:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:710
 translate spanish kuroya_aulas_b16c7610:
 
-    # p "{cps=30}{color=#FFFF00}CRAC.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}CRAC.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}CRAC.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}CRAC.{/color}{/cps}"
 
 # game/script.rpy:711
 translate spanish kuroya_aulas_e5f9e704_22:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:712
 translate spanish kuroya_aulas_e5f9e704_23:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:713
 translate spanish kuroya_aulas_797cca69:
 
-    # p "{cps=30}{color=#FFFF00}Olho lentamente para baixo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro lentamente hacia abajo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho lentamente para baixo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro lentamente hacia abajo.{/color}{/cps}"
 
 # game/script.rpy:714
 translate spanish kuroya_aulas_e7129bb6:
 
-    # p "{cps=30}{color=#FFFF00}O galho começa a rachar sob o meu peso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La rama empieza a ceder bajo mi peso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O galho começa a rachar sob o meu peso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La rama empieza a ceder bajo mi peso.{/color}{/cps}"
 
 # game/script.rpy:715
 translate spanish kuroya_aulas_d7e0eab2:
 
-    # p "{cps=30}{color=#FFFF00}Não.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No.{/color}{/cps}"
 
 # game/script.rpy:716
 translate spanish kuroya_aulas_1912185b:
 
-    # p "{cps=30}{color=#FFFF00}CRAC!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}CRAC.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}CRAC!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}CRAC.{/color}{/cps}"
 
 # game/script.rpy:717
 translate spanish kuroya_aulas_543afeb4:
 
-    # p "{cps=30}{color=#FFFF00}Não, não, não...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No, no, no...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não, não, não...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No, no, no...{/color}{/cps}"
 
 # game/script.rpy:718
 translate spanish kuroya_aulas_52f793f8:
 
-    # p "{cps=30}{color=#FFFF00}AAAAAAAAAAHHHH!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡AAAAAAAAAAHHHH!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}AAAAAAAAAAHHHH!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡AAAAAAAAAAHHHH!{/color}{/cps}"
 
 # game/script.rpy:719
 translate spanish kuroya_aulas_84a17825:
 
-    # p "{cps=30}{color=#FFFF00}POW!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡POW!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}POW!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡POW!{/color}{/cps}"
 
 # game/script.rpy:720
 translate spanish kuroya_aulas_e5f9e704_24:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:721
 translate spanish kuroya_aulas_d479da91:
 
-    # p "{cps=30}{color=#FFFF00}Agh!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Agh!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agh!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Agh!{/color}{/cps}"
 
 # game/script.rpy:722
 translate spanish kuroya_aulas_2463b1c6:
 
-    # p "{cps=30}{color=#FFFF00}Merda...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mierda...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Merda...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mierda...{/color}{/cps}"
 
 # game/script.rpy:723
 translate spanish kuroya_aulas_86669c11:
 
-    # p "{cps=30}{color=#FFFF00}Fico alguns segundos parado no chão, tentando entender se ainda estou inteiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me quedo unos segundos tirado en el suelo, tratando de saber si sigo entero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Fico alguns segundos parado no chão, tentando entender se ainda estou inteiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me quedo unos segundos tirado en el suelo, tratando de saber si sigo entero.{/color}{/cps}"
 
 # game/script.rpy:724
 translate spanish kuroya_aulas_e5f9e704_25:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:725
 translate spanish kuroya_aulas_636b07d7:
 
-    # p "{cps=30}{color=#FFFF00}Meu uniforme está cheio de folhas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi uniforme está lleno de hojas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu uniforme está cheio de folhas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi uniforme está lleno de hojas.{/color}{/cps}"
 
 # game/script.rpy:726
 translate spanish kuroya_aulas_4f71ace2:
 
-    # p "{cps=30}{color=#FFFF00}Ótimo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Genial.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ótimo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Genial.{/color}{/cps}"
 
 # game/script.rpy:727
 translate spanish kuroya_aulas_faa6ed08:
 
-    # p "{cps=30}{color=#FFFF00}Levanto-me e começo a limpar a roupa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me levanto y me empiezo a sacudir la ropa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Levanto-me e começo a limpar a roupa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me levanto y me empiezo a sacudir la ropa.{/color}{/cps}"
 
 # game/script.rpy:728
 translate spanish kuroya_aulas_a6a81389:
 
-    # p "{cps=30}{color=#FFFF00}Quando olho novamente para o muro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Cuando vuelvo a mirar hacia el muro...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quando olho novamente para o muro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Cuando vuelvo a mirar hacia el muro...{/color}{/cps}"
 
 # game/script.rpy:729
 translate spanish kuroya_aulas_7254a7b6:
 
-    # p "{cps=30}{color=#FFFF00}Não consigo mais ver os dois.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya no veo a ninguno de los dos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não consigo mais ver os dois.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya no veo a ninguno de los dos.{/color}{/cps}"
 
 # game/script.rpy:730
 translate spanish kuroya_aulas_4277143a:
 
-    # p "{cps=30}{color=#FFFF00}Droga.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Maldición.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Droga.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Maldición.{/color}{/cps}"
 
 # game/script.rpy:731
 translate spanish kuroya_aulas_75c79e5e:
 
-    # p "{cps=30}{color=#FFFF00}Eu estava perto de descobrir alguma informação importante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estaba cerca de descubrir algo importante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu estava perto de descobrir alguma informação importante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estaba cerca de descubrir algo importante.{/color}{/cps}"
 
 # game/script.rpy:732
 translate spanish kuroya_aulas_e5f9e704_26:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:733
 translate spanish kuroya_aulas_752acfc2:
 
-    # p "{cps=30}{color=#FFFF00}Talvez eu devesse avisar o diretor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez debería avisarle al director.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez eu devesse avisar o diretor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez debería avisarle al director.{/color}{/cps}"
 
 # game/script.rpy:734
 translate spanish kuroya_aulas_20e37279_1:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:735
 translate spanish kuroya_aulas_0b27e35c:
 
-    # p "{cps=30}{color=#FFFF00}Não sei.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No sé.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não sei.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No sé.{/color}{/cps}"
 
 # game/script.rpy:736
 translate spanish kuroya_aulas_b59cfae4:
 
-    # p "{cps=30}{color=#FFFF00}Acho melhor esperar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor espero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho melhor esperar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor espero.{/color}{/cps}"
 
 # game/script.rpy:737
 translate spanish kuroya_aulas_58c425dd:
 
-    # p "{cps=30}{color=#FFFF00}É difícil imaginar que esses dois realmente consigam entrar aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es difícil imaginar que esos dos de verdad logren colarse aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É difícil imaginar que esses dois realmente consigam entrar aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es difícil imaginar que esos dos de verdad logren colarse aquí.{/color}{/cps}"
 
 # game/script.rpy:738
 translate spanish kuroya_aulas_3c41c76d:
 
-    # p "{cps=30}{color=#FFFF00}Principalmente com aqueles seguranças que parecem geladeiras de tão grandes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Especialmente con esos guardias que parecen roperos de lo grandes que están.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Principalmente com aqueles seguranças que parecem geladeiras de tão grandes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Especialmente con esos guardias que parecen roperos de lo grandes que están.{/color}{/cps}"
 
 # game/script.rpy:739
 translate spanish kuroya_aulas_e5f9e704_27:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:740
 translate spanish kuroya_aulas_2bdd48f2:
 
-    # p "{cps=30}{color=#FFFF00}Mas se eu vir aqueles dois aqui dentro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero si llego a ver a esos dos aquí adentro...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas se eu vir aqueles dois aqui dentro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero si llego a ver a esos dos aquí adentro...{/color}{/cps}"
 
 # game/script.rpy:741
 translate spanish kuroya_aulas_f46364bf:
 
-    # p "{cps=30}{color=#FFFF00}Não vou ficar quieto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No me voy a quedar callado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não vou ficar quieto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No me voy a quedar callado.{/color}{/cps}"
 
 # game/script.rpy:742
 translate spanish kuroya_aulas_ad0dc856:
 
-    # p "{cps=30}{color=#FFFF00}Por enquanto, é melhor voltar aos meus afazeres.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por ahora, es mejor volver a mis asuntos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por enquanto, é melhor voltar aos meus afazeres.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por ahora, es mejor volver a mis asuntos.{/color}{/cps}"
 
 # game/script.rpy:743
 translate spanish kuroya_aulas_7c3c45e3:
 
-    # p "{cps=30}{color=#FFFF00}Não preciso transformar uma suspeita em um problema antes mesmo das aulas começarem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo por qué transformar una sospecha en un problema antes de que siquiera empiecen las clases.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não preciso transformar uma suspeita em um problema antes mesmo das aulas começarem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo por qué transformar una sospecha en un problema antes de que siquiera empiecen las clases.{/color}{/cps}"
 
 # game/script.rpy:744
 translate spanish kuroya_aulas_e5f9e704_28:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:745
 translate spanish kuroya_aulas_ec70fae8:
 
-    # p "{cps=30}{color=#FFFF00}Por agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por el momento.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por el momento.{/color}{/cps}"
 
 # game/script.rpy:746
 translate spanish kuroya_aulas_1c7e191a:
 
-    # p "{cps=30}{color=#FFFF00}Bem…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:747
 translate spanish kuroya_aulas_9590337a:
 
-    # p "{cps=30}{color=#FFFF00}O que devo fazer agora?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué debería hacer ahora?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que devo fazer agora?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué debería hacer ahora?{/color}{/cps}"
 
 # game/script.rpy:756
 translate spanish kuroya_dormitorio_511fb0d4:
 
-    # p "{cps=30}{color=#FFFF00}Vou logo para o meu dormitório.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Iré de una vez a mi dormitorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou logo para o meu dormitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Iré de una vez a mi dormitorio.{/color}{/cps}"
 
 # game/script.rpy:757
 translate spanish kuroya_dormitorio_75a84f59:
 
-    # p "{cps=30}{color=#FFFF00}Creio que seja o mais importante também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que también es lo más importante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Creio que seja o mais importante também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que también es lo más importante.{/color}{/cps}"
 
 # game/script.rpy:758
 translate spanish kuroya_dormitorio_f25612b3:
 
-    # p "{cps=30}{color=#FFFF00}Arrumar um quarto sempre parece algo tão simples...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Acomodar un cuarto siempre parece algo muy sencillo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Arrumar um quarto sempre parece algo tão simples...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Acomodar un cuarto siempre parece algo muy sencillo...{/color}{/cps}"
 
 # game/script.rpy:759
 translate spanish kuroya_dormitorio_6ab44c16:
 
-    # p "{cps=30}{color=#FFFF00}E leva tantas horas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y termina tomando horas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E leva tantas horas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y termina tomando horas.{/color}{/cps}"
 
 # game/script.rpy:760
 translate spanish kuroya_dormitorio_1f17695b:
 
-    # p "{cps=30}{color=#FFFF00}Melhor eu me apressar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor me apresuro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor eu me apressar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor me apresuro.{/color}{/cps}"
 
 # game/script.rpy:761
 translate spanish kuroya_dormitorio_f87d35de:
 
-    # p "{cps=30}{color=#FFFF00}Começo a andar em direção à recepção dos dormitórios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a caminar hacia la recepción de los dormitorios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a andar em direção à recepção dos dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a caminar hacia la recepción de los dormitorios.{/color}{/cps}"
 
 # game/script.rpy:762
 translate spanish kuroya_dormitorio_504edfc9:
 
-    # p "{cps=30}{color=#FFFF00}Passo pela catraca e sigo em frente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Paso por el torniquete y sigo de frente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Passo pela catraca e sigo em frente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Paso por el torniquete y sigo de frente.{/color}{/cps}"
 
 # game/script.rpy:763
 translate spanish kuroya_dormitorio_ce0aee1e:
 
-    # p "{cps=30}{color=#FFFF00}Já tenho minha chave, então simplesmente ignoro a recepcionista.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya tengo mi llave, así que simplemente ignoro a la recepcionista.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já tenho minha chave, então simplesmente ignoro a recepcionista.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya tengo mi llave, así que simplemente ignoro a la recepcionista.{/color}{/cps}"
 
 # game/script.rpy:764
 translate spanish kuroya_dormitorio_80927f5e:
 
-    # p "{cps=30}{color=#FFFF00}Nem dei oi.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ni le dije hola.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nem dei oi.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ni le dije hola.{/color}{/cps}"
 
 # game/script.rpy:765
 translate spanish kuroya_dormitorio_1fe5f12d:
 
-    # p "{cps=30}{color=#FFFF00}Ela não merece.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No se lo merece.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela não merece.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No se lo merece.{/color}{/cps}"
 
 # game/script.rpy:766
 translate spanish kuroya_dormitorio_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:767
 translate spanish kuroya_dormitorio_f9bb362f:
 
-    # p "{cps=30}{color=#FFFF00}Chego ao campus dos prédios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Llego al campus de los edificios.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Chego ao campus dos prédios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Llego al campus de los edificios.{/color}{/cps}"
 
 # game/script.rpy:768
 translate spanish kuroya_dormitorio_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:769
 translate spanish kuroya_dormitorio_4b48bee7:
 
-    # p "{cps=30}{color=#FFFF00}Uau.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Guau...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Guau...{/color}{/cps}"
 
 # game/script.rpy:770
 translate spanish kuroya_dormitorio_d8223dae:
 
-    # p "{cps=30}{color=#FFFF00}Realmente não esperava encontrar um lugar tão grande e bonito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La verdad no esperaba encontrarme con un lugar tan grande y bonito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Realmente não esperava encontrar um lugar tão grande e bonito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La verdad no esperaba encontrarme con un lugar tan grande y bonito.{/color}{/cps}"
 
 # game/script.rpy:771
 translate spanish kuroya_dormitorio_560c5fac:
 
-    # p "{cps=30}{color=#FFFF00}Os prédios são enormes e parecem muito bem cuidados.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Los edificios son enormes y se ven muy bien cuidados.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Os prédios são enormes e parecem muito bem cuidados.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Los edificios son enormes y se ven muy bien cuidados.{/color}{/cps}"
 
 # game/script.rpy:772
 translate spanish kuroya_dormitorio_df060ee7:
 
-    # p "{cps=30}{color=#FFFF00}Até que essa escola não é tão ruim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que esta escuela no está tan mal después de todo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até que essa escola não é tão ruim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que esta escuela no está tan mal después de todo.{/color}{/cps}"
 
 # game/script.rpy:773
 translate spanish kuroya_dormitorio_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:774
 translate spanish kuroya_dormitorio_2b49429d:
 
-    # p "{cps=30}{color=#FFFF00}Vamos logo, né?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A lo que vine, ¿no?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vamos logo, né?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A lo que vine, ¿no?{/color}{/cps}"
 
 # game/script.rpy:775
 translate spanish kuroya_dormitorio_3d590547:
 
-    # p "{cps=30}{color=#FFFF00}Olho para a chave em minha mão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro la llave que tengo en la mano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para a chave em minha mão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro la llave que tengo en la mano.{/color}{/cps}"
 
 # game/script.rpy:776
 translate spanish kuroya_dormitorio_36cc1160:
 
-    # p "{cps=30}{color=#FFFF00}A37.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A37.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A37.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A37.{/color}{/cps}"
 
 # game/script.rpy:777
 translate spanish kuroya_dormitorio_82f231af:
 
-    # p "{cps=30}{color=#FFFF00}Prédio A.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Edificio A.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Prédio A.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Edificio A.{/color}{/cps}"
 
 # game/script.rpy:778
 translate spanish kuroya_dormitorio_3f171404:
 
-    # p "{cps=30}{color=#FFFF00}Terceiro andar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tercer piso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Terceiro andar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tercer piso.{/color}{/cps}"
 
 # game/script.rpy:779
 translate spanish kuroya_dormitorio_1aca73e4:
 
-    # p "{cps=30}{color=#FFFF00}Começo a caminhar em direção ao prédio indicado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a caminar hacia el edificio indicado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a caminhar em direção ao prédio indicado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a caminar hacia el edificio indicado.{/color}{/cps}"
 
 # game/script.rpy:780
 translate spanish kuroya_dormitorio_acc9958b:
 
-    # p "{cps=30}{color=#FFFF00}Entro no prédio A e vou direto para o elevador.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entro al edificio A y voy directo al ascensor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entro no prédio A e vou direto para o elevador.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entro al edificio A y voy directo al ascensor.{/color}{/cps}"
 
 # game/script.rpy:781
 translate spanish kuroya_dormitorio_36e1f57d:
 
-    # p "{cps=30}{color=#FFFF00}Aperto o botão do terceiro andar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Presiono el botón del tercer piso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aperto o botão do terceiro andar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Presiono el botón del tercer piso.{/color}{/cps}"
 
 # game/script.rpy:782
 translate spanish kuroya_dormitorio_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:783
 translate spanish kuroya_dormitorio_4e3600af:
 
-    # p "{cps=30}{color=#FFFF00}Alguns segundos depois, as portas se abrem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Unos segundos después, las puertas se abren.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Alguns segundos depois, as portas se abrem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Unos segundos después, las puertas se abren.{/color}{/cps}"
 
 # game/script.rpy:784
 translate spanish kuroya_dormitorio_fdb88b5b:
 
-    # p "{cps=30}{color=#FFFF00}Caminho pelo corredor até encontrar meu dormitório.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino por el pasillo hasta encontrar mi dormitorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caminho pelo corredor até encontrar meu dormitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino por el pasillo hasta encontrar mi dormitorio.{/color}{/cps}"
 
 # game/script.rpy:785
 translate spanish kuroya_dormitorio_36cc1160_1:
 
-    # p "{cps=30}{color=#FFFF00}A37.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A37.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A37.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A37.{/color}{/cps}"
 
 # game/script.rpy:786
 translate spanish kuroya_dormitorio_ccef0041:
 
-    # p "{cps=30}{color=#FFFF00}Aproximo meu cartão da fechadura.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Acerco mi tarjeta a la cerradura.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aproximo meu cartão da fechadura.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Acerco mi tarjeta a la cerradura.{/color}{/cps}"
 
 # game/script.rpy:787
 translate spanish kuroya_dormitorio_bf91c011:
 
-    # p "{cps=30}{color=#FFFF00}BIP.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}BIP.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}BIP.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}BIP.{/color}{/cps}"
 
 # game/script.rpy:788
 translate spanish kuroya_dormitorio_685ae0f5:
 
-    # p "{cps=30}{color=#FFFF00}A porta destrava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La puerta se destraba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A porta destrava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La puerta se destraba.{/color}{/cps}"
 
 # game/script.rpy:789
 translate spanish kuroya_dormitorio_add6058f:
 
-    # p "{cps=30}{color=#FFFF00}Entro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entro.{/color}{/cps}"
 
 # game/script.rpy:793
 translate spanish kuroya_dormitorio_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:794
 translate spanish kuroya_dormitorio_d0be93d0:
 
-    # p "{cps=30}{color=#FFFF00}Ela não está aqui?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿No está aquí?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela não está aqui?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿No está aquí?{/color}{/cps}"
 
 # game/script.rpy:795
 translate spanish kuroya_dormitorio_dff43b27:
 
-    # p "{cps=30}{color=#FFFF00}Hum.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hum.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm.{/color}{/cps}"
 
 # game/script.rpy:796
 translate spanish kuroya_dormitorio_b927f6a6:
 
-    # p "{cps=30}{color=#FFFF00}Deve estar no banheiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Debe estar en el baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deve estar no banheiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Debe estar en el baño.{/color}{/cps}"
 
 # game/script.rpy:797
 translate spanish kuroya_dormitorio_70e3b9df:
 
-    # p "{cps=30}{color=#FFFF00}Melhor assim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mejor así.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mejor así.{/color}{/cps}"
 
 # game/script.rpy:798
 translate spanish kuroya_dormitorio_8c7b053c:
 
-    # p "{cps=30}{color=#FFFF00}Aproximo-me da minha mala e a coloco sobre a cama.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco a mi maleta y la pongo sobre la cama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aproximo-me da minha mala e a coloco sobre a cama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco a mi maleta y la pongo sobre la cama.{/color}{/cps}"
 
 # game/script.rpy:799
 translate spanish kuroya_dormitorio_dc3702ae:
 
-    # p "{cps=30}{color=#FFFF00}Então começo a abrir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Luego empiezo a abrirla.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então começo a abrir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Luego empiezo a abrirla.{/color}{/cps}"
 
 # game/script.rpy:800
 translate spanish kuroya_dormitorio_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:801
 translate spanish kuroya_dormitorio_9772efec:
 
-    # p "{cps=30}{color=#FFFF00}Realmente trouxe pouca coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La verdad traje muy pocas cosas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Realmente trouxe pouca coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La verdad traje muy pocas cosas.{/color}{/cps}"
 
 # game/script.rpy:802
 translate spanish kuroya_dormitorio_8246f794:
 
-    # p "{cps=30}{color=#FFFF00}Algumas roupas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Algo de ropa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Algumas roupas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Algo de ropa.{/color}{/cps}"
 
 # game/script.rpy:803
 translate spanish kuroya_dormitorio_7b135c44:
 
-    # p "{cps=30}{color=#FFFF00}Materiais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Útiles.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Materiais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Útiles.{/color}{/cps}"
 
 # game/script.rpy:804
 translate spanish kuroya_dormitorio_15bb386e:
 
-    # p "{cps=30}{color=#FFFF00}Produtos pessoais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Productos personales.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Produtos pessoais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Productos personales.{/color}{/cps}"
 
 # game/script.rpy:805
 translate spanish kuroya_dormitorio_d21f079d:
 
-    # p "{cps=30}{color=#FFFF00}Nada demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nada del otro mundo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nada demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nada del otro mundo.{/color}{/cps}"
 
 # game/script.rpy:806
 translate spanish kuroya_dormitorio_026463da:
 
-    # p "{cps=30}{color=#FFFF00}Começo a guardar tudo no seu devido lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a guardar todo en su lugar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a guardar tudo no seu devido lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a guardar todo en su lugar.{/color}{/cps}"
 
 # game/script.rpy:807
 translate spanish kuroya_dormitorio_b9032c38:
 
-    # p "{cps=30}{color=#FFFF00}Organizo minha mesa de estudos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Organizo mi escritorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Organizo minha mesa de estudos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Organizo mi escritorio.{/color}{/cps}"
 
 # game/script.rpy:808
 translate spanish kuroya_dormitorio_7d9e5096:
 
-    # p "{cps=30}{color=#FFFF00}Minha cama.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi cama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha cama.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi cama.{/color}{/cps}"
 
 # game/script.rpy:809
 translate spanish kuroya_dormitorio_c8e3502d:
 
-    # p "{cps=30}{color=#FFFF00}Minha cama...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi cama.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha cama...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi cama.{/color}{/cps}"
 
 # game/script.rpy:810
 translate spanish kuroya_dormitorio_15fa6903:
 
-    # p "{cps=30}{color=#FFFF00}Minha parede.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi pared.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha parede.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi pared.{/color}{/cps}"
 
 # game/script.rpy:811
 translate spanish kuroya_dormitorio_9cdc122e:
 
-    # p "{cps=30}{color=#FFFF00}Minha parede...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi pared.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha parede...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi pared.{/color}{/cps}"
 
 # game/script.rpy:812
 translate spanish kuroya_dormitorio_8120ffeb:
 
-    # p "{cps=30}{color=#FFFF00}Meu armário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu armário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi casillero.{/color}{/cps}"
 
 # game/script.rpy:813
 translate spanish kuroya_dormitorio_2688e26b:
 
-    # p "{cps=30}{color=#FFFF00}Meu armário...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi casillero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu armário...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi casillero.{/color}{/cps}"
 
 # game/script.rpy:814
 translate spanish kuroya_dormitorio_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:815
 translate spanish kuroya_dormitorio_b369e8e7:
 
-    # p "{cps=30}{color=#FFFF00}É.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:816
 translate spanish kuroya_dormitorio_0d9a3a3b:
 
-    # p "{cps=30}{color=#FFFF00}Agora está tudo no lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora todo está en su sitio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora está tudo no lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora todo está en su sitio.{/color}{/cps}"
 
 # game/script.rpy:817
 translate spanish kuroya_dormitorio_57cbf8db:
 
-    # p "{cps=30}{color=#FFFF00}Olho para dentro da mala.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro dentro de la maleta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para dentro da mala.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro dentro de la maleta.{/color}{/cps}"
 
 # game/script.rpy:818
 translate spanish kuroya_dormitorio_6dc5b8b4:
 
-    # p "{cps=30}{color=#FFFF00}Só sobrou uma coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo queda una cosa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só sobrou uma coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo queda una cosa.{/color}{/cps}"
 
 # game/script.rpy:819
 translate spanish kuroya_dormitorio_5343a6a3:
 
-    # p "{cps=30}{color=#FFFF00}Meu livro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi libro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu livro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi libro.{/color}{/cps}"
 
 # game/script.rpy:820
 translate spanish kuroya_dormitorio_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:821
 translate spanish kuroya_dormitorio_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:822
 translate spanish kuroya_dormitorio_647d375e:
 
-    # p "{cps=30}{color=#FFFF00}Paro por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo un instante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo un instante.{/color}{/cps}"
 
 # game/script.rpy:823
 translate spanish kuroya_dormitorio_d65966a1:
 
-    # p "{cps=30}{color=#FFFF00}Há uma marca de dedo na capa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hay una huella marcada en la portada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Há uma marca de dedo na capa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hay una huella marcada en la portada.{/color}{/cps}"
 
 # game/script.rpy:824
 translate spanish kuroya_dormitorio_ed6d8bd8:
 
-    # p "{cps=30}{color=#FFFF00}Ela encostou nele.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ella lo tocó.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela encostou nele.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ella lo tocó.{/color}{/cps}"
 
 # game/script.rpy:825
 translate spanish kuroya_dormitorio_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:826
 translate spanish kuroya_dormitorio_70b67d77:
 
-    # p "{cps=30}{color=#FFFF00}Tudo bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está bien.{/color}{/cps}"
 
 # game/script.rpy:827
 translate spanish kuroya_dormitorio_efc6c83b:
 
-    # p "{cps=30}{color=#FFFF00}Ela provavelmente nem leu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Probablemente ni lo leyó.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela provavelmente nem leu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Probablemente ni lo leyó.{/color}{/cps}"
 
 # game/script.rpy:828
 translate spanish kuroya_dormitorio_64df6ec0:
 
-    # p "{cps=30}{color=#FFFF00}Deve ter apenas mexido para colocar minha mala em algum lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo debió moverlo para acomodar mi maleta en algún lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Deve ter apenas mexido para colocar minha mala em algum lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo debió moverlo para acomodar mi maleta en algún lado.{/color}{/cps}"
 
 # game/script.rpy:829
 translate spanish kuroya_dormitorio_3ded7041:
 
-    # p "{cps=30}{color=#FFFF00}Vou guardar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo voy a guardar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou guardar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo voy a guardar.{/color}{/cps}"
 
 # game/script.rpy:830
 translate spanish kuroya_dormitorio_dab2a0c2:
 
-    # p "{cps=30}{color=#FFFF00}Da próxima vez que ela mexer...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La próxima vez que lo toque...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Da próxima vez que ela mexer...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La próxima vez que lo toque...{/color}{/cps}"
 
 # game/script.rpy:831
 translate spanish kuroya_dormitorio_d7dfca91:
 
-    # p "{cps=30}{color=#FFFF00}Peço para não repetir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Le pediré que no lo vuelva a hacer.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Peço para não repetir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Le pediré que no lo vuelva a hacer.{/color}{/cps}"
 
 # game/script.rpy:832
 translate spanish kuroya_dormitorio_dd98e446:
 
-    # p "{cps=30}{color=#FFFF00}Esse livro é importante para mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Este libro es importante para mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Esse livro é importante para mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Este libro es importante para mí.{/color}{/cps}"
 
 # game/script.rpy:833
 translate spanish kuroya_dormitorio_e5f9e704_9:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:834
 translate spanish kuroya_dormitorio_2d1d4cc7:
 
-    # p "{cps=30}{color=#FFFF00}Guardo-o cuidadosamente em um dos espaços da minha estante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo guardo con cuidado en uno de los espacios de mi repisa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Guardo-o cuidadosamente em um dos espaços da minha estante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo guardo con cuidado en uno de los espacios de mi repisa.{/color}{/cps}"
 
 # game/script.rpy:835
 translate spanish kuroya_dormitorio_57936114:
 
-    # p "{cps=30}{color=#FFFF00}Olho ao redor do quarto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro alrededor de la habitación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho ao redor do quarto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro alrededor de la habitación.{/color}{/cps}"
 
 # game/script.rpy:836
 translate spanish kuroya_dormitorio_14a2aeb6:
 
-    # p "{cps=30}{color=#FFFF00}Tudo está no lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todo está en su lugar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tudo está no lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todo está en su lugar.{/color}{/cps}"
 
 # game/script.rpy:837
 translate spanish kuroya_dormitorio_1d29bf30:
 
-    # p "{cps=30}{color=#FFFF00}Minha cama está arrumada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi cama está hecha.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha cama está arrumada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi cama está hecha.{/color}{/cps}"
 
 # game/script.rpy:838
 translate spanish kuroya_dormitorio_413574c2:
 
-    # p "{cps=30}{color=#FFFF00}Minha mesa está organizada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi escritorio está ordenado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha mesa está organizada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi escritorio está ordenado.{/color}{/cps}"
 
 # game/script.rpy:839
 translate spanish kuroya_dormitorio_98726ee3:
 
-    # p "{cps=30}{color=#FFFF00}Minhas coisas estão guardadas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mis cosas están guardadas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minhas coisas estão guardadas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mis cosas están guardadas.{/color}{/cps}"
 
 # game/script.rpy:840
 translate spanish kuroya_dormitorio_e5f9e704_10:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:841
 translate spanish kuroya_dormitorio_804e35e3:
 
-    # p "{cps=30}{color=#FFFF00}Finalmente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por fin.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Finalmente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por fin.{/color}{/cps}"
 
 # game/script.rpy:842
 translate spanish kuroya_dormitorio_3143ed04:
 
-    # p "{cps=30}{color=#FFFF00}Posso descansar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Puedo descansar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Posso descansar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Puedo descansar.{/color}{/cps}"
 
 # game/script.rpy:843
 translate spanish kuroya_dormitorio_20e37279_1:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:844
 translate spanish kuroya_dormitorio_9590337a:
 
-    # p "{cps=30}{color=#FFFF00}O que devo fazer agora?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué debería hacer ahora?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O que devo fazer agora?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué debería hacer ahora?{/color}{/cps}"
 
 # game/script.rpy:851
 translate spanish kuroya_exploracao_8a8b478b:
 
-    # p "{cps=30}{color=#FFFF00}Caramba...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vaya.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vaya.{/color}{/cps}"
 
 # game/script.rpy:852
 translate spanish kuroya_exploracao_53647ab6:
 
-    # p "{cps=30}{color=#FFFF00}Já está de tarde.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya es por la tarde.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já está de tarde.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya es por la tarde.{/color}{/cps}"
 
 # game/script.rpy:853
 translate spanish kuroya_exploracao_01a5a4a6:
 
-    # p "{cps=30}{color=#FFFF00}O tempo passou bem mais rápido do que eu esperava.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El tiempo pasó mucho más rápido de lo que esperaba.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O tempo passou bem mais rápido do que eu esperava.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El tiempo pasó mucho más rápido de lo que esperaba.{/color}{/cps}"
 
 # game/script.rpy:854
 translate spanish kuroya_exploracao_8e46465c:
 
-    # p "{cps=30}{color=#FFFF00}Acho melhor ir comer alguma coisa antes de pensar em tomar banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que será mejor ir a comer algo antes de pensar en bañarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho melhor ir comer alguma coisa antes de pensar em tomar banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que será mejor ir a comer algo antes de pensar en bañarme.{/color}{/cps}"
 
 # game/script.rpy:855
 translate spanish kuroya_exploracao_3151a2e6:
 
-    # p "{cps=30}{color=#FFFF00}Nem fiz tanta coisa hoje...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tampoco es que haya hecho tanto hoy...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nem fiz tanta coisa hoje...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tampoco es que haya hecho tanto hoy...{/color}{/cps}"
 
 # game/script.rpy:856
 translate spanish kuroya_exploracao_e481beb9:
 
-    # p "{cps=30}{color=#FFFF00}Mas minha barriga já está gritando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero mi estómago ya está rugiendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas minha barriga já está gritando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero mi estómago ya está rugiendo.{/color}{/cps}"
 
 # game/script.rpy:857
 translate spanish kuroya_exploracao_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:858
 translate spanish kuroya_exploracao_ef3e6a0d:
 
-    # p "{cps=30}{color=#FFFF00}Bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:859
 translate spanish kuroya_exploracao_cd5015fd:
 
-    # p "{cps=30}{color=#FFFF00}Para onde eu devo ir?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿A dónde debería ir?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Para onde eu devo ir?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿A dónde debería ir?{/color}{/cps}"
 
 # game/script.rpy:860
 translate spanish kuroya_exploracao_23a60734:
 
-    # p "{cps=30}{color=#FFFF00}Talvez seja uma boa oportunidade para conhecer melhor as opções de comida daqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez sea una buena oportunidad para conocer mejor las opciones de comida que hay aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez seja uma boa oportunidade para conhecer melhor as opções de comida daqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez sea una buena oportunidad para conocer mejor las opciones de comida que hay aquí.{/color}{/cps}"
 
 # game/script.rpy:876
 translate spanish kuroya_cafeteria_f7e738b3:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou em alguma cafeteria...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que iré a alguna cafetería...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou em alguma cafeteria...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que iré a alguna cafetería...{/color}{/cps}"
 
 # game/script.rpy:877
 translate spanish kuroya_cafeteria_2c5d5284:
 
-    # p "{cps=30}{color=#FFFF00}Quero algo leve para comer agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quiero comer algo ligero por ahora.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quero algo leve para comer agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quiero comer algo ligero por ahora.{/color}{/cps}"
 
 # game/script.rpy:878
 translate spanish kuroya_cafeteria_007db747:
 
-    # p "{cps=30}{color=#FFFF00}Talvez uma bebida láctea e algum salgado...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez una bebida láctea y algún bocadillo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez uma bebida láctea e algum salgado...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez una bebida láctea y algún bocadillo...{/color}{/cps}"
 
 # game/script.rpy:879
 translate spanish kuroya_cafeteria_9af0222b:
 
-    # p "{cps=30}{color=#FFFF00}A escola tem cafeteria, né?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La escuela tiene cafetería, ¿verdad?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A escola tem cafeteria, né?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La escuela tiene cafetería, ¿verdad?{/color}{/cps}"
 
 # game/script.rpy:880
 translate spanish kuroya_cafeteria_127aa73e:
 
-    # p "{cps=30}{color=#FFFF00}Bem...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:881
 translate spanish kuroya_cafeteria_4966ee5f:
 
-    # p "{cps=30}{color=#FFFF00}Só tem um jeito de descobrir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo hay una forma de averiguarlo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só tem um jeito de descobrir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo hay una forma de averiguarlo.{/color}{/cps}"
 
 # game/script.rpy:882
 translate spanish kuroya_cafeteria_524d4e81:
 
-    # p "{cps=30}{color=#FFFF00}Vou andando até a praça de alimentação, procurando algum sinal de uma cafeteria.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino hacia la plaza de comidas, buscando algún indicio de una cafetería.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou andando até a praça de alimentação, procurando algum sinal de uma cafeteria.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino hacia la plaza de comidas, buscando algún indicio de una cafetería.{/color}{/cps}"
 
 # game/script.rpy:883
 translate spanish kuroya_cafeteria_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:884
 translate spanish kuroya_cafeteria_2a919a6c:
 
-    # p "{cps=30}{color=#FFFF00}...!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:885
 translate spanish kuroya_cafeteria_4a1cb85e:
 
-    # p "{cps=30}{color=#FFFF00}Maison Cafe?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Maison Cafe?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Maison Cafe?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Maison Cafe?{/color}{/cps}"
 
 # game/script.rpy:886
 translate spanish kuroya_cafeteria_7204712c:
 
-    # p "{cps=30}{color=#FFFF00}Uau...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Guau...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Guau...{/color}{/cps}"
 
 # game/script.rpy:887
 translate spanish kuroya_cafeteria_92ead6af:
 
-    # p "{cps=30}{color=#FFFF00}Que nome ridículo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué nombre tan ridículo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que nome ridículo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué nombre tan ridículo.{/color}{/cps}"
 
 # game/script.rpy:888
 translate spanish kuroya_cafeteria_4bcd936d:
 
-    # p "{cps=30}{color=#FFFF00}Quem foi o imbecil que teve a ideia disso?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿A qué imbécil se le ocurrió esa idea?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quem foi o imbecil que teve a ideia disso?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿A qué imbécil se le ocurrió esa idea?{/color}{/cps}"
 
 # game/script.rpy:889
 translate spanish kuroya_cafeteria_4f2659cb:
 
-    # p "{cps=30}{color=#FFFF00}Mas o cheiro vindo lá de dentro parece muito bom.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero el olor que sale de ahí dentro se ve muy bueno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas o cheiro vindo lá de dentro parece muito bom.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero el olor que sale de ahí dentro se ve muy bueno.{/color}{/cps}"
 
 # game/script.rpy:890
 translate spanish kuroya_cafeteria_c0a57935:
 
-    # p "{cps=30}{color=#FFFF00}Hmmm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hmmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hmmm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hmmm...{/color}{/cps}"
 
 # game/script.rpy:891
 translate spanish kuroya_cafeteria_b369e8e7:
 
-    # p "{cps=30}{color=#FFFF00}É.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:892
 translate spanish kuroya_cafeteria_9ad0509c:
 
-    # p "{cps=30}{color=#FFFF00}Acho que não custa tentar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que no pierdo nada con intentar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que não custa tentar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que no pierdo nada con intentar.{/color}{/cps}"
 
 # game/script.rpy:893
 translate spanish kuroya_cafeteria_bd8e888e:
 
-    # p "{cps=30}{color=#FFFF00}Entro na cafeteria.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entro a la cafetería.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entro na cafeteria.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entro a la cafetería.{/color}{/cps}"
 
 # game/script.rpy:894
 translate spanish kuroya_cafeteria_6271ef93:
 
-    # p "{cps=30}{color=#FFFF00}O cheiro invadiu minhas narinas assim que passei pela porta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El aroma invadió mis fosas nasales en cuanto crucé la puerta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O cheiro invadiu minhas narinas assim que passei pela porta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El aroma invadió mis fosas nasales en cuanto crucé la puerta.{/color}{/cps}"
 
 # game/script.rpy:895
 translate spanish kuroya_cafeteria_8f44def1:
 
-    # p "{cps=30}{color=#FFFF00}Café.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Café.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Café.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Café.{/color}{/cps}"
 
 # game/script.rpy:896
 translate spanish kuroya_cafeteria_5f7aff82:
 
-    # p "{cps=30}{color=#FFFF00}Pão recém-assado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pan recién horneado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pão recém-assado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pan recién horneado.{/color}{/cps}"
 
 # game/script.rpy:897
 translate spanish kuroya_cafeteria_da80c395:
 
-    # p "{cps=30}{color=#FFFF00}Chocolate.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Chocolate.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Chocolate.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Chocolate.{/color}{/cps}"
 
 # game/script.rpy:898
 translate spanish kuroya_cafeteria_8a8b478b:
 
-    # p "{cps=30}{color=#FFFF00}Caramba...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vaya.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vaya.{/color}{/cps}"
 
 # game/script.rpy:899
 translate spanish kuroya_cafeteria_b990da71:
 
-    # p "{cps=30}{color=#FFFF00}Que delícia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué delicia.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que delícia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué delicia.{/color}{/cps}"
 
 # game/script.rpy:900
 translate spanish kuroya_cafeteria_3ce99ceb:
 
-    # p "{cps=30}{color=#FFFF00}Confesso que estou impressionado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Confieso que estoy impresionado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Confesso que estou impressionado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Confieso que estoy impresionado.{/color}{/cps}"
 
 # game/script.rpy:901
 translate spanish kuroya_cafeteria_3ae4575c:
 
-    # p "{cps=30}{color=#FFFF00}Me aproximo do balcão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco al mostrador.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me aproximo do balcão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco al mostrador.{/color}{/cps}"
 
 # game/script.rpy:902
 translate spanish kuroya_cafeteria_aaec1ea2:
@@ -11991,14 +11991,14 @@ translate spanish kuroya_cafeteria_aaec1ea2:
 # game/script.rpy:903
 translate spanish kuroya_cafeteria_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:904
 translate spanish kuroya_cafeteria_2438776e:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou querer um café amargo e um croissant.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que voy a querer un café amargo y un croissant.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou querer um café amargo e um croissant.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que voy a querer un café amargo y un croissant.{/color}{/cps}"
 
 # game/script.rpy:905
 translate spanish kuroya_cafeteria_e9aa070e:
@@ -12009,14 +12009,14 @@ translate spanish kuroya_cafeteria_e9aa070e:
 # game/script.rpy:906
 translate spanish kuroya_cafeteria_bbb10fd6:
 
-    # p "{cps=30}{color=#FFFF00}Realizo o pagamento e começo a procurar algum lugar para sentar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hago el pago y empiezo a buscar un lugar para sentarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Realizo o pagamento e começo a procurar algum lugar para sentar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hago el pago y empiezo a buscar un lugar para sentarme.{/color}{/cps}"
 
 # game/script.rpy:907
 translate spanish kuroya_cafeteria_819bc72b:
 
-    # p "{cps=30}{color=#FFFF00}Então escuto alguém chamar meu nome.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces escucho que alguien me llama por mi nombre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então escuto alguém chamar meu nome.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces escucho que alguien me llama por mi nombre.{/color}{/cps}"
 
 # game/script.rpy:908
 translate spanish kuroya_cafeteria_fc50dae2:
@@ -12027,14 +12027,14 @@ translate spanish kuroya_cafeteria_fc50dae2:
 # game/script.rpy:909
 translate spanish kuroya_cafeteria_87642f86:
 
-    # p "{cps=30}{color=#FFFF00}Hã?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Eh?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hã?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Eh?{/color}{/cps}"
 
 # game/script.rpy:910
 translate spanish kuroya_cafeteria_720dee23:
 
-    # p "{cps=30}{color=#FFFF00}Olho para o lado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro hacia un lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para o lado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro hacia un lado.{/color}{/cps}"
 
 # game/script.rpy:911
 translate spanish kuroya_cafeteria_b1561b10:
@@ -12051,14 +12051,14 @@ translate spanish kuroya_cafeteria_0ac718a1:
 # game/script.rpy:913
 translate spanish kuroya_cafeteria_b7ff2ba4:
 
-    # p "{cps=30}{color=#FFFF00}Ah, olá de novo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah, hola de nuevo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, olá de novo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah, hola de nuevo.{/color}{/cps}"
 
 # game/script.rpy:914
 translate spanish kuroya_cafeteria_e135f687:
 
-    # p "{cps=30}{color=#FFFF00}Obrigado por ter levado minha mala hoje mais cedo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Gracias por haber llevado mi maleta más temprano.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Obrigado por ter levado minha mala hoje mais cedo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Gracias por haber llevado mi maleta más temprano.{/color}{/cps}"
 
 # game/script.rpy:915
 translate spanish kuroya_cafeteria_9b2cc803:
@@ -12069,98 +12069,98 @@ translate spanish kuroya_cafeteria_9b2cc803:
 # game/script.rpy:916
 translate spanish kuroya_cafeteria_5a5f1fe6:
 
-    # p "{cps=30}{color=#FFFF00}Aproximo-me da mesa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco a la mesa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aproximo-me da mesa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco a la mesa.{/color}{/cps}"
 
 # game/script.rpy:917
 translate spanish kuroya_cafeteria_37e0c12d:
 
-    # p "{cps=30}{color=#FFFF00}Estou prestes a me sentar quando alguém passa atrás de mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Estoy a punto de sentarme cuando alguien pasa detrás de mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou prestes a me sentar quando alguém passa atrás de mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Estoy a punto de sentarme cuando alguien pasa detrás de mí.{/color}{/cps}"
 
 # game/script.rpy:918
 translate spanish kuroya_cafeteria_c5b4f47a:
 
-    # p "{cps=30}{color=#FFFF00}É só uma pessoa passando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es solo una persona pasando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É só uma pessoa passando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es solo una persona pasando.{/color}{/cps}"
 
 # game/script.rpy:919
 translate spanish kuroya_cafeteria_d21f079d:
 
-    # p "{cps=30}{color=#FFFF00}Nada demais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nada del otro mundo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nada demais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nada del otro mundo.{/color}{/cps}"
 
 # game/script.rpy:920
 translate spanish kuroya_cafeteria_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:921
 translate spanish kuroya_cafeteria_5add55e9:
 
-    # p "{cps=30}{color=#FFFF00}Mas meu corpo arrepia inteiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero todo mi cuerpo se eriza por completo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas meu corpo arrepia inteiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero todo mi cuerpo se eriza por completo.{/color}{/cps}"
 
 # game/script.rpy:922
 translate spanish kuroya_cafeteria_647d375e:
 
-    # p "{cps=30}{color=#FFFF00}Paro por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo un instante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo un instante.{/color}{/cps}"
 
 # game/script.rpy:923
 translate spanish kuroya_cafeteria_3f3d8cda:
 
-    # p "{cps=30}{color=#FFFF00}Não consegui ver o rosto.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No pude verle el rostro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não consegui ver o rosto.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No pude verle el rostro.{/color}{/cps}"
 
 # game/script.rpy:924
 translate spanish kuroya_cafeteria_eaf4c677:
 
-    # p "{cps=30}{color=#FFFF00}A pessoa simplesmente passou por mim e continuou andando até uma mesa próxima.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La persona simplemente pasó a mi lado y siguió caminando hacia una mesa cercana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A pessoa simplesmente passou por mim e continuou andando até uma mesa próxima.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La persona simplemente pasó a mi lado y siguió caminando hacia una mesa cercana.{/color}{/cps}"
 
 # game/script.rpy:925
 translate spanish kuroya_cafeteria_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:926
 translate spanish kuroya_cafeteria_d6b0ddb8:
 
-    # p "{cps=30}{color=#FFFF00}Que porra foi essa?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué carajos fue eso?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que porra foi essa?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué carajos fue eso?{/color}{/cps}"
 
 # game/script.rpy:927
 translate spanish kuroya_cafeteria_a770f437:
 
-    # p "{cps=30}{color=#FFFF00}Sinto um frio percorrer minha nuca.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento un escalofrío recorrer mi nuca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sinto um frio percorrer minha nuca.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento un escalofrío recorrer mi nuca.{/color}{/cps}"
 
 # game/script.rpy:928
 translate spanish kuroya_cafeteria_038277ef:
 
-    # p "{cps=30}{color=#FFFF00}Meu coração acelera por um segundo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi corazón se acelera por un segundo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu coração acelera por um segundo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi corazón se acelera por un segundo.{/color}{/cps}"
 
 # game/script.rpy:929
 translate spanish kuroya_cafeteria_7537a038:
 
-    # p "{cps=30}{color=#FFFF00}Foi como se alguma coisa tivesse acabado de passar por dentro de mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Fue como si algo hubiera atravesado mi cuerpo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Foi como se alguma coisa tivesse acabado de passar por dentro de mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Fue como si algo hubiera atravesado mi cuerpo.{/color}{/cps}"
 
 # game/script.rpy:930
 translate spanish kuroya_cafeteria_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:931
 translate spanish kuroya_cafeteria_01eb7e4a:
 
-    # p "{cps=30}{color=#FFFF00}Eu senti cheiro de morte.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sentí olor a muerte.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu senti cheiro de morte.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sentí olor a muerte.{/color}{/cps}"
 
 # game/script.rpy:932
 translate spanish kuroya_cafeteria_405e141c:
@@ -12171,26 +12171,26 @@ translate spanish kuroya_cafeteria_405e141c:
 # game/script.rpy:933
 translate spanish kuroya_cafeteria_d4a3aeb1_1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:934
 translate spanish kuroya_cafeteria_16f0f6ea:
 
-    # p "{cps=30}{color=#FFFF00}T-tô sim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}S-sí, lo estoy.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}T-tô sim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}S-sí, lo estoy.{/color}{/cps}"
 
 # game/script.rpy:935
 translate spanish kuroya_cafeteria_8ce3a2c5:
 
-    # p "{cps=30}{color=#FFFF00}Eu só...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es solo que...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu só...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es solo que...{/color}{/cps}"
 
 # game/script.rpy:936
 translate spanish kuroya_cafeteria_5f114c28:
 
-    # p "{cps=30}{color=#FFFF00}Dissociei!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Me disocié!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Dissociei!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Me disocié!{/color}{/cps}"
 
 # game/script.rpy:937
 translate spanish kuroya_cafeteria_ff6b0b4b:
@@ -12207,20 +12207,20 @@ translate spanish kuroya_cafeteria_d0a8aa85:
 # game/script.rpy:939
 translate spanish kuroya_cafeteria_77020bdb:
 
-    # p "{cps=30}{color=#FFFF00}Acontece.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Suele pasar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acontece.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Suele pasar.{/color}{/cps}"
 
 # game/script.rpy:940
 translate spanish kuroya_cafeteria_40ebfee5:
 
-    # p "{cps=30}{color=#FFFF00}Sento-me junto com Elizabeth.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me siento con Elizabeth.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sento-me junto com Elizabeth.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me siento con Elizabeth.{/color}{/cps}"
 
 # game/script.rpy:941
 translate spanish kuroya_cafeteria_8217f708:
 
-    # p "{cps=30}{color=#FFFF00}Tento ignorar a sensação estranha que ainda está presa no fundo da minha cabeça.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Intento ignorar la extraña sensación que todavía sigue clavada en el fondo de mi cabeza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tento ignorar a sensação estranha que ainda está presa no fundo da minha cabeça.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Intento ignorar la extraña sensación que todavía sigue clavada en el fondo de mi cabeza.{/color}{/cps}"
 
 # game/script.rpy:942
 translate spanish kuroya_cafeteria_337c34cf:
@@ -12237,14 +12237,14 @@ translate spanish kuroya_cafeteria_e9dea848:
 # game/script.rpy:944
 translate spanish kuroya_cafeteria_d4a3aeb1_2:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:945
 translate spanish kuroya_cafeteria_5be09856:
 
-    # p "{cps=30}{color=#FFFF00}Normal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Normal.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Normal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Normal.{/color}{/cps}"
 
 # game/script.rpy:946
 translate spanish kuroya_cafeteria_51571ef4:
@@ -12255,20 +12255,20 @@ translate spanish kuroya_cafeteria_51571ef4:
 # game/script.rpy:947
 translate spanish kuroya_cafeteria_5982605c:
 
-    # p "{cps=30}{color=#FFFF00}Eu já vim aqui algumas vezes durante a minha infância.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya vine aquí algunas veces durante mi infancia.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu já vim aqui algumas vezes durante a minha infância.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya vine aquí algunas veces durante mi infancia.{/color}{/cps}"
 
 # game/script.rpy:948
 translate spanish kuroya_cafeteria_3a256f5d:
 
-    # p "{cps=30}{color=#FFFF00}Não foi o suficiente para conhecer o campus, claro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Claro que no fue suficiente para conocer todo el campus.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não foi o suficiente para conhecer o campus, claro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Claro que no fue suficiente para conocer todo el campus.{/color}{/cps}"
 
 # game/script.rpy:949
 translate spanish kuroya_cafeteria_f31750b2:
 
-    # p "{cps=30}{color=#FFFF00}Mas já foi o bastante para formar uma primeira impressão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero sí lo bastante como para haberme formado una primera impresión.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas já foi o bastante para formar uma primeira impressão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero sí lo bastante como para haberme formado una primera impresión.{/color}{/cps}"
 
 # game/script.rpy:950
 translate spanish kuroya_cafeteria_4943e922:
@@ -12285,14 +12285,14 @@ translate spanish kuroya_cafeteria_a0297570:
 # game/script.rpy:952
 translate spanish kuroya_cafeteria_b369e8e7_1:
 
-    # p "{cps=30}{color=#FFFF00}É.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:953
 translate spanish kuroya_cafeteria_b1ee0a61:
 
-    # p "{cps=30}{color=#FFFF00}Só que parece bem diferente agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo que ahora se ve muy diferente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só que parece bem diferente agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo que ahora se ve muy diferente.{/color}{/cps}"
 
 # game/script.rpy:954
 translate spanish kuroya_cafeteria_622cde13:
@@ -12309,14 +12309,14 @@ translate spanish kuroya_cafeteria_281a0d6d:
 # game/script.rpy:956
 translate spanish kuroya_cafeteria_d7e0eab2:
 
-    # p "{cps=30}{color=#FFFF00}Não.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No.{/color}{/cps}"
 
 # game/script.rpy:957
 translate spanish kuroya_cafeteria_0ca30f8a:
 
-    # p "{cps=30}{color=#FFFF00}Só vim algumas vezes.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo vine un par de veces.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só vim algumas vezes.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo vine un par de veces.{/color}{/cps}"
 
 # game/script.rpy:958
 translate spanish kuroya_cafeteria_15654bf6:
@@ -12327,8 +12327,8 @@ translate spanish kuroya_cafeteria_15654bf6:
 # game/script.rpy:959
 translate spanish kuroya_cafeteria_da871857:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth sorri.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth sonríe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth sorri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth sonríe.{/color}{/cps}"
 
 # game/script.rpy:960
 translate spanish kuroya_cafeteria_68963b85:
@@ -12339,44 +12339,44 @@ translate spanish kuroya_cafeteria_68963b85:
 # game/script.rpy:961
 translate spanish kuroya_cafeteria_5768e4ca:
 
-    # p "{cps=30}{color=#FFFF00}Provavelmente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Probablemente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Provavelmente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Probablemente.{/color}{/cps}"
 
 # game/script.rpy:962
 translate spanish kuroya_cafeteria_3f5f1390:
 
-    # p "{cps=30}{color=#FFFF00}Olho de relance para a mesa onde a garota que passou por mim está sentada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro de reojo hacia la mesa donde está sentada la chica que pasó a mi lado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho de relance para a mesa onde a garota que passou por mim está sentada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro de reojo hacia la mesa donde está sentada la chica que pasó a mi lado.{/color}{/cps}"
 
 # game/script.rpy:963
 translate spanish kuroya_cafeteria_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:964
 translate spanish kuroya_cafeteria_8b2dc38b:
 
-    # p "{cps=30}{color=#FFFF00}Ainda sinto aquela sensação.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía siento esa sensación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ainda sinto aquela sensação.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía siento esa sensación.{/color}{/cps}"
 
 # game/script.rpy:965
 translate spanish kuroya_cafeteria_34efd3c8:
 
-    # p "{cps=30}{color=#FFFF00}Não sei quem ela é.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No sé quién es ella.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não sei quem ela é.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No sé quién es ella.{/color}{/cps}"
 
 # game/script.rpy:966
 translate spanish kuroya_cafeteria_ad6a6cfe:
 
-    # p "{cps=30}{color=#FFFF00}Mas alguma coisa nela...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero hay algo en su interior...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas alguma coisa nela...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero hay algo en su interior...{/color}{/cps}"
 
 # game/script.rpy:967
 translate spanish kuroya_cafeteria_ae2ef83d:
 
-    # p "{cps=30}{color=#FFFF00}Não está certa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Que no está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não está certa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Que no está bien.{/color}{/cps}"
 
 # game/script.rpy:968
 translate spanish kuroya_cafeteria_9d22fb38:
@@ -12387,8 +12387,8 @@ translate spanish kuroya_cafeteria_9d22fb38:
 # game/script.rpy:969
 translate spanish kuroya_cafeteria_8e4af2d6:
 
-    # p "{cps=30}{color=#FFFF00}Hm?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Mmm?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Mmm?{/color}{/cps}"
 
 # game/script.rpy:970
 translate spanish kuroya_cafeteria_21b884cb:
@@ -12411,20 +12411,20 @@ translate spanish kuroya_cafeteria_e7427735:
 # game/script.rpy:973
 translate spanish kuroya_cafeteria_d4a3aeb1_3:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:974
 translate spanish kuroya_cafeteria_c09d15dc:
 
-    # p "{cps=30}{color=#FFFF00}Não é nada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No es nada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não é nada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No es nada.{/color}{/cps}"
 
 # game/script.rpy:975
 translate spanish kuroya_cafeteria_023759fe:
 
-    # p "{cps=30}{color=#FFFF00}Acho que só tô ficando doido.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que me estoy volviendo loco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que só tô ficando doido.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que me estoy volviendo loco.{/color}{/cps}"
 
 # game/script.rpy:976
 translate spanish kuroya_cafeteria_e434360d:
@@ -12441,14 +12441,14 @@ translate spanish kuroya_cafeteria_a3e39cb7:
 # game/script.rpy:978
 translate spanish kuroya_cafeteria_3f0eb817:
 
-    # p "{cps=30}{color=#FFFF00}Suspiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Suspiro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Suspiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Suspiro.{/color}{/cps}"
 
 # game/script.rpy:979
 translate spanish kuroya_cafeteria_42607ac5:
 
-    # p "{cps=30}{color=#FFFF00}A ruiva atrás de você.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La pelirroja detrás de ti.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A ruiva atrás de você.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La pelirroja detrás de ti.{/color}{/cps}"
 
 # game/script.rpy:980
 translate spanish kuroya_cafeteria_ff6b0b4b_1:
@@ -12465,32 +12465,32 @@ translate spanish kuroya_cafeteria_6be48062:
 # game/script.rpy:982
 translate spanish kuroya_cafeteria_848353df:
 
-    # p "{cps=30}{color=#FFFF00}Sinto minhas bochechas corarem levemente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento cómo mis mejillas se ruborizan levemente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sinto minhas bochechas corarem levemente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento cómo mis mejillas se ruborizan levemente.{/color}{/cps}"
 
 # game/script.rpy:983
 translate spanish kuroya_cafeteria_b372ec7f:
 
-    # p "{cps=30}{color=#FFFF00}O quê? Não!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Qué? ¡No!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O quê? Não!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Qué? ¡No!{/color}{/cps}"
 
 # game/script.rpy:984
 translate spanish kuroya_cafeteria_34489e85:
 
-    # p "{cps=30}{color=#FFFF00}Nem vi o rosto dela direito!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ni le vi bien la cara!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Nem vi o rosto dela direito!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ni le vi bien la cara!{/color}{/cps}"
 
 # game/script.rpy:985
 translate spanish kuroya_cafeteria_28e3cd51:
 
-    # p "{cps=30}{color=#FFFF00}É que quando ela passou por trás de mim...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es solo que cuando pasó por detrás de mí...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É que quando ela passou por trás de mim...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es solo que cuando pasó por detrás de mí...{/color}{/cps}"
 
 # game/script.rpy:986
 translate spanish kuroya_cafeteria_15d7ecaf:
 
-    # p "{cps=30}{color=#FFFF00}Me deu uma sensação ruim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me dio un mal presagio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me deu uma sensação ruim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me dio un mal presagio.{/color}{/cps}"
 
 # game/script.rpy:987
 translate spanish kuroya_cafeteria_cb98d621:
@@ -12501,14 +12501,14 @@ translate spanish kuroya_cafeteria_cb98d621:
 # game/script.rpy:988
 translate spanish kuroya_cafeteria_b369e8e7_2:
 
-    # p "{cps=30}{color=#FFFF00}É.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:989
 translate spanish kuroya_cafeteria_f089ec44:
 
-    # p "{cps=30}{color=#FFFF00}Doideira, eu sei.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una locura, lo sé.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Doideira, eu sei.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una locura, lo sé.{/color}{/cps}"
 
 # game/script.rpy:990
 translate spanish kuroya_cafeteria_18033941:
@@ -12519,20 +12519,20 @@ translate spanish kuroya_cafeteria_18033941:
 # game/script.rpy:991
 translate spanish kuroya_cafeteria_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:992
 translate spanish kuroya_cafeteria_6f218412:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth fica em silêncio por alguns segundos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth se queda en silencio por unos segundos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth fica em silêncio por alguns segundos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth se queda en silencio por unos segundos.{/color}{/cps}"
 
 # game/script.rpy:993
 translate spanish kuroya_cafeteria_ac99a4fc:
 
-    # p "{cps=30}{color=#FFFF00}Você está bem?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Estás bien?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você está bem?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Estás bien?{/color}{/cps}"
 
 # game/script.rpy:994
 translate spanish kuroya_cafeteria_0db698cc:
@@ -12543,32 +12543,32 @@ translate spanish kuroya_cafeteria_0db698cc:
 # game/script.rpy:995
 translate spanish kuroya_cafeteria_3c147d59:
 
-    # p "{cps=30}{color=#FFFF00}Ah!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:996
 translate spanish kuroya_cafeteria_6da52d87:
 
-    # p "{cps=30}{color=#FFFF00}Me perdoe!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Perdóname!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Me perdoe!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Perdóname!{/color}{/cps}"
 
 # game/script.rpy:997
 translate spanish kuroya_cafeteria_bf4c4b35:
 
-    # p "{cps=30}{color=#FFFF00}Realmente, que falta de educação a minha...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}De verdad, qué falta de educación la mía...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Realmente, que falta de educação a minha...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}De verdad, qué falta de educación la mía...{/color}{/cps}"
 
 # game/script.rpy:998
 translate spanish kuroya_cafeteria_fecc3a1e:
 
-    # p "{cps=30}{color=#FFFF00}Prometo prestar atenção em você.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Prometo ponerte atención a ti.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Prometo prestar atenção em você.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Prometo ponerte atención a ti.{/color}{/cps}"
 
 # game/script.rpy:999
 translate spanish kuroya_cafeteria_b9319fc1:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth ri.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth se ríe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth ri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth se ríe.{/color}{/cps}"
 
 # game/script.rpy:1000
 translate spanish kuroya_cafeteria_84588174:
@@ -12585,26 +12585,26 @@ translate spanish kuroya_cafeteria_ade8ae8a:
 # game/script.rpy:1002
 translate spanish kuroya_cafeteria_d4a3aeb1_4:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1003
 translate spanish kuroya_cafeteria_63799370:
 
-    # p "{cps=30}{color=#FFFF00}Talvez?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Tal vez?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Tal vez?{/color}{/cps}"
 
 # game/script.rpy:1004
 translate spanish kuroya_cafeteria_24cfcec9:
 
-    # p "{cps=30}{color=#FFFF00}Haha...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Jaja...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Haha...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Jaja...{/color}{/cps}"
 
 # game/script.rpy:1005
 translate spanish kuroya_cafeteria_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1006
 translate spanish kuroya_cafeteria_337c34cf_1:
@@ -12621,20 +12621,20 @@ translate spanish kuroya_cafeteria_3b7dbeff:
 # game/script.rpy:1008
 translate spanish kuroya_cafeteria_d44178b5:
 
-    # p "{cps=30}{color=#FFFF00}Você mexeu nele?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Lo tocaste?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você mexeu nele?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Lo tocaste?{/color}{/cps}"
 
 # game/script.rpy:1009
 translate spanish kuroya_cafeteria_d3a9eff6:
 
-    # p "{cps=30}{color=#FFFF00}Minha expressão muda imediatamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mi expresión cambia de inmediato.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha expressão muda imediatamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mi expresión cambia de inmediato.{/color}{/cps}"
 
 # game/script.rpy:1010
 translate spanish kuroya_cafeteria_7255bb9d:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth percebe.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth se da cuenta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth percebe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth se da cuenta.{/color}{/cps}"
 
 # game/script.rpy:1011
 translate spanish kuroya_cafeteria_352f0145:
@@ -12651,20 +12651,20 @@ translate spanish kuroya_cafeteria_2e17cd45:
 # game/script.rpy:1013
 translate spanish kuroya_cafeteria_83e3e387:
 
-    # p "{cps=30}{color=#FFFF00}A-ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}A-ah...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A-ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A-ah...{/color}{/cps}"
 
 # game/script.rpy:1014
 translate spanish kuroya_cafeteria_e75d2f99:
 
-    # p "{cps=30}{color=#FFFF00}Sim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí.{/color}{/cps}"
 
 # game/script.rpy:1015
 translate spanish kuroya_cafeteria_da43241f:
 
-    # p "{cps=30}{color=#FFFF00}Desculpe.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Disculpa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Desculpe.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Disculpa.{/color}{/cps}"
 
 # game/script.rpy:1016
 translate spanish kuroya_cafeteria_166ba2ba:
@@ -12687,20 +12687,20 @@ translate spanish kuroya_cafeteria_7ab92278:
 # game/script.rpy:1019
 translate spanish kuroya_cafeteria_c2c86045:
 
-    # p "{cps=30}{color=#FFFF00}É um livro que tenho desde pequeno.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es un libro que tengo desde que era pequeño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É um livro que tenho desde pequeno.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es un libro que tengo desde que era pequeño.{/color}{/cps}"
 
 # game/script.rpy:1020
 translate spanish kuroya_cafeteria_d08e632e:
 
-    # p "{cps=30}{color=#FFFF00}Ando com ele apenas por costume.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo llevo conmigo solo por costumbre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ando com ele apenas por costume.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo llevo conmigo solo por costumbre.{/color}{/cps}"
 
 # game/script.rpy:1021
 translate spanish kuroya_cafeteria_22fd3840:
 
-    # p "{cps=30}{color=#FFFF00}É uma herança de família.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es una herencia familiar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É uma herança de família.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es una herencia familiar.{/color}{/cps}"
 
 # game/script.rpy:1022
 translate spanish kuroya_cafeteria_dc2496af:
@@ -12717,8 +12717,8 @@ translate spanish kuroya_cafeteria_0dde9500:
 # game/script.rpy:1024
 translate spanish kuroya_cafeteria_5444aece:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth olha para a mesa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth mira hacia la mesa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth olha para a mesa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth mira hacia la mesa.{/color}{/cps}"
 
 # game/script.rpy:1025
 translate spanish kuroya_cafeteria_4e1df899:
@@ -12741,8 +12741,8 @@ translate spanish kuroya_cafeteria_060f2a87:
 # game/script.rpy:1028
 translate spanish kuroya_cafeteria_601b9f47:
 
-    # p "{cps=30}{color=#FFFF00}Ah, obrigado, mas não quero te dar trabalho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah, gracias, pero no quiero darte molestias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, obrigado, mas não quero te dar trabalho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah, gracias, pero no quiero darte molestias.{/color}{/cps}"
 
 # game/script.rpy:1029
 translate spanish kuroya_cafeteria_96f8c42c:
@@ -12765,14 +12765,14 @@ translate spanish kuroya_cafeteria_216de3dd:
 # game/script.rpy:1032
 translate spanish kuroya_cafeteria_d4a3aeb1_5:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1033
 translate spanish kuroya_cafeteria_0c7c314d:
 
-    # p "{cps=30}{color=#FFFF00}Já que terminamos, podemos ir juntos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya que terminamos, podemos ir juntos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já que terminamos, podemos ir juntos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya que terminamos, podemos ir juntos.{/color}{/cps}"
 
 # game/script.rpy:1034
 translate spanish kuroya_cafeteria_c957f03f:
@@ -12789,14 +12789,14 @@ translate spanish kuroya_cafeteria_dafe3209:
 # game/script.rpy:1036
 translate spanish kuroya_cafeteria_f898cda1:
 
-    # p "{cps=30}{color=#FFFF00}NÃO FOI ISSO QUE EU QUIS DIZER!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡NO QUISE DECIR ESO!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}NÃO FOI ISSO QUE EU QUIS DIZER!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡NO QUISE DECIR ESO!{/color}{/cps}"
 
 # game/script.rpy:1037
 translate spanish kuroya_cafeteria_52d0a329:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth começa a rir da minha cara.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth se empieza a reír en mi cara.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth começa a rir da minha cara.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth se empieza a reír en mi cara.{/color}{/cps}"
 
 # game/script.rpy:1038
 translate spanish kuroya_cafeteria_ef2c6d39:
@@ -12819,152 +12819,152 @@ translate spanish kuroya_cafeteria_342534f1:
 # game/script.rpy:1041
 translate spanish kuroya_cafeteria_df4e6ec4:
 
-    # p "{cps=30}{color=#FFFF00}Até mais...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nos vemos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até mais...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nos vemos.{/color}{/cps}"
 
 # game/script.rpy:1042
 translate spanish kuroya_cafeteria_78dd7464:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth se levanta e vai embora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth se levanta y se va.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth se levanta e vai embora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth se levanta y se va.{/color}{/cps}"
 
 # game/script.rpy:1043
 translate spanish kuroya_cafeteria_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1044
 translate spanish kuroya_cafeteria_62065d92:
 
-    # p "{cps=30}{color=#FFFF00}Ugh.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
 
 # game/script.rpy:1045
 translate spanish kuroya_cafeteria_95e49f2e:
 
-    # p "{cps=30}{color=#FFFF00}Eu sou meio imbecil, hein?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy medio imbécil, ¿eh?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou meio imbecil, hein?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy medio imbécil, ¿eh?{/color}{/cps}"
 
 # game/script.rpy:1046
 translate spanish kuroya_cafeteria_702c6753:
 
-    # p "{cps=30}{color=#FFFF00}Fico alguns segundos olhando para a mesa vazia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me me me me me me quedo unos segundos mirando la mesa vacía.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Fico alguns segundos olhando para a mesa vazia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me me me me me me quedo unos segundos mirando la mesa vacía.{/color}{/cps}"
 
 # game/script.rpy:1047
 translate spanish kuroya_cafeteria_e5f9e704_8:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1048
 translate spanish kuroya_cafeteria_789df914:
 
-    # p "{cps=30}{color=#FFFF00}Mas é melhor eu ir para a casa de banho também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero será mejor que yo también vaya a la casa de baños.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas é melhor eu ir para a casa de banho também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero será mejor que yo también vaya a la casa de baños.{/color}{/cps}"
 
 # game/script.rpy:1049
 translate spanish kuroya_cafeteria_95fd438c:
 
-    # p "{cps=30}{color=#FFFF00}Talvez um banho ajude a tirar essa sensação estranha da cabeça.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez un baño me ayude a quitarme esta extraña sensación de la cabeza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez um banho ajude a tirar essa sensação estranha da cabeça.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez un baño me ayude a quitarme esta extraña sensación de la cabeza.{/color}{/cps}"
 
 # game/script.rpy:1056
 translate spanish kuroya_lanche_8a14d9ee:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou procurar alguma coisinha apenas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que solo voy a buscar algo para comer...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou procurar alguma coisinha apenas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que solo voy a buscar algo para comer...{/color}{/cps}"
 
 # game/script.rpy:1057
 translate spanish kuroya_lanche_f6305d30:
 
-    # p "{cps=30}{color=#FFFF00}Talvez uma barra de chocolate.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez una barra de chocolate.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez uma barra de chocolate.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez una barra de chocolate.{/color}{/cps}"
 
 # game/script.rpy:1058
 translate spanish kuroya_lanche_7785aca2:
 
-    # p "{cps=30}{color=#FFFF00}Não estou com tanta fome.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo tanta hambre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não estou com tanta fome.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo tanta hambre.{/color}{/cps}"
 
 # game/script.rpy:1059
 translate spanish kuroya_lanche_13f172d9:
 
-    # p "{cps=30}{color=#FFFF00}É mais para reabastecer as energias.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es más que nada para recuperar un poco de energía.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É mais para reabastecer as energias.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es más que nada para recuperar un poco de energía.{/color}{/cps}"
 
 # game/script.rpy:1060
 translate spanish kuroya_lanche_30ec30ec:
 
-    # p "{cps=30}{color=#FFFF00}Começo a andar pelos corredores, seguindo em direção à praça de alimentação.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a caminar por los pasillos, dirigiéndome hacia el patio de comidas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a andar pelos corredores, seguindo em direção à praça de alimentação.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a caminar por los pasillos, dirigiéndome hacia el patio de comidas.{/color}{/cps}"
 
 # game/script.rpy:1061
 translate spanish kuroya_lanche_71fe7a5e:
 
-    # p "{cps=30}{color=#FFFF00}Quando encontro uma daquelas máquinas de venda automática.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hasta que encuentro una de esas máquinas expendedoras.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quando encontro uma daquelas máquinas de venda automática.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hasta que encuentro una de esas máquinas expendedoras.{/color}{/cps}"
 
 # game/script.rpy:1062
 translate spanish kuroya_lanche_229c742d:
 
-    # p "{cps=30}{color=#FFFF00}Humm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Humm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm...{/color}{/cps}"
 
 # game/script.rpy:1063
 translate spanish kuroya_lanche_0c6714c8:
 
-    # p "{cps=30}{color=#FFFF00}Interessante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Interesante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Interessante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Interesante.{/color}{/cps}"
 
 # game/script.rpy:1064
 translate spanish kuroya_lanche_928fa0b1:
 
-    # p "{cps=30}{color=#FFFF00}Era exatamente o que eu estava procurando!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Era justo lo que estaba buscando!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Era exatamente o que eu estava procurando!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Era justo lo que estaba buscando!{/color}{/cps}"
 
 # game/script.rpy:1065
 translate spanish kuroya_lanche_ad63d1af:
 
-    # p "{cps=30}{color=#FFFF00}Vou pegar uma barrinha de cereal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Voy a comprar una barrita de cereal.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou pegar uma barrinha de cereal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Voy a comprar una barrita de cereal.{/color}{/cps}"
 
 # game/script.rpy:1066
 translate spanish kuroya_lanche_6818602e:
 
-    # p "{cps=30}{color=#FFFF00}É doce, recarrega as energias e ainda é saudável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es dulce, me da energía y, además, es saludable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É doce, recarrega as energias e ainda é saudável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es dulce, me da energía y, además, es saludable.{/color}{/cps}"
 
 # game/script.rpy:1067
 translate spanish kuroya_lanche_a4aedc6c:
 
-    # p "{cps=30}{color=#FFFF00}Perfeito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Perfecto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Perfeito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Perfecto.{/color}{/cps}"
 
 # game/script.rpy:1068
 translate spanish kuroya_lanche_5c78dd90:
 
-    # p "{cps=30}{color=#FFFF00}Escolho a barrinha na máquina e passo meu cartão.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Selecciono la barrita en la máquina y paso mi tarjeta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Escolho a barrinha na máquina e passo meu cartão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Selecciono la barrita en la máquina y paso mi tarjeta.{/color}{/cps}"
 
 # game/script.rpy:1069
 translate spanish kuroya_lanche_b980c870:
 
-    # p "{cps=30}{color=#FFFF00}A máquina faz um barulho e, alguns segundos depois, a barrinha cai.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La máquina hace un ruido y, unos segundos después, la barrita cae.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A máquina faz um barulho e, alguns segundos depois, a barrinha cai.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La máquina hace un ruido y, unos segundos después, la barrita cae.{/color}{/cps}"
 
 # game/script.rpy:1070
 translate spanish kuroya_lanche_86e5af02:
 
-    # p "{cps=30}{color=#FFFF00}Pego-a e começo a abrir a embalagem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La recojo y empiezo a abrir el envoltorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pego-a e começo a abrir a embalagem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La recojo y empiezo a abrir el envoltorio.{/color}{/cps}"
 
 # game/script.rpy:1071
 translate spanish kuroya_lanche_4299f50f:
 
-    # p "{cps=30}{color=#FFFF00}E, antes mesmo de dar a primeira mordida...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y, antes siquiera de darle el primer mordisco...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E, antes mesmo de dar a primeira mordida...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y, antes siquiera de darle el primer mordisco...{/color}{/cps}"
 
 # game/script.rpy:1072
 translate spanish kuroya_lanche_f0c10998:
@@ -12987,38 +12987,38 @@ translate spanish kuroya_lanche_900fbeac:
 # game/script.rpy:1075
 translate spanish kuroya_lanche_122916ea:
 
-    # p "{cps=30}{color=#FFFF00}Olho para a garota.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro a la chica.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para a garota.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro a la chica.{/color}{/cps}"
 
 # game/script.rpy:1076
 translate spanish kuroya_lanche_1d2d44b0:
 
-    # p "{cps=30}{color=#FFFF00}Ela parece genuinamente indignada com o desaparecimento da última barrinha de cereal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece genuinamente indignada por la desaparición de la última barrita de cereal.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela parece genuinamente indignada com o desaparecimento da última barrinha de cereal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece genuinamente indignada por la desaparición de la última barrita de cereal.{/color}{/cps}"
 
 # game/script.rpy:1077
 translate spanish kuroya_lanche_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1078
 translate spanish kuroya_lanche_e505d353:
 
-    # p "{cps=30}{color=#FFFF00}Você pode ficar com a minha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Puedes quedarte con la mía.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você pode ficar com a minha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Puedes quedarte con la mía.{/color}{/cps}"
 
 # game/script.rpy:1079
 translate spanish kuroya_lanche_fa8d5964:
 
-    # p "{cps=30}{color=#FFFF00}Eu ainda não mordi.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía no le he dado ningún mordisco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu ainda não mordi.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía no le he dado ningún mordisco.{/color}{/cps}"
 
 # game/script.rpy:1080
 translate spanish kuroya_lanche_54fdd1a5:
 
-    # p "{cps=30}{color=#FFFF00}Posso comer outra coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Puedo comer otra cosa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Posso comer outra coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Puedo comer otra cosa.{/color}{/cps}"
 
 # game/script.rpy:1081
 translate spanish kuroya_lanche_8d46586c:
@@ -13035,8 +13035,8 @@ translate spanish kuroya_lanche_83edc565:
 # game/script.rpy:1083
 translate spanish kuroya_lanche_de8fd4d7:
 
-    # p "{cps=30}{color=#FFFF00}A garota loira pega a barrinha das minhas mãos antes mesmo que eu possa mudar de ideia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La chica rubia toma la barrita de mis manos antes de que siquiera pueda arrepentirme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A garota loira pega a barrinha das minhas mãos antes mesmo que eu possa mudar de ideia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La chica rubia toma la barrita de mis manos antes de que siquiera pueda arrepentirme.{/color}{/cps}"
 
 # game/script.rpy:1084
 translate spanish kuroya_lanche_feaa725e:
@@ -13053,8 +13053,8 @@ translate spanish kuroya_lanche_965ed765:
 # game/script.rpy:1086
 translate spanish kuroya_lanche_f41cd248:
 
-    # p "{cps=30}{color=#FFFF00}Meu nome é Kuroya.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me llamo Kuroya.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu nome é Kuroya.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me llamo Kuroya.{/color}{/cps}"
 
 # game/script.rpy:1087
 translate spanish kuroya_lanche_dfe6d94b:
@@ -13071,20 +13071,20 @@ translate spanish kuroya_lanche_f23111af:
 # game/script.rpy:1089
 translate spanish kuroya_lanche_f0f1dbdc:
 
-    # p "{cps=30}{color=#FFFF00}Lauane?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Lauane?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lauane?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Lauane?{/color}{/cps}"
 
 # game/script.rpy:1090
 translate spanish kuroya_lanche_55526297:
 
-    # p "{cps=30}{color=#FFFF00}Que nome diferente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué nombre tan curioso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que nome diferente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué nombre tan curioso.{/color}{/cps}"
 
 # game/script.rpy:1091
 translate spanish kuroya_lanche_529e6c1e:
 
-    # p "{cps=30}{color=#FFFF00}É muito bonito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es muy bonito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É muito bonito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es muy bonito.{/color}{/cps}"
 
 # game/script.rpy:1092
 translate spanish kuroya_lanche_c8e35d6b:
@@ -13101,8 +13101,8 @@ translate spanish kuroya_lanche_73bef12a:
 # game/script.rpy:1094
 translate spanish kuroya_lanche_848353df:
 
-    # p "{cps=30}{color=#FFFF00}Sinto minhas bochechas corarem levemente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Siento cómo mis mejillas se ruborizan levemente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sinto minhas bochechas corarem levemente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Siento cómo mis mejillas se ruborizan levemente.{/color}{/cps}"
 
 # game/script.rpy:1095
 translate spanish kuroya_lanche_4c707877:
@@ -13119,8 +13119,8 @@ translate spanish kuroya_lanche_b779c0ff:
 # game/script.rpy:1097
 translate spanish kuroya_lanche_b40d2c33:
 
-    # p "{cps=30}{color=#FFFF00}Sou da turma 1A.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy del 1A.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sou da turma 1A.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy del 1A.{/color}{/cps}"
 
 # game/script.rpy:1098
 translate spanish kuroya_lanche_c8e35d6b_1:
@@ -13137,44 +13137,44 @@ translate spanish kuroya_lanche_01dd17d3:
 # game/script.rpy:1100
 translate spanish kuroya_lanche_4e3d98f1:
 
-    # p "{cps=30}{color=#FFFF00}É...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:1101
 translate spanish kuroya_lanche_76e4bb6f:
 
-    # p "{cps=30}{color=#FFFF00}Muita coincidência.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué coincidencia.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muita coincidência.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué coincidencia.{/color}{/cps}"
 
 # game/script.rpy:1102
 translate spanish kuroya_lanche_71ad653f:
 
-    # p "{cps=30}{color=#FFFF00}Observo o uniforme dela.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Observo su uniforme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Observo o uniforme dela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Observo su uniforme.{/color}{/cps}"
 
 # game/script.rpy:1103
 translate spanish kuroya_lanche_c238c491:
 
-    # p "{cps=30}{color=#FFFF00}É diferente do meu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es diferente al mío.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É diferente do meu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es diferente al mío.{/color}{/cps}"
 
 # game/script.rpy:1104
 translate spanish kuroya_lanche_33e462a3:
 
-    # p "{cps=30}{color=#FFFF00}Mais chamativo também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y también mucho más llamativo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mais chamativo também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y también mucho más llamativo.{/color}{/cps}"
 
 # game/script.rpy:1105
 translate spanish kuroya_lanche_8d33732f:
 
-    # p "{cps=30}{color=#FFFF00}Mas por que seu uniforme é tão diferente?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero ¿por qué tu uniforme es tan diferente?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas por que seu uniforme é tão diferente?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero ¿por qué tu uniforme es tan diferente?{/color}{/cps}"
 
 # game/script.rpy:1106
 translate spanish kuroya_lanche_fccfd050:
 
-    # p "{cps=30}{color=#FFFF00}Eu estava pensando que você fosse de alguma turma especial.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pensé que eras de alguna clase especial.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu estava pensando que você fosse de alguma turma especial.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pensé que eras de alguna clase especial.{/color}{/cps}"
 
 # game/script.rpy:1107
 translate spanish kuroya_lanche_2a549f8d:
@@ -13191,8 +13191,8 @@ translate spanish kuroya_lanche_72a97b57:
 # game/script.rpy:1109
 translate spanish kuroya_lanche_07cd49f2:
 
-    # p "{cps=30}{color=#FFFF00}Ela ajeita a própria roupa, claramente satisfeita.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se acomoda la ropa, claramente satisfecha.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela ajeita a própria roupa, claramente satisfeita.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se acomoda la ropa, claramente satisfecha.{/color}{/cps}"
 
 # game/script.rpy:1110
 translate spanish kuroya_lanche_511c12ac:
@@ -13209,14 +13209,14 @@ translate spanish kuroya_lanche_3800cf63:
 # game/script.rpy:1112
 translate spanish kuroya_lanche_077acd18:
 
-    # p "{cps=30}{color=#FFFF00}Que legal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Qué bien!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que legal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Qué bien!{/color}{/cps}"
 
 # game/script.rpy:1113
 translate spanish kuroya_lanche_9d73d26e:
 
-    # p "{cps=30}{color=#FFFF00}Mas como eu não fiquei sabendo disso?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero ¿cómo es que nunca había escuchado de eso?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas como eu não fiquei sabendo disso?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero ¿cómo es que nunca había escuchado de eso?{/color}{/cps}"
 
 # game/script.rpy:1114
 translate spanish kuroya_lanche_b898a865:
@@ -13233,14 +13233,14 @@ translate spanish kuroya_lanche_2d133eff:
 # game/script.rpy:1116
 translate spanish kuroya_lanche_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1117
 translate spanish kuroya_lanche_9db8b918:
 
-    # p "{cps=30}{color=#FFFF00}Como você sabe que eu sou da programação?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Cómo sabes que soy de programación?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Como você sabe que eu sou da programação?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Cómo sabes que soy de programación?{/color}{/cps}"
 
 # game/script.rpy:1118
 translate spanish kuroya_lanche_d680b13e:
@@ -13257,20 +13257,20 @@ translate spanish kuroya_lanche_be254708:
 # game/script.rpy:1120
 translate spanish kuroya_lanche_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1121
 translate spanish kuroya_lanche_7eb831a4:
 
-    # p "{cps=30}{color=#FFFF00}Não sei por quê, mas não acredito muito nessa resposta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No sé por qué, pero no me convence mucho esa respuesta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não sei por quê, mas não acredito muito nessa resposta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No sé por qué, pero no me convence mucho esa respuesta.{/color}{/cps}"
 
 # game/script.rpy:1122
 translate spanish kuroya_lanche_bc85258d:
 
-    # p "{cps=30}{color=#FFFF00}Lauane olha para o relógio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lauane mira el reloj.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Lauane olha para o relógio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lauane mira el reloj.{/color}{/cps}"
 
 # game/script.rpy:1123
 translate spanish kuroya_lanche_9e9b1655:
@@ -13293,14 +13293,14 @@ translate spanish kuroya_lanche_b0df1d00:
 # game/script.rpy:1126
 translate spanish kuroya_lanche_7519174d:
 
-    # p "{cps=30}{color=#FFFF00}Casa de banho?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Al baño?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Casa de banho?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Al baño?{/color}{/cps}"
 
 # game/script.rpy:1127
 translate spanish kuroya_lanche_297dafe0:
 
-    # p "{cps=30}{color=#FFFF00}Mas ainda faltam uns dez minutos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero todavía faltan como diez minutos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas ainda faltam uns dez minutos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero todavía faltan como diez minutos.{/color}{/cps}"
 
 # game/script.rpy:1128
 translate spanish kuroya_lanche_caa91ea9:
@@ -13323,8 +13323,8 @@ translate spanish kuroya_lanche_3883f227:
 # game/script.rpy:1131
 translate spanish kuroya_lanche_f9912f02:
 
-    # p "{cps=30}{color=#FFFF00}Ela começa a se afastar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empieza a alejarse.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela começa a se afastar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empieza a alejarse.{/color}{/cps}"
 
 # game/script.rpy:1132
 translate spanish kuroya_lanche_d3a40170:
@@ -13341,248 +13341,248 @@ translate spanish kuroya_lanche_1e6ec815:
 # game/script.rpy:1134
 translate spanish kuroya_lanche_891015c6:
 
-    # p "{cps=30}{color=#FFFF00}Até...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hasta...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hasta...{/color}{/cps}"
 
 # game/script.rpy:1135
 translate spanish kuroya_lanche_dedaa6f3:
 
-    # p "{cps=30}{color=#FFFF00}Observo ela desaparecer pelo corredor.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Observo cómo desaparece por el pasillo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Observo ela desaparecer pelo corredor.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Observo cómo desaparece por el pasillo.{/color}{/cps}"
 
 # game/script.rpy:1136
 translate spanish kuroya_lanche_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1137
 translate spanish kuroya_lanche_74fe59f8:
 
-    # p "{cps=30}{color=#FFFF00}Que garota doida.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué chica tan loca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que garota doida.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué chica tan loca.{/color}{/cps}"
 
 # game/script.rpy:1138
 translate spanish kuroya_lanche_286e3e22:
 
-    # p "{cps=30}{color=#FFFF00}Ela é legal até...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aunque es buena onda...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela é legal até...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aunque es buena onda...{/color}{/cps}"
 
 # game/script.rpy:1139
 translate spanish kuroya_lanche_43a67468:
 
-    # p "{cps=30}{color=#FFFF00}Mas bem doida.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero sí, está bien loca.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas bem doida.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero sí, está bien loca.{/color}{/cps}"
 
 # game/script.rpy:1140
 translate spanish kuroya_lanche_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1141
 translate spanish kuroya_lanche_5988b0ef:
 
-    # p "{cps=30}{color=#FFFF00}Ah, é mesmo!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Ah, cierto!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, é mesmo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Ah, cierto!{/color}{/cps}"
 
 # game/script.rpy:1142
 translate spanish kuroya_lanche_5159694e:
 
-    # p "{cps=30}{color=#FFFF00}Eu nem comi ainda.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Todavía ni siquiera he comido.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu nem comi ainda.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Todavía ni siquiera he comido.{/color}{/cps}"
 
 # game/script.rpy:1143
 translate spanish kuroya_lanche_b6933d09:
 
-    # p "{cps=30}{color=#FFFF00}Olho para a máquina.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miro la máquina.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olho para a máquina.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miro la máquina.{/color}{/cps}"
 
 # game/script.rpy:1144
 translate spanish kuroya_lanche_be81f343:
 
-    # p "{cps=30}{color=#FFFF00}Escolho outra coisa e como rapidamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elijo otra cosa y me la como rápidamente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Escolho outra coisa e como rapidamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elijo otra cosa y me la como rápidamente.{/color}{/cps}"
 
 # game/script.rpy:1145
 translate spanish kuroya_lanche_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1146
 translate spanish kuroya_lanche_0632ebf3:
 
-    # p "{cps=30}{color=#FFFF00}Agora sim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora sim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora sí.{/color}{/cps}"
 
 # game/script.rpy:1147
 translate spanish kuroya_lanche_d918cc37:
 
-    # p "{cps=30}{color=#FFFF00}Estou alimentado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya estoy satisfecho.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou alimentado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya estoy satisfecho.{/color}{/cps}"
 
 # game/script.rpy:1148
 translate spanish kuroya_lanche_ab13a630:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou me adiantar no banho também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que también debería adelantarme con lo del baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou me adiantar no banho também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que también debería adelantarme con lo del baño.{/color}{/cps}"
 
 # game/script.rpy:1149
 translate spanish kuroya_lanche_90b47951:
 
-    # p "{cps=30}{color=#FFFF00}Melhor eu ir agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Será mejor que vaya ahora.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor eu ir agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Será mejor que vaya ahora.{/color}{/cps}"
 
 # game/script.rpy:1157
 translate spanish kuroya_restaurante_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1158
 translate spanish kuroya_restaurante_90d856af:
 
-    # p "{cps=30}{color=#FFFF00}Estou morrendo de fome.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me muero de hambre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou morrendo de fome.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me muero de hambre.{/color}{/cps}"
 
 # game/script.rpy:1159
 translate spanish kuroya_restaurante_cccac0d3:
 
-    # p "{cps=30}{color=#FFFF00}Quero comer comida.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quiero comer algo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quero comer comida.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quiero comer algo.{/color}{/cps}"
 
 # game/script.rpy:1160
 translate spanish kuroya_restaurante_08793865:
 
-    # p "{cps=30}{color=#FFFF00}Não é exatamente horário de almoço nem de jantar...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No es exactamente hora de almorzar ni de cenar...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não é exatamente horário de almoço nem de jantar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No es exactamente hora de almorzar ni de cenar...{/color}{/cps}"
 
 # game/script.rpy:1161
 translate spanish kuroya_restaurante_b8f987b5:
 
-    # p "{cps=30}{color=#FFFF00}Mas existe livre-arbítrio por um motivo, né?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero el libre albedrío existe por algo, ¿no?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas existe livre-arbítrio por um motivo, né?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero el libre albedrío existe por algo, ¿no?{/color}{/cps}"
 
 # game/script.rpy:1162
 translate spanish kuroya_restaurante_dbb9c423:
 
-    # p "{cps=30}{color=#FFFF00}Beleza.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Beleza.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno.{/color}{/cps}"
 
 # game/script.rpy:1163
 translate spanish kuroya_restaurante_57430010:
 
-    # p "{cps=30}{color=#FFFF00}Vou comer alguma coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Voy a comer algo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou comer alguma coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Voy a comer algo.{/color}{/cps}"
 
 # game/script.rpy:1164
 translate spanish kuroya_restaurante_5aa6fa49:
 
-    # p "{cps=30}{color=#FFFF00}Ando até a praça de alimentação, procurando por algum restaurante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Camino hasta el patio de comidas, buscando algún restaurante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ando até a praça de alimentação, procurando por algum restaurante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Camino hasta el patio de comidas, buscando algún restaurante.{/color}{/cps}"
 
 # game/script.rpy:1165
 translate spanish kuroya_restaurante_4ac0b3ed:
 
-    # p "{cps=30}{color=#FFFF00}Hmm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mmm.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hmm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mmm.{/color}{/cps}"
 
 # game/script.rpy:1166
 translate spanish kuroya_restaurante_f33c9cff:
 
-    # p "{cps=30}{color=#FFFF00}Due Sapori?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Due Sapori?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Due Sapori?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Due Sapori?{/color}{/cps}"
 
 # game/script.rpy:1167
 translate spanish kuroya_restaurante_1542ab97:
 
-    # p "{cps=30}{color=#FFFF00}Parece interessante...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece interesante...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece interessante...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece interesante...{/color}{/cps}"
 
 # game/script.rpy:1168
 translate spanish kuroya_restaurante_1350b7fb:
 
-    # p "{cps=30}{color=#FFFF00}Assim que entro, o ar muda completamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}En cuanto entro, el ambiente cambia por completo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Assim que entro, o ar muda completamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}En cuanto entro, el ambiente cambia por completo.{/color}{/cps}"
 
 # game/script.rpy:1169
 translate spanish kuroya_restaurante_075860ff:
 
-    # p "{cps=30}{color=#FFFF00}O lugar é bonito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El lugar es bonito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O lugar é bonito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El lugar es bonito.{/color}{/cps}"
 
 # game/script.rpy:1170
 translate spanish kuroya_restaurante_1384f60c:
 
-    # p "{cps=30}{color=#FFFF00}Chique.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elegante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Chique.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elegante.{/color}{/cps}"
 
 # game/script.rpy:1171
 translate spanish kuroya_restaurante_e5283232:
 
-    # p "{cps=30}{color=#FFFF00}A música é calma e não chama mais atenção do que o barulho ambiente, mas ainda marca presença.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La música es tranquila y no sobresale más que el ruido del ambiente, pero sigue teniendo presencia.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A música é calma e não chama mais atenção do que o barulho ambiente, mas ainda marca presença.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La música es tranquila y no sobresale más que el ruido del ambiente, pero sigue teniendo presencia.{/color}{/cps}"
 
 # game/script.rpy:1172
 translate spanish kuroya_restaurante_986fee61:
 
-    # p "{cps=30}{color=#FFFF00}Que lindo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué bonito...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que lindo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué bonito...{/color}{/cps}"
 
 # game/script.rpy:1173
 translate spanish kuroya_restaurante_ef3e6a0d:
 
-    # p "{cps=30}{color=#FFFF00}Bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:1174
 translate spanish kuroya_restaurante_59551ae5:
 
-    # p "{cps=30}{color=#FFFF00}Vou montar meu prato antes que eu desmaie de fome.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Será mejor que me sirva antes de desmayarme del hambre.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou montar meu prato antes que eu desmaie de fome.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Será mejor que me sirva antes de desmayarme del hambre.{/color}{/cps}"
 
 # game/script.rpy:1175
 translate spanish kuroya_restaurante_bbdda6a6:
 
-    # p "{cps=30}{color=#FFFF00}Começo a montar meu prato, colocando bastante comida.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a servirme, poniendo bastante comida en el plato.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a montar meu prato, colocando bastante comida.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a servirme, poniendo bastante comida en el plato.{/color}{/cps}"
 
 # game/script.rpy:1176
 translate spanish kuroya_restaurante_bd8d7a6f:
 
-    # p "{cps=30}{color=#FFFF00}Pago e procuro algum lugar para sentar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pago y busco un lugar donde sentarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pago e procuro algum lugar para sentar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pago y busco un lugar donde sentarme.{/color}{/cps}"
 
 # game/script.rpy:1177
 translate spanish kuroya_restaurante_011239f4:
 
-    # p "{cps=30}{color=#FFFF00}Enquanto procuro uma mesa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mientras busco una mesa...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enquanto procuro uma mesa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mientras busco una mesa...{/color}{/cps}"
 
 # game/script.rpy:1178
 translate spanish kuroya_restaurante_21fcedc2:
 
-    # p "{cps=30}{color=#FFFF00}Reconheço alguém.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Reconozco a alguien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Reconheço alguém.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Reconozco a alguien.{/color}{/cps}"
 
 # game/script.rpy:1179
 translate spanish kuroya_restaurante_a58e6063:
 
-    # p "{cps=30}{color=#FFFF00}E...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y...{/color}{/cps}"
 
 # game/script.rpy:1180
 translate spanish kuroya_restaurante_4376f378:
 
-    # p "{cps=30}{color=#FFFF00}Parece que ele me reconhece também.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que él también me reconoce.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece que ele me reconhece também.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que él también me reconoce.{/color}{/cps}"
 
 # game/script.rpy:1181
 translate spanish kuroya_restaurante_3ce001dd:
 
-    # p "{cps=30}{color=#FFFF00}Esse não é o garoto que estava me encarando na biblioteca?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿No es el chico que me estaba mirando en la biblioteca?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Esse não é o garoto que estava me encarando na biblioteca?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿No es el chico que me estaba mirando en la biblioteca?{/color}{/cps}"
 
 # game/script.rpy:1182
 translate spanish kuroya_restaurante_f8d82537:
@@ -13593,8 +13593,8 @@ translate spanish kuroya_restaurante_f8d82537:
 # game/script.rpy:1183
 translate spanish kuroya_restaurante_68c164ba:
 
-    # p "{cps=30}{color=#FFFF00}Eu não furei fila...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Yo no me salté la fila...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não furei fila...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yo no me salté la fila...{/color}{/cps}"
 
 # game/script.rpy:1184
 translate spanish kuroya_restaurante_2f71d071:
@@ -13611,8 +13611,8 @@ translate spanish kuroya_restaurante_d6b7b81f:
 # game/script.rpy:1186
 translate spanish kuroya_restaurante_dfd190d4:
 
-    # p "{cps=30}{color=#FFFF00}Ela sabe quem eu sou...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ella sabe quién soy...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ela sabe quem eu sou...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ella sabe quién soy...{/color}{/cps}"
 
 # game/script.rpy:1187
 translate spanish kuroya_restaurante_0f06b10e:
@@ -13623,32 +13623,32 @@ translate spanish kuroya_restaurante_0f06b10e:
 # game/script.rpy:1188
 translate spanish kuroya_restaurante_af9f63a0:
 
-    # p "{cps=30}{color=#FFFF00}É possível sentir a tensão entre nós dois.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se puede sentir la tensión entre nosotros.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É possível sentir a tensão entre nós dois.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se puede sentir la tensión entre nosotros.{/color}{/cps}"
 
 # game/script.rpy:1189
 translate spanish kuroya_restaurante_c929e1a4:
 
-    # p "{cps=30}{color=#FFFF00}Eu me sinto desconfortável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me siento incómodo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu me sinto desconfortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me siento incómodo.{/color}{/cps}"
 
 # game/script.rpy:1190
 translate spanish kuroya_restaurante_73887924:
 
-    # p "{cps=30}{color=#FFFF00}E ele parece enfurecido.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y él parece furioso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E ele parece enfurecido.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y él parece furioso.{/color}{/cps}"
 
 # game/script.rpy:1191
 translate spanish kuroya_restaurante_f6e19a49:
 
-    # p "{cps=30}{color=#FFFF00}Poxa...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Rayos...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Poxa...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Rayos...{/color}{/cps}"
 
 # game/script.rpy:1192
 translate spanish kuroya_restaurante_ab156436:
 
-    # p "{cps=30}{color=#FFFF00}Era só uma fila.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo era una fila.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Era só uma fila.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo era una fila.{/color}{/cps}"
 
 # game/script.rpy:1193
 translate spanish kuroya_restaurante_8f405437:
@@ -13659,26 +13659,26 @@ translate spanish kuroya_restaurante_8f405437:
 # game/script.rpy:1194
 translate spanish kuroya_restaurante_b6af4b28:
 
-    # p "{cps=30}{color=#FFFF00}Ah, sim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah, sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, sim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah, sí.{/color}{/cps}"
 
 # game/script.rpy:1195
 translate spanish kuroya_restaurante_e8c47c66:
 
-    # p "{cps=30}{color=#FFFF00}Sou Kuroya. E você?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Soy Kuroya. ¿Y tú?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sou Kuroya. E você?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Soy Kuroya. ¿Y tú?{/color}{/cps}"
 
 # game/script.rpy:1196
 translate spanish kuroya_restaurante_81f04a7a:
 
-    # p "{cps=30}{color=#FFFF00}Tento forçar simpatia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Intento forzar una sonrisa.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tento forçar simpatia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Intento forzar una sonrisa.{/color}{/cps}"
 
 # game/script.rpy:1197
 translate spanish kuroya_restaurante_1c966388:
 
-    # p "{cps=30}{color=#FFFF00}É melhor do que causar mais problemas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Es mejor que causar más problemas...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É melhor do que causar mais problemas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Es mejor que causar más problemas...{/color}{/cps}"
 
 # game/script.rpy:1198
 translate spanish kuroya_restaurante_5ba2880e:
@@ -13707,14 +13707,14 @@ translate spanish kuroya_restaurante_454c2fde:
 # game/script.rpy:1202
 translate spanish kuroya_restaurante_1a78ad01:
 
-    # p "{cps=30}{color=#FFFF00}Eu...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Yo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yo...{/color}{/cps}"
 
 # game/script.rpy:1203
 translate spanish kuroya_restaurante_a7dbbda3:
 
-    # p "{cps=30}{color=#FFFF00}Entrei por recomendação.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entré por recomendación.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Entrei por recomendação.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entré por recomendación.{/color}{/cps}"
 
 # game/script.rpy:1204
 translate spanish kuroya_restaurante_ff52e5f0:
@@ -13737,8 +13737,8 @@ translate spanish kuroya_restaurante_685d11c3:
 # game/script.rpy:1207
 translate spanish kuroya_restaurante_a5587918:
 
-    # p "{cps=30}{color=#FFFF00}Eu não diria isso...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Yo no diría eso...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não diria isso...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yo no diría eso...{/color}{/cps}"
 
 # game/script.rpy:1208
 translate spanish kuroya_restaurante_77d5a9bf:
@@ -13755,20 +13755,20 @@ translate spanish kuroya_restaurante_b73172bd:
 # game/script.rpy:1210
 translate spanish kuroya_restaurante_067cc7fd:
 
-    # p "{cps=30}{color=#FFFF00}Fecho a cara.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Frunzo el ceño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Fecho a cara.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Frunzo el ceño.{/color}{/cps}"
 
 # game/script.rpy:1211
 translate spanish kuroya_restaurante_0f7bd9f2:
 
-    # p "{cps=30}{color=#FFFF00}Quem ele pensa que é?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿¡Quién se cree que es?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Quem ele pensa que é?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿¡Quién se cree que es?!{/color}{/cps}"
 
 # game/script.rpy:1212
 translate spanish kuroya_restaurante_1d09e37c:
 
-    # p "{cps=30}{color=#FFFF00}Sento-me na mesma mesa que ele.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me siento en la misma mesa que él.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sento-me na mesma mesa que ele.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me siento en la misma mesa que él.{/color}{/cps}"
 
 # game/script.rpy:1213
 translate spanish kuroya_restaurante_79897c46:
@@ -13779,8 +13779,8 @@ translate spanish kuroya_restaurante_79897c46:
 # game/script.rpy:1214
 translate spanish kuroya_restaurante_9d134457:
 
-    # p "{cps=30}{color=#FFFF00}Tenho sim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sí, los tengo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tenho sim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sí, los tengo.{/color}{/cps}"
 
 # game/script.rpy:1215
 translate spanish kuroya_restaurante_37268af5:
@@ -13791,8 +13791,8 @@ translate spanish kuroya_restaurante_37268af5:
 # game/script.rpy:1216
 translate spanish kuroya_restaurante_53cf9969:
 
-    # p "{cps=30}{color=#FFFF00}Se você me odeia sem motivo, pode deixar que eu vou te dar um motivo bom para isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Si me odias sin motivo, puedo darte uno bueno para hacerlo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Se você me odeia sem motivo, pode deixar que eu vou te dar um motivo bom para isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Si me odias sin motivo, puedo darte uno bueno para hacerlo.{/color}{/cps}"
 
 # game/script.rpy:1217
 translate spanish kuroya_restaurante_099ace61:
@@ -13809,44 +13809,44 @@ translate spanish kuroya_restaurante_ea64c2de:
 # game/script.rpy:1219
 translate spanish kuroya_restaurante_37579212:
 
-    # p "{cps=30}{color=#FFFF00}Por mais que ele esteja me confrontando...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Aunque me está provocando...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por mais que ele esteja me confrontando...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aunque me está provocando...{/color}{/cps}"
 
 # game/script.rpy:1220
 translate spanish kuroya_restaurante_aef187ca:
 
-    # p "{cps=30}{color=#FFFF00}E demonstrando raiva na voz...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y su voz deja bastante claro que está molesto...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E demonstrando raiva na voz...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y su voz deja bastante claro que está molesto...{/color}{/cps}"
 
 # game/script.rpy:1221
 translate spanish kuroya_restaurante_eb3bfe48:
 
-    # p "{cps=30}{color=#FFFF00}Sua expressão o entrega.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Su expresión lo delata.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Sua expressão o entrega.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Su expresión lo delata.{/color}{/cps}"
 
 # game/script.rpy:1222
 translate spanish kuroya_restaurante_4aac5dd3:
 
-    # p "{cps=30}{color=#FFFF00}Ele está se divertindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Se está divirtiendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele está se divertindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Se está divirtiendo.{/color}{/cps}"
 
 # game/script.rpy:1223
 translate spanish kuroya_restaurante_19647408:
 
-    # p "{cps=30}{color=#FFFF00}Ele parece ser alguém que gosta de causar problemas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece ser de esos que disfrutan buscando problemas.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele parece ser alguém que gosta de causar problemas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece ser de esos que disfrutan buscando problemas.{/color}{/cps}"
 
 # game/script.rpy:1224
 translate spanish kuroya_restaurante_4a887832:
 
-    # p "{cps=30}{color=#FFFF00}Mas e você?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Y tú?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas e você?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Y tú?{/color}{/cps}"
 
 # game/script.rpy:1225
 translate spanish kuroya_restaurante_7f8bed8f:
 
-    # p "{cps=30}{color=#FFFF00}Tirou quanto na prova de admissão?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Cuánto sacaste en el examen de admisión?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tirou quanto na prova de admissão?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Cuánto sacaste en el examen de admisión?{/color}{/cps}"
 
 # game/script.rpy:1226
 translate spanish kuroya_restaurante_e0cda83a:
@@ -13857,14 +13857,14 @@ translate spanish kuroya_restaurante_e0cda83a:
 # game/script.rpy:1227
 translate spanish kuroya_restaurante_7204712c:
 
-    # p "{cps=30}{color=#FFFF00}Uau...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Guau...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Guau...{/color}{/cps}"
 
 # game/script.rpy:1228
 translate spanish kuroya_restaurante_1886fcfd:
 
-    # p "{cps=30}{color=#FFFF00}Realmente, você também não é qualquer aluno.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Definitivamente tú tampoco eres cualquier estudiante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Realmente, você também não é qualquer aluno.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Definitivamente tú tampoco eres cualquier estudiante.{/color}{/cps}"
 
 # game/script.rpy:1229
 translate spanish kuroya_restaurante_ba6378e9:
@@ -13881,26 +13881,26 @@ translate spanish kuroya_restaurante_2e681182:
 # game/script.rpy:1231
 translate spanish kuroya_restaurante_6ad8174a:
 
-    # p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1232
 translate spanish kuroya_restaurante_c4fa95bd:
 
-    # p "{cps=30}{color=#FFFF00}Ele não vai esquecer isso?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿¡No va a dejarlo pasar?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele não vai esquecer isso?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿¡No va a dejarlo pasar?!{/color}{/cps}"
 
 # game/script.rpy:1233
 translate spanish kuroya_restaurante_2782e684:
 
-    # p "{cps=30}{color=#FFFF00}Garoto chato...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué chico tan molesto...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Garoto chato...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué chico tan molesto...{/color}{/cps}"
 
 # game/script.rpy:1234
 translate spanish kuroya_restaurante_f5f0cd45:
 
-    # p "{cps=30}{color=#FFFF00}Você é implicante, hein?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Eres bastante fastidioso, ¿no?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você é implicante, hein?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Eres bastante fastidioso, ¿no?{/color}{/cps}"
 
 # game/script.rpy:1235
 translate spanish kuroya_restaurante_949c804b:
@@ -13911,8 +13911,8 @@ translate spanish kuroya_restaurante_949c804b:
 # game/script.rpy:1236
 translate spanish kuroya_restaurante_09f1909b:
 
-    # p "{cps=30}{color=#FFFF00}Isso foi uma ameaça?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Eso fue una amenaza?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso foi uma ameaça?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Eso fue una amenaza?{/color}{/cps}"
 
 # game/script.rpy:1237
 translate spanish kuroya_restaurante_5ea73eb2:
@@ -13923,8 +13923,8 @@ translate spanish kuroya_restaurante_5ea73eb2:
 # game/script.rpy:1238
 translate spanish kuroya_restaurante_7057b183:
 
-    # p "{cps=30}{color=#FFFF00}Que dramático.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué dramático.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que dramático.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué dramático.{/color}{/cps}"
 
 # game/script.rpy:1239
 translate spanish kuroya_restaurante_27ea264e:
@@ -13935,20 +13935,20 @@ translate spanish kuroya_restaurante_27ea264e:
 # game/script.rpy:1240
 translate spanish kuroya_restaurante_30390b41:
 
-    # p "{cps=30}{color=#FFFF00}Engraçado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué gracioso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Engraçado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué gracioso.{/color}{/cps}"
 
 # game/script.rpy:1241
 translate spanish kuroya_restaurante_480b8e26:
 
-    # p "{cps=30}{color=#FFFF00}Eu ia dizer a mesma coisa de você.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Justo iba a decir lo mismo de ti.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu ia dizer a mesma coisa de você.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Justo iba a decir lo mismo de ti.{/color}{/cps}"
 
 # game/script.rpy:1242
 translate spanish kuroya_restaurante_ca20c5cc:
 
-    # p "{cps=30}{color=#FFFF00}Arlyson solta uma risada curta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Arlyson suelta una breve carcajada.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Arlyson solta uma risada curta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Arlyson suelta una breve carcajada.{/color}{/cps}"
 
 # game/script.rpy:1243
 translate spanish kuroya_restaurante_a7b5fdc1:
@@ -13959,8 +13959,8 @@ translate spanish kuroya_restaurante_a7b5fdc1:
 # game/script.rpy:1244
 translate spanish kuroya_restaurante_27afebe0:
 
-    # p "{cps=30}{color=#FFFF00}Isso foi um elogio?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Eso fue un cumplido?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Isso foi um elogio?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Eso fue un cumplido?{/color}{/cps}"
 
 # game/script.rpy:1245
 translate spanish kuroya_restaurante_b6d6d940:
@@ -13971,38 +13971,38 @@ translate spanish kuroya_restaurante_b6d6d940:
 # game/script.rpy:1246
 translate spanish kuroya_restaurante_c6d02164:
 
-    # p "{cps=30}{color=#FFFF00}Continuo comendo enquanto observo o garoto à minha frente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sigo comiendo mientras observo al chico frente a mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Continuo comendo enquanto observo o garoto à minha frente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sigo comiendo mientras observo al chico frente a mí.{/color}{/cps}"
 
 # game/script.rpy:1247
 translate spanish kuroya_restaurante_b91f6add:
 
-    # p "{cps=30}{color=#FFFF00}Ele parece estar muito mais tranquilo agora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ahora parece mucho más tranquilo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele parece estar muito mais tranquilo agora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ahora parece mucho más tranquilo.{/color}{/cps}"
 
 # game/script.rpy:1248
 translate spanish kuroya_restaurante_2be590b5:
 
-    # p "{cps=30}{color=#FFFF00}Toda aquela raiva de antes desapareceu.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Toda la rabia de antes desapareció.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Toda aquela raiva de antes desapareceu.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Toda la rabia de antes desapareció.{/color}{/cps}"
 
 # game/script.rpy:1249
 translate spanish kuroya_restaurante_14aedc87:
 
-    # p "{cps=30}{color=#FFFF00}Na verdade...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}De hecho...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Na verdade...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}De hecho...{/color}{/cps}"
 
 # game/script.rpy:1250
 translate spanish kuroya_restaurante_4a3aa996:
 
-    # p "{cps=30}{color=#FFFF00}Parece até que ele está se divertindo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hasta parece que se está divirtiendo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parece até que ele está se divertindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hasta parece que se está divirtiendo.{/color}{/cps}"
 
 # game/script.rpy:1251
 translate spanish kuroya_restaurante_8dc4db32:
 
-    # p "{cps=30}{color=#FFFF00}Você sempre implica com alunos novos?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Siempre te metes con los alumnos nuevos?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você sempre implica com alunos novos?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Siempre te metes con los alumnos nuevos?{/color}{/cps}"
 
 # game/script.rpy:1252
 translate spanish kuroya_restaurante_9753988e:
@@ -14013,8 +14013,8 @@ translate spanish kuroya_restaurante_9753988e:
 # game/script.rpy:1253
 translate spanish kuroya_restaurante_4eee30d5:
 
-    # p "{cps=30}{color=#FFFF00}E eu mereço?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Y yo me lo merezco?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E eu mereço?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Y yo me lo merezco?{/color}{/cps}"
 
 # game/script.rpy:1254
 translate spanish kuroya_restaurante_7623ef55:
@@ -14025,8 +14025,8 @@ translate spanish kuroya_restaurante_7623ef55:
 # game/script.rpy:1255
 translate spanish kuroya_restaurante_54f89741:
 
-    # p "{cps=30}{color=#FFFF00}Então vou ter que me esforçar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces tendré que esforzarme.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Então vou ter que me esforçar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces tendré que esforzarme.{/color}{/cps}"
 
 # game/script.rpy:1256
 translate spanish kuroya_restaurante_cfefae88:
@@ -14037,20 +14037,20 @@ translate spanish kuroya_restaurante_cfefae88:
 # game/script.rpy:1257
 translate spanish kuroya_restaurante_4f71ace2:
 
-    # p "{cps=30}{color=#FFFF00}Ótimo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Genial.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ótimo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Genial.{/color}{/cps}"
 
 # game/script.rpy:1258
 translate spanish kuroya_restaurante_cfe5e50c:
 
-    # p "{cps=30}{color=#FFFF00}Gosto de desafios.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me gustan los desafíos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Gosto de desafios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me gustan los desafíos.{/color}{/cps}"
 
 # game/script.rpy:1259
 translate spanish kuroya_restaurante_450b08f1:
 
-    # p "{cps=30}{color=#FFFF00}Arlyson ergue uma sobrancelha.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Arlyson levanta una ceja.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Arlyson ergue uma sobrancelha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Arlyson levanta una ceja.{/color}{/cps}"
 
 # game/script.rpy:1260
 translate spanish kuroya_restaurante_1fddbb07:
@@ -14061,8 +14061,8 @@ translate spanish kuroya_restaurante_1fddbb07:
 # game/script.rpy:1261
 translate spanish kuroya_restaurante_df49d4b2:
 
-    # p "{cps=30}{color=#FFFF00}Não quando alguém começa uma discussão comigo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No cuando alguien empieza una discusión conmigo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não quando alguém começa uma discussão comigo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No cuando alguien empieza una discusión conmigo.{/color}{/cps}"
 
 # game/script.rpy:1262
 translate spanish kuroya_restaurante_5b98a29f:
@@ -14079,8 +14079,8 @@ translate spanish kuroya_restaurante_8aaf1623:
 # game/script.rpy:1264
 translate spanish kuroya_restaurante_407616f4:
 
-    # p "{cps=30}{color=#FFFF00}Não acho que \"se dar bem\" seja exatamente o que está acontecendo aqui.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No creo que \"llevarnos bien\" sea exactamente lo que está pasando aquí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não acho que \"se dar bem\" seja exatamente o que está acontecendo aqui.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No creo que \"llevarnos bien\" sea exactamente lo que está pasando aquí.{/color}{/cps}"
 
 # game/script.rpy:1265
 translate spanish kuroya_restaurante_a76bb938:
@@ -14091,44 +14091,44 @@ translate spanish kuroya_restaurante_a76bb938:
 # game/script.rpy:1266
 translate spanish kuroya_restaurante_2e75c997:
 
-    # p "{cps=30}{color=#FFFF00}Ele dá outra risada.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Vuelve a reírse.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele dá outra risada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Vuelve a reírse.{/color}{/cps}"
 
 # game/script.rpy:1267
 translate spanish kuroya_restaurante_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1268
 translate spanish kuroya_restaurante_18ed5bc5:
 
-    # p "{cps=30}{color=#FFFF00}Que sujeito estranho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué tipo tan extraño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que sujeito estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué tipo tan extraño.{/color}{/cps}"
 
 # game/script.rpy:1269
 translate spanish kuroya_restaurante_2b334836:
 
-    # p "{cps=30}{color=#FFFF00}Cinco minutos atrás parecia que ele queria arrancar minha cabeça.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hace cinco minutos parecía que quería arrancarme la cabeza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Cinco minutos atrás parecia que ele queria arrancar minha cabeça.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hace cinco minutos parecía que quería arrancarme la cabeza.{/color}{/cps}"
 
 # game/script.rpy:1270
 translate spanish kuroya_restaurante_f7f74dba:
 
-    # p "{cps=30}{color=#FFFF00}Agora está praticamente se divertindo comigo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y ahora prácticamente se está divirtiendo conmigo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Agora está praticamente se divertindo comigo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y ahora prácticamente se está divirtiendo conmigo.{/color}{/cps}"
 
 # game/script.rpy:1271
 translate spanish kuroya_restaurante_6d5ef003:
 
-    # p "{cps=30}{color=#FFFF00}Talvez ele só goste de provocar as pessoas.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez simplemente le gusta provocar a la gente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez ele só goste de provocar as pessoas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez simplemente le gusta provocar a la gente.{/color}{/cps}"
 
 # game/script.rpy:1272
 translate spanish kuroya_restaurante_d8340234:
 
-    # p "{cps=30}{color=#FFFF00}Arlyson termina sua refeição e se levanta.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Arlyson termina su comida y se levanta.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Arlyson termina sua refeição e se levanta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Arlyson termina su comida y se levanta.{/color}{/cps}"
 
 # game/script.rpy:1273
 translate spanish kuroya_restaurante_7de43849:
@@ -14145,8 +14145,8 @@ translate spanish kuroya_restaurante_19e6e232:
 # game/script.rpy:1275
 translate spanish kuroya_restaurante_3e0863ab:
 
-    # p "{cps=30}{color=#FFFF00}Digo o mesmo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Lo mismo digo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Digo o mesmo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lo mismo digo.{/color}{/cps}"
 
 # game/script.rpy:1276
 translate spanish kuroya_restaurante_9a1d2bd0:
@@ -14157,8 +14157,8 @@ translate spanish kuroya_restaurante_9a1d2bd0:
 # game/script.rpy:1277
 translate spanish kuroya_restaurante_089cb1a4:
 
-    # p "{cps=30}{color=#FFFF00}E eu espero que você não fale da fila da biblioteca todos os dias.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y yo espero que no hables de lo de la fila de la biblioteca todos los días.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E eu espero que você não fale da fila da biblioteca todos os dias.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y yo espero que no hables de lo de la fila de la biblioteca todos los días.{/color}{/cps}"
 
 # game/script.rpy:1278
 translate spanish kuroya_restaurante_7f075a12:
@@ -14169,8 +14169,8 @@ translate spanish kuroya_restaurante_7f075a12:
 # game/script.rpy:1279
 translate spanish kuroya_restaurante_10256697:
 
-    # p "{cps=30}{color=#FFFF00}Ele começa a se afastar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empieza a alejarse.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele começa a se afastar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empieza a alejarse.{/color}{/cps}"
 
 # game/script.rpy:1280
 translate spanish kuroya_restaurante_e45c7a68:
@@ -14181,20 +14181,20 @@ translate spanish kuroya_restaurante_e45c7a68:
 # game/script.rpy:1281
 translate spanish kuroya_restaurante_5d03a9fd:
 
-    # p "{cps=30}{color=#FFFF00}Até mais, garoto da fila.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hasta luego, chico de la fila.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até mais, garoto da fila.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hasta luego, chico de la fila.{/color}{/cps}"
 
 # game/script.rpy:1282
 translate spanish kuroya_restaurante_b7394684:
 
-    # p "{cps=30}{color=#FFFF00}Arlyson para por um instante.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Arlyson se detiene por un instante.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Arlyson para por um instante.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Arlyson se detiene por un instante.{/color}{/cps}"
 
 # game/script.rpy:1283
 translate spanish kuroya_restaurante_a63bf752:
 
-    # p "{cps=30}{color=#FFFF00}Olha para trás.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mira hacia atrás.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Olha para trás.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mira hacia atrás.{/color}{/cps}"
 
 # game/script.rpy:1284
 translate spanish kuroya_restaurante_37268af5_1:
@@ -14211,158 +14211,158 @@ translate spanish kuroya_restaurante_a2f8c5bd:
 # game/script.rpy:1286
 translate spanish kuroya_restaurante_d6955e8d:
 
-    # p "{cps=30}{color=#FFFF00}Obrigado.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Gracias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Obrigado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Gracias.{/color}{/cps}"
 
 # game/script.rpy:1287
 translate spanish kuroya_restaurante_3057cea2:
 
-    # p "{cps=30}{color=#FFFF00}Arlyson revira os olhos e continua andando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Arlyson pone los ojos en blanco y sigue caminando.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Arlyson revira os olhos e continua andando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Arlyson pone los ojos en blanco y sigue caminando.{/color}{/cps}"
 
 # game/script.rpy:1288
 translate spanish kuroya_restaurante_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1289
 translate spanish kuroya_restaurante_cb85ad9d:
 
-    # p "{cps=30}{color=#FFFF00}Definitivamente um sujeito estranho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Definitivamente es un tipo extraño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Definitivamente um sujeito estranho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Definitivamente es un tipo extraño.{/color}{/cps}"
 
 # game/script.rpy:1290
 translate spanish kuroya_restaurante_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:1291
 translate spanish kuroya_restaurante_4fc53e63:
 
-    # p "{cps=30}{color=#FFFF00}Não foi uma conversa tão ruim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No fue una conversación tan mala.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não foi uma conversa tão ruim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No fue una conversación tan mala.{/color}{/cps}"
 
 # game/script.rpy:1292
 translate spanish kuroya_restaurante_f9890287:
 
-    # p "{cps=30}{color=#FFFF00}Talvez eu tenha sido um pouco precipitado em julgá-lo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez me apresuré un poco al juzgarlo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez eu tenha sido um pouco precipitado em julgá-lo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez me apresuré un poco al juzgarlo.{/color}{/cps}"
 
 # game/script.rpy:1293
 translate spanish kuroya_restaurante_b90dd730:
 
-    # p "{cps=30}{color=#FFFF00}Ou talvez ele realmente seja insuportável.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}O tal vez sí es un completo imbécil.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ou talvez ele realmente seja insuportável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}O tal vez sí es un completo imbécil.{/color}{/cps}"
 
 # game/script.rpy:1294
 translate spanish kuroya_restaurante_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1295
 translate spanish kuroya_restaurante_ef3e6a0d_1:
 
-    # p "{cps=30}{color=#FFFF00}Bem.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Bueno...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Bueno...{/color}{/cps}"
 
 # game/script.rpy:1296
 translate spanish kuroya_restaurante_3f22a219:
 
-    # p "{cps=30}{color=#FFFF00}Pelo menos agora eu tenho alguém para evitar nos próximos dias.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Al menos ahora tengo a alguien a quien evitar durante los próximos días.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Pelo menos agora eu tenho alguém para evitar nos próximos dias.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Al menos ahora tengo a alguien a quien evitar durante los próximos días.{/color}{/cps}"
 
 # game/script.rpy:1297
 translate spanish kuroya_restaurante_3efc5b4e:
 
-    # p "{cps=30}{color=#FFFF00}Já terminei de comer…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya terminé de comer...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já terminei de comer…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya terminé de comer...{/color}{/cps}"
 
 # game/script.rpy:1298
 translate spanish kuroya_restaurante_35c55103:
 
-    # p "{cps=30}{color=#FFFF00}Acho que vou pra casa de banho logo me limpar{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Creo que iré al baño a limpiarme un poco.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Acho que vou pra casa de banho logo me limpar{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Creo que iré al baño a limpiarme un poco.{/color}{/cps}"
 
 # game/script.rpy:1299
 translate spanish kuroya_restaurante_76dcbfed:
 
-    # p "{cps=30}{color=#FFFF00}Só espero não encontrar com essa peste lá…{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo espero no encontrarme con ese idiota ahí…{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só espero não encontrar com essa peste lá…{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo espero no encontrarme con ese idiota ahí…{/color}{/cps}"
 
 # game/script.rpy:1306
 translate spanish kuroya_refeitorio_d4a3aeb1:
 
-    # p "{cps=30}{color=#FFFF00}Ah...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
 
 # game/script.rpy:1307
 translate spanish kuroya_refeitorio_e3d52f2d:
 
-    # p "{cps=30}{color=#FFFF00}Vou para o refeitório.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Voy al comedor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou para o refeitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Voy al comedor.{/color}{/cps}"
 
 # game/script.rpy:1308
 translate spanish kuroya_refeitorio_dad35516:
 
-    # p "{cps=30}{color=#FFFF00}Não estou a fim de gastar dinheiro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No tengo ganas de gastar dinero.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não estou a fim de gastar dinheiro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No tengo ganas de gastar dinero.{/color}{/cps}"
 
 # game/script.rpy:1309
 translate spanish kuroya_refeitorio_e3014b1e:
 
-    # p "{cps=30}{color=#FFFF00}Também quero descobrir se a comida da escola é realmente boa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Además, quiero descubrir si la comida de la escuela realmente es buena.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Também quero descobrir se a comida da escola é realmente boa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Además, quiero descubrir si la comida de la escuela realmente es buena.{/color}{/cps}"
 
 # game/script.rpy:1310
 translate spanish kuroya_refeitorio_f81bf96e:
 
-    # p "{cps=30}{color=#FFFF00}Começo a caminhar em direção ao refeitório.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Empiezo a caminar hacia el comedor.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Começo a caminhar em direção ao refeitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Empiezo a caminar hacia el comedor.{/color}{/cps}"
 
 # game/script.rpy:1311
 translate spanish kuroya_refeitorio_95c10d57:
 
-    # p "{cps=30}{color=#FFFF00}No meio do caminho, porém, me deparo com um dos funcionários da secretaria.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sin embargo, a mitad de camino, me encuentro con uno de los empleados de la administración.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}No meio do caminho, porém, me deparo com um dos funcionários da secretaria.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sin embargo, a mitad de camino, me encuentro con uno de los empleados de la administración.{/color}{/cps}"
 
 # game/script.rpy:1312
 translate spanish kuroya_refeitorio_8c58eea2:
 
-    # p "{cps=30}{color=#FFFF00}Ele parece estar voltando para lá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece que está regresando hacia allá.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele parece estar voltando para lá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece que está regresando hacia allá.{/color}{/cps}"
 
 # game/script.rpy:1313
 translate spanish kuroya_refeitorio_c5daf2bf:
 
-    # p "{cps=30}{color=#FFFF00}É a minha chance!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Esta es mi oportunidad!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}É a minha chance!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Esta es mi oportunidad!{/color}{/cps}"
 
 # game/script.rpy:1314
 translate spanish kuroya_refeitorio_8ee6927f:
 
-    # p "{cps=30}{color=#FFFF00}Devo contar sobre os doidos que estavam tentando entrar na escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Debería contarle sobre los locos que estaban intentando entrar a la escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Devo contar sobre os doidos que estavam tentando entrar na escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Debería contarle sobre los locos que estaban intentando entrar a la escuela.{/color}{/cps}"
 
 # game/script.rpy:1315
 translate spanish kuroya_refeitorio_d405c3b5:
 
-    # p "{cps=30}{color=#FFFF00}Aproximo-me dele.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me acerco a él.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Aproximo-me dele.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me acerco a él.{/color}{/cps}"
 
 # game/script.rpy:1316
 translate spanish kuroya_refeitorio_11bb5fb8:
 
-    # p "{cps=30}{color=#FFFF00}Oi, com licença.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hola, disculpe.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Oi, com licença.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hola, disculpe.{/color}{/cps}"
 
 # game/script.rpy:1317
 translate spanish kuroya_refeitorio_caa7f87e:
 
-    # p "{cps=30}{color=#FFFF00}Eu queria fazer uma denúncia...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Quería hacer una denuncia...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu queria fazer uma denúncia...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Quería hacer una denuncia...{/color}{/cps}"
 
 # game/script.rpy:1318
 translate spanish kuroya_refeitorio_2856e366:
@@ -14385,26 +14385,26 @@ translate spanish kuroya_refeitorio_6777e5ab:
 # game/script.rpy:1321
 translate spanish kuroya_refeitorio_954dec69:
 
-    # p "{cps=30}{color=#FFFF00}Hoje mais cedo eu vi dois adolescentes, aparentemente da nossa idade, e...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hoy más temprano vi a dos adolescentes, aparentemente de nuestra edad, y...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hoje mais cedo eu vi dois adolescentes, aparentemente da nossa idade, e...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hoy más temprano vi a dos adolescentes, aparentemente de nuestra edad, y...{/color}{/cps}"
 
 # game/script.rpy:1322
 translate spanish kuroya_refeitorio_16892049:
 
-    # p "{cps=30}{color=#FFFF00}Eles pareciam estar tentando invadir a escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parecía que estaban intentando entrar a la escuela a la fuerza.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eles pareciam estar tentando invadir a escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parecía que estaban intentando entrar a la escuela a la fuerza.{/color}{/cps}"
 
 # game/script.rpy:1323
 translate spanish kuroya_refeitorio_a215e0fe:
 
-    # p "{cps=30}{color=#FFFF00}Eu não consegui ouvir a conversa deles completamente, mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No pude escuchar toda su conversación, pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não consegui ouvir a conversa deles completamente, mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No pude escuchar toda su conversación, pero...{/color}{/cps}"
 
 # game/script.rpy:1324
 translate spanish kuroya_refeitorio_023dd62e:
 
-    # p "{cps=30}{color=#FFFF00}Coisa boa não era.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No estaban tramando nada bueno.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Coisa boa não era.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No estaban tramando nada bueno.{/color}{/cps}"
 
 # game/script.rpy:1325
 translate spanish kuroya_refeitorio_e4e84420:
@@ -14433,38 +14433,38 @@ translate spanish kuroya_refeitorio_ecbef63c:
 # game/script.rpy:1329
 translate spanish kuroya_refeitorio_20e37279:
 
-    # p "{cps=30}{color=#FFFF00}Mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero...{/color}{/cps}"
 
 # game/script.rpy:1330
 translate spanish kuroya_refeitorio_0b27e35c:
 
-    # p "{cps=30}{color=#FFFF00}Não sei.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No sé.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não sei.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No sé.{/color}{/cps}"
 
 # game/script.rpy:1331
 translate spanish kuroya_refeitorio_3ba8b3f6:
 
-    # p "{cps=30}{color=#FFFF00}Eles pareciam estranhos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parecían extraños.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eles pareciam estranhos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parecían extraños.{/color}{/cps}"
 
 # game/script.rpy:1332
 translate spanish kuroya_refeitorio_04e26879:
 
-    # p "{cps=30}{color=#FFFF00}E estavam falando sobre usar alguma coisa.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y estaban hablando de usar algo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E estavam falando sobre usar alguma coisa.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y estaban hablando de usar algo.{/color}{/cps}"
 
 # game/script.rpy:1333
 translate spanish kuroya_refeitorio_d55d575b:
 
-    # p "{cps=30}{color=#FFFF00}Parecia sério.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parecía algo serio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Parecia sério.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parecía algo serio.{/color}{/cps}"
 
 # game/script.rpy:1334
 translate spanish kuroya_refeitorio_efb73f8e:
 
-    # p "{cps=30}{color=#FFFF00}Até uma arma secreta, talvez?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Tal vez hasta un arma secreta?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até uma arma secreta, talvez?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Tal vez hasta un arma secreta?{/color}{/cps}"
 
 # game/script.rpy:1335
 translate spanish kuroya_refeitorio_29f12c03:
@@ -14487,74 +14487,74 @@ translate spanish kuroya_refeitorio_1ec3cd64:
 # game/script.rpy:1338
 translate spanish kuroya_refeitorio_0922bed8:
 
-    # p "{cps=30}{color=#FFFF00}O funcionário começa a andar novamente, me ignorando completamente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El empleado vuelve a caminar, ignorándome por completo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O funcionário começa a andar novamente, me ignorando completamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El empleado vuelve a caminar, ignorándome por completo.{/color}{/cps}"
 
 # game/script.rpy:1339
 translate spanish kuroya_refeitorio_108c480b:
 
-    # p "{cps=30}{color=#FFFF00}M-mas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}P-pero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}M-mas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}P-pero...{/color}{/cps}"
 
 # game/script.rpy:1340
 translate spanish kuroya_refeitorio_3cce815d:
 
-    # p "{cps=30}{color=#FFFF00}A porta da secretaria se fecha na minha cara.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}La puerta de la administración se cierra en mi cara.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}A porta da secretaria se fecha na minha cara.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}La puerta de la administración se cierra en mi cara.{/color}{/cps}"
 
 # game/script.rpy:1341
 translate spanish kuroya_refeitorio_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1342
 translate spanish kuroya_refeitorio_113085b8:
 
-    # p "{cps=30}{color=#FFFF00}Tsk.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tsk.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tsk.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tsk.{/color}{/cps}"
 
 # game/script.rpy:1343
 translate spanish kuroya_refeitorio_7de333d6:
 
-    # p "{cps=30}{color=#FFFF00}Maldito.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Maldito.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Maldito.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Maldito.{/color}{/cps}"
 
 # game/script.rpy:1344
 translate spanish kuroya_refeitorio_fac89def:
 
-    # p "{cps=30}{color=#FFFF00}Tomara que aqueles dois invadam mesmo e roubem tudo de valor dessa escola.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ojalá esos dos sí entren y roben todo lo de valor de esta escuela.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tomara que aqueles dois invadam mesmo e roubem tudo de valor dessa escola.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ojalá esos dos sí entren y roben todo lo de valor de esta escuela.{/color}{/cps}"
 
 # game/script.rpy:1345
 translate spanish kuroya_refeitorio_a680e53d:
 
-    # p "{cps=30}{color=#FFFF00}Só para aprenderem a escutar os outros...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Solo para que aprendan a escuchar a los demás...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Só para aprenderem a escutar os outros...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Solo para que aprendan a escuchar a los demás...{/color}{/cps}"
 
 # game/script.rpy:1346
 translate spanish kuroya_refeitorio_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1347
 translate spanish kuroya_refeitorio_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1348
 translate spanish kuroya_refeitorio_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1349
 translate spanish kuroya_refeitorio_a6cb27d9:
 
-    # p "{cps=30}{color=#FFFF00}AAAH!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡¡¡AAAAH!!!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}AAAH!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡¡¡AAAAH!!!{/color}{/cps}"
 
 # game/script.rpy:1350
 translate spanish kuroya_refeitorio_afa35309:
@@ -14565,20 +14565,20 @@ translate spanish kuroya_refeitorio_afa35309:
 # game/script.rpy:1351
 translate spanish kuroya_refeitorio_e7da6c96:
 
-    # p "{cps=30}{color=#FFFF00}QUEM É VOCÊ?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡¿QUIÉN ERES TÚ?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}QUEM É VOCÊ?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡¿QUIÉN ERES TÚ?!{/color}{/cps}"
 
 # game/script.rpy:1352
 translate spanish kuroya_refeitorio_7828409e:
 
-    # p "{cps=30}{color=#FFFF00}VOCÊ ME ASSUSTOU!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡ME ASUSTASTE!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}VOCÊ ME ASSUSTOU!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡ME ASUSTASTE!{/color}{/cps}"
 
 # game/script.rpy:1353
 translate spanish kuroya_refeitorio_1ffd7362:
 
-    # p "{cps=30}{color=#FFFF00}HÁ QUANTO TEMPO VOCÊ ESTÁ AQUI?!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡¿CUÁNTO TIEMPO LLEVAS AQUÍ?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}HÁ QUANTO TEMPO VOCÊ ESTÁ AQUI?!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡¿CUÁNTO TIEMPO LLEVAS AQUÍ?!{/color}{/cps}"
 
 # game/script.rpy:1354
 translate spanish kuroya_refeitorio_0f555f4f:
@@ -14613,14 +14613,14 @@ translate spanish kuroya_refeitorio_a9213501:
 # game/script.rpy:1359
 translate spanish kuroya_refeitorio_86cdb133:
 
-    # p "{cps=30}{color=#FFFF00}Hm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Mmm?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Mmm?{/color}{/cps}"
 
 # game/script.rpy:1360
 translate spanish kuroya_refeitorio_c48b28f8:
 
-    # p "{cps=30}{color=#FFFF00}Você deve me achar doido igual aquele funcionário.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Seguro piensas que estoy loco, igual que ese empleado.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você deve me achar doido igual aquele funcionário.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Seguro piensas que estoy loco, igual que ese empleado.{/color}{/cps}"
 
 # game/script.rpy:1361
 translate spanish kuroya_refeitorio_2e0ebbee:
@@ -14643,20 +14643,20 @@ translate spanish kuroya_refeitorio_180cfca2:
 # game/script.rpy:1364
 translate spanish kuroya_refeitorio_d29e272f:
 
-    # p "{cps=30}{color=#FFFF00}Ele parece estar sendo sincero...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Parece estar siendo sincero...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ele parece estar sendo sincero...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Parece estar siendo sincero...{/color}{/cps}"
 
 # game/script.rpy:1365
 translate spanish kuroya_refeitorio_79111667:
 
-    # p "{cps=30}{color=#FFFF00}Mas tenho medo de ele estar apenas zombando da minha cara.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero me preocupa que solo se esté burlando de mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas tenho medo de ele estar apenas zombando da minha cara.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero me preocupa que solo se esté burlando de mí.{/color}{/cps}"
 
 # game/script.rpy:1366
 translate spanish kuroya_refeitorio_c57b2c91:
 
-    # p "{cps=30}{color=#FFFF00}Mesmo?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡¿En serio?!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mesmo?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡¿En serio?!{/color}{/cps}"
 
 # game/script.rpy:1367
 translate spanish kuroya_refeitorio_7babdcfb:
@@ -14673,20 +14673,20 @@ translate spanish kuroya_refeitorio_8d5e0db2:
 # game/script.rpy:1369
 translate spanish kuroya_refeitorio_86cdb133_1:
 
-    # p "{cps=30}{color=#FFFF00}Hm...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Mmm?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Hm...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Mmm?{/color}{/cps}"
 
 # game/script.rpy:1370
 translate spanish kuroya_refeitorio_eae13ef7:
 
-    # p "{cps=30}{color=#FFFF00}Tá.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Está bien.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Está bien.{/color}{/cps}"
 
 # game/script.rpy:1371
 translate spanish kuroya_refeitorio_b17c5e4c:
 
-    # p "{cps=30}{color=#FFFF00}E então, conto tudo detalhadamente para Miguel.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Entonces le cuento todo a Miguel con lujo de detalle.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E então, conto tudo detalhadamente para Miguel.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Entonces le cuento todo a Miguel con lujo de detalle.{/color}{/cps}"
 
 # game/script.rpy:1372
 translate spanish kuroya_refeitorio_8117c7d9:
@@ -14721,14 +14721,14 @@ translate spanish kuroya_refeitorio_e413eb30:
 # game/script.rpy:1377
 translate spanish kuroya_refeitorio_97e4f5b2:
 
-    # p "{cps=30}{color=#FFFF00}Exatamente!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Exactamente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Exatamente!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Exactamente.{/color}{/cps}"
 
 # game/script.rpy:1378
 translate spanish kuroya_refeitorio_d7dd3d0f:
 
-    # p "{cps=30}{color=#FFFF00}Por isso achei tão estranho...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Por eso me pareció tan extraño...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Por isso achei tão estranho...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Por eso me pareció tan extraño...{/color}{/cps}"
 
 # game/script.rpy:1379
 translate spanish kuroya_refeitorio_95b998e1:
@@ -14757,8 +14757,8 @@ translate spanish kuroya_refeitorio_04779021:
 # game/script.rpy:1383
 translate spanish kuroya_refeitorio_f4ac99c1:
 
-    # p "{cps=30}{color=#FFFF00}Você jura?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Lo prometes?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você jura?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Lo prometes?{/color}{/cps}"
 
 # game/script.rpy:1384
 translate spanish kuroya_refeitorio_7babdcfb_1:
@@ -14775,8 +14775,8 @@ translate spanish kuroya_refeitorio_304dbba6:
 # game/script.rpy:1386
 translate spanish kuroya_refeitorio_524301a8:
 
-    # p "{cps=30}{color=#FFFF00}Muito obrigado!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Muchas gracias.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Muito obrigado!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Muchas gracias.{/color}{/cps}"
 
 # game/script.rpy:1387
 translate spanish kuroya_refeitorio_67b0af33:
@@ -14805,14 +14805,14 @@ translate spanish kuroya_refeitorio_6a635648:
 # game/script.rpy:1391
 translate spanish kuroya_refeitorio_a2f035d0:
 
-    # p "{cps=30}{color=#FFFF00}Ah, sim!{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ah, sí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ah, sim!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah, sí.{/color}{/cps}"
 
 # game/script.rpy:1392
 translate spanish kuroya_refeitorio_081d3036:
 
-    # p "{cps=30}{color=#FFFF00}Até mais.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Nos vemos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Até mais.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nos vemos.{/color}{/cps}"
 
 # game/script.rpy:1393
 translate spanish kuroya_refeitorio_4cf2a67e:
@@ -14829,254 +14829,254 @@ translate spanish kuroya_refeitorio_b9f78e41:
 # game/script.rpy:1395
 translate spanish kuroya_refeitorio_0e3892da:
 
-    # p "{cps=30}{color=#FFFF00}Vou em direção à casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me dirijo hacia el baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou em direção à casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me dirijo hacia el baño.{/color}{/cps}"
 
 # game/script.rpy:1396
 translate spanish kuroya_refeitorio_b40c717e:
 
-    # p "{cps=30}{color=#FFFF00}Miguel segue na direção da secretaria.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Miguel se dirige hacia la administración.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Miguel segue na direção da secretaria.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Miguel se dirige hacia la administración.{/color}{/cps}"
 
 # game/script.rpy:1397
 translate spanish kuroya_refeitorio_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1398
 translate spanish kuroya_refeitorio_3b3dbbc6:
 
-    # p "{cps=30}{color=#FFFF00}Que garoto legal.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué chico tan amable.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que garoto legal.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué chico tan amable.{/color}{/cps}"
 
 # game/script.rpy:1399
 translate spanish kuroya_refeitorio_cf3c9b39:
 
-    # p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espera.{/color}{/cps}"
 
 # game/script.rpy:1400
 translate spanish kuroya_refeitorio_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1401
 translate spanish kuroya_refeitorio_93b078e9:
 
-    # p "{cps=30}{color=#FFFF00}Como ele sabia meu nome?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¿Cómo sabía mi nombre?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Como ele sabia meu nome?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¿Cómo sabía mi nombre?{/color}{/cps}"
 
 # game/script.rpy:1402
 translate spanish kuroya_refeitorio_e5f9e704_6:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1403
 translate spanish kuroya_refeitorio_52704752:
 
-    # p "{cps=30}{color=#FFFF00}Meu corpo se arrepia.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Un escalofrío recorre mi cuerpo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu corpo se arrepia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Un escalofrío recorre mi cuerpo.{/color}{/cps}"
 
 # game/script.rpy:1404
 translate spanish kuroya_refeitorio_eee4bea0:
 
-    # p "{cps=30}{color=#FFFF00}Que bizarro...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Qué extraño...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que bizarro...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Qué extraño...{/color}{/cps}"
 
 # game/script.rpy:1405
 translate spanish kuroya_refeitorio_245b7fac:
 
-    # p "{cps=30}{color=#FFFF00}Mas talvez ele simplesmente saiba o nome de todos os alunos.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Pero tal vez simplemente conoce los nombres de todos los alumnos.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Mas talvez ele simplesmente saiba o nome de todos os alunos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Pero tal vez simplemente conoce los nombres de todos los alumnos.{/color}{/cps}"
 
 # game/script.rpy:1406
 translate spanish kuroya_refeitorio_90655ed6:
 
-    # p "{cps=30}{color=#FFFF00}Afinal, ele é do grêmio.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Después de todo, es del consejo estudiantil.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Afinal, ele é do grêmio.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Después de todo, es del consejo estudiantil.{/color}{/cps}"
 
 # game/script.rpy:1407
 translate spanish kuroya_refeitorio_e5f9e704_7:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1408
 translate spanish kuroya_refeitorio_15d531a0:
 
-    # p "{cps=30}{color=#FFFF00}Tomara que seja isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Espero que sea eso.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tomara que seja isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Espero que sea eso.{/color}{/cps}"
 
 # game/script.rpy:1409
 translate spanish kuroya_refeitorio_d9dfce43:
 
-    # p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
 
 # game/script.rpy:1410
 translate spanish kuroya_refeitorio_400e5eb5:
 
-    # p "{cps=30}{color=#FFFF00}Essa escola não para de despertar meu medo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Esta escuela no deja de hacerme sentir miedo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Essa escola não para de despertar meu medo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Esta escuela no deja de hacerme sentir miedo.{/color}{/cps}"
 
 # game/script.rpy:1411
 translate spanish kuroya_refeitorio_0da9af75:
 
-    # p "{cps=30}{color=#FFFF00}Melhor eu tomar banho logo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Será mejor que me dé una ducha de una vez.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Melhor eu tomar banho logo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Será mejor que me dé una ducha de una vez.{/color}{/cps}"
 
 # game/script.rpy:1412
 translate spanish kuroya_refeitorio_cbf84dbe:
 
-    # p "{cps=30}{color=#FFFF00}Talvez eu consiga relaxar...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tal vez así pueda relajarme...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Talvez eu consiga relaxar...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tal vez así pueda relajarme...{/color}{/cps}"
 
 # game/script.rpy:1413
 translate spanish kuroya_refeitorio_e09fcc5c:
 
-    # p "{cps=30}{color=#FFFF00}E esquecer tudo isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y olvidarme de todo esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E esquecer tudo isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y olvidarme de todo esto.{/color}{/cps}"
 
 # game/script.rpy:1421
 translate spanish kuroya_fim_dia_2b2ecc91:
 
-    # p "{cps=30}{color=#FFFF00}Enquanto caminho até a casa de banho, fico pensando.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mientras camino hacia el baño, no dejo de pensar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Enquanto caminho até a casa de banho, fico pensando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mientras camino hacia el baño, no dejo de pensar.{/color}{/cps}"
 
 # game/script.rpy:1422
 translate spanish kuroya_fim_dia_7f80b954:
 
-    # p "{cps=30}{color=#FFFF00}O dia hoje foi tão doido...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El día de hoy ha sido tan extraño...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O dia hoje foi tão doido...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El día de hoy ha sido tan extraño...{/color}{/cps}"
 
 # game/script.rpy:1423
 translate spanish kuroya_fim_dia_d10f7abe:
 
-    # p "{cps=30}{color=#FFFF00}Paro em frente a uma janela e fico observando o lado de fora.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me detengo frente a una ventana y me quedo observando el exterior.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Paro em frente a uma janela e fico observando o lado de fora.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me detengo frente a una ventana y me quedo observando el exterior.{/color}{/cps}"
 
 # game/script.rpy:1424
 translate spanish kuroya_fim_dia_e5f9e704:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1425
 translate spanish kuroya_fim_dia_9f927392:
 
-    # p "{cps=30}{color=#FFFF00}Estou me sentindo tão estranho desde que acordei hoje.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me he sentido tan extraño desde que desperté esta mañana.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Estou me sentindo tão estranho desde que acordei hoje.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me he sentido tan extraño desde que desperté esta mañana.{/color}{/cps}"
 
 # game/script.rpy:1426
 translate spanish kuroya_fim_dia_2e59503d:
 
-    # p "{cps=30}{color=#FFFF00}Eu não deveria estar me sentindo assim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No debería sentirme así.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não deveria estar me sentindo assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No debería sentirme así.{/color}{/cps}"
 
 # game/script.rpy:1427
 translate spanish kuroya_fim_dia_62404f31:
 
-    # p "{cps=30}{color=#FFFF00}Eu sou o dono desse lugar.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Yo soy el dueño de este lugar.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou o dono desse lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yo soy el dueño de este lugar.{/color}{/cps}"
 
 # game/script.rpy:1428
 translate spanish kuroya_fim_dia_bf82fcfd:
 
-    # p "{cps=30}{color=#FFFF00}Literalmente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Literalmente...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Literalmente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Literalmente...{/color}{/cps}"
 
 # game/script.rpy:1429
 translate spanish kuroya_fim_dia_0c6a06f0:
 
-    # p "{cps=30}{color=#FFFF00}Eu vou herdar tudo isso.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Voy a heredar todo esto.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu vou herdar tudo isso.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Voy a heredar todo esto.{/color}{/cps}"
 
 # game/script.rpy:1430
 translate spanish kuroya_fim_dia_c33fde19:
 
-    # p "{cps=30}{color=#FFFF00}O diretor confia em mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El director confía en mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O diretor confia em mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El director confía en mí.{/color}{/cps}"
 
 # game/script.rpy:1431
 translate spanish kuroya_fim_dia_e5f9e704_1:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1432
 translate spanish kuroya_fim_dia_f0965079:
 
-    # p "{cps=30}{color=#FFFF00}E ela confia em mim.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y ella confía en mí.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E ela confia em mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y ella confía en mí.{/color}{/cps}"
 
 # game/script.rpy:1433
 translate spanish kuroya_fim_dia_0afccde8:
 
-    # p "{cps=30}{color=#FFFF00}Eu não devo ter medo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No debería tener miedo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não devo ter medo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No debería tener miedo.{/color}{/cps}"
 
 # game/script.rpy:1434
 translate spanish kuroya_fim_dia_ca406718:
 
-    # p "{cps=30}{color=#FFFF00}Não no meu próprio território.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No en mi propio territorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Não no meu próprio território.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No en mi propio territorio.{/color}{/cps}"
 
 # game/script.rpy:1435
 translate spanish kuroya_fim_dia_b33a8ba3:
 
-    # p "{cps=30}{color=#FFFF00}Seja lá o que minha intuição esteja tentando me dizer...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Sea lo que sea que mi intuición esté tratando de decirme...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Seja lá o que minha intuição esteja tentando me dizer...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Sea lo que sea que mi intuición esté tratando de decirme...{/color}{/cps}"
 
 # game/script.rpy:1436
 translate spanish kuroya_fim_dia_bedd49e9:
 
-    # p "{cps=30}{color=#FFFF00}Eu não vou permitir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}No voy a permitirlo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu não vou permitir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}No voy a permitirlo.{/color}{/cps}"
 
 # game/script.rpy:1437
 translate spanish kuroya_fim_dia_e5f9e704_2:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1438
 translate spanish kuroya_fim_dia_26164880:
 
-    # p "{cps=30}{color=#FFFF00}Vou para a casa de banho.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Voy al baño.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Vou para a casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Voy al baño.{/color}{/cps}"
 
 # game/script.rpy:1439
 translate spanish kuroya_fim_dia_6a9d3373:
 
-    # p "{cps=30}{color=#FFFF00}Tomo um banho tão rápido que, quando percebo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me doy una ducha tan rápido que, cuando me doy cuenta...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tomo um banho tão rápido que, quando percebo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me doy una ducha tan rápido que, cuando me doy cuenta...{/color}{/cps}"
 
 # game/script.rpy:1440
 translate spanish kuroya_fim_dia_d74d2540:
 
-    # p "{cps=30}{color=#FFFF00}Já terminei e estou a caminho do meu dormitório.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ya terminé y estoy de camino a mi dormitorio.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Já terminei e estou a caminho do meu dormitório.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ya terminé y estoy de camino a mi dormitorio.{/color}{/cps}"
 
 # game/script.rpy:1441
 translate spanish kuroya_fim_dia_d9dfce43:
 
-    # p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
 
 # game/script.rpy:1442
 translate spanish kuroya_fim_dia_4da210bb:
 
-    # p "{cps=30}{color=#FFFF00}Minha cabeça está cheia mesmo, hein?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Definitivamente tengo demasiadas cosas en la cabeza, ¿eh?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Minha cabeça está cheia mesmo, hein?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Definitivamente tengo demasiadas cosas en la cabeza, ¿eh?{/color}{/cps}"
 
 # game/script.rpy:1443
 translate spanish kuroya_fim_dia_e6e33db2:
 
-    # p "{cps=30}{color=#FFFF00}Abro a porta do dormitório e entro.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Abro la puerta del dormitorio y entro.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Abro a porta do dormitório e entro.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Abro la puerta del dormitorio y entro.{/color}{/cps}"
 
 # game/script.rpy:1447
 translate spanish kuroya_fim_dia_1d0cf519:
@@ -15087,8 +15087,8 @@ translate spanish kuroya_fim_dia_1d0cf519:
 # game/script.rpy:1448
 translate spanish kuroya_fim_dia_79df55b9:
 
-    # p "{cps=30}{color=#FFFF00}Oi, Elizabeth...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Hola, Elizabeth...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Oi, Elizabeth...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hola, Elizabeth...{/color}{/cps}"
 
 # game/script.rpy:1449
 translate spanish kuroya_fim_dia_30fe47fb:
@@ -15105,14 +15105,14 @@ translate spanish kuroya_fim_dia_3e7c88df:
 # game/script.rpy:1451
 translate spanish kuroya_fim_dia_ed0e8170:
 
-    # p "{cps=30}{color=#FFFF00}O dia só foi bem exaustivo, sabe?{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}El día fue bastante agotador, ¿sabes?{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}O dia só foi bem exaustivo, sabe?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}El día fue bastante agotador, ¿sabes?{/color}{/cps}"
 
 # game/script.rpy:1452
 translate spanish kuroya_fim_dia_da467ba5:
 
-    # p "{cps=30}{color=#FFFF00}Elizabeth sorri, parecendo compreender.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Elizabeth sonríe, como si lo entendiera.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Elizabeth sorri, parecendo compreender.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Elizabeth sonríe, como si lo entendiera.{/color}{/cps}"
 
 # game/script.rpy:1453
 translate spanish kuroya_fim_dia_a307430d:
@@ -15141,14 +15141,14 @@ translate spanish kuroya_fim_dia_4bd5dc8f:
 # game/script.rpy:1457
 translate spanish kuroya_fim_dia_e69dea1f:
 
-    # p "{cps=30}{color=#FFFF00}Você tem razão...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Tienes razón...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Você tem razão...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Tienes razón...{/color}{/cps}"
 
 # game/script.rpy:1458
 translate spanish kuroya_fim_dia_80a6a7aa:
 
-    # p "{cps=30}{color=#FFFF00}Eu vou dormir.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Me voy a dormir.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu vou dormir.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Me voy a dormir.{/color}{/cps}"
 
 # game/script.rpy:1459
 translate spanish kuroya_fim_dia_b8a69454:
@@ -15165,68 +15165,68 @@ translate spanish kuroya_fim_dia_8ee38389:
 # game/script.rpy:1461
 translate spanish kuroya_fim_dia_098d07db:
 
-    # p "{cps=30}{color=#FFFF00}Boa noite.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}¡Buenas noches!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Boa noite.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}¡Buenas noches!{/color}{/cps}"
 
 # game/script.rpy:1462
 translate spanish kuroya_fim_dia_e5f9e704_3:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1463
 translate spanish kuroya_fim_dia_62065d92:
 
-    # p "{cps=30}{color=#FFFF00}Ugh.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ugh...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ugh...{/color}{/cps}"
 
 # game/script.rpy:1464
 translate spanish kuroya_fim_dia_efc15032:
 
-    # p "{cps=30}{color=#FFFF00}Tomara que amanhã seja um dia mais tranquilo.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Ojalá mañana sea un día más tranquilo.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Tomara que amanhã seja um dia mais tranquilo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ojalá mañana sea un día más tranquilo.{/color}{/cps}"
 
 # game/script.rpy:1465
 translate spanish kuroya_fim_dia_d24ba1cd:
 
-    # p "{cps=30}{color=#FFFF00}Menos longo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Menos largo...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Menos longo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Menos largo...{/color}{/cps}"
 
 # game/script.rpy:1466
 translate spanish kuroya_fim_dia_eb46a01e:
 
-    # p "{cps=30}{color=#FFFF00}Menos exaustivo...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Menos agotador...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Menos exaustivo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Menos agotador...{/color}{/cps}"
 
 # game/script.rpy:1467
 translate spanish kuroya_fim_dia_e5f9e704_4:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1468
 translate spanish kuroya_fim_dia_e9ced252:
 
-    # p "{cps=30}{color=#FFFF00}Conforme minhas pálpebras ficam pesadas...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Mientras mis párpados se vuelven cada vez más pesados...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Conforme minhas pálpebras ficam pesadas...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mientras mis párpados se vuelven cada vez más pesados...{/color}{/cps}"
 
 # game/script.rpy:1469
 translate spanish kuroya_fim_dia_e8ed4cb3:
 
-    # p "{cps=30}{color=#FFFF00}E finalmente se fecham...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Y finalmente se cierran...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}E finalmente se fecham...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Y finalmente se cierran...{/color}{/cps}"
 
 # game/script.rpy:1470
 translate spanish kuroya_fim_dia_f5ba00a8:
 
-    # p "{cps=30}{color=#FFFF00}Uma única pessoa me vem à mente.{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}Una sola persona viene a mi mente.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Uma única pessoa me vem à mente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Una sola persona viene a mi mente.{/color}{/cps}"
 
 # game/script.rpy:1471
 translate spanish kuroya_fim_dia_e5f9e704_5:
 
-    # p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
-    p "{cps=30}{color=#FFFF00}...{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 translate spanish strings:
 

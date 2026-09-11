@@ -330,6 +330,7 @@ screen quick_menu():
                 at icone_canto_hover
                 # Abre o diário na primeira página e desliga o selo de "atualizado"
                 action [
+                    Play("sound", audio.diario_folha),
                     Show("perfil_janela"),
                     SetField(persistent, "diario_notificacao", False),
                     SetVariable("diario_pagina_atual", 0),
@@ -2378,6 +2379,7 @@ screen quick_menu():
                 focus_mask True
                 at icone_canto_hover
                 action [
+                    Play("sound", audio.diario_folha),
                     Show("perfil_janela"),
                     SetField(persistent, "diario_notificacao", False),
                     SetVariable("diario_pagina_atual", 0),

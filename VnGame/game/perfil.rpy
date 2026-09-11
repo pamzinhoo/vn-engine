@@ -114,13 +114,70 @@ init python:
 ##       senão a imagem invade/cobre a moldura de fora.
 
 default persistent.diario_paginas = ["images/diariopagina1.png"]
+default persistent.diario_paginas_mulher = ["images/diariopagina1_mulher.png", "images/diariopagina2_mulher.png"]
+default persistent.diario_paginas_homem = ["images/diariopagina1_homem.png", "images/diariopagina2_homem.png"]
 default diario_pagina_atual = 0
+
+define audio.diario_folha = "audio/sound_effect_foia.mp3"
+define audio.diario_livro_fechando = "audio/sound_effect_livro_fechando.mp3"
 
 ## Páginas do diário trocam de imagem conforme a língua selecionada
 ## (_preferences.language). Caminho "images/diariopaginaN.png" vira
 ## "images/diariopaginaN_en.png" (inglês) ou "images/diariopaginaN_es.png"
 ## (espanhol). Se o arquivo traduzido não existir, cai pro original (pt).
 init python:
+    def diario_paginas_rota(genero=None):
+        if genero is None:
+            genero = persistent.genero
+
+        if genero == "homem":
+            return persistent.diario_paginas_homem or []
+
+        return persistent.diario_paginas_mulher or []
+
+    def diario_caminho_com_fallback(caminho):
+        caminho_localizado = diario_caminho_localizado(caminho)
+        if renpy.loadable(caminho_localizado):
+            return caminho_localizado
+
+        for sufixo in ("_mulher", "_homem"):
+            caminho_base = caminho.replace(sufixo, "")
+            caminho_localizado = diario_caminho_localizado(caminho_base)
+            if renpy.loadable(caminho_localizado):
+                return caminho_localizado
+
+        return caminho
+
+    def diario_adicionar_pagina(caminho, genero=None, notificar=True):
+        if genero is None:
+            genero = persistent.genero
+
+        if genero == "homem":
+            paginas = persistent.diario_paginas_homem
+        elif genero == "mulher":
+            paginas = persistent.diario_paginas_mulher
+        else:
+            paginas = persistent.diario_paginas
+
+        if caminho not in paginas:
+            paginas.append(caminho)
+
+        if notificar:
+            diario_notificar()
+
+    def diario_normalizar_paginas_genero(paginas, iniciais):
+        novas_paginas = []
+
+        for pagina in iniciais:
+            if pagina not in novas_paginas:
+                novas_paginas.append(pagina)
+
+        for pagina in paginas or []:
+            if pagina != "images/diariopagina1.png" and pagina not in novas_paginas:
+                novas_paginas.append(pagina)
+
+        return novas_paginas
+
     def diario_caminho_localizado(caminho):
         sufixo = "_en" if _preferences.language == "english" else (
             "_es" if _preferences.language == "spanish" else None
@@ -149,6 +206,26 @@ init python:
         persistent.diario_paginas = [
             _migracao_nomes_diario.get(p, p) for p in persistent.diario_paginas
         ]
+        for _pagina_diario_legado in persistent.diario_paginas:
+            if _pagina_diario_legado not in persistent.diario_paginas_mulher:
+                persistent.diario_paginas_mulher.append(_pagina_diario_legado)
+            if _pagina_diario_legado not in persistent.diario_paginas_homem:
+                persistent.diario_paginas_homem.append(_pagina_diario_legado)
+
+    if persistent.diario_paginas_mulher == ["images/diariopagina1.png"]:
+        persistent.diario_paginas_mulher = ["images/diariopagina1_mulher.png"]
+
+    if persistent.diario_paginas_homem == ["images/diariopagina1.png"]:
+        persistent.diario_paginas_homem = ["images/diariopagina1_homem.png"]
+
+    persistent.diario_paginas_mulher = diario_normalizar_paginas_genero(
+        persistent.diario_paginas_mulher,
+        ["images/diariopagina1_mulher.png", "images/diariopagina2_mulher.png"],
+    )
+    persistent.diario_paginas_homem = diario_normalizar_paginas_genero(
+        persistent.diario_paginas_homem,
+        ["images/diariopagina1_homem.png", "images/diariopagina2_homem.png"],
+    )
 
 
 screen botao_perfil():
@@ -157,7 +234,7 @@ screen botao_perfil():
         idle "gui/details/diario_button.png"
         hover "gui/details/diario_button_hover.png"
         focus_mask True
-        action [Show("perfil_janela"), SetVariable("diario_pagina_atual", 0)]
+        action [Play("sound", audio.diario_folha), Show("perfil_janela"), SetVariable("diario_pagina_atual", 0)]
 
 
 screen barra_atributo(nome, valor):
@@ -220,7 +297,7 @@ screen perfil_janela():
                         xfill True
 
                     textbutton "X":
-                        action Hide("perfil_janela")
+                        action [Play("sound", audio.diario_livro_fechando), Hide("perfil_janela")]
                         style "botao_fechar_livro"
                         background None
                         xalign 1.0
@@ -232,10 +309,10 @@ screen perfil_janela():
                 ysize 3
                 background Solid("#8b5a2b")
 
-            $ paginas_diario = persistent.diario_paginas or []
+            $ paginas_diario = diario_paginas_rota()
             $ total_paginas_diario = len(paginas_diario)
             $ pagina_diario = (
-                  diario_caminho_localizado(paginas_diario[diario_pagina_atual])
+                  diario_caminho_com_fallback(paginas_diario[diario_pagina_atual])
                   if 0 <= diario_pagina_atual < total_paginas_diario
                   else None
               )
@@ -265,18 +342,18 @@ screen perfil_janela():
                 # ‹ Página anterior
                 if diario_pagina_atual > 0:
                     textbutton "‹":
-                        action SetVariable("diario_pagina_atual", diario_pagina_atual - 1)
-                        style "botao_fechar_livro"
+                        action [Play("sound", audio.diario_folha), SetVariable("diario_pagina_atual", diario_pagina_atual - 1)]
+                        style "botao_pagina_diario"
                         background None
-                        xalign 0.0
+                        xalign -0.025
                         yalign 0.5
 
                 # › Próxima página
                 if diario_pagina_atual < total_paginas_diario - 1:
                     textbutton "›":
-                        action SetVariable("diario_pagina_atual", diario_pagina_atual + 1)
-                        style "botao_fechar_livro"
+                        action [Play("sound", audio.diario_folha), SetVariable("diario_pagina_atual", diario_pagina_atual + 1)]
+                        style "botao_pagina_diario"
                         background None
-                        xalign 1.0
+                        xalign 1.025
                         yalign 0.5
 
