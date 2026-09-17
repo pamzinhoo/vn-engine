@@ -24,3 +24,23 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# --- Build e ferramentas locais ---
+
+# Pacotes gerados pelo launcher do Ren'Py (zip/apk/tar de distribuicao).
+/*-dists/
+
+# Binario do butler (upload para o itch.io), baixado a parte.
+/butler-windows-amd64/
+
+# Projeto temporario criado pelo build do Android.
+/p/
+
+# --- Assinatura Android ---
+# NUNCA versionar: quem tem a keystore consegue publicar update assinado
+# como se fosse voce. Guardar em backup offline, fora do repositorio.
+*.keystore
+
+# Configuracao gerada pelo launcher (contem caminhos e senhas locais).
+/VnGame/android.json
+/VnGame/project.json

@@ -146,6 +146,11 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
+    ## Mesma arte do PC (lanterna, cantos arredondados) pra ambos, sem
+    ## variante propria: como e uma imagem simples (nao Frame), o Ren'Py so
+    ## clipa pela ysize da janela, sem distorcer. Na variante touch, a janela
+    ## e mais alta (gui.textbox_height = 360 em vez de 277), entao so revela
+    ## mais arte por cima -- nao estica nem corta o desenho.
     background Image("gui/details/textbox_ui.png", xalign=0.5, yalign=1.0)
 
 style namebox:
@@ -325,6 +330,7 @@ screen quick_menu():
                 at icone_canto_hover
                 # Abre o diário na primeira página e desliga o selo de "atualizado"
                 action [
+                    Play("sound", audio.diario_folha),
                     Show("perfil_janela"),
                     SetField(persistent, "diario_notificacao", False),
                     SetVariable("diario_pagina_atual", 0),
@@ -418,8 +424,8 @@ screen navigation():
             ## A ajuda não é necessária ou relevante para dispositivos móveis.
             textbutton _("Ajuda") action ShowMenu("help")
 
-        ## O botão Sair é proibido no iOS e desnecessário no Android e na Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=not main_menu)
 
 
@@ -503,8 +509,8 @@ screen main_menu():
             xpos 0
             ypos 863
             at button_hover_scale
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botão proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 style "main_menu_button"
                 xpos 0
@@ -841,8 +847,8 @@ screen about():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 890
@@ -935,8 +941,8 @@ screen save():
         text_style "load_nav_text"
         at button_hover_scale
 
-    ## Botão proibido no iOS e desnecessário no Android/Web.
-    if renpy.variant("pc"):
+    ## Botao Sair proibido apenas no iOS.
+    if not renpy.variant("ios"):
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890
@@ -1070,8 +1076,8 @@ screen load():
         text_style "load_nav_text"
         at button_hover_scale
 
-    ## Botão proibido no iOS e desnecessário no Android/Web.
-    if renpy.variant("pc"):
+    ## Botao Sair proibido apenas no iOS.
+    if not renpy.variant("ios"):
         textbutton _("Sair") action Quit(confirm=True):
             xpos 50
             ypos 890     # ← retângulo 7
@@ -1417,8 +1423,8 @@ screen preferences():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 890     # ← retângulo 7
@@ -1606,8 +1612,8 @@ screen history():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 995
@@ -1746,8 +1752,8 @@ screen help():
             text_style "load_nav_text"
             at button_hover_scale
 
-        ## Botão proibido no iOS e desnecessário no Android/Web.
-        if renpy.variant("pc"):
+        ## Botao Sair proibido apenas no iOS.
+        if not renpy.variant("ios"):
             textbutton _("Sair") action Quit(confirm=True):
                 xpos 50
                 ypos 890
@@ -2373,6 +2379,7 @@ screen quick_menu():
                 focus_mask True
                 at icone_canto_hover
                 action [
+                    Play("sound", audio.diario_folha),
                     Show("perfil_janela"),
                     SetField(persistent, "diario_notificacao", False),
                     SetVariable("diario_pagina_atual", 0),
@@ -2386,10 +2393,6 @@ screen quick_menu():
                     xanchor 0.5
                     ypos 84
 
-
-style window:
-    variant "touch"
-    background "gui/phone/textbox.png"
 
 style radio_button:
     variant "touch"
@@ -2405,11 +2408,7 @@ style nvl_window:
 
 style main_menu_frame:
     variant "touch"
-    background "gui/phone/overlay/main_menu.png"
-
-style game_menu_outer_frame:
-    variant "touch"
-    background "gui/phone/overlay/game_menu.png"
+    background None
 
 style game_menu_navigation_frame:
     variant "touch"
@@ -2573,8 +2572,8 @@ screen perfil_catalogo():
                         ## A ajuda não é necessária ou relevante para dispositivos móveis.
                         textbutton _("Ajuda") action ShowMenu("help")
 
-                    ## O botão Sair é proibido no iOS e desnecessário no Android e na Web.
-                    if renpy.variant("pc"):
+                    ## Botao Sair proibido apenas no iOS.
+                    if not renpy.variant("ios"):
                         textbutton _("Sair") action Quit(confirm=not main_menu)
 
 

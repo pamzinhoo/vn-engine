@@ -1,6 +1,6 @@
 # ============================================================================
 # Login com Discord (device flow) contra o backend Limerence.
-# Backend: https://limerence-backend.onrender.com (ver backend/api/routes/auth_routes.py)
+# Backend: https://limerencebackend.shardweb.app (ver backend/api/routes/auth_routes.py)
 # ============================================================================
 
 init -10 python:
@@ -54,7 +54,15 @@ init -10 python:
             pass
         return False
 
-    DISCORD_AUTH_BACKEND_URL = "https://limerence-backend.onrender.com"
+    DISCORD_AUTH_BACKEND_URL = "https://limerencebackend.shardweb.app"
+
+    # Alguns proxies/WAF bloqueiam o User-Agent padrao do urllib
+    # ("Python-urllib/3.x", assinatura classica de bot) com 403/503.
+    # Usa um User-Agent de navegador generico pra passar por esses filtros
+    # em qualquer plataforma (Windows/Mac/Linux/Android/iOS).
+    _DISCORD_USER_AGENT = (
+        "Mozilla/5.0 (compatible; LimerenceGame/1.0; +https://limerencebackend.shardweb.app)"
+    )
 
     def _discord_ssl_context():
         """Python embutido do Ren'Py SDK as vezes nao enxerga a lista de CAs
@@ -125,7 +133,7 @@ init -10 python:
         data = json.dumps(payload).encode("utf-8")
         req = urllib.request.Request(
             url, data=data, method="POST",
-            headers={"Content-Type": "application/json"},
+            headers={"Content-Type": "application/json", "User-Agent": _DISCORD_USER_AGENT},
         )
         try:
             with urllib.request.urlopen(req, timeout=timeout, context=_DISCORD_SSL_CONTEXT) as resp:
@@ -150,7 +158,7 @@ init -10 python:
         data = json.dumps(payload).encode("utf-8")
         req = urllib.request.Request(
             url, data=data, method="POST",
-            headers={"Content-Type": "application/json"},
+            headers={"Content-Type": "application/json", "User-Agent": _DISCORD_USER_AGENT},
         )
         try:
             with urllib.request.urlopen(req, timeout=timeout, context=_DISCORD_SSL_CONTEXT) as resp:
@@ -200,7 +208,7 @@ init -10 python:
         url = DISCORD_AUTH_BACKEND_URL + path
         req = urllib.request.Request(
             url, method="GET",
-            headers={"Authorization": "Bearer " + access_token},
+            headers={"Authorization": "Bearer " + access_token, "User-Agent": _DISCORD_USER_AGENT},
         )
         try:
             with urllib.request.urlopen(req, timeout=timeout, context=_DISCORD_SSL_CONTEXT) as resp:

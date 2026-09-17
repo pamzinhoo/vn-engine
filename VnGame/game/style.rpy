@@ -228,6 +228,13 @@ style botao_fechar_livro_text is button_text:
     hover_color "#ffffff"
     bold True
 
+style botao_pagina_diario is botao_fechar_livro:
+    xsize 110
+    ysize 120
+
+style botao_pagina_diario_text is botao_fechar_livro_text:
+    size 54
+
 # Página esquerda do livro (Avatar)
 style livro_nome_text:
     color "#1a1005"

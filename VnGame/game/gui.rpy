@@ -474,7 +474,7 @@ init python:
 
         ## Tamanhos de fonte.
         gui.text_size = 45
-        gui.name_text_size = 54
+        gui.name_text_size = 48
         gui.notify_text_size = 38
         gui.interface_text_size = 45
         gui.button_text_size = 45
@@ -482,11 +482,11 @@ init python:
 
         ## Ajustar o local da caixa de texto.
         gui.textbox_height = 360
-        gui.dialogue_xpos = 135
-        ## Sem isto o texto herda a largura de desktop (1320) começando em
-        ## 135, e sobra um vão de 465px na direita da textbox do celular.
-        ## 1920 - 2*135 = 1650 mantém a mesma margem dos dois lados.
-        gui.dialogue_width = 1650
+        gui.dialogue_xpos = 300
+        gui.dialogue_ypos = 100
+        ## 1920 - 300 (esquerda) - 260 (direita, folga maior pra quebrar
+        ## linha antes da borda da textbox e nao estourar pra fora) = 1360.
+        gui.dialogue_width = 1360
 
         ## Altere o tamanho e o espaçamento de vários itens.
         gui.slider_size = 54
