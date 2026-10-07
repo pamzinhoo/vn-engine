@@ -20,12 +20,27 @@ init python:
         "Maya",
         "Ethan",
         "Diretor",
+        "Abby",
+        "Kain",
+        "Madelin",
+        "Miguel",
+        "Arlyson",
+        "Aurore",
+        "Kuroya",
+        "Lauane",
+        "Lucien",
+        "August",
+        "Edgar",
+        "Zatsko",
         "???",
     ]
 
     personagens_dados = {
         "Pam": {
-            "foto":        "images/protaF.png",
+            "foto":        "images/kyioki_capa.png",
+            "info_pt":     "images/kyioki_info_portugues.png",
+            "info_en":     "images/kyioki_info_ingles.png",
+            "info_es":     "images/kyioki_info_espanhol.png",
             "nome":        "Pam",
             "descricao":   "alguma coisa aqui",
             "historia":    "historia do rdr2",
@@ -127,6 +142,342 @@ init python:
         "Diretor": {
             "foto":        "foto_personagem_aqui",
             "nome":        "Diretor",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Abby": {
+            "foto":        "images/abby_capa.png",
+            "info_pt":     "images/abby_info_portugues.png",
+            "info_en":     "images/abby_info_ingles.png",
+            "info_es":     "images/abby_info_espanhol.png",
+            "nome":        "Abby",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Kain": {
+            "foto":        "images/kain_capa.png",
+            "info_pt":     "images/kain_info_portugues.png",
+            "info_en":     "images/kain_info_ingles.png",
+            "info_es":     "images/kain_info_espanhol.png",
+            "nome":        "Kain",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Madelin": {
+            "foto":        "images/madelin_capa.png",
+            "info_pt":     "images/madelin_info_portugues.png",
+            "info_en":     "images/madelin_info_ingles.png",
+            "info_es":     "images/madelin_info_espanhol.png",
+            "nome":        "Madelin",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Miguel": {
+            "foto":        "images/miguel_capa.png",
+            "info_pt":     "images/miguel_info_portugues.png",
+            "info_en":     "images/miguel_info_ingles.png",
+            "info_es":     "images/miguel_info_espanhol.png",
+            "nome":        "Miguel",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Arlyson": {
+            "foto":        "images/arlyson_capa.png",
+            "info_pt":     "images/arlyson_info_portugues.png",
+            "info_en":     "images/arlyson_info_ingles.png",
+            "info_es":     "images/arlyson_info_espanhol.png",
+            "nome":        "Arlyson",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Aurore": {
+            "foto":        "images/aurore_capa.png",
+            "info_pt":     "images/aurore_info_portugues.png",
+            "info_en":     "images/aurore_info_ingles.png",
+            "info_es":     "images/aurore_info_espanhol.png",
+            "nome":        "Aurore",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Kuroya": {
+            "foto":        "images/kuroya_capa.png",
+            "info_pt":     "images/kuroya_info_portugues.png",
+            "info_en":     "images/kuroya_info_ingles.png",
+            "info_es":     "images/kuroya_info_espanhol.png",
+            "nome":        "Kuroya",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Lauane": {
+            "foto":        "images/lauane_capa.png",
+            "info_pt":     "images/lauane_info_portugues.png",
+            "info_en":     "images/lauane_info_ingles.png",
+            "info_es":     "images/lauane_info_espanhol.png",
+            "nome":        "Lauane",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Lucien": {
+            "foto":        "images/lucien_capa.png",
+            "info_pt":     "images/lucien_info_portugues.png",
+            "info_en":     "images/lucien_info_ingles.png",
+            "info_es":     "images/lucien_info_espanhol.png",
+            "nome":        "Lucien",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "August": {
+            "foto":        "images/august_capa.png",
+            "info_pt":     "images/august_info_portugues.png",
+            "info_en":     "images/august_info_ingles.png",
+            "info_es":     "images/august_info_espanhol.png",
+            "nome":        "August",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Edgar": {
+            "foto":        "images/edgar_capa.png",
+            "info_pt":     "images/edgar_info_portugues.png",
+            "info_en":     "images/edgar_info_ingles.png",
+            "info_es":     "images/edgar_info_espanhol.png",
+            "nome":        "Edgar",
+            "descricao":   "descricao_aqui",
+            "historia":    "historia_aqui",
+            "curiosidade": "curiosidades_aqui",
+            "bloqueado":   False,
+            "genero":      "genero_aqui",
+            "sexualidade": "sexualidade_aqui",
+            "ocupacao":    "ocupacao_aqui",
+            "especie":     "especie_aqui",
+            "personalidade": {
+                "Gentileza":    50,
+                "Inteligência": 50,
+                "Seriedade":    50,
+                "Humor":        50,
+                "Saúde":        50,
+            },
+            "anatomia": {
+                "altura":      "altura_aqui",
+                "peso":        "peso_aqui",
+                "raca":        "raca_aqui",
+                "tipo_sangue": "tipo_sangue_aqui",
+            },
+        },
+        "Zatsko": {
+            "foto":        "images/zatsko_capa.png",
+            "info_pt":     "images/zatsko_info_portugues.png",
+            "info_en":     "images/zatsko_info_ingles.png",
+            "info_es":     "images/zatsko_info_espanhol.png",
+            "nome":        "Zatsko",
             "descricao":   "descricao_aqui",
             "historia":    "historia_aqui",
             "curiosidade": "curiosidades_aqui",
@@ -421,49 +772,67 @@ screen perfil_catalogo():
                     $ foto = char_data["foto"]
                     $ bloqueado = char_data["bloqueado"]
 
+                    $ cw = 360
+                    $ ch = round(cw * 1500 / 994)
+                    $ px = round(cw * 158 / 994)
+                    $ py = round(ch * 234 / 1500)
+                    $ pw = round(cw * 682 / 994)
+                    $ ph = round(ch * 1085 / 1500)
+
                     button:
                         at card_hover_zoom
                         action [SetScreenVariable("personagem_selecionado", char_nome), Show("detalhes_perfil", data=char_data)]
 
                         frame:
                             if is_selected:
-                                background "#ffffff33"
+                                background None
                                 xysize (400, 660)
                                 padding (12, 12, 12, 12)
                             else:
-                                background "#1a1a1a"
+                                background None
                                 xysize (380, 640)
                                 padding (10, 10, 10, 10)
                                 xalign 0.0
-                                yalign 0.5
+                            yalign 0.5
 
                             vbox:
-                                spacing 0
-                                xfill True
-                                yfill True
+                                spacing 10
+                                xalign 0.5
 
-                                # Foto
-                                frame:
-                                    background "#0a0a0a"
-                                    xysize (360, 540)
+                                # Foto emoldurada por gui/card.png (994x1500)
+                                fixed:
+                                    xsize cw
+                                    ysize ch
+
+                                    add "gui/card.png":
+                                        xysize (cw, ch)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (360, 540)
+                                            xpos px
+                                            ypos py
+                                            xsize pw
+                                            ysize ph
+                                            fit "cover"
                                     else:
-                                        text "???":
+                                        frame:
+                                            background Solid("#0a0a0a")
+                                            xpos px
+                                            ypos py
+                                            xsize pw
+                                            ysize ph
 
-                                            size 100
-                                            color "#555555"
-                                            xalign 0.5
-                                            yalign 0.5
+                                            text "???":
+                                                size 60
+                                                color "#666666"
+                                                xalign 0.5
+                                                yalign 0.5
 
                                 # Nome
                                 text _(char_nome):
                                     size 18
                                     color "#ffffff"
                                     xalign 0.5
-                                    yalign 0.5
 
         # Botão próximo
         textbutton "►":
@@ -519,49 +888,67 @@ screen perfil_catalogo():
                     $ foto = lugar_data["foto"]
                     $ bloqueado = lugar_data["bloqueado"]
 
+                    $ cw = 360
+                    $ ch = round(cw * 1500 / 994)
+                    $ px = round(cw * 158 / 994)
+                    $ py = round(ch * 234 / 1500)
+                    $ pw = round(cw * 682 / 994)
+                    $ ph = round(ch * 1085 / 1500)
+
                     button:
                         at card_hover_zoom
                         action [SetScreenVariable("lugar_selecionado", lugar_nome), Show("detalhes_perfil", data=lugar_data)]
 
                         frame:
                             if is_selected:
-                                background "#ffffff33"
+                                background None
                                 xysize (400, 660)
                                 padding (12, 12, 12, 12)
                             else:
-                                background "#1a1a1a"
+                                background None
                                 xysize (380, 640)
                                 padding (10, 10, 10, 10)
                                 xalign 0.0
-                                yalign 0.5
+                            yalign 0.5
 
                             vbox:
-                                spacing 0
-                                xfill True
-                                yfill True
+                                spacing 10
+                                xalign 0.5
 
-                                # Foto
-                                frame:
-                                    background "#0a0a0a"
-                                    xysize (360, 540)
+                                # Foto emoldurada por gui/card.png (994x1500)
+                                fixed:
+                                    xsize cw
+                                    ysize ch
+
+                                    add "gui/card.png":
+                                        xysize (cw, ch)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (360, 540)
+                                            xpos px
+                                            ypos py
+                                            xsize pw
+                                            ysize ph
+                                            fit "cover"
                                     else:
-                                        text "???":
+                                        frame:
+                                            background Solid("#0a0a0a")
+                                            xpos px
+                                            ypos py
+                                            xsize pw
+                                            ysize ph
 
-                                            size 100
-                                            color "#555555"
-                                            xalign 0.5
-                                            yalign 0.5
+                                            text "???":
+                                                size 60
+                                                color "#666666"
+                                                xalign 0.5
+                                                yalign 0.5
 
                                 # Nome
                                 text _(lugar_nome):
                                     size 18
                                     color "#ffffff"
                                     xalign 0.5
-                                    yalign 0.5
 
         # Botão próximo lugares
         textbutton "►":
@@ -617,49 +1004,67 @@ screen perfil_catalogo():
                     $ foto = rota_data["foto"]
                     $ bloqueado = rota_data["bloqueado"]
 
+                    $ cw = 360
+                    $ ch = round(cw * 1500 / 994)
+                    $ px = round(cw * 158 / 994)
+                    $ py = round(ch * 234 / 1500)
+                    $ pw = round(cw * 682 / 994)
+                    $ ph = round(ch * 1085 / 1500)
+
                     button:
                         at card_hover_zoom
                         action [SetScreenVariable("rota_selecionada", rota_nome), Show("detalhes_perfil", data=rota_data)]
 
                         frame:
                             if is_selected:
-                                background "#ffffff33"
+                                background None
                                 xysize (400, 660)
                                 padding (12, 12, 12, 12)
                             else:
-                                background "#1a1a1a"
+                                background None
                                 xysize (380, 640)
                                 padding (10, 10, 10, 10)
                                 xalign 0.0
-                                yalign 0.5
+                            yalign 0.5
 
                             vbox:
-                                spacing 0
-                                xfill True
-                                yfill True
+                                spacing 10
+                                xalign 0.5
 
-                                # Foto
-                                frame:
-                                    background "#0a0a0a"
-                                    xysize (360, 540)
+                                # Foto emoldurada por gui/card.png (994x1500)
+                                fixed:
+                                    xsize cw
+                                    ysize ch
+
+                                    add "gui/card.png":
+                                        xysize (cw, ch)
 
                                     if not bloqueado and renpy.loadable(foto):
                                         add foto:
-                                            xysize (360, 540)
+                                            xpos px
+                                            ypos py
+                                            xsize pw
+                                            ysize ph
+                                            fit "cover"
                                     else:
-                                        text "???":
+                                        frame:
+                                            background Solid("#0a0a0a")
+                                            xpos px
+                                            ypos py
+                                            xsize pw
+                                            ysize ph
 
-                                            size 100
-                                            color "#555555"
-                                            xalign 0.5
-                                            yalign 0.5
+                                            text "???":
+                                                size 60
+                                                color "#666666"
+                                                xalign 0.5
+                                                yalign 0.5
 
                                 # Nome
                                 text _(rota_nome):
                                     size 18
                                     color "#ffffff"
                                     xalign 0.5
-                                    yalign 0.5
 
         # Botão próximo rotas
         textbutton "►":
@@ -733,11 +1138,14 @@ screen detalhes_perfil(data):
 
     add Solid("#000000aa")
 
+    $ tem_info_imagem = "info_pt" in data
+    $ tem_info_texto = "descricao" in data
+
     frame:
-        xpos 160
-        ypos 80
-        xsize 1600
-        ysize 900
+        xpos 675
+        ypos 60
+        xsize 570
+        ysize 960
         background Frame("gui/frame.png", 20, 20)
         padding (24, 24, 24, 24)
 
@@ -748,198 +1156,146 @@ screen detalhes_perfil(data):
 
             # Cabeçalho em estilo livro
             frame:
-                background Solid("#2d1f15")
+                background Solid("#000000")
                 xfill True
                 ysize 80
-                padding (20, 16)
+                padding (8, 0)
 
-                hbox:
-                    spacing 20
-                    xfill True
-                    yfill True
+                text "📖 " + _(data["nome"]):
+                    style "perfil_livro_titulo"
+                    xalign 0.0
+                    yalign 0.5
 
-                    text "📖 " + _(data["nome"]):
-                        style "perfil_livro_titulo"
-                        yalign 0.5
-
-                    null:
-                        xfill True
-
-                    textbutton "X":
-                        style "botao_fechar_livro"
-                        text_color "#c8b89a"
-                        xalign 1.0
-                        action Hide("detalhes_perfil")
+                textbutton "X":
+                    style "botao_fechar_livro"
+                    text_color "#c8b89a"
+                    xalign 1.0
+                    yalign 0.5
+                    action Hide("detalhes_perfil")
 
             frame:
                 background Solid("#8b5a2b")
                 xfill True
                 ysize 3
 
-            hbox:
-                spacing 20
-                xfill True
+            # Ficha de informações do personagem. A capa (data["foto"]) só
+            # aparece como miniatura no carrossel — aqui dentro do "diário"
+            # sempre mostra a ficha (ilustrada, se houver, senão em texto).
+            fixed:
+                xsize 522
                 yfill True
+                xalign 0.5
 
-                # Página esquerda com foto
-                frame:
-                    background Solid("#f0e8d8")
-                    xsize 520
-                    yfill True
-                    padding (24, 24, 24, 24)
-
-                    vbox:
-                        spacing 20
-                        xfill True
-                        yfill True
-
-                        if not data["bloqueado"] and renpy.loadable(data["foto"]):
-                            add data["foto"]:
-                                xysize (460, 460)
-                                xalign 0.5
-                                yalign 0.5
-                        else:
-                            text "???:":
-                                size 110
-                                color "#555555"
-                                xalign 0.5
-                                yalign 0.5
-
-                $ tem_ficha = ("genero" in data) or ("personalidade" in data) or ("anatomia" in data)
-
-                # Página do meio com descrição
-                frame:
-                    background Solid("#111111")
-                    if tem_ficha:
-                        xsize 400
+                if tem_info_imagem:
+                    $ lang = _preferences.language
+                    if lang == "english":
+                        $ info_foto = data.get("info_en", data["info_pt"])
+                    elif lang == "spanish":
+                        $ info_foto = data.get("info_es", data["info_pt"])
                     else:
-                        xfill True
-                    yfill True
-                    padding (24, 24, 24, 24)
+                        $ info_foto = data["info_pt"]
 
-                    viewport:
-                        xfill True
-                        yfill True
-                        mousewheel True
-                        draggable True
+                    add info_foto:
+                        xysize (522, 787)
+                        fit "contain"
 
-                        vbox:
-                            spacing 18
-
-                            text _("Descrição"):
-                                style "perfil_secao_titulo"
-
-                            text _(data["descricao"]):
-                                style "perfil_label"
-
-                            text _("História"):
-                                style "perfil_secao_titulo"
-
-                            text _(data["historia"]):
-                                style "perfil_label"
-
-                            text _("Curiosidades"):
-                                style "perfil_secao_titulo"
-
-                            text _(data["curiosidade"]):
-                                style "perfil_label"
-
-                # Página direita com a ficha (informações/personalidade/anatomia)
-                if tem_ficha:
+                elif tem_info_texto:
                     frame:
-                        background Solid("#efe6d3")
-                        xfill True
-                        yfill True
-                        padding (24, 24, 24, 24)
+                        xysize (522, 787)
+                        background Solid("#111111")
+                        padding (16, 12)
 
                         viewport:
                             xfill True
                             yfill True
-                            scrollbars "vertical"
                             mousewheel True
                             draggable True
+                            scrollbars "vertical"
 
                             vbox:
-                                xfill True
+                                xsize 476
                                 spacing 14
 
+                                text _("Descrição"):
+                                    style "perfil_secao_titulo"
+
+                                text _(data["descricao"]):
+                                    style "perfil_label"
+
+                                if "historia" in data:
+                                    text _("História"):
+                                        style "perfil_secao_titulo"
+
+                                    text _(data["historia"]):
+                                        style "perfil_label"
+
+                                if "curiosidade" in data:
+                                    text _("Curiosidades"):
+                                        style "perfil_secao_titulo"
+
+                                    text _(data["curiosidade"]):
+                                        style "perfil_label"
+
                                 if "genero" in data:
-                                    frame:
-                                        xfill True
-                                        background Solid("#e3d7c0")
-                                        padding (14, 12)
+                                    text _("INFORMAÇÕES"):
+                                        style "livro_secao_titulo"
 
-                                        vbox:
-                                            spacing 6
-                                            xfill True
+                                    text _("Gênero: ") + _(data.get("genero", "?")):
+                                        style "livro_info_texto"
 
-                                            text _("INFORMAÇÕES"):
-                                                style "livro_secao_titulo"
+                                    text _("Sexualidade: ") + _(data.get("sexualidade", "?")):
+                                        style "livro_info_texto"
 
-                                            frame:
-                                                xfill True
-                                                ysize 1
-                                                background Solid("#8b5a2b")
+                                    text _("Ocupação: ") + _(data.get("ocupacao", "?")):
+                                        style "livro_info_texto"
 
-                                            text _("Gênero: ") + _(data.get("genero", "?")):
-                                                style "livro_info_texto"
-
-                                            text _("Sexualidade: ") + _(data.get("sexualidade", "?")):
-                                                style "livro_info_texto"
-
-                                            text _("Ocupação: ") + _(data.get("ocupacao", "?")):
-                                                style "livro_info_texto"
-
-                                            text _("Espécie: ") + _(data.get("especie", "?")):
-                                                style "livro_info_texto"
+                                    text _("Espécie: ") + _(data.get("especie", "?")):
+                                        style "livro_info_texto"
 
                                 if "personalidade" in data:
-                                    frame:
-                                        xfill True
-                                        background Solid("#e3d7c0")
-                                        padding (14, 12)
+                                    text _("PERSONALIDADE"):
+                                        style "livro_secao_titulo"
 
-                                        vbox:
-                                            spacing 8
-                                            xfill True
-
-                                            text _("PERSONALIDADE"):
-                                                style "livro_secao_titulo"
-
-                                            frame:
-                                                xfill True
-                                                ysize 1
-                                                background Solid("#8b5a2b")
-
-                                            for atributo, valor in data["personalidade"].items():
-                                                use barra_atributo_ficha(atributo, valor)
+                                    for atributo, valor in data["personalidade"].items():
+                                        use barra_atributo_ficha(atributo, valor)
 
                                 if "anatomia" in data:
-                                    frame:
-                                        xfill True
-                                        background Solid("#e3d7c0")
-                                        padding (14, 12)
+                                    text _("ANATOMIA"):
+                                        style "livro_secao_titulo"
 
-                                        vbox:
-                                            spacing 6
-                                            xfill True
+                                    text _("Altura: ") + _(data["anatomia"].get("altura", "?")):
+                                        style "livro_info_texto"
 
-                                            text _("ANATOMIA"):
-                                                style "livro_secao_titulo"
+                                    text _("Peso: ") + _(data["anatomia"].get("peso", "?")):
+                                        style "livro_info_texto"
 
-                                            frame:
-                                                xfill True
-                                                ysize 1
-                                                background Solid("#8b5a2b")
+                                    text _("Raça: ") + _(data["anatomia"].get("raca", "?")):
+                                        style "livro_info_texto"
 
-                                            text _("Altura: ") + _(data["anatomia"].get("altura", "?")):
-                                                style "livro_info_texto"
+                                    text _("Tipo Sanguíneo: ") + _(data["anatomia"].get("tipo_sangue", "?")):
+                                        style "livro_info_texto"
 
-                                            text _("Peso: ") + _(data["anatomia"].get("peso", "?")):
-                                                style "livro_info_texto"
+                else:
+                    add "gui/card.png":
+                        xysize (522, 787)
 
-                                            text _("Raça: ") + _(data["anatomia"].get("raca", "?")):
-                                                style "livro_info_texto"
+                    if not data["bloqueado"] and renpy.loadable(data["foto"]):
+                        add data["foto"]:
+                            xpos 83
+                            ypos 123
+                            xsize 358
+                            ysize 570
+                            fit "cover"
+                    else:
+                        frame:
+                            background Solid("#0a0a0a")
+                            xpos 83
+                            ypos 123
+                            xsize 358
+                            ysize 570
 
-                                            text _("Tipo Sanguíneo: ") + _(data["anatomia"].get("tipo_sangue", "?")):
-                                                style "livro_info_texto"
+                            text "???":
+                                size 90
+                                color "#666666"
+                                xalign 0.5
+                                yalign 0.5
