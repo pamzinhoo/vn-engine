@@ -1456,6 +1456,27 @@ label kuroya_refeitorio:
     jump kuroya_fim_dia
 
 
+screen creditos_video():
+    modal True
+    zorder 100
+    default skip_enabled = False
+
+    add Movie(
+        play="videos/video_credito_jogo.webm",
+        size=(config.screen_width, config.screen_height),
+        loop=False
+    )
+
+    timer 5.0 action SetScreenVariable("skip_enabled", True)
+    timer 61.5 action Return()
+
+    key "dismiss" action If(skip_enabled, Return(), NullAction())
+    key "K_ESCAPE" action If(skip_enabled, Return(), NullAction())
+
+    if skip_enabled:
+        textbutton "Pular vídeo" action Return() xpos 0.97 ypos 0.04 xanchor 1.0 yanchor 0.0
+
+
 label kuroya_fim_dia:
     show screen day_locate("00", "Corredor - Casa de Banho")
 
@@ -1513,6 +1534,7 @@ label kuroya_fim_dia:
 
     scene black with fade
     pause 1.0
+    $ renpy.call_screen("creditos_video")
 
     return
 
@@ -2965,6 +2987,7 @@ label fim_dia_zero:
 
     scene black with fade
     pause 1.0
+    $ renpy.call_screen("creditos_video")
 
     return
 
