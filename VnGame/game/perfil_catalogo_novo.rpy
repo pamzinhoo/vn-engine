@@ -16,9 +16,6 @@ init python:
 init python:
     personagens_lista = [
         "Pam",
-        "Nao sei",
-        "Maya",
-        "Ethan",
         "Diretor",
         "Abby",
         "Kain",
