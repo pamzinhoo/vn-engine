@@ -102,6 +102,11 @@ default k_aulas = False
 default k_dormitorio = False
 default foi_ginasio = False
 
+transform kuroya_uniforme_entrada:
+    xalign 0.5
+    yalign 1.0
+
+
 label splashscreen:
     scene black
     show logo with Dissolve(1.5)
@@ -303,7 +308,19 @@ label start:
         show protaM
         show screen day_locate("00", "Quarto - Casa do Kuroya")
 
+        # CGs do começo do Dia 0 conforme o guia; as imagens são iguais nos idiomas.
+        scene expression "images/cg001.png" with fade
+        if _preferences.language == "english":
+            n "6:30 a.m."
+        elif _preferences.language == "spanish":
+            n "06:30 de la mañana."
+        else:
+            n "06:30 da manhã."
+
+        scene expression "images/CG002.png" with fade
         p "{cps=30}{color=#FFFFFF}O som insistente do despertador invade o silêncio do quarto.{/color}{/cps}"
+
+        scene expression "images/CG003.png" with fade
         p "{cps=30}{color=#FFFFFF}Abro os olhos lentamente.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Por alguns segundos, fico apenas encarando o teto, tentando lembrar por que diabos coloquei aquele alarme tão cedo.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
@@ -315,12 +332,15 @@ label start:
         p "{cps=30}{color=#FFFFFF}Foram semanas que passaram diante dos meus olhos sem que eu sequer percebesse.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}E agora...{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Primeiro dia de aula.{/color}{/cps}"
+        scene expression "images/CG004.png" with fade
         p "{cps=30}{color=#FFFFFF}Suspiro e me sento na cama.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}A luz fraca da manhã atravessa as cortinas, iluminando apenas uma parte do quarto.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Eu preferia que continuasse assim.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Mas não tenho escolha.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Preciso levantar.{/color}{/cps}"
+        scene expression "images/cg001.png" with fade
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+        scene expression "images/CG005.png" with fade
         p "{cps=30}{color=#FFFFFF}Esse sou eu.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Dá para perceber que eu não estou exatamente animado para ir à escola, não é?{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Apesar disso...{/color}{/cps}"
@@ -331,6 +351,7 @@ label start:
         p "{cps=30}{color=#FFFFFF}Então seria estranho dizer que não estou interessado nas aulas.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}O problema é outro.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+        scene expression "images/CG006.png" with fade
         p "{cps=30}{color=#FFFFFF}Não sei explicar..{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}É como se algo quisesse me impedir de ir…{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Minha intuição diz que não vai ser agradável.{/color}{/cps}"
@@ -345,6 +366,7 @@ label start:
         p "{cps=30}{color=#FFFFFF}Recomendaram que todos os alunos chegassem à escola às 07:00 para os check-ins.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Mas hoje vou me atrasar um pouco.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Não que isso seja um problema.{/color}{/cps}"
+        scene expression "images/CG007.png" with fade
         p "{cps=30}{color=#FFFFFF}Por ter entrado por recomendação e ser considerado um dos alunos de destaque do instituto, meu check-in já está praticamente pronto.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Meu dormitório já foi definido.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Meu armário também.{/color}{/cps}"
@@ -355,7 +377,9 @@ label start:
         p "{cps=30}{color=#FFFFFF}Só preciso chegar.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Organizar minhas coisas.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}E começar.{/color}{/cps}"
+        scene expression "images/cg001.png" with fade
         p "{cps=30}{color=#FFFFFF}…{/color}{/cps}"
+        scene expression "images/CG008.png" with fade
         p "{cps=30}{color=#FFFFFF}Deve ser por isso que estou sem pressa.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Não há necessidade de chegar cedo.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
@@ -368,14 +392,13 @@ label start:
         p "{cps=30}{color=#FFFFFF}Mas, por algum motivo, não consigo afastar esse pensamento.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Mesmo eu sendo o rei daquele lugar...{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Ele ainda vai arrancar a minha vida de mim.{/color}{/cps}"
+        scene expression "images/CG009.png" with fade
         p "{cps=30}{color=#FFFFFF}(Porta fechando){/color}{/cps}"
 
-        scene black with fade
-        pause 1.0
-        scene bg fundo with fade
-        show screen day_locate("00", "Instituto Real de York - Portões")
-
+        scene expression "images/cg001.png" with fade
         p "{cps=30}{color=#FFFFFF}(Porta do carro se fecha.){/color}{/cps}"
+        scene expression "images/CG010.png" with fade
+        show screen day_locate("00", "Instituto Real de York - Portões")
         p "{cps=30}{color=#FFFFFF}Então aqui estamos...{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Instituto Real de York.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Aquela sensação que tive em casa mais cedo...{/color}{/cps}"
@@ -387,6 +410,14 @@ label start:
         p "{cps=30}{color=#FFFFFF}Abandonar a escola?{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Não.{/color}{/cps}"
+
+        # O guia pede walker_dia.png. Se ainda não estiver na pasta, mantém o
+        # fundo que o jogo já utilizava, evitando uma referência quebrada.
+        if renpy.loadable("images/walker_dia.png"):
+            scene expression "images/walker_dia.png" with fade
+        else:
+            scene bg fundo with fade
+        show expression "images/KURO_UNIFORME_O1_B1_MC1.png" at kuroya_uniforme_entrada
         p "{cps=30}{color=#FFFFFF}Melhor parar de pensar nisso.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Olho para o relógio.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}08:25.{/color}{/cps}"
