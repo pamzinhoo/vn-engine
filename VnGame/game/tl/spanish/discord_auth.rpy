@@ -1,4 +1,4 @@
-# ARQUIVO: tl/spanish/discord_auth.rpy
+﻿# ARQUIVO: tl/spanish/discord_auth.rpy
 
 translate spanish strings:
 
@@ -28,3 +28,14 @@ translate spanish strings:
 
     old "Cancelar"
     new "Cancelar"
+# TODO: Translation updated at 2026-10-25 11:02
+
+translate spanish strings:
+
+    # game/discord_auth.rpy:476
+    old "Abra este link no navegador:"
+    new "Abre este enlace en el navegador:"
+
+    # game/discord_auth.rpy:494
+    old "e informe o código:"
+    new "e introduce el código:"

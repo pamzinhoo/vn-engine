@@ -1,4 +1,4 @@
-# ARQUIVO: tl/spanish/screens.rpy
+﻿# ARQUIVO: tl/spanish/screens.rpy
 
 translate spanish strings:
 
@@ -273,3 +273,10 @@ translate spanish strings:
     # game/screens.rpy:793
     old "by Mason Studio\n\n"
     new "por Mason Studio\n\n"
+# TODO: Translation updated at 2026-10-25 11:02
+
+translate spanish strings:
+
+    # game/screens.rpy:798
+    old "Limerence"
+    new "Limerence"

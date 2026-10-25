@@ -1,4 +1,4 @@
-# ARQUIVO: tl/english/discord_auth.rpy
+﻿# ARQUIVO: tl/english/discord_auth.rpy
 
 translate english strings:
 
@@ -28,3 +28,14 @@ translate english strings:
 
     old "Cancelar"
     new "Cancel"
+# TODO: Translation updated at 2026-10-25 11:01
+
+translate english strings:
+
+    # game/discord_auth.rpy:476
+    old "Abra este link no navegador:"
+    new "Open this link in your browser:"
+
+    # game/discord_auth.rpy:494
+    old "e informe o código:"
+    new "and enter the code:"

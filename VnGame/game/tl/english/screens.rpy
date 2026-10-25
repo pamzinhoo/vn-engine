@@ -1,4 +1,4 @@
-# ARQUIVO: tl/english/screens.rpy
+﻿# ARQUIVO: tl/english/screens.rpy
 
 # TODO: Translation updated at 2026-05-14 08:38
 
@@ -310,3 +310,10 @@ translate english strings:
     # game/screens.rpy:793
     old "by Mason Studio\n\n"
     new "by Mason Studio\n\n"
+# TODO: Translation updated at 2026-10-25 11:01
+
+translate english strings:
+
+    # game/screens.rpy:798
+    old "Limerence"
+    new "Limerence"
