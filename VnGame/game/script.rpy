@@ -52,17 +52,23 @@ define dlc_fragmentos = [
 # Ajuste aqui para testar sem mexer em cada transform individual.
 define SPRITE_SCALE_MULTIPLIER = 1.25
 
+# Deslocamento vertical de todos os sprites de personagens (pixels).
+# Valor positivo move para baixo, aproximando a barriga da caixa de dialogo.
+define SPRITE_VERTICAL_OFFSET = 100
+
 image protaF:
     "protaF.png"
     zoom 0.8 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1
+    yoffset SPRITE_VERTICAL_OFFSET
 
 image protaM:
     "protaM.png"
     zoom 0.2 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
 image bg fundo = "praca_fonte_noite.png"
 image espelho:
     "espelho.png"
@@ -111,6 +117,7 @@ transform kuroya_uniforme_entrada:
     zoom SPRITE_SCALE_MULTIPLIER
     xalign 0.5
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
 
 
 label splashscreen:
@@ -455,58 +462,69 @@ transform kuroya_route_left:
     zoom SPRITE_SCALE_MULTIPLIER
     xalign 0.28
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
 
 transform shower_kuroya:
     xalign 0.16
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.80 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_lucien:
     xalign 0.48
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.80 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_miguel:
     xalign 0.80
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.80 * SPRITE_SCALE_MULTIPLIER
 
 transform run_lucien:
     xalign 0.48
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.80 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
 transform run_miguel:
     xalign 0.80
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.80 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
 transform elizabeth_route_right:
     xalign 0.73
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.80 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_ren:
     xalign 0.10
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.58 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_august:
     xalign 0.93
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.58 * SPRITE_SCALE_MULTIPLIER
 
 transform run_ren:
     xalign 0.76
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.58 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
 transform run_august:
     xalign 0.97
     yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     zoom 0.58 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
