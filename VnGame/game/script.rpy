@@ -464,36 +464,55 @@ transform kuroya_route_left:
     yoffset SPRITE_VERTICAL_OFFSET
 
 transform shower_kuroya:
-    xalign 0.16
+    xalign 0.10
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_lucien:
-    xalign 0.48
+    xalign 0.30
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_miguel:
-    xalign 0.80
+    xalign 0.50
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
+    zoom SPRITE_SCALE_MULTIPLIER
+
+# Primeira parte da cena: so Kuroya, Lucien e Miguel, com espacos equilibrados.
+transform shower_kuroya_three:
+    xalign 0.16
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
+    zoom SPRITE_SCALE_MULTIPLIER
+
+transform shower_lucien_three:
+    xalign 0.50
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
+    zoom SPRITE_SCALE_MULTIPLIER
+
+transform shower_miguel_three:
+    xalign 0.84
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
 
 transform run_lucien:
-    xalign 0.48
+    xalign 0.14
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.45
+    linear 0.55 xalign -1.10
 
 transform run_miguel:
-    xalign 0.80
+    xalign 0.38
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.45
+    linear 0.55 xalign -0.86
 
 transform elizabeth_route_right:
     xalign 0.73
@@ -502,30 +521,30 @@ transform elizabeth_route_right:
     zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_ren:
-    xalign 0.10
+    xalign 0.70
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_august:
-    xalign 0.93
+    xalign 0.90
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
+    yoffset SPRITE_VERTICAL_OFFSET + 80
     zoom SPRITE_SCALE_MULTIPLIER
 
 transform run_ren:
-    xalign 0.76
+    xalign 0.62
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.45
+    linear 0.55 xalign -0.62
 
 transform run_august:
-    xalign 0.97
+    xalign 0.86
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
+    yoffset SPRITE_VERTICAL_OFFSET + 80
     zoom SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.45
+    linear 0.55 xalign -0.38
 
 init python:
     def show_optional_route_sprite(path, tag, at_transform, fallback=None):
@@ -756,56 +775,61 @@ label kuroya_armarios:
     p "{cps=30}{color=#FFFFFF}Uma pequena quantidade de água acerta meu rosto.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ggghhh...{/color}{/cps}"
     scene expression "images/chuveiros_dia.png" with dissolve
-    show expression "images/KURO_UNIFORME_O1_B3_MC1.png" as kuroya at shower_kuroya
-    show expression "images/LUCIEN_SPRITE_AGUA_001.png" as lucien at shower_lucien
-    show expression "images/MIGUEL_SPRITE_AGUA_001.png" as miguel at shower_miguel
+    show expression "images/KURO_UNIFORME_O1_B3_MC1.png" as kuroya at shower_kuroya_three
+    show expression "images/LUCIEN_SPRITE_AGUA_001.png" as lucien at shower_lucien_three
+    show expression "images/MIGUEL_SPRITE_AGUA_001.png" as miguel at shower_miguel_three
     desconhecido "Ih, caramba! Você acertou o garoto!"
-    show expression "images/LUCIEN_SPRITE_AGUA_002.png" as lucien at shower_lucien
-    show expression "images/MIGUEL_SPRITE_AGUA_002.png" as miguel at shower_miguel
+    show expression "images/LUCIEN_SPRITE_AGUA_002.png" as lucien at shower_lucien_three
+    show expression "images/MIGUEL_SPRITE_AGUA_002.png" as miguel at shower_miguel_three
     desconhecido "Ah! Me perdoe!"
-    show expression "images/LUCIEN_SPRITE_AGUA_001.png" as lucien at shower_lucien
-    show expression "images/MIGUEL_SPRITE_AGUA_003.png" as miguel at shower_miguel
+    show expression "images/LUCIEN_SPRITE_AGUA_001.png" as lucien at shower_lucien_three
+    show expression "images/MIGUEL_SPRITE_AGUA_003.png" as miguel at shower_miguel_three
     desconhecido "Sorte que quase não molhou ele..."
-    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya
+    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}Limpo o rosto com a mão.{/color}{/cps}"
-    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya
+    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}Haha...{/color}{/cps}"
-    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya
+    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}Tá tudo bem.{/color}{/cps}"
-    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at shower_kuroya
-    show expression "images/LUCIEN_SPRITE_AGUA_003.png" as lucien at shower_lucien
-    show expression "images/MIGUEL_SPRITE_AGUA_005.png" as miguel at shower_miguel
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at shower_kuroya_three
+    show expression "images/LUCIEN_SPRITE_AGUA_003.png" as lucien at shower_lucien_three
+    show expression "images/MIGUEL_SPRITE_AGUA_005.png" as miguel at shower_miguel_three
     p "{cps=30}{color=#FFFFFF}Olho para os dois.{/color}{/cps}"
-    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at shower_kuroya
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}Mas que merda vocês estão fazendo?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E quem são vocês?{/color}{/cps}"
-    show expression "images/MIGUEL_SPRITE_AGUA_006.png" as miguel at shower_miguel
+    show expression "images/MIGUEL_SPRITE_AGUA_006.png" as miguel at shower_miguel_three
     miguel "Eu sou Miguel Blanchet."
     miguel "Sou o vice-presidente do grêmio estudantil."
-    show expression "images/MIGUEL_SPRITE_AGUA_007.png" as miguel at shower_miguel
+    show expression "images/MIGUEL_SPRITE_AGUA_007.png" as miguel at shower_miguel_three
     miguel "Por mais que eu não aja exatamente como um..."
-    show expression "images/LUCIEN_SPRITE_AGUA_004.png" as lucien at shower_lucien
+    show expression "images/LUCIEN_SPRITE_AGUA_004.png" as lucien at shower_lucien_three
     lucien "Eu sou o Lucien."
     lucien "Sou da turma 1-A."
     p "{cps=30}{color=#FFFFFF}Hmm...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A mesma turma que a minha.{/color}{/cps}"
-    show expression "images/LUCIEN_SPRITE_AGUA_005.png" as lucien at shower_lucien
+    show expression "images/LUCIEN_SPRITE_AGUA_005.png" as lucien at shower_lucien_three
     lucien "Mesmo?!"
     lucien "Que sorte..."
-    show expression "images/LUCIEN_SPRITE_AGUA_006.png" as lucien at shower_lucien
+    show expression "images/LUCIEN_SPRITE_AGUA_006.png" as lucien at shower_lucien_three
     lucien "Então não vai nos dedurar, né?"
     p "{cps=30}{color=#FFFFFF}Não vou.{/color}{/cps}"
-    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at shower_kuroya
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}Mas, se pegarem vocês...{/color}{/cps}"
-    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}Vou me fazer de sonso.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Antes que eu pudesse terminar a frase...{/color}{/cps}"
-    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}A porta da casa de banho se abre violentamente.{/color}{/cps}"
-    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien
-    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel
+    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien_three
+    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel_three
     $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren)
     $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august)
+
+    # Reposiciona os cinco sprites para manter espacos entre todos.
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya
+    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien
+    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel
     p "{cps=30}{color=#FFFFFF}Dois funcionários aparecem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Um deles parece ser o zelador.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O outro está usando o uniforme de segurança.{/color}{/cps}"
