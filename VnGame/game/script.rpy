@@ -47,15 +47,20 @@ define dlc_fragmentos = [
     {"id": "frag10", "nome": "Fragmento X", "cargo_id": None},
 ]
 
+# Escala centralizada dos sprites de personagens:
+# 1.00 = tamanho original; 1.10 = +10%; 1.20 = +20%.
+# Ajuste aqui para testar sem mexer em cada transform individual.
+define SPRITE_SCALE_MULTIPLIER = 1.12
+
 image protaF:
     "protaF.png"
-    zoom 0.8
+    zoom 0.8 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1
 
 image protaM:
     "protaM.png"
-    zoom 0.2
+    zoom 0.2 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1.0
 image bg fundo = "praca_fonte_noite.png"
@@ -103,6 +108,7 @@ default k_dormitorio = False
 default foi_ginasio = False
 
 transform kuroya_uniforme_entrada:
+    zoom SPRITE_SCALE_MULTIPLIER
     xalign 0.5
     yalign 1.0
 
@@ -445,6 +451,77 @@ label start:
 # serem feitos, porque e la que a Elizabeth se oferece para levar a mala.
 # ============================================================================
 
+transform kuroya_route_left:
+    zoom SPRITE_SCALE_MULTIPLIER
+    xalign 0.28
+    yalign 1.0
+
+transform shower_kuroya:
+    xalign 0.16
+    yalign 1.0
+    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_lucien:
+    xalign 0.48
+    yalign 1.0
+    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_miguel:
+    xalign 0.80
+    yalign 1.0
+    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+
+transform run_lucien:
+    xalign 0.48
+    yalign 1.0
+    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.45
+
+transform run_miguel:
+    xalign 0.80
+    yalign 1.0
+    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.45
+
+transform elizabeth_route_right:
+    xalign 0.73
+    yalign 1.0
+    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_ren:
+    xalign 0.10
+    yalign 1.0
+    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_august:
+    xalign 0.93
+    yalign 1.0
+    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+
+transform run_ren:
+    xalign 0.76
+    yalign 1.0
+    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.45
+
+transform run_august:
+    xalign 0.97
+    yalign 1.0
+    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.45
+
+init python:
+    def show_optional_route_sprite(path, tag, at_transform, fallback=None):
+        """Shows a route sprite only when its image file is available."""
+        if not renpy.loadable(path):
+            if fallback and renpy.loadable(fallback):
+                path = fallback
+            else:
+                renpy.hide(tag)
+                return
+
+        renpy.show(tag, what=renpy.displayable(path), at_list=[at_transform])
+
 label hub_checkins:
     menu:
         "Verificar armários" if not k_armarios:
@@ -462,23 +539,31 @@ label hub_checkins:
 
 
 label kuroya_armarios:
-    $ k_armarios = True
     show screen day_locate("00", "Corredor dos Armários")
 
+    scene expression "images/walker_dia.png" with fade
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Acho que vou ver onde estão meus armários.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Tanto o de estudos quanto o da casa de banho.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Já aproveito para guardar o que precisa ser guardado...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E diminuir um pouco o peso da mala.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Bem...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vamos lá, então.{/color}{/cps}"
+    scene expression "images/armarios.png" with dissolve
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Começo a caminhar em direção aos corredores dos armários.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Segundo o aplicativo, meu armário é o 011.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Onde diabos fica isso?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Olho ao redor.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Estou diante dos armários 090.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Desde quando essa escola é tão grande?{/color}{/cps}"
+    hide kuroya
     p "{cps=30}{color=#FFFFFF}Começo a caminhar pelo corredor, seguindo os números conforme eles vão diminuindo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}090...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}089...{/color}{/cps}"
@@ -486,12 +571,16 @@ label kuroya_armarios:
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Isso vai demorar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Continuo andando.{/color}{/cps}"
+    scene expression "images/cg001.png" with dissolve
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/armarios.png" with dissolve
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Finalmente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Achei.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}O número 011 está bem na minha frente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Abro o armário e começo a guardar minhas coisas.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Nada demais.{/color}{/cps}"
@@ -500,45 +589,97 @@ label kuroya_armarios:
     p "{cps=30}{color=#FFFFFF}Eu sou um cara básico.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Chega até a ser sem graça, parando para pensar...{/color}{/cps}"
     desconhecido "Ah! Então é você!"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Huh?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Perdão?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Uma garota se aproxima sorrindo.{/color}{/cps}"
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Muito prazer! Eu sou Elizabeth!"
     elizabeth "Sou sua colega de quarto e sua vizinha de armário, hehe."
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Ah, sim.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_route_left
     p "{cps=30}{color=#FFFFFF}Muito prazer.{/color}{/cps}"
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Eu te vi chegando mais cedo, mas você parecia ocupado, então não quis interromper."
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Ah... Entendo.{/color}{/cps}"
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Você é de qual plano de estudos?"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Eu não tenho certeza.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ainda preciso ir verificar.{/color}{/cps}"
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO1.png", "elizabeth", elizabeth_route_right)
     elizabeth "Como assim?"
     elizabeth "Você não escolheu?"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC1.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Não exatamente.{/color}{/cps}"
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Eu entrei por recomendação, então eles decidiram o plano em que eu teria mais destaque.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Uau..."
     elizabeth "Então você entrou por recomendação?"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2_SHY.png" as kuroya at kuroya_route_left
     elizabeth "Deve ser muito inteligente para conseguir isso!"
+    $ show_optional_route_sprite("images/KURO_UNIFORME_O2_B3_MO2.png", "kuroya", kuroya_route_left, "images/KURO_UNIFORME_O1_B3_MO2.png")
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Haha...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
     p "{cps=30}{color=#FFFFFF}Obrigado.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Bem, eu estou indo para o dormitório."
     elizabeth "Quer que eu leve sua mala?"
     elizabeth "Assim você pode verificar o resto das coisas sem precisar ficar carregando peso."
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Muito obrigado.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Só vou pegar minhas coisas do próximo armário.{/color}{/cps}"
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Claro!"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Abro o armário menor ao lado e retiro minhas toalhas e alguns produtos de higiene.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Pronto.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Entrego a mala para Elizabeth.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO1.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC1.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Só, por favor...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO1.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Não mexa em nada.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Não se preocupe!"
     elizabeth "Eu não vou abrir nada."
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Muito obrigado.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MC2.png", "elizabeth", elizabeth_route_right)
     p "{cps=30}{color=#FFFFFF}Até mais.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_route_left
+    $ show_optional_route_sprite("images/ELIZ_UNIFORME_O1_B1_MO2.png", "elizabeth", elizabeth_route_right)
     elizabeth "Até mais, Kuroya!"
     p "{cps=30}{color=#FFFFFF}Ela se afasta carregando minha mala.{/color}{/cps}"
+    $ renpy.hide("elizabeth")
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Caramba.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Que garota legal.{/color}{/cps}"
@@ -551,20 +692,29 @@ label kuroya_armarios:
     p "{cps=30}{color=#FFFFFF}Agora...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É melhor ir até meu armário da casa de banho.{/color}{/cps}"
 
-    show screen day_locate("00", "Casa de Banho")
-
+    scene expression "images/armarios.png" with dissolve
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Ando até a casa de banho.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ela não fica muito distante do meu armário.{/color}{/cps}"
+    scene expression "images/cg001.png" with dissolve
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/casadebanho_dia.png" with dissolve
+    show screen day_locate("00", "Casa de Banho")
+    show expression "images/KURO_UNIFORME_O1_B4_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Uau.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não tem ninguém aqui.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Para esse horário, eu esperava encontrar uma quantidade razoável de alunos.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Melhor assim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vou só guardar minhas coisas e sair antes que mais gente chegue.{/color}{/cps}"
+    scene expression "images/CGARMARIOm_001.png" with dissolve
     p "{cps=30}{color=#FFFFFF}Abro meu armário e guardo tudo sem me preocupar muito em organizar.{/color}{/cps}"
+    scene expression "images/CGARMARIOm_002.png" with dissolve
     p "{cps=30}{color=#FFFFFF}Não é como se eu tivesse muita coisa mesmo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/casadebanho_dia.png" with dissolve
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}..!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Escuto vozes vindo do interior da casa de banho.{/color}{/cps}"
@@ -576,60 +726,111 @@ label kuroya_armarios:
     p "{cps=30}{color=#FFFFFF}Além disso, fiquei curioso.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Só espero não me deparar com uma jeba de fora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGARMARIOm_003.png" with dissolve
     p "{cps=30}{color=#FFFFFF}Me aproximo silenciosamente da parede.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Inclino a cabeça para conseguir enxergar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E começo a espionar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}..!{/color}{/cps}"
+    scene expression "images/CGARMARIOm_004.png" with dissolve
     p "{cps=30}{color=#FFFFFF}Mas que bosta é essa-?!{/color}{/cps}"
+    scene expression "images/CGARMARIOm_005.png" with dissolve
     p "{cps=30}{color=#FFFFFF}PLOFT!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Uma pequena quantidade de água acerta meu rosto.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ggghhh...{/color}{/cps}"
+    scene expression "images/chuveiros_dia.png" with dissolve
+    show expression "images/KURO_UNIFORME_O1_B3_MC1.png" as kuroya at shower_kuroya
+    show expression "images/LUCIEN_SPRITE_AGUA_001.png" as lucien at shower_lucien
+    show expression "images/MIGUEL_SPRITE_AGUA_001.png" as miguel at shower_miguel
     desconhecido "Ih, caramba! Você acertou o garoto!"
+    show expression "images/LUCIEN_SPRITE_AGUA_002.png" as lucien at shower_lucien
+    show expression "images/MIGUEL_SPRITE_AGUA_002.png" as miguel at shower_miguel
     desconhecido "Ah! Me perdoe!"
+    show expression "images/LUCIEN_SPRITE_AGUA_001.png" as lucien at shower_lucien
+    show expression "images/MIGUEL_SPRITE_AGUA_003.png" as miguel at shower_miguel
     desconhecido "Sorte que quase não molhou ele..."
+    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya
     p "{cps=30}{color=#FFFFFF}Limpo o rosto com a mão.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya
     p "{cps=30}{color=#FFFFFF}Haha...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO2.png" as kuroya at shower_kuroya
     p "{cps=30}{color=#FFFFFF}Tá tudo bem.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at shower_kuroya
+    show expression "images/LUCIEN_SPRITE_AGUA_003.png" as lucien at shower_lucien
+    show expression "images/MIGUEL_SPRITE_AGUA_005.png" as miguel at shower_miguel
     p "{cps=30}{color=#FFFFFF}Olho para os dois.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at shower_kuroya
     p "{cps=30}{color=#FFFFFF}Mas que merda vocês estão fazendo?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E quem são vocês?{/color}{/cps}"
+    show expression "images/MIGUEL_SPRITE_AGUA_006.png" as miguel at shower_miguel
     miguel "Eu sou Miguel Blanchet."
     miguel "Sou o vice-presidente do grêmio estudantil."
+    show expression "images/MIGUEL_SPRITE_AGUA_007.png" as miguel at shower_miguel
     miguel "Por mais que eu não aja exatamente como um..."
+    show expression "images/LUCIEN_SPRITE_AGUA_004.png" as lucien at shower_lucien
     lucien "Eu sou o Lucien."
     lucien "Sou da turma 1-A."
     p "{cps=30}{color=#FFFFFF}Hmm...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A mesma turma que a minha.{/color}{/cps}"
+    show expression "images/LUCIEN_SPRITE_AGUA_005.png" as lucien at shower_lucien
     lucien "Mesmo?!"
     lucien "Que sorte..."
+    show expression "images/LUCIEN_SPRITE_AGUA_006.png" as lucien at shower_lucien
     lucien "Então não vai nos dedurar, né?"
     p "{cps=30}{color=#FFFFFF}Não vou.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at shower_kuroya
     p "{cps=30}{color=#FFFFFF}Mas, se pegarem vocês...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya
     p "{cps=30}{color=#FFFFFF}Vou me fazer de sonso.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Antes que eu pudesse terminar a frase...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya
     p "{cps=30}{color=#FFFFFF}A porta da casa de banho se abre violentamente.{/color}{/cps}"
+    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien
+    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel
+    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august)
     p "{cps=30}{color=#FFFFFF}Dois funcionários aparecem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Um deles parece ser o zelador.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O outro está usando o uniforme de segurança.{/color}{/cps}"
+    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MO3.png", "august", shower_august)
     desconhecido "O QUE ESTÁ ACONTECENDO AQUI?!"
+    $ show_optional_route_sprite("images/REN_O1_B2_MO2.png", "ren", shower_ren)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august)
     desconhecido "PEGUE ELES, AUGUST!"
+    show expression "images/MIGUEL_SPRITE_AGUA_010.png" as miguel at shower_miguel
+    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august)
     miguel "Ih, molhou!"
+    show expression "images/LUCIEN_SPRITE_AGUA_008.png" as lucien at shower_lucien
     lucien "Literalmente..."
     lucien "CORRE!"
+    show expression "images/LUCIEN_SPRITE_AGUA_008.png" as lucien at run_lucien
+    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at run_miguel
     p "{cps=30}{color=#FFFFFF}Os dois saem correndo.{/color}{/cps}"
+    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", run_ren)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", run_august)
     p "{cps=30}{color=#FFFFFF}Os funcionários imediatamente vão atrás deles.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    hide lucien
+    hide miguel
+    $ renpy.hide("ren")
+    $ renpy.hide("august")
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Fico parado por alguns segundos.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Agradeço mentalmente por terem ignorado completamente a minha existência.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Melhor não me envolver.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/walker_dia.png" with dissolve
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
     p "{cps=30}{color=#FFFFFF}Saio da casa de banho ainda tentando entender o que diabos acabou de acontecer.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu só queria guardar minhas coisas.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E agora?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O que devo fazer?{/color}{/cps}"
 
+    # Só libera o dormitório quando o check-in dos armários terminou.
+    $ k_armarios = True
     jump hub_checkins
 
 label kuroya_aulas:
@@ -1487,19 +1688,24 @@ label kuroya_refeitorio:
     jump kuroya_fim_dia
 
 
+# O Movie é definido durante a inicialização; a screen apenas o exibe.
+# H.264/AAC em MP4 não é decodificado no playback desktop do Ren'Py.
+image creditos_video_displayable = Movie(
+    play="videos/creditos_dia0_final.webm",
+    size=(config.screen_width, config.screen_height),
+    loop=False
+)
+
+
 screen creditos_video():
     modal True
     zorder 100
     default skip_enabled = False
 
-    add Movie(
-        play="videos/video_credito_jogo.webm",
-        size=(config.screen_width, config.screen_height),
-        loop=False
-    )
+    add "creditos_video_displayable"
 
     timer 5.0 action SetScreenVariable("skip_enabled", True)
-    timer 61.5 action Return()
+    timer 53.5 action Return()
 
     key "dismiss" action If(skip_enabled, Return(), NullAction())
     key "K_ESCAPE" action If(skip_enabled, Return(), NullAction())

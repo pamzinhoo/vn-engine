@@ -1,4 +1,4 @@
-################################################################################
+﻿################################################################################
 ## Catálogo de Personagens — Estilo Carrossel (Inventory)
 ## Layout: 1920x1080 | Ren'Py 8.x
 ################################################################################
@@ -16,7 +16,6 @@ init python:
 init python:
     personagens_lista = [
         "Pam",
-        "Diretor",
         "Abby",
         "Kain",
         "Madelin",
@@ -114,31 +113,6 @@ init python:
         "Ethan": {
             "foto":        "foto_personagem_aqui",
             "nome":        "Ethan",
-            "descricao":   "descricao_aqui",
-            "historia":    "historia_aqui",
-            "curiosidade": "curiosidades_aqui",
-            "bloqueado":   False,
-            "genero":      "genero_aqui",
-            "sexualidade": "sexualidade_aqui",
-            "ocupacao":    "ocupacao_aqui",
-            "especie":     "especie_aqui",
-            "personalidade": {
-                "Gentileza":    50,
-                "Inteligência": 50,
-                "Seriedade":    50,
-                "Humor":        50,
-                "Saúde":        50,
-            },
-            "anatomia": {
-                "altura":      "altura_aqui",
-                "peso":        "peso_aqui",
-                "raca":        "raca_aqui",
-                "tipo_sangue": "tipo_sangue_aqui",
-            },
-        },
-        "Diretor": {
-            "foto":        "foto_personagem_aqui",
-            "nome":        "Diretor",
             "descricao":   "descricao_aqui",
             "historia":    "historia_aqui",
             "curiosidade": "curiosidades_aqui",
@@ -579,7 +553,6 @@ init python:
         "Rota de Pam",
         "Rota de Maya",
         "Rota de Ethan",
-        "Rota do Diretor",
         "Rota Neutra",
     ]
 
@@ -606,14 +579,6 @@ init python:
             "descricao":   "Siga a rota de Ethan.",
             "historia":    "Acompanhe as aventuras de Ethan.",
             "curiosidade": "Uma rota de ação.",
-            "bloqueado":   False,
-        },
-        "Rota do Diretor": {
-            "foto":        "foto_personagem_aqui",
-            "nome":        "Rota do Diretor",
-            "descricao":   "Investigue a rota do Diretor.",
-            "historia":    "Revele os planos do Diretor.",
-            "curiosidade": "Uma rota conspiratória.",
             "bloqueado":   False,
         },
         "Rota Neutra": {

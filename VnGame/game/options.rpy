@@ -218,6 +218,10 @@ init python:
     ## audio/gender_music.mp3, audio/lapis.mp3.
 
     ## 7 vídeos antigos do menu principal (~145 MB, menuofc.mp4 sozinho tem 54).
+    ## Original MP4 is kept as source only; the game uses the converted WebM.
+    build.classify('game/videos/creditos_dia0.mp4', None)
+    build.classify('game/videos/creditos_dia0.webm', None)
+
     build.classify('game/videos/main_men8.webm', None)
     build.classify('game/videos/main_menu2.webm', None)
     build.classify('game/videos/main_menu3.webm', None)
