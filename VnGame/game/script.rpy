@@ -53,7 +53,7 @@ define SPRITE_SCALE_MULTIPLIER = 1.50
 
 # Deslocamento vertical global dos sprites (pixels).
 # Valor positivo move para baixo, deixando mais do tronco por tras da caixa de dialogo.
-define SPRITE_VERTICAL_OFFSET = 350
+define SPRITE_VERTICAL_OFFSET = 450
 
 image protaF:
     "protaF.png"
@@ -467,64 +467,64 @@ transform shower_kuroya:
     xalign 0.16
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_lucien:
     xalign 0.48
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_miguel:
     xalign 0.80
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
 
 transform run_lucien:
     xalign 0.48
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
 transform run_miguel:
     xalign 0.80
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
 transform elizabeth_route_right:
     xalign 0.73
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_ren:
     xalign 0.10
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_august:
     xalign 0.93
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
 
 transform run_ren:
     xalign 0.76
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
 transform run_august:
     xalign 0.97
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.58 * SPRITE_SCALE_MULTIPLIER
+    zoom SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.45
 
 init python:
