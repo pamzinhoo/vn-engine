@@ -47,10 +47,10 @@ define dlc_fragmentos = [
     {"id": "frag10", "nome": "Fragmento X", "cargo_id": None},
 ]
 
-# Escala centralizada dos sprites de personagens:
-# 1.00 = tamanho original; 1.10 = +10%; 1.20 = +20%.
+# Escala centralizada de TODOS os sprites de personagens exibidos em cena:
+# 1.00 = tamanho original; 1.10 = +10%; 1.25 = +25%.
 # Ajuste aqui para testar sem mexer em cada transform individual.
-define SPRITE_SCALE_MULTIPLIER = 1.12
+define SPRITE_SCALE_MULTIPLIER = 1.25
 
 image protaF:
     "protaF.png"
