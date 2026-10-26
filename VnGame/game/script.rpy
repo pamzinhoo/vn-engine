@@ -47,14 +47,13 @@ define dlc_fragmentos = [
     {"id": "frag10", "nome": "Fragmento X", "cargo_id": None},
 ]
 
-# Escala centralizada de TODOS os sprites de personagens exibidos em cena:
-# 1.00 = tamanho original; 1.10 = +10%; 1.25 = +25%.
-# Ajuste aqui para testar sem mexer em cada transform individual.
-define SPRITE_SCALE_MULTIPLIER = 1.25
+# Escala global de todos os sprites de personagens exibidos em cena.
+# 1.00 = tamanho original; 1.50 = ampliacao de 50%.
+define SPRITE_SCALE_MULTIPLIER = 1.50
 
-# Deslocamento vertical de todos os sprites de personagens (pixels).
-# Valor positivo move para baixo, aproximando a barriga da caixa de dialogo.
-define SPRITE_VERTICAL_OFFSET = 100
+# Deslocamento vertical global dos sprites (pixels).
+# Valor positivo move para baixo, deixando mais do tronco por tras da caixa de dialogo.
+define SPRITE_VERTICAL_OFFSET = 350
 
 image protaF:
     "protaF.png"
