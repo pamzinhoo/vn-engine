@@ -50,6 +50,8 @@ define dlc_fragmentos = [
 # Escala global de todos os sprites de personagens exibidos em cena.
 # 1.00 = tamanho original; 1.50 = ampliacao de 50%.
 define SPRITE_SCALE_MULTIPLIER = 1.50
+# Kuroya recebe um aumento adicional nas cenas individuais e de trio.
+define KUROYA_SCALE_MULTIPLIER = SPRITE_SCALE_MULTIPLIER * 1.15
 
 # Deslocamento vertical global dos sprites (pixels).
 # Valor positivo move para baixo, deixando mais do tronco por tras da caixa de dialogo.
@@ -64,7 +66,7 @@ image protaF:
 
 image protaM:
     "protaM.png"
-    zoom 0.2 * SPRITE_SCALE_MULTIPLIER
+    zoom 0.23 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
@@ -113,7 +115,7 @@ default k_dormitorio = False
 default foi_ginasio = False
 
 transform kuroya_uniforme_entrada:
-    zoom SPRITE_SCALE_MULTIPLIER
+    zoom KUROYA_SCALE_MULTIPLIER
     xalign 0.5
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
@@ -458,7 +460,7 @@ label start:
 # ============================================================================
 
 transform kuroya_route_left:
-    zoom SPRITE_SCALE_MULTIPLIER
+    zoom KUROYA_SCALE_MULTIPLIER
     xalign 0.28
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
@@ -486,7 +488,7 @@ transform shower_kuroya_three:
     xalign 0.16
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
+    zoom KUROYA_SCALE_MULTIPLIER
 
 transform shower_lucien_three:
     xalign 0.50
@@ -504,14 +506,14 @@ transform run_lucien:
     xalign 0.14
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -1.10
 
 transform run_miguel:
     xalign 0.38
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.86
 
 transform elizabeth_route_right:
@@ -532,18 +534,49 @@ transform shower_august:
     yoffset SPRITE_VERTICAL_OFFSET + 80
     zoom SPRITE_SCALE_MULTIPLIER
 
+# Layout próprio para a formação de cinco personagens; a escala menor evita sobreposição.
+transform shower_kuroya_group:
+    xalign 0.10
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
+    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_lucien_group:
+    xalign 0.30
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_miguel_group:
+    xalign 0.50
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_ren_group:
+    xalign 0.70
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+
+transform shower_august_group:
+    xalign 0.90
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET + 80
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+
 transform run_ren:
     xalign 0.62
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.62
 
 transform run_august:
     xalign 0.86
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET + 80
-    zoom SPRITE_SCALE_MULTIPLIER
+    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
     linear 0.55 xalign -0.38
 
 init python:
@@ -823,27 +856,27 @@ label kuroya_armarios:
     p "{cps=30}{color=#FFFFFF}A porta da casa de banho se abre violentamente.{/color}{/cps}"
     show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien_three
     show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel_three
-    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren)
-    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august)
+    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren_group)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august_group)
 
-    # Reposiciona os cinco sprites para manter espacos entre todos.
-    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya
-    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien
-    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel
+    # Reposiciona os cinco sprites em uma fileira com espacamento uniforme.
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya_group
+    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien_group
+    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel_group
     p "{cps=30}{color=#FFFFFF}Dois funcionários aparecem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Um deles parece ser o zelador.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O outro está usando o uniforme de segurança.{/color}{/cps}"
-    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren)
-    $ show_optional_route_sprite("images/AUG_O1_B2_MO3.png", "august", shower_august)
+    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren_group)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MO3.png", "august", shower_august_group)
     desconhecido "O QUE ESTÁ ACONTECENDO AQUI?!"
-    $ show_optional_route_sprite("images/REN_O1_B2_MO2.png", "ren", shower_ren)
-    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august)
+    $ show_optional_route_sprite("images/REN_O1_B2_MO2.png", "ren", shower_ren_group)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august_group)
     desconhecido "PEGUE ELES, AUGUST!"
-    show expression "images/MIGUEL_SPRITE_AGUA_010.png" as miguel at shower_miguel
-    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren)
-    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august)
+    show expression "images/MIGUEL_SPRITE_AGUA_010.png" as miguel at shower_miguel_group
+    $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren_group)
+    $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august_group)
     miguel "Ih, molhou!"
-    show expression "images/LUCIEN_SPRITE_AGUA_008.png" as lucien at shower_lucien
+    show expression "images/LUCIEN_SPRITE_AGUA_008.png" as lucien at shower_lucien_group
     lucien "Literalmente..."
     lucien "CORRE!"
     show expression "images/LUCIEN_SPRITE_AGUA_008.png" as lucien at run_lucien
