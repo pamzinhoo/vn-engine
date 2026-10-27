@@ -50,8 +50,11 @@ define dlc_fragmentos = [
 # Escala global de todos os sprites de personagens exibidos em cena.
 # 1.00 = tamanho original; 1.50 = ampliacao de 50%.
 define SPRITE_SCALE_MULTIPLIER = 1.50
-# Kuroya recebe um aumento adicional nas cenas individuais e de trio.
-define KUROYA_SCALE_MULTIPLIER = SPRITE_SCALE_MULTIPLIER * 1.15
+# Posicoes horizontais padrao para cenas com exatamente dois personagens.
+define TWO_PERSON_LEFT_X = 0.25
+define TWO_PERSON_RIGHT_X = 0.76
+# Escala do Kuroya volta a seguir a escala global.
+define KUROYA_SCALE_MULTIPLIER = SPRITE_SCALE_MULTIPLIER
 
 # Deslocamento vertical global dos sprites (pixels).
 # Valor positivo move para baixo, deixando mais do tronco por tras da caixa de dialogo.
@@ -118,7 +121,7 @@ transform kuroya_uniforme_entrada:
     zoom KUROYA_SCALE_MULTIPLIER
     xalign 0.5
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
+    yoffset SPRITE_VERTICAL_OFFSET - 100
 
 
 label splashscreen:
@@ -183,42 +186,42 @@ label start:
 
     scene bg fundo
     with fade_black # isso deixa
-    
+
 
     if persistent.genero == "mulher":
-        $ nome_prota = "Kiyoki Kovalenko" 
-        
+        $ nome_prota = "Kiyoki Kovalenko"
+
         show screen day_locate("00", "Escola - Corredor")
         p "{cps=30}{color=#FFFFFF}Mal consigo abrir os olhos.{/color}{/cps}" #cama
-        
+
         p "{cps=30}{color=#FFFFFF}Minhas pálpebras pesam, e o cansaço parece grudado no meu corpo.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}Mas não é como se eu tivesse escolha.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}Minhas malas já estão prontas.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}Eu só preciso me arrumar… e ir pro aeroporto.{/color}{/cps}"
-        
+
         scene black with fade
         pause 1.0
         scene bg fundo with fade
-        
-        
+
+
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
         p "{cps=30}{color=#FFFFFF}Essa sou eu.{/color}{/cps}"# mostrar o espelho aqui, talvez?
-        
+
         p "{cps=30}{color=#FFFFFF}Descabelada. Exausta.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}Não que isso seja novidade.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}Cabelo cacheado não é exatamente… prático.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#0099cc}(suspiro){/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
-        
-       
+
+
 
         p "{cps=30}{color=#FFFFFF}Hoje é o dia da minha viagem de volta.{/color}{/cps}"
 
@@ -233,9 +236,9 @@ label start:
         p "{cps=30}{color=#FFFFFF}Eu nasci na Europa.{/color}{/cps}"
 
         p "{cps=30}{color=#FFFFFF}Mais especificamente em York , uma cidade da Inglaterra.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}É pra lá que eu estou voltando agora.{/color}{/cps}"
-        
+
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Vinte e duas horas de viagem.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}E, quando eu chegar, ainda vou ter que pegar um ônibus.{/color}{/cps}"
@@ -461,15 +464,15 @@ label start:
 
 transform kuroya_route_left:
     zoom KUROYA_SCALE_MULTIPLIER
-    xalign 0.28
+    xalign 1
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
+    yoffset SPRITE_VERTICAL_OFFSET - 150
 
 transform shower_kuroya:
-    xalign 0.10
+    xalign 1
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
+    yoffset SPRITE_VERTICAL_OFFSET - 150
+    zoom KUROYA_SCALE_MULTIPLIER
 
 transform shower_lucien:
     xalign 0.30
@@ -483,43 +486,45 @@ transform shower_miguel:
     yoffset SPRITE_VERTICAL_OFFSET
     zoom SPRITE_SCALE_MULTIPLIER
 
-# Primeira parte da cena: so Kuroya, Lucien e Miguel, com espacos equilibrados.
+# Primeira parte da cena: tres personagens com espaco no eixo X.
 transform shower_kuroya_three:
-    xalign 0.16
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
+    xalign 0.001
+    yalign 1.1
+    xoffset - 80
+    yoffset SPRITE_VERTICAL_OFFSET - 40
     zoom KUROYA_SCALE_MULTIPLIER
 
 transform shower_lucien_three:
     xalign 0.50
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
+    yalign 1.6
+    yoffset SPRITE_VERTICAL_OFFSET + 130
+    zoom 0.90 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_miguel_three:
-    xalign 0.84
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
+    xalign 0.88
+    xoffset 100
+    yalign 1.7
+    yoffset SPRITE_VERTICAL_OFFSET + 130
+    zoom 0.90 * SPRITE_SCALE_MULTIPLIER
 
 transform run_lucien:
-    xalign 0.14
+    xalign 0.12
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -1.10
+    yoffset SPRITE_VERTICAL_OFFSET - 350
+    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.88
 
 transform run_miguel:
-    xalign 0.38
+    xalign 0.37
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.86
+    yoffset SPRITE_VERTICAL_OFFSET - 350
+    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.63
 
 transform elizabeth_route_right:
-    xalign 0.73
+    xalign 0.76
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
+    yoffset SPRITE_VERTICAL_OFFSET - 150
     zoom SPRITE_SCALE_MULTIPLIER
 
 transform shower_ren:
@@ -534,50 +539,56 @@ transform shower_august:
     yoffset SPRITE_VERTICAL_OFFSET + 80
     zoom SPRITE_SCALE_MULTIPLIER
 
-# Layout próprio para a formação de cinco personagens; a escala menor evita sobreposição.
+# Grupo de cinco personagens: escala e offsets exclusivos deste grupo.
 transform shower_kuroya_group:
-    xalign 0.10
+    xalign 0.08
+    xoffset -20
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.80 * SPRITE_SCALE_MULTIPLIER
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * KUROYA_SCALE_MULTIPLIER
 
 transform shower_lucien_group:
-    xalign 0.30
+    xalign 0.28
+    xoffset -10
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_miguel_group:
-    xalign 0.50
+    xalign 0.48
+    xoffset 55
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_ren_group:
-    xalign 0.70
+    xalign 0.68
+    xoffset -55
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_august_group:
-    xalign 0.90
+    xalign 0.88
+    xoffset 35
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET + 80
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
+    yoffset SPRITE_VERTICAL_OFFSET - 370
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
+# Os quatro mantem a distancia horizontal durante todo o movimento.
 transform run_ren:
-    xalign 0.62
+    xalign 0.63
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.62
+    yoffset SPRITE_VERTICAL_OFFSET - 350
+    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.37
 
 transform run_august:
-    xalign 0.86
+    xalign 0.88
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET + 80
-    zoom 0.70 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.38
+    yoffset SPRITE_VERTICAL_OFFSET - 270
+    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.12
 
 init python:
     def show_optional_route_sprite(path, tag, at_transform, fallback=None):
@@ -854,12 +865,12 @@ label kuroya_armarios:
     p "{cps=30}{color=#FFFFFF}Antes que eu pudesse terminar a frase...{/color}{/cps}"
     show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya_three
     p "{cps=30}{color=#FFFFFF}A porta da casa de banho se abre violentamente.{/color}{/cps}"
-    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien_three
-    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel_three
+    show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien_group
+    show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel_group
     $ show_optional_route_sprite("images/REN_O1_B2_MC1.png", "ren", shower_ren_group)
     $ show_optional_route_sprite("images/AUG_O1_B2_MC1.png", "august", shower_august_group)
 
-    # Reposiciona os cinco sprites em uma fileira com espacamento uniforme.
+    # Reposiciona os cinco sprites com espaco horizontal regular.
     show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at shower_kuroya_group
     show expression "images/LUCIEN_SPRITE_AGUA_007.png" as lucien at shower_lucien_group
     show expression "images/MIGUEL_SPRITE_AGUA_008.png" as miguel at shower_miguel_group
