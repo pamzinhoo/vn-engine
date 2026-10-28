@@ -508,18 +508,20 @@ transform shower_miguel_three:
     zoom 0.90 * SPRITE_SCALE_MULTIPLIER
 
 transform run_lucien:
-    xalign 0.12
+    xalign 0.23
+    xoffset -10
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 350
-    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.88
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.77
 
 transform run_miguel:
-    xalign 0.37
+    xalign 0.42
+    xoffset 55
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 350
-    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.63
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -0.58
 
 transform elizabeth_route_right:
     xalign 0.76
@@ -539,56 +541,59 @@ transform shower_august:
     yoffset SPRITE_VERTICAL_OFFSET + 80
     zoom SPRITE_SCALE_MULTIPLIER
 
-# Grupo de cinco personagens: escala e offsets exclusivos deste grupo.
+# Grupo de cinco personagens: espacamento horizontal calculado para as areas visiveis dos PNGs.
+# As posicoes X sao exclusivas deste grupo; escala e altura permanecem inalteradas.
 transform shower_kuroya_group:
-    xalign 0.08
+    xalign -0.10
     xoffset -20
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * KUROYA_SCALE_MULTIPLIER
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_lucien_group:
-    xalign 0.28
+    xalign 0.23
     xoffset -10
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET - 450
     zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_miguel_group:
-    xalign 0.48
+    xalign 0.42
     xoffset 55
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET - 450
     zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_ren_group:
-    xalign 0.68
+    xalign 0.88
     xoffset -55
     yalign 1.0
     yoffset SPRITE_VERTICAL_OFFSET - 450
     zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 transform shower_august_group:
-    xalign 0.88
+    xalign 1.04
     xoffset 35
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 370
+    yoffset SPRITE_VERTICAL_OFFSET - 450
     zoom 0.64 * SPRITE_SCALE_MULTIPLIER
 
 # Os quatro mantem a distancia horizontal durante todo o movimento.
 transform run_ren:
-    xalign 0.63
+    xalign 0.88
+    xoffset -55
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 350
-    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.37
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -1.20
 
 transform run_august:
-    xalign 0.88
+    xalign 1.04
+    xoffset 35
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 270
-    zoom 0.56 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.12
+    yoffset SPRITE_VERTICAL_OFFSET - 450
+    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    linear 0.55 xalign -1.20
 
 init python:
     def show_optional_route_sprite(path, tag, at_transform, fallback=None):
