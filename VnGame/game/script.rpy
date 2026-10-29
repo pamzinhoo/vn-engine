@@ -60,6 +60,45 @@ define KUROYA_SCALE_MULTIPLIER = SPRITE_SCALE_MULTIPLIER
 # Valor positivo move para baixo, deixando mais do tronco por tras da caixa de dialogo.
 define SPRITE_VERTICAL_OFFSET = 450
 
+# Padrao de TODOS os sprites de personagem (os atuais e os que forem entrando).
+# Todos os PNGs de personagem tem 810x1080, entao o mesmo zoom da o mesmo tamanho.
+# O tamanho base e 20% menor que a escala antiga do Kuroya, e diminui mais
+# conforme a quantidade de personagens na cena. As posicoes seguem o padrao de
+# visual novel: a tela e dividida em "total" faixas iguais e cada personagem
+# fica no meio da sua (1 = centro; 2 = um de cada lado; 3 = esquerda/meio/direita).
+# Para um sprite novo:
+#     show expression "images/NOME.png" as tag at personagem(posicao, total)
+# posicao comeca em 0 (mais a esquerda). Ex.: dois na cena -> personagem(0, 2)
+# e personagem(1, 2).
+define PERSONAGEM_ZOOM = KUROYA_SCALE_MULTIPLIER * 0.80
+# total de personagens: (multiplicador do zoom, yoffset em pixels, largura usada).
+# O yoffset diminui junto com o zoom para as cabecas ficarem na mesma faixa.
+# A largura e a fracao da tela dividida entre eles (1.0 = tela toda); menor
+# que 1 aproxima os personagens do centro.
+define PERSONAGEM_LAYOUT = {
+    1: (1.00, 240, 1.00),
+    2: (1.00, 240, 0.72),
+    3: (1.13, 196, 1.01),
+    4: (0.80, 90, 1.00),
+    5: (0.98, 169, 0.98),
+}
+define PERSONAGEM_LAYOUT_LOTADO = (0.65, 20, 1.00)
+
+transform personagem(posicao=0, total=1):
+    xanchor 0.5
+    xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
+    yalign 1.0
+    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1]
+    zoom PERSONAGEM_ZOOM * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[0]
+
+# Se um personagem for mostrado sem "at", ele entra no centro ja no padrao.
+init python:
+    for _tag in ("kuroya", "elizabeth", "lucien", "miguel", "ren", "august",
+                 "madelin", "rentaro", "aurore", "kain", "abby", "lauane",
+                 "arlyson", "bibliotecaria", "recepcionista", "atendente",
+                 "funcionario", "desconhecido"):
+        config.tag_transform[_tag] = personagem
+
 image protaF:
     "protaF.png"
     zoom 0.8 * SPRITE_SCALE_MULTIPLIER
@@ -118,10 +157,7 @@ default k_dormitorio = False
 default foi_ginasio = False
 
 transform kuroya_uniforme_entrada:
-    zoom KUROYA_SCALE_MULTIPLIER
-    xalign 0.5
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 100
+    personagem(0, 1)
 
 
 label splashscreen:
@@ -463,137 +499,54 @@ label start:
 # ============================================================================
 
 transform kuroya_route_left:
-    zoom KUROYA_SCALE_MULTIPLIER
-    xalign 1
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 150
+    personagem(0, 2)
 
-transform shower_kuroya:
-    xalign 1
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 150
-    zoom KUROYA_SCALE_MULTIPLIER
-
-transform shower_lucien:
-    xalign 0.30
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
-
-transform shower_miguel:
-    xalign 0.50
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
-
-# Primeira parte da cena: tres personagens com espaco no eixo X.
+# Cena do chuveiro com tres personagens.
 transform shower_kuroya_three:
-    xalign 0.001
-    yalign 1.1
-    xoffset - 80
-    yoffset SPRITE_VERTICAL_OFFSET - 40
-    zoom KUROYA_SCALE_MULTIPLIER
+    personagem(0, 3)
 
 transform shower_lucien_three:
-    xalign 0.50
-    yalign 1.6
-    yoffset SPRITE_VERTICAL_OFFSET + 130
-    zoom 0.90 * SPRITE_SCALE_MULTIPLIER
+    personagem(2, 3)
 
 transform shower_miguel_three:
-    xalign 0.88
-    xoffset 100
-    yalign 1.7
-    yoffset SPRITE_VERTICAL_OFFSET + 130
-    zoom 0.90 * SPRITE_SCALE_MULTIPLIER
+    personagem(1, 3)
 
+# Saem correndo pela esquerda mantendo a distancia do grupo de cinco.
 transform run_lucien:
-    xalign 0.23
-    xoffset -10
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.77
+    personagem(4, 5)
+    linear 0.55 xoffset -2100
 
 transform run_miguel:
-    xalign 0.42
-    xoffset 55
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -0.58
+    personagem(3, 5)
+    linear 0.55 xoffset -2100
 
 transform elizabeth_route_right:
-    xalign 0.76
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 150
-    zoom SPRITE_SCALE_MULTIPLIER
+    personagem(1, 2)
 
-transform shower_ren:
-    xalign 0.70
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
-    zoom SPRITE_SCALE_MULTIPLIER
-
-transform shower_august:
-    xalign 0.90
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET + 80
-    zoom SPRITE_SCALE_MULTIPLIER
-
-# Grupo de cinco personagens: espacamento horizontal calculado para as areas visiveis dos PNGs.
-# As posicoes X sao exclusivas deste grupo; escala e altura permanecem inalteradas.
+# Grupo de cinco personagens.
 transform shower_kuroya_group:
-    xalign -0.10
-    xoffset -20
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    personagem(2, 5)
 
 transform shower_lucien_group:
-    xalign 0.23
-    xoffset -10
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    personagem(4, 5)
 
 transform shower_miguel_group:
-    xalign 0.42
-    xoffset 55
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    personagem(3, 5)
 
 transform shower_ren_group:
-    xalign 0.88
-    xoffset -55
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    personagem(1, 5)
 
 transform shower_august_group:
-    xalign 1.04
-    xoffset 35
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
+    personagem(0, 5)
 
 # Os quatro mantem a distancia horizontal durante todo o movimento.
 transform run_ren:
-    xalign 0.88
-    xoffset -55
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -1.20
+    personagem(1, 5)
+    linear 0.55 xoffset -2100
 
 transform run_august:
-    xalign 1.04
-    xoffset 35
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET - 450
-    zoom 0.64 * SPRITE_SCALE_MULTIPLIER
-    linear 0.55 xalign -1.20
+    personagem(0, 5)
+    linear 0.55 xoffset -2100
 
 init python:
     def show_optional_route_sprite(path, tag, at_transform, fallback=None):
