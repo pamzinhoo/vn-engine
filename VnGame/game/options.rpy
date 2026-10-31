@@ -38,7 +38,7 @@ Direção & Roteiro\nSagurito
 
 Arte\nSagurito
 
-Programação\nPam • Elias
+Programação\nPam • Kaelith
 
 Músicas\nDog Hero • 6Lukas9
 
