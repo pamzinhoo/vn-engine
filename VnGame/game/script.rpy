@@ -84,6 +84,12 @@ define PERSONAGEM_LAYOUT = {
 }
 define PERSONAGEM_LAYOUT_LOTADO = (0.65, 20, 1.00)
 
+# Esmaecimento das trocas de sprite. Ajuste a duracao aqui que vale para
+# toda a rota. PERSONAGEM = alguem entrando ou saindo de cena;
+# CENA = troca de fundo sem corte seco. Troca de expressao e instantanea.
+define ESMAECER_PERSONAGEM = Dissolve(0.50)
+define ESMAECER_CENA = Dissolve(0.35)
+
 transform personagem(posicao=0, total=1):
     xanchor 0.5
     xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
@@ -470,7 +476,7 @@ label start:
             scene expression "images/walker_dia.png" with fade
         else:
             scene bg fundo with fade
-        show expression "images/KURO_UNIFORME_O1_B1_MC1.png" at kuroya_uniforme_entrada
+        show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at kuroya_uniforme_entrada
         p "{cps=30}{color=#FFFFFF}Melhor parar de pensar nisso.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Olho para o relógio.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}08:25.{/color}{/cps}"
@@ -880,15 +886,24 @@ label kuroya_aulas:
     $ k_aulas = True
     show screen day_locate("00", "Biblioteca")
 
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Acho que devo verificar minhas aulas...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O cronograma está disponível no aplicativo, mas...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É sempre bom ter uma cópia impressa também.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Nunca se sabe quando vou precisar dela.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vamos lá então.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    hide kuroya
+    with fade
     p "{cps=30}{color=#FFFFFF}Caminho pelos corredores em direção à biblioteca.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Conforme me aproximo, começo a ouvir vozes vindo de dentro.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Quando entro...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/biblioteca_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with fade
     p "{cps=30}{color=#FFFFFF}Tem bastante gente aqui.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Então é por isso que não encontrei quase ninguém pelos corredores.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Boa parte dos alunos deve estar aqui fazendo seus próprios check-ins.{/color}{/cps}"
@@ -897,43 +912,84 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}Mas não tenho muito tempo para ficar admirando.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vou apenas pegar meu cronograma e ir embora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Me aproximo do balcão.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Com licença.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/BIB_O1_B1_MC2.png" as bibliotecaria at personagem(1, 2)
+    with ESMAECER_PERSONAGEM
     p "{cps=30}{color=#FFFFFF}Eu queria meu cronograma de aulas impresso.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/BIB_O1_B1_MO3.png" as bibliotecaria at personagem(1, 2)
     bibliotecaria "A biblioteca está lotada, espere na fila..."
+    show expression "images/BIB_O1_B1_MC1.png" as bibliotecaria at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}A bibliotecária olha para mim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Por alguns segundos, fica em silêncio.{/color}{/cps}"
+    show expression "images/BIB_O1_B1_MO3.png" as bibliotecaria at personagem(1, 2)
     bibliotecaria "Oh!"
     bibliotecaria "Kuroya!"
+    show expression "images/BIB_O1_B1_MO2.png" as bibliotecaria at personagem(1, 2)
     bibliotecaria "Claro, só um momentinho. Vou pegar seu cronograma."
+    hide bibliotecaria
+    show expression "images/KURO_UNIFORME_O1_B3_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_PERSONAGEM
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Que vergonha.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Sinto vários olhares vindo da fila.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu gosto de tratamento especial, mas...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não quando ele é tão descarado assim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Parece que estou furando a fila na frente de todo mundo.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B1_MC1.png" as arlyson at personagem(1, 2)
+    with ESMAECER_PERSONAGEM
     p "{cps=30}{color=#FFFFFF}Tá olhando o quê?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC1.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}O aluno desvia o olhar imediatamente.{/color}{/cps}"
+    hide arlyson
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_PERSONAGEM
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}A bibliotecária volta com uma folha em mãos.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/BIB_O1_B1_MO1.png" as bibliotecaria at personagem(1, 2)
+    with ESMAECER_PERSONAGEM
     bibliotecaria "Aqui está, Kuroya."
     bibliotecaria "Seu cronograma de aulas."
     bibliotecaria "Agora, se me der licença, por favor."
     bibliotecaria "Tenho inúmeros alunos para atender."
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/BIB_O1_B1_MC2.png" as bibliotecaria at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Tudo bem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Muito obrigado!{/color}{/cps}"
+    scene expression "images/cg001.png"
+    hide kuroya
+    hide bibliotecaria
+    with fade
     p "{cps=30}{color=#FFFFFF}Pego a folha e saio da biblioteca quase sendo empurrado pela quantidade de gente.{/color}{/cps}"
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B3_MC1.png" as kuroya at personagem(0, 1)
+    with fade
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não tive nem tempo de olhar a biblioteca direito.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Que merda.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Eu poderia voltar mais tarde...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas acho que já vi o suficiente por enquanto.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Hm?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Acho que ouvi alguma coisa.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olho para o lado.{/color}{/cps}"
+    scene expression "images/muro_dia.png"
+    hide kuroya
+    with fade
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Parece que veio daquele muro.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Que estranho.{/color}{/cps}"
@@ -954,6 +1010,8 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Quem será que está ali?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não parece ter ninguém por perto.{/color}{/cps}"
+    scene expression "images/CG001_biblioteca.png"
+    with fade
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}!!!!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A árvore.{/color}{/cps}"
@@ -979,9 +1037,13 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu vou fazer isso.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with dissolve
     p "{cps=30}{color=#FFFFFF}Continuo subindo até alcançar um dos galhos mais altos.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Me sento cuidadosamente sobre ele.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CG003_biblioteca.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olho para baixo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
@@ -1029,6 +1091,8 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}Não.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}CRAC!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não, não, não...{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}AAAAAAAAAAHHHH!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}POW!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
@@ -1038,23 +1102,37 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Meu uniforme está cheio de folhas.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ótimo.{/color}{/cps}"
+    scene expression "images/muro_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Levanto-me e começo a limpar a roupa.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Quando olho novamente para o muro...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Não consigo mais ver os dois.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Droga.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu estava perto de descobrir alguma informação importante.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Talvez eu devesse avisar o diretor.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não sei.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Acho melhor esperar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É difícil imaginar que esses dois realmente consigam entrar aqui.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Principalmente com aqueles seguranças que parecem geladeiras de tão grandes.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Mas se eu vir aqueles dois aqui dentro...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não vou ficar quieto.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Por enquanto, é melhor voltar aos meus afazeres.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não preciso transformar uma suspeita em um problema antes mesmo das aulas começarem.{/color}{/cps}"
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with fade
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Por agora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Bem…{/color}{/cps}"
@@ -1067,39 +1145,62 @@ label kuroya_dormitorio:
     $ k_dormitorio = True
     show screen day_locate("00", "Campus dos Dormitórios")
 
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Vou logo para o meu dormitório.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Creio que seja o mais importante também.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Arrumar um quarto sempre parece algo tão simples...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E leva tantas horas.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Melhor eu me apressar.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    hide kuroya
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Começo a andar em direção à recepção dos dormitórios.{/color}{/cps}"
+    scene expression "images/recepção_dormitorios_dia.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Passo pela catraca e sigo em frente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Já tenho minha chave, então simplesmente ignoro a recepcionista.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Nem dei oi.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ela não merece.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with fade
     p "{cps=30}{color=#FFFFFF}Chego ao campus dos prédios.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/campus_dormitorios_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B4_MC2.png" as kuroya at personagem(0, 1)
+    with fade
     p "{cps=30}{color=#FFFFFF}Uau.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Realmente não esperava encontrar um lugar tão grande e bonito.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Os prédios são enormes e parecem muito bem cuidados.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Até que essa escola não é tão ruim.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vamos logo, né?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olho para a chave em minha mão.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A37.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Prédio A.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Terceiro andar.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    hide kuroya
+    with fade
     p "{cps=30}{color=#FFFFFF}Começo a caminhar em direção ao prédio indicado.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Entro no prédio A e vou direto para o elevador.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Aperto o botão do terceiro andar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/corredor_dormitorios_dia.png"
+    with fade
     p "{cps=30}{color=#FFFFFF}Alguns segundos depois, as portas se abrem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Caminho pelo corredor até encontrar meu dormitório.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A37.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Aproximo meu cartão da fechadura.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}BIP.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}A porta destrava.{/color}{/cps}"
+    scene expression "images/dorm_eliza_dia.png"
+    with fade
     p "{cps=30}{color=#FFFFFF}Entro.{/color}{/cps}"
 
     show screen day_locate("00", "Dormitório A37")
@@ -1121,10 +1222,14 @@ label kuroya_dormitorio:
     p "{cps=30}{color=#FFFFFF}Organizo minha mesa de estudos.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Minha cama.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Minha cama...{/color}{/cps}"
+    scene expression "images/dorm_eliza_Kuroya_dia.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Minha parede.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Minha parede...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Meu armário.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Meu armário...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
+    with ESMAECER_PERSONAGEM
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Agora está tudo no lugar.{/color}{/cps}"
@@ -1132,12 +1237,17 @@ label kuroya_dormitorio:
     p "{cps=30}{color=#FFFFFF}Só sobrou uma coisa.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Meu livro.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Há uma marca de dedo na capa.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O2_B2_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Ela encostou nele.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O2_B3_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Tudo bem.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Ela provavelmente nem leu.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Deve ter apenas mexido para colocar minha mala em algum lugar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vou guardar.{/color}{/cps}"
@@ -1151,6 +1261,8 @@ label kuroya_dormitorio:
     p "{cps=30}{color=#FFFFFF}Minha cama está arrumada.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Minha mesa está organizada.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Minhas coisas estão guardadas.{/color}{/cps}"
+    scene expression "images/walker_dia.png"
+    with fade
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Finalmente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Posso descansar.{/color}{/cps}"
@@ -1162,6 +1274,9 @@ label kuroya_dormitorio:
 label kuroya_exploracao:
     show screen day_locate("00", "Campus")
 
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Já está de tarde.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O tempo passou bem mais rápido do que eu esperava.{/color}{/cps}"
