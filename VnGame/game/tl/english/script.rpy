@@ -28267,3 +28267,11 @@ translate english colega_quarto_novo_266f5ffa:
 
     # p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}I fall asleep.{/color}{/cps}"
+
+translate english start_5f255b60:
+
+    # p "{cps=30}{color=#FFFFFF}(porta fechando){/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}(Door closing){/color}{/cps}"
+
+
+

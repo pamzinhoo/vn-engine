@@ -27520,3 +27520,11 @@ translate spanish colega_quarto_novo_266f5ffa:
 
     # p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Me quedo dormida.{/color}{/cps}"
+
+translate spanish start_5f255b60:
+
+    # p "{cps=30}{color=#FFFFFF}(porta fechando){/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}(Puerta cerrándose){/color}{/cps}"
+
+
+
