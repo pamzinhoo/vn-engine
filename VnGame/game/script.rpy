@@ -1933,7 +1933,7 @@ label kuroya_restaurante:
     scene expression "images/cg001.png"
     with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Sento-me na mesma mesa que ele.{/color}{/cps}"
-    scene expression "images/walker_dia.png"
+    scene expression "images/restaurante_dia.png"
     show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
     show expression "images/ARL_UNIFORME_O1_B2_MO1.png" as arlyson at personagem(1, 2)
     with ESMAECER_CENA
