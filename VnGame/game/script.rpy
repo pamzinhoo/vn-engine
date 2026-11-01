@@ -2305,7 +2305,7 @@ label kuroya_refeitorio:
 # O Movie é definido durante a inicialização; a screen apenas o exibe.
 # H.264/AAC em MP4 não é decodificado no playback desktop do Ren'Py.
 image creditos_video_displayable = Movie(
-    play="videos/creditos_dia0_final.webm",
+    play="videos/creditos_dia0.webm",
     size=(config.screen_width, config.screen_height),
     loop=False
 )
@@ -2319,7 +2319,8 @@ screen creditos_video():
     add "creditos_video_displayable"
 
     timer 5.0 action SetScreenVariable("skip_enabled", True)
-    timer 53.5 action Return()
+    # O video tem 61,41 s; a sobra fecha a tela se o decode atrasar.
+    timer 62.0 action Return()
 
     key "dismiss" action If(skip_enabled, Return(), NullAction())
     key "K_ESCAPE" action If(skip_enabled, Return(), NullAction())
