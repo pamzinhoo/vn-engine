@@ -1496,8 +1496,8 @@ translate english exploracao_armarios_e5f9e704_3:
 # game/script.rpy:457
 translate english exploracao_armarios_844900f3:
 
-    # p "{cps=30}{color=#FFFFFF}Que feio, Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}That's not nice, Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que feio, Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}That's not nice, Kyioki.{/color}{/cps}"
 
 # game/script.rpy:458
 translate english exploracao_armarios_88eb036a:
@@ -2280,10 +2280,10 @@ translate english exploracao_dormitorios_a0d12c1c:
     p "{cps=30}{color=#FFFFFF}Here's my ID.{/color}{/cps}"
 
 # game/script.rpy:598
-translate english exploracao_dormitorios_1be6b6f7:
+translate english exploracao_dormitorios_7d342022:
 
-    # recepcionista "Kiyoki Kovalenko..."
-    recepcionista "Kiyoki Kovalenko..."
+    # recepcionista "Kyioki Kovalenko..."
+    recepcionista "Kyioki Kovalenko..."
 
 # game/script.rpy:599
 translate english exploracao_dormitorios_5ceeb54d:
@@ -3548,8 +3548,8 @@ translate english passeio_praca_9bba5a8c:
 # game/script.rpy:832
 translate english passeio_praca_5230225b:
 
-    # p "{cps=30}{color=#FFFFFF}Eu sou a Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}I'm Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou a Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I'm Kyioki.{/color}{/cps}"
 
 # game/script.rpy:833
 translate english passeio_praca_697b8aae:
@@ -4346,8 +4346,8 @@ translate english passeio_praca_b6dd8ad6:
 # game/script.rpy:965
 translate english passeio_praca_500a6e09:
 
-    # madelin "Foi um prazer te conhecer, Kiyoki."
-    madelin "It was a pleasure meeting you, Kiyoki."
+    # madelin "Foi um prazer te conhecer, Kyioki."
+    madelin "It was a pleasure meeting you, Kyioki."
 
 # game/script.rpy:966
 translate english passeio_praca_71055d73:
@@ -4970,8 +4970,8 @@ translate english passeio_esportes_f41eea90:
 # game/script.rpy:1078
 translate english passeio_esportes_5230225b:
 
-    # p "{cps=30}{color=#FFFFFF}Eu sou a Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}I'm Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou a Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I'm Kyioki.{/color}{/cps}"
 
 # game/script.rpy:1079
 translate english passeio_esportes_9bece464:
@@ -5214,10 +5214,10 @@ translate english passeio_esportes_1f435d19:
     n "Lucien stays standing there for a few seconds..."
 
 # game/script.rpy:1119
-translate english passeio_esportes_6786a9f5:
+translate english passeio_esportes_9739fd20:
 
-    # lucien "Kiyoki..."
-    lucien "Kiyoki..."
+    # lucien "Kyioki..."
+    lucien "Kyioki..."
 
 # game/script.rpy:1127
 translate english passeio_biblioteca_7777cd1e:
@@ -6764,8 +6764,8 @@ translate english passeio_dormitorios_6119640a:
 # game/script.rpy:1391
 translate english passeio_dormitorios_c3c1035e:
 
-    # p "{cps=30}{color=#FFFFFF}Meu nome é Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}My name is Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu nome é Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}My name is Kyioki.{/color}{/cps}"
 
 # game/script.rpy:1392
 translate english passeio_dormitorios_d6681f56:
@@ -8460,10 +8460,10 @@ translate english colega_quarto_conhecido_2f2f3ce2:
     p "{cps=30}{color=#FFFFFF}Lucien?{/color}{/cps}"
 
 # game/script.rpy:1694
-translate english colega_quarto_conhecido_dbfbfe43:
+translate english colega_quarto_conhecido_9333126d:
 
-    # lucien "Kiyoki?"
-    lucien "Kiyoki?"
+    # lucien "Kyioki?"
+    lucien "Kyioki?"
 
 # game/script.rpy:1695
 translate english colega_quarto_conhecido_b29f8a90:
@@ -8834,8 +8834,8 @@ translate english colega_quarto_novo_21af7e48:
 # game/script.rpy:1763
 translate english colega_quarto_novo_bcca855a:
 
-    # p "{cps=30}{color=#FFFFFF}Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Kyioki.{/color}{/cps}"
 
 # game/script.rpy:1764
 translate english colega_quarto_novo_631dbfe6:
@@ -9260,8 +9260,8 @@ translate english passeio_praca_c1e96196:
 # game/script.rpy:814
 translate english passeio_praca_386867b9:
 
-    # p "{cps=30}{color=#FFFFFF}Eu sou a Kiyoki, prazer!{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}I'm Kiyoki, nice to meet you!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou a Kyioki, prazer!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I'm Kyioki, nice to meet you!{/color}{/cps}"
 
 # game/script.rpy:815
 translate english passeio_praca_f9fcdd8c:
@@ -22351,10 +22351,10 @@ translate english exploracao_armarios_20d68ada_3:
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
 # game/script.rpy:1740
-translate english exploracao_armarios_7ffbf948:
+translate english exploracao_armarios_65df4ecc:
 
-    # p "{cps=30}{color=#FFFFFF}Que feio, Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}That's not nice, Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Que feio, Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}That's not nice, Kyioki.{/color}{/cps}"
 
 # game/script.rpy:1741
 translate english exploracao_armarios_eb08646d:
@@ -24055,10 +24055,10 @@ translate english passeio_praca_8aaac70a:
     p "{cps=30}{color=#FFFFFF}She adjusts the chair and sits down across from me.{/color}{/cps}"
 
 # game/script.rpy:2090
-translate english passeio_praca_5a521dc4:
+translate english passeio_praca_6ab490b6:
 
-    # p "{cps=30}{color=#FFFFFF}Eu sou a Kiyoki, prazer!{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}I'm Kiyoki, nice to meet you!{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou a Kyioki, prazer!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I'm Kyioki, nice to meet you!{/color}{/cps}"
 
 # game/script.rpy:2091
 translate english passeio_praca_0b994004:
@@ -24805,10 +24805,10 @@ translate english passeio_esportes_599f0ecf:
     p "{cps=30}{color=#FFFFFF}I guess you got lucky this time.{/color}{/cps}"
 
 # game/script.rpy:2296
-translate english passeio_esportes_939230d9:
+translate english passeio_esportes_e8ca038c:
 
-    # p "{cps=30}{color=#FFFFFF}Eu sou a Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}I'm Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Eu sou a Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I'm Kyioki.{/color}{/cps}"
 
 # game/script.rpy:2297
 translate english passeio_esportes_f9e5999e:
@@ -26097,8 +26097,8 @@ translate english passeio_dormitorios_692324e5:
 # game/script.rpy:2604
 translate english passeio_dormitorios_6905e9bb:
 
-    # p "{cps=30}{color=#FFFFFF}Meu nome é Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}My name is Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Meu nome é Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}My name is Kyioki.{/color}{/cps}"
 
 # game/script.rpy:2605
 translate english passeio_dormitorios_62a79f8c:
@@ -27265,10 +27265,10 @@ translate english colega_quarto_novo_d260d36a:
     p "{cps=30}{color=#FFFFFF}So you're my roommate then?{/color}{/cps}"
 
 # game/script.rpy:2963
-translate english colega_quarto_novo_84cef095:
+translate english colega_quarto_novo_1d5f6ff3:
 
-    # p "{cps=30}{color=#FFFFFF}Kiyoki.{/color}{/cps}"
-    p "{cps=30}{color=#FFFFFF}Kiyoki.{/color}{/cps}"
+    # p "{cps=30}{color=#FFFFFF}Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Kyioki.{/color}{/cps}"
 
 # game/script.rpy:2964
 translate english colega_quarto_novo_f6304852:
@@ -27488,6 +27488,782 @@ translate english fim_dia_zero_2b67d72d:
 
 # game/script.rpy:3017
 translate english fim_dia_zero_266f5ffa:
+
+    # p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I fall asleep.{/color}{/cps}"
+
+# TODO: Translation updated at 2026-10-31 00:00
+
+# game/script.rpy:2886
+translate english passeio_praca_2e6733bd:
+
+    # p "{cps=30}{color=#FFFFFF}A exploração do campus fica para outro dia.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Exploring the campus can wait for another day.{/color}{/cps}"
+
+# game/script.rpy:2888
+translate english passeio_praca_de30c151:
+
+    # p "{cps=30}{color=#FFFFFF}Mesmo no fim de tarde, o lugar continua movimentado.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Even this late in the afternoon, the place is still busy.{/color}{/cps}"
+
+# game/script.rpy:2889
+translate english passeio_praca_c402208e:
+
+    # p "{cps=30}{color=#FFFFFF}Um aroma delicioso de café toma conta do ambiente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A delicious aroma of coffee fills the air.{/color}{/cps}"
+
+# game/script.rpy:2892
+translate english passeio_praca_92c689dd:
+
+    # p "{cps=30}{color=#FFFFFF}Vejo uma pequena cafeteria chamada Maison Café.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I spot a little coffee shop called Maison Café.{/color}{/cps}"
+
+# game/script.rpy:2893
+translate english passeio_praca_3a566238:
+
+    # p "{cps=30}{color=#FFFFFF}Que lugar aconchegante... Vou comer algo leve.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}What a cozy place... I'll have something light.{/color}{/cps}"
+
+# game/script.rpy:2894
+translate english passeio_praca_f678cf80:
+
+    # p "{cps=30}{color=#FFFFFF}Entro na fila e logo chega minha vez.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I get in line, and soon it's my turn.{/color}{/cps}"
+
+# game/script.rpy:2895
+translate english passeio_praca_f9c5885d:
+
+    # atendente "Boa tarde!"
+    atendente "Good afternoon!"
+
+# game/script.rpy:2896
+translate english passeio_praca_dd06e1ea:
+
+    # atendente "Seja bem-vinda! O que deseja?"
+    atendente "Welcome! What would you like?"
+
+# game/script.rpy:2897
+translate english passeio_praca_b1a29e9d:
+
+    # p "{cps=30}{color=#FFFFFF}Gostaria de uma fatia de torta de mirtilo e um chococino, por favor!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I'd like a slice of blueberry pie and a chococino, please!{/color}{/cps}"
+
+# game/script.rpy:2898
+translate english passeio_praca_82841f9f:
+
+    # atendente "Ótima escolha! Para comer aqui ou levar?"
+    atendente "Great choice! For here or to go?"
+
+# game/script.rpy:2901
+translate english passeio_praca_cc001ab5:
+
+    # p "{cps=30}{color=#FFFFFF}Sento em uma mesa charmosa perto da janela.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I sit at a charming little table by the window.{/color}{/cps}"
+
+# game/script.rpy:2902
+translate english passeio_praca_b06e5544:
+
+    # p "{cps=30}{color=#FFFFFF}Certo... Hora da verdade.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}All right... Moment of truth.{/color}{/cps}"
+
+# game/script.rpy:2903
+translate english passeio_praca_d2ceafff:
+
+    # p "{cps=30}{color=#FFFFFF}Dou uma garfada na torta.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I take a forkful of the pie.{/color}{/cps}"
+
+# game/script.rpy:2904
+translate english passeio_praca_d68b68db:
+
+    # p "{cps=30}{color=#FFFFFF}Nossa... Que delícia! A massa é leve e o recheio é perfeito!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Wow... So good! The crust is light and the filling is perfect!{/color}{/cps}"
+
+# game/script.rpy:2905
+translate english passeio_praca_0d65fce3:
+
+    # desconhecido "Com licença... Posso me sentar aqui? Também estou sozinha."
+    desconhecido "Excuse me... Can I sit here? I'm on my own too."
+
+# game/script.rpy:2907
+translate english passeio_praca_73ecd308:
+
+    # p "{cps=30}{color=#FFFFFF}Uh?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Uh?{/color}{/cps}"
+
+# game/script.rpy:2908
+translate english passeio_praca_7f7a5ab9:
+
+    # p "{cps=30}{color=#FFFFFF}Quem é ela?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Who is she?{/color}{/cps}"
+
+# game/script.rpy:2910
+translate english passeio_praca_8babc0d4:
+
+    # p "{cps=30}{color=#FFFFFF}A garota sorri e ajeita a cadeira na minha frente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The girl smiles and pulls up the chair across from me.{/color}{/cps}"
+
+# game/script.rpy:2911
+translate english passeio_praca_5b9a5442:
+
+    # madelin "Obrigada! Achei que ia ter que comer em pé. Sou a Madelin!"
+    madelin "Thanks! I thought I'd have to eat standing up. I'm Madelin!"
+
+# game/script.rpy:2914
+translate english passeio_praca_8980048e:
+
+    # madelin "Eu estava morrendo de vergonha de falar com alguém..."
+    madelin "I was too embarrassed to talk to anyone..."
+
+# game/script.rpy:2915
+translate english passeio_praca_b8293f0b:
+
+    # p "{cps=30}{color=#FFFFFF}Hahaha, eu também não conhecia ninguém.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Hahaha, I didn't know anyone either.{/color}{/cps}"
+
+# game/script.rpy:2916
+translate english passeio_praca_d442492e:
+
+    # madelin "Podemos ser as primeiras amigas uma da outra...?"
+    madelin "Could we be each other's first friend...?"
+
+# game/script.rpy:2917
+translate english passeio_praca_b53064e4:
+
+    # p "{cps=30}{color=#FFFFFF}Claro! É um ótimo começo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Of course! That's a great start.{/color}{/cps}"
+
+# game/script.rpy:2918
+translate english passeio_praca_afe26c25:
+
+    # madelin "O que achou da escola?"
+    madelin "What do you think of the school?"
+
+# game/script.rpy:2919
+translate english passeio_praca_e67bcf23:
+
+    # p "{cps=30}{color=#FFFFFF}Incrível!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Amazing!{/color}{/cps}"
+
+# game/script.rpy:2920
+translate english passeio_praca_dffb8c18:
+
+    # p "{cps=30}{color=#FFFFFF}Passei o dia arrumando coisas e sinto que vi só uma fração.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I spent all day sorting things out and I feel like I've seen only a fraction of it.{/color}{/cps}"
+
+# game/script.rpy:2921
+translate english passeio_praca_1b64f1f6:
+
+    # madelin "Parece uma cidade inteira, né?"
+    madelin "It's like a whole city, right?"
+
+# game/script.rpy:2922
+translate english passeio_praca_7cf6dcda:
+
+    # p "{cps=30}{color=#FFFFFF}Sim! E você, já conheceu seu colega de quarto?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Yes! And you, have you met your roommate yet?{/color}{/cps}"
+
+# game/script.rpy:2923
+translate english passeio_praca_6b161249:
+
+    # madelin "Ainda não, e você?"
+    madelin "Not yet, and you?"
+
+# game/script.rpy:2924
+translate english passeio_praca_213b22f8:
+
+    # p "{cps=30}{color=#FFFFFF}O meu também não apareceu..{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Mine hasn't shown up either..{/color}{/cps}"
+
+# game/script.rpy:2925
+translate english passeio_praca_a91b2c23:
+
+    # madelin "Falando na escola..."
+    madelin "Speaking of the school..."
+
+# game/script.rpy:2926
+translate english passeio_praca_53961c2a:
+
+    # madelin "Me contaram uma história bem estranha hoje."
+    madelin "Someone told me a really strange story today."
+
+# game/script.rpy:2927
+translate english passeio_praca_1b9721ee:
+
+    # p "{cps=30}{color=#FFFFFF}Uma história? Conta!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A story? Tell me!{/color}{/cps}"
+
+# game/script.rpy:2928
+translate english passeio_praca_d96de456:
+
+    # madelin "É só lenda urbana, bobagem..."
+    madelin "It's just an urban legend, nonsense..."
+
+# game/script.rpy:2929
+translate english passeio_praca_326b053f:
+
+    # p "{cps=30}{color=#FFFFFF}Agora estou curiosa, vai ter que contar!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Now I'm curious, you have to tell me!{/color}{/cps}"
+
+# game/script.rpy:2930
+translate english passeio_praca_4ce175b5:
+
+    # madelin "Haha! Tá bom, mas não diz que não avisei."
+    madelin "Haha! All right, but don't say I didn't warn you."
+
+# game/script.rpy:2937
+translate english passeio_praca_033a19bd:
+
+    # p "{cps=30}{color=#FFFFFF}Tá. Desisti de conhecer a Jardinagem à noite.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Okay. I've given up on visiting the Gardening club at night.{/color}{/cps}"
+
+# game/script.rpy:2938
+translate english passeio_praca_94731115:
+
+    # madelin "Hahaha! Eu sabia!"
+    madelin "Hahaha! I knew it!"
+
+# game/script.rpy:2939
+translate english passeio_praca_13c07ebf:
+
+    # p "{cps=30}{color=#FFFFFF}Não é medo, só prefiro passear de dia!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}It's not fear, I just prefer walking around during the day!{/color}{/cps}"
+
+# game/script.rpy:2940
+translate english passeio_praca_2b5353b4:
+
+    # p "{cps=30}{color=#FFFFFF}As duas rimos{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}We both laugh{/color}{/cps}"
+
+# game/script.rpy:2941
+translate english passeio_praca_774a33ed:
+
+    # p "{cps=30}{color=#FFFFFF}Termino meu lanche com uma risada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I finish my snack with a laugh.{/color}{/cps}"
+
+# game/script.rpy:2942
+translate english passeio_praca_adaf098d:
+
+    # p "{cps=30}{color=#FFFFFF}Ah o horário!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Oh, the time!{/color}{/cps}"
+
+# game/script.rpy:2943
+translate english passeio_praca_9cdb2b9e:
+
+    # p "{cps=30}{color=#FFFFFF}Preciso ir para a casa de banho antes que lote.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I need to get to the bathhouse before it fills up.{/color}{/cps}"
+
+# game/script.rpy:2945
+translate english passeio_praca_f4ea3a98:
+
+    # madelin "Vou terminar meu café com calma e já vou também!"
+    madelin "I'll finish my coffee slowly and head over too!"
+
+# game/script.rpy:2947
+translate english passeio_praca_7d13fb40:
+
+    # p "{cps=30}{color=#FFFFFF}Adorei te conhecer.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}It was lovely meeting you.{/color}{/cps}"
+
+# game/script.rpy:2948
+translate english passeio_praca_15cee678:
+
+    # madelin "Eu também! Até!"
+    madelin "Me too! See you!"
+
+# game/script.rpy:2949
+translate english passeio_praca_e8698676:
+
+    # p "{cps=30}{color=#FFFFFF}Deixo a bandeja no balcão.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I leave my tray at the counter.{/color}{/cps}"
+
+# game/script.rpy:2974
+translate english passeio_esportes_80f77f69:
+
+    # p "{cps=30}{color=#FFFFFF}Finalmente encontro o ginásio{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I finally find the gym{/color}{/cps}"
+
+# game/script.rpy:3019
+translate english passeio_esportes_19567755:
+
+    # p "{cps=30}{color=#FFFFFF}Lucien se abaixa e estende a mão{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Lucien crouches down and holds out his hand{/color}{/cps}"
+
+# game/script.rpy:3035
+translate english passeio_esportes_2c95aaa5:
+
+    # lucien "Vocês não consegue calar a boca não?"
+    lucien "Can't you two shut up for one second?"
+
+# game/script.rpy:3097
+translate english passeio_esportes_1032ee97:
+
+    # lucien "continuo parado por alguns segundos.."
+    lucien "I stay standing there for a few seconds.."
+
+# game/script.rpy:3168
+translate english passeio_biblioteca_e984a339:
+
+    # p "{cps=30}{color=#FFFFFF}Sinto minhas bochechas queimarem{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I feel my cheeks burn{/color}{/cps}"
+
+# game/script.rpy:3189
+translate english passeio_biblioteca_1639adcd:
+
+    # p "{cps=30}{color=#FFFFFF}Kyioki leva a mão à boca tentando segurar a risada.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Kyioki brings a hand to her mouth, trying to hold back a laugh.{/color}{/cps}"
+
+# game/script.rpy:3232
+translate english passeio_biblioteca_812056ca:
+
+    # p "{cps=30}{color=#FFFFFF}Bibliotecária apenas sorri.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The librarian just smiles.{/color}{/cps}"
+
+# game/script.rpy:3278
+translate english passeio_dormitorios_8207777e:
+
+    # p "{cps=30}{color=#FFFFFF}Acho que vou voltar para o campus dos dormitórios.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I think I'll head back to the dorm campus.{/color}{/cps}"
+
+# game/script.rpy:3279
+translate english passeio_dormitorios_31231ac9:
+
+    # p "{cps=30}{color=#FFFFFF}É onde vou morar pelos próximos três anos, bom conhecer bem.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}It's where I'll be living for the next three years, best to get to know it well.{/color}{/cps}"
+
+# game/script.rpy:3281
+translate english passeio_dormitorios_47b0d702:
+
+    # p "{cps=30}{color=#FFFFFF}O clima do fim de tarde está agradável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The late afternoon weather is pleasant.{/color}{/cps}"
+
+# game/script.rpy:3282
+translate english passeio_dormitorios_bfc58da1:
+
+    # p "{cps=30}{color=#FFFFFF}Enquanto caminho, uma placa de madeira feita à mão chama minha atenção:{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}As I walk, a handmade wooden sign catches my eye:{/color}{/cps}"
+
+# game/script.rpy:3285
+translate english passeio_dormitorios_cbe891cb:
+
+    # p "{cps=30}{color=#FFFFFF}Era esse o clube que a bibliotecária ia mencionar!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}This was the club the librarian was about to mention!{/color}{/cps}"
+
+# game/script.rpy:3286
+translate english passeio_dormitorios_e084bde9:
+
+    # p "{cps=30}{color=#FFFFFF}Abaixo da placa, um caminho de pedras entre as árvores me chama a atenção.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Below the sign, a stone path between the trees catches my attention.{/color}{/cps}"
+
+# game/script.rpy:3288
+translate english passeio_dormitorios_8eef9cce:
+
+    # p "{cps=30}{color=#FFFFFF}Os dormitórios podem esperar. Quero descobrir onde isso dá.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The dorms can wait. I want to find out where this leads.{/color}{/cps}"
+
+# game/script.rpy:3289
+translate english passeio_dormitorios_4cd07175:
+
+    # p "{cps=30}{color=#FFFFFF}Sigo pelo caminho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I follow the path.{/color}{/cps}"
+
+# game/script.rpy:3290
+translate english passeio_dormitorios_4be292d5:
+
+    # p "{cps=30}{color=#FFFFFF}Os sons da escola vão sumindo aos poucos.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The sounds of the school slowly fade away.{/color}{/cps}"
+
+# game/script.rpy:3291
+translate english passeio_dormitorios_2dc1d327:
+
+    # p "{cps=30}{color=#FFFFFF}O cheiro das flores e a luz dourada entre as folhas deixam o lugar mágico.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The scent of the flowers and the golden light through the leaves make the place feel magical.{/color}{/cps}"
+
+# game/script.rpy:3292
+translate english passeio_dormitorios_9addb085:
+
+    # p "{cps=30}{color=#FFFFFF}As árvores se abrem e revelam um jardim secreto e lindo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The trees part and reveal a beautiful secret garden.{/color}{/cps}"
+
+# game/script.rpy:3293
+translate english passeio_dormitorios_d9d13da3:
+
+    # p "{cps=30}{color=#FFFFFF}Flores organizadas, horta, árvores frutíferas e uma estufa de vidro ao fundo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Neat flower beds, a vegetable patch, fruit trees and a glass greenhouse at the back.{/color}{/cps}"
+
+# game/script.rpy:3294
+translate english passeio_dormitorios_dfbdf431:
+
+    # p "{cps=30}{color=#FFFFFF}Vejo uma garota sentada num banco perto das lavandas.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I see a girl sitting on a bench near the lavender.{/color}{/cps}"
+
+# game/script.rpy:3295
+translate english passeio_dormitorios_437eb179:
+
+    # p "{cps=30}{color=#FFFFFF}Ela estava desenhando em um caderno...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}She was drawing in a notebook...{/color}{/cps}"
+
+# game/script.rpy:3297
+translate english passeio_dormitorios_928e87bf:
+
+    # p "{cps=30}{color=#FFFFFF}Caminho até ela timidamente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I walk over to her shyly.{/color}{/cps}"
+
+# game/script.rpy:3299
+translate english passeio_dormitorios_be81d5a2:
+
+    # p "{cps=30}{color=#FFFFFF}Ela ergue a cabeça, um pouco assustada, e dá um sorriso tímido.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}She looks up, a little startled, and gives a shy smile.{/color}{/cps}"
+
+# game/script.rpy:3300
+translate english passeio_dormitorios_3d714148:
+
+    # desconhecido "Ah... Oi."
+    desconhecido "Ah... Hi."
+
+# game/script.rpy:3301
+translate english passeio_dormitorios_89def2de:
+
+    # desconhecido "Você é nova por aqui, não é?"
+    desconhecido "You're new around here, aren't you?"
+
+# game/script.rpy:3302
+translate english passeio_dormitorios_e726b837:
+
+    # p "{cps=30}{color=#FFFFFF}Sou sim! Sou a Kyioki.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I am! I'm Kyioki.{/color}{/cps}"
+
+# game/script.rpy:3303
+translate english passeio_dormitorios_d7515172:
+
+    # p "{cps=30}{color=#FFFFFF}Prazer!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Nice to meet you!{/color}{/cps}"
+
+# game/script.rpy:3304
+translate english passeio_dormitorios_3fb6c3f4:
+
+    # aurore "Prazer... Sou a Aurore."
+    aurore "Nice to meet you... I'm Aurore."
+
+# game/script.rpy:3306
+translate english passeio_dormitorios_d70d33f6:
+
+    # aurore "Na verdade... eu fundei o clube."
+    aurore "Actually... I founded the club."
+
+# game/script.rpy:3307
+translate english passeio_dormitorios_a5843477:
+
+    # aurore "Eu e alguns membros construímos isso."
+    aurore "A few members and I built all this."
+
+# game/script.rpy:3309
+translate english passeio_dormitorios_32195ac5:
+
+    # p "{cps=30}{color=#FFFFFF}Está tudo tão lindo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}It's all so beautiful!{/color}{/cps}"
+
+# game/script.rpy:3310
+translate english passeio_dormitorios_4da798e6:
+
+    # p "{cps=30}{color=#FFFFFF}Dá para ver o carinho de vocês.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}You can tell how much care you've put into it.{/color}{/cps}"
+
+# game/script.rpy:3311
+translate english passeio_dormitorios_0af82bc2:
+
+    # aurore "Obrigada. Fico feliz quando reparam."
+    aurore "Thank you. It makes me happy when people notice."
+
+# game/script.rpy:3312
+translate english passeio_dormitorios_75105acb:
+
+    # p "{cps=30}{color=#FFFFFF}Sento ao lado dela no banco.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I sit down beside her on the bench.{/color}{/cps}"
+
+# game/script.rpy:3313
+translate english passeio_dormitorios_76415dc0:
+
+    # p "{cps=30}{color=#FFFFFF}O silêncio entre nós é bem confortável.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}The silence between us is quite comfortable.{/color}{/cps}"
+
+# game/script.rpy:3317
+translate english passeio_dormitorios_b85cccf2:
+
+    # p "{cps=30}{color=#FFFFFF}Ah! Minha primeira veterana!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Ah! My first upperclassman!{/color}{/cps}"
+
+# game/script.rpy:3318
+translate english passeio_dormitorios_ce852002:
+
+    # aurore "haha!"
+    aurore "haha!"
+
+# game/script.rpy:3322
+translate english passeio_dormitorios_899a6f2d:
+
+    # p "{cps=30}{color=#FFFFFF}Um lugar lindo desses merecia mais gente.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A beautiful place like this deserves more people.{/color}{/cps}"
+
+# game/script.rpy:3323
+translate english passeio_dormitorios_0b4f4766:
+
+    # aurore "Verdade."
+    aurore "True."
+
+# game/script.rpy:3324
+translate english passeio_dormitorios_e7379b66:
+
+    # aurore "Mas enquanto houver alguém cuidando, o jardim continua vivo."
+    aurore "But as long as someone is tending it, the garden stays alive."
+
+# game/script.rpy:3325
+translate english passeio_dormitorios_9f0fa32b:
+
+    # p "{cps=30}{color=#FFFFFF}O que você estava desenhando quando cheguei?{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}What were you drawing when I got here?{/color}{/cps}"
+
+# game/script.rpy:3326
+translate english passeio_dormitorios_f5e12382:
+
+    # p "{cps=30}{color=#FFFFFF}Aurore hesita...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Aurore hesitates...{/color}{/cps}"
+
+# game/script.rpy:3327
+translate english passeio_dormitorios_24d1935c:
+
+    # p "{cps=30}{color=#FFFFFF}cora um pouco e vira o caderno para mim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}she blushes a little and turns the notebook toward me.{/color}{/cps}"
+
+# game/script.rpy:3330
+translate english passeio_dormitorios_e7671e96:
+
+    # p "{cps=30}{color=#FFFFFF}É um desenho meu!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}It's a drawing of me!{/color}{/cps}"
+
+# game/script.rpy:3332
+translate english passeio_dormitorios_a84912e1:
+
+    # p "{cps=30}{color=#FFFFFF}Meu Deus, ficou lindo!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Oh my God, it turned out beautiful!{/color}{/cps}"
+
+# game/script.rpy:3333
+translate english passeio_dormitorios_9bee3801:
+
+    # p "{cps=30}{color=#FFFFFF}Parece ilustração de livro!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}It looks like a book illustration!{/color}{/cps}"
+
+# game/script.rpy:3335
+translate english passeio_dormitorios_76f64ade:
+
+    # p "{cps=30}{color=#FFFFFF}Sinto meu rosto esquentar de vergonha.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I feel my face heat up with embarrassment.{/color}{/cps}"
+
+# game/script.rpy:3336
+translate english passeio_dormitorios_639ae0d2:
+
+    # p "{cps=30}{color=#FFFFFF}O-obrigada... Acho que nunca fui desenhada antes!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}T-thank you... I don't think anyone's ever drawn me before!{/color}{/cps}"
+
+# game/script.rpy:3337
+translate english passeio_dormitorios_27effbd8:
+
+    # aurore "Bem..."
+    aurore "Well..."
+
+# game/script.rpy:3338
+translate english passeio_dormitorios_1a278403:
+
+    # aurore "Se quiser, te dou o desenho quando eu terminar."
+    aurore "If you'd like, I'll give you the drawing when I'm done."
+
+# game/script.rpy:3339
+translate english passeio_dormitorios_07fcfbb2:
+
+    # aurore "Presente de boas-vindas."
+    aurore "A welcome gift."
+
+# game/script.rpy:3340
+translate english passeio_dormitorios_4c3bfcf0:
+
+    # p "{cps=30}{color=#FFFFFF}Sério?! Eu adoraria!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Really?! I'd love that!{/color}{/cps}"
+
+# game/script.rpy:3342
+translate english passeio_dormitorios_43b85f58:
+
+    # p "{cps=30}{color=#FFFFFF}Olho ao redor, admirando a paz do lugar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I look around, admiring how peaceful this place is.{/color}{/cps}"
+
+# game/script.rpy:3347
+translate english passeio_dormitorios_d80c8f77:
+
+    # p "{cps=30}{color=#FFFFFF}Olho para o céu e vejo que o tempo passou voando.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I look up at the sky and realize the time has flown by.{/color}{/cps}"
+
+# game/script.rpy:3348
+translate english passeio_dormitorios_17aec562:
+
+    # p "{cps=30}{color=#FFFFFF}Nossa, já está ficando tarde.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Wow, it's getting late already.{/color}{/cps}"
+
+# game/script.rpy:3349
+translate english passeio_dormitorios_4aef42b8:
+
+    # p "{cps=30}{color=#FFFFFF}Preciso ir para a casa de banho.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I need to get to the bathhouse.{/color}{/cps}"
+
+# game/script.rpy:3350
+translate english passeio_dormitorios_9a0d8aa6:
+
+    # p "{cps=30}{color=#FFFFFF}Me levanto me retirando do jardim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I stand up and make my way out of the garden.{/color}{/cps}"
+
+# game/script.rpy:3351
+translate english passeio_dormitorios_c270be79:
+
+    # aurore "Até mais, Kyioki!"
+    aurore "See you, Kyioki!"
+
+# game/script.rpy:3353
+translate english passeio_dormitorios_671875a0:
+
+    # p "{cps=30}{color=#FFFFFF}Foi um prazer te conhecer!{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}It was a pleasure meeting you!{/color}{/cps}"
+
+# game/script.rpy:3472
+translate english casa_de_banho_cdfc1b28:
+
+    # abby "\"Talvez\"?"
+    abby "\"Maybe\"?"
+
+# game/script.rpy:3536
+translate english colega_quarto_conhecido_71d5324f:
+
+    # lucien "Ah sabe... emprevistos"
+    lucien "Ah, you know... things came up"
+
+# game/script.rpy:3537
+translate english colega_quarto_conhecido_9cc86888:
+
+    # lucien "Então acho que vou agora"
+    lucien "So I think I'll go now"
+
+# game/script.rpy:3545
+translate english colega_quarto_conhecido_28420383:
+
+    # p "{cps=30}{color=#FFFFFF}Acho que agora posso finalmente descansar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I think I can finally rest now.{/color}{/cps}"
+
+# game/script.rpy:3546
+translate english colega_quarto_conhecido_27650ff0:
+
+    # p "{cps=30}{color=#FFFFFF}Bocejo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I yawn.{/color}{/cps}"
+
+# game/script.rpy:3547
+translate english colega_quarto_conhecido_92d4022b:
+
+    # p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão longo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Today was such a long day...{/color}{/cps}"
+
+# game/script.rpy:3548
+translate english colega_quarto_conhecido_63190653:
+
+    # p "{cps=30}{color=#FFFFFF}Mas tenho certeza que os próximos dias não serão assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}But I'm sure the next few days won't be like this.{/color}{/cps}"
+
+# game/script.rpy:3549
+translate english colega_quarto_conhecido_ca5c0584:
+
+    # p "{cps=30}{color=#FFFFFF}Serão mais tranquilos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}They'll be calmer...{/color}{/cps}"
+
+# game/script.rpy:3550
+translate english colega_quarto_conhecido_d592b631:
+
+    # p "{cps=30}{color=#FFFFFF}Mais normais...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}More normal...{/color}{/cps}"
+
+# game/script.rpy:3551
+translate english colega_quarto_conhecido_0a69e525:
+
+    # p "{cps=30}{color=#FFFFFF}E eu...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}And I...{/color}{/cps}"
+
+# game/script.rpy:3553
+translate english colega_quarto_conhecido_3c73d97c:
+
+    # p "{cps=30}{color=#FFFFFF}Nem percebo quando meus olhos começam a pesar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I don't even notice when my eyes start to grow heavy.{/color}{/cps}"
+
+# game/script.rpy:3554
+translate english colega_quarto_conhecido_2b67d72d:
+
+    # p "{cps=30}{color=#FFFFFF}Pouco depois...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A little while later...{/color}{/cps}"
+
+# game/script.rpy:3555
+translate english colega_quarto_conhecido_266f5ffa:
+
+    # p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I fall asleep.{/color}{/cps}"
+
+# game/script.rpy:3545
+translate english colega_quarto_novo_28420383:
+
+    # p "{cps=30}{color=#FFFFFF}Acho que agora posso finalmente descansar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I think I can finally rest now.{/color}{/cps}"
+
+# game/script.rpy:3546
+translate english colega_quarto_novo_27650ff0:
+
+    # p "{cps=30}{color=#FFFFFF}Bocejo.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I yawn.{/color}{/cps}"
+
+# game/script.rpy:3547
+translate english colega_quarto_novo_92d4022b:
+
+    # p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão longo...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}Today was such a long day...{/color}{/cps}"
+
+# game/script.rpy:3548
+translate english colega_quarto_novo_63190653:
+
+    # p "{cps=30}{color=#FFFFFF}Mas tenho certeza que os próximos dias não serão assim.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}But I'm sure the next few days won't be like this.{/color}{/cps}"
+
+# game/script.rpy:3549
+translate english colega_quarto_novo_ca5c0584:
+
+    # p "{cps=30}{color=#FFFFFF}Serão mais tranquilos...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}They'll be calmer...{/color}{/cps}"
+
+# game/script.rpy:3550
+translate english colega_quarto_novo_d592b631:
+
+    # p "{cps=30}{color=#FFFFFF}Mais normais...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}More normal...{/color}{/cps}"
+
+# game/script.rpy:3551
+translate english colega_quarto_novo_0a69e525:
+
+    # p "{cps=30}{color=#FFFFFF}E eu...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}And I...{/color}{/cps}"
+
+# game/script.rpy:3553
+translate english colega_quarto_novo_3c73d97c:
+
+    # p "{cps=30}{color=#FFFFFF}Nem percebo quando meus olhos começam a pesar.{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}I don't even notice when my eyes start to grow heavy.{/color}{/cps}"
+
+# game/script.rpy:3554
+translate english colega_quarto_novo_2b67d72d:
+
+    # p "{cps=30}{color=#FFFFFF}Pouco depois...{/color}{/cps}"
+    p "{cps=30}{color=#FFFFFF}A little while later...{/color}{/cps}"
+
+# game/script.rpy:3555
+translate english colega_quarto_novo_266f5ffa:
 
     # p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}I fall asleep.{/color}{/cps}"

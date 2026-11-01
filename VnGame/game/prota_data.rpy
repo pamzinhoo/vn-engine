@@ -1,6 +1,6 @@
-default persistent.prota_data = None
+﻿default persistent.prota_data = None
 default protaF_data = {
-    "nome": "Kiyoki Kovalenko",
+    "nome": "Kyioki Kovalenko",
     "apelido": "Kiyo",
     "genero": "mulher",
     "diario_img": "images/diariopagina1_mulher.png",
