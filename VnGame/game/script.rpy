@@ -895,7 +895,6 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}Nunca se sabe quando vou precisar dela.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vamos lá então.{/color}{/cps}"
     scene expression "images/cg001.png"
-    hide kuroya
     with fade
     p "{cps=30}{color=#FFFFFF}Caminho pelos corredores em direção à biblioteca.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Conforme me aproximo, começo a ouvir vozes vindo de dentro.{/color}{/cps}"
@@ -965,8 +964,6 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}Tudo bem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Muito obrigado!{/color}{/cps}"
     scene expression "images/cg001.png"
-    hide kuroya
-    hide bibliotecaria
     with fade
     p "{cps=30}{color=#FFFFFF}Pego a folha e saio da biblioteca quase sendo empurrado pela quantidade de gente.{/color}{/cps}"
     scene expression "images/walker_dia.png"
@@ -988,7 +985,6 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}Acho que ouvi alguma coisa.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olho para o lado.{/color}{/cps}"
     scene expression "images/muro_dia.png"
-    hide kuroya
     with fade
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Parece que veio daquele muro.{/color}{/cps}"
@@ -1154,7 +1150,6 @@ label kuroya_dormitorio:
     p "{cps=30}{color=#FFFFFF}E leva tantas horas.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Melhor eu me apressar.{/color}{/cps}"
     scene expression "images/cg001.png"
-    hide kuroya
     with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Começo a andar em direção à recepção dos dormitórios.{/color}{/cps}"
     scene expression "images/recepção_dormitorios_dia.png"
@@ -1183,7 +1178,6 @@ label kuroya_dormitorio:
     p "{cps=30}{color=#FFFFFF}Prédio A.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Terceiro andar.{/color}{/cps}"
     scene expression "images/cg001.png"
-    hide kuroya
     with fade
     p "{cps=30}{color=#FFFFFF}Começo a caminhar em direção ao prédio indicado.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Entro no prédio A e vou direto para o elevador.{/color}{/cps}"
@@ -1262,6 +1256,7 @@ label kuroya_dormitorio:
     p "{cps=30}{color=#FFFFFF}Minha mesa está organizada.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Minhas coisas estão guardadas.{/color}{/cps}"
     scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     with fade
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Finalmente.{/color}{/cps}"
@@ -1304,15 +1299,27 @@ label kuroya_exploracao:
 label kuroya_cafeteria:
     show screen day_locate("00", "Praça de Alimentação")
 
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Acho que vou em alguma cafeteria...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Quero algo leve para comer agora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Talvez uma bebida láctea e algum salgado...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A escola tem cafeteria, né?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Bem...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Só tem um jeito de descobrir.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Vou andando até a praça de alimentação, procurando algum sinal de uma cafeteria.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...!{/color}{/cps}"
+    scene expression "images/Maison_Cafe_Dia.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Maison Cafe?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Que nome ridículo.{/color}{/cps}"
@@ -1321,33 +1328,63 @@ label kuroya_cafeteria:
     p "{cps=30}{color=#FFFFFF}Hmmm...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Acho que não custa tentar.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Entro na cafeteria.{/color}{/cps}"
+    scene expression "images/cafeteria_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}O cheiro invadiu minhas narinas assim que passei pela porta.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Café.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Pão recém-assado.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Chocolate.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Que delícia.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Confesso que estou impressionado.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Me aproximo do balcão.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/MAS_O1_B1_MO2.png" as maison at personagem(1, 2)
     atendente "Boa tarde! O que deseja?"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/MAS_O1_B1_MC2.png" as maison at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Acho que vou querer um café amargo e um croissant.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/MAS_O1_B1_MO2.png" as maison at personagem(1, 2)
     atendente "Claro! Fica R$45,90."
+    show expression "images/MAS_O1_B1_MC2.png" as maison at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Realizo o pagamento e começo a procurar algum lugar para sentar.{/color}{/cps}"
+    hide maison
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Então escuto alguém chamar meu nome.{/color}{/cps}"
     desconhecido "Kuroya!"
     p "{cps=30}{color=#FFFFFF}Hã?{/color}{/cps}"
+    show expression "images/ELIZ_UNIFORME_O1_B1_MC2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Olho para o lado.{/color}{/cps}"
+    show expression "images/ELIZ_UNIFORME_O1_B1_MO2.png" as elizabeth at personagem(0, 2)
     elizabeth "Senta aqui comigo!"
     elizabeth "Tem lugar sobrando aqui."
+    show expression "images/ELIZ_UNIFORME_O1_B1_MC2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ah, olá de novo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Obrigado por ter levado minha mala hoje mais cedo.{/color}{/cps}"
+    show expression "images/ELIZ_UNIFORME_O1_B1_MO2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     elizabeth "Não tem de quê!"
+    scene expression "images/CGCAFE01.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Aproximo-me da mesa.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Estou prestes a me sentar quando alguém passa atrás de mim.{/color}{/cps}"
+    scene expression "images/CGCAFE02.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}É só uma pessoa passando.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Nada demais.{/color}{/cps}"
+    scene expression "images/CGCAFE03.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas meu corpo arrepia inteiro.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Paro por um instante.{/color}{/cps}"
@@ -1360,120 +1397,241 @@ label kuroya_cafeteria:
     p "{cps=30}{color=#FFFFFF}Foi como se alguma coisa tivesse acabado de passar por dentro de mim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu senti cheiro de morte.{/color}{/cps}"
+    scene expression "images/CGELIZABETH003.png"
+    with ESMAECER_CENA
     elizabeth "Você tá bem?"
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}T-tô sim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu só...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Dissociei!{/color}{/cps}"
     elizabeth "..."
+    scene expression "images/CGELIZABETH003.png"
+    with ESMAECER_CENA
     elizabeth "Do nada?"
+    scene expression "images/CGELIZABETH005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Acontece.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Sento-me junto com Elizabeth.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Tento ignorar a sensação estranha que ainda está presa no fundo da minha cabeça.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Então..."
     elizabeth "O que achou da escola?"
+    scene expression "images/CGELIZABETH005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Normal.{/color}{/cps}"
+    scene expression "images/CGELIZABETH008.png"
+    with ESMAECER_CENA
     elizabeth "Normal?"
+    scene expression "images/CGELIZABETH005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Eu já vim aqui algumas vezes durante a minha infância.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não foi o suficiente para conhecer o campus, claro.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas já foi o bastante para formar uma primeira impressão.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Ah, entendi."
     elizabeth "Que legal!"
+    scene expression "images/CGELIZABETH005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Só que parece bem diferente agora.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Imagino."
     elizabeth "Você estudava aqui quando era menor?"
+    scene expression "images/CGELIZABETH005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Não.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Só vim algumas vezes.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Entendi..."
+    scene expression "images/CGELIZABETH005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Elizabeth sorri.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Então talvez você ainda tenha bastante coisa nova para conhecer."
+    scene expression "images/CGELIZABETH005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Provavelmente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olho de relance para a mesa onde a garota que passou por mim está sentada.{/color}{/cps}"
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ainda sinto aquela sensação.{/color}{/cps}"
+    scene expression "images/CGELIZABETH011.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Não sei quem ela é.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas alguma coisa nela...{/color}{/cps}"
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Não está certa.{/color}{/cps}"
+    scene expression "images/CGELIZABETH013.png"
+    with ESMAECER_CENA
     elizabeth "Pra onde você está olhando...?"
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Hm?{/color}{/cps}"
+    scene expression "images/CGELIZABETH013.png"
+    with ESMAECER_CENA
     elizabeth "Tem alguma coisa prendendo sua atenção."
     elizabeth "O que é?"
     elizabeth "Me diz."
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não é nada.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Acho que só tô ficando doido.{/color}{/cps}"
+    scene expression "images/CGELIZABETH003.png"
+    with ESMAECER_CENA
     elizabeth "Eu sou sua colega de quarto pelos próximos três anos."
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     elizabeth "Você pode confiar em mim."
+    scene expression "images/CGELIZABETH002.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Suspiro.{/color}{/cps}"
+    scene expression "images/CGELIZABETH011.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}A ruiva atrás de você.{/color}{/cps}"
     elizabeth "..."
+    scene expression "images/CGELIZABETH012.png"
+    with ESMAECER_CENA
     elizabeth "Você achou ela bonita?"
+    scene expression "images/CGELIZABETH007.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Sinto minhas bochechas corarem levemente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O quê? Não!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Nem vi o rosto dela direito!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É que quando ela passou por trás de mim...{/color}{/cps}"
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Me deu uma sensação ruim.{/color}{/cps}"
+    scene expression "images/CGELIZABETH003.png"
+    with ESMAECER_CENA
     elizabeth "Uma sensação ruim?"
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}É.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Doideira, eu sei.{/color}{/cps}"
     elizabeth "Hum..."
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Elizabeth fica em silêncio por alguns segundos.{/color}{/cps}"
+    scene expression "images/CGELIZABETH014.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Você está bem?{/color}{/cps}"
+    scene expression "images/CGELIZABETH015.png"
+    with ESMAECER_CENA
     elizabeth "Me incomoda você estar sentado na mesa comigo e sua atenção ser levada por outra pessoa, sabe?"
+    scene expression "images/CGELIZABETH014.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    scene expression "images/CGELIZABETH016.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Me perdoe!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Realmente, que falta de educação a minha...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Prometo prestar atenção em você.{/color}{/cps}"
+    scene expression "images/CGELIZABETH017.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Elizabeth ri.{/color}{/cps}"
     elizabeth "Você é bem pau mandado, né?"
     elizabeth "Hehe."
+    scene expression "images/CGELIZABETH018.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Talvez?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Haha...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Então..."
     elizabeth "Aquele seu livro..."
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Você mexeu nele?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Minha expressão muda imediatamente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Elizabeth percebe.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Sua mala estava levemente aberta e eu não vi."
     elizabeth "Ele acabou caindo no chão, então eu coloquei de volta na mala."
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}A-ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Sim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Desculpe.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Não precisa pedir desculpas."
     elizabeth "O que ele é?"
     elizabeth "É algum livro famoso?"
+    scene expression "images/CGELIZABETH004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}É um livro que tenho desde pequeno.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ando com ele apenas por costume.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É uma herança de família.{/color}{/cps}"
+    scene expression "images/CGELIZABETH006.png"
+    with ESMAECER_CENA
     elizabeth "Ah..."
     elizabeth "Entendo."
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Elizabeth olha para a mesa.{/color}{/cps}"
+    scene expression "images/cafeteria_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B1_MO2.png" as elizabeth at personagem(1, 2)
+    with ESMAECER_CENA
     elizabeth "Eu já terminei de comer."
     elizabeth "E vejo que você também."
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
     elizabeth "Quer que eu tire a mesa para você?"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B1_MC2.png" as elizabeth at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ah, obrigado, mas não quero te dar trabalho.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B1_MO2.png" as elizabeth at personagem(1, 2)
     elizabeth "Não é trabalho."
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
     elizabeth "Eu já vou indo para a casa de banho."
     elizabeth "Acredito que já tenha aberto."
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B1_MC2.png" as elizabeth at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    show expression "images/ELIZ_UNIFORME_O1_B1_MC1.png" as elizabeth at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Já que terminamos, podemos ir juntos.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B3_MO2.png" as elizabeth at personagem(1, 2)
     elizabeth "Haha!"
+    show expression "images/ELIZ_UNIFORME_O1_B2_MO2.png" as elizabeth at personagem(1, 2)
     elizabeth "Quer tomar banho comigo agora?"
+    show expression "images/KURO_UNIFORME_O1_B3_MO2_SHY.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B1_MC2.png" as elizabeth at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}NÃO FOI ISSO QUE EU QUIS DIZER!{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B3_MO2.png" as elizabeth at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Elizabeth começa a rir da minha cara.{/color}{/cps}"
+    show expression "images/ELIZ_UNIFORME_O1_B1_MO2.png" as elizabeth at personagem(1, 2)
     elizabeth "Eu entendi."
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
     elizabeth "Mas vou passar em outro lugar antes."
     elizabeth "Te vejo depois, Kuro!"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ELIZ_UNIFORME_O1_B1_MC2.png" as elizabeth at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Até mais...{/color}{/cps}"
+    hide elizabeth
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Elizabeth se levanta e vai embora.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O2_B3_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Eu sou meio imbecil, hein?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Fico alguns segundos olhando para a mesa vazia.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas é melhor eu ir para a casa de banho também.{/color}{/cps}"
@@ -1484,11 +1642,18 @@ label kuroya_cafeteria:
 label kuroya_lanche:
     show screen day_locate("00", "Corredor - Máquinas")
 
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Acho que vou procurar alguma coisinha apenas...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Talvez uma barra de chocolate.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não estou com tanta fome.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É mais para reabastecer as energias.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Começo a andar pelos corredores, seguindo em direção à praça de alimentação.{/color}{/cps}"
+    scene expression "images/CGCOMIDA.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Quando encontro uma daquelas máquinas de venda automática.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Humm...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Interessante.{/color}{/cps}"
@@ -1499,81 +1664,158 @@ label kuroya_lanche:
     p "{cps=30}{color=#FFFFFF}Escolho a barrinha na máquina e passo meu cartão.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A máquina faz um barulho e, alguns segundos depois, a barrinha cai.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Pego-a e começo a abrir a embalagem.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}E, antes mesmo de dar a primeira mordida...{/color}{/cps}"
+    scene expression "images/CGLAUANNE001.png"
+    with ESMAECER_CENA
     desconhecido "Ai, não acredito que era a última barrinha..."
+    scene expression "images/CGLAUANNE002.png"
+    with ESMAECER_CENA
     desconhecido "Ah, pior que eu não vi nenhuma outra opção fitness nessa escola."
     desconhecido "Escola fudida, viu."
+    scene expression "images/CGLAUANNE003.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Olho para a garota.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ela parece genuinamente indignada com o desaparecimento da última barrinha de cereal.{/color}{/cps}"
+    scene expression "images/CGLAUANNE004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Você pode ficar com a minha.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu ainda não mordi.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Posso comer outra coisa.{/color}{/cps}"
+    scene expression "images/CGLAUANNE005.png"
+    with ESMAECER_CENA
     desconhecido "Ahhh, sério?"
+    scene expression "images/CGLAUANNE006.png"
+    with ESMAECER_CENA
     desconhecido "Você é um cavalheiro!"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}A garota loira pega a barrinha das minhas mãos antes mesmo que eu possa mudar de ideia.{/color}{/cps}"
+    scene expression "images/corredor_dia.png"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
+    with ESMAECER_CENA
     desconhecido "Muito obrigada, meu anjo!"
     desconhecido "Qual é o seu nomezinho?"
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Meu nome é Kuroya.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     lauane "O meu é Lauane."
     lauane "Muito prazer!"
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Lauane?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Que nome diferente.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}É muito bonito.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B3_MO2.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     lauane "Ahhh!"
     lauane "Você é muito gentil!"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2_SHY.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Sinto minhas bochechas corarem levemente.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO1.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     lauane "Aliás..."
     lauane "Você é de que sala?"
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Sou da turma 1A.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     lauane "Ahhh!"
     lauane "Somos colegas de classe!"
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}É...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Muita coincidência.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Observo o uniforme dela.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}É diferente do meu.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mais chamativo também.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MC1.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Mas por que seu uniforme é tão diferente?{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Eu estava pensando que você fosse de alguma turma especial.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO1.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     lauane "Ah!"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
     lauane "Você notou!"
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Ela ajeita a própria roupa, claramente satisfeita.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
     lauane "Eu sou do grêmio estudantil."
     lauane "Esse ano eles focaram mais nos calouros para termos novas oportunidades."
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Que legal.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Mas como eu não fiquei sabendo disso?{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B3_MO1.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     lauane "Não aceitam galera da programação."
+    show expression "images/LAU_UNIFORME_O1_B1_MO1.png" as lauane at personagem(0, 2)
     lauane "Vocês já ocupam demais a agenda."
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B4_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Como você sabe que eu sou da programação?{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     lauane "Haha!"
     lauane "Intuição."
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não sei por quê, mas não acredito muito nessa resposta.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Lauane olha para o relógio.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO1.png" as lauane at personagem(0, 2)
     lauane "Oh!"
     lauane "Perdi a noção do tempo."
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
     lauane "Preciso ir para a casa de banho!"
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Casa de banho?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas ainda faltam uns dez minutos.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO1.png" as lauane at personagem(0, 2)
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     lauane "Oh, meu amor..."
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
     lauane "Você acha que é fácil manter essa beleza?"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2)
     lauane "Eu preciso me apressar."
+    show expression "images/LAU_UNIFORME_O1_B1_MC3.png" as lauane at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Ela começa a se afastar.{/color}{/cps}"
+    show expression "images/LAU_UNIFORME_O1_B1_MO2.png" as lauane at personagem(0, 2)
     lauane "Te vejo por aí, xuxu!"
     lauane "Até mais!"
+    hide lauane
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Até...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Observo ela desaparecer pelo corredor.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Que garota doida.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ela é legal até...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas bem doida.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Ah, é mesmo!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu nem comi ainda.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olho para a máquina.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Escolho outra coisa e como rapidamente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Agora sim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Estou alimentado.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Acho que vou me adiantar no banho também.{/color}{/cps}"
@@ -1585,6 +1827,9 @@ label kuroya_lanche:
 label kuroya_restaurante:
     show screen day_locate("00", "Praça de Alimentação")
 
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Estou morrendo de fome.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Quero comer comida.{/color}{/cps}"
@@ -1592,136 +1837,280 @@ label kuroya_restaurante:
     p "{cps=30}{color=#FFFFFF}Mas existe livre-arbítrio por um motivo, né?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Beleza.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vou comer alguma coisa.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ando até a praça de alimentação, procurando por algum restaurante.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Hmm...{/color}{/cps}"
+    scene expression "images/due_sapori_dia.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Due Sapori?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Parece interessante...{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Assim que entro, o ar muda completamente.{/color}{/cps}"
+    scene expression "images/restaurante_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}O lugar é bonito.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Chique.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A música é calma e não chama mais atenção do que o barulho ambiente, mas ainda marca presença.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Que lindo...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vou montar meu prato antes que eu desmaie de fome.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Começo a montar meu prato, colocando bastante comida.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Pago e procuro algum lugar para sentar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Enquanto procuro uma mesa...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Reconheço alguém.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E...{/color}{/cps}"
+    scene expression "images/CGARLYSON001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Parece que ele me reconhece também.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Esse não é o garoto que estava me encarando na biblioteca?{/color}{/cps}"
+    scene expression "images/CGARLYSON003.png"
+    with ESMAECER_CENA
     desconhecido "Você é o garoto que furou fila hoje, mesmo com a biblioteca lotada..."
+    scene expression "images/CGARLYSON008.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Eu não furei fila...{/color}{/cps}"
+    scene expression "images/CGARLYSON010.png"
+    with ESMAECER_CENA
     desconhecido "Ah, não?"
     desconhecido "Então a bibliotecária simplesmente decidiu te atender porque você é especialzinho?"
+    scene expression "images/CGARLYSON004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ela sabe quem eu sou...{/color}{/cps}"
+    scene expression "images/CGARLYSON006.png"
+    with ESMAECER_CENA
     desconhecido "Exatamente."
+    scene expression "images/CGARLYSON004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}É possível sentir a tensão entre nós dois.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu me sinto desconfortável.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E ele parece enfurecido.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Poxa...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Era só uma fila.{/color}{/cps}"
+    scene expression "images/CGARLYSON003.png"
+    with ESMAECER_CENA
     desconhecido "Você é novo aqui?"
+    scene expression "images/CGARLYSON001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah, sim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Sou Kuroya. E você?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Tento forçar simpatia.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É melhor do que causar mais problemas...{/color}{/cps}"
+    scene expression "images/CGARLYSON003.png"
+    with ESMAECER_CENA
     arlyson "Arlyson."
     arlyson "Lembre desse nome."
+    scene expression "images/CGARLYSON010.png"
+    with ESMAECER_CENA
     arlyson "Como você entrou nessa escola?"
     arlyson "Qual foi sua nota na prova de admissão?"
+    scene expression "images/CGARLYSON009.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Eu...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Entrei por recomendação.{/color}{/cps}"
+    scene expression "images/CGARLYSON007.png"
+    with ESMAECER_CENA
     arlyson "HAH!"
     arlyson "Agora faz todo sentido..."
     arlyson "É você o aluninho de ouro da escola."
+    scene expression "images/CGARLYSON004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Eu não diria isso...{/color}{/cps}"
+    scene expression "images/CGARLYSON012.png"
+    with ESMAECER_CENA
     arlyson "Ugh."
+    scene expression "images/CGARLYSON006.png"
+    with ESMAECER_CENA
     arlyson "Me poupe..."
+    scene expression "images/CGARLYSON005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Fecho a cara.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Quem ele pensa que é?!{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Sento-me na mesma mesa que ele.{/color}{/cps}"
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO1.png" as arlyson at personagem(1, 2)
+    with ESMAECER_CENA
     arlyson "Mas tem muita audácia mesmo..."
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC1.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Tenho sim.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
     arlyson "..."
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Se você me odeia sem motivo, pode deixar que eu vou te dar um motivo bom para isso.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B4_MC1.png" as arlyson at personagem(1, 2)
     arlyson "...?!"
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Que autoestimazinha, hein, moleque..."
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Por mais que ele esteja me confrontando...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E demonstrando raiva na voz...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Sua expressão o entrega.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ele está se divertindo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ele parece ser alguém que gosta de causar problemas.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Mas e você?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Tirou quanto na prova de admissão?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Eu fui um dos doze que gabaritaram a prova."
+    show expression "images/KURO_UNIFORME_O1_B4_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Uau...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Realmente, você também não é qualquer aluno.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Pois é."
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO1.png" as arlyson at personagem(1, 2)
     arlyson "E mesmo assim eu esperei na fila."
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ah.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ele não vai esquecer isso?!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Garoto chato...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Você é implicante, hein?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Você não viu nada."
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Isso foi uma ameaça?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Foi um aviso."
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Que dramático.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "E você é bem convencido."
+    show expression "images/KURO_UNIFORME_O1_B2_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Engraçado.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu ia dizer a mesma coisa de você.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Arlyson solta uma risada curta.{/color}{/cps}"
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Pelo menos você não é tão chato quanto parece."
+    show expression "images/KURO_UNIFORME_O1_B2_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Isso foi um elogio?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Não se acostume."
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Continuo comendo enquanto observo o garoto à minha frente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ele parece estar muito mais tranquilo agora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Toda aquela raiva de antes desapareceu.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Na verdade...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Parece até que ele está se divertindo.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Você sempre implica com alunos novos?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B1_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Só com os que merecem."
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B1_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}E eu mereço?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B1_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Ainda estou decidindo."
+    show expression "images/KURO_UNIFORME_O1_B2_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B1_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Então vou ter que me esforçar.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Exatamente."
+    show expression "images/KURO_UNIFORME_O1_B2_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ótimo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Gosto de desafios.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B4_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Arlyson ergue uma sobrancelha.{/color}{/cps}"
+    show expression "images/ARL_UNIFORME_O1_B4_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Você realmente não sabe quando parar, né?"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Não quando alguém começa uma discussão comigo.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B4_MC2.png" as arlyson at personagem(1, 2)
     arlyson "Hm."
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Então talvez a gente se dê bem."
+    show expression "images/KURO_UNIFORME_O1_B2_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Não acho que \"se dar bem\" seja exatamente o que está acontecendo aqui.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Também não."
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ele dá outra risada.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Que sujeito estranho.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Cinco minutos atrás parecia que ele queria arrancar minha cabeça.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Agora está praticamente se divertindo comigo.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Talvez ele só goste de provocar as pessoas.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B1_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Arlyson termina sua refeição e se levanta.{/color}{/cps}"
+    show expression "images/ARL_UNIFORME_O1_B1_MO2.png" as arlyson at personagem(1, 2)
     arlyson "Enfim, Kuroya..."
     arlyson "Foi interessante te conhecer."
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B1_MC1.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Digo o mesmo.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Espero que você não seja tão insuportável todos os dias."
+    show expression "images/KURO_UNIFORME_O1_B2_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}E eu espero que você não fale da fila da biblioteca todos os dias.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Não prometo nada."
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ele começa a se afastar.{/color}{/cps}"
+    show expression "images/ARL_UNIFORME_O1_B2_MO3.png" as arlyson at personagem(1, 2)
     arlyson "Até mais, aluninho de ouro."
+    show expression "images/KURO_UNIFORME_O1_B2_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC2.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Até mais, garoto da fila.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Arlyson para por um instante.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olha para trás.{/color}{/cps}"
+    show expression "images/ARL_UNIFORME_O1_B2_MC1.png" as arlyson at personagem(1, 2)
     arlyson "..."
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MO2.png" as arlyson at personagem(1, 2)
     arlyson "Insuportável."
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/ARL_UNIFORME_O1_B2_MC1.png" as arlyson at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Obrigado.{/color}{/cps}"
+    hide arlyson
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Arlyson revira os olhos e continua andando.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Definitivamente um sujeito estranho.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Não foi uma conversa tão ruim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Talvez eu tenha sido um pouco precipitado em julgá-lo.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}Ou talvez ele realmente seja insuportável.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Pelo menos agora eu tenho alguém para evitar nos próximos dias.{/color}{/cps}"
@@ -1734,16 +2123,23 @@ label kuroya_restaurante:
 label kuroya_refeitorio:
     show screen day_locate("00", "Corredor - Secretaria")
 
+    scene expression "images/walker_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Vou para o refeitório.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não estou a fim de gastar dinheiro.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Também quero descobrir se a comida da escola é realmente boa.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Começo a caminhar em direção ao refeitório.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}No meio do caminho, porém, me deparo com um dos funcionários da secretaria.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ele parece estar voltando para lá.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É a minha chance!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Devo contar sobre os doidos que estavam tentando entrar na escola.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Aproximo-me dele.{/color}{/cps}"
+    scene expression "images/CGSECRETARIA.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Oi, com licença.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu queria fazer uma denúncia...{/color}{/cps}"
     funcionario "Uau!"
@@ -1768,61 +2164,121 @@ label kuroya_refeitorio:
     funcionario "Esses adolescentes são criativos, viu?"
     p "{cps=30}{color=#FFFFFF}O funcionário começa a andar novamente, me ignorando completamente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}M-mas...{/color}{/cps}"
+    scene expression "images/CGSECRERARIA2.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}A porta da secretaria se fecha na minha cara.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGMIGUEL001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Tsk.{/color}{/cps}"
+    scene expression "images/CGMIGUEL002.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Maldito.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Tomara que aqueles dois invadam mesmo e roubem tudo de valor dessa escola.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Só para aprenderem a escutar os outros...{/color}{/cps}"
+    scene expression "images/CGMIGUEL003.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGMIGUEL004.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGMIGUEL005.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}AAAH!{/color}{/cps}"
+    scene expression "images/corredor_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
+    with ESMAECER_CENA
     desconhecido "Olá."
+    show expression "images/KURO_UNIFORME_O1_B2_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MC2.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}QUEM É VOCÊ?!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}VOCÊ ME ASSUSTOU!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}HÁ QUANTO TEMPO VOCÊ ESTÁ AQUI?!{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B2_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B3_MO2.png" as miguel at personagem(1, 2)
     desconhecido "Uma pergunta de cada vez, por favor."
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
     miguel "Sou Miguel."
     miguel "Muito prazer."
     miguel "Sou um dos membros do grêmio estudantil."
     miguel "E estava aqui tempo suficiente para ouvir sua história."
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MC2.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Hm...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B3_MC1.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Você deve me achar doido igual aquele funcionário.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B3_MO2.png" as miguel at personagem(1, 2)
     miguel "Jamais!"
     miguel "Pelo contrário."
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
     miguel "Acredito nas suas palavras."
+    show expression "images/MIG_UNIFORME_O1_B1_MC2.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ele parece estar sendo sincero...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas tenho medo de ele estar apenas zombando da minha cara.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B3_MO1.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Mesmo?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
     miguel "Sim."
     miguel "Pode me contar mais?"
+    show expression "images/MIG_UNIFORME_O1_B1_MC2.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Hm...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MO1.png" as kuroya at personagem(0, 2)
     p "{cps=30}{color=#FFFFFF}Tá.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}E então, conto tudo detalhadamente para Miguel.{/color}{/cps}"
+    scene expression "images/corredor_dia.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MO1.png" as miguel at personagem(1, 2)
+    with ESMAECER_CENA
     miguel "Realmente..."
     miguel "É muito estranho."
     miguel "Poderiam ser apenas adolescentes problemáticos querendo causar algum mal."
     miguel "Furto, vandalismo, bullying..."
     miguel "Mas é difícil imaginar dois adolescentes tão dispostos assim a fazer alguma coisa desse tipo."
+    show expression "images/KURO_UNIFORME_O1_B4_MO1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MC1.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Exatamente!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Por isso achei tão estranho...{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B3_MO1.png" as miguel at personagem(1, 2)
     miguel "Aquele funcionário pode ter ignorado você, Kuroya."
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
     miguel "Mas eu não vou fazer o mesmo."
     miguel "Não se preocupe."
     miguel "Como membro do grêmio estudantil, peço que você me mantenha atualizado sobre o caso."
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MC2.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Você jura?{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
     miguel "Sim."
     miguel "Por que eu ignoraria?"
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MC2.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Muito obrigado!{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
     miguel "Só estou cumprindo minha função."
     miguel "Inclusive..."
     miguel "A casa de banho já está aberta para uso livre."
     miguel "Você deveria se apressar."
+    show expression "images/KURO_UNIFORME_O1_B1_MO2.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MC2.png" as miguel at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Ah, sim!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Até mais.{/color}{/cps}"
+    show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(0, 2)
+    show expression "images/MIG_UNIFORME_O1_B1_MO2.png" as miguel at personagem(1, 2)
     miguel "Até mais."
     miguel "Se precisar, é só chamar!"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Vou em direção à casa de banho.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Miguel segue na direção da secretaria.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
@@ -1875,8 +2331,13 @@ screen creditos_video():
 label kuroya_fim_dia:
     show screen day_locate("00", "Corredor - Casa de Banho")
 
+    scene expression "images/armarios.png"
+    show expression "images/KURO_UNIFORME_O1_B1_MC1.png" as kuroya at personagem(0, 1)
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Enquanto caminho até a casa de banho, fico pensando.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O dia hoje foi tão doido...{/color}{/cps}"
+    scene expression "images/CGBANHO.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Paro em frente a uma janela e fico observando o lado de fora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Estou me sentindo tão estranho desde que acordei hoje.{/color}{/cps}"
@@ -1892,6 +2353,8 @@ label kuroya_fim_dia:
     p "{cps=30}{color=#FFFFFF}Seja lá o que minha intuição esteja tentando me dizer...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu não vou permitir.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Vou para a casa de banho.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Tomo um banho tão rápido que, quando percebo...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Já terminei e estou a caminho do meu dormitório.{/color}{/cps}"
@@ -1901,27 +2364,52 @@ label kuroya_fim_dia:
 
     show screen day_locate("00", "Dormitório A37")
 
+    scene expression "images/dorm_eliza_Kuroya_dia.png"
+    show expression "images/ELIZ_PIJAMA_O1_B1_MO2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MC1.png" as kuroya at personagem(1, 2)
+    with ESMAECER_CENA
     elizabeth "Oi novamente!"
+    show expression "images/ELIZ_PIJAMA_O1_B1_MC1.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Oi, Elizabeth...{/color}{/cps}"
+    show expression "images/ELIZ_PIJAMA_O1_B3_MO1.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     elizabeth "Você está bem?"
     elizabeth "Parece inquieto..."
+    show expression "images/ELIZ_PIJAMA_O1_B1_MC1.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}O dia só foi bem exaustivo, sabe?{/color}{/cps}"
+    show expression "images/ELIZ_PIJAMA_O1_B1_MC2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Elizabeth sorri, parecendo compreender.{/color}{/cps}"
+    show expression "images/ELIZ_PIJAMA_O1_B1_MO2.png" as elizabeth at personagem(0, 2)
     elizabeth "Deite-se."
     elizabeth "É melhor você já ir dormir."
     elizabeth "Amanhã teremos aula."
     elizabeth "Se não estiver bem descansado, não vai conseguir prestar atenção."
+    show expression "images/ELIZ_PIJAMA_O1_B1_MC2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Você tem razão...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu vou dormir.{/color}{/cps}"
+    show expression "images/ELIZ_PIJAMA_O1_B1_MO2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MC1.png" as kuroya at personagem(1, 2)
     elizabeth "Boa noite!"
     elizabeth "Eu também já vou."
+    show expression "images/ELIZ_PIJAMA_O1_B1_MC2.png" as elizabeth at personagem(0, 2)
+    show expression "images/KURO_PIJAMA_O1_B1_MO1.png" as kuroya at personagem(1, 2)
     p "{cps=30}{color=#FFFFFF}Boa noite.{/color}{/cps}"
+    scene expression "images/cg001.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGDORMIR01.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Ugh.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Tomara que amanhã seja um dia mais tranquilo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Menos longo...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Menos exaustivo...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGDORMIR02.png"
+    with ESMAECER_CENA
     p "{cps=30}{color=#FFFFFF}Conforme minhas pálpebras ficam pesadas...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E finalmente se fecham...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Uma única pessoa me vem à mente.{/color}{/cps}"
