@@ -144,8 +144,8 @@ transform personagem(posicao=0, total=1, quem=None):
     xanchor 0.5
     xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
     yalign 1.0
-    # A Kyioki fica 20 px mais acima que na posicao anterior.
-    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (-10 if quem == "kyioki" else 0)
+    # Mantem o deslocamento original da Kyioki; os demais ficam sem ajuste extra.
+    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (10 if quem == "kyioki" else 0)
     zoom PERSONAGEM_ZOOM * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[0] * SPRITE_AJUSTE.get(quem, 1.0)
 
 # Se um personagem for mostrado sem "at", ele entra no centro ja no padrao.
