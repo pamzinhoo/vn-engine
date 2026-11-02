@@ -309,6 +309,7 @@ label start:
         p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
         scene expression "images/cg002f.png"
+        play music "audio/musica_neutra_003.mp3" loop volume 0.5
         p "{cps=30}{color=#FFFFFF}Essa sou eu.{/color}{/cps}"# mostrar o espelho aqui, talvez?
 
         p "{cps=30}{color=#FFFFFF}Descabelada. Exausta.{/color}{/cps}"
@@ -386,6 +387,7 @@ label start:
         p "{cps=30}{color=#FFFFFF}(porta fechando){/color}{/cps}"
         scene expression "images/cg001f.png"
         p "{cps=30}{color=#FFFFFF}(som do ônibus freando){/color}{/cps}"
+        play music "audio/musica_neutra_002.mp3" loop volume 0.5
         scene expression "images/cg009f.png"
         p "{cps=30}{color=#FFFFFF}…finalmente.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Que viagem exaustiva…{/color}{/cps}"
@@ -426,6 +428,8 @@ label start:
         p "{cps=30}{color=#FFFFFF}Agora...{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Por onde eu começo?{/color}{/cps}"
 
+        play music "audio/musica_triste_001.mp3" loop volume 0.5
+
         label hub_exploracao:
             menu:
                 "Ir para recepção dos dormitórios" if not visitou_dormitorios:
@@ -439,6 +443,7 @@ label start:
 
     elif persistent.genero == "homem":
         $ nome_prota = "Kuroya Yagami"
+        play music "audio/musica_neutra_003.mp3" loop volume 0.5
         show protaM
         show screen day_locate("00", "Quarto - Casa do Kuroya")
 
@@ -531,6 +536,7 @@ label start:
 
         scene expression "images/cg001.png" with fade
         p "{cps=30}{color=#FFFFFF}(Porta do carro se fecha.){/color}{/cps}"
+        play music "audio/musica_feliz_003.mp3" loop volume 0.5
         scene expression "images/CG010.png" with fade
         show screen day_locate("00", "Instituto Real de York - Portões")
         p "{cps=30}{color=#FFFFFF}Então aqui estamos...{/color}{/cps}"
@@ -568,6 +574,7 @@ label start:
         p "{cps=30}{color=#FFFFFF}Talvez seja uma boa ideia aproveitar esse tempo antes das aulas começarem.{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Por onde devo começar?{/color}{/cps}"
 
+        play music "audio/musica_triste_001.mp3" loop volume 0.5
         jump hub_checkins
 
     return
@@ -1345,6 +1352,7 @@ label kuroya_dormitorio:
     jump hub_checkins
 
 label kuroya_exploracao:
+    play music "audio/musica_neutra_002.mp3" loop volume 0.5
     show screen day_locate("00", "Campus")
 
     scene expression "images/walker_dia.png"
@@ -1441,6 +1449,7 @@ label kuroya_cafeteria:
     with ESMAECER_PERSONAGEM
     p "{cps=30}{color=#FFFFFF}Então escuto alguém chamar meu nome.{/color}{/cps}"
     desconhecido "Kuroya!"
+    play music "audio/musica_themed_elizabeth.mp3" loop volume 0.5
     p "{cps=30}{color=#FFFFFF}Hã?{/color}{/cps}"
     show expression "images/ELIZ_UNIFORME_O1_B1_MC2.png" as elizabeth at personagem(0, 2, "elizabeth")
     show expression "images/KURO_UNIFORME_O1_B1_MC2.png" as kuroya at personagem(1, 2, "kuroya")
@@ -1699,6 +1708,7 @@ label kuroya_lanche:
     p "{cps=30}{color=#FFFFFF}Pego-a e começo a abrir a embalagem.{/color}{/cps}"
     scene expression "images/cg001.png"
     p "{cps=30}{color=#FFFFFF}E, antes mesmo de dar a primeira mordida...{/color}{/cps}"
+    play music "audio/musica_themed_Lauanne.mp3" loop volume 0.5
     scene expression "images/CGLAUANNE001.png"
     desconhecido "Ai, não acredito que era a última barrinha..."
     scene expression "images/CGLAUANNE002.png"
@@ -1892,6 +1902,7 @@ label kuroya_restaurante:
     p "{cps=30}{color=#FFFFFF}E...{/color}{/cps}"
     scene expression "images/CGARLYSON001.png"
     p "{cps=30}{color=#FFFFFF}Parece que ele me reconhece também.{/color}{/cps}"
+    play music "audio/1musica_themed_arlysom.mp3" loop volume 0.5
     p "{cps=30}{color=#FFFFFF}Esse não é o garoto que estava me encarando na biblioteca?{/color}{/cps}"
     scene expression "images/CGARLYSON003.png"
     desconhecido "Você é o garoto que furou fila hoje, mesmo com a biblioteca lotada..."
@@ -2149,6 +2160,7 @@ label kuroya_refeitorio:
     p "{cps=30}{color=#FFFFFF}Aproximo-me dele.{/color}{/cps}"
     scene expression "images/CGSECRETARIA.png"
     p "{cps=30}{color=#FFFFFF}Oi, com licença.{/color}{/cps}"
+    play music "audio/musica_triste_001.mp3" loop volume 0.5
     p "{cps=30}{color=#FFFFFF}Eu queria fazer uma denúncia...{/color}{/cps}"
     funcionario "Uau!"
     funcionario "Uma denúncia?"
@@ -2353,6 +2365,7 @@ label creditos_dia0:
 
 
 label kuroya_fim_dia:
+    play music "audio/musica_feliz_003.mp3" loop volume 0.5
     show screen day_locate("00", "Corredor - Casa de Banho")
 
     scene expression "images/armarios.png"
@@ -2391,6 +2404,7 @@ label kuroya_fim_dia:
     show expression "images/ELIZ_PIJAMA_O1_B1_MO2.png" as elizabeth at personagem(0, 2, "elizabeth")
     show expression "images/KURO_PIJAMA_O1_B1_MC1.png" as kuroya at personagem(1, 2, "kuroya")
     with CORTE_PRETO
+    play music "audio/musica_themed_elizabeth.mp3" loop volume 0.5
     elizabeth "Oi novamente!"
     show expression "images/ELIZ_PIJAMA_O1_B1_MC1.png" as elizabeth at personagem(0, 2, "elizabeth")
     show expression "images/KURO_PIJAMA_O1_B1_MO1.png" as kuroya at personagem(1, 2, "kuroya")
@@ -3057,6 +3071,7 @@ label exploracao_dormitorios:
 
 
 label exploracao_campus:
+    play music "audio/musica_neutra_002.mp3" loop volume 0.5
     scene expression "images/walker_dia.png"
     show expression "images/KYI_UNIFORME_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     with CORTE_PRETO
@@ -3163,6 +3178,7 @@ label passeio_praca:
     with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     scene expression "images/CGMADELIN002.png"
+    play music "audio/musica_feliz_001.mp3" loop volume 0.5
     p "{cps=30}{color=#FFFFFF}Uh?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Quem é ela?{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Pode sim!{/color}{/cps}"
@@ -3361,6 +3377,7 @@ label passeio_esportes:
     p "{cps=30}{color=#FFFFFF}Perco o equilíbrio e acabo caindo sentada.{/color}{/cps}"
     scene expression "images/CGLUCIEN002.png"
     desconhecido "CARALHO!!"
+    play music "audio/musica_themed_lucien.mp3" loop volume 0.5
     desconhecido "LUCIEN!!"
     desconhecido "TU ACERTOU A MENINA!!"
     p "{cps=30}{color=#FFFFFF}Um garoto alto larga a partida e sai correndo desesperado na minha direção.{/color}{/cps}"
@@ -3647,6 +3664,7 @@ label passeio_biblioteca:
     p "{cps=30}{color=#FFFFFF}Ouço uma voz masculina.{/color}{/cps}"
     scene expression "images/CGRENTARO001.png"
     desconhecido "Ugh..."
+    play music "audio/musica_themed_rentaro_1.mp3" loop volume 0.5
     desconhecido "Era só o que me faltava."
     desconhecido "Uma tentativa de homicídio."
     p "{cps=30}{color=#FFFFFF}A-Ah!{/color}{/cps}"
@@ -3911,6 +3929,7 @@ label passeio_dormitorios:
     scene expression "images/CGAURORE002.png"
     with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Olá...{/color}{/cps}"
+    play music "audio/musica_themed_aurore.mp3" loop volume 0.5
     scene expression "images/CGAURORE001.png"
     p "{cps=30}{color=#FFFFFF}Ela ergue a cabeça, um pouco assustada, e dá um sorriso tímido.{/color}{/cps}"
     scene expression "images/CGAURORE003.png"
@@ -4019,6 +4038,7 @@ label passeio_dormitorios:
 
 
 label casa_de_banho:
+    play music "audio/musica_feliz_003.mp3" loop volume 0.5
     scene expression "images/cg001f.png"
     with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Enquanto caminho pelos corredores em direção à casa de banho...{/color}{/cps}"
@@ -4065,6 +4085,7 @@ label casa_de_banho:
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
 
     # ── Cena paralela: dois estranhos pulam o muro da escola ──
+    stop music fadeout 0.5
     n "THUD!"
     desconhecido "AUGH!"
     desconhecido "MERDA!"
@@ -4072,6 +4093,7 @@ label casa_de_banho:
     n "A outra nem tenta ajudar."
     scene expression "images/CGbanho001.png"
     desconhecido "Eu avisei."
+    play music "audio/musica_neutra_003.mp3" loop volume 0.5
     desconhecido "Você não tem mais dois metros de altura."
     desconhecido "Estamos usando disfarces, lembra?"
     scene expression "images/CGbanho002.png"
@@ -4236,6 +4258,7 @@ label casa_de_banho:
 
 
 label colega_quarto_conhecido:
+    play music "audio/musica_neutra_002.mp3" loop volume 0.5
     show screen day_locate("00", "Dormitório B14")
 
     scene expression "images/corredor_dormitorios_dia.png" with CORTE_PRETO
@@ -4264,6 +4287,7 @@ label colega_quarto_conhecido:
     p "{cps=30}{color=#FFFFFF}Lucien?{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
     show expression "images/LUCI_UNIFORME_O1_B1_MO1.png" as lucien at personagem(1, 2, "lucien")
+    play music "audio/musica_themed_lucien.mp3" loop volume 0.5
     lucien "Kyioki?"
     show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
     show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
@@ -4365,6 +4389,7 @@ label colega_quarto_conhecido:
     p "{cps=30}{color=#FFFFFF}Até!{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     hide lucien
+    play music "audio/musica_neutra_002.mp3" loop volume 0.5
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Foi muito melhor do que eu imaginava.{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
@@ -4393,6 +4418,7 @@ label colega_quarto_conhecido:
 
 
 label colega_quarto_novo:
+    play music "audio/musica_neutra_002.mp3" loop volume 0.5
     show screen day_locate("00", "Dormitório B14")
 
     scene expression "images/corredor_dormitorios_dia.png" with CORTE_PRETO
@@ -4419,6 +4445,7 @@ label colega_quarto_novo:
     show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
     show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     desconhecido "Olá! Tudo bem?"
+    play music "audio/musica_themed_lucien.mp3" loop volume 0.5
     show expression "images/KYI_PIJAMA_O1_B1_MO2.png" as kyioki at personagem(0, 2, "kyioki")
     show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
@@ -4522,6 +4549,7 @@ label colega_quarto_novo:
     p "{cps=30}{color=#FFFFFF}Até...{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     hide lucien
+    play music "audio/musica_neutra_002.mp3" loop volume 0.5
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não foi tão ruim.{/color}{/cps}"
