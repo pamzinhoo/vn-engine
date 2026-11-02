@@ -127,11 +127,25 @@ define SPRITE_AJUSTE = {
 }
 
 transform personagem(posicao=0, total=1, quem=None):
+    # Entrada real: começa transparente e aparece em meio segundo.
+    on show:
+        alpha 0.0
+        linear 0.50 alpha 1.0
+
+    # Substituicao de expressao/pose/roupa: permanece instantanea.
+    on replace:
+        alpha 1.0
+
+    # Saida explicita por hide: desaparece em meio segundo.
+    # O evento hide nao e emitido quando a imagem e removida por scene.
+    on hide:
+        linear 0.50 alpha 0.0
+
     xanchor 0.5
     xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
     yalign 1.0
-    # A Kyioki fica 10 px mais abaixo; os outros personagens mantem o Y atual.
-    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (10 if quem == "kyioki" else 0)
+    # A Kyioki fica 20 px mais acima que na posicao anterior.
+    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (-10 if quem == "kyioki" else 0)
     zoom PERSONAGEM_ZOOM * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[0] * SPRITE_AJUSTE.get(quem, 1.0)
 
 # Se um personagem for mostrado sem "at", ele entra no centro ja no padrao.
@@ -151,6 +165,13 @@ image protaF:
 
 image protaM:
     "protaM.png"
+    on show:
+        alpha 0.0
+        linear 0.50 alpha 1.0
+    on replace:
+        alpha 1.0
+    on hide:
+        linear 0.50 alpha 0.0
     zoom 0.23 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1.0
