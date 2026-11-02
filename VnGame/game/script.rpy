@@ -127,6 +127,14 @@ define SPRITE_AJUSTE = {
 }
 
 transform personagem(posicao=0, total=1, quem=None):
+    # Primeiro define a posicao final, antes de iniciar qualquer animacao.
+    xanchor 0.5
+    xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
+    yalign 1.0
+    # Mantem o deslocamento original da Kyioki; os demais ficam sem ajuste extra.
+    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (10 if quem == "kyioki" else 0)
+    zoom PERSONAGEM_ZOOM * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[0] * SPRITE_AJUSTE.get(quem, 1.0)
+
     # Entrada real: começa transparente e aparece em meio segundo.
     on show:
         alpha 0.0
@@ -140,13 +148,6 @@ transform personagem(posicao=0, total=1, quem=None):
     # O evento hide nao e emitido quando a imagem e removida por scene.
     on hide:
         linear 0.50 alpha 0.0
-
-    xanchor 0.5
-    xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
-    yalign 1.0
-    # Mantem o deslocamento original da Kyioki; os demais ficam sem ajuste extra.
-    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (10 if quem == "kyioki" else 0)
-    zoom PERSONAGEM_ZOOM * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[0] * SPRITE_AJUSTE.get(quem, 1.0)
 
 # Se um personagem for mostrado sem "at", ele entra no centro ja no padrao.
 init python:
@@ -165,6 +166,10 @@ image protaF:
 
 image protaM:
     "protaM.png"
+    zoom 0.23 * SPRITE_SCALE_MULTIPLIER
+    xalign 0.2
+    yalign 1.0
+    yoffset SPRITE_VERTICAL_OFFSET
     on show:
         alpha 0.0
         linear 0.50 alpha 1.0
@@ -172,10 +177,6 @@ image protaM:
         alpha 1.0
     on hide:
         linear 0.50 alpha 0.0
-    zoom 0.23 * SPRITE_SCALE_MULTIPLIER
-    xalign 0.2
-    yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
 image bg fundo = "praca_fonte_noite.png"
 image espelho:
     "espelho.png"
