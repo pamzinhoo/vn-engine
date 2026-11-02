@@ -130,7 +130,8 @@ transform personagem(posicao=0, total=1, quem=None):
     xanchor 0.5
     xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
     yalign 1.0
-    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1]
+    # A Kyioki fica 10 px mais abaixo; os outros personagens mantem o Y atual.
+    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (10 if quem == "kyioki" else 0)
     zoom PERSONAGEM_ZOOM * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[0] * SPRITE_AJUSTE.get(quem, 1.0)
 
 # Se um personagem for mostrado sem "at", ele entra no centro ja no padrao.
@@ -2282,15 +2283,49 @@ label kuroya_refeitorio:
 
 # Creditos do dia 0.
 #
-# renpy.movie_cutscene e a forma nativa de tocar um video e so continuar
-# quando ele realmente acaba -- nao depende de cronometro, entao trocar o
-# arquivo por um mais longo ou mais curto nao quebra nada. Continua pulavel:
-# um clique ou ESC encerra, e a funcao devolve True nesse caso.
+# O video toca inteiro (61,41 s). Nos primeiros 5 segundos o avanço fica
+# bloqueado; depois disso, clique, ESC ou o botao "Pular creditos" encerram.
+# O Movie fica em loop=False e conserva o ultimo frame ate o timer finalizar.
 #
 # H.264/AAC em MP4 nao e decodificado no playback desktop do Ren'Py, por isso
 # o arquivo e WebM.
+image creditos_dia0_video = Movie(
+    play="videos/creditos_dia0.webm",
+    loop=False,
+    keep_last_frame=True
+)
+
+screen creditos_dia0_pulavel():
+    modal True
+    zorder 1000
+    default pode_pular = False
+
+    add "creditos_dia0_video" xysize (config.screen_width, config.screen_height)
+
+    # Libera o pulo depois de cinco segundos.
+    timer 5.0 action SetScreenVariable("pode_pular", True)
+
+    # Duracao do arquivo (61,41 s) com pequena margem para o ultimo frame.
+    timer 61.6 action Return(False)
+
+    # Antes dos 5 s, as acoes de avancar sao ignoradas. Depois, encerram o video.
+    key "dismiss" action If(pode_pular, Return(True), NullAction())
+    key "game_menu" action If(pode_pular, Return(True), NullAction())
+
+    if pode_pular:
+        frame:
+            xalign 0.98
+            yalign 0.96
+            padding (18, 10)
+            background Solid("#00000099")
+
+            textbutton _("Pular creditos"):
+                action Return(True)
+
 label creditos_dia0:
-    $ renpy.movie_cutscene("videos/creditos_dia0.webm")
+    hide screen day_locate
+    $ renpy.music.stop(fadeout=0.0)
+    call screen creditos_dia0_pulavel
     return
 
 
