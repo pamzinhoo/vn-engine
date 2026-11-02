@@ -384,8 +384,10 @@ label start:
         scene expression "images/cg007f.png"
         p "{cps=30}{color=#FFFFFF}Pelo menos... não para pessoas iguais a mim{/color}{/cps}"
         scene expression "images/cg008f.png"
+        play sound "audio/som_de_porta_fechando.wav" noloop
         p "{cps=30}{color=#FFFFFF}(porta fechando){/color}{/cps}"
         scene expression "images/cg001f.png"
+        play sound "audio/som_de_busao_freando.mp3" noloop
         p "{cps=30}{color=#FFFFFF}(som do ônibus freando){/color}{/cps}"
         play music "audio/musica_neutra_002.mp3" loop volume 0.5
         scene expression "images/cg009f.png"
@@ -532,6 +534,7 @@ label start:
         p "{cps=30}{color=#FFFFFF}Mesmo eu sendo o rei daquele lugar...{/color}{/cps}"
         p "{cps=30}{color=#FFFFFF}Ele ainda vai arrancar a minha vida de mim.{/color}{/cps}"
         scene expression "images/CG009.png" with fade
+        play sound "audio/som_de_porta_fechando.wav" noloop
         p "{cps=30}{color=#FFFFFF}(Porta fechando){/color}{/cps}"
 
         scene expression "images/cg001.png" with fade
@@ -1165,16 +1168,19 @@ label kuroya_aulas:
     p "{cps=30}{color=#FFFFFF}Isso está ficando cada vez mais estranho.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Preciso descobrir quem são esses dois.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    play sound "audio/som_de_galho_requebrano.mp3" noloop
     p "{cps=30}{color=#FFFFFF}CRAC.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Olho lentamente para baixo.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}O galho começa a rachar sob o meu peso.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não.{/color}{/cps}"
+    play sound "audio/som_de_galho_requebrano.mp3" noloop
     p "{cps=30}{color=#FFFFFF}CRAC!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não, não, não...{/color}{/cps}"
     scene expression "images/cg001.png"
     p "{cps=30}{color=#FFFFFF}AAAAAAAAAAHHHH!{/color}{/cps}"
+    play sound "audio/foia_amarela.mp3" noloop
     p "{cps=30}{color=#FFFFFF}POW!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Agh!{/color}{/cps}"
