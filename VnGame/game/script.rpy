@@ -4179,71 +4179,153 @@ label casa_de_banho:
 label colega_quarto_conhecido:
     show screen day_locate("00", "Dormitório B14")
 
+    scene expression "images/corredor_dormitorios_dia.png" with CORTE_PRETO
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Durante esse tempo, terminei meu banho, vesti meu pijama e voltei ao prédio dos dormitórios.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Antes de abrir a porta...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Eu paro por um instante.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Meu colega de quarto deve estar aqui dentro agora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É agora que vou conhecer ele...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ou ela.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ok...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B2_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Sem ansiedade.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Preciso causar uma boa primeira impressão.{/color}{/cps}"
+    scene expression "images/CG001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}BIP{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A fechadura destrava.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Abro a porta e...{/color}{/cps}"
+    scene expression "images/dormitorio_Kyioki_Lucien_dia.png" with CORTE_PRETO
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Lucien?{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO1.png" as lucien at personagem(1, 2, "lucien")
     lucien "Kyioki?"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Por alguns segundos nós apenas ficamos olhando um para o outro.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Caramba...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Você é meu colega de quarto!{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "O quê?!"
     lucien "Sério?!"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Lucien começa a rir.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Caramba, que coincidência!"
+    show expression "images/KYI_PIJAMA_O1_B3_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Mesmo que a gente tenha se conhecido hoje...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Saber que meu colega de quarto é alguém com quem eu já conversei me deixa muito mais tranquila.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B3_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Eu também estava bastante nervoso!"
     lucien "Quando cheguei aqui mais cedo, só consegui ver a sua parte do quarto já organizada."
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Ah, sim!{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu cheguei bem cedo hoje e já aproveitei para arrumar tudo.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Olho para o outro lado do quarto.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Inclusive...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Você não veio para o dormitório porque passou o dia inteiro jogando futebol?{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO1.png" as lucien at personagem(1, 2, "lucien")
     lucien "Huh?"
     lucien "Não, não!"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Lucien ri.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Quando nos encontramos no ginásio, eu já tinha organizado minhas coisas também."
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO1.png" as lucien at personagem(1, 2, "lucien")
     lucien "É que durante o dia eu tive um..."
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B3_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Imprevisto importante."
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Entendo.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO1.png" as lucien at personagem(1, 2, "lucien")
     lucien "Enfim!"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Lucien olha para meu pijama.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO1.png" as lucien at personagem(1, 2, "lucien")
     lucien "Vejo que você já está pronta para dormir."
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO1.png" as lucien at personagem(1, 2, "lucien")
     lucien "A casa de banho já abriu?"
     p "{cps=30}{color=#FFFFFF}Já sim!{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Agora é um horário tranquilo.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Mas... Você já não tinha ido?{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Me lembro de você falando que iria antes de nos separarmos mais cedo...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B3_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Ah sabe... emprevistos"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Então acho que vou agora"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Até daqui a pouco!"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Até!{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
+    hide lucien
     p "{cps=30}{color=#FFFFFF}Ah...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Foi muito melhor do que eu imaginava.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Eu estava tão nervosa para conhecer meu colega de quarto...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Mas parece que o destino resolveu facilitar as coisas.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Sorrio.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Acho que agora posso finalmente descansar.{/color}{/cps}"
+    scene expression "images/CG001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Bocejo.{/color}{/cps}"
+    scene expression "images/CGDORMIR01f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão longo...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas tenho certeza que os próximos dias não serão assim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Serão mais tranquilos...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mais normais...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E eu...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGDORMIR02f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Nem percebo quando meus olhos começam a pesar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Pouco depois...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
@@ -4254,73 +4336,159 @@ label colega_quarto_conhecido:
 label colega_quarto_novo:
     show screen day_locate("00", "Dormitório B14")
 
+    scene expression "images/corredor_dormitorios_dia.png" with CORTE_PRETO
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Durante esse tempo, terminei meu banho, vesti meu pijama e voltei ao prédio dos dormitórios.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Antes de abrir a porta...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Eu paro por um instante.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Meu colega de quarto deve estar aqui dentro agora.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}É agora que vou conhecer ele...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ou ela.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ok...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B2_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Sem ansiedade.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Preciso causar uma boa primeira impressão.{/color}{/cps}"
+    scene expression "images/CG001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}BIP{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A fechadura destrava.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Abro a porta e...{/color}{/cps}"
+    scene expression "images/dormitorio_Kyioki_Lucien_dia.png" with CORTE_PRETO
+    show expression "images/KYI_PIJAMA_O1_B1_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     desconhecido "Olá! Tudo bem?"
+    show expression "images/KYI_PIJAMA_O1_B1_MO2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Ah!{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Oi, tudo bem!{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Você é meu colega de quarto então?{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Sim!"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B3_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Meu nome é Lucien, muito prazer."
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Kyioki.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Prazer em conhecer você.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Um garoto.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Eu confesso que não esperava por isso.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Mas...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Ele parece bem tranquilo.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}E educado também.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Ah..."
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Eu vi sua decoração mais cedo."
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B3_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Ficou muito bonita."
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Você tem bom gosto."
+    show expression "images/KYI_PIJAMA_O1_B3_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Ah, obrigada!{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Eu também gostei bastante do seu lado.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Sério?"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B3_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Obrigado haha."
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Por algum motivo...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Ele parece tão nervoso quanto eu.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC1.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Lucien olha para meu pijama.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Você já está pronta para dormir?"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "A casa de banho já abriu?"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Já abriu sim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Agora está em um horário tranquilo.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Ah, perfeito."
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Então acho que vou aproveitar e ir também."
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Depois a gente conversa melhor, certo?"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Claro!{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Vai lá.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MO2.png" as lucien at personagem(1, 2, "lucien")
     lucien "Até daqui a pouco..."
+    show expression "images/KYI_PIJAMA_O1_B1_MO3.png" as kyioki at personagem(0, 2, "kyioki")
+    show expression "images/LUCI_UNIFORME_O1_B1_MC2.png" as lucien at personagem(1, 2, "lucien")
     p "{cps=30}{color=#FFFFFF}Até...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
+    hide lucien
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Bem.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Não foi tão ruim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Na verdade...{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Foi bem melhor do que eu imaginei.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Nós dois claramente estávamos nervosos.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Mas ele parece ser uma pessoa legal.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Espero que a gente consiga se dar bem.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B1_MC3.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Sorrio.{/color}{/cps}"
+    show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Acho que agora posso finalmente descansar.{/color}{/cps}"
+    scene expression "images/CG001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Bocejo.{/color}{/cps}"
+    scene expression "images/CGDORMIR01f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão longo...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mas tenho certeza que os próximos dias não serão assim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Serão mais tranquilos...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Mais normais...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}E eu...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
+    scene expression "images/CGDORMIR02f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Nem percebo quando meus olhos começam a pesar.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Pouco depois...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Eu caio no sono.{/color}{/cps}"
