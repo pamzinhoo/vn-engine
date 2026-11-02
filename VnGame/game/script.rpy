@@ -3958,6 +3958,7 @@ label passeio_dormitorios:
     scene expression "images/CGAURORE001.png"
     p "{cps=30}{color=#FFFFFF}O que você estava desenhando quando cheguei?{/color}{/cps}"
     scene expression "images/CGAURORE005.png"
+    show expression "images/DESENHO_AURORE.png" as desenho_aurore
     p "{cps=30}{color=#FFFFFF}Aurore hesita...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}cora um pouco e vira o caderno para mim.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
