@@ -131,8 +131,9 @@ transform personagem(posicao=0, total=1, quem=None):
     xanchor 0.5
     xpos 0.5 + ((posicao + 0.5) / total - 0.5) * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[2]
     yalign 1.0
-    # Mantem o deslocamento original da Kyioki; os demais ficam sem ajuste extra.
-    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (10 if quem == "kyioki" else 0)
+    # Sobe 10 px todos os personagens, preservando a altura original do August.
+    # A Kyioki ja tinha +10 px; o novo ajuste compensa esse deslocamento.
+    yoffset PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[1] + (10 if quem == "kyioki" else 0) - (10 if quem != "august" else 0)
     zoom PERSONAGEM_ZOOM * PERSONAGEM_LAYOUT.get(total, PERSONAGEM_LAYOUT_LOTADO)[0] * SPRITE_AJUSTE.get(quem, 1.0)
 
     # Entrada real: começa transparente e aparece em meio segundo.
@@ -162,14 +163,14 @@ image protaF:
     zoom 0.8 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1
-    yoffset SPRITE_VERTICAL_OFFSET
+    yoffset SPRITE_VERTICAL_OFFSET - 10
 
 image protaM:
     "protaM.png"
     zoom 0.23 * SPRITE_SCALE_MULTIPLIER
     xalign 0.2
     yalign 1.0
-    yoffset SPRITE_VERTICAL_OFFSET
+    yoffset SPRITE_VERTICAL_OFFSET - 10
     on show:
         alpha 0.0
         linear 0.50 alpha 1.0
