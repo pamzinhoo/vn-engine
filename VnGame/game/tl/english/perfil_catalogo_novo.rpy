@@ -58,10 +58,6 @@ translate english strings:
     old "LUGARES"
     new "PLACES"
 
-    # game/perfil_catalogo_novo.rpy:345
-    old "ROTAS"
-    new "ROUTES"
-
     # game/perfil_catalogo_novo.rpy:358
     old "VOLTAR"
     new "BACK"
@@ -263,64 +259,3 @@ translate english strings:
 
     old "Serve lanches saudáveis."
     new "It serves healthy snacks."
-
-    # rotas_lista / rotas_dados
-    old "Rota de Pam"
-    new "Pam's Route"
-
-    old "Foco na relação com Pam, a protagonista feminina."
-    new "Focuses on the relationship with Pam, the female protagonist."
-
-    old "Explore a história de Pam e suas interações."
-    new "Explore Pam's story and her interactions."
-
-    old "Uma rota romântica e emocional."
-    new "A romantic, emotional route."
-
-    old "Rota de Maya"
-    new "Maya's Route"
-
-    old "Aventure-se na rota de Maya."
-    new "Venture into Maya's route."
-
-    old "Descubra os segredos de Maya."
-    new "Discover Maya's secrets."
-
-    old "Uma rota misteriosa."
-    new "A mysterious route."
-
-    old "Rota de Ethan"
-    new "Ethan's Route"
-
-    old "Siga a rota de Ethan."
-    new "Follow Ethan's route."
-
-    old "Acompanhe as aventuras de Ethan."
-    new "Follow Ethan's adventures."
-
-    old "Uma rota de ação."
-    new "An action-packed route."
-
-    old "Rota do Diretor"
-    new "The Director's Route"
-
-    old "Investigue a rota do Diretor."
-    new "Investigate the Director's route."
-
-    old "Revele os planos do Diretor."
-    new "Uncover the Director's plans."
-
-    old "Uma rota conspiratória."
-    new "A conspiracy-driven route."
-
-    old "Rota Neutra"
-    new "Neutral Route"
-
-    old "Uma rota sem foco romântico."
-    new "A route with no romantic focus."
-
-    old "Explore o mundo sem compromissos."
-    new "Explore the world with no strings attached."
-
-    old "Para jogadores casuais."
-    new "For casual players."

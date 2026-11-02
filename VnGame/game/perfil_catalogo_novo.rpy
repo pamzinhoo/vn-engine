@@ -549,48 +549,6 @@ init python:
         },
     }
 
-    rotas_lista = [
-        "Rota de Pam",
-        "Rota de Maya",
-        "Rota de Ethan",
-        "Rota Neutra",
-    ]
-
-    rotas_dados = {
-        "Rota de Pam": {
-            "foto":        "images/protaF.png",
-            "nome":        "Rota de Pam",
-            "descricao":   "Foco na relação com Pam, a protagonista feminina.",
-            "historia":    "Explore a história de Pam e suas interações.",
-            "curiosidade": "Uma rota romântica e emocional.",
-            "bloqueado":   False,
-        },
-        "Rota de Maya": {
-            "foto":        "foto_personagem_aqui",
-            "nome":        "Rota de Maya",
-            "descricao":   "Aventure-se na rota de Maya.",
-            "historia":    "Descubra os segredos de Maya.",
-            "curiosidade": "Uma rota misteriosa.",
-            "bloqueado":   False,
-        },
-        "Rota de Ethan": {
-            "foto":        "foto_personagem_aqui",
-            "nome":        "Rota de Ethan",
-            "descricao":   "Siga a rota de Ethan.",
-            "historia":    "Acompanhe as aventuras de Ethan.",
-            "curiosidade": "Uma rota de ação.",
-            "bloqueado":   False,
-        },
-        "Rota Neutra": {
-            "foto":        "foto_personagem_aqui",
-            "nome":        "Rota Neutra",
-            "descricao":   "Uma rota sem foco romântico.",
-            "historia":    "Explore o mundo sem compromissos.",
-            "curiosidade": "Para jogadores casuais.",
-            "bloqueado":   False,
-        },
-    }
-
 ## ── Transformações/Animações ────────────────────────────────────────────────
 
 ## Animação de zoom no hover — sutil de propósito (era 1.1, chamava atenção
@@ -624,12 +582,9 @@ screen perfil_catalogo():
     default tab = "personagens"
     default lugar_selecionado = "Escola"
     default carrossel_idx_lugares = 0
-    default rota_selecionada = "Rota de Pam"
-    default carrossel_idx_rotas = 0
 
     $ tc_personagens = "#00AAE2" if tab == "personagens" else "#000000"
     $ tc_lugares = "#00AAE2" if tab == "lugares" else "#000000"
-    $ tc_rotas = "#00AAE2" if tab == "rotas" else "#000000"
 
     # Abas sobre as faixas brancas da lateral
     textbutton _("PERSONAGENS"):
@@ -656,19 +611,6 @@ screen perfil_catalogo():
         at button_hover_scale
         action SetScreenVariable("tab", "lugares")
 
-    textbutton _("ROTAS"):
-        xpos 20
-        ypos 465
-        xsize 330
-        ysize 70
-        background None
-        text_style "load_nav_text"
-        text_size 30
-        text_color tc_rotas
-        at button_hover_scale
-        action SetScreenVariable("tab", "rotas")
-
-    # Botão voltar sobre a faixa branca de baixo
     textbutton _("VOLTAR"):
         xpos 20
         ypos 1000
@@ -925,123 +867,6 @@ screen perfil_catalogo():
             action SetScreenVariable("carrossel_idx_lugares",
                     0 if carrossel_idx_lugares >= len(lugares_lista) - max_visible else carrossel_idx_lugares + 1)
 
-    elif tab == "rotas":
-
-        $ max_visible = 3
-
-        # Botão anterior rotas
-        textbutton "◄":
-            text_font "DejaVuSans.ttf"
-            xpos 490
-            ypos 475
-            xysize (80, 150)
-            background None
-            text_size 48
-            text_color "#ffffff"
-            text_hover_color "#00AAE2"
-            action SetScreenVariable("carrossel_idx_rotas",
-                    max(0, len(rotas_lista) - max_visible) if carrossel_idx_rotas <= 0 else carrossel_idx_rotas - 1)
-
-        # Frame carrossel rotas
-        frame:
-            xpos 590
-            ypos 150
-            xsize 1220
-            ysize 800
-            background "#00000000"
-
-            hbox:
-                spacing 0
-                xalign 0.5
-                yalign 0.5
-
-                $ max_visible = 3
-                $ start_idx = carrossel_idx_rotas
-                $ end_idx = min(len(rotas_lista), start_idx + max_visible)
-
-                for i in range(start_idx, end_idx):
-                    $ rota_nome = rotas_lista[i]
-                    $ rota_data = rotas_dados[rota_nome]
-                    $ is_selected = (rota_nome == rota_selecionada)
-                    $ foto = rota_data["foto"]
-                    $ bloqueado = rota_data["bloqueado"]
-
-                    $ cw = 360
-                    $ ch = round(cw * 1500 / 994)
-                    $ px = round(cw * 158 / 994)
-                    $ py = round(ch * 234 / 1500)
-                    $ pw = round(cw * 682 / 994)
-                    $ ph = round(ch * 1085 / 1500)
-
-                    button:
-                        at card_hover_zoom
-                        action [SetScreenVariable("rota_selecionada", rota_nome), Show("detalhes_perfil", data=rota_data)]
-
-                        frame:
-                            if is_selected:
-                                background None
-                                xysize (400, 660)
-                                padding (12, 12, 12, 12)
-                            else:
-                                background None
-                                xysize (380, 640)
-                                padding (10, 10, 10, 10)
-                                xalign 0.0
-                            yalign 0.5
-
-                            vbox:
-                                spacing 10
-                                xalign 0.5
-
-                                # Foto emoldurada por gui/card.png (994x1500)
-                                fixed:
-                                    xsize cw
-                                    ysize ch
-
-                                    add "gui/card.png":
-                                        xysize (cw, ch)
-
-                                    if not bloqueado and renpy.loadable(foto):
-                                        add foto:
-                                            xpos px
-                                            ypos py
-                                            xsize pw
-                                            ysize ph
-                                            fit "cover"
-                                    else:
-                                        frame:
-                                            background Solid("#0a0a0a")
-                                            xpos px
-                                            ypos py
-                                            xsize pw
-                                            ysize ph
-
-                                            text "???":
-                                                size 60
-                                                color "#666666"
-                                                xalign 0.5
-                                                yalign 0.5
-
-                                # Nome
-                                text _(rota_nome):
-                                    size 18
-                                    color "#ffffff"
-                                    xalign 0.5
-
-        # Botão próximo rotas
-        textbutton "►":
-            text_font "DejaVuSans.ttf"
-            xpos 1830
-            ypos 475
-            xysize (80, 150)
-            background None
-            text_size 48
-            text_color "#ffffff"
-            text_hover_color "#00AAE2"
-            action SetScreenVariable("carrossel_idx_rotas",
-                    0 if carrossel_idx_rotas >= len(rotas_lista) - max_visible else carrossel_idx_rotas + 1)
-
-    # ════════════════════════════════════════════════════════════════════════════
     # PAINEL DE DETALHES REMOVIDO - AGORA EM TELA SEPARADA
     # ════════════════════════════════════════════════════════════════════════════
 
