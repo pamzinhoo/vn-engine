@@ -1243,7 +1243,7 @@ label kuroya_dormitorio:
     scene expression "images/cg001.png"
     with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Começo a andar em direção à recepção dos dormitórios.{/color}{/cps}"
-    scene expression "images/recepção_dormitorios_dia.png"
+    scene expression "images/recepcao_dormitorios_dia.png"
     with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Passo pela catraca e sigo em frente.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Já tenho minha chave, então simplesmente ignoro a recepcionista.{/color}{/cps}"
@@ -2847,7 +2847,7 @@ label exploracao_dormitorios:
     scene expression "images/cg001f.png"
     with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Caminho até a área indicada no mapa da escola.{/color}{/cps}"
-    scene expression "images/recepção_dormitorios_dia.png"
+    scene expression "images/recepcao_dormitorios_dia.png"
     show expression "images/KYI_UNIFORME_O1_B1_MC1.png" as kyioki at personagem(0, 1, "kyioki")
     with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}...{/color}{/cps}"
@@ -2886,7 +2886,7 @@ label exploracao_dormitorios:
     p "{cps=30}{color=#FFFFFF}Mas considerando que os dormitórios não são separados por gênero...{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Acho que faz sentido.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}Ainda bem que existem áreas privadas para troca de roupa e higiene pessoal.{/color}{/cps}"
-    scene expression "images/recepção_dormitorios_dia.png"
+    scene expression "images/recepcao_dormitorios_dia.png"
     show expression "images/KYI_UNIFORME_O1_B1_MO1.png" as kyioki at personagem(0, 2, "kyioki")
     show expression "images/REC_O1_B1_MC1.png" as recepcionista at personagem(1, 2, "recepcionista")
     with CORTE_PRETO
@@ -4282,7 +4282,7 @@ label colega_quarto_conhecido:
     p "{cps=30}{color=#FFFFFF}Sem ansiedade.{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Preciso causar uma boa primeira impressão.{/color}{/cps}"
-    scene expression "images/CG001f.png" with CORTE_PRETO
+    scene expression "images/cg001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}BIP{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A fechadura destrava.{/color}{/cps}"
@@ -4406,7 +4406,7 @@ label colega_quarto_conhecido:
     p "{cps=30}{color=#FFFFFF}Sorrio.{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Acho que agora posso finalmente descansar.{/color}{/cps}"
-    scene expression "images/CG001f.png" with CORTE_PRETO
+    scene expression "images/cg001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Bocejo.{/color}{/cps}"
     scene expression "images/CGDORMIR01f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão longo...{/color}{/cps}"
@@ -4442,7 +4442,7 @@ label colega_quarto_novo:
     p "{cps=30}{color=#FFFFFF}Sem ansiedade.{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Preciso causar uma boa primeira impressão.{/color}{/cps}"
-    scene expression "images/CG001f.png" with CORTE_PRETO
+    scene expression "images/cg001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Seguro o cartão de acesso e aproximo da porta.{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}BIP{/color}{/cps}"
     p "{cps=30}{color=#FFFFFF}A fechadura destrava.{/color}{/cps}"
@@ -4572,7 +4572,7 @@ label colega_quarto_novo:
     p "{cps=30}{color=#FFFFFF}Sorrio.{/color}{/cps}"
     show expression "images/KYI_PIJAMA_O1_B3_MC2.png" as kyioki at personagem(0, 1, "kyioki")
     p "{cps=30}{color=#FFFFFF}Acho que agora posso finalmente descansar.{/color}{/cps}"
-    scene expression "images/CG001f.png" with CORTE_PRETO
+    scene expression "images/cg001f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Bocejo.{/color}{/cps}"
     scene expression "images/CGDORMIR01f.png" with CORTE_PRETO
     p "{cps=30}{color=#FFFFFF}Hoje foi um dia tão longo...{/color}{/cps}"

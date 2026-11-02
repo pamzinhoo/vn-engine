@@ -467,8 +467,10 @@ screen main_menu():
         timer 10800.0 action ShowMenu("easter_egg")
     add Movie(play="videos/main_menu.webm", loop=True) xysize (1920, 1080) xalign 0.5 yalign 0.5
 
-
-    add "gui/overlay/nenhum_selecionado.png" xalign 0.5 yalign 0.5 alpha 0.7
+    ## O antigo overlay gui/overlay/nenhum_selecionado.png (5000x2686) entrava
+    ## aqui em tamanho real e centralizado: o desenho dele fica todo no canto
+    ## esquerdo, fora da área visível, então não aparecia — só gastava ~54 MB
+    ## de textura e passa do limite de 4096 px de muitos celulares.
 
     frame:
         style "main_menu_frame"
