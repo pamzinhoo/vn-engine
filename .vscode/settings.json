@@ -6,6 +6,26 @@
         "**/cache/": true
     },
     "editor.tokenColorCustomizations": {
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        },
         "textMateRules": [
             {
                 "scope": "renpy.meta.plain",
@@ -113,6 +133,24 @@
                 }
             },
             {
+                "scope": "renpy.meta.color.#ffffff",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#0099cc",
+                "settings": {
+                    "foreground": "#0099cc"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#888888",
+                "settings": {
+                    "foreground": "#888888"
+                }
+            },
+            {
                 "scope": "renpy.meta.color.#cfc",
                 "settings": {
                     "foreground": "#cfc"
@@ -155,27 +193,9 @@
                 }
             },
             {
-                "scope": "renpy.meta.color.#0099cc",
-                "settings": {
-                    "foreground": "#0099cc"
-                }
-            },
-            {
                 "scope": "renpy.meta.color.#ffff00",
                 "settings": {
                     "foreground": "#ffff00"
-                }
-            },
-            {
-                "scope": "renpy.meta.color.#ffffff",
-                "settings": {
-                    "foreground": "#ffffff"
-                }
-            },
-            {
-                "scope": "renpy.meta.color.#888888",
-                "settings": {
-                    "foreground": "#888888"
                 }
             }
         ]

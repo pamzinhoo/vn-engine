@@ -15,7 +15,7 @@ init python:
 ## ── Dados dos personagens ────────────────────────────────────────────────────
 init python:
     personagens_lista = [
-        "Pam",
+        "Kyioki",
         "Abby",
         "Kain",
         "Madelin",
@@ -32,12 +32,12 @@ init python:
     ]
 
     personagens_dados = {
-        "Pam": {
+        "Kyioki": {
             "foto":        "images/kyioki_capa.png",
             "info_pt":     "images/kyioki_info_portugues.png",
             "info_en":     "images/kyioki_info_ingles.png",
             "info_es":     "images/kyioki_info_espanhol.png",
-            "nome":        "Pam",
+            "nome":        "Kyioki",
             "descricao":   "alguma coisa aqui",
             "historia":    "historia do rdr2",
             "curiosidade": "ela é uma pessoa",
@@ -577,7 +577,7 @@ screen perfil_catalogo():
     # Fundo
     add "images/background_catalogo.png" xpos 0 ypos 0 xysize (1920, 1080)
 
-    default personagem_selecionado = "Pam"
+    default personagem_selecionado = "Kyioki"
     default carrossel_idx = 0
     default tab = "personagens"
     default lugar_selecionado = "Escola"
